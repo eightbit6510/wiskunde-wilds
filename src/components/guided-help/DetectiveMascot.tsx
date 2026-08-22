@@ -28,7 +28,7 @@ export function DetectiveMascot({
         <rect x="52" y="46" width="14" height="8" rx="4" fill="#c77a4a" transform="rotate(25 59 50)" />
         <circle cx="63" cy="49" r="5" fill="#f7f2e6" stroke="#6f7d55" strokeWidth="1.5" />
         {mood === 'thinking' && (
-          <text x="10" y="18" fontSize="13" fill="#6f7d55" fontFamily="Caveat, cursive">
+          <text x="10" y="18" fontSize="13" fill="#6f7d55" fontFamily="Patrick Hand, cursive">
             ?
           </text>
         )}

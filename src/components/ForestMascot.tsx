@@ -26,6 +26,7 @@ export function ForestMascot({ mood = 'normal', size = 140, className = '' }: Fo
         src={VOS_BY_MOOD[mood]}
         width={size}
         height={size}
+        style={{ width: size, height: size, maxWidth: size }}
         alt=""
         draggable={false}
       />

@@ -315,7 +315,7 @@ export function LessonPage({
         color={lesson.color}
         mood={mascotMood}
         storyText={index === 0 ? lesson.intro : challenge.optionalStory}
-        size={19}
+        size={18}
         animationsEnabled={anim}
       />
 

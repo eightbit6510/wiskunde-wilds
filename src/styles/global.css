@@ -1,7 +1,7 @@
 :root {
   /* Pencil-forest design tokens */
-  --paper: #f8f1e5;
-  --paper-deep: #f0e8d8;
+  --paper: #f1eadc;
+  --paper-deep: #e8dfd0;
   --ink: #3f4636;
   --ink-soft: #5a6350;
   --forest-deep: #2f3628;
@@ -9,8 +9,8 @@
   --moss: #6f7d55;
   --sage: #9aaa7a;
   --sage-soft: #d4dcc4;
-  --cream: #f8f1e5;
-  --cream-dark: #ebe3d3;
+  --cream: #f1eadc;
+  --cream-dark: #e5dac8;
   --beige: #e0d4bc;
   /* lilac aliases → sage (compat for older rules) */
   --lilac: #9aaa7a;
@@ -21,8 +21,8 @@
   --star: #d4b45c;
   --text: #2a3024;
   --text-muted: #5a6350;
-  --surface: #f8f1e5;
-  --surface-solid: #f8f1e5;
+  --surface: #f1eadc;
+  --surface-solid: #f1eadc;
   --border: #3f4636;
   --border-soft: rgba(63, 70, 54, 0.28);
   --shadow: none;
@@ -37,9 +37,9 @@
   --max-width: 1120px;
   --challenge-width: 760px;
   --nav-height: 64px;
-  --font-display: 'Caveat', 'Segoe Print', cursive;
-  --font-handwriting: 'Caveat', 'Segoe Print', 'Bradley Hand', cursive;
-  --font-body: 'Quicksand', system-ui, sans-serif;
+  --font-body: 'Patrick Hand', cursive;
+  --font-display: 'Patrick Hand SC', cursive;
+  --font-handwriting: var(--font-body);
   --transition: 200ms ease;
   --pencil-hatch: repeating-linear-gradient(
     -32deg,
@@ -85,6 +85,10 @@ body {
   line-height: 1.55;
   color: var(--text);
   background-color: var(--paper);
+  background-image: url('../assets/paper-texture.png');
+  background-repeat: repeat;
+  background-size: 320px 320px;
+  background-attachment: fixed;
   position: relative;
 }
 
@@ -137,6 +141,7 @@ input,
 select,
 textarea {
   font: inherit;
+  font-family: inherit;
 }
 
 button {
@@ -635,19 +640,20 @@ button {
   line-height: 1.32;
   color: var(--ink);
   text-shadow:
-    0 1px 0 rgba(248, 241, 229, 0.95),
-    0 0 12px rgba(248, 241, 229, 0.75);
+    0 1px 0 rgba(241, 234, 220, 0.95),
+    0 0 12px rgba(241, 234, 220, 0.75);
   pointer-events: none;
 }
 
 .lesson-hero__fox {
   position: absolute;
-  top: -12px;
+  top: -8px;
   right: 0;
   z-index: 2;
   transform: translateX(50%);
-  filter: drop-shadow(0 2px 3px rgba(40, 48, 36, 0.16));
+  filter: drop-shadow(0 1px 2px rgba(40, 48, 36, 0.14));
   pointer-events: none;
+  line-height: 0;
 }
 
 .lesson-hero__fox.mascot-float {

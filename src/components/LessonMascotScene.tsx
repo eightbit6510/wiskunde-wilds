@@ -21,7 +21,7 @@ export function LessonMascotScene({
   color,
   mood,
   storyText,
-  size = 19,
+  size = 18,
   animationsEnabled = true,
 }: LessonMascotSceneProps) {
   const artSrc = getChapterArt(storyLessonId);
