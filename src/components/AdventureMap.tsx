@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import type { Lesson } from '../types';
 import { LevelCard } from './LevelCard';
 
@@ -115,14 +114,6 @@ export function AdventureMap({
           <p className="muted" style={{ marginTop: 0 }}>
             {sectionSubtitle ?? 'Reis door het magische bos — en misschien verder.'}
           </p>
-        </div>
-        <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-          <Link to="/train" className="btn btn-secondary">
-            🐾 Even trainen
-          </Link>
-          <Link to="/skills" className="btn btn-secondary">
-            Mijn skills
-          </Link>
         </div>
       </div>
 

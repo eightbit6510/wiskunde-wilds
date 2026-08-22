@@ -43,15 +43,16 @@ export function Dashboard({
   ).length;
 
   const playerName = session?.player.displayName;
-  const hasLegacyBosProgress = progress.completedChallenges.some(
-    (id) => id.startsWith('l') || id.startsWith('p2-') || id.startsWith('zij-'),
-  );
+  const isReturningPlayer =
+    progress.adventureStarted || doneChallenges > 0 || progress.challengesSolved > 0;
   const welcomeTitle =
     isLoggedIn && playerName
-      ? progress.adventureStarted || doneChallenges > 0
+      ? isReturningPlayer
         ? `Welkom terug in Wiskunde Wilds, ${playerName}!`
         : `Welkom in Wiskunde Wilds, ${playerName}!`
-      : 'Welkom in Wiskunde Wilds';
+      : isReturningPlayer
+        ? 'Welkom terug in Wiskunde Wilds!'
+        : 'Welkom in Wiskunde Wilds';
 
   return (
     <div>
@@ -75,9 +76,9 @@ export function Dashboard({
                   document.getElementById('map-title')?.scrollIntoView({ behavior: 'smooth' });
                 }}
               >
-                {progress.adventureStarted || doneChallenges > 0
-                  ? 'Ga verder met mijn avontuur'
-                  : 'Start mijn avontuur'}
+                {isReturningPlayer
+                  ? 'Ga verder met je avontuur'
+                  : 'Start je avontuur'}
               </button>
             </>
           ) : (
@@ -187,11 +188,11 @@ export function Dashboard({
       )}
 
       <p className="muted" style={{ marginTop: '1.5rem' }}>
-        Tip: bekijk ook je <Link to="/skills">skills</Link> en{' '}
-        <Link to="/badges">badges</Link>, of start een korte{' '}
-        <Link to="/train">training</Link>.
+        Tip: bekijk ook je <Link to="/badges">badges</Link>.
       </p>
-      {hasLegacyBosProgress && (
+      {progress.completedChallenges.some(
+        (id) => id.startsWith('l') || id.startsWith('p2-') || id.startsWith('zij-'),
+      ) && (
         <p className="muted" style={{ marginTop: '0.75rem', fontSize: '0.9rem' }}>
           Je hebt nog voortgang uit het oude bos-avontuur. Dat blijft bewaard, maar je speelt nu
           jaargroep-sommen — sterren op oude IDs tellen niet mee voor dit avontuur.
