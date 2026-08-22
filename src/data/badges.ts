@@ -1,4 +1,9 @@
 import type { BadgeDefinition } from '../types';
+import {
+  allPart2StoriesComplete,
+  isStoryLessonComplete,
+  starsInPart1StoryLesson,
+} from '../utils/badgeProgress';
 
 export const badges: BadgeDefinition[] = [
   {
@@ -6,12 +11,9 @@ export const badges: BadgeDefinition[] = [
     name: 'Algebra Fox',
     description: 'Voltooi Het Vossenpad met minstens 10 sterren.',
     emoji: '🦊',
-    check: (p) => {
-      const stars = Object.entries(p.challengeStars)
-        .filter(([id]) => id.startsWith('l1-'))
-        .reduce((s, [, v]) => s + v, 0);
-      return p.completedLessons.includes('vossenpad') && stars >= 10;
-    },
+    check: (p) =>
+      isStoryLessonComplete(p, 'vossenpad') &&
+      starsInPart1StoryLesson(p, 'vossenpad') >= 10,
   },
   {
     id: 'equation-tamer',
@@ -26,47 +28,42 @@ export const badges: BadgeDefinition[] = [
     name: 'Graph Tracker',
     description: 'Voltooi De Lynx-uitkijk.',
     emoji: '🐈',
-    check: (p) => p.completedLessons.includes('lynx'),
+    check: (p) => isStoryLessonComplete(p, 'lynx'),
   },
   {
     id: 'pattern-hunter',
     name: 'Pattern Hunter',
     description: 'Voltooi Het Uilenlab.',
     emoji: '🦉',
-    check: (p) => p.completedLessons.includes('uilenlab'),
+    check: (p) => isStoryLessonComplete(p, 'uilenlab'),
   },
   {
     id: 'fraction-hopper',
     name: 'Fraction Hopper',
     description: 'Verdien 8 sterren in Konijnenhol.',
     emoji: '🐇',
-    check: (p) => {
-      const stars = Object.entries(p.challengeStars)
-        .filter(([id]) => id.startsWith('l4-'))
-        .reduce((s, [, v]) => s + v, 0);
-      return stars >= 8;
-    },
+    check: (p) => starsInPart1StoryLesson(p, 'konijnenhol') >= 8,
   },
   {
     id: 'mountain-runner',
     name: 'Mountain Runner',
     description: 'Open de bergpoort in De Bergmissie.',
     emoji: '⛰️',
-    check: (p) => p.completedLessons.includes('bergmissie'),
+    check: (p) => isStoryLessonComplete(p, 'bergmissie'),
   },
   {
     id: 'moon-scout',
     name: 'Moon Scout',
     description: 'Ontdek de parabool in Maanlichtvallei.',
     emoji: '🌙',
-    check: (p) => p.completedLessons.includes('maanlicht'),
+    check: (p) => isStoryLessonComplete(p, 'maanlicht'),
   },
   {
     id: 'star-temple',
     name: 'Temple Champion',
     description: 'Voltooi de Final Challenge.',
     emoji: '⭐',
-    check: (p) => p.completedLessons.includes('sterrentempel'),
+    check: (p) => isStoryLessonComplete(p, 'sterrentempel'),
   },
   {
     id: 'streak-3',
@@ -94,42 +91,42 @@ export const badges: BadgeDefinition[] = [
     name: 'Schaduwloper',
     description: 'Voltooi De Schaduwgrot.',
     emoji: '🌑',
-    check: (p) => p.completedLessons.includes('schaduwgrot'),
+    check: (p) => isStoryLessonComplete(p, 'schaduwgrot', 'part2'),
   },
   {
     id: 'ravenbrein',
     name: 'Ravenbrein',
     description: 'Voltooi Het Ravenpad.',
     emoji: '🪶',
-    check: (p) => p.completedLessons.includes('ravenpad'),
+    check: (p) => isStoryLessonComplete(p, 'ravenpad', 'part2'),
   },
   {
     id: 'rivierspeurder',
     name: 'Rivierspeurder',
     description: 'Voltooi De Rivier van Verhoudingen.',
     emoji: '🌊',
-    check: (p) => p.completedLessons.includes('rivier'),
+    check: (p) => isStoryLessonComplete(p, 'rivier', 'part2'),
   },
   {
     id: 'paraboolspotter',
     name: 'Paraboolspotter',
     description: 'Herken een kwadratisch verband in De Paraboolvallei.',
     emoji: '🌙',
-    check: (p) => p.completedLessons.includes('paraboolvallei'),
+    check: (p) => isStoryLessonComplete(p, 'paraboolvallei', 'part2'),
   },
   {
     id: 'sterrenlezer',
     name: 'Sterrenlezer',
     description: 'Voltooi Het Wolvenobservatorium.',
     emoji: '🐺',
-    check: (p) => p.completedLessons.includes('observatorium'),
+    check: (p) => isStoryLessonComplete(p, 'observatorium', 'part2'),
   },
   {
     id: 'runenkraker',
     name: 'Runenkraker',
     description: 'Ontdek machtsregels in De Runenruïnes.',
     emoji: '🔮',
-    check: (p) => p.completedLessons.includes('runenruines'),
+    check: (p) => isStoryLessonComplete(p, 'runenruines', 'part2'),
   },
   {
     id: 'oude-poot',
@@ -150,23 +147,13 @@ export const badges: BadgeDefinition[] = [
     name: 'Nachtwoud-verkenner',
     description: 'Voltooi De Nachtelijke Eindmissie.',
     emoji: '🌙',
-    check: (p) => p.completedLessons.includes('nachtmissie'),
+    check: (p) => isStoryLessonComplete(p, 'nachtmissie', 'part2'),
   },
   {
     id: 'wilds-pathfinder',
     name: 'Wilds Pathfinder',
     description: 'Voltooi alle acht gebieden van Het Verborgen Gebied.',
     emoji: '🐾',
-    check: (p) =>
-      [
-        'schaduwgrot',
-        'ravenpad',
-        'rivier',
-        'paraboolvallei',
-        'observatorium',
-        'runenruines',
-        'doolhof',
-        'nachtmissie',
-      ].every((id) => p.completedLessons.includes(id)),
+    check: (p) => allPart2StoriesComplete(p),
   },
 ];

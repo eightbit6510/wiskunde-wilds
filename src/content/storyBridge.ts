@@ -25,11 +25,13 @@ function cloneChallengeForArc(
   source: Challenge,
   newId: string,
   optionalStory?: string,
+  reviewOfPart1 = false,
 ): Challenge {
   return {
     ...source,
     id: newId,
     optionalStory: optionalStory ?? source.optionalStory,
+    reviewOfPart1: reviewOfPart1 || source.reviewOfPart1,
   };
 }
 
@@ -97,6 +99,7 @@ export function loadPart2LessonsForClassLevel(level: ClassLevel): Lesson[] {
         source,
         challengeId,
         storyOptionalStoryFromShell(storyShell, slot),
+        true,
       );
     });
 
