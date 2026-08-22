@@ -85,7 +85,7 @@ export const PLAYER_DATA_POLICY = {
 /** PIN-regels kind-UI */
 export const PIN_RULES = {
   minLength: 4,
-  maxLength: 6,
+  maxLength: 4,
   /** Alleen cijfers aanbevolen voor jonge spelers */
   numericOnly: true,
 } as const;

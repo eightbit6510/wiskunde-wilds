@@ -13,8 +13,8 @@ export function validateDisplayName(name: string): string | null {
 }
 
 export function validatePin(pin: string): string | null {
-  if (pin.length < 4) return 'Geheime code moet minstens 4 tekens zijn.';
-  if (pin.length > 6) return 'Geheime code mag maximaal 6 tekens zijn.';
+  if (pin.length < 4) return 'Geheime code is 4 cijfers.';
+  if (pin.length > 4) return 'Geheime code is 4 cijfers.';
   if (!/^\d+$/.test(pin)) return 'Gebruik alleen cijfers in je geheime code.';
   return null;
 }

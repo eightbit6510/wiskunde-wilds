@@ -11,11 +11,8 @@ export function validateDisplayName(name: string): string | null {
 }
 
 export function validatePin(pin: string): string | null {
-  if (pin.length < PIN_RULES.minLength) {
-    return `Geheime code moet minstens ${PIN_RULES.minLength} tekens zijn.`;
-  }
-  if (pin.length > PIN_RULES.maxLength) {
-    return `Geheime code mag maximaal ${PIN_RULES.maxLength} tekens zijn.`;
+  if (pin.length !== PIN_RULES.minLength) {
+    return `Geheime code is ${PIN_RULES.minLength} cijfers.`;
   }
   if (PIN_RULES.numericOnly && !/^\d+$/.test(pin)) {
     return 'Gebruik alleen cijfers in je geheime code.';

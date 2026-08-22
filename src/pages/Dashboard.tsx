@@ -13,6 +13,7 @@ import {
 } from '../data/lessons';
 import type { ProgressApi } from '../hooks/useProgress';
 import type { SettingsApi } from '../hooks/useSettings';
+import type { PlayerAuthApi } from '../hooks/usePlayerAuth';
 import {
   isAdventureUnlocked,
   isPart1Complete,
@@ -23,12 +24,15 @@ import { part1LessonCompletionSummary } from '../utils/progressSync';
 export function Dashboard({
   progressApi,
   settingsApi,
+  authApi,
 }: {
   progressApi: ProgressApi;
   settingsApi: SettingsApi;
+  authApi: PlayerAuthApi;
 }) {
   const { progress, startAdventure, lessonProgress, markPart2UnlockSeen } = progressApi;
   const { settings } = settingsApi;
+  const { session, isLoggedIn } = authApi;
   const [showLocked, setShowLocked] = useState(false);
 
   const part1Done = isPart1Complete(progress);
@@ -50,12 +54,20 @@ export function Dashboard({
     [...part1Lessons, ...part2MainLessons].some((l) => l.challenges.some((c) => c.id === id)),
   ).length;
 
+  const playerName = session?.player.displayName;
+  const welcomeTitle =
+    isLoggedIn && playerName
+      ? progress.adventureStarted || doneChallenges > 0
+        ? `Welkom terug in Wiskunde Wilds, ${playerName}!`
+        : `Welkom in Wiskunde Wilds, ${playerName}!`
+      : 'Welkom in Wiskunde Wilds';
+
   return (
     <div className={part2Open ? 'theme-night-soft' : undefined}>
       <section className="hero" aria-labelledby="welcome-title">
         <div className="hero-panel">
           <p className="chip">🐾 Wiskunde Wilds</p>
-          <h1 id="welcome-title">Welkom in Wiskunde Wilds</h1>
+          <h1 id="welcome-title">{welcomeTitle}</h1>
           <p className="lead">Klaar om je wiskundeskills wakker te maken?</p>
           <p className="subtitle">
             Train je skills. Ontdek patronen. Level up naar VWO 3.

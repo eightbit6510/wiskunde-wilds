@@ -1686,3 +1686,261 @@ html[data-calm='true'] .moon-fragment,
 html[data-animations='false'] .moon-fragment {
   transition: none;
 }
+
+/* —— Cloud save auth wizard —— */
+.auth-wizard-backdrop {
+  z-index: 70;
+}
+
+.auth-wizard-card {
+  width: min(560px, 100%);
+  max-height: min(92vh, 920px);
+  overflow: auto;
+  padding: 1.75rem 1.6rem 1.4rem;
+  border-radius: calc(var(--radius) + 14px);
+  background:
+    radial-gradient(circle at 15% 0%, rgba(184, 164, 212, 0.28), transparent 46%),
+    radial-gradient(circle at 85% 100%, rgba(126, 176, 136, 0.18), transparent 42%),
+    var(--surface-solid);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.persona-detective .auth-wizard-card {
+  background:
+    radial-gradient(circle at 15% 0%, rgba(113, 128, 150, 0.24), transparent 46%),
+    var(--surface-solid);
+}
+
+.auth-wizard-header {
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+  margin-bottom: 1.15rem;
+}
+
+.auth-wizard-speech {
+  width: 100%;
+  padding: 1rem 1.1rem;
+  border-radius: calc(var(--radius) + 4px);
+  background: rgba(228, 220, 240, 0.55);
+  border-left: 5px solid var(--lilac);
+  text-align: left;
+}
+
+.auth-wizard-speech p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+.persona-detective .auth-wizard-speech {
+  background: rgba(203, 213, 224, 0.45);
+  border-left-color: #4a5568;
+}
+
+.auth-wizard-progress {
+  display: flex;
+  justify-content: center;
+  gap: 0.55rem;
+  margin-bottom: 1.1rem;
+}
+
+.auth-wizard-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.12);
+  transition: transform var(--transition), background var(--transition);
+}
+
+.auth-wizard-dot.active {
+  background: var(--moss);
+}
+
+.auth-wizard-dot.current {
+  transform: scale(1.15);
+  box-shadow: 0 0 0 4px rgba(126, 176, 136, 0.22);
+}
+
+.auth-wizard-body {
+  display: grid;
+  gap: 1rem;
+  text-align: left;
+}
+
+.auth-wizard-body h2 {
+  margin: 0;
+  text-align: center;
+  font-size: clamp(1.45rem, 4vw, 1.85rem);
+}
+
+.auth-wizard-field {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.auth-wizard-field span {
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.auth-wizard-input {
+  min-height: 58px;
+  padding: 0.85rem 1rem;
+  border-radius: calc(var(--radius) + 2px);
+  border: 2px solid var(--border);
+  background: var(--surface-solid);
+  font-size: 1.35rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.auth-wizard-input:focus {
+  border-color: var(--focus);
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(126, 176, 136, 0.18);
+}
+
+.auth-wizard-choice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.auth-wizard-choice {
+  display: grid;
+  gap: 0.35rem;
+  justify-items: center;
+  padding: 1.1rem 0.85rem;
+  border-radius: calc(var(--radius) + 4px);
+  border: 2px solid var(--border);
+  background: rgba(255, 255, 255, 0.55);
+  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+}
+
+.auth-wizard-choice:hover {
+  transform: translateY(-2px);
+  border-color: var(--moss);
+  box-shadow: var(--shadow);
+}
+
+.auth-wizard-choice-emoji {
+  font-size: 2rem;
+}
+
+.auth-wizard-class-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.auth-wizard-class {
+  min-height: 54px;
+  border-radius: calc(var(--radius) + 2px);
+  border: 2px solid var(--border);
+  background: var(--surface-solid);
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.auth-wizard-class.selected {
+  border-color: var(--moss);
+  background: rgba(126, 176, 136, 0.16);
+}
+
+.auth-wizard-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.auth-wizard-hint {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.auth-wizard-hint.ok {
+  color: var(--moss);
+}
+
+.auth-wizard-hint.warn {
+  color: var(--berry);
+}
+
+.auth-wizard-inline-btn {
+  padding: 0.15rem 0.55rem;
+  font-size: 0.88rem;
+}
+
+.auth-wizard-error {
+  margin: 0;
+  color: var(--berry);
+  font-weight: 700;
+  text-align: center;
+}
+
+.auth-wizard-launch-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.pin-code-field {
+  display: grid;
+  gap: 0.75rem;
+  justify-items: center;
+}
+
+.pin-code-label {
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.pin-digit-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.pin-digit-input {
+  width: 3.35rem;
+  height: 3.85rem;
+  border-radius: calc(var(--radius) + 4px);
+  border: 2px solid var(--border);
+  background: var(--surface-solid);
+  font-family: 'Nunito', system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  color: var(--forest-deep);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65);
+}
+
+.pin-digit-input:focus {
+  border-color: var(--focus);
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(126, 176, 136, 0.2);
+}
+
+.pin-code-hint {
+  margin: 0;
+  font-size: 0.88rem;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .auth-wizard-choice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pin-digit-input {
+    width: 2.85rem;
+    height: 3.35rem;
+    font-size: 1.75rem;
+  }
+}

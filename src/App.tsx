@@ -29,7 +29,7 @@ export default function App() {
         <Routes>
           <Route
             path="/"
-            element={<Dashboard progressApi={progressApi} settingsApi={settingsApi} />}
+            element={<Dashboard progressApi={progressApi} settingsApi={settingsApi} authApi={authApi} />}
           />
           <Route
             path="/les/:lessonId"

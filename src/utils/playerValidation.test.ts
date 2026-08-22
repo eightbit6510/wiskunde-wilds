@@ -12,8 +12,8 @@ describe('playerValidation', () => {
   });
 
   it('enforces numeric PIN rules', () => {
-    expect(validatePin('123')).toMatch(/minstens/);
-    expect(validatePin('1234567')).toMatch(/maximaal/);
+    expect(validatePin('123')).toMatch(/4 cijfers/);
+    expect(validatePin('12345')).toMatch(/4 cijfers/);
     expect(validatePin('12ab')).toMatch(/cijfers/);
     expect(validatePin('1234')).toBeNull();
   });

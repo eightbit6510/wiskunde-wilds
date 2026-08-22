@@ -43,7 +43,7 @@ describe('Fase 0 — architecture contracts', () => {
   });
 
   it('uses child-friendly PIN rules', () => {
-    expect(PIN_RULES.minLength).toBeGreaterThanOrEqual(4);
-    expect(PIN_RULES.maxLength).toBeLessThanOrEqual(8);
+    expect(PIN_RULES.minLength).toBe(4);
+    expect(PIN_RULES.maxLength).toBe(4);
   });
 });
