@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x oplossen"
+            "label": "Het ontbrekende getal"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nDeel beide kanten door 3, of werk haakjes uit.",
+        "explanation": "Stap 2: strategie.\n\nEerst 15 ÷ 3 = 5, dus □ − 2 = 5.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Deel beide kanten door 3, of werk haakjes uit."
+            "label": "Eerst 15 ÷ 3 = 5, dus □ − 2 = 5."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nx − 2 = 5 → x = 7.",
+        "explanation": "Stap 3: uitwerken.\n\n□ = 7.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "x − 2 = 5 → x = 7."
+            "label": "□ = 7."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nx = 7.",
+        "explanation": "Stap 4: het antwoord.\n\n□ − 2 = 5 → □ = 7.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-8-c26-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Deel beide kanten door 3, of werk haakjes uit.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Eerst 15 ÷ 3 = 5, dus □ − 2 = 5.)",
       "answer": 7,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 7.",
-      "explanation": "x = 7."
+      "hint2": "□ − 2 = 5 → □ = 7.",
+      "explanation": "□ − 2 = 5 → □ = 7."
     },
     {
       "id": "groep-8-c26-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 7? Reken na — wat krijg je?",
       "answer": 7,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x − 2 = 5 → x = 7.",
-      "explanation": "x − 2 = 5 → x = 7."
+      "hint2": "□ = 7.",
+      "explanation": "□ = 7."
     }
   ]
 }

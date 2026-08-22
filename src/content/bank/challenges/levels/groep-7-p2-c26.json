@@ -1,12 +1,12 @@
 {
   "type": "multiple-choice",
-  "topic": "machten",
+  "topic": "algebra",
   "question": "2×2×2 × 2×2 — hoeveel keer 2 is dat samen?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "5 keer 2 (2⁵)"
+      "label": "5 keer 2"
     },
     {
       "id": "b",
@@ -18,8 +18,8 @@
     }
   ],
   "hint1": "Tel de factoren: 3 + 2 = 5.",
-  "hint2": "2⁵.",
-  "explanation": "Exponenten optellen: 2⁵.",
+  "hint2": "Vijf keer de factor 2.",
+  "explanation": "Samen 5 keer 2.",
   "id": "groep-7-p2-c26",
   "difficulty": 1,
   "starsAvailable": 3,

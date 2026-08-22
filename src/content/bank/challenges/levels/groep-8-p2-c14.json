@@ -1,17 +1,17 @@
 {
   "type": "matching",
   "topic": "verbanden",
-  "question": "Match formule, tabel-idee en verhaal.",
+  "question": "Match regel en betekenis.",
   "matchingPairs": [
     {
       "id": "1",
-      "left": "y = 3x",
+      "left": "Hoogte = 3 × stap",
       "right": "Door 0, steil omhoog"
     },
     {
       "id": "2",
-      "left": "y = x + 2",
-      "right": "Start bij 2, helling 1"
+      "left": "Start 2, elke stap +1",
+      "right": "Begint bij 2, rustig omhoog"
     },
     {
       "id": "3",
@@ -20,12 +20,12 @@
     },
     {
       "id": "4",
-      "left": "y = −x + 4",
+      "left": "Start 4, elke stap −1",
       "right": "Dalend, start hoog"
     }
   ],
-  "hint1": "Koppel elke formule aan het juiste beeld.",
-  "hint2": "Constant in y betekent horizontaal.",
+  "hint1": "Koppel elke regel aan het juiste beeld.",
+  "hint2": "Constant betekent horizontaal.",
   "explanation": "Elk spoor hoort bij precies één betekenis.",
   "id": "groep-8-p2-c14",
   "difficulty": 1,

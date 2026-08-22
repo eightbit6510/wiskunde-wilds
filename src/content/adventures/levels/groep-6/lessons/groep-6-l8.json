@@ -3,24 +3,24 @@
   "adventureId": "groep-6",
   "order": 8,
   "areaName": "De Sterrentempel",
+  "intro": "De tempel vraagt om alles wat je geleerd hebt. Elke oplossing onthult een deel van de eindcode.",
   "title": "Final Challenge",
   "emoji": "⭐",
-  "intro": "De tempel vraagt om alles wat je geleerd hebt. Elke oplossing onthult een deel van de eindcode.",
   "color": "#8B7355",
   "placements": [
     {
       "challengeId": "groep-6-c36",
-      "optionalStory": "Eerste stersteen: let op de volgorde van bewerkingen.",
+      "optionalStory": "Stersteen 1: Bereken 6 + 3 × 2",
       "sortOrder": 0
     },
     {
       "challengeId": "groep-6-c37",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Stersteen 2: Wat is 2 groepen van (3 + 1)",
       "sortOrder": 1
     },
     {
       "challengeId": "groep-6-c38",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Stersteen 3: □ − 7 = 9. Wat is □",
       "sortOrder": 2
     },
     {

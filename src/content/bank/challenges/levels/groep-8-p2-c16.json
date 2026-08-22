@@ -1,7 +1,7 @@
 {
   "type": "multiple-choice",
   "topic": "verbanden",
-  "question": "Paraboolvallei — bij y = x²: wat is y als x = 4 en als x = −4?",
+  "question": "Maanvallei: wat is 4×4, en wat is (−4)×(−4)?",
   "answer": "a",
   "answerOptions": [
     {
@@ -19,7 +19,7 @@
   ],
   "hint1": "4×4 = 16 en (−4)×(−4) = 16.",
   "hint2": "Beide 16.",
-  "explanation": "Beide geven y = 16.",
+  "explanation": "Beide geven 16.",
   "id": "groep-8-p2-c16",
   "difficulty": 2,
   "starsAvailable": 3,

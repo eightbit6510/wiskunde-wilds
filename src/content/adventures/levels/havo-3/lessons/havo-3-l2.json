@@ -3,9 +3,9 @@
   "adventureId": "havo-3",
   "order": 2,
   "areaName": "De Wolvenkluis",
+  "intro": "Een oude kluis wordt beschermd door formules. Elke juiste bewerking opent één slot.",
   "title": "De Formulekraker",
   "emoji": "🐺",
-  "intro": "Een oude kluis wordt beschermd door formules. Elke juiste bewerking opent één slot.",
   "color": "#5B6B7A",
   "placements": [
     {

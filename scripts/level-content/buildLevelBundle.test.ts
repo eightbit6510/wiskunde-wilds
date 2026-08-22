@@ -72,6 +72,43 @@ describe('buildLevelBundle', () => {
     expect(questions[1]).toMatch(/boomstam|12 − 5|aftrek/i);
   });
 
+  it('keeps PO optionalStory free of VO algebra leftovers', () => {
+    for (const level of ['groep-6', 'groep-7', 'groep-8'] as const) {
+      const bundle = buildAllLevelBundles().find((item) => item.level === level)!;
+      for (const lesson of [...bundle.lessons, ...bundle.part2Lessons]) {
+        expect(lesson.intro).not.toMatch(/y\s*=|parabool|x²|algebra,/i);
+        for (const placement of lesson.placements) {
+          const story = placement.optionalStory ?? '';
+          expect(story).not.toMatch(/\d\(x\s*\+/);
+          expect(story).not.toMatch(/y\s*=\s*x²/);
+          expect(story).not.toMatch(/constante weg/i);
+          expect(story).not.toMatch(/x-termen|haakjes wegwerken|exponenten/i);
+        }
+      }
+    }
+    const g6 = buildAllLevelBundles().find((item) => item.level === 'groep-6')!;
+    const vossenpad = g6.lessons.find((l) => l.order === 1)!;
+    expect(vossenpad.placements[1]?.optionalStory).toMatch(/12\s*[−-]\s*5\s*=\s*8/);
+  });
+
+  it('keeps all PO challenge text free of VO letter-algebra', () => {
+    const vo = /\d\s*\(\s*x|\by\s*=|\b\d+x\b|\bx\s*[+\-−=]|Los op\s+\d*x|parabool|exponenten|grondtal|x²/i;
+    for (const level of ['groep-6', 'groep-7', 'groep-8'] as const) {
+      const bundle = buildAllLevelBundles().find((item) => item.level === level)!;
+      for (const challenge of bundle.challenges) {
+        const blob = [
+          challenge.question,
+          challenge.hint1,
+          challenge.hint2,
+          challenge.explanation,
+          ...(challenge.answerOptions?.map((o) => o.label) ?? []),
+          ...(challenge.matchingPairs?.flatMap((p) => [p.left, p.right]) ?? []),
+        ].join(' | ');
+        expect(blob, `${challenge.id}: ${challenge.question}`).not.toMatch(vo);
+      }
+    }
+  });
+
   it('differentiates Vossenpad story sommen across groep 6, 7 and 8', () => {
     const q = (level: string) => {
       const bundle = buildAllLevelBundles().find((item) => item.level === level)!;

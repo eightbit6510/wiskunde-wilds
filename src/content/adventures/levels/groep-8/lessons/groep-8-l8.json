@@ -3,24 +3,24 @@
   "adventureId": "groep-8",
   "order": 8,
   "areaName": "De Sterrentempel",
+  "intro": "De tempel vraagt om alles wat je geleerd hebt. Elke oplossing onthult een deel van de eindcode.",
   "title": "Final Challenge",
   "emoji": "⭐",
-  "intro": "De tempel vraagt om alles wat je geleerd hebt. Elke oplossing onthult een deel van de eindcode.",
   "color": "#8B7355",
   "placements": [
     {
       "challengeId": "groep-8-c36",
-      "optionalStory": "Eerste stersteen: let op de volgorde van bewerkingen.",
+      "optionalStory": "Stersteen 1: Bereken −6 + (−3) × 2",
       "sortOrder": 0
     },
     {
       "challengeId": "groep-8-c37",
-      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "optionalStory": "Stersteen 2: Wat is 2 × (3 × 4 − 1)",
       "sortOrder": 1
     },
     {
       "challengeId": "groep-8-c38",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "Stersteen 3: 4 × □ − 7 = 9. Wat is □",
       "sortOrder": 2
     },
     {

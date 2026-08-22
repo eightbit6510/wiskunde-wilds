@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\n2b = 12, dus 2ℓ = 36 − 12 = 24.",
+        "explanation": "Stap 2: strategie.\n\n2×breedte = 12, dus 2×lengte = 36 − 12 = 24.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "2b = 12, dus 2ℓ = 36 − 12 = 24."
+            "label": "2×breedte = 12, dus 2×lengte = 36 − 12 = 24."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nℓ = 12.",
+        "explanation": "Stap 3: uitwerken.\n\nLengte = 12.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "ℓ = 12."
+            "label": "Lengte = 12."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nℓ = 12.",
+        "explanation": "Stap 4: het antwoord.\n\nLengte = 12.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-8-c10-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: 2b = 12, dus 2ℓ = 36 − 12 = 24.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: 2×breedte = 12, dus 2×lengte = 36 − 12 = 24.)",
       "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "ℓ = 12.",
-      "explanation": "ℓ = 12."
+      "hint2": "Lengte = 12.",
+      "explanation": "Lengte = 12."
     },
     {
       "id": "groep-8-c10-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 12? Reken na — wat krijg je?",
       "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "ℓ = 12.",
-      "explanation": "ℓ = 12."
+      "hint2": "Lengte = 12.",
+      "explanation": "Lengte = 12."
     }
   ]
 }

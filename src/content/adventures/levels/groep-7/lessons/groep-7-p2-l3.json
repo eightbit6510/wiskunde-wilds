@@ -3,9 +3,9 @@
   "adventureId": "groep-7-part2",
   "order": 3,
   "areaName": "De Rivier van Verhoudingen",
+  "intro": "Langs de rivier stromen verhoudingen als water. Schaal, procenten en mengsels — alles hangt samen. Pak je rekenkracht en duik erin.",
   "title": "Stromende verhoudingen",
   "emoji": "🌊",
-  "intro": "Langs de rivier stromen verhoudingen als water. Schaal, procenten en mengsels — alles hangt samen. Pak je rekenkracht en duik erin.",
   "color": "#2F5A6B",
   "outroStory": "De mist trekt op. In de vallei verderop buigen lijnen als bogen — parabolen in het maanlicht.",
   "mapTeaser": "Schaal en procenten glinsteren op het water…",
@@ -23,7 +23,7 @@
     },
     {
       "challengeId": "groep-7-p2-c13",
-      "optionalStory": "Twee delen sap, drie delen water — de riviercocktail.",
+      "optionalStory": "Verhouding sap:water = 2:3. Totaal 25 liter. Hoeveel liter sap",
       "sortOrder": 2
     },
     {

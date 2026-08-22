@@ -1,11 +1,11 @@
 {
   "type": "number-input",
   "topic": "grafieken",
-  "question": "Kamer III: Lijn A: 2×stap + 1. Bij stap 5: wat is de y van A?",
+  "question": "Kamer III: Lijn A: 2×stap + 1. Bij stap 5: wat is de hoogte van A?",
   "answer": 11,
   "hint1": "2×5 + 1.",
   "hint2": "11.",
-  "explanation": "y = 11.",
+  "explanation": "Hoogte = 11.",
   "id": "groep-6-p2-c38",
   "difficulty": 1,
   "starsAvailable": 3,

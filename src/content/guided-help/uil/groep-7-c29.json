@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "De formule bij de tabel"
+            "label": "De regel bij de tabel"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nVerschil in y is steeds +3.",
+        "explanation": "Stap 2: strategie.\n\nVerschil in de uitkomst is steeds +3.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Verschil in y is steeds +3."
+            "label": "Verschil in de uitkomst is steeds +3."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\ny = 3x + 2.",
+        "explanation": "Stap 3: uitwerken.\n\nStart 2, elke stap +3.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "y = 3x + 2."
+            "label": "Start 2, elke stap +3."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\ny = 3x + 2.",
+        "explanation": "Stap 4: het antwoord.\n\nStart 2, elke stap +3.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "y = 3x + 2"
+            "label": "Start 2, elke stap +3"
           },
           {
             "id": "b",
-            "label": "y = 3x + 1"
+            "label": "Start 2, elke stap +2"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: y = 3x + 2.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is y = 3x + 2."
+        "successFeedback": "Klopt! Antwoord: Start 2, elke stap +3.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Start 2, elke stap +3."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 y = 3x + 2"
+    "conclusion": "Pootafdruk! 🐾 Start 2, elke stap +3"
   },
   "bonusVariants": [
     {
@@ -84,24 +84,24 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "y = 3x + 2"
+          "label": "Start 2, elke stap +3"
         },
         {
           "id": "b",
-          "label": "y = 3x + 1"
+          "label": "Start 2, elke stap +2"
         },
         {
           "id": "c",
-          "label": "y = 2x + 3"
+          "label": "Start 3, elke stap +2"
         },
         {
           "id": "d",
-          "label": "y = 4x + 1"
+          "label": "Start 1, elke stap +4"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 3x + 2.",
-      "explanation": "y = 3x + 2."
+      "hint2": "Start 2, elke stap +3.",
+      "explanation": "Start 2, elke stap +3."
     },
     {
       "id": "groep-7-c29-b2",
@@ -111,16 +111,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "y = 3x + 2"
+          "label": "Start 2, elke stap +3"
         },
         {
           "id": "no",
-          "label": "y = 3x + 1"
+          "label": "Start 2, elke stap +2"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 3x + 2.",
-      "explanation": "y = 3x + 2."
+      "hint2": "Start 2, elke stap +3.",
+      "explanation": "Start 2, elke stap +3."
     }
   ]
 }

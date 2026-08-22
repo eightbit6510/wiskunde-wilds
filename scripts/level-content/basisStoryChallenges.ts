@@ -586,17 +586,16 @@ function formulaRearrangeT(id: string, level: ClassLevel, grade: BasisGrade, d: 
     level,
     d,
     {
-      type: 'text-input',
+      type: 'number-input',
       topic: 'formules',
-      question: 'T = 5n + 20. Schrijf n als formule (n = …).',
-      answer: 'n=(T-20)/5',
-      acceptedAnswers: ['n=(T-20)/5', 'n=(t-20)/5', 'n=T/5-4'],
-      hint1: 'Trek 20 af, deel door 5.',
-      hint2: 'n = (T − 20) / 5.',
-      explanation: 'n = (T − 20) / 5.',
+      question: 'Temperatuur = 5 × nesten + 20. Bij hoeveel nesten is het 55 °C?',
+      answer: 7,
+      hint1: 'Eerst 55 − 20, daarna delen door 5.',
+      hint2: '35 ÷ 5 = 7.',
+      explanation: '55 − 20 = 35; 35 ÷ 5 = 7 nesten.',
     },
-    'Maak n vrij in de formule.',
-    'n uitdrukken in T',
+    'Werk achterstevoren: trek 20 af, deel door 5.',
+    'Het aantal nesten zoeken',
   );
 }
 
@@ -644,11 +643,11 @@ function formulaPerimeter(id: string, level: ClassLevel, grade: BasisGrade, d: H
     {
       type: 'number-input',
       topic: 'formules',
-      question: 'Omtrek P = 2ℓ + 2b. P = 36 en b = 6. Wat is ℓ?',
+      question: 'Omtrek = 2×lengte + 2×breedte. Omtrek = 36 en breedte = 6. Wat is de lengte?',
       answer: 12,
-      hint1: '2b = 12, dus 2ℓ = 36 − 12 = 24.',
-      hint2: 'ℓ = 12.',
-      explanation: 'ℓ = 12.',
+      hint1: '2×breedte = 12, dus 2×lengte = 36 − 12 = 24.',
+      hint2: 'Lengte = 12.',
+      explanation: 'Lengte = 12.',
     },
     'Omtrek van een rechthoek.',
     'De lengte berekenen',
@@ -756,18 +755,18 @@ function tableFormula(id: string, level: ClassLevel, grade: BasisGrade, d: HelpD
       {
         type: 'multiple-choice',
         topic: 'verbanden',
-        question: 'Tabel x: 0,1,2,3 en y: 3,5,7,9. Welke beschrijving past?',
-        tableData: { headers: ['x', 'y'], rows: [[0, 3], [1, 5], [2, 7], [3, 9]] },
+        question: 'Tabel: stap 0→3, 1→5, 2→7, 3→9. Welke regel past?',
+        tableData: { headers: ['stap', 'punten'], rows: [[0, 3], [1, 5], [2, 7], [3, 9]] },
         answer: 'b',
         answerOptions: [
-          { id: 'a', label: 'y = x + 3' },
-          { id: 'b', label: 'y = 2 × x + 3' },
-          { id: 'c', label: 'y = 3 × x' },
-          { id: 'd', label: 'y = 2 × x − 3' },
+          { id: 'a', label: 'Start 3, elke stap +1' },
+          { id: 'b', label: 'Start 3, elke stap +2' },
+          { id: 'c', label: 'Start 0, elke stap ×3' },
+          { id: 'd', label: 'Start 3, elke stap −2' },
         ],
-        hint1: 'Elke stap +2; bij x=0 is y=3.',
-        hint2: 'y = 2 × x + 3.',
-        explanation: 'y = 2 × x + 3.',
+        hint1: 'Bij stap 0 is de start 3. Wat komt er bij?',
+        hint2: 'Verschil is steeds +2.',
+        explanation: 'Start 3, elke stap +2.',
       },
       'Lees de tabel als sporen in de sneeuw.',
       'De juiste regel bij de tabel',
@@ -780,21 +779,21 @@ function tableFormula(id: string, level: ClassLevel, grade: BasisGrade, d: HelpD
     {
       type: 'multiple-choice',
       topic: 'verbanden',
-      question: 'Welk patroon zie je? Welke formule past erbij?',
-      tableData: { headers: ['x', 'y'], rows: [[0, 3], [1, 5], [2, 7], [3, 9]] },
+      question: 'Tabel: stap 0→3, 1→5, 2→7, 3→9. Welke regel past het best?',
+      tableData: { headers: ['stap', 'punten'], rows: [[0, 3], [1, 5], [2, 7], [3, 9]] },
       answer: 'b',
       answerOptions: [
-        { id: 'a', label: 'y = x + 3' },
-        { id: 'b', label: 'y = 2x + 3' },
-        { id: 'c', label: 'y = 3x' },
-        { id: 'd', label: 'y = 2x − 3' },
+        { id: 'a', label: 'Punten = stap + 3' },
+        { id: 'b', label: 'Punten = 2 × stap + 3' },
+        { id: 'c', label: 'Punten = 3 × stap' },
+        { id: 'd', label: 'Punten = 2 × stap − 3' },
       ],
-      hint1: 'Elke stap +2 in y. Start bij y=3.',
-      hint2: 'y = 2x + 3.',
-      explanation: 'y = 2x + 3.',
+      hint1: 'Elke stap +2 in de punten. Start bij 3.',
+      hint2: 'Controleer bij stap 2: 2×2+3 = 7.',
+      explanation: 'Punten = 2 × stap + 3.',
     },
     'Lees de tabel als sporen in de sneeuw.',
-    'De formule bij de tabel vinden',
+    'De regel bij de tabel vinden',
   );
 }
 
@@ -842,14 +841,14 @@ function yIntercept(id: string, level: ClassLevel, grade: BasisGrade, d: HelpDif
     {
       type: 'number-input',
       topic: 'grafieken',
-      question: 'y = 2x + 3. Waar raakt de grafiek de y-as? Geef de y-waarde.',
+      question: 'Regel: hoogte = 2 × uren + 3. Waar begint de grafiek (bij 0 uren)?',
       answer: 3,
-      hint1: 'Op de y-as is x = 0.',
-      hint2: 'y = 2·0 + 3 = 3.',
-      explanation: 'Snijpunt y-as: y = 3.',
+      hint1: 'Vul 0 in voor uren.',
+      hint2: '2 × 0 + 3 = 3.',
+      explanation: 'Startwaarde = 3.',
     },
-    'De lynx kijkt naar het snijpunt met de verticale as.',
-    'Het snijpunt met de y-as vinden',
+    'De lynx kijkt naar het begin van het spoor.',
+    'De startwaarde vinden',
   );
 }
 
@@ -884,19 +883,19 @@ function matchingGraphs(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
     {
       type: 'matching',
       topic: 'verbanden',
-      question: 'Match formule, tabel-idee en verhaal.',
+      question: 'Match regel en betekenis.',
       matchingPairs: [
-        { id: '1', left: 'y = 3x', right: 'Door 0, steil omhoog' },
-        { id: '2', left: 'y = x + 2', right: 'Start bij 2, helling 1' },
+        { id: '1', left: 'Hoogte = 3 × stap', right: 'Door 0, steil omhoog' },
+        { id: '2', left: 'Start 2, elke stap +1', right: 'Begint bij 2, rustig omhoog' },
         { id: '3', left: 'Tabel: (0,5)(1,5)(2,5)', right: 'Constant verband' },
-        { id: '4', left: 'y = −x + 4', right: 'Dalend, start hoog' },
+        { id: '4', left: 'Start 4, elke stap −1', right: 'Dalend, start hoog' },
       ],
-      hint1: 'Koppel elke formule aan het juiste beeld.',
-      hint2: 'Constant in y betekent horizontaal.',
+      hint1: 'Koppel elke regel aan het juiste beeld.',
+      hint2: 'Constant betekent horizontaal.',
       explanation: 'Elk spoor hoort bij precies één betekenis.',
     },
     'Vier sporen, vier betekenissen — verbind ze.',
-    'Formule en betekenis matchen',
+    'Regel en betekenis matchen',
   );
 }
 
@@ -1078,19 +1077,19 @@ function powersCompare(id: string, level: ClassLevel, grade: BasisGrade, d: Help
     d,
     {
       type: 'multiple-choice',
-      topic: 'machten',
-      question: 'Wat is groter: 2⁵ of 5²? (2⁵ = 2×2×2×2×2)',
+      topic: 'algebra',
+      question: 'Wat is groter: 2×2×2×2×2 of 5×5?',
       answer: 'a',
       answerOptions: [
-        { id: 'a', label: '2⁵ (= 32)' },
-        { id: 'b', label: '5² (= 25)' },
+        { id: 'a', label: '2×2×2×2×2 (= 32)' },
+        { id: 'b', label: '5×5 (= 25)' },
         { id: 'gelijk', label: 'Even groot' },
       ],
       hint1: 'Reken beide uit.',
       hint2: '32 > 25.',
-      explanation: '2⁵ = 32 > 5² = 25.',
+      explanation: '2×2×2×2×2 = 32 is groter dan 25.',
     },
-    'De gemene valkuil: exponent vs grondtal.',
+    'Reken beide uit en vergelijk.',
     'Het grotere getal kiezen',
   );
 }
@@ -1430,14 +1429,14 @@ function runestoneAlgebra(id: string, level: ClassLevel, grade: BasisGrade, d: H
     {
       type: 'number-input',
       topic: 'algebra',
-      question: 'Runesteen Algebra: Los op 3(x − 2) = 15. Wat is x?',
+      question: 'Runesteen Rekenen: 3 × (□ − 2) = 15. Wat is □?',
       answer: 7,
-      hint1: 'Deel beide kanten door 3, of werk haakjes uit.',
-      hint2: 'x − 2 = 5 → x = 7.',
-      explanation: 'x = 7.',
+      hint1: 'Eerst 15 ÷ 3 = 5, dus □ − 2 = 5.',
+      hint2: '□ = 7.',
+      explanation: '□ − 2 = 5 → □ = 7.',
     },
     'De eerste runesteen gloeit zwak…',
-    'x oplossen',
+    'Het ontbrekende getal',
   );
 }
 
@@ -1473,17 +1472,17 @@ function runestoneGraph(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
     {
       type: 'multiple-choice',
       topic: 'grafieken',
-      question: 'Runesteen Grafieken: welke beschrijving past bij y = −x + 4?',
+      question: 'Runesteen Grafieken: start bij 4, elke stap −1. Welke beschrijving?',
       answer: 'b',
       answerOptions: [
-        { id: 'a', label: 'Stijgend, snijpunt y-as bij 4' },
-        { id: 'b', label: 'Dalend, snijpunt y-as bij 4' },
-        { id: 'c', label: 'Horizontaal op y = 4' },
-        { id: 'd', label: 'Door oorsprong, steil omhoog' },
+        { id: 'a', label: 'Stijgend, start bij 4' },
+        { id: 'b', label: 'Dalend, start bij 4' },
+        { id: 'c', label: 'Altijd 4' },
+        { id: 'd', label: 'Door 0, steil omhoog' },
       ],
-      hint1: 'Hellingsgetal −1 → dalend.',
-      hint2: '+4 is het snijpunt met de y-as.',
-      explanation: 'Dalend met y-as snijpunt 4.',
+      hint1: '−1 betekent dalend.',
+      hint2: 'Start 4.',
+      explanation: 'Dalend, start bij 4.',
     },
     'Tweede runesteen: grafiekspoor.',
     'De juiste beschrijving',
@@ -1537,7 +1536,7 @@ function runestoneVerbanden(id: string, level: ClassLevel, grade: BasisGrade, d:
       {
         type: 'multiple-choice',
         topic: 'verbanden',
-        question: 'Runesteen Verbanden: x 0,1,2,3 en y 2,5,8,11. Welke regel?',
+        question: 'Runesteen Verbanden: stap 0→2, 1→5, 2→8, 3→11. Welke regel?',
         answer: 'a',
         answerOptions: [
           { id: 'a', label: 'Start 2, elke stap +3' },
@@ -1560,20 +1559,20 @@ function runestoneVerbanden(id: string, level: ClassLevel, grade: BasisGrade, d:
     {
       type: 'multiple-choice',
       topic: 'verbanden',
-      question: 'Runesteen Verbanden: tabel x: 0,1,2,3 en y: 2,5,8,11. Welke formule?',
+      question: 'Runesteen Verbanden: stap 0→2, 1→5, 2→8, 3→11. Welke regel?',
       answer: 'a',
       answerOptions: [
-        { id: 'a', label: 'y = 3x + 2' },
-        { id: 'b', label: 'y = 3x + 1' },
-        { id: 'c', label: 'y = 2x + 3' },
-        { id: 'd', label: 'y = 4x + 1' },
+        { id: 'a', label: 'Start 2, elke stap +3' },
+        { id: 'b', label: 'Start 2, elke stap +2' },
+        { id: 'c', label: 'Start 3, elke stap +2' },
+        { id: 'd', label: 'Start 1, elke stap +4' },
       ],
-      hint1: 'Verschil in y is steeds +3.',
-      hint2: 'y = 3x + 2.',
-      explanation: 'y = 3x + 2.',
+      hint1: 'Verschil in de uitkomst is steeds +3.',
+      hint2: 'Start 2, elke stap +3.',
+      explanation: 'Start 2, elke stap +3.',
     },
     'Vierde runesteen: verbanden.',
-    'De formule bij de tabel',
+    'De regel bij de tabel',
   );
 }
 
@@ -1620,15 +1619,15 @@ function runestoneMixed(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
     d,
     {
       type: 'number-input',
-      topic: 'vergelijkingen',
-      question: 'Laatste runesteen: Los op 2x + 5 = 17. Wat is x?',
+      topic: 'algebra',
+      question: 'Laatste runesteen: 2 × □ + 5 = 17. Wat is □?',
       answer: 6,
-      hint1: 'Trek 5 af van beide kanten.',
-      hint2: '2x = 12 → x = 6.',
-      explanation: 'x = 6.',
+      hint1: 'Eerst 17 − 5 = 12, dan ÷ 2.',
+      hint2: '□ = 6.',
+      explanation: '□ = 6.',
     },
     'Alle runestenen samen — bijna op de top!',
-    'x oplossen',
+    'Het ontbrekende getal',
   );
 }
 
@@ -1686,7 +1685,7 @@ function parabolaIntro(id: string, level: ClassLevel, grade: BasisGrade, d: Help
     {
       type: 'multiple-choice',
       topic: 'verbanden',
-      question: 'Bij y = x²: wat is y als x = 3 en als x = −3?',
+      question: 'Bij 3×3 en (−3)×(−3): wat is het resultaat?',
       answer: 'a',
       answerOptions: [
         { id: 'a', label: 'Beide keren 9' },
@@ -1694,8 +1693,8 @@ function parabolaIntro(id: string, level: ClassLevel, grade: BasisGrade, d: Help
         { id: 'c', label: '0 en 9' },
       ],
       hint1: '(−3)×(−3) = 9 en 3×3 = 9.',
-      hint2: 'Positief en negatief kunnen dezelfde y geven.',
-      explanation: 'Beide geven y = 9.',
+      hint2: 'Positief en negatief kunnen hetzelfde antwoord geven.',
+      explanation: 'Beide geven 9.',
     },
     'Patronen in maanlicht.',
     'Symmetrie bij kwadrateren',
@@ -1838,19 +1837,19 @@ function parabolaShape(id: string, level: ClassLevel, grade: BasisGrade, d: Help
     {
       type: 'multiple-choice',
       topic: 'verbanden',
-      question: 'Welke beschrijving past bij y = x² (x positief)?',
+      question: 'Welke beschrijving past bij 1, 4, 9, 16, 25 (positieve getallen)?',
       answer: 'b',
       answerOptions: [
-        { id: 'a', label: 'Een rechte lijn' },
-        { id: 'b', label: 'Een boog die omhoog buigt (parabool)' },
-        { id: 'c', label: 'Een horizontale lijn' },
+        { id: 'a', label: 'Een rechte lijn van toenames' },
+        { id: 'b', label: 'Kwadraatgetallen die steeds sneller groeien' },
+        { id: 'c', label: 'Een rij die steeds hetzelfde blijft' },
       ],
-      hint1: 'Kwadraten groeien sneller — geen rechte lijn.',
-      hint2: 'Dat is een U-vorm / parabool.',
-      explanation: 'y = x² is een U-vormige parabool.',
+      hint1: '1=1×1, 4=2×2, 9=3×3 — de sprongen worden groter.',
+      hint2: 'Dat is geen constante toename.',
+      explanation: 'Kwadraatgetallen groeien sneller dan een rechte lijn.',
     },
     'Vorm herkennen in maanlicht.',
-    'De juiste vorm',
+    'Het juiste patroon',
   );
 }
 
@@ -1963,19 +1962,19 @@ function templeExpand(id: string, level: ClassLevel, grade: BasisGrade, d: HelpD
     {
       type: 'multiple-choice',
       topic: 'algebra',
-      question: 'Stersteen 2: Wat is 2(3x − 1) uitgewerkt?',
+      question: 'Stersteen 2: Wat is 2 × (3 × 4 − 1)?',
       answer: 'b',
       answerOptions: [
-        { id: 'a', label: '6x − 1' },
-        { id: 'b', label: '6x − 2' },
-        { id: 'c', label: '5x − 2' },
-        { id: 'd', label: '6x + 2' },
+        { id: 'a', label: '2 × 3 × 4 − 1 = 23' },
+        { id: 'b', label: '2 × 11 = 22' },
+        { id: 'c', label: '2 + 3 × 4 − 1 = 13' },
+        { id: 'd', label: '2 × 3 × 4 = 24' },
       ],
-      hint1: 'Vermenigvuldig 2 met beide termen.',
-      hint2: '6x − 2.',
-      explanation: '2(3x − 1) = 6x − 2.',
+      hint1: 'Eerst tussen haakjes: 3×4−1 = 11.',
+      hint2: '2 × 11 = 22.',
+      explanation: '2 × (12 − 1) = 22.',
     },
-    'Haakjes uitwerken op de tempelmuur.',
+    'Haakjes eerst, dan vermenigvuldigen.',
     'De juiste uitwerking',
   );
 }
@@ -2023,15 +2022,15 @@ function templeEquation(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
     d,
     {
       type: 'number-input',
-      topic: 'vergelijkingen',
-      question: 'Stersteen 3: Los op 4x − 7 = 9. Wat is x?',
+      topic: 'algebra',
+      question: 'Stersteen 3: 4 × □ − 7 = 9. Wat is □?',
       answer: 4,
-      hint1: '+7 aan beide kanten.',
-      hint2: '4x = 16 → x = 4.',
-      explanation: 'x = 4.',
+      hint1: 'Eerst 9 + 7 = 16, dan ÷ 4.',
+      hint2: '□ = 4.',
+      explanation: '□ = 4.',
     },
     'Vergelijking op de tempelsteen.',
-    'x oplossen',
+    'Het ontbrekende getal',
   );
 }
 
@@ -2062,11 +2061,11 @@ function templeFormulaL(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
       {
         type: 'number-input',
         topic: 'formules',
-        question: 'Stersteen 4: P = 2ℓ + 2b. P = 30, b = 5. Wat is ℓ?',
+        question: 'Stersteen 4: Omtrek = 2×lengte + 2×breedte. Omtrek = 30, breedte = 5. Wat is de lengte?',
         answer: 10,
-        hint1: '2b = 10; 2ℓ = 20.',
-        hint2: 'ℓ = 10.',
-        explanation: 'ℓ = 10.',
+        hint1: '2×breedte = 10; 2×lengte = 20.',
+        hint2: 'Lengte = 10.',
+        explanation: 'Lengte = 10.',
       },
       'Formule omdraaien bij de tempel.',
       'De lengte berekenen',
@@ -2077,17 +2076,16 @@ function templeFormulaL(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
     level,
     d,
     {
-      type: 'text-input',
+      type: 'number-input',
       topic: 'formules',
-      question: 'Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b.',
-      answer: 'l=(P-2b)/2',
-      acceptedAnswers: ['l=(P-2b)/2', 'ℓ=(P-2b)/2', 'l=P/2-b', 'ℓ=P/2-b'],
-      hint1: 'Trek 2b af, deel door 2.',
-      hint2: 'ℓ = (P − 2b) / 2.',
-      explanation: 'ℓ = (P − 2b) / 2.',
+      question: 'Stersteen 4: Omtrek P = 2×lengte + 2×breedte. P = 36, breedte = 6. Wat is de lengte?',
+      answer: 12,
+      hint1: '2×breedte = 12; dan blijft 24 voor 2×lengte.',
+      hint2: 'Lengte = 12.',
+      explanation: 'Lengte = 12.',
     },
     'Formule omdraaien bij de tempel.',
-    'ℓ uitdrukken in P en b',
+    'De lengte berekenen',
   );
 }
 
@@ -2236,15 +2234,15 @@ function p2EquationTwoX(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
     d,
     {
       type: 'number-input',
-      topic: 'vergelijkingen',
-      question: 'Dieper in de grot: Los op 4x + 3 = x + 15. Wat is x?',
+      topic: 'algebra',
+      question: 'Dieper in de grot: 4 × □ + 3 = □ + 15. Wat is □?',
       answer: 4,
-      hint1: 'Haal x naar links: 3x + 3 = 15.',
-      hint2: '3x = 12 → x = 4.',
-      explanation: 'x = 4.',
+      hint1: 'Haal □ naar links: 3 × □ + 3 = 15.',
+      hint2: '3 × □ = 12 → □ = 4.',
+      explanation: '□ = 4.',
     },
-    'Twee x-termen in één vergelijking.',
-    'x oplossen',
+    'Twee kanten van de grot — zoek het ontbrekende getal.',
+    'Het ontbrekende getal',
   );
 }
 
@@ -2312,11 +2310,11 @@ function p2FormulaPerimeter(id: string, level: ClassLevel, grade: BasisGrade, d:
     {
       type: 'number-input',
       topic: 'formules',
-      question: 'Om het nest: P = 2ℓ + 2b. P = 40 en b = 7. Wat is ℓ?',
+      question: 'Om het nest: omtrek = 2×lengte + 2×breedte. Omtrek = 40 en breedte = 7. Wat is de lengte?',
       answer: 13,
-      hint1: '2b = 14; 2ℓ = 26.',
-      hint2: 'ℓ = 13.',
-      explanation: 'ℓ = 13.',
+      hint1: '2×breedte = 14; 2×lengte = 26.',
+      hint2: 'Lengte = 13.',
+      explanation: 'Lengte = 13.',
     },
     'Om het ravennest heen loopt een touw.',
     'De lengte berekenen',
@@ -2445,12 +2443,12 @@ function p2GraphIntersect(id: string, level: ClassLevel, grade: BasisGrade, d: H
         topic: 'grafieken',
         question: 'Twee sporen: lijn A start 3 +2 per stap, lijn B start 7 +1 per stap. Bij welke stap zijn ze gelijk? (stapnummer)',
         answer: 4,
-        hint1: 'Maak een tabel of reken: 3+2n = 7+n.',
-        hint2: 'n = 4.',
+        hint1: 'Maak een tabel of reken: 3+2×stap = 7+stap.',
+        hint2: 'Stap = 4.',
         explanation: 'Bij stap 4: beide 11.',
       },
       'Twee lichtlijnen kruisen boven het dak.',
-      'Het snijpunt (stapnummer)',
+      'Het kruispunt (stapnummer)',
     );
   }
   return pack(
@@ -2460,14 +2458,15 @@ function p2GraphIntersect(id: string, level: ClassLevel, grade: BasisGrade, d: H
     {
       type: 'number-input',
       topic: 'grafieken',
-      question: 'Waar snijden y = 2x + 3 en y = x + 7 elkaar? Wat is x?',
+      question:
+        'Twee sporen: lijn A start 3 +2 per stap, lijn B start 7 +1 per stap. Bij welke stap zijn ze gelijk?',
       answer: 4,
-      hint1: 'Stel 2x + 3 = x + 7.',
-      hint2: 'x = 4.',
-      explanation: 'x = 4.',
+      hint1: 'Maak een tabel of reken: 3+2×stap = 7+stap.',
+      hint2: 'Stap = 4.',
+      explanation: 'Bij stap 4: beide 11.',
     },
     'Twee lichtlijnen kruisen boven het dak.',
-    'x op het snijpunt',
+    'Het kruispunt (stapnummer)',
   );
 }
 
@@ -2486,7 +2485,7 @@ function p2YInterceptObservatory(id: string, level: ClassLevel, grade: BasisGrad
         hint2: 'Dat is 8.',
         explanation: 'Startwaarde = 8.',
       },
-      'Waar begint het spoor als x nog 0 is?',
+      'Waar begint het spoor bij 0 uren?',
       'De startwaarde aflezen',
     );
   }
@@ -2504,7 +2503,7 @@ function p2YInterceptObservatory(id: string, level: ClassLevel, grade: BasisGrad
         hint2: '−0 + 8 = 8.',
         explanation: 'Bij 0 uren is de hoogte 8.',
       },
-      'Waar begint het spoor als x nog 0 is?',
+      'Waar begint het spoor bij 0 uren?',
       'De startwaarde berekenen',
     );
   }
@@ -2515,14 +2514,14 @@ function p2YInterceptObservatory(id: string, level: ClassLevel, grade: BasisGrad
     {
       type: 'number-input',
       topic: 'grafieken',
-      question: 'Observatorium: y = −x + 8. Wat is de startwaarde (snijpunt y-as)?',
+      question: 'Observatorium: hoogte = −uren + 8. Wat is de startwaarde (bij 0 uren)?',
       answer: 8,
-      hint1: 'Op de y-as is x = 0.',
-      hint2: 'y = 8.',
+      hint1: 'Vul 0 in voor uren.',
+      hint2: 'Hoogte = 8.',
       explanation: 'Startwaarde = 8.',
     },
-    'Waar begint het spoor als x nog 0 is?',
-    'Het snijpunt met de y-as',
+    'Waar begint het spoor bij 0 uren?',
+    'De startwaarde',
   );
 }
 
@@ -2552,19 +2551,19 @@ function p2PowerProduct(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
       d,
       {
         type: 'multiple-choice',
-        topic: 'machten',
+        topic: 'algebra',
         question: '2×2×2 × 2×2 — hoeveel keer 2 is dat samen?',
         answer: 'a',
         answerOptions: [
-          { id: 'a', label: '5 keer 2 (2⁵)' },
+          { id: 'a', label: '5 keer 2' },
           { id: 'b', label: '6 keer 2' },
           { id: 'c', label: '10 keer 2' },
         ],
         hint1: 'Tel de factoren: 3 + 2 = 5.',
-        hint2: '2⁵.',
-        explanation: 'Exponenten optellen: 2⁵.',
+        hint2: 'Vijf keer de factor 2.',
+        explanation: 'Samen 5 keer 2.',
       },
-      'Twee runen vermenigvuldigd — wat gebeurt er met de exponenten?',
+      'Twee runen vermenigvuldigd — stapel de factoren.',
       'Het juiste aantal factoren',
     );
   }
@@ -2574,21 +2573,21 @@ function p2PowerProduct(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
     d,
     {
       type: 'multiple-choice',
-      topic: 'machten',
-      question: 'Wat is 2³ × 2²? (zelfde grondtal)',
+      topic: 'algebra',
+      question: '2×2×2 × 2×2 — wat is het product?',
       answer: 'a',
       answerOptions: [
-        { id: 'a', label: '2⁵' },
-        { id: 'b', label: '2⁶' },
-        { id: 'c', label: '4⁵' },
-        { id: 'd', label: '2¹' },
+        { id: 'a', label: '32' },
+        { id: 'b', label: '16' },
+        { id: 'c', label: '64' },
+        { id: 'd', label: '10' },
       ],
-      hint1: 'Exponenten optellen.',
-      hint2: '3 + 2 = 5.',
-      explanation: '2³ × 2² = 2⁵.',
+      hint1: 'Eerst 2×2×2 = 8, dan ×2×2.',
+      hint2: '8 × 4 = 32.',
+      explanation: '2×2×2×2×2 = 32.',
     },
-    'Twee runen vermenigvuldigd — wat gebeurt er met de exponenten?',
-    'De juiste macht',
+    'Twee runen vermenigvuldigd — stapel de factoren.',
+    'Het product',
   );
 }
 
@@ -2722,7 +2721,7 @@ function p2NachtAlgebra(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
         hint2: '□ = 7.',
         explanation: '□ = 7.',
       },
-      'Algebra-slot in de nachttempel.',
+      'Reken-slot in de nachttempel.',
       'Het ontbrekende getal',
     );
   }
@@ -2740,7 +2739,7 @@ function p2NachtAlgebra(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
         hint2: '2 × □ = 8 → □ = 4.',
         explanation: '□ = 4.',
       },
-      'Algebra-slot in de nachttempel.',
+      'Reken-slot in de nachttempel.',
       'Het ontbrekende getal',
     );
   }
@@ -2750,15 +2749,15 @@ function p2NachtAlgebra(id: string, level: ClassLevel, grade: BasisGrade, d: Hel
     d,
     {
       type: 'number-input',
-      topic: 'vergelijkingen',
-      question: 'Kamer I — Los op: 5x + 2 = 2x + 14. Wat is x?',
+      topic: 'algebra',
+      question: 'Kamer I: 3 × □ + 2 = □ + 10. Wat is □?',
       answer: 4,
-      hint1: 'Haal 2x naar links.',
-      hint2: '3x = 12 → x = 4.',
-      explanation: 'x = 4.',
+      hint1: 'Haal □ naar links: 2 × □ + 2 = 10.',
+      hint2: '2 × □ = 8 → □ = 4.',
+      explanation: '□ = 4.',
     },
-    'Algebra-slot in de nachttempel.',
-    'x oplossen',
+    'Reken-slot in de nachttempel.',
+    'Het ontbrekende getal',
   );
 }
 
@@ -2808,14 +2807,14 @@ function p2NachtIntersectY(id: string, level: ClassLevel, grade: BasisGrade, d: 
       {
         type: 'number-input',
         topic: 'grafieken',
-        question: 'Kamer III: Lijn A: 2×stap + 1. Bij stap 5: wat is de y van A?',
+        question: 'Kamer III: Lijn A: 2×stap + 1. Bij stap 5: wat is de hoogte van A?',
         answer: 11,
         hint1: '2×5 + 1.',
         hint2: '11.',
-        explanation: 'y = 11.',
+        explanation: 'Hoogte = 11.',
       },
-      'Twee sterrenlijnen — geef de y-waarde.',
-      'De y-waarde',
+      'Twee sterrenlijnen — geef de hoogte.',
+      'De hoogte',
     );
   }
   return pack(
@@ -2826,14 +2825,14 @@ function p2NachtIntersectY(id: string, level: ClassLevel, grade: BasisGrade, d: 
       type: 'number-input',
       topic: 'grafieken',
       question:
-        'Kamer III — Waar snijden y = 2x + 1 en y = x + 6 elkaar? Geef de y-waarde.',
+        'Kamer III: lijn A = 2×stap + 1, lijn B = stap + 6. Bij welk stapnummer zijn ze even hoog? Geef daarna die hoogte.',
       answer: 11,
-      hint1: 'x = 5, dan y = 11.',
-      hint2: 'y = 2·5 + 1 = 11.',
-      explanation: 'y = 11.',
+      hint1: 'Eerst: 2×stap + 1 = stap + 6 → stap = 5.',
+      hint2: 'Hoogte = 2×5 + 1 = 11.',
+      explanation: 'Bij stap 5 is de hoogte 11.',
     },
     'Twee sterrenlijnen kruisen elkaar.',
-    'De y-waarde op het snijpunt',
+    'De hoogte op het kruispunt',
   );
 }
 
@@ -2846,7 +2845,7 @@ function p2ParabolaIntro(id: string, level: ClassLevel, grade: BasisGrade, d: He
       {
         type: 'multiple-choice',
         topic: 'verbanden',
-        question: 'Paraboolvallei: rij 4, 9, 16, 25, … Wat is het volgende getal?',
+        question: 'Maanvallei: rij 4, 9, 16, 25, … Wat is het volgende getal?',
         answer: 'a',
         answerOptions: [
           { id: 'a', label: '36' },
@@ -2857,7 +2856,7 @@ function p2ParabolaIntro(id: string, level: ClassLevel, grade: BasisGrade, d: He
         hint2: '6×6 = 36.',
         explanation: 'Volgende is 36.',
       },
-      'Patronen in de paraboolvallei.',
+      'Patronen in de maanvallei.',
       'Het volgende kwadraatgetal',
     );
   }
@@ -2869,7 +2868,7 @@ function p2ParabolaIntro(id: string, level: ClassLevel, grade: BasisGrade, d: He
       {
         type: 'multiple-choice',
         topic: 'verbanden',
-        question: 'Paraboolvallei: bij 4×4 en (−4)×(−4): wat valt op?',
+        question: 'Maanvallei: bij 4×4 en (−4)×(−4): wat valt op?',
         answer: 'a',
         answerOptions: [
           { id: 'a', label: 'Beide geven 16' },
@@ -2880,7 +2879,7 @@ function p2ParabolaIntro(id: string, level: ClassLevel, grade: BasisGrade, d: He
         hint2: 'Beide 16.',
         explanation: 'Beide geven 16.',
       },
-      'Patronen in de paraboolvallei.',
+      'Patronen in de maanvallei.',
       'Wat gebeurt er bij kwadrateren',
     );
   }
@@ -2891,7 +2890,7 @@ function p2ParabolaIntro(id: string, level: ClassLevel, grade: BasisGrade, d: He
     {
       type: 'multiple-choice',
       topic: 'verbanden',
-      question: 'Paraboolvallei — bij y = x²: wat is y als x = 4 en als x = −4?',
+      question: 'Maanvallei: wat is 4×4, en wat is (−4)×(−4)?',
       answer: 'a',
       answerOptions: [
         { id: 'a', label: 'Beide keren 16' },
@@ -2900,9 +2899,9 @@ function p2ParabolaIntro(id: string, level: ClassLevel, grade: BasisGrade, d: He
       ],
       hint1: '4×4 = 16 en (−4)×(−4) = 16.',
       hint2: 'Beide 16.',
-      explanation: 'Beide geven y = 16.',
+      explanation: 'Beide geven 16.',
     },
-    'Patronen in de paraboolvallei.',
+    'Patronen in de maanvallei.',
     'Symmetrie bij kwadrateren',
   );
 }
@@ -2916,7 +2915,7 @@ function p2ParabolaShift(id: string, level: ClassLevel, grade: BasisGrade, d: He
       {
         type: 'multiple-choice',
         topic: 'verbanden',
-        question: 'Paraboolvallei: rij 4, 9, 16, 25. Wat gebeurt er als je bij elk getal +3 doet?',
+        question: 'Maanvallei: rij 4, 9, 16, 25. Wat gebeurt er als je bij elk getal +3 doet?',
         answer: 'a',
         answerOptions: [
           { id: 'a', label: 'Nieuwe rij: 7, 12, 19, 28' },
@@ -2938,7 +2937,7 @@ function p2ParabolaShift(id: string, level: ClassLevel, grade: BasisGrade, d: He
     {
       type: 'multiple-choice',
       topic: 'verbanden',
-      question: 'Paraboolvallei: vergelijk 0,1,4,9 met 3,4,7,12. Wat gebeurde er?',
+      question: 'Maanvallei: vergelijk 0,1,4,9 met 3,4,7,12. Wat gebeurde er?',
       answer: 'a',
       answerOptions: [
         { id: 'a', label: 'Elk getal kreeg +3' },

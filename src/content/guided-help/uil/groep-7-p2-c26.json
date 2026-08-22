@@ -2,7 +2,7 @@
   "challengeId": "groep-7-p2-c26",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Twee runen vermenigvuldigd — wat gebeurt er met de exponenten?",
+    "intro": "Twee runen vermenigvuldigd — stapel de factoren.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n2⁵.",
+        "explanation": "Stap 3: uitwerken.\n\nVijf keer de factor 2.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "2⁵."
+            "label": "Vijf keer de factor 2."
           },
           {
             "id": "no",
@@ -56,12 +56,12 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nExponenten optellen: 2⁵.",
+        "explanation": "Stap 4: het antwoord.\n\nSamen 5 keer 2.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "5 keer 2 (2⁵)"
+            "label": "5 keer 2"
           },
           {
             "id": "b",
@@ -69,11 +69,11 @@
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: 5 keer 2 (2⁵).",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is 5 keer 2 (2⁵)."
+        "successFeedback": "Klopt! Antwoord: 5 keer 2.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 5 keer 2."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5 keer 2 (2⁵)"
+    "conclusion": "Pootafdruk! 🐾 5 keer 2"
   },
   "bonusVariants": [
     {
@@ -84,7 +84,7 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "5 keer 2 (2⁵)"
+          "label": "5 keer 2"
         },
         {
           "id": "b",
@@ -96,8 +96,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Exponenten optellen: 2⁵.",
-      "explanation": "Exponenten optellen: 2⁵."
+      "hint2": "Samen 5 keer 2.",
+      "explanation": "Samen 5 keer 2."
     },
     {
       "id": "groep-7-p2-c26-b2",
@@ -107,7 +107,7 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "5 keer 2 (2⁵)"
+          "label": "5 keer 2"
         },
         {
           "id": "no",
@@ -115,8 +115,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Exponenten optellen: 2⁵.",
-      "explanation": "Exponenten optellen: 2⁵."
+      "hint2": "Samen 5 keer 2.",
+      "explanation": "Samen 5 keer 2."
     }
   ]
 }

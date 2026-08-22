@@ -3,19 +3,19 @@
   "adventureId": "groep-7",
   "order": 6,
   "areaName": "De Bergmissie",
+  "intro": "De doorgang naar de bergtop is afgesloten. Vier runestenen moeten geactiveerd worden.",
   "title": "De Grote Wiskundemissie",
   "emoji": "⛰️",
-  "intro": "De doorgang naar de bergtop is afgesloten. Vier runestenen moeten geactiveerd worden.",
   "color": "#4A5D4E",
   "placements": [
     {
       "challengeId": "groep-7-c26",
-      "optionalStory": "De eerste steen gloeit zwak…",
+      "optionalStory": "Runesteen Rekenen: 3 × (□ − 2) = 15. Wat is □",
       "sortOrder": 0
     },
     {
       "challengeId": "groep-7-c27",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Runesteen Grafieken: start bij 4, elke stap −1. Welke beschrijving",
       "sortOrder": 1
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "challengeId": "groep-7-c30",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "Laatste runesteen: 2 × □ + 5 = 17. Wat is □",
       "sortOrder": 4
     }
   ]

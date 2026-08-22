@@ -3,9 +3,9 @@
   "adventureId": "groep-8",
   "order": 4,
   "areaName": "Konijnenhol",
+  "intro": "Snel, speels en een beetje common: breuken, machten en wortels in het hol.",
   "title": "De Breukenbattle",
   "emoji": "🐇",
-  "intro": "Snel, speels en een beetje common: breuken, machten en wortels in het hol.",
   "color": "#A67C52",
   "placements": [
     {
@@ -15,17 +15,17 @@
     },
     {
       "challengeId": "groep-8-c17",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Bereken 3/4 + 1/6. Vereenvoudig als het kan.",
       "sortOrder": 1
     },
     {
       "challengeId": "groep-8-c18",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Wat is groter: 2×2×2×2×2 of 5×5",
       "sortOrder": 2
     },
     {
       "challengeId": "groep-8-c19",
-      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "optionalStory": "Welk positief getal × zichzelf geeft 64",
       "sortOrder": 3
     },
     {

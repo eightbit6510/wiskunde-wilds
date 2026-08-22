@@ -1,29 +1,29 @@
 {
   "type": "multiple-choice",
   "topic": "algebra",
-  "question": "Stersteen 2: Wat is 2(3x − 1) uitgewerkt?",
+  "question": "Stersteen 2: Wat is 2 × (3 × 4 − 1)?",
   "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "6x − 1"
+      "label": "2 × 3 × 4 − 1 = 23"
     },
     {
       "id": "b",
-      "label": "6x − 2"
+      "label": "2 × 11 = 22"
     },
     {
       "id": "c",
-      "label": "5x − 2"
+      "label": "2 + 3 × 4 − 1 = 13"
     },
     {
       "id": "d",
-      "label": "6x + 2"
+      "label": "2 × 3 × 4 = 24"
     }
   ],
-  "hint1": "Vermenigvuldig 2 met beide termen.",
-  "hint2": "6x − 2.",
-  "explanation": "2(3x − 1) = 6x − 2.",
+  "hint1": "Eerst tussen haakjes: 3×4−1 = 11.",
+  "hint2": "2 × 11 = 22.",
+  "explanation": "2 × (12 − 1) = 22.",
   "id": "groep-8-p2-c37",
   "difficulty": 1,
   "starsAvailable": 3,

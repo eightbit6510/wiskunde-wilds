@@ -3,9 +3,9 @@
   "adventureId": "groep-7",
   "order": 4,
   "areaName": "Konijnenhol",
+  "intro": "Snel, speels en een beetje common: breuken, machten en wortels in het hol.",
   "title": "De Breukenbattle",
   "emoji": "🐇",
-  "intro": "Snel, speels en een beetje common: breuken, machten en wortels in het hol.",
   "color": "#A67C52",
   "placements": [
     {
@@ -15,17 +15,17 @@
     },
     {
       "challengeId": "groep-7-c17",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "Bereken 1/2 + 1/3. Geef als breuk (bijv. 5/6).",
       "sortOrder": 1
     },
     {
       "challengeId": "groep-7-c18",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Wat is groter: 2 × 2 × 2 of 3 × 3",
       "sortOrder": 2
     },
     {
       "challengeId": "groep-7-c19",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Welk positief getal × zichzelf geeft 49",
       "sortOrder": 3
     },
     {

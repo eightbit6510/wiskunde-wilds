@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\n2b = 10; 2ℓ = 20.",
+        "explanation": "Stap 2: strategie.\n\n2×breedte = 10; 2×lengte = 20.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "2b = 10; 2ℓ = 20."
+            "label": "2×breedte = 10; 2×lengte = 20."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nℓ = 10.",
+        "explanation": "Stap 3: uitwerken.\n\nLengte = 10.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "ℓ = 10."
+            "label": "Lengte = 10."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nℓ = 10.",
+        "explanation": "Stap 4: het antwoord.\n\nLengte = 10.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-7-c39-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: 2b = 10; 2ℓ = 20.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: 2×breedte = 10; 2×lengte = 20.)",
       "answer": 10,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "ℓ = 10.",
-      "explanation": "ℓ = 10."
+      "hint2": "Lengte = 10.",
+      "explanation": "Lengte = 10."
     },
     {
       "id": "groep-7-c39-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 10? Reken na — wat krijg je?",
       "answer": 10,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "ℓ = 10.",
-      "explanation": "ℓ = 10."
+      "hint2": "Lengte = 10.",
+      "explanation": "Lengte = 10."
     }
   ]
 }

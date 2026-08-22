@@ -77,6 +77,111 @@ function pick<T>(arr: T[], n: number): T {
   return arr[n % arr.length];
 }
 
+const NEUTRAL_PART1_STORIES = [
+  'De Uil fluistert: “Neem je tijd, denk hardop.”',
+  'Op het pad ligt een raadsel te wachten.',
+  'Nog één stap — jij kunt dit.',
+  'Kijk goed naar wat gegeven is.',
+  'Welke strategie past hier?',
+] as const;
+
+const NEUTRAL_PART2_STORIES = [
+  'De Detective fluistert: “Dit is zwaarder — adem in.”',
+  'Nieuw terrein in het nachtbos.',
+  'Even scherp blijven — jij kunt dit.',
+] as const;
+
+/** Story-blurb uit de som zelf (bv. boomstam-regel), zonder VO-shelltekst. */
+function blurbFromChallenge(challenge: ChallengeDefinition): string | undefined {
+  const q = challenge.question.trim();
+  const boom = q.match(/^(Op een boomstam staat: .+?)\.\s*Waar gaat het mis\??$/iu);
+  if (boom) return boom[1];
+
+  const vul = q.match(/^Vul het ontbrekende getal in:\s*(.+)$/iu);
+  if (vul) return `Los op: ${vul[1]}`;
+
+  if (/Welke berekeningen kloppen/i.test(q)) {
+    return 'Vier sporen liggen in het mos. Niet alle sporen zijn echt…';
+  }
+  if (/Letters van|het geheime woord|pootafdruk/i.test(q)) {
+    return 'Een metalen kluis met pootafdruk-slot staat half verstopt onder varens.';
+  }
+  if (/claimen|wie heeft gelijk|welke leerling/i.test(q)) {
+    return 'Drie leerlingen claimen een oplossing. Eén spoor is vals.';
+  }
+
+  if (q.length <= 72 && /[□=×÷+\−\-−]/.test(q) && !/\bx\b/i.test(q)) {
+    return q.endsWith('?') ? q.slice(0, -1).trim() : q;
+  }
+  return undefined;
+}
+
+/** VO-specifieke verhaalregels die niet bij basisschool-sommen horen. */
+function isVoAlgebraStory(story: string): boolean {
+  return (
+    /\d\s*\(\s*x/i.test(story) ||
+    /y\s*=/i.test(story) ||
+    /constante weg/i.test(story) ||
+    /x-termen|haakjes wegwerken|exponenten|grondtal/i.test(story) ||
+    /\bx\b.*=|=\s*.*\bx\b/i.test(story) ||
+    /parabool|parabolen|kwadraat van|wortel van/i.test(story) ||
+    /s meters in t seconden|nesten n bij|per zak voer/i.test(story) ||
+    /steilheid|snijpunt|als x nog 0/i.test(story) ||
+    /algebra,|runen en parabool/i.test(story)
+  );
+}
+
+/** PO-lesintro: strip VO-algebra uit gedeelde verhaal-shells. */
+function basisLessonIntro(storyShell: LessonShell): string {
+  const intro = storyShell.intro ?? '';
+  if (!isVoAlgebraStory(intro) && !/y\s*=|parabool|x²/i.test(intro)) return intro;
+  return `In ${basisAreaName(storyShell)} wachten nieuwe puzzels. Reken rustig, stap voor stap — net als eerder in het avontuur.`;
+}
+
+function basisAreaName(storyShell: LessonShell): string {
+  if (/parabool/i.test(storyShell.areaName)) return 'Maanlichtvallei';
+  return storyShell.areaName;
+}
+
+function lessonPresentation(level: ClassLevel, storyShell: LessonShell) {
+  if (!basisGrade(level)) {
+    return {
+      areaName: storyShell.areaName,
+      intro: storyShell.intro,
+    };
+  }
+  return {
+    areaName: basisAreaName(storyShell),
+    intro: basisLessonIntro(storyShell),
+  };
+}
+
+function placementOptionalStory(
+  level: ClassLevel,
+  storyShell: LessonShell,
+  slot: number,
+  challenge: ChallengeDefinition,
+  n: number,
+  part: 'part1' | 'part2' | 'review',
+): string {
+  const shellStory = storyOptionalStory(storyShell, slot);
+  // PO: som-blurb eerst; shell alleen als die geen VO-algebra lekt.
+  if (basisGrade(level)) {
+    const fromChallenge = blurbFromChallenge(challenge);
+    if (fromChallenge) return fromChallenge;
+    if (shellStory && !isVoAlgebraStory(shellStory)) return shellStory;
+    if (part === 'review') return 'Vertrouwde pootafdruk — bekend terrein uit Deel I.';
+    return pick(part === 'part2' ? [...NEUTRAL_PART2_STORIES] : [...NEUTRAL_PART1_STORIES], n);
+  }
+  if (part === 'review') {
+    return shellStory ?? 'Vertrouwde pootafdruk — bekend terrein uit Deel I.';
+  }
+  return (
+    shellStory ??
+    pick(part === 'part2' ? [...NEUTRAL_PART2_STORIES] : [...NEUTRAL_PART1_STORIES], n)
+  );
+}
+
 function gcd(a: number, b: number): number {
   let x = Math.abs(a);
   let y = Math.abs(b);
@@ -545,18 +650,14 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
       part1HelpById.set(challenge.id, help);
       placements.push({
         challengeId: challenge.id,
-        optionalStory:
-          storyOptionalStory(storyShell, slot) ??
-          pick(
-            [
-              'De Uil fluistert: “Neem je tijd, denk hardop.”',
-              'Op het pad ligt een raadsel te wachten.',
-              'Nog één stap — jij kunt dit.',
-              'Kijk goed naar wat gegeven is.',
-              'Welke strategie past hier?',
-            ],
-            seed(level, challengeIndex),
-          ),
+        optionalStory: placementOptionalStory(
+          level,
+          storyShell,
+          slot,
+          challenge,
+          seed(level, challengeIndex),
+          'part1',
+        ),
         sortOrder: slot,
       });
     }
@@ -565,10 +666,9 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
       id: lessonId,
       adventureId: level,
       order: li,
-      areaName: storyShell.areaName,
+      ...lessonPresentation(level, storyShell),
       title: storyShell.title,
       emoji: storyShell.emoji,
-      intro: storyShell.intro,
       color: storyShell.color,
       outroStory: storyShell.outroStory,
       placements,
@@ -604,9 +704,14 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
         help = { ...sourceHelp, challengeId };
         placements.push({
           challengeId: challenge.id,
-          optionalStory:
-            storyOptionalStory(storyShell, slot) ??
-            'Vertrouwde pootafdruk — bekend terrein uit Deel I.',
+          optionalStory: placementOptionalStory(
+            level,
+            storyShell,
+            slot,
+            challenge,
+            seed(level, p2Index),
+            'review',
+          ),
           reviewOfPart1: true,
           sortOrder: slot,
         });
@@ -673,16 +778,14 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
         help = generatedHelp;
         placements.push({
           challengeId: challenge.id,
-          optionalStory:
-            storyOptionalStory(storyShell, slot) ??
-            pick(
-              [
-                'De Detective fluistert: “Dit is zwaarder — adem in.”',
-                'Nieuw terrein in het nachtbos.',
-                'Even scherp blijven — jij kunt dit.',
-              ],
-              seed(level, globalIndex),
-            ),
+          optionalStory: placementOptionalStory(
+            level,
+            storyShell,
+            slot,
+            challenge,
+            seed(level, globalIndex),
+            'part2',
+          ),
           sortOrder: slot,
         });
       }
@@ -695,10 +798,9 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
       id: lessonId,
       adventureId: `${level}-part2`,
       order: li,
-      areaName: storyShell.areaName,
+      ...lessonPresentation(level, storyShell),
       title: storyShell.title,
       emoji: storyShell.emoji,
-      intro: storyShell.intro,
       color: storyShell.color,
       outroStory: storyShell.outroStory,
       mapTeaser: storyShell.mapTeaser,

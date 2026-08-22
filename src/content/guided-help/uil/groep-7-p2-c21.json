@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Het snijpunt (stapnummer)"
+            "label": "Het kruispunt (stapnummer)"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nMaak een tabel of reken: 3+2n = 7+n.",
+        "explanation": "Stap 2: strategie.\n\nMaak een tabel of reken: 3+2×stap = 7+stap.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Maak een tabel of reken: 3+2n = 7+n."
+            "label": "Maak een tabel of reken: 3+2×stap = 7+stap."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nn = 4.",
+        "explanation": "Stap 3: uitwerken.\n\nStap = 4.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "n = 4."
+            "label": "Stap = 4."
           },
           {
             "id": "no",
@@ -79,7 +79,7 @@
     {
       "id": "groep-7-p2-c21-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Maak een tabel of reken: 3+2n = 7+n.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Maak een tabel of reken: 3+2×stap = 7+stap.)",
       "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Bij stap 4: beide 11.",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 4? Reken na — wat krijg je?",
       "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "n = 4.",
-      "explanation": "n = 4."
+      "hint2": "Stap = 4.",
+      "explanation": "Stap = 4."
     }
   ]
 }

@@ -3,9 +3,9 @@
   "adventureId": "groep-7-part2",
   "order": 2,
   "areaName": "Het Ravenpad",
+  "intro": "Raven cirkelen boven het pad. Onder je voeten liggen formules als veren in de modder — sommige moet je omdraaien, andere moet je uit een verhaal halen. Maak de onbekende vrij.",
   "title": "Veren & formules",
   "emoji": "🪶",
-  "intro": "Raven cirkelen boven het pad. Onder je voeten liggen formules als veren in de modder — sommige moet je omdraaien, andere moet je uit een verhaal halen. Maak de onbekende vrij.",
   "color": "#4A3F5C",
   "outroStory": "De raaf wijst met zijn snavel naar de rivier. Verhoudingen glinsteren op het wateroppervlak.",
   "mapTeaser": "Een raaf laat een stukje formule vallen…",
@@ -17,7 +17,7 @@
     },
     {
       "challengeId": "groep-7-p2-c07",
-      "optionalStory": "Een raaf vliegt s meters in t seconden met snelheid v.",
+      "optionalStory": "Vertrouwde pootafdruk — bekend terrein uit Deel I.",
       "reviewOfPart1": true,
       "sortOrder": 1
     },
@@ -28,7 +28,7 @@
     },
     {
       "challengeId": "groep-7-p2-c09",
-      "optionalStory": "Drie veren kosten p euro per stuk, plus €8 verzendkosten.",
+      "optionalStory": "Temperatuur = 5 × nesten + 20. Bij hoeveel nesten is het 45 °C",
       "reviewOfPart1": true,
       "sortOrder": 3
     },

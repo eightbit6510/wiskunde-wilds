@@ -1,10 +1,10 @@
 {
   "type": "number-input",
   "topic": "grafieken",
-  "question": "Observatorium: y = −x + 8. Wat is de startwaarde (snijpunt y-as)?",
+  "question": "Observatorium: hoogte = −uren + 8. Wat is de startwaarde (bij 0 uren)?",
   "answer": 8,
-  "hint1": "Op de y-as is x = 0.",
-  "hint2": "y = 8.",
+  "hint1": "Vul 0 in voor uren.",
+  "hint2": "Hoogte = 8.",
   "explanation": "Startwaarde = 8.",
   "id": "groep-8-p2-c23",
   "difficulty": 2,

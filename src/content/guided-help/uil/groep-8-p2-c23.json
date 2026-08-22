@@ -2,7 +2,7 @@
   "challengeId": "groep-8-p2-c23",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Waar begint het spoor als x nog 0 is?",
+    "intro": "Waar begint het spoor bij 0 uren?",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Het snijpunt met de y-as"
+            "label": "De startwaarde"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nOp de y-as is x = 0.",
+        "explanation": "Stap 2: strategie.\n\nVul 0 in voor uren.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Op de y-as is x = 0."
+            "label": "Vul 0 in voor uren."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\ny = 8.",
+        "explanation": "Stap 3: uitwerken.\n\nHoogte = 8.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "y = 8."
+            "label": "Hoogte = 8."
           },
           {
             "id": "no",
@@ -79,7 +79,7 @@
     {
       "id": "groep-8-p2-c23-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Op de y-as is x = 0.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Vul 0 in voor uren.)",
       "answer": 8,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Startwaarde = 8.",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 8? Reken na — wat krijg je?",
       "answer": 8,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "y = 8.",
-      "explanation": "y = 8."
+      "hint2": "Hoogte = 8.",
+      "explanation": "Hoogte = 8."
     }
   ]
 }

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "De juiste vorm"
+            "label": "Het juiste patroon"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nKwadraten groeien sneller — geen rechte lijn.",
+        "explanation": "Stap 2: strategie.\n\n1=1×1, 4=2×2, 9=3×3 — de sprongen worden groter.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Kwadraten groeien sneller — geen rechte lijn."
+            "label": "1=1×1, 4=2×2, 9=3×3 — de sprongen worden groter."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nDat is een U-vorm / parabool.",
+        "explanation": "Stap 3: uitwerken.\n\nDat is geen constante toename.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Dat is een U-vorm / parabool."
+            "label": "Dat is geen constante toename."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\ny = x² is een U-vormige parabool.",
+        "explanation": "Stap 4: het antwoord.\n\nKwadraatgetallen groeien sneller dan een rechte lijn.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "Een boog die omhoog buigt (parabool)"
+            "label": "Kwadraatgetallen die steeds sneller groeien"
           },
           {
             "id": "b",
-            "label": "Een rechte lijn"
+            "label": "Een rechte lijn van toenames"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: Een boog die omhoog buigt (parabool).",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is Een boog die omhoog buigt (parabool)."
+        "successFeedback": "Klopt! Antwoord: Kwadraatgetallen die steeds sneller groeien.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Kwadraatgetallen die steeds sneller groeien."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Een boog die omhoog buigt (parabool)"
+    "conclusion": "Pootafdruk! 🐾 Kwadraatgetallen die steeds sneller groeien"
   },
   "bonusVariants": [
     {
@@ -84,20 +84,20 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Een rechte lijn"
+          "label": "Een rechte lijn van toenames"
         },
         {
           "id": "b",
-          "label": "Een boog die omhoog buigt (parabool)"
+          "label": "Kwadraatgetallen die steeds sneller groeien"
         },
         {
           "id": "c",
-          "label": "Een horizontale lijn"
+          "label": "Een rij die steeds hetzelfde blijft"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = x² is een U-vormige parabool.",
-      "explanation": "y = x² is een U-vormige parabool."
+      "hint2": "Kwadraatgetallen groeien sneller dan een rechte lijn.",
+      "explanation": "Kwadraatgetallen groeien sneller dan een rechte lijn."
     },
     {
       "id": "groep-8-c35-b2",
@@ -107,16 +107,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "Een boog die omhoog buigt (parabool)"
+          "label": "Kwadraatgetallen die steeds sneller groeien"
         },
         {
           "id": "no",
-          "label": "Een rechte lijn"
+          "label": "Een rechte lijn van toenames"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = x² is een U-vormige parabool.",
-      "explanation": "y = x² is een U-vormige parabool."
+      "hint2": "Kwadraatgetallen groeien sneller dan een rechte lijn.",
+      "explanation": "Kwadraatgetallen groeien sneller dan een rechte lijn."
     }
   ]
 }

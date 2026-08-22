@@ -3,9 +3,9 @@
   "adventureId": "groep-8",
   "order": 5,
   "areaName": "Het Uilenlab",
+  "intro": "Patronen, tabellen en formules onder maanlicht. Niet alles is lineair…",
   "title": "Het Verbandenlab",
   "emoji": "🦉",
-  "intro": "Patronen, tabellen en formules onder maanlicht. Niet alles is lineair…",
   "color": "#7A6B8A",
   "placements": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "challengeId": "groep-8-c23",
-      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "optionalStory": "Welke situatie past bij: start 10, elke stap −2",
       "sortOrder": 2
     },
     {

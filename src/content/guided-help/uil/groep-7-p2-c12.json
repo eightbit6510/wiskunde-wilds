@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nElke stap +2; bij x=0 is y=3.",
+        "explanation": "Stap 2: strategie.\n\nBij stap 0 is de start 3. Wat komt er bij?",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Elke stap +2; bij x=0 is y=3."
+            "label": "Bij stap 0 is de start 3. Wat komt er bij?"
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\ny = 2 × x + 3.",
+        "explanation": "Stap 3: uitwerken.\n\nVerschil is steeds +2.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "y = 2 × x + 3."
+            "label": "Verschil is steeds +2."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\ny = 2 × x + 3.",
+        "explanation": "Stap 4: het antwoord.\n\nStart 3, elke stap +2.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "y = 2 × x + 3"
+            "label": "Start 3, elke stap +2"
           },
           {
             "id": "b",
-            "label": "y = x + 3"
+            "label": "Start 3, elke stap +1"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: y = 2 × x + 3.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is y = 2 × x + 3."
+        "successFeedback": "Klopt! Antwoord: Start 3, elke stap +2.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Start 3, elke stap +2."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 y = 2 × x + 3"
+    "conclusion": "Pootafdruk! 🐾 Start 3, elke stap +2"
   },
   "bonusVariants": [
     {
@@ -84,24 +84,24 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "y = x + 3"
+          "label": "Start 3, elke stap +1"
         },
         {
           "id": "b",
-          "label": "y = 2 × x + 3"
+          "label": "Start 3, elke stap +2"
         },
         {
           "id": "c",
-          "label": "y = 3 × x"
+          "label": "Start 0, elke stap ×3"
         },
         {
           "id": "d",
-          "label": "y = 2 × x − 3"
+          "label": "Start 3, elke stap −2"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 2 × x + 3.",
-      "explanation": "y = 2 × x + 3."
+      "hint2": "Start 3, elke stap +2.",
+      "explanation": "Start 3, elke stap +2."
     },
     {
       "id": "groep-7-c12-b2",
@@ -111,16 +111,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "y = 2 × x + 3"
+          "label": "Start 3, elke stap +2"
         },
         {
           "id": "no",
-          "label": "y = x + 3"
+          "label": "Start 3, elke stap +1"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 2 × x + 3.",
-      "explanation": "y = 2 × x + 3."
+      "hint2": "Start 3, elke stap +2.",
+      "explanation": "Start 3, elke stap +2."
     }
   ]
 }

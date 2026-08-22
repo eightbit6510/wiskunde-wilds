@@ -1,29 +1,29 @@
 {
   "type": "multiple-choice",
-  "topic": "machten",
-  "question": "Wat is 2³ × 2²? (zelfde grondtal)",
+  "topic": "algebra",
+  "question": "2×2×2 × 2×2 — wat is het product?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "2⁵"
+      "label": "32"
     },
     {
       "id": "b",
-      "label": "2⁶"
+      "label": "16"
     },
     {
       "id": "c",
-      "label": "4⁵"
+      "label": "64"
     },
     {
       "id": "d",
-      "label": "2¹"
+      "label": "10"
     }
   ],
-  "hint1": "Exponenten optellen.",
-  "hint2": "3 + 2 = 5.",
-  "explanation": "2³ × 2² = 2⁵.",
+  "hint1": "Eerst 2×2×2 = 8, dan ×2×2.",
+  "hint2": "8 × 4 = 32.",
+  "explanation": "2×2×2×2×2 = 32.",
   "id": "groep-8-p2-c26",
   "difficulty": 2,
   "starsAvailable": 3,

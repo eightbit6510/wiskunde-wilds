@@ -3,38 +3,38 @@
   "adventureId": "groep-7-part2",
   "order": 8,
   "areaName": "De Nachtelijke Eindmissie",
+  "intro": "In De Nachtelijke Eindmissie wachten nieuwe puzzels. Reken rustig, stap voor stap — net als eerder in het avontuur.",
   "title": "De Maanpoot",
   "emoji": "🌕",
-  "intro": "Diep in de nachttempel wachten vijf kamers — algebra, rivier, sterren, runen en parabool. Daarna drie laatste poorten met alles wat je geleerd hebt. Los elke kamer op en onthul het symbool van de Maanpoot.",
   "color": "#1E2A40",
   "outroStory": "De maanpoot brandt. Het Verborgen Gebied is ontdekt — en jij bent Nachtwoud-verkenner.",
   "mapTeaser": "Vijf kamers. Eén maanpoot. Durf je binnen?",
   "placements": [
     {
       "challengeId": "groep-7-p2-c36",
-      "optionalStory": "De eerste kamer: een slot met x aan beide kanten. Breng alle x naar één kant.",
+      "optionalStory": "Kamer I: 3 × □ + 2 = □ + 10. Wat is □",
       "sortOrder": 0
     },
     {
       "challengeId": "groep-7-p2-c37",
-      "optionalStory": "Een nachtelijke rivier stroomt door kamer II — verdeel het mengsel.",
+      "optionalStory": "Stersteen 2: Wat is 2 × (5 − 1)",
       "reviewOfPart1": true,
       "sortOrder": 1
     },
     {
       "challengeId": "groep-7-p2-c38",
-      "optionalStory": "Twee sterrenlijnen kruisen elkaar — geef de y van het kruispunt.",
+      "optionalStory": "Kamer III: Lijn A: 2×stap + 1. Bij stap 5: wat is de hoogte van A",
       "sortOrder": 2
     },
     {
       "challengeId": "groep-7-p2-c39",
-      "optionalStory": "Runen op de poort: zelfde grondtal, exponenten optellen.",
+      "optionalStory": "Vertrouwde pootafdruk — bekend terrein uit Deel I.",
       "reviewOfPart1": true,
       "sortOrder": 3
     },
     {
       "challengeId": "groep-7-p2-c40",
-      "optionalStory": "De paraboolpoort toont y = x² — kies de juiste inzicht.",
+      "optionalStory": "Stersteen 1: Bereken 10 − 2 × 3",
       "reviewOfPart1": true,
       "sortOrder": 4
     }

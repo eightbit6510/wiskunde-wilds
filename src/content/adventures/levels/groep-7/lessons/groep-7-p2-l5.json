@@ -3,26 +3,26 @@
   "adventureId": "groep-7-part2",
   "order": 5,
   "areaName": "Het Wolvenobservatorium",
+  "intro": "Boven op het observatorium tekenen wolven sporen als lijnen tegen de nachthemel. Twee lijnen kruisen elkaar — waar snijden ze? Lees helling, startwaarde en voorspel wat komen gaat.",
   "title": "Sterrenpaden",
   "emoji": "🐺",
-  "intro": "Boven op het observatorium tekenen wolven sporen als lijnen tegen de nachthemel. Twee lijnen kruisen elkaar — waar snijden ze? Lees helling, startwaarde en voorspel wat komen gaat.",
   "color": "#2A3F4A",
   "mapTeaser": "Twee paden kruisen onder de sterren — waar?",
   "placements": [
     {
       "challengeId": "groep-7-p2-c21",
-      "optionalStory": "Twee lichtlijnen kruisen boven het dak — het snijpunt onthult het geheim.",
+      "optionalStory": "Even scherp blijven — jij kunt dit.",
       "sortOrder": 0
     },
     {
       "challengeId": "groep-7-p2-c22",
-      "optionalStory": "De wolven lezen de steilheid van elke lijn als een spoor in de sneeuw.",
+      "optionalStory": "Vertrouwde pootafdruk — bekend terrein uit Deel I.",
       "reviewOfPart1": true,
       "sortOrder": 1
     },
     {
       "challengeId": "groep-7-p2-c23",
-      "optionalStory": "Waar begint het spoor als x nog 0 is?",
+      "optionalStory": "Observatorium: hoogte = −uren + 8. Wat is de hoogte bij 0 uren",
       "sortOrder": 2
     },
     {

@@ -2,7 +2,7 @@
   "challengeId": "groep-8-c18",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "De gemene valkuil: exponent vs grondtal.",
+    "intro": "Reken beide uit en vergelijk.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n2⁵ = 32 > 5² = 25.",
+        "explanation": "Stap 4: het antwoord.\n\n2×2×2×2×2 = 32 is groter dan 25.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "2⁵ (= 32)"
+            "label": "2×2×2×2×2 (= 32)"
           },
           {
             "id": "b",
-            "label": "5² (= 25)"
+            "label": "5×5 (= 25)"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: 2⁵ (= 32).",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is 2⁵ (= 32)."
+        "successFeedback": "Klopt! Antwoord: 2×2×2×2×2 (= 32).",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 2×2×2×2×2 (= 32)."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2⁵ (= 32)"
+    "conclusion": "Pootafdruk! 🐾 2×2×2×2×2 (= 32)"
   },
   "bonusVariants": [
     {
@@ -84,11 +84,11 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "2⁵ (= 32)"
+          "label": "2×2×2×2×2 (= 32)"
         },
         {
           "id": "b",
-          "label": "5² (= 25)"
+          "label": "5×5 (= 25)"
         },
         {
           "id": "gelijk",
@@ -96,8 +96,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2⁵ = 32 > 5² = 25.",
-      "explanation": "2⁵ = 32 > 5² = 25."
+      "hint2": "2×2×2×2×2 = 32 is groter dan 25.",
+      "explanation": "2×2×2×2×2 = 32 is groter dan 25."
     },
     {
       "id": "groep-8-c18-b2",
@@ -107,16 +107,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "2⁵ (= 32)"
+          "label": "2×2×2×2×2 (= 32)"
         },
         {
           "id": "no",
-          "label": "5² (= 25)"
+          "label": "5×5 (= 25)"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2⁵ = 32 > 5² = 25.",
-      "explanation": "2⁵ = 32 > 5² = 25."
+      "hint2": "2×2×2×2×2 = 32 is groter dan 25.",
+      "explanation": "2×2×2×2×2 = 32 is groter dan 25."
     }
   ]
 }

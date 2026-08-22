@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "De y-waarde op het snijpunt"
+            "label": "De hoogte op het kruispunt"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nx = 5, dan y = 11.",
+        "explanation": "Stap 2: strategie.\n\nEerst: 2×stap + 1 = stap + 6 → stap = 5.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "x = 5, dan y = 11."
+            "label": "Eerst: 2×stap + 1 = stap + 6 → stap = 5."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\ny = 2·5 + 1 = 11.",
+        "explanation": "Stap 3: uitwerken.\n\nHoogte = 2×5 + 1 = 11.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "y = 2·5 + 1 = 11."
+            "label": "Hoogte = 2×5 + 1 = 11."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\ny = 11.",
+        "explanation": "Stap 4: het antwoord.\n\nBij stap 5 is de hoogte 11.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-8-p2-c38-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: x = 5, dan y = 11.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Eerst: 2×stap + 1 = stap + 6 → stap = 5.)",
       "answer": 11,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "y = 11.",
-      "explanation": "y = 11."
+      "hint2": "Bij stap 5 is de hoogte 11.",
+      "explanation": "Bij stap 5 is de hoogte 11."
     },
     {
       "id": "groep-8-p2-c38-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 11? Reken na — wat krijg je?",
       "answer": 11,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "y = 2·5 + 1 = 11.",
-      "explanation": "y = 2·5 + 1 = 11."
+      "hint2": "Hoogte = 2×5 + 1 = 11.",
+      "explanation": "Hoogte = 2×5 + 1 = 11."
     }
   ]
 }

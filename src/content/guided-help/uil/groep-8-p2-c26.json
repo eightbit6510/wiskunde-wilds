@@ -2,7 +2,7 @@
   "challengeId": "groep-8-p2-c26",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Twee runen vermenigvuldigd — wat gebeurt er met de exponenten?",
+    "intro": "Twee runen vermenigvuldigd — stapel de factoren.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "De juiste macht"
+            "label": "Het product"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nExponenten optellen.",
+        "explanation": "Stap 2: strategie.\n\nEerst 2×2×2 = 8, dan ×2×2.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Exponenten optellen."
+            "label": "Eerst 2×2×2 = 8, dan ×2×2."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n3 + 2 = 5.",
+        "explanation": "Stap 3: uitwerken.\n\n8 × 4 = 32.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "3 + 2 = 5."
+            "label": "8 × 4 = 32."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n2³ × 2² = 2⁵.",
+        "explanation": "Stap 4: het antwoord.\n\n2×2×2×2×2 = 32.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "2⁵"
+            "label": "32"
           },
           {
             "id": "b",
-            "label": "2⁶"
+            "label": "16"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: 2⁵.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is 2⁵."
+        "successFeedback": "Klopt! Antwoord: 32.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 32."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2⁵"
+    "conclusion": "Pootafdruk! 🐾 32"
   },
   "bonusVariants": [
     {
@@ -84,24 +84,24 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "2⁵"
+          "label": "32"
         },
         {
           "id": "b",
-          "label": "2⁶"
+          "label": "16"
         },
         {
           "id": "c",
-          "label": "4⁵"
+          "label": "64"
         },
         {
           "id": "d",
-          "label": "2¹"
+          "label": "10"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2³ × 2² = 2⁵.",
-      "explanation": "2³ × 2² = 2⁵."
+      "hint2": "2×2×2×2×2 = 32.",
+      "explanation": "2×2×2×2×2 = 32."
     },
     {
       "id": "groep-8-p2-c26-b2",
@@ -111,16 +111,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "2⁵"
+          "label": "32"
         },
         {
           "id": "no",
-          "label": "2⁶"
+          "label": "16"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2³ × 2² = 2⁵.",
-      "explanation": "2³ × 2² = 2⁵."
+      "hint2": "2×2×2×2×2 = 32.",
+      "explanation": "2×2×2×2×2 = 32."
     }
   ]
 }

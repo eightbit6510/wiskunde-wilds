@@ -3,9 +3,9 @@
   "adventureId": "vwo-4",
   "order": 8,
   "areaName": "De Sterrentempel",
+  "intro": "De tempel vraagt om alles wat je geleerd hebt. Elke oplossing onthult een deel van de eindcode.",
   "title": "Final Challenge",
   "emoji": "⭐",
-  "intro": "De tempel vraagt om alles wat je geleerd hebt. Elke oplossing onthult een deel van de eindcode.",
   "color": "#8B7355",
   "placements": [
     {

@@ -3,9 +3,9 @@
   "adventureId": "havo-4",
   "order": 6,
   "areaName": "De Bergmissie",
+  "intro": "De doorgang naar de bergtop is afgesloten. Vier runestenen moeten geactiveerd worden.",
   "title": "De Grote Wiskundemissie",
   "emoji": "⛰️",
-  "intro": "De doorgang naar de bergtop is afgesloten. Vier runestenen moeten geactiveerd worden.",
   "color": "#4A5D4E",
   "placements": [
     {

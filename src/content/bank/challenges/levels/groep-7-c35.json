@@ -1,25 +1,25 @@
 {
   "type": "multiple-choice",
   "topic": "verbanden",
-  "question": "Welke beschrijving past bij y = x² (x positief)?",
+  "question": "Welke beschrijving past bij 1, 4, 9, 16, 25 (positieve getallen)?",
   "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "Een rechte lijn"
+      "label": "Een rechte lijn van toenames"
     },
     {
       "id": "b",
-      "label": "Een boog die omhoog buigt (parabool)"
+      "label": "Kwadraatgetallen die steeds sneller groeien"
     },
     {
       "id": "c",
-      "label": "Een horizontale lijn"
+      "label": "Een rij die steeds hetzelfde blijft"
     }
   ],
-  "hint1": "Kwadraten groeien sneller — geen rechte lijn.",
-  "hint2": "Dat is een U-vorm / parabool.",
-  "explanation": "y = x² is een U-vormige parabool.",
+  "hint1": "1=1×1, 4=2×2, 9=3×3 — de sprongen worden groter.",
+  "hint2": "Dat is geen constante toename.",
+  "explanation": "Kwadraatgetallen groeien sneller dan een rechte lijn.",
   "id": "groep-7-c35",
   "difficulty": 1,
   "starsAvailable": 3,

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Formule en betekenis matchen"
+            "label": "Regel en betekenis matchen"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nKoppel elke formule aan het juiste beeld.",
+        "explanation": "Stap 2: strategie.\n\nKoppel elke regel aan het juiste beeld.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Koppel elke formule aan het juiste beeld."
+            "label": "Koppel elke regel aan het juiste beeld."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nConstant in y betekent horizontaal.",
+        "explanation": "Stap 3: uitwerken.\n\nConstant betekent horizontaal.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Constant in y betekent horizontaal."
+            "label": "Constant betekent horizontaal."
           },
           {
             "id": "no",
@@ -84,7 +84,7 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Koppel elke formule aan het juiste beeld."
+          "label": "Koppel elke regel aan het juiste beeld."
         },
         {
           "id": "b",
@@ -92,8 +92,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Koppel elke formule aan het juiste beeld.",
-      "explanation": "Koppel elke formule aan het juiste beeld."
+      "hint2": "Koppel elke regel aan het juiste beeld.",
+      "explanation": "Koppel elke regel aan het juiste beeld."
     },
     {
       "id": "groep-8-c14-b2",

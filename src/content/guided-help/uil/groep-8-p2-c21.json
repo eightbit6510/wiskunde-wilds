@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x op het snijpunt"
+            "label": "Het kruispunt (stapnummer)"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nStel 2x + 3 = x + 7.",
+        "explanation": "Stap 2: strategie.\n\nMaak een tabel of reken: 3+2×stap = 7+stap.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Stel 2x + 3 = x + 7."
+            "label": "Maak een tabel of reken: 3+2×stap = 7+stap."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nx = 4.",
+        "explanation": "Stap 3: uitwerken.\n\nStap = 4.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "x = 4."
+            "label": "Stap = 4."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nx = 4.",
+        "explanation": "Stap 4: het antwoord.\n\nBij stap 4: beide 11.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-8-p2-c21-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Stel 2x + 3 = x + 7.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Maak een tabel of reken: 3+2×stap = 7+stap.)",
       "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 4.",
-      "explanation": "x = 4."
+      "hint2": "Bij stap 4: beide 11.",
+      "explanation": "Bij stap 4: beide 11."
     },
     {
       "id": "groep-8-p2-c21-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 4? Reken na — wat krijg je?",
       "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 4.",
-      "explanation": "x = 4."
+      "hint2": "Stap = 4.",
+      "explanation": "Stap = 4."
     }
   ]
 }

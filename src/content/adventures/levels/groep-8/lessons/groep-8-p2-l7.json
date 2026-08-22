@@ -3,9 +3,9 @@
   "adventureId": "groep-8-part2",
   "order": 7,
   "areaName": "Het Doolhof van Patronen",
+  "intro": "Elke gang in het doolhof verandert het patroon. Getallenreeksen, figuren van stenen, ontbrekende waarden — en soms is één tegenvoorbeeld genoeg om een stelling te ontkrachten.",
   "title": "Puzzelsporen",
   "emoji": "🧩",
-  "intro": "Elke gang in het doolhof verandert het patroon. Getallenreeksen, figuren van stenen, ontbrekende waarden — en soms is één tegenvoorbeeld genoeg om een stelling te ontkrachten.",
   "color": "#3F4A3A",
   "mapTeaser": "Elke bocht verandert het patroon…",
   "placements": [
@@ -27,13 +27,13 @@
     },
     {
       "challengeId": "groep-8-p2-c34",
-      "optionalStory": "Eén steen ontbreekt in de rij — welke past?",
+      "optionalStory": "Klopt dit? “3×3 geeft hetzelfde als (−3)×(−3).”",
       "reviewOfPart1": true,
       "sortOrder": 3
     },
     {
       "challengeId": "groep-8-p2-c35",
-      "optionalStory": "Eén verkeerd spoor kan de hele stelling tenietdoen.",
+      "optionalStory": "Bij 3×3 en (−3)×(−3): wat is het resultaat",
       "reviewOfPart1": true,
       "sortOrder": 4
     }

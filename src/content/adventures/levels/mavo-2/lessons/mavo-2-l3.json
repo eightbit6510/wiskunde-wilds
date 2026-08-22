@@ -3,9 +3,9 @@
   "adventureId": "mavo-2",
   "order": 3,
   "areaName": "De Lynx-uitkijk",
+  "intro": "Vanaf de uitkijk zie je sporen als lijnen in de lucht. Welke grafiek hoort bij welk verhaal?",
   "title": "Grafiekenjacht",
   "emoji": "🐈",
-  "intro": "Vanaf de uitkijk zie je sporen als lijnen in de lucht. Welke grafiek hoort bij welk verhaal?",
   "color": "#6B8F71",
   "placements": [
     {

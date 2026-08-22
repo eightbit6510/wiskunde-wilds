@@ -3,9 +3,9 @@
   "adventureId": "groep-6",
   "order": 7,
   "areaName": "Maanlichtvallei",
+  "intro": "Je hebt het bos bijna doorkruist. Vanaf hier kun je alvast zien wat er achter de volgende heuvel ligt.",
   "title": "Patronen in maanlicht",
   "emoji": "🌙",
-  "intro": "Je hebt het bos bijna doorkruist. Vanaf hier kun je alvast zien wat er achter de volgende heuvel ligt.",
   "color": "#6B5B8A",
   "placements": [
     {
@@ -15,17 +15,17 @@
     },
     {
       "challengeId": "groep-6-c32",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Rij 1, 4, 9, 16. Wat gebeurt er als je bij elk getal +2 doet",
       "sortOrder": 1
     },
     {
       "challengeId": "groep-6-c33",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Wat is 4 × 4",
       "sortOrder": 2
     },
     {
       "challengeId": "groep-6-c34",
-      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "optionalStory": "Klopt dit? “3×3 geeft hetzelfde als (−3)×(−3).”",
       "sortOrder": 3
     },
     {

@@ -1,29 +1,29 @@
 {
   "type": "multiple-choice",
   "topic": "verbanden",
-  "question": "Runesteen Verbanden: tabel x: 0,1,2,3 en y: 2,5,8,11. Welke formule?",
+  "question": "Runesteen Verbanden: stap 0→2, 1→5, 2→8, 3→11. Welke regel?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "y = 3x + 2"
+      "label": "Start 2, elke stap +3"
     },
     {
       "id": "b",
-      "label": "y = 3x + 1"
+      "label": "Start 2, elke stap +2"
     },
     {
       "id": "c",
-      "label": "y = 2x + 3"
+      "label": "Start 3, elke stap +2"
     },
     {
       "id": "d",
-      "label": "y = 4x + 1"
+      "label": "Start 1, elke stap +4"
     }
   ],
-  "hint1": "Verschil in y is steeds +3.",
-  "hint2": "y = 3x + 2.",
-  "explanation": "y = 3x + 2.",
+  "hint1": "Verschil in de uitkomst is steeds +3.",
+  "hint2": "Start 2, elke stap +3.",
+  "explanation": "Start 2, elke stap +3.",
   "id": "groep-8-p2-c29",
   "difficulty": 1,
   "starsAvailable": 3,

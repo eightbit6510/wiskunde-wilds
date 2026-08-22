@@ -3,9 +3,9 @@
   "adventureId": "groep-8",
   "order": 1,
   "areaName": "Het Vossenpad",
+  "intro": "Er kloppen vreemde berekeningen niet in het Vossenwoud. Kun jij ontdekken waar het misgaat?",
   "title": "De Wiskundedetective",
   "emoji": "🦊",
-  "intro": "Er kloppen vreemde berekeningen niet in het Vossenwoud. Kun jij ontdekken waar het misgaat?",
   "color": "#C4784A",
   "placements": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "challengeId": "groep-8-c02",
-      "optionalStory": "Op een boomstam staat: 3(x + 4) = 3x + 4",
+      "optionalStory": "Op een boomstam staat: oppervlakte 6 × 4 = 20",
       "sortOrder": 1
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "challengeId": "groep-8-c04",
-      "optionalStory": "De vos fluistert: “Eerst de constante weg, daarna delen.”",
+      "optionalStory": "Los op: □ × 3 + 4 = 19",
       "sortOrder": 3
     },
     {

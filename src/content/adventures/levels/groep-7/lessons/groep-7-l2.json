@@ -3,9 +3,9 @@
   "adventureId": "groep-7",
   "order": 2,
   "areaName": "De Wolvenkluis",
+  "intro": "Een oude kluis wordt beschermd door formules. Elke juiste bewerking opent één slot.",
   "title": "De Formulekraker",
   "emoji": "🐺",
-  "intro": "Een oude kluis wordt beschermd door formules. Elke juiste bewerking opent één slot.",
   "color": "#5B6B7A",
   "placements": [
     {
@@ -15,17 +15,17 @@
     },
     {
       "challengeId": "groep-7-c07",
-      "optionalStory": "Tweede slot: snelheid van een wolf over s meters in t seconden.",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
       "sortOrder": 1
     },
     {
       "challengeId": "groep-7-c08",
-      "optionalStory": "Een dierenopvang betaalt €12 vaste kosten plus €4 per zak voer.",
+      "optionalStory": "Nog één stap — jij kunt dit.",
       "sortOrder": 2
     },
     {
       "challengeId": "groep-7-c09",
-      "optionalStory": "Derde slot: hoeveel nesten n bij temperatuur T?",
+      "optionalStory": "Temperatuur = 5 × nesten + 20. Bij hoeveel nesten is het 45 °C",
       "sortOrder": 3
     },
     {

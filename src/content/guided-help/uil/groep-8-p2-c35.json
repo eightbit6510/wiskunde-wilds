@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nPositief en negatief kunnen dezelfde y geven.",
+        "explanation": "Stap 3: uitwerken.\n\nPositief en negatief kunnen hetzelfde antwoord geven.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Positief en negatief kunnen dezelfde y geven."
+            "label": "Positief en negatief kunnen hetzelfde antwoord geven."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nBeide geven y = 9.",
+        "explanation": "Stap 4: het antwoord.\n\nBeide geven 9.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -96,8 +96,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Beide geven y = 9.",
-      "explanation": "Beide geven y = 9."
+      "hint2": "Beide geven 9.",
+      "explanation": "Beide geven 9."
     },
     {
       "id": "groep-8-c31-b2",
@@ -115,8 +115,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Beide geven y = 9.",
-      "explanation": "Beide geven y = 9."
+      "hint2": "Beide geven 9.",
+      "explanation": "Beide geven 9."
     }
   ]
 }

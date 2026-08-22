@@ -1,16 +1,16 @@
 {
   "type": "multiple-choice",
-  "topic": "machten",
-  "question": "Wat is groter: 2⁵ of 5²? (2⁵ = 2×2×2×2×2)",
+  "topic": "algebra",
+  "question": "Wat is groter: 2×2×2×2×2 of 5×5?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "2⁵ (= 32)"
+      "label": "2×2×2×2×2 (= 32)"
     },
     {
       "id": "b",
-      "label": "5² (= 25)"
+      "label": "5×5 (= 25)"
     },
     {
       "id": "gelijk",
@@ -19,7 +19,7 @@
   ],
   "hint1": "Reken beide uit.",
   "hint2": "32 > 25.",
-  "explanation": "2⁵ = 32 > 5² = 25.",
+  "explanation": "2×2×2×2×2 = 32 is groter dan 25.",
   "id": "groep-8-c18",
   "difficulty": 1,
   "starsAvailable": 3,

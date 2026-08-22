@@ -1,11 +1,11 @@
 {
   "type": "multiple-choice",
   "topic": "verbanden",
-  "question": "Welk patroon zie je? Welke formule past erbij?",
+  "question": "Tabel: stap 0→3, 1→5, 2→7, 3→9. Welke regel past het best?",
   "tableData": {
     "headers": [
-      "x",
-      "y"
+      "stap",
+      "punten"
     ],
     "rows": [
       [
@@ -30,24 +30,24 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "y = x + 3"
+      "label": "Punten = stap + 3"
     },
     {
       "id": "b",
-      "label": "y = 2x + 3"
+      "label": "Punten = 2 × stap + 3"
     },
     {
       "id": "c",
-      "label": "y = 3x"
+      "label": "Punten = 3 × stap"
     },
     {
       "id": "d",
-      "label": "y = 2x − 3"
+      "label": "Punten = 2 × stap − 3"
     }
   ],
-  "hint1": "Elke stap +2 in y. Start bij y=3.",
-  "hint2": "y = 2x + 3.",
-  "explanation": "y = 2x + 3.",
+  "hint1": "Elke stap +2 in de punten. Start bij 3.",
+  "hint2": "Controleer bij stap 2: 2×2+3 = 7.",
+  "explanation": "Punten = 2 × stap + 3.",
   "id": "groep-8-p2-c12",
   "difficulty": 1,
   "starsAvailable": 3,

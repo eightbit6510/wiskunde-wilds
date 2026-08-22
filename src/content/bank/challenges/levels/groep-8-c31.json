@@ -1,7 +1,7 @@
 {
   "type": "multiple-choice",
   "topic": "verbanden",
-  "question": "Bij y = x²: wat is y als x = 3 en als x = −3?",
+  "question": "Bij 3×3 en (−3)×(−3): wat is het resultaat?",
   "answer": "a",
   "answerOptions": [
     {
@@ -18,8 +18,8 @@
     }
   ],
   "hint1": "(−3)×(−3) = 9 en 3×3 = 9.",
-  "hint2": "Positief en negatief kunnen dezelfde y geven.",
-  "explanation": "Beide geven y = 9.",
+  "hint2": "Positief en negatief kunnen hetzelfde antwoord geven.",
+  "explanation": "Beide geven 9.",
   "id": "groep-8-c31",
   "difficulty": 2,
   "starsAvailable": 3,

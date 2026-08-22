@@ -3,9 +3,9 @@
   "adventureId": "vwo-2-part2",
   "order": 4,
   "areaName": "De Paraboolvallei",
+  "intro": "In de vallei tekent maanlicht parabolen in de lucht. y = x² — een nieuwe vorm, geen rechte lijn meer. Ontdek de symmetrie, de verschuivingen en wat er gebeurt als x negatief wordt.",
   "title": "De bocht van de maan",
   "emoji": "🌙",
-  "intro": "In de vallei tekent maanlicht parabolen in de lucht. y = x² — een nieuwe vorm, geen rechte lijn meer. Ontdek de symmetrie, de verschuivingen en wat er gebeurt als x negatief wordt.",
   "color": "#5B4A7A",
   "mapTeaser": "Lijnen buigen omhoog als bogen in de mist…",
   "placements": [

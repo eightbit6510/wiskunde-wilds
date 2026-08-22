@@ -1,11 +1,11 @@
 {
   "type": "multiple-choice",
   "topic": "verbanden",
-  "question": "Tabel x: 0,1,2,3 en y: 3,5,7,9. Welke beschrijving past?",
+  "question": "Tabel: stap 0→3, 1→5, 2→7, 3→9. Welke regel past?",
   "tableData": {
     "headers": [
-      "x",
-      "y"
+      "stap",
+      "punten"
     ],
     "rows": [
       [
@@ -30,24 +30,24 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "y = x + 3"
+      "label": "Start 3, elke stap +1"
     },
     {
       "id": "b",
-      "label": "y = 2 × x + 3"
+      "label": "Start 3, elke stap +2"
     },
     {
       "id": "c",
-      "label": "y = 3 × x"
+      "label": "Start 0, elke stap ×3"
     },
     {
       "id": "d",
-      "label": "y = 2 × x − 3"
+      "label": "Start 3, elke stap −2"
     }
   ],
-  "hint1": "Elke stap +2; bij x=0 is y=3.",
-  "hint2": "y = 2 × x + 3.",
-  "explanation": "y = 2 × x + 3.",
+  "hint1": "Bij stap 0 is de start 3. Wat komt er bij?",
+  "hint2": "Verschil is steeds +2.",
+  "explanation": "Start 3, elke stap +2.",
   "id": "groep-7-p2-c12",
   "difficulty": 1,
   "starsAvailable": 3,
