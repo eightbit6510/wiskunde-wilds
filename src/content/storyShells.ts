@@ -50,7 +50,7 @@ export const SIDE_STORY_IDS = [
 
 export type StoryArc = 'part1' | 'part2' | 'side';
 
-export function getStoryLessonShell(arc: StoryArc, id: string): LessonShell | undefined {
+export function getStoryLessonShell(_arc: StoryArc, id: string): LessonShell | undefined {
   return STORY_SHELLS[id];
 }
 
