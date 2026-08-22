@@ -2,11 +2,11 @@
   "id": "havo-5-l5",
   "adventureId": "havo-5",
   "order": 5,
-  "areaName": "Kwadratisch kloof",
-  "title": "Kwadratisch",
-  "emoji": "🏔️",
-  "intro": "Parabolen en kwadratische vergelijkingen.",
-  "color": "#C49A6C",
+  "areaName": "Het Uilenlab",
+  "title": "Het Verbandenlab",
+  "emoji": "🦉",
+  "intro": "Patronen, tabellen en formules onder maanlicht. Niet alles is lineair…",
+  "color": "#7A6B8A",
   "placements": [
     {
       "challengeId": "havo-5-c21",

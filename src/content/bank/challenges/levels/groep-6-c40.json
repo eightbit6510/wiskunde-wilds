@@ -1,14 +1,36 @@
 {
   "id": "groep-6-c40",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "code-crack",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 2 rode snoepjes horen 3 blauwe. Je hebt 8 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 12,
-  "hint1": "Deel 8 door 2.",
-  "hint2": "Dat getal × 3 = 12.",
-  "explanation": "8 ÷ 2 = 4.\n4 × 3 = 12.",
+  "question": "De tempeldeur wacht op een geheim woord. Los de sommen op — de antwoorden geven letters.",
+  "secretWord": "STAR",
+  "codeItems": [
+    {
+      "expression": "12 − 5",
+      "answer": 7,
+      "letter": "S"
+    },
+    {
+      "expression": "3 × 2",
+      "answer": 6,
+      "letter": "T"
+    },
+    {
+      "expression": "20 ÷ 4",
+      "answer": 5,
+      "letter": "A"
+    },
+    {
+      "expression": "9 − 6",
+      "answer": 3,
+      "letter": "R"
+    }
+  ],
+  "hint1": "Werk elke som uit. Het antwoord hoort bij een letter.",
+  "hint2": "Antwoorden in volgorde → letters van STAR.",
+  "explanation": "De code is STAR!",
   "classLevels": [
     "groep-6"
   ]

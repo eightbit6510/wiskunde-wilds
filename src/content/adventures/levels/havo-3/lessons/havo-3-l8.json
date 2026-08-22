@@ -2,15 +2,15 @@
   "id": "havo-3-l8",
   "adventureId": "havo-3",
   "order": 8,
-  "areaName": "Examenklif",
-  "title": "Alles samen",
-  "emoji": "🦉",
-  "intro": "Mix van onderwerpen — examenniveau.",
-  "color": "#9B6B8A",
+  "areaName": "De Sterrentempel",
+  "title": "Final Challenge",
+  "emoji": "⭐",
+  "intro": "De tempel vraagt om alles wat je geleerd hebt. Elke oplossing onthult een deel van de eindcode.",
+  "color": "#8B7355",
   "placements": [
     {
       "challengeId": "havo-3-c36",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Eerste stersteen: let op de volgorde van bewerkingen.",
       "sortOrder": 0
     },
     {

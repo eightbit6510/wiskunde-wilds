@@ -2,15 +2,15 @@
   "id": "havo-4-l6",
   "adventureId": "havo-4",
   "order": 6,
-  "areaName": "Statistiekstation",
-  "title": "Statistiek",
-  "emoji": "📉",
-  "intro": "Gemiddelde, mediaan, spreiding.",
-  "color": "#4A7C59",
+  "areaName": "De Bergmissie",
+  "title": "De Grote Wiskundemissie",
+  "emoji": "⛰️",
+  "intro": "De doorgang naar de bergtop is afgesloten. Vier runestenen moeten geactiveerd worden.",
+  "color": "#4A5D4E",
   "placements": [
     {
       "challengeId": "havo-4-c26",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "De eerste steen gloeit zwak…",
       "sortOrder": 0
     },
     {

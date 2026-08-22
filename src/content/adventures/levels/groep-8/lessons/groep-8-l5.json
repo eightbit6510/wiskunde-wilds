@@ -2,11 +2,11 @@
   "id": "groep-8-l5",
   "adventureId": "groep-8",
   "order": 5,
-  "areaName": "Vergelijkingenbrug",
-  "title": "Onbekende vinden",
-  "emoji": "🌉",
-  "intro": "Er ontbreekt een getal. Kun jij de brug over?",
-  "color": "#C49A6C",
+  "areaName": "Het Uilenlab",
+  "title": "Het Verbandenlab",
+  "emoji": "🦉",
+  "intro": "Patronen, tabellen en formules onder maanlicht. Niet alles is lineair…",
+  "color": "#7A6B8A",
   "placements": [
     {
       "challengeId": "groep-8-c21",

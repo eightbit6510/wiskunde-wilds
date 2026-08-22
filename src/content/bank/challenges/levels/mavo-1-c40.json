@@ -1,14 +1,36 @@
 {
   "id": "mavo-1-c40",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "code-crack",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 3:5. De eerste deelgroep is 15. Hoe groot is de tweede?",
-  "answer": 25,
-  "hint1": "Deel 15 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 25.",
-  "explanation": "15 ÷ 3 = 5.\n5 × 5 = 25.",
+  "question": "De tempeldeur wacht op een geheim woord. Los de sommen op — de antwoorden geven letters.",
+  "secretWord": "STAR",
+  "codeItems": [
+    {
+      "expression": "−2 + 9",
+      "answer": 7,
+      "letter": "S"
+    },
+    {
+      "expression": "3 × 2 − 4",
+      "answer": 2,
+      "letter": "T"
+    },
+    {
+      "expression": "24 ÷ 6",
+      "answer": 4,
+      "letter": "A"
+    },
+    {
+      "expression": "−1 + 4",
+      "answer": 3,
+      "letter": "R"
+    }
+  ],
+  "hint1": "Werk elke som uit. Het antwoord hoort bij een letter.",
+  "hint2": "Antwoorden in volgorde → letters van STAR.",
+  "explanation": "De code is STAR!",
   "classLevels": [
     "mavo-1"
   ]

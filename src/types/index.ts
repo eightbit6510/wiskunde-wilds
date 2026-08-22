@@ -196,6 +196,10 @@ export interface Lesson {
   challenges: Challenge[];
   /** Optional: part1 | part2 | side | jaargroep-id */
   adventureId?: import('./content').AdventureId;
+  /** Legacy story id (vossenpad, bergmissie, …) voor UI-hooks */
+  storyLessonId?: string;
+  /** Deel van het bos-avontuur */
+  storyArc?: 'part1' | 'part2' | 'side';
   /** Story blurb shown after completing this chapter */
   outroStory?: string;
   /** Short map teaser (esp. when locked / preview) */

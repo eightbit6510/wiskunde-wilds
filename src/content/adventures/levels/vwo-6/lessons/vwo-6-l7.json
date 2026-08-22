@@ -2,11 +2,11 @@
   "id": "vwo-6-l7",
   "adventureId": "vwo-6",
   "order": 7,
-  "areaName": "Calculus voorproef",
-  "title": "Grenzen & hellingen",
-  "emoji": "📈",
-  "intro": "Richtingscoëfficiënt en verandering.",
-  "color": "#7A6B5A",
+  "areaName": "Maanlichtvallei",
+  "title": "Een blik op VWO 3",
+  "emoji": "🌙",
+  "intro": "Je hebt het bos bijna doorkruist. Vanaf hier kun je alvast zien wat er achter de volgende heuvel ligt.",
+  "color": "#6B5B8A",
   "placements": [
     {
       "challengeId": "vwo-6-c31",

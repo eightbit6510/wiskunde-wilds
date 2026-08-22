@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c02",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Er ontbreekt een getal. Tel terug: van het totaal haal je het bekende deel af.",
+    "intro": "Lees de uitwerking stap voor stap.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Het ontbrekende getal zoeken in 2 + ? = 8"
+            "label": "Lees de opdracht rustig"
           },
           {
             "id": "wrong",
-            "label": "Alle getallen bij elkaar optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: wat weten we?\n\n2 + ? moet samen 8 worden.",
-        "question": "Moet het ontbrekende getal kleiner zijn dan 8?",
+        "explanation": "Neem de tijd. Geen haast.",
+        "question": "Snap je wat je moet doen?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, het is een stukje van 8"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee, groter dan 8"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
-        "retryFeedback": "Samen moet het 8 worden."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de vraag nog eens rustig."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\nTrek 2 af van 8.",
-        "question": "Wat is 8 − 2?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "m",
-            "label": "6"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "w",
-            "label": "8"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "m",
-        "successFeedback": "Juist! Het ontbrekende getal is 6.",
-        "retryFeedback": "Trek 2 af van 8."
-      },
-      {
-        "explanation": "Stap 4: controleer.",
-        "question": "Tel je antwoord op bij 2. Kom je op 8?",
-        "options": [
-          {
-            "id": "yes",
-            "label": "Ja, dat klopt"
-          },
-          {
-            "id": "no",
-            "label": "Nee"
-          }
-        ],
-        "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het ontbrekende getal is 6.",
-        "retryFeedback": "Reken na: antwoord + 2 = 8."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 6."
+    "conclusion": "Lees de uitwerking stap voor stap."
   },
   "bonusVariants": [
     {
-      "id": "groep-7-c02-b1",
-      "type": "number-input",
-      "question": "7 + 2 = ?",
-      "answer": 9,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "7 + 2 = 9.",
-      "explanation": "7 + 2 = 9."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Even oefenen?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-7-c02-b2",
-      "type": "number-input",
-      "question": "? + 2 = 8",
-      "answer": 6,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "8 − 2 = 6.",
-      "explanation": "8 − 2 = 6."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

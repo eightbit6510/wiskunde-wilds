@@ -2,11 +2,11 @@
   "id": "vwo-1-l4",
   "adventureId": "vwo-1",
   "order": 4,
-  "areaName": "Kwadratisch domein",
-  "title": "Kwadratisch",
-  "emoji": "👑",
-  "intro": "Parabolen, discriminant, abc-formule.",
-  "color": "#8B6B9E",
+  "areaName": "Konijnenhol",
+  "title": "De Breukenbattle",
+  "emoji": "🐇",
+  "intro": "Snel, speels en een beetje common: breuken, machten en wortels in het hol.",
+  "color": "#A67C52",
   "placements": [
     {
       "challengeId": "vwo-1-c16",
@@ -30,7 +30,7 @@
     },
     {
       "challengeId": "vwo-1-c20",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "De konijnenkoning daagt je uit…",
       "sortOrder": 4
     }
   ]

@@ -1,14 +1,50 @@
 {
   "id": "groep-6-c20",
-  "type": "number-input",
-  "topic": "vergelijkingen",
-  "difficulty": 1,
+  "type": "boss-battle",
+  "topic": "breuken",
+  "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Er ontbreekt een getal: ? + 5 = 7. Wat is het ontbrekende getal?",
-  "answer": 2,
-  "hint1": "Tel terug: trek het bekende getal af van het totaal.",
-  "hint2": "7 − 5 = 2",
-  "explanation": "7 − 5 = 2",
+  "question": "Boss battle! De konijnenkoning daagt je uit — drie snelle vragen.",
+  "bossQuestions": [
+    {
+      "id": "b1",
+      "question": "Wat is 1/2 + 1/4?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "label": "3/4"
+        },
+        {
+          "id": "b",
+          "label": "2/6"
+        },
+        {
+          "id": "c",
+          "label": "1/3"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "1/2 + 1/4 = 2/4 + 1/4 = 3/4"
+    },
+    {
+      "id": "b2",
+      "question": "Is 1/3 groter dan 1/4?",
+      "type": "true-false",
+      "correctAnswer": true,
+      "explanation": "1/3 is groter dan 1/4."
+    },
+    {
+      "id": "b3",
+      "question": "2 × 6 = ?",
+      "type": "number-input",
+      "correctAnswer": 12,
+      "explanation": "2 × 6 = 12"
+    }
+  ],
+  "hint1": "Drie vragen achter elkaar. Adem in tussen elke vraag.",
+  "hint2": "Je hoeft niet perfect te zijn — lees elke vraag rustig.",
+  "explanation": "De konijnenkoning buigt voor je — goed gedaan!",
   "classLevels": [
     "groep-6"
   ]

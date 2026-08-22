@@ -2,11 +2,11 @@
   "id": "havo-2-l4",
   "adventureId": "havo-2",
   "order": 4,
-  "areaName": "Grafiekenhaven",
-  "title": "Grafieken",
-  "emoji": "⚓",
-  "intro": "Lezen, tekenen, interpreteren.",
-  "color": "#8B6B9E",
+  "areaName": "Konijnenhol",
+  "title": "De Breukenbattle",
+  "emoji": "🐇",
+  "intro": "Snel, speels en een beetje common: breuken, machten en wortels in het hol.",
+  "color": "#A67C52",
   "placements": [
     {
       "challengeId": "havo-2-c16",
@@ -30,7 +30,7 @@
     },
     {
       "challengeId": "havo-2-c20",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "De konijnenkoning daagt je uit…",
       "sortOrder": 4
     }
   ]

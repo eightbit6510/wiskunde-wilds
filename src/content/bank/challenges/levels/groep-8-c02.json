@@ -1,15 +1,28 @@
 {
   "id": "groep-8-c02",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "spot-error",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 6 = 13. Wat is x?",
-  "answer": 7,
-  "hint1": "Haal 6 naar de andere kant: x = 13 − 6.",
-  "hint2": "x = 13 − 6",
-  "optionalWorkedFirstStep": "x + 6 = 13 → x = 13 − 6",
-  "explanation": "x + 6 = 13\nx = 13 − 6 = 7",
+  "question": "Op een boomstam staat een uitwerking. Waar gaat het mis?",
+  "answer": "bij3",
+  "answerOptions": [
+    {
+      "id": "bijx",
+      "label": "Bij de x"
+    },
+    {
+      "id": "bij3",
+      "label": "Bij de +3"
+    },
+    {
+      "id": "geen",
+      "label": "Er is geen fout"
+    }
+  ],
+  "hint1": "Bij haakjes wegwerken moet de factor buiten de haakjes met élke term vermenigvuldigd worden.",
+  "hint2": "Kijk naar: 2(x + 3) = 2x + 3",
+  "explanation": "De fout zat bij de +3 — de factor moet met alle termen vermenigvuldigd worden.",
   "classLevels": [
     "groep-8"
   ]

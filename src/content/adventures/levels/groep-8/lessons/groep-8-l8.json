@@ -2,15 +2,15 @@
   "id": "groep-8-l8",
   "adventureId": "groep-8",
   "order": 8,
-  "areaName": "Uilentop",
-  "title": "Alles samen",
-  "emoji": "🦉",
-  "intro": "Op de top combineer je wat je geleerd hebt. De Uil gelooft in je.",
-  "color": "#9B6B8A",
+  "areaName": "De Sterrentempel",
+  "title": "Final Challenge",
+  "emoji": "⭐",
+  "intro": "De tempel vraagt om alles wat je geleerd hebt. Elke oplossing onthult een deel van de eindcode.",
+  "color": "#8B7355",
   "placements": [
     {
       "challengeId": "groep-8-c36",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Eerste stersteen: let op de volgorde van bewerkingen.",
       "sortOrder": 0
     },
     {

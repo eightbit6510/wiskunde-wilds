@@ -2,11 +2,11 @@
   "id": "vwo-5-l5",
   "adventureId": "vwo-5",
   "order": 5,
-  "areaName": "Redeneerfort",
-  "title": "Bewijzen & redeneren",
-  "emoji": "🏰",
-  "intro": "Strikte logica en exacte redeneringen.",
-  "color": "#C49A6C",
+  "areaName": "Het Uilenlab",
+  "title": "Het Verbandenlab",
+  "emoji": "🦉",
+  "intro": "Patronen, tabellen en formules onder maanlicht. Niet alles is lineair…",
+  "color": "#7A6B8A",
   "placements": [
     {
       "challengeId": "vwo-5-c21",

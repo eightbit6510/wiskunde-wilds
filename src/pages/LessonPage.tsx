@@ -67,16 +67,18 @@ export function LessonPage({
   const adventure = lesson ? getAdventureForLesson(lesson.id) : 'part1';
   const isPart2 = adventure === 'part2' || lesson?.adventureId === 'part2' || lesson?.adventureId === 'side';
 
+  const storyId = lesson?.storyLessonId ?? lessonId;
+
   const runeLit = useMemo(() => {
-    if (!lesson || lesson.id !== 'bergmissie') return [];
+    if (!lesson || storyId !== 'bergmissie') return [];
     return lesson.challenges.map((c) => progress.completedChallenges.includes(c.id));
-  }, [lesson, progress.completedChallenges]);
+  }, [lesson, progress.completedChallenges, storyId]);
 
   const nightRooms = useMemo(() => {
-    if (!lesson || lesson.id !== 'nachtmissie') return [];
+    if (!lesson || storyId !== 'nachtmissie') return [];
     // First 5 rooms light the moon-paw symbol
     return lesson.challenges.slice(0, 5).map((c) => progress.completedChallenges.includes(c.id));
-  }, [lesson, progress.completedChallenges]);
+  }, [lesson, progress.completedChallenges, storyId]);
 
   const topicInsight = useMemo(() => {
     const entries = Object.entries(progress.topicStats).map(([topic, stats]) => {
@@ -118,7 +120,7 @@ export function LessonPage({
   }
 
   const lessonStars = prog?.stars ?? 0;
-  const gateOpen = lesson.id === 'bergmissie' && runeLit.every(Boolean);
+  const gateOpen = storyId === 'bergmissie' && runeLit.every(Boolean);
   const owlExternallySolved = owlSolvedIds.includes(challenge.id);
   const anim = settings.animationsEnabled && !settings.calmMode;
   const displayOrder = lesson.order > 100 ? lesson.order - 100 : lesson.order;
@@ -132,7 +134,11 @@ export function LessonPage({
     badgeQueue.length > 0 ? (badges.find((b) => b.id === badgeQueue[0]) ?? null) : null;
 
   const finishAfterCelebration = (shouldNavigate: boolean) => {
-    if (lesson.id === 'sterrentempel' && progress.part2Unlocked && !progress.part2UnlockSeen) {
+    if (
+      storyId === 'sterrentempel' &&
+      progress.part2Unlocked &&
+      !progress.part2UnlockSeen
+    ) {
       setShowPart2Reveal(true);
       return;
     }
@@ -164,17 +170,17 @@ export function LessonPage({
   };
 
   const completionTitle =
-    lesson.id === 'nachtmissie'
+    storyId === 'nachtmissie'
       ? 'Nachtwoud Ontdekt'
-      : lesson.id === 'sterrentempel'
+      : storyId === 'sterrentempel'
         ? 'Boswiskundige Level Up!'
         : `${lesson.areaName} voltooid!`;
 
   const completionSubtitle =
-    lesson.id === 'nachtmissie'
+    storyId === 'nachtmissie'
       ? 'Je hebt het Verborgen Gebied doorkruist. De maanpoot brandt helder.'
-      : lesson.id === 'sterrentempel'
-        ? 'Je bent klaar om VWO 3 binnen te wandelen.'
+      : storyId === 'sterrentempel'
+        ? 'Achter de tempel opent een donker pad — Deel II wacht.'
         : lesson.outroStory ?? 'Mooi spoor achtergelaten. Klaar voor het volgende gebied?';
 
   return (
@@ -225,7 +231,7 @@ export function LessonPage({
         </p>
       )}
 
-      {lesson.id === 'bergmissie' && (
+      {storyId === 'bergmissie' && (
         <>
           <div className="rune-row" aria-label="Runestenen">
             {['∫', '📈', '½', '🔗'].map((symbol, i) => (
@@ -245,7 +251,7 @@ export function LessonPage({
         </>
       )}
 
-      {lesson.id === 'nachtmissie' && (
+      {storyId === 'nachtmissie' && (
         <div className="moon-paw-row" aria-label="Maanpoot-symbolen">
           {['🌑', '🌊', '⭐', '🔮', '🌙'].map((symbol, i) => (
             <div

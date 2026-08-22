@@ -22,6 +22,8 @@ import {
   validateHelpPack,
 } from './guidedHelpBuilder';
 import { basisGrade, generateBasisForTopic } from './basisGenerators';
+import { generateSpecialChallenge } from './specialChallenges';
+import { loadStoryShell, PART1_STORY_IDS, storyOptionalStory } from './storyMeta';
 
 export interface LevelBundle {
   level: ClassLevel;
@@ -448,8 +450,6 @@ function difficultyFor(level: ClassLevel, lessonIndex: number, slot: number): 1 
 
 export function buildLevelBundle(level: ClassLevel): LevelBundle {
   const profile = getClassProfile(level);
-  const band = bandFor(level);
-  const themes = LESSON_THEMES[band];
   const label = CLASS_LEVEL_PROFILES[level].label;
 
   const challenges: ChallengeDefinition[] = [];
@@ -462,7 +462,7 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
   for (let li = 1; li <= LEVEL_LESSON_COUNT; li += 1) {
     const lessonId = lessonIdForLevel(level, li);
     lessonIds.push(lessonId);
-    const theme = themes[li - 1];
+    const storyShell = loadStoryShell('part1', PART1_STORY_IDS[li - 1]);
     const placements: LessonShell['placements'] = [];
 
     for (let slot = 0; slot < CHALLENGES_PER_LESSON; slot += 1) {
@@ -471,24 +471,42 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
       const occurrence = topicOccurrence.get(topic) ?? 0;
       topicOccurrence.set(topic, occurrence + 1);
       const difficulty = difficultyFor(level, li, slot);
+      const challengeId = challengeIdForLevel(level, challengeIndex);
 
       let challenge: ChallengeDefinition | undefined;
       let help: GuidedHelpPack | undefined;
-      for (let salt = 0; salt < 64; salt += 1) {
-        const generated = generateForTopic(
-          level,
-          challengeIndex,
-          topic,
-          difficulty,
-          occurrence,
-          salt,
-        );
-        const key = challengeQuestionKey(generated.challenge);
-        if (!usedQuestions.has(key)) {
-          usedQuestions.add(key);
-          challenge = generated.challenge;
-          help = generated.help;
-          break;
+
+      const special = generateSpecialChallenge(
+        challengeId,
+        level,
+        li,
+        slot,
+        difficulty,
+        seed(level, challengeIndex),
+      );
+      if (special) {
+        challenge = special.challenge;
+        help = special.help;
+        usedQuestions.add(challengeQuestionKey(challenge));
+      }
+
+      if (!challenge || !help) {
+        for (let salt = 0; salt < 64; salt += 1) {
+          const generated = generateForTopic(
+            level,
+            challengeIndex,
+            topic,
+            difficulty,
+            occurrence,
+            salt,
+          );
+          const key = challengeQuestionKey(generated.challenge);
+          if (!usedQuestions.has(key)) {
+            usedQuestions.add(key);
+            challenge = generated.challenge;
+            help = generated.help;
+            break;
+          }
         }
       }
       if (!challenge || !help) {
@@ -503,16 +521,18 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
       helpPacks.push(help);
       placements.push({
         challengeId: challenge.id,
-        optionalStory: pick(
-          [
-            'De Uil fluistert: “Neem je tijd, denk hardop.”',
-            'Op het pad ligt een raadsel te wachten.',
-            'Nog één stap — jij kunt dit.',
-            'Kijk goed naar wat gegeven is.',
-            'Welke strategie past hier?',
-          ],
-          seed(level, challengeIndex),
-        ),
+        optionalStory:
+          storyOptionalStory(storyShell, slot) ??
+          pick(
+            [
+              'De Uil fluistert: “Neem je tijd, denk hardop.”',
+              'Op het pad ligt een raadsel te wachten.',
+              'Nog één stap — jij kunt dit.',
+              'Kijk goed naar wat gegeven is.',
+              'Welke strategie past hier?',
+            ],
+            seed(level, challengeIndex),
+          ),
         sortOrder: slot,
       });
     }
@@ -521,11 +541,12 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
       id: lessonId,
       adventureId: level,
       order: li,
-      areaName: theme.areaName,
-      title: theme.title,
-      emoji: theme.emoji,
-      intro: theme.intro.replace('De Uil', 'De Uil').replace('jij', 'jij'),
-      color: COLORS[(li - 1) % COLORS.length],
+      areaName: storyShell.areaName,
+      title: storyShell.title,
+      emoji: storyShell.emoji,
+      intro: storyShell.intro,
+      color: storyShell.color,
+      outroStory: storyShell.outroStory,
       placements,
     });
   }
@@ -535,7 +556,7 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
     manifest: {
       id: level,
       title: 'Wiskunde Wilds',
-      subtitle: `${label} — wiskunde avontuur`,
+      subtitle: `${label} — Het Ontwaakte Bos`,
       theme: 'day',
       helpPersonaId: 'uil',
       lessonIds,

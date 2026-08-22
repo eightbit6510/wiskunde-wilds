@@ -2,15 +2,15 @@
   "id": "vwo-2-l8",
   "adventureId": "vwo-2",
   "order": 8,
-  "areaName": "VWO-top",
-  "title": "Eindniveau",
-  "emoji": "🦉",
-  "intro": "De zwaarste mix — jij bent er klaar voor.",
-  "color": "#9B6B8A",
+  "areaName": "De Sterrentempel",
+  "title": "Final Challenge",
+  "emoji": "⭐",
+  "intro": "De tempel vraagt om alles wat je geleerd hebt. Elke oplossing onthult een deel van de eindcode.",
+  "color": "#8B7355",
   "placements": [
     {
       "challengeId": "vwo-2-c36",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Eerste stersteen: let op de volgorde van bewerkingen.",
       "sortOrder": 0
     },
     {

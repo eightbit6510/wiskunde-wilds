@@ -1,28 +1,36 @@
 {
   "id": "mavo-3-c40",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "code-crack",
+  "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 4x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
+  "question": "De tempeldeur wacht op een geheim woord. Los de sommen op — de antwoorden geven letters.",
+  "secretWord": "STAR",
+  "codeItems": [
     {
-      "id": "a",
-      "label": "x: 1→4, 2→8, 3→12"
+      "expression": "−2 + 9",
+      "answer": 7,
+      "letter": "S"
     },
     {
-      "id": "b",
-      "label": "x: 1→5, 2→6, 3→7"
+      "expression": "3 × 2 − 4",
+      "answer": 2,
+      "letter": "T"
     },
     {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "expression": "24 ÷ 6",
+      "answer": 4,
+      "letter": "A"
+    },
+    {
+      "expression": "−1 + 4",
+      "answer": 3,
+      "letter": "R"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 4.",
-  "hint2": "Bij x = 3 hoort y = 12.",
-  "explanation": "y = 4x betekent: y is steeds 4 keer x.\nBij x = 3: y = 12.",
+  "hint1": "Werk elke som uit. Het antwoord hoort bij een letter.",
+  "hint2": "Antwoorden in volgorde → letters van STAR.",
+  "explanation": "De code is STAR!",
   "classLevels": [
     "mavo-3"
   ]

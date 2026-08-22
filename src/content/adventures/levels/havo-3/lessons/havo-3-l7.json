@@ -2,11 +2,11 @@
   "id": "havo-3-l7",
   "adventureId": "havo-3",
   "order": 7,
-  "areaName": "Goniometrie",
-  "title": "Hoeken met sin & cos",
-  "emoji": "📐",
-  "intro": "Rechthoekige driehoeken en goniometrie.",
-  "color": "#7A6B5A",
+  "areaName": "Maanlichtvallei",
+  "title": "Een blik op VWO 3",
+  "emoji": "🌙",
+  "intro": "Je hebt het bos bijna doorkruist. Vanaf hier kun je alvast zien wat er achter de volgende heuvel ligt.",
+  "color": "#6B5B8A",
   "placements": [
     {
       "challengeId": "havo-3-c31",

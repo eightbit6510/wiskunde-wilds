@@ -2,30 +2,30 @@
   "id": "vwo-6-l3",
   "adventureId": "vwo-6",
   "order": 3,
-  "areaName": "Machtenput",
-  "title": "Machten & wortels",
-  "emoji": "⚡",
-  "intro": "Exponenten en wortels onder controle.",
-  "color": "#6B7FA8",
+  "areaName": "De Lynx-uitkijk",
+  "title": "Grafiekenjacht",
+  "emoji": "🐈",
+  "intro": "Vanaf de uitkijk zie je sporen als lijnen in de lucht. Welke grafiek hoort bij welk verhaal?",
+  "color": "#6B8F71",
   "placements": [
     {
       "challengeId": "vwo-6-c11",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "Hoog in de lynx-uitkijk: vier sporen op de horizon.",
       "sortOrder": 0
     },
     {
       "challengeId": "vwo-6-c12",
-      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "optionalStory": "Een tabel in de sneeuw:",
       "sortOrder": 1
     },
     {
       "challengeId": "vwo-6-c13",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "De lynx staart naar het snijpunt met de verticale as.",
       "sortOrder": 2
     },
     {
       "challengeId": "vwo-6-c14",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Vier sporen, vier betekenissen — verbind ze.",
       "sortOrder": 3
     },
     {

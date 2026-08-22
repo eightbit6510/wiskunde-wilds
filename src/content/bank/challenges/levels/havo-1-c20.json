@@ -1,15 +1,50 @@
 {
   "id": "havo-1-c20",
-  "type": "number-input",
-  "topic": "vergelijkingen",
-  "difficulty": 1,
+  "type": "boss-battle",
+  "topic": "breuken",
+  "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 8 = 19. Wat is x?",
-  "answer": 11,
-  "hint1": "Haal 8 naar de andere kant: x = 19 − 8.",
-  "hint2": "x = 19 − 8",
-  "optionalWorkedFirstStep": "x + 8 = 19 → x = 19 − 8",
-  "explanation": "x + 8 = 19\nx = 19 − 8 = 11",
+  "question": "Boss battle! De konijnenkoning daagt je uit — drie snelle vragen.",
+  "bossQuestions": [
+    {
+      "id": "b1",
+      "question": "2/5 × 1/2 = ?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "label": "1/5"
+        },
+        {
+          "id": "b",
+          "label": "2/10"
+        },
+        {
+          "id": "c",
+          "label": "3/7"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "2/5 × 1/2 = 1/5"
+    },
+    {
+      "id": "b2",
+      "question": "Is 3/7 groter dan 2/5?",
+      "type": "true-false",
+      "correctAnswer": true,
+      "explanation": "3/7 ≈ 0,43 en 2/5 = 0,40."
+    },
+    {
+      "id": "b3",
+      "question": "√64 = ?",
+      "type": "number-input",
+      "correctAnswer": 8,
+      "explanation": "8 × 8 = 64"
+    }
+  ],
+  "hint1": "Drie vragen achter elkaar. Adem in tussen elke vraag.",
+  "hint2": "Je hoeft niet perfect te zijn — lees elke vraag rustig.",
+  "explanation": "De konijnenkoning buigt voor je — goed gedaan!",
   "classLevels": [
     "havo-1"
   ]

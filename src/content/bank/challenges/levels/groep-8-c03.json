@@ -1,28 +1,36 @@
 {
   "id": "groep-8-c03",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "code-crack",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 10x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
+  "question": "Kraak de kluis! Los de sommen op. De antwoorden vormen letters van een geheim woord.",
+  "secretWord": "PAWS",
+  "codeItems": [
     {
-      "id": "a",
-      "label": "x: 1→10, 2→20, 3→30"
+      "expression": "12 − 5",
+      "answer": 7,
+      "letter": "P"
     },
     {
-      "id": "b",
-      "label": "x: 1→11, 2→12, 3→13"
+      "expression": "3 × 2",
+      "answer": 6,
+      "letter": "A"
     },
     {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "expression": "20 ÷ 4",
+      "answer": 5,
+      "letter": "W"
+    },
+    {
+      "expression": "9 − 6",
+      "answer": 3,
+      "letter": "S"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 10.",
-  "hint2": "Bij x = 5 hoort y = 50.",
-  "explanation": "y = 10x betekent: y is steeds 10 keer x.\nBij x = 5: y = 50.",
+  "hint1": "Werk elke som uit. Het antwoord hoort bij een letter.",
+  "hint2": "Antwoorden in volgorde → letters van PAWS.",
+  "explanation": "De code is PAWS!",
   "classLevels": [
     "groep-8"
   ]

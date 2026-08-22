@@ -1,14 +1,36 @@
 {
   "id": "havo-4-c03",
-  "type": "number-input",
-  "topic": "formules",
+  "type": "code-crack",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 30, lengte = 10. Wat is de breedte?",
-  "answer": 3,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 30 ÷ 10",
-  "explanation": "b = A ÷ l = 30 ÷ 10 = 3",
+  "question": "Kraak de kluis! Los de sommen op. De antwoorden vormen letters van een geheim woord.",
+  "secretWord": "PAWS",
+  "codeItems": [
+    {
+      "expression": "−2 + 9",
+      "answer": 7,
+      "letter": "P"
+    },
+    {
+      "expression": "3 × (−1) + 5",
+      "answer": 2,
+      "letter": "A"
+    },
+    {
+      "expression": "16 ÷ (−4) + 8",
+      "answer": 4,
+      "letter": "W"
+    },
+    {
+      "expression": "−5 − (−8)",
+      "answer": 3,
+      "letter": "S"
+    }
+  ],
+  "hint1": "Werk elke som uit. Het antwoord hoort bij een letter.",
+  "hint2": "Antwoorden in volgorde → letters van PAWS.",
+  "explanation": "De code is PAWS!",
   "classLevels": [
     "havo-4"
   ]

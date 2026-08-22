@@ -1,14 +1,25 @@
 {
   "id": "havo-1-c24",
-  "type": "number-input",
-  "topic": "formules",
+  "type": "sorting",
+  "topic": "redeneren",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 36, lengte = 12. Wat is de breedte?",
-  "answer": 3,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 36 ÷ 12",
-  "explanation": "b = A ÷ l = 36 ÷ 12 = 3",
+  "question": "Sorteer van “sterkst dalend” naar “sterkst stijgend”.",
+  "sortItems": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
+  ],
+  "correctOrder": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
+  ],
+  "hint1": "Kijk naar het hellingsgetal.",
+  "hint2": "Sleep de items in de juiste volgorde.",
+  "explanation": "Goed gesorteerd!",
   "classLevels": [
     "havo-1"
   ]

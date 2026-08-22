@@ -1,14 +1,36 @@
 {
   "id": "groep-8-c40",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "code-crack",
+  "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 3:3. De eerste deelgroep is 6. Hoe groot is de tweede?",
-  "answer": 6,
-  "hint1": "Deel 6 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 6.",
-  "explanation": "6 ÷ 3 = 2.\n2 × 3 = 6.",
+  "question": "De tempeldeur wacht op een geheim woord. Los de sommen op — de antwoorden geven letters.",
+  "secretWord": "STAR",
+  "codeItems": [
+    {
+      "expression": "12 − 5",
+      "answer": 7,
+      "letter": "S"
+    },
+    {
+      "expression": "3 × 2",
+      "answer": 6,
+      "letter": "T"
+    },
+    {
+      "expression": "20 ÷ 4",
+      "answer": 5,
+      "letter": "A"
+    },
+    {
+      "expression": "9 − 6",
+      "answer": 3,
+      "letter": "R"
+    }
+  ],
+  "hint1": "Werk elke som uit. Het antwoord hoort bij een letter.",
+  "hint2": "Antwoorden in volgorde → letters van STAR.",
+  "explanation": "De code is STAR!",
   "classLevels": [
     "groep-8"
   ]

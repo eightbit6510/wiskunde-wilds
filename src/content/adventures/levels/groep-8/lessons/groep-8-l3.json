@@ -2,30 +2,30 @@
   "id": "groep-8-l3",
   "adventureId": "groep-8",
   "order": 3,
-  "areaName": "Meetvallei",
-  "title": "Meten en omrekenen",
-  "emoji": "📏",
-  "intro": "Lengtes, oppervlaktes en eenheden — alles moet kloppen.",
-  "color": "#6B7FA8",
+  "areaName": "De Lynx-uitkijk",
+  "title": "Grafiekenjacht",
+  "emoji": "🐈",
+  "intro": "Vanaf de uitkijk zie je sporen als lijnen in de lucht. Welke grafiek hoort bij welk verhaal?",
+  "color": "#6B8F71",
   "placements": [
     {
       "challengeId": "groep-8-c11",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "Hoog in de lynx-uitkijk: vier sporen op de horizon.",
       "sortOrder": 0
     },
     {
       "challengeId": "groep-8-c12",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Een tabel in de sneeuw:",
       "sortOrder": 1
     },
     {
       "challengeId": "groep-8-c13",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "De lynx staart naar het snijpunt met de verticale as.",
       "sortOrder": 2
     },
     {
       "challengeId": "groep-8-c14",
-      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "optionalStory": "Vier sporen, vier betekenissen — verbind ze.",
       "sortOrder": 3
     },
     {

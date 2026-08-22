@@ -1,15 +1,50 @@
 {
   "id": "mavo-2-c20",
-  "type": "number-input",
-  "topic": "vergelijkingen",
-  "difficulty": 1,
+  "type": "boss-battle",
+  "topic": "breuken",
+  "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 12 = 21. Wat is x?",
-  "answer": 9,
-  "hint1": "Haal 12 naar de andere kant: x = 21 − 12.",
-  "hint2": "x = 21 − 12",
-  "optionalWorkedFirstStep": "x + 12 = 21 → x = 21 − 12",
-  "explanation": "x + 12 = 21\nx = 21 − 12 = 9",
+  "question": "Boss battle! De konijnenkoning daagt je uit — drie snelle vragen.",
+  "bossQuestions": [
+    {
+      "id": "b1",
+      "question": "2/5 × 1/2 = ?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "label": "1/5"
+        },
+        {
+          "id": "b",
+          "label": "2/10"
+        },
+        {
+          "id": "c",
+          "label": "3/7"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "2/5 × 1/2 = 1/5"
+    },
+    {
+      "id": "b2",
+      "question": "Is 3/7 groter dan 2/5?",
+      "type": "true-false",
+      "correctAnswer": true,
+      "explanation": "3/7 ≈ 0,43 en 2/5 = 0,40."
+    },
+    {
+      "id": "b3",
+      "question": "√64 = ?",
+      "type": "number-input",
+      "correctAnswer": 8,
+      "explanation": "8 × 8 = 64"
+    }
+  ],
+  "hint1": "Drie vragen achter elkaar. Adem in tussen elke vraag.",
+  "hint2": "Je hoeft niet perfect te zijn — lees elke vraag rustig.",
+  "explanation": "De konijnenkoning buigt voor je — goed gedaan!",
   "classLevels": [
     "mavo-2"
   ]

@@ -24,7 +24,7 @@ export function Dashboard({
 }) {
   const { progress, startAdventure, lessonProgress } = progressApi;
   const { session, isLoggedIn } = authApi;
-  const { classLevel, lessons, hasLevelContent } = useActiveLessons();
+  const { classLevel, lessons, part2Lessons, sideMissions, hasLevelContent } = useActiveLessons();
   const [classWizardOpen, setClassWizardOpen] = useState(false);
 
   const manifest = classLevel ? getLevelManifest(classLevel) : undefined;
@@ -63,7 +63,9 @@ export function Dashboard({
           <h1 id="welcome-title">{welcomeTitle}</h1>
           {hasLevelContent ? (
             <>
-              <p className="lead">{manifest?.subtitle ?? 'Klaar om je wiskundeskills wakker te maken?'}</p>
+              <p className="lead">
+                {manifest?.subtitle ?? 'Het Ontwaakte Bos wacht — klaar om je wiskundeskills wakker te maken?'}
+              </p>
               <p className="subtitle">{manifest?.title ?? 'Wiskunde Wilds'}</p>
               <button
                 type="button"
@@ -142,16 +144,20 @@ export function Dashboard({
       {hasLevelContent ? (
         <AdventureMap
           part1Lessons={lessons}
-          part2Lessons={[]}
+          part2Lessons={part2Lessons}
+          sideMissions={sideMissions}
           lessonProgress={lessonProgress}
-          part2Unlocked={false}
+          part2Unlocked={progress.part2Unlocked}
           part1CompletedCount={completeCount}
           part1Total={lessons.length}
-          onLockedPart2Click={() => {}}
-          singleAdventure
-          sectionTitle={manifest?.title ?? 'Jouw avontuur'}
+          onLockedPart2Click={() => {
+            document.getElementById('map-title')?.scrollIntoView({ behavior: 'smooth' });
+          }}
+          sectionTitle="DEEL I — Het Ontwaakte Bos"
           sectionSubtitle={
-            classLevel ? `${getClassLevelLabel(classLevel)} — ${manifest?.subtitle ?? ''}` : undefined
+            classLevel
+              ? `${getClassLevelLabel(classLevel)} — avontuur met sommen op jouw niveau`
+              : undefined
           }
           sequential
         />

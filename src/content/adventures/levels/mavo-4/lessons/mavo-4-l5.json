@@ -2,11 +2,11 @@
   "id": "mavo-4-l5",
   "adventureId": "mavo-4",
   "order": 5,
-  "areaName": "Formulefabriek",
-  "title": "Formules gebruiken",
-  "emoji": "⚙️",
-  "intro": "Invullen, oplossen, controleren.",
-  "color": "#C49A6C",
+  "areaName": "Het Uilenlab",
+  "title": "Het Verbandenlab",
+  "emoji": "🦉",
+  "intro": "Patronen, tabellen en formules onder maanlicht. Niet alles is lineair…",
+  "color": "#7A6B8A",
   "placements": [
     {
       "challengeId": "mavo-4-c21",

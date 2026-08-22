@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "In een parallellogram zijn tegenoverliggende zijden even lang"
+      "label": "Het gemiddelde van 2, 4 en 6 is 4"
     },
     {
       "id": "b",
-      "label": "In een parallellogram zijn alle zijden even lang"
+      "label": "Het gemiddelde van 2, 4 en 6 is 6"
     },
     {
       "id": "c",
-      "label": "Een ruit heeft vier gelijke zijden"
+      "label": "De mediaan van 1, 3, 9 is 3"
     },
     {
       "id": "d",
-      "label": "Een ruit heeft altijd rechte hoeken"
+      "label": "De mediaan van 1, 3, 9 is 9"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A en C kloppen. B geldt alleen voor ruit/vierkant. D: ruit hoeft geen rechte hoeken.",
+  "explanation": "A: (2+4+6)÷3=4. C: middelste waarde=3.",
   "classLevels": [
     "mavo-2"
   ]

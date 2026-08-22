@@ -2,30 +2,30 @@
   "id": "mavo-3-l2",
   "adventureId": "mavo-3",
   "order": 2,
-  "areaName": "Breukenwerk",
-  "title": "Breuken & procent",
-  "emoji": "💯",
-  "intro": "Breuken, decimalen en procenten in de praktijk.",
-  "color": "#5B8A72",
+  "areaName": "De Wolvenkluis",
+  "title": "De Formulekraker",
+  "emoji": "🐺",
+  "intro": "Een oude kluis wordt beschermd door formules. Elke juiste bewerking opent één slot.",
+  "color": "#5B6B7A",
   "placements": [
     {
       "challengeId": "mavo-3-c06",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "Eerste slot: oppervlakte van een wolventerritorium-kaart.",
       "sortOrder": 0
     },
     {
       "challengeId": "mavo-3-c07",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "Tweede slot: snelheid van een wolf over s meters in t seconden.",
       "sortOrder": 1
     },
     {
       "challengeId": "mavo-3-c08",
-      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "optionalStory": "Een dierenopvang betaalt €12 vaste kosten plus €4 per zak voer.",
       "sortOrder": 2
     },
     {
       "challengeId": "mavo-3-c09",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Derde slot: hoeveel nesten n bij temperatuur T?",
       "sortOrder": 3
     },
     {

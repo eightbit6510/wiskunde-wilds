@@ -51,7 +51,10 @@ export const ADVENTURES: AdventureMeta[] = [
 ];
 
 export function isPart1Complete(progress: Pick<ProgressState, 'completedLessons'>): boolean {
-  return PART1_LESSON_IDS.every((id) => progress.completedLessons.includes(id));
+  if (PART1_LESSON_IDS.every((id) => progress.completedLessons.includes(id))) {
+    return true;
+  }
+  return progress.completedLessons.some((id) => /-(l8)$/.test(id));
 }
 
 export function part1CompletedCount(progress: Pick<ProgressState, 'completedLessons'>): number {
@@ -68,5 +71,7 @@ export function isAdventureUnlocked(
 
 export function getAdventureForLesson(lessonId: string): AdventureId {
   if ((PART2_LESSON_IDS as readonly string[]).includes(lessonId)) return 'part2';
+  if (lessonId.includes('-p2-')) return 'part2';
+  if (lessonId.includes('-zij-')) return 'part2';
   return 'part1';
 }

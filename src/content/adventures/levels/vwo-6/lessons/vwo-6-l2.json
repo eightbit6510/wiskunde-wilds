@@ -2,30 +2,30 @@
   "id": "vwo-6-l2",
   "adventureId": "vwo-6",
   "order": 2,
-  "areaName": "Functielab",
-  "title": "Functies",
-  "emoji": "🔬",
-  "intro": "Dieper in verbanden en grafieken.",
-  "color": "#5B8A72",
+  "areaName": "De Wolvenkluis",
+  "title": "De Formulekraker",
+  "emoji": "🐺",
+  "intro": "Een oude kluis wordt beschermd door formules. Elke juiste bewerking opent één slot.",
+  "color": "#5B6B7A",
   "placements": [
     {
       "challengeId": "vwo-6-c06",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "Eerste slot: oppervlakte van een wolventerritorium-kaart.",
       "sortOrder": 0
     },
     {
       "challengeId": "vwo-6-c07",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "Tweede slot: snelheid van een wolf over s meters in t seconden.",
       "sortOrder": 1
     },
     {
       "challengeId": "vwo-6-c08",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Een dierenopvang betaalt €12 vaste kosten plus €4 per zak voer.",
       "sortOrder": 2
     },
     {
       "challengeId": "vwo-6-c09",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Derde slot: hoeveel nesten n bij temperatuur T?",
       "sortOrder": 3
     },
     {

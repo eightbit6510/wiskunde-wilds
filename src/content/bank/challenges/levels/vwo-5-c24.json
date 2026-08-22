@@ -1,35 +1,25 @@
 {
   "id": "vwo-5-c24",
-  "type": "multi-select",
+  "type": "sorting",
   "topic": "redeneren",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "−3 + 5 = 2"
-    },
-    {
-      "id": "b",
-      "label": "−3 + 5 = −8"
-    },
-    {
-      "id": "c",
-      "label": "4 − 7 = −3"
-    },
-    {
-      "id": "d",
-      "label": "4 − 7 = 3"
-    }
+  "question": "Sorteer van “sterkst dalend” naar “sterkst stijgend”.",
+  "sortItems": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
   ],
-  "answers": [
-    "a",
-    "c"
+  "correctOrder": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
   ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: −3+5=2. C: 4−7=−3.",
+  "hint1": "Kijk naar het hellingsgetal.",
+  "hint2": "Sleep de items in de juiste volgorde.",
+  "explanation": "Goed gesorteerd!",
   "classLevels": [
     "vwo-5"
   ]

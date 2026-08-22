@@ -1,28 +1,36 @@
 {
   "id": "vwo-1-c40",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "code-crack",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 6x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
+  "question": "De tempeldeur wacht op een geheim woord. Los de sommen op — de antwoorden geven letters.",
+  "secretWord": "STAR",
+  "codeItems": [
     {
-      "id": "a",
-      "label": "x: 1→6, 2→12, 3→18"
+      "expression": "−2 + 9",
+      "answer": 7,
+      "letter": "S"
     },
     {
-      "id": "b",
-      "label": "x: 1→7, 2→8, 3→9"
+      "expression": "3 × (−1) + 5",
+      "answer": 2,
+      "letter": "T"
     },
     {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "expression": "16 ÷ (−4) + 8",
+      "answer": 4,
+      "letter": "A"
+    },
+    {
+      "expression": "−5 − (−8)",
+      "answer": 3,
+      "letter": "R"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 6.",
-  "hint2": "Bij x = 4 hoort y = 24.",
-  "explanation": "y = 6x betekent: y is steeds 6 keer x.\nBij x = 4: y = 24.",
+  "hint1": "Werk elke som uit. Het antwoord hoort bij een letter.",
+  "hint2": "Antwoorden in volgorde → letters van STAR.",
+  "explanation": "De code is STAR!",
   "classLevels": [
     "vwo-1"
   ]

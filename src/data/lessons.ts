@@ -1,15 +1,17 @@
 import type { Challenge, Lesson } from '../types';
 import type { ClassLevel } from '../types/content';
 import {
-  loadLessonsForClassLevel,
-  loadLevelLessonFromContent,
-  LEVEL_CONTENT_IDS,
-} from '../content/levelLoader';
-import {
   loadPart1LessonsFromContent,
   loadPart2LessonsFromContent,
   loadSideMissionsFromContent,
 } from '../content/loader';
+import { LEVEL_CONTENT_IDS } from '../content/levelLoader';
+import {
+  loadBridgedLesson,
+  loadPart1LessonsForClassLevel,
+  loadPart2LessonsForClassLevel,
+  loadSideMissionsForClassLevel,
+} from '../content/storyBridge';
 import { isClassLevel } from '../content/classLevels';
 
 /** Legacy bos content — alleen tests/backup */
@@ -30,9 +32,17 @@ const legacySide = loadSideMissionsFromContent().map((l) => ({
 
 export const legacyAllLessons: Lesson[] = [...legacyPart1, ...legacyPart2, ...legacySide];
 
-/** Huidige actieve jaargroep-lessen (default groep-8 als fallback voor dev) */
+/** Deel I — bos-avontuur met jaargroep-sommen */
 export function getLessonsForClassLevel(level: ClassLevel): Lesson[] {
-  return loadLessonsForClassLevel(level);
+  return loadPart1LessonsForClassLevel(level);
+}
+
+export function getPart2LessonsForClassLevel(level: ClassLevel): Lesson[] {
+  return loadPart2LessonsForClassLevel(level);
+}
+
+export function getSideMissionsForClassLevel(level: ClassLevel): Lesson[] {
+  return loadSideMissionsForClassLevel(level);
 }
 
 /** Default playable lessons when no class level — empty until user picks */
@@ -44,10 +54,8 @@ export function getPlayableLessons(classLevel: ClassLevel | null): Lesson[] {
 }
 
 export function getLesson(id: string, classLevel: ClassLevel | null): Lesson | undefined {
-  const fromLevel = loadLevelLessonFromContent(id);
-  if (fromLevel) {
-    return { ...fromLevel, adventureId: classLevel ?? id.split('-')[0] ?? 'level' };
-  }
+  const bridged = loadBridgedLesson(id, classLevel);
+  if (bridged) return bridged;
   return legacyAllLessons.find((l) => l.id === id);
 }
 

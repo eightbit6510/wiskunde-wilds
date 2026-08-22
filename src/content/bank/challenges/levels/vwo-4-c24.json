@@ -1,14 +1,25 @@
 {
   "id": "vwo-4-c24",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "sorting",
+  "topic": "redeneren",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 2:4. De eerste deelgroep is 4. Hoe groot is de tweede?",
-  "answer": 8,
-  "hint1": "Deel 4 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 4 = 8.",
-  "explanation": "4 ÷ 2 = 2.\n2 × 4 = 8.",
+  "question": "Sorteer van “sterkst dalend” naar “sterkst stijgend”.",
+  "sortItems": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
+  ],
+  "correctOrder": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
+  ],
+  "hint1": "Kijk naar het hellingsgetal.",
+  "hint2": "Sleep de items in de juiste volgorde.",
+  "explanation": "Goed gesorteerd!",
   "classLevels": [
     "vwo-4"
   ]

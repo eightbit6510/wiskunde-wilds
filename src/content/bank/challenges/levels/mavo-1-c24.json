@@ -1,35 +1,25 @@
 {
   "id": "mavo-1-c24",
-  "type": "multi-select",
+  "type": "sorting",
   "topic": "redeneren",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "De omtrek van een vierkant met zijde 3 is 12"
-    },
-    {
-      "id": "b",
-      "label": "De omtrek van een vierkant met zijde 3 is 9"
-    },
-    {
-      "id": "c",
-      "label": "De oppervlakte van een rechthoek 4×5 is 20"
-    },
-    {
-      "id": "d",
-      "label": "De oppervlakte van 4×5 is 9"
-    }
+  "question": "Sorteer van “sterkst dalend” naar “sterkst stijgend”.",
+  "sortItems": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
   ],
-  "answers": [
-    "a",
-    "c"
+  "correctOrder": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
   ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: omtrek 4×3=12. C: oppervlakte 4×5=20.",
+  "hint1": "Kijk naar het hellingsgetal.",
+  "hint2": "Sleep de items in de juiste volgorde.",
+  "explanation": "Goed gesorteerd!",
   "classLevels": [
     "mavo-1"
   ]

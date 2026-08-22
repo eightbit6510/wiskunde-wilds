@@ -2,35 +2,35 @@
   "id": "havo-2-l1",
   "adventureId": "havo-2",
   "order": 1,
-  "areaName": "Functieheuvel",
-  "title": "Functies",
-  "emoji": "⛰️",
-  "intro": "y hangt af van x. Ontdek het verband.",
+  "areaName": "Het Vossenpad",
+  "title": "De Wiskundedetective",
+  "emoji": "🦊",
+  "intro": "Er kloppen vreemde berekeningen niet in het Vossenwoud. Kun jij ontdekken waar het misgaat?",
   "color": "#C4784A",
   "placements": [
     {
       "challengeId": "havo-2-c01",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "Vier sporen liggen in het mos. Niet alle sporen zijn echt…",
       "sortOrder": 0
     },
     {
       "challengeId": "havo-2-c02",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "Op een boomstam staat: 3(x + 4) = 3x + 4",
       "sortOrder": 1
     },
     {
       "challengeId": "havo-2-c03",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Een metalen kluis met pootafdruk-slot staat half verstopt onder varens.",
       "sortOrder": 2
     },
     {
       "challengeId": "havo-2-c04",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "De vos fluistert: “Eerst de constante weg, daarna delen.”",
       "sortOrder": 3
     },
     {
       "challengeId": "havo-2-c05",
-      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "optionalStory": "Drie leerlingen claimen een oplossing. Eén spoor is vals.",
       "sortOrder": 4
     }
   ]

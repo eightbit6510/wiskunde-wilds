@@ -2,7 +2,7 @@
   "challengeId": "mavo-1-c40",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
+    "intro": "Elke juiste som onthult een letter op de tempeldeur.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 3:5"
+            "label": "Lees de opdracht rustig"
           },
           {
             "id": "wrong",
-            "label": "De getallen 3 en 5 direct optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 3:5 betekent steeds dezelfde factor.\n\nEerste deel = 15.",
-        "question": "Hoeveel keer past 3 in 15? (schaalfactor)",
-        "options": [
-          {
-            "id": "f",
-            "label": "5"
-          },
-          {
-            "id": "w",
-            "label": "6"
-          }
-        ],
-        "correctAnswer": "f",
-        "successFeedback": "Goed — schaalfactor = 5.",
-        "retryFeedback": "Deel 15 door 3."
-      },
-      {
-        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
-        "question": "Tweede deel = 5 × 5 = ?",
-        "options": [
-          {
-            "id": "o",
-            "label": "25"
-          },
-          {
-            "id": "w",
-            "label": "30"
-          }
-        ],
-        "correctAnswer": "o",
-        "successFeedback": "Klopt: 25.",
-        "retryFeedback": "Vermenigvuldig je schaalfactor met 5."
-      },
-      {
-        "explanation": "Stap 4: controleer de verhouding.",
-        "question": "Klopt 15:25 = 3:5?",
+        "explanation": "Neem de tijd. Geen haast.",
+        "question": "Snap je wat je moet doen?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. Antwoord = 25.",
-        "retryFeedback": "Deel 15 door 3, vermenigvuldig met 5."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de vraag nog eens rustig."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 25."
+    "conclusion": "Elke juiste som onthult een letter op de tempeldeur."
   },
   "bonusVariants": [
     {
-      "id": "mavo-1-c40-b1",
-      "type": "number-input",
-      "question": "Verhouding 3:5, eerste = 18. Tweede?",
-      "answer": 30,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Zelfde schaalfactor.",
-      "explanation": "Zelfde schaalfactor."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Even oefenen?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "mavo-1-c40-b2",
-      "type": "number-input",
-      "question": "Verhouding 3:5, eerste = 15. Tweede?",
-      "answer": 25,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "15 ÷ 3 × 5.",
-      "explanation": "15 ÷ 3 × 5."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

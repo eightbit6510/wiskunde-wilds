@@ -2,15 +2,15 @@
   "id": "mavo-3-l6",
   "adventureId": "mavo-3",
   "order": 6,
-  "areaName": "Vergelijkingenpoort",
-  "title": "Vergelijkingen",
-  "emoji": "🚪",
-  "intro": "Lineaire vergelijkingen stap voor stap.",
-  "color": "#4A7C59",
+  "areaName": "De Bergmissie",
+  "title": "De Grote Wiskundemissie",
+  "emoji": "⛰️",
+  "intro": "De doorgang naar de bergtop is afgesloten. Vier runestenen moeten geactiveerd worden.",
+  "color": "#4A5D4E",
   "placements": [
     {
       "challengeId": "mavo-3-c26",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "De eerste steen gloeit zwak…",
       "sortOrder": 0
     },
     {

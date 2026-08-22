@@ -18,6 +18,7 @@ import {
   trySpendOwlStar,
 } from '../utils/owlEconomy';
 import { isPart1Complete } from '../utils/adventureUnlock';
+import { isSterrentempelLesson } from '../content/storyBridge';
 import { XP } from '../utils/xpConfig';
 import { migrateProgress } from '../utils/progressMigration';
 import { reconcileLessonCompletion } from '../utils/progressSync';
@@ -192,7 +193,7 @@ export function useProgress(classLevel: ClassLevel | null) {
         const maybeUnlockedPart2 =
           p.part2Unlocked ||
           isPart1Complete({ completedLessons: nextLessons }) ||
-          (input.lessonId === 'sterrentempel' && lessonDone);
+          (!!lesson && isSterrentempelLesson(lesson) && lessonDone);
 
         let next: ProgressState = {
           ...p,
@@ -251,7 +252,7 @@ export function useProgress(classLevel: ClassLevel | null) {
           part2Unlocked:
             p.part2Unlocked ||
             isPart1Complete({ completedLessons: nextLessons }) ||
-            lessonId === 'sterrentempel',
+            (!!lesson && isSterrentempelLesson(lesson)),
           lastPlayedAt: new Date().toISOString(),
         };
       } else if (!p.part2Unlocked && isPart1Complete(p)) {

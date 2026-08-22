@@ -1,28 +1,36 @@
 {
   "id": "mavo-4-c40",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "code-crack",
+  "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 9x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
+  "question": "De tempeldeur wacht op een geheim woord. Los de sommen op — de antwoorden geven letters.",
+  "secretWord": "STAR",
+  "codeItems": [
     {
-      "id": "a",
-      "label": "x: 1→9, 2→18, 3→27"
+      "expression": "−2 + 9",
+      "answer": 7,
+      "letter": "S"
     },
     {
-      "id": "b",
-      "label": "x: 1→10, 2→11, 3→12"
+      "expression": "3 × 2 − 4",
+      "answer": 2,
+      "letter": "T"
     },
     {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "expression": "24 ÷ 6",
+      "answer": 4,
+      "letter": "A"
+    },
+    {
+      "expression": "−1 + 4",
+      "answer": 3,
+      "letter": "R"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 9.",
-  "hint2": "Bij x = 4 hoort y = 36.",
-  "explanation": "y = 9x betekent: y is steeds 9 keer x.\nBij x = 4: y = 36.",
+  "hint1": "Werk elke som uit. Het antwoord hoort bij een letter.",
+  "hint2": "Antwoorden in volgorde → letters van STAR.",
+  "explanation": "De code is STAR!",
   "classLevels": [
     "mavo-4"
   ]

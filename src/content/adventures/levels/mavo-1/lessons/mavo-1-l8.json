@@ -2,15 +2,15 @@
   "id": "mavo-1-l8",
   "adventureId": "mavo-1",
   "order": 8,
-  "areaName": "Eindproef",
-  "title": "Klaar voor de toets",
-  "emoji": "🎯",
-  "intro": "Alles nog eens — jij bent er klaar voor.",
-  "color": "#9B6B8A",
+  "areaName": "De Sterrentempel",
+  "title": "Final Challenge",
+  "emoji": "⭐",
+  "intro": "De tempel vraagt om alles wat je geleerd hebt. Elke oplossing onthult een deel van de eindcode.",
+  "color": "#8B7355",
   "placements": [
     {
       "challengeId": "mavo-1-c36",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "Eerste stersteen: let op de volgorde van bewerkingen.",
       "sortOrder": 0
     },
     {

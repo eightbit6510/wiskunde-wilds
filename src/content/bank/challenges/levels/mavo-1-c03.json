@@ -1,28 +1,36 @@
 {
   "id": "mavo-1-c03",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "code-crack",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 4x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
+  "question": "Kraak de kluis! Los de sommen op. De antwoorden vormen letters van een geheim woord.",
+  "secretWord": "PAWS",
+  "codeItems": [
     {
-      "id": "a",
-      "label": "x: 1→4, 2→8, 3→12"
+      "expression": "−2 + 9",
+      "answer": 7,
+      "letter": "P"
     },
     {
-      "id": "b",
-      "label": "x: 1→5, 2→6, 3→7"
+      "expression": "3 × 2 − 4",
+      "answer": 2,
+      "letter": "A"
     },
     {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "expression": "24 ÷ 6",
+      "answer": 4,
+      "letter": "W"
+    },
+    {
+      "expression": "−1 + 4",
+      "answer": 3,
+      "letter": "S"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 4.",
-  "hint2": "Bij x = 5 hoort y = 20.",
-  "explanation": "y = 4x betekent: y is steeds 4 keer x.\nBij x = 5: y = 20.",
+  "hint1": "Werk elke som uit. Het antwoord hoort bij een letter.",
+  "hint2": "Antwoorden in volgorde → letters van PAWS.",
+  "explanation": "De code is PAWS!",
   "classLevels": [
     "mavo-1"
   ]

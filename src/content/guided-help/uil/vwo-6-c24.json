@@ -2,7 +2,7 @@
   "challengeId": "vwo-6-c24",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "intro": "Kijk goed naar wat je vergelijkt.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle juiste uitspraken kiezen"
+            "label": "Lees de opdracht rustig"
           },
           {
             "id": "wrong",
-            "label": "Slechts één antwoord kiezen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,118 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Omtrek = som zijden. Oppervlakte = l×b.",
-        "question": "Vierkant zijde 3: omtrek=4×3. Klopt A?",
+        "explanation": "Neem de tijd. Geen haast.",
+        "question": "Snap je wat je moet doen?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 12"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "A klopt.",
-        "retryFeedback": "4×3=12."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de vraag nog eens rustig."
       },
       {
-        "explanation": "B zegt omtrek=9. Dat is 3×3 = oppervlakte.",
-        "question": "Klopt B?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "no",
-        "successFeedback": "B is onwaar.",
-        "retryFeedback": "9 is oppervlakte, geen omtrek."
-      },
-      {
-        "explanation": "C: oppervlakte 4×5.",
-        "question": "Is oppervlakte 4×5 = 20?",
-        "options": [
-          {
-            "id": "yes",
-            "label": "Ja"
-          },
-          {
-            "id": "no",
-            "label": "Nee"
-          }
-        ],
-        "correctAnswer": "yes",
-        "successFeedback": "C klopt.",
-        "retryFeedback": "4×5=20."
-      },
-      {
-        "explanation": "Welke uitspraken zijn waar?",
-        "question": "Kies de juiste.",
-        "options": [
-          {
-            "id": "ac",
-            "label": "A en C"
-          },
-          {
-            "id": "ab",
-            "label": "A en B"
-          },
-          {
-            "id": "bc",
-            "label": "B en C"
-          }
-        ],
-        "correctAnswer": "ac",
-        "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B verwart omtrek/oppervlakte."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+    "conclusion": "Kijk goed naar wat je vergelijkt."
   },
   "bonusVariants": [
     {
-      "id": "vwo-6-c24-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Oppervlakte 6×4?",
+      "question": "Even oefenen?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "24"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "20"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "6×4=24.",
-      "explanation": "6×4=24."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-6-c24-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "Omtrek vierkant zijde 5?",
+      "question": "Nog één tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "20"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "25"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "4×5=20.",
-      "explanation": "4×5=20."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

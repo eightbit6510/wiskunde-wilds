@@ -11,6 +11,12 @@ const SIDE = unwrapJsonModule(sideManifest) as AdventureManifest;
 
 /** Bepaal welke hulppersona bij een les hoort (via avontuur-manifest). */
 export function getHelpPersonaIdForLesson(lessonId: string): HelpPersonaId {
+  if (lessonId.includes('-p2-')) {
+    return 'detective';
+  }
+  if (lessonId.includes('-zij-')) {
+    return 'uil';
+  }
   const levelPrefix = lessonId.split('-l')[0];
   if (isClassLevel(levelPrefix)) {
     return 'uil';
