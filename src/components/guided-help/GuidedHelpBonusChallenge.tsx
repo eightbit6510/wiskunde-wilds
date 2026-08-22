@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { BonusVariant, HelpPersona } from '../../types';
 import { answersMatch } from '../../utils/answers';
+import { formatMathText } from '../../utils/mathText';
 import { OWL_BONUS_XP } from '../../utils/owlEconomy';
 import { FeedbackCard } from '../FeedbackCard';
 import { HelpMascot } from './HelpMascot';
@@ -55,8 +56,8 @@ export function GuidedHelpBonusChallenge({
     <article className={`card challenge-card guided-help-bonus-card ${persona.themeClass ?? ''}`}>
       <p className="chip">Bonus</p>
       <h2 style={{ marginTop: '0.35rem' }}>{persona.bonusIntro}</h2>
-      {variant.optionalStory && <p className="challenge-story">{variant.optionalStory}</p>}
-      <p style={{ fontWeight: 700 }}>{variant.question}</p>
+      {variant.optionalStory && <p className="challenge-story">{formatMathText(variant.optionalStory)}</p>}
+      <p style={{ fontWeight: 700 }}>{formatMathText(variant.question)}</p>
 
       {type === 'multiple-choice' && variant.answerOptions && (
         <div className="options-list">
@@ -68,7 +69,7 @@ export function GuidedHelpBonusChallenge({
               disabled={solved}
               onClick={() => setSelected(opt.id)}
             >
-              {opt.label}
+              {formatMathText(opt.label)}
             </button>
           ))}
         </div>
@@ -87,7 +88,7 @@ export function GuidedHelpBonusChallenge({
               disabled={solved}
               onClick={() => setSelected(opt.id)}
             >
-              {opt.label}
+              {formatMathText(opt.label)}
             </button>
           ))}
         </div>
@@ -128,11 +129,11 @@ export function GuidedHelpBonusChallenge({
         <FeedbackCard
           kind="try-again"
           title="Nog niet helemaal. Laten we even speuren."
-          body={
+          body={formatMathText(
             attempts >= 2
               ? variant.hint2 ?? variant.hint1
-              : variant.hint1 ?? persona.bonusWrongFallback
-          }
+              : variant.hint1 ?? persona.bonusWrongFallback,
+          )}
         />
       )}
 

@@ -5,6 +5,7 @@ import { ChallengeCard } from '../components/ChallengeCard';
 import { ChapterPageBackground } from '../components/ChapterPageBackground';
 import { CompletionModal } from '../components/CompletionModal';
 import type { MascotMood } from '../components/ForestMascot';
+import { ForestMascot } from '../components/ForestMascot';
 import { LessonMascotScene } from '../components/LessonMascotScene';
 import { Part2UnlockReveal } from '../components/Part2UnlockReveal';
 import { ProgressBar } from '../components/ProgressBar';
@@ -28,6 +29,7 @@ import { isChallengeComplete, isLessonChallengesComplete } from '../utils/progre
 import { TOPIC_LABELS } from '../utils/storage';
 import { STREAK_MESSAGES, pickMessage } from '../utils/answers';
 import { XP } from '../utils/xpConfig';
+import { formatMathText } from '../utils/mathText';
 
 function lessonsInSameArc(lesson: Lesson, classLevel: ReturnType<typeof useActiveClassLevel>): Lesson[] {
   if (!classLevel) return [];
@@ -286,27 +288,31 @@ export function LessonPage({
   return (
     <div className={`challenge-shell${isPart2 ? ' theme-night' : ''}`}>
       <ChapterPageBackground storyLessonId={storyId} />
-      <div className="lesson-header">
-        <Link to="/" className="btn btn-ghost">
-          ← Kaart
-        </Link>
-        <div>
-          <h1 style={{ margin: 0, fontSize: '1.4rem' }}>
-            {lesson.emoji} {displayOrder}. {lesson.areaName}
-          </h1>
-          <p className="muted" style={{ margin: 0 }}>
-            {lesson.title}
-          </p>
+      <div className="lesson-sticky-top">
+        <div className="lesson-header">
+          <Link to="/" className="btn btn-ghost lesson-header__back">
+            ← Kaart
+          </Link>
+          <div className="lesson-header__titles">
+            <h1 className="lesson-header__title">
+              {lesson.emoji} {displayOrder}. {lesson.areaName}
+            </h1>
+            <span className="lesson-header__subtitle muted">{lesson.title}</span>
+          </div>
+          <div className={`lesson-header__fox${anim ? ' header-fox-float' : ''}`} aria-hidden="true">
+            <ForestMascot mood={mascotMood} size={56} />
+          </div>
+          <StarCounter stars={progress.totalStars} label="sterren totaal" />
         </div>
-        <StarCounter stars={progress.totalStars} label="sterren totaal" />
+
+        <ProgressBar
+          value={completedInLesson}
+          max={lesson.challenges.length}
+          label={`Opdracht ${index + 1} van ${lesson.challenges.length} · ${completedInLesson} pootafdrukken gevonden`}
+        />
       </div>
 
-      <ProgressBar
-        value={completedInLesson}
-        max={lesson.challenges.length}
-        label={`Opdracht ${index + 1} van ${lesson.challenges.length} · ${completedInLesson} pootafdrukken gevonden`}
-      />
-      <p className="muted" style={{ fontSize: '0.9rem', marginTop: '0.35rem' }}>
+      <p className="muted lesson-stars-note">
         Lessterren: ⭐ {lessonStars}
       </p>
 
@@ -315,11 +321,12 @@ export function LessonPage({
         areaName={lesson.areaName}
         emoji={lesson.emoji}
         color={lesson.color}
-        mood={mascotMood}
-        storyText={index === 0 ? lesson.intro : challenge.optionalStory}
-        size={90}
-        animationsEnabled={anim}
+        storyText={formatMathText(index === 0 ? lesson.intro : challenge.optionalStory)}
       />
+
+      {!bonusActive && (
+        <h2 className="lesson-question">{formatMathText(challenge.question)}</h2>
+      )}
 
       {challenge.reviewOfPart1 && (
         <p className="chip review-chip" style={{ marginTop: '0.75rem' }}>
@@ -369,7 +376,7 @@ export function LessonPage({
 
       {streakNote && <div className="streak-banner">{streakNote}</div>}
 
-      <div style={{ marginTop: '0.35rem' }}>
+      <div className="lesson-challenge-body">
         {!bonusActive && (
           <ChallengeCard
             key={challenge.id}
@@ -379,6 +386,8 @@ export function LessonPage({
             externallySolved={owlExternallySolved}
             revealFirstHint={revealHintFor === challenge.id}
             suppressOptionalStory
+            hideQuestion
+            variant="lesson"
             animationsEnabled={anim}
             onWrong={() => {
               recordWrongAttempt(challenge.topic);

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { HelpPersona, OwlHelp } from '../../types';
+import { formatMathText } from '../../utils/mathText';
 import { HelpMascot } from './HelpMascot';
 import { GuidedHelpSpeechBubble } from './GuidedHelpSpeechBubble';
 
@@ -94,16 +95,16 @@ export function GuidedHelpModal({
           />
 
           {stepIndex === 0 && phase === 'ask' && (
-            <GuidedHelpSpeechBubble>{help.intro}</GuidedHelpSpeechBubble>
+            <GuidedHelpSpeechBubble>{formatMathText(help.intro)}</GuidedHelpSpeechBubble>
           )}
 
           {phase !== 'done' && step && (
             <>
-              <GuidedHelpSpeechBubble>{step.explanation}</GuidedHelpSpeechBubble>
+              <GuidedHelpSpeechBubble>{formatMathText(step.explanation)}</GuidedHelpSpeechBubble>
 
               {step.question && phase !== 'success' && (
                 <>
-                  <p style={{ fontWeight: 700 }}>{step.question}</p>
+                  <p style={{ fontWeight: 700 }}>{formatMathText(step.question)}</p>
                   {step.options && (
                     <div className="options-list">
                       {step.options.map((opt) => (
@@ -116,7 +117,7 @@ export function GuidedHelpModal({
                             setPhase('ask');
                           }}
                         >
-                          {opt.label}
+                          {formatMathText(opt.label)}
                         </button>
                       ))}
                     </div>
@@ -125,16 +126,16 @@ export function GuidedHelpModal({
               )}
 
               {phase === 'retry' && step.retryFeedback && (
-                <GuidedHelpSpeechBubble>{step.retryFeedback}</GuidedHelpSpeechBubble>
+                <GuidedHelpSpeechBubble>{formatMathText(step.retryFeedback)}</GuidedHelpSpeechBubble>
               )}
 
               {phase === 'success' && step.successFeedback && (
-                <GuidedHelpSpeechBubble>{step.successFeedback}</GuidedHelpSpeechBubble>
+                <GuidedHelpSpeechBubble>{formatMathText(step.successFeedback)}</GuidedHelpSpeechBubble>
               )}
             </>
           )}
 
-          {phase === 'done' && <GuidedHelpSpeechBubble>{help.conclusion}</GuidedHelpSpeechBubble>}
+          {phase === 'done' && <GuidedHelpSpeechBubble>{formatMathText(help.conclusion)}</GuidedHelpSpeechBubble>}
         </div>
 
         <footer className="guided-help-modal-actions">

@@ -8,6 +8,7 @@ import {
   pickMessage,
   SUCCESS_MESSAGES,
 } from '../utils/answers';
+import { formatMathText } from '../utils/mathText';
 import { FeedbackCard } from './FeedbackCard';
 import { HintBox } from './HintBox';
 import { BossBattleChallenge } from './challenges/BossBattleChallenge';
@@ -44,6 +45,10 @@ interface ChallengeCardProps {
   onRetry?: () => void;
   /** Hide optionalStory when shown in the lesson hero */
   suppressOptionalStory?: boolean;
+  /** Hide question when rendered outside the card (lesson layout) */
+  hideQuestion?: boolean;
+  /** Lesson page: no card border/background */
+  variant?: 'default' | 'lesson';
   animationsEnabled: boolean;
 }
 
@@ -57,6 +62,8 @@ export function ChallengeCard({
   onCorrect,
   onRetry,
   suppressOptionalStory = false,
+  hideQuestion = false,
+  variant = 'default',
   animationsEnabled: _animationsEnabled,
 }: ChallengeCardProps) {
   void _animationsEnabled;
@@ -231,12 +238,18 @@ export function ChallengeCard({
   const needsManualCheck = !['boss-battle'].includes(challenge.type);
 
   return (
-    <article className="card challenge-card">
-      {challenge.sneakyNote && <div className="sneaky">{challenge.sneakyNote}</div>}
+    <article
+      className={
+        variant === 'lesson' ? 'challenge-card challenge-card--lesson' : 'card challenge-card'
+      }
+    >
+      {challenge.sneakyNote && <div className="sneaky">{formatMathText(challenge.sneakyNote)}</div>}
       {challenge.optionalStory && !suppressOptionalStory && (
-        <p className="challenge-story">{challenge.optionalStory}</p>
+        <p className="challenge-story">{formatMathText(challenge.optionalStory)}</p>
       )}
-      <h2 style={{ marginTop: 0, fontSize: '1.35rem' }}>{challenge.question}</h2>
+      {!hideQuestion && (
+        <h2 className="challenge-question">{formatMathText(challenge.question)}</h2>
+      )}
 
       {challenge.tableData && (
         <div className="table-wrap">
@@ -400,9 +413,9 @@ export function ChallengeCard({
       {!solved && (
         <HintBox
           attempt={attempts}
-          hint1={challenge.hint1}
-          hint2={challenge.hint2}
-          firstStep={challenge.optionalWorkedFirstStep}
+          hint1={formatMathText(challenge.hint1)}
+          hint2={formatMathText(challenge.hint2)}
+          firstStep={formatMathText(challenge.optionalWorkedFirstStep)}
           usedFirstStep={usedFirstStep}
           onRequestFirstStep={() => setUsedFirstStep(true)}
         />
@@ -423,8 +436,8 @@ export function ChallengeCard({
             }
             body={
               previouslyDone && attempts === 0 && canImproveStars
-                ? `${challenge.explanation}\n\nJe hebt nu ${Math.max(alreadyStars, 1)}⭐. Wil je opnieuw proberen voor meer sterren?`
-                : challenge.explanation
+                ? `${formatMathText(challenge.explanation)}\n\nJe hebt nu ${Math.max(alreadyStars, 1)}⭐. Wil je opnieuw proberen voor meer sterren?`
+                : formatMathText(challenge.explanation)
             }
             starsEarned={attempts > 0 ? starsEarned : undefined}
           />

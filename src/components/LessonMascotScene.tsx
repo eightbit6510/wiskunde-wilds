@@ -1,28 +1,20 @@
 import { getChapterArt } from '../assets/chapterArt';
-import type { MascotMood } from './ForestMascot';
-import { ForestMascot } from './ForestMascot';
 
 interface LessonMascotSceneProps {
   storyLessonId: string;
   areaName: string;
   emoji: string;
   color: string;
-  mood: MascotMood;
   storyText?: string | null;
-  size?: number;
-  animationsEnabled?: boolean;
 }
 
-/** Chapter illustration with optional story overlay and fox on the top-right. */
+/** Chapter illustration with optional story overlay. */
 export function LessonMascotScene({
   storyLessonId,
   areaName,
   emoji,
   color,
-  mood,
   storyText,
-  size = 90,
-  animationsEnabled = true,
 }: LessonMascotSceneProps) {
   const artSrc = getChapterArt(storyLessonId);
 
@@ -49,9 +41,6 @@ export function LessonMascotScene({
           </div>
         )}
         {storyText && <p className="lesson-hero__story">{storyText}</p>}
-        <div className={`lesson-hero__fox${animationsEnabled ? ' mascot-float' : ''}`}>
-          <ForestMascot mood={mood} size={size} />
-        </div>
       </div>
     </div>
   );

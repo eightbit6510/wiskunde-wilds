@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { OwlHelp } from '../../types';
+import { formatMathText } from '../../utils/mathText';
 import { OwlMascot } from './OwlMascot';
 import { OwlSpeechBubble } from './OwlSpeechBubble';
 
@@ -81,16 +82,16 @@ export function OwlHelpModal({
           />
 
           {stepIndex === 0 && phase === 'ask' && (
-            <OwlSpeechBubble>{help.intro}</OwlSpeechBubble>
+            <OwlSpeechBubble>{formatMathText(help.intro)}</OwlSpeechBubble>
           )}
 
           {phase !== 'done' && step && (
             <>
-              <OwlSpeechBubble>{step.explanation}</OwlSpeechBubble>
+              <OwlSpeechBubble>{formatMathText(step.explanation)}</OwlSpeechBubble>
 
               {step.question && phase !== 'success' && (
                 <>
-                  <p style={{ fontWeight: 700 }}>{step.question}</p>
+                  <p style={{ fontWeight: 700 }}>{formatMathText(step.question)}</p>
                   {step.options && (
                     <div className="options-list">
                       {step.options.map((opt) => (
@@ -104,7 +105,7 @@ export function OwlHelpModal({
                             setPhase('ask');
                           }}
                         >
-                          {opt.label}
+                          {formatMathText(opt.label)}
                         </button>
                       ))}
                     </div>
@@ -113,16 +114,16 @@ export function OwlHelpModal({
               )}
 
               {phase === 'retry' && step.retryFeedback && (
-                <OwlSpeechBubble>{step.retryFeedback}</OwlSpeechBubble>
+                <OwlSpeechBubble>{formatMathText(step.retryFeedback)}</OwlSpeechBubble>
               )}
 
               {phase === 'success' && step.successFeedback && (
-                <OwlSpeechBubble>{step.successFeedback}</OwlSpeechBubble>
+                <OwlSpeechBubble>{formatMathText(step.successFeedback)}</OwlSpeechBubble>
               )}
             </>
           )}
 
-          {phase === 'done' && <OwlSpeechBubble>{help.conclusion}</OwlSpeechBubble>}
+          {phase === 'done' && <OwlSpeechBubble>{formatMathText(help.conclusion)}</OwlSpeechBubble>}
         </div>
 
         <footer className="owl-modal-actions">

@@ -551,13 +551,84 @@ button {
   font-weight: 700;
 }
 
+.lesson-sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 15;
+  margin: -0.15rem 0 0.65rem;
+  padding: 0.35rem 0 0.7rem;
+  background-color: var(--lesson-page-paper, var(--paper));
+  background-image: var(--lesson-page-texture, none);
+  background-size: 10px 10px;
+  background-repeat: repeat;
+  box-shadow: 0 6px 14px rgba(47, 54, 40, 0.07);
+}
+
 .lesson-header {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem 1rem;
+  gap: 0.5rem 0.75rem;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.lesson-header__back {
+  flex-shrink: 0;
+}
+
+.lesson-header__titles {
+  flex: 1 1 12rem;
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.55rem;
+}
+
+.lesson-header__title {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.lesson-header__subtitle {
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+
+.lesson-header__subtitle::before {
+  content: '·';
+  margin-right: 0.55rem;
+  opacity: 0.55;
+}
+
+.lesson-header__fox {
+  flex-shrink: 0;
+  line-height: 0;
+  filter: drop-shadow(0 2px 3px rgba(40, 48, 36, 0.14));
+}
+
+.lesson-header__fox.header-fox-float {
+  animation: headerFoxBob 5s ease-in-out infinite;
+}
+
+@keyframes headerFoxBob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+html[data-calm='true'] .lesson-header__fox.header-fox-float {
+  animation: none;
+}
+
+.lesson-stars-note {
+  margin: 0 0 0.35rem;
+  font-size: 0.9rem;
 }
 
 .challenge-shell {
@@ -568,15 +639,14 @@ button {
 .lesson-hero {
   display: flex;
   justify-content: center;
-  margin: 0.15rem 0 0.5rem;
+  margin: 0.15rem 0 0;
   overflow: visible;
 }
 
 .lesson-hero__frame {
   position: relative;
   width: min(100%, 42rem);
-  margin-top: 1.35rem;
-  margin-right: 2.75rem;
+  margin-top: 0.35rem;
 }
 
 .lesson-hero__img {
@@ -641,35 +711,6 @@ button {
   pointer-events: none;
 }
 
-.lesson-hero__fox {
-  position: absolute;
-  top: -15px;
-  right: 0;
-  z-index: 2;
-  transform: translateX(50%);
-  filter: drop-shadow(0 2px 3px rgba(40, 48, 36, 0.14));
-  pointer-events: none;
-  line-height: 0;
-}
-
-.lesson-hero__fox.mascot-float {
-  animation: mascotBob 5s ease-in-out infinite;
-}
-
-@keyframes mascotBob {
-  0%,
-  100% {
-    transform: translateX(50%) translateY(0);
-  }
-  50% {
-    transform: translateX(50%) translateY(-2px);
-  }
-}
-
-html[data-calm='true'] .lesson-hero__fox.mascot-float {
-  animation: none;
-}
-
 .completion-mascot {
   display: flex;
   justify-content: center;
@@ -678,6 +719,33 @@ html[data-calm='true'] .lesson-hero__fox.mascot-float {
 
 .challenge-card {
   padding: 1.4rem 1.35rem 1.5rem;
+}
+
+.challenge-card--lesson {
+  background: none;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+.lesson-question {
+  margin: 0.4rem auto 0.65rem;
+  max-width: 42rem;
+  font-size: 1.35rem;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.challenge-question {
+  margin: 0 0 0.85rem;
+  font-size: 1.35rem;
+  line-height: 1.35;
+}
+
+.lesson-challenge-body {
+  margin-top: 0.15rem;
 }
 
 .challenge-story {
@@ -1677,6 +1745,11 @@ html[data-animations='false'] .owl-enter {
   --night-mist: #2a3550;
   --moon: #d8e4ff;
   --glow: #9bb4e8;
+}
+
+.theme-night .challenge-card--lesson {
+  background: none;
+  border: none;
 }
 
 .theme-night .challenge-card,

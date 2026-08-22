@@ -1,4 +1,5 @@
 import type { EquationStep } from '../../types';
+import { formatMathText } from '../../utils/mathText';
 
 interface Props {
   steps: EquationStep[];
@@ -20,10 +21,10 @@ export function EquationStepChallenge({
 
   return (
     <div>
-      <p style={{ fontWeight: 700 }}>{step.prompt}</p>
+      <p style={{ fontWeight: 700 }}>{formatMathText(step.prompt)}</p>
       {stepIndex > 0 && (
         <p className="chip" style={{ marginBottom: '0.75rem' }}>
-          Nu: {steps[stepIndex - 1].resultDisplay}
+          Nu: {formatMathText(steps[stepIndex - 1].resultDisplay)}
         </p>
       )}
       <div className="options-list">
@@ -35,7 +36,7 @@ export function EquationStepChallenge({
             disabled={disabled}
             onClick={() => onSelect(opt.id)}
           >
-            {opt.label}
+            {formatMathText(opt.label)}
           </button>
         ))}
       </div>

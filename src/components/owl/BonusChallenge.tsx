@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { BonusVariant } from '../../types';
 import { answersMatch } from '../../utils/answers';
+import { formatMathText } from '../../utils/mathText';
 import { OWL_BONUS_XP } from '../../utils/owlEconomy';
 import { FeedbackCard } from '../FeedbackCard';
 import { OwlMascot } from './OwlMascot';
@@ -53,8 +54,8 @@ export function BonusChallenge({
     <article className="card challenge-card owl-bonus-card">
       <p className="chip">🦉 Nu jij!</p>
       <h2 style={{ marginTop: '0.35rem' }}>Zelfde truc, andere som.</h2>
-      {variant.optionalStory && <p className="challenge-story">{variant.optionalStory}</p>}
-      <p style={{ fontWeight: 700 }}>{variant.question}</p>
+      {variant.optionalStory && <p className="challenge-story">{formatMathText(variant.optionalStory)}</p>}
+      <p style={{ fontWeight: 700 }}>{formatMathText(variant.question)}</p>
 
       {type === 'multiple-choice' && variant.answerOptions && (
         <div className="options-list">
@@ -66,7 +67,7 @@ export function BonusChallenge({
               disabled={solved}
               onClick={() => setSelected(opt.id)}
             >
-              {opt.label}
+              {formatMathText(opt.label)}
             </button>
           ))}
         </div>
@@ -85,7 +86,7 @@ export function BonusChallenge({
               disabled={solved}
               onClick={() => setSelected(opt.id)}
             >
-              {opt.label}
+              {formatMathText(opt.label)}
             </button>
           ))}
         </div>
@@ -126,11 +127,11 @@ export function BonusChallenge({
         <FeedbackCard
           kind="try-again"
           title="Nog niet helemaal. Laten we even speuren."
-          body={
+          body={formatMathText(
             attempts >= 2
               ? variant.hint2 ?? variant.hint1
-              : variant.hint1 ?? 'Kijk nog eens naar de stappen die je met de Uil deed.'
-          }
+              : variant.hint1 ?? 'Kijk nog eens naar de stappen die je met de Uil deed.',
+          )}
         />
       )}
 

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { BossQuestion } from '../../types';
 import { answersMatch } from '../../utils/answers';
+import { formatMathText } from '../../utils/mathText';
 
 interface Props {
   questions: BossQuestion[];
@@ -35,7 +36,7 @@ export function BossBattleChallenge({ questions, onComplete, disabled }: Props) 
       return;
     }
 
-    setMsg(q.explanation);
+    setMsg(formatMathText(q.explanation));
     if (index >= questions.length - 1) {
       onComplete(wrong);
       return;
@@ -54,7 +55,7 @@ export function BossBattleChallenge({ questions, onComplete, disabled }: Props) 
       <p className="chip">
         Boss {index + 1}/{questions.length}
       </p>
-      <p style={{ fontWeight: 700 }}>{q.question}</p>
+      <p style={{ fontWeight: 700 }}>{formatMathText(q.question)}</p>
       {q.type === 'multiple-choice' && q.options && (
         <div className="options-list">
           {q.options.map((o) => (
@@ -65,7 +66,7 @@ export function BossBattleChallenge({ questions, onComplete, disabled }: Props) 
               disabled={disabled}
               onClick={() => setSelected(o.id)}
             >
-              {o.label}
+              {formatMathText(o.label)}
             </button>
           ))}
         </div>

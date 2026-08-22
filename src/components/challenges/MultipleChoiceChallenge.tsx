@@ -1,4 +1,5 @@
 import type { AnswerOption } from '../../types';
+import { formatMathText } from '../../utils/mathText';
 
 interface Props {
   options: AnswerOption[];
@@ -32,7 +33,7 @@ export function MultipleChoiceChallenge({
             disabled={disabled}
             onClick={() => onSelect(opt.id)}
           >
-            {opt.label}
+            {formatMathText(opt.label)}
           </button>
         );
       })}

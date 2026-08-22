@@ -13,12 +13,16 @@ export function ChapterPageBackground({ storyLessonId }: ChapterPageBackgroundPr
     const body = document.body;
 
     if (texture) {
+      document.documentElement.style.setProperty('--lesson-page-paper', paper);
+      document.documentElement.style.setProperty('--lesson-page-texture', `url(${texture})`);
       body.style.backgroundColor = paper;
       body.style.backgroundImage = `url(${texture})`;
       body.style.backgroundSize = '10px 10px';
       body.style.backgroundRepeat = 'repeat';
       body.style.backgroundAttachment = 'fixed';
     } else {
+      document.documentElement.style.removeProperty('--lesson-page-paper');
+      document.documentElement.style.removeProperty('--lesson-page-texture');
       body.style.backgroundColor = '';
       body.style.backgroundImage = '';
       body.style.backgroundSize = '';
@@ -27,6 +31,8 @@ export function ChapterPageBackground({ storyLessonId }: ChapterPageBackgroundPr
     }
 
     return () => {
+      document.documentElement.style.removeProperty('--lesson-page-paper');
+      document.documentElement.style.removeProperty('--lesson-page-texture');
       body.style.backgroundColor = '';
       body.style.backgroundImage = '';
       body.style.backgroundSize = '';
