@@ -85,10 +85,6 @@ body {
   line-height: 1.55;
   color: var(--text);
   background-color: var(--paper);
-  background-image: url('../assets/paper-texture.png');
-  background-repeat: repeat;
-  background-size: 320px 320px;
-  background-attachment: fixed;
   position: relative;
 }
 
@@ -579,8 +575,8 @@ button {
 .lesson-hero__frame {
   position: relative;
   width: min(100%, 42rem);
-  margin-top: 0.85rem;
-  margin-right: 0.55rem;
+  margin-top: 1.35rem;
+  margin-right: 2.75rem;
 }
 
 .lesson-hero__img {
@@ -647,17 +643,17 @@ button {
 
 .lesson-hero__fox {
   position: absolute;
-  top: -8px;
+  top: -15px;
   right: 0;
   z-index: 2;
   transform: translateX(50%);
-  filter: drop-shadow(0 1px 2px rgba(40, 48, 36, 0.14));
+  filter: drop-shadow(0 2px 3px rgba(40, 48, 36, 0.14));
   pointer-events: none;
   line-height: 0;
 }
 
 .lesson-hero__fox.mascot-float {
-  animation: mascotBob 3.5s ease-in-out infinite;
+  animation: mascotBob 5s ease-in-out infinite;
 }
 
 @keyframes mascotBob {
@@ -666,7 +662,7 @@ button {
     transform: translateX(50%) translateY(0);
   }
   50% {
-    transform: translateX(50%) translateY(-5px);
+    transform: translateX(50%) translateY(-2px);
   }
 }
 

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom';
 import { BadgeUnlockModal } from '../components/BadgeUnlockModal';
 import { ChallengeCard } from '../components/ChallengeCard';
+import { ChapterPageBackground } from '../components/ChapterPageBackground';
 import { CompletionModal } from '../components/CompletionModal';
 import type { MascotMood } from '../components/ForestMascot';
 import { LessonMascotScene } from '../components/LessonMascotScene';
@@ -284,6 +285,7 @@ export function LessonPage({
 
   return (
     <div className={`challenge-shell${isPart2 ? ' theme-night' : ''}`}>
+      <ChapterPageBackground storyLessonId={storyId} />
       <div className="lesson-header">
         <Link to="/" className="btn btn-ghost">
           ← Kaart
@@ -315,7 +317,7 @@ export function LessonPage({
         color={lesson.color}
         mood={mascotMood}
         storyText={index === 0 ? lesson.intro : challenge.optionalStory}
-        size={18}
+        size={90}
         animationsEnabled={anim}
       />
 
