@@ -48,9 +48,9 @@ export function PlayerAuthWizard({
   settingsApi,
   progress,
 }: PlayerAuthWizardProps) {
-  const { register, login, checkName } = authApi;
+  const { register, login, checkName, session, updatePrefs, syncToCloud } = authApi;
   const { applyProgress } = progressApi;
-  const { update: updateSettings } = settingsApi;
+  const { settings, update: updateSettings } = settingsApi;
 
   const persona = useMemo(() => getGuidePersona(progress), [progress.part2Unlocked]);
 
@@ -165,7 +165,17 @@ export function PlayerAuthWizard({
     if (step === 'class') {
       if (!classLevel) return setFormError('Kies je jaargroep — dat bepaalt welke sommen je krijgt.');
       if (classOnly) {
-        updateSettings({ classLevel: classLevel as ClassLevel });
+        const next = classLevel as ClassLevel;
+        updateSettings({ classLevel: next });
+        // Speelpad gebruikt cloud-prefs boven lokale settings — sync beide.
+        if (session) {
+          updatePrefs({ classLevel: next });
+          void syncToCloud({
+            progress,
+            settings: { ...settings, classLevel: next },
+            classLevel: next,
+          });
+        }
         setStep('success');
         return;
       }
@@ -219,6 +229,8 @@ export function PlayerAuthWizard({
       if (result.prefs.settings) {
         settingsApi.update(result.prefs.settings);
       }
+      // Houd lokale jaargroep gelijk aan cloud (speelpad leest prefs eerst).
+      updateSettings({ classLevel: result.prefs.classLevel ?? null });
       setStep('success');
     } catch (err) {
       setFormError(err instanceof Error ? err.message : 'Inloggen mislukt. Kloppen je naam en code?');

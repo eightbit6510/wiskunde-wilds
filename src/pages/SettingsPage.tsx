@@ -5,6 +5,7 @@ import { getClassLevelLabel } from '../content/classLevels';
 import type { PlayerAuthApi } from '../hooks/usePlayerAuth';
 import type { ProgressApi } from '../hooks/useProgress';
 import type { SettingsApi } from '../hooks/useSettings';
+import { getActiveClassLevel } from '../utils/activeClassLevel';
 
 export function SettingsPage({
   progressApi,
@@ -19,6 +20,7 @@ export function SettingsPage({
   const { resetProgress, progress } = progressApi;
   const [confirmReset, setConfirmReset] = useState(false);
   const [classWizardOpen, setClassWizardOpen] = useState(false);
+  const activeClassLevel = getActiveClassLevel(authApi, settingsApi);
 
   return (
     <div>
@@ -29,12 +31,12 @@ export function SettingsPage({
         <div className="settings-row" style={{ flexDirection: 'column', alignItems: 'stretch' }}>
           <strong>Jaargroep</strong>
           <p className="muted" style={{ margin: '0.35rem 0 0.75rem', fontSize: '0.9rem' }}>
-            {settings.classLevel
-              ? <>Je speelt nu met sommen voor <strong>{getClassLevelLabel(settings.classLevel)}</strong>.</>
+            {activeClassLevel
+              ? <>Je speelt nu met sommen voor <strong>{getClassLevelLabel(activeClassLevel)}</strong>.</>
               : 'Kies je jaargroep om hoofdstukken en sommen op jouw niveau te zien.'}
           </p>
           <button type="button" className="btn btn-secondary" onClick={() => setClassWizardOpen(true)}>
-            {settings.classLevel ? 'Jaargroep wijzigen' : 'Jaargroep kiezen'}
+            {activeClassLevel ? 'Jaargroep wijzigen' : 'Jaargroep kiezen'}
           </button>
         </div>
 
