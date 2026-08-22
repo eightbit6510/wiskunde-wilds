@@ -2,6 +2,7 @@ import { describe, expect, it, beforeEach, afterEach } from 'vitest';
 import { createEmptyProgress, DEFAULT_SETTINGS } from './storage';
 import {
   hasMarkedSiteVisit,
+  hasPlayProgress,
   hasPriorLocalActivity,
   markSiteVisited,
   shouldAutoShowAuthWizard,
@@ -56,6 +57,11 @@ describe('siteVisit', () => {
         adventureStarted: true,
       }),
     ).toBe(true);
+  });
+
+  it('treats adventureStarted alone as no play progress for homepage copy', () => {
+    expect(hasPlayProgress({ ...createEmptyProgress(), adventureStarted: true })).toBe(false);
+    expect(hasPlayProgress({ ...createEmptyProgress(), totalStars: 1 })).toBe(true);
   });
 
   it('shows wizard only on first visit without account or progress', () => {

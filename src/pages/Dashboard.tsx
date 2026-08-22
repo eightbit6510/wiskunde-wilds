@@ -12,6 +12,7 @@ import type { SettingsApi } from '../hooks/useSettings';
 import type { PlayerAuthApi } from '../hooks/usePlayerAuth';
 import { useActiveLessons } from '../hooks/useActiveLessons';
 import { part1LessonCompletionSummary } from '../utils/progressSync';
+import { hasPlayProgress } from '../utils/siteVisit';
 
 export function Dashboard({
   progressApi,
@@ -43,8 +44,7 @@ export function Dashboard({
   ).length;
 
   const playerName = session?.player.displayName;
-  const isReturningPlayer =
-    progress.adventureStarted || doneChallenges > 0 || progress.challengesSolved > 0;
+  const isReturningPlayer = hasPlayProgress(progress);
   const welcomeTitle =
     isLoggedIn && playerName
       ? isReturningPlayer

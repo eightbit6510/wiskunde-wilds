@@ -25,11 +25,23 @@ export function hasPriorLocalActivity(
 ): boolean {
   if (settings.classLevel) return true;
   if (progress.adventureStarted) return true;
-  if (progress.completedChallenges.length > 0) return true;
-  if (progress.completedLessons.length > 0) return true;
-  if (progress.totalStars > 0) return true;
-  if (progress.challengesSolved > 0) return true;
+  if (hasPlayProgress(progress)) return true;
   return false;
+}
+
+/** Echte speelvoortgang — niet alleen adventureStarted of kaart bekeken. */
+export function hasPlayProgress(progress: ProgressState): boolean {
+  return (
+    progress.totalStars > 0 ||
+    progress.totalXp > 0 ||
+    progress.challengesSolved > 0 ||
+    progress.completedChallenges.length > 0 ||
+    progress.completedLessons.length > 0 ||
+    progress.sessionStreak > 0 ||
+    progress.bestSessionStreak > 0 ||
+    progress.unlockedBadges.length > 0 ||
+    progress.attempts.some((attempt) => attempt.correct)
+  );
 }
 
 /** Eerste bezoek: toon inlog/aanmeld-wizard. Terugkerende spelers: niet automatisch. */
