@@ -1,28 +1,32 @@
 {
   "id": "mavo-3-p2-c07",
   "type": "multiple-choice",
-  "topic": "algebra",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 2x + 4x",
-  "answer": "a",
+  "question": "v = s / t. Welke formule geeft s (afstand)?",
+  "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "6x"
+      "label": "s = v / t"
     },
     {
       "id": "b",
-      "label": "8x"
+      "label": "s = v × t"
     },
     {
       "id": "c",
-      "label": "6"
+      "label": "s = t / v"
+    },
+    {
+      "id": "d",
+      "label": "s = v + t"
     }
   ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "2x + 4x = (2+4)x",
-  "explanation": "2x + 4x = 6x",
+  "hint1": "Vermenigvuldig beide kanten van v = s/t met t.",
+  "hint2": "v · t = s.",
+  "explanation": "s = v × t.",
   "classLevels": [
     "mavo-3"
   ]

@@ -2,7 +2,7 @@
   "challengeId": "vwo-4-c30",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
+    "intro": "Alle runestenen samen — bijna op de top!",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 3:4"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "De getallen 3 en 4 direct optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 3:4 betekent steeds dezelfde factor.\n\nEerste deel = 6.",
-        "question": "Hoeveel keer past 3 in 6? (schaalfactor)",
-        "options": [
-          {
-            "id": "f",
-            "label": "2"
-          },
-          {
-            "id": "w",
-            "label": "3"
-          }
-        ],
-        "correctAnswer": "f",
-        "successFeedback": "Goed — schaalfactor = 2.",
-        "retryFeedback": "Deel 6 door 3."
-      },
-      {
-        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
-        "question": "Tweede deel = 2 × 4 = ?",
-        "options": [
-          {
-            "id": "o",
-            "label": "8"
-          },
-          {
-            "id": "w",
-            "label": "12"
-          }
-        ],
-        "correctAnswer": "o",
-        "successFeedback": "Klopt: 8.",
-        "retryFeedback": "Vermenigvuldig je schaalfactor met 4."
-      },
-      {
-        "explanation": "Stappenplan voor dit type som:\n1. Deel gegeven deel door verhoudingsdeel (6 ÷ 3 = 2)\n2. Vermenigvuldig met ander deel (2 × 4)\n3. Controle: 6:8 = 3:4",
-        "question": "Is het antwoord 8?",
+        "explanation": "Alle runestenen samen — bijna op de top!",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, verhouding klopt"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Super! De tweede groep is 8.",
-        "retryFeedback": "Volg het stappenplan stap voor stap."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
+      },
+      {
+        "explanation": "Controleer je antwoord voordat je verder gaat.",
+        "question": "Heb je alles netjes uitgewerkt?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Ja, gecontroleerd"
+          },
+          {
+            "id": "skip",
+            "label": "Nog niet"
+          }
+        ],
+        "correctAnswer": "check",
+        "successFeedback": "Helemaal goed.",
+        "retryFeedback": "Kijk je stappen nog eens na."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 8."
+    "conclusion": "Alle runestenen samen — bijna op de top!"
   },
   "bonusVariants": [
     {
-      "id": "vwo-4-c30-b1",
-      "type": "number-input",
-      "question": "Verhouding 3:4, eerste = 9. Tweede?",
-      "answer": 12,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Zelfde schaalfactor.",
-      "explanation": "Zelfde schaalfactor."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-4-c30-b2",
-      "type": "number-input",
-      "question": "Verhouding 3:4, eerste = 6. Tweede?",
-      "answer": 8,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "6 ÷ 3 × 4.",
-      "explanation": "6 ÷ 3 × 4."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

@@ -1,14 +1,56 @@
 {
   "id": "groep-6-p2-c12",
-  "type": "number-input",
-  "topic": "algebra",
+  "type": "multiple-choice",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 4 + 4 + 4 (3 keer 4). Wat is het antwoord?",
-  "answer": 12,
-  "hint1": "3 keer 4 is hetzelfde als 3 × 4.",
-  "hint2": "3 × 4 = 12",
-  "explanation": "3 × 4 = 12",
+  "question": "Welk patroon zie je in de tabel? Welke formule past erbij?",
+  "tableData": {
+    "headers": [
+      "x",
+      "y"
+    ],
+    "rows": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        9
+      ]
+    ]
+  },
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "y = x + 3"
+    },
+    {
+      "id": "b",
+      "label": "y = 2x + 3"
+    },
+    {
+      "id": "c",
+      "label": "y = 3x"
+    },
+    {
+      "id": "d",
+      "label": "y = 2x − 3"
+    }
+  ],
+  "hint1": "Kijk hoeveel y stijgt als x met 1 toeneemt.",
+  "hint2": "Elke stap +2 in y, start bij y = 3 → y = 2x + 3.",
+  "explanation": "y = 2x + 3. Elke stap in x geeft +2 in y.",
   "classLevels": [
     "groep-6"
   ]

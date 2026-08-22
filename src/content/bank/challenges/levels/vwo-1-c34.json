@@ -1,28 +1,14 @@
 {
   "id": "vwo-1-c34",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "true-false",
+  "topic": "kwadratisch",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 10x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→10, 2→20, 3→30"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→11, 2→12, 3→13"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 10.",
-  "hint2": "Bij x = 6 hoort y = 60.",
-  "explanation": "y = 10x betekent: y is steeds 10 keer x.\nBij x = 6: y = 60.",
+  "question": "Klopt dit? “De grafiek van y = x² is symmetrisch in de y-as.”",
+  "answer": true,
+  "hint1": "(−x)² = x².",
+  "hint2": "Links en rechts spiegelbeeld.",
+  "explanation": "Ja — de parabool is symmetrisch.",
   "classLevels": [
     "vwo-1"
   ]

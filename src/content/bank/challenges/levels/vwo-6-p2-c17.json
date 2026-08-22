@@ -1,28 +1,14 @@
 {
   "id": "vwo-6-p2-c17",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "text-input",
+  "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 6x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→6, 2→12, 3→18"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→7, 2→8, 3→9"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 6.",
-  "hint2": "Bij x = 6 hoort y = 36.",
-  "explanation": "y = 6x betekent: y is steeds 6 keer x.\nBij x = 6: y = 36.",
+  "question": "Bereken 1/2 + 1/3. Geef als breuk (bijv. 5/6).",
+  "answer": "5/6",
+  "hint1": "Kleinste gemeenschappelijke noemer is 6.",
+  "hint2": "3/6 + 2/6 = 5/6.",
+  "explanation": "1/2 + 1/3 = 5/6.",
   "classLevels": [
     "vwo-6"
   ]

@@ -1,28 +1,14 @@
 {
   "id": "havo-5-c13",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "grafieken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 6x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "11x"
-    },
-    {
-      "id": "b",
-      "label": "30x"
-    },
-    {
-      "id": "c",
-      "label": "11"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 6x = (5+6)x",
-  "explanation": "5x + 6x = 11x",
+  "question": "y = 2x + 3. Waar raakt de grafiek de y-as? Geef de y-waarde.",
+  "answer": 3,
+  "hint1": "Op de y-as is x = 0.",
+  "hint2": "Vul x = 0 in: y = 2·0 + 3.",
+  "explanation": "Bij x = 0: y = 3. Dat is het snijpunt met de y-as.",
   "classLevels": [
     "havo-5"
   ]

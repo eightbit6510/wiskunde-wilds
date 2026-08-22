@@ -1,14 +1,14 @@
 {
   "id": "vwo-3-c34",
-  "type": "number-input",
-  "topic": "machten",
+  "type": "true-false",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 5^4",
-  "answer": 625,
-  "hint1": "5 × 5 × …",
-  "hint2": "Vermenigvuldig 5 4 keer met zichzelf.",
-  "explanation": "5^4 = 625",
+  "question": "Klopt dit? “De grafiek van y = x² is symmetrisch in de y-as.”",
+  "answer": true,
+  "hint1": "(−x)² = x².",
+  "hint2": "Links en rechts spiegelbeeld.",
+  "explanation": "Ja — de parabool is symmetrisch.",
   "classLevels": [
     "vwo-3"
   ]

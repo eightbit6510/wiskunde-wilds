@@ -1,15 +1,28 @@
 {
   "id": "groep-8-p2-c16",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "multiple-choice",
+  "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 99 = 149. Wat is x?",
-  "answer": 50,
-  "hint1": "Haal 99 naar de andere kant: x = 149 − 99.",
-  "hint2": "x = 149 − 99",
-  "optionalWorkedFirstStep": "x + 99 = 149 → x = 149 − 99",
-  "explanation": "x + 99 = 149\nx = 149 − 99 = 50",
+  "question": "Paraboolvallei — Bij y = x²: wat is y als x = 3 en als x = −3?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Beide keren 9"
+    },
+    {
+      "id": "b",
+      "label": "3 en −3"
+    },
+    {
+      "id": "c",
+      "label": "0 en 9"
+    }
+  ],
+  "hint1": "(−3)² = 9 en 3² = 9.",
+  "hint2": "Positief en negatief x kunnen dezelfde y geven.",
+  "explanation": "Beide geven y = 9 — symmetrie in maanlicht.",
   "classLevels": [
     "groep-8"
   ]

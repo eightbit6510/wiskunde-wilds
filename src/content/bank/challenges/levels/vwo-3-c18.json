@@ -1,14 +1,28 @@
 {
   "id": "vwo-3-c18",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 3:4. De eerste deelgroep is 9. Hoe groot is de tweede?",
-  "answer": 12,
-  "hint1": "Deel 9 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 4 = 12.",
-  "explanation": "9 ÷ 3 = 3.\n3 × 4 = 12.",
+  "question": "Wat is groter: 2⁵ of 5²?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "2⁵ (= 32)"
+    },
+    {
+      "id": "b",
+      "label": "5² (= 25)"
+    },
+    {
+      "id": "gelijk",
+      "label": "Even groot"
+    }
+  ],
+  "hint1": "Reken beide uit.",
+  "hint2": "2⁵ = 32 en 5² = 25.",
+  "explanation": "2⁵ = 32 > 5² = 25.",
   "classLevels": [
     "vwo-3"
   ]

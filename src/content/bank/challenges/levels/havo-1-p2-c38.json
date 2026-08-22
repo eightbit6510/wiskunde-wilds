@@ -4,11 +4,11 @@
   "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 707, lengte = 101. Wat is de breedte?",
-  "answer": 7,
+  "question": "Oppervlakte A = lengte × breedte. A = 485, lengte = 97. Wat is de breedte?",
+  "answer": 5,
   "hint1": "Deel A door lengte.",
-  "hint2": "b = 707 ÷ 101",
-  "explanation": "b = A ÷ l = 707 ÷ 101 = 7",
+  "hint2": "b = 485 ÷ 97",
+  "explanation": "b = A ÷ l = 485 ÷ 97 = 5",
   "classLevels": [
     "havo-1"
   ]

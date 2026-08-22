@@ -1,14 +1,14 @@
 {
   "id": "havo-5-p2-c31",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "redeneren",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Bereken: 2^2",
-  "answer": 4,
-  "hint1": "2 × 2",
-  "hint2": "Vermenigvuldig 2 2 keer met zichzelf.",
-  "explanation": "2^2 = 4",
+  "question": "Reeks: 3, 7, 11, 15, … Wat is het volgende getal?",
+  "answer": 19,
+  "hint1": "Elke stap +4.",
+  "hint2": "15 + 4 = 19.",
+  "explanation": "Het patroon is +4 → 19.",
   "classLevels": [
     "havo-5"
   ]

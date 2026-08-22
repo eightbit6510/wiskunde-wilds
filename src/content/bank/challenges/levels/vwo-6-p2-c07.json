@@ -1,28 +1,32 @@
 {
   "id": "vwo-6-p2-c07",
   "type": "multiple-choice",
-  "topic": "algebra",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 6x + 6x",
-  "answer": "a",
+  "question": "v = s / t. Welke formule geeft s (afstand)?",
+  "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "12x"
+      "label": "s = v / t"
     },
     {
       "id": "b",
-      "label": "36x"
+      "label": "s = v × t"
     },
     {
       "id": "c",
-      "label": "12"
+      "label": "s = t / v"
+    },
+    {
+      "id": "d",
+      "label": "s = v + t"
     }
   ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "6x + 6x = (6+6)x",
-  "explanation": "6x + 6x = 12x",
+  "hint1": "Vermenigvuldig beide kanten van v = s/t met t.",
+  "hint2": "v · t = s.",
+  "explanation": "s = v × t.",
   "classLevels": [
     "vwo-6"
   ]

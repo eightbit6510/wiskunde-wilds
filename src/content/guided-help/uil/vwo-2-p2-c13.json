@@ -2,7 +2,7 @@
   "challengeId": "vwo-2-p2-c13",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
+    "intro": "Twee delen sap, drie delen water — de riviercocktail.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 4:3"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "De getallen 4 en 3 direct optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 4:3 betekent steeds dezelfde factor.\n\nEerste deel = 16.",
-        "question": "Hoeveel keer past 4 in 16? (schaalfactor)",
-        "options": [
-          {
-            "id": "f",
-            "label": "4"
-          },
-          {
-            "id": "w",
-            "label": "5"
-          }
-        ],
-        "correctAnswer": "f",
-        "successFeedback": "Goed — schaalfactor = 4.",
-        "retryFeedback": "Deel 16 door 4."
-      },
-      {
-        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
-        "question": "Tweede deel = 4 × 3 = ?",
-        "options": [
-          {
-            "id": "o",
-            "label": "12"
-          },
-          {
-            "id": "w",
-            "label": "15"
-          }
-        ],
-        "correctAnswer": "o",
-        "successFeedback": "Klopt: 12.",
-        "retryFeedback": "Vermenigvuldig je schaalfactor met 3."
-      },
-      {
-        "explanation": "Stap 4: controleer de verhouding.",
-        "question": "Klopt 16:12 = 4:3?",
+        "explanation": "Twee delen sap, drie delen water — de riviercocktail.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. Antwoord = 12.",
-        "retryFeedback": "Deel 16 door 4, vermenigvuldig met 3."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 12."
+    "conclusion": "Twee delen sap, drie delen water — de riviercocktail."
   },
   "bonusVariants": [
     {
-      "id": "vwo-2-c53-b1",
-      "type": "number-input",
-      "question": "Verhouding 4:3, eerste = 20. Tweede?",
-      "answer": 15,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Zelfde schaalfactor.",
-      "explanation": "Zelfde schaalfactor."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-2-c53-b2",
-      "type": "number-input",
-      "question": "Verhouding 4:3, eerste = 16. Tweede?",
-      "answer": 12,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "16 ÷ 4 × 3.",
-      "explanation": "16 ÷ 4 × 3."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

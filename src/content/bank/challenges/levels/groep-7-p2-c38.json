@@ -4,11 +4,11 @@
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 5 + 5 + 5 + 5 + … (5 keer 5). Wat is het antwoord?",
-  "answer": 25,
-  "hint1": "5 keer 5 is hetzelfde als 5 × 5.",
-  "hint2": "5 × 5 = 25",
-  "explanation": "5 × 5 = 25",
+  "question": "Reken uit: 2 + 2 + 2 + 2 (4 keer 2). Wat is het antwoord?",
+  "answer": 8,
+  "hint1": "4 keer 2 is hetzelfde als 4 × 2.",
+  "hint2": "4 × 2 = 8",
+  "explanation": "4 × 2 = 8",
   "classLevels": [
     "groep-7"
   ]

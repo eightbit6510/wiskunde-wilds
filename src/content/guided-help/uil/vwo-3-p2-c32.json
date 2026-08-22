@@ -2,7 +2,7 @@
   "challengeId": "vwo-3-p2-c32",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "intro": "De vallei spiegelt zich in maanlicht.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 17 = 26"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "x berekenen door alles op te tellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +17 weg is.\n\nWat doe je met +17?",
-        "question": "Hoe haal je +17 weg?",
-        "options": [
-          {
-            "id": "sub",
-            "label": "17 aftrekken aan beide kanten"
-          },
-          {
-            "id": "add",
-            "label": "17 optellen"
-          }
-        ],
-        "correctAnswer": "sub",
-        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
-        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
-      },
-      {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 17 = 26. Haal +17 weg → x = 26 − 17.",
-        "question": "Wat is 26 − 17?",
-        "options": [
-          {
-            "id": "x",
-            "label": "9"
-          },
-          {
-            "id": "wrong",
-            "label": "11"
-          }
-        ],
-        "correctAnswer": "x",
-        "successFeedback": "Goed: x = 9.",
-        "retryFeedback": "Reken uit: 26 − 17."
-      },
-      {
-        "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 17 = 26?",
+        "explanation": "De vallei spiegelt zich in maanlicht.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, dat klopt"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. x = 9!",
-        "retryFeedback": "Reken na: x + 17 moet 26 zijn."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 9"
+    "conclusion": "De vallei spiegelt zich in maanlicht."
   },
   "bonusVariants": [
     {
-      "id": "vwo-3-c32-b1",
-      "type": "number-input",
-      "question": "Los op: x + 19 = 28.",
-      "answer": 9,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 28 − 19 = 9.",
-      "explanation": "x = 28 − 19 = 9."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-3-c32-b2",
-      "type": "number-input",
-      "question": "Los op: x + 17 = 31.",
-      "answer": 14,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 31 − 17.",
-      "explanation": "x = 31 − 17."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

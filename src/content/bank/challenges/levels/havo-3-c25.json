@@ -1,28 +1,14 @@
 {
   "id": "havo-3-c25",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 3x + 6x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "9x"
-    },
-    {
-      "id": "b",
-      "label": "18x"
-    },
-    {
-      "id": "c",
-      "label": "9"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "3x + 6x = (3+6)x",
-  "explanation": "3x + 6x = 9x",
+  "question": "Verhouding 4:4. De eerste deelgroep is 20. Hoe groot is de tweede?",
+  "answer": 20,
+  "hint1": "Deel 20 door 4 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 4 = 20.",
+  "explanation": "20 ÷ 4 = 5.\n5 × 4 = 20.",
   "classLevels": [
     "havo-3"
   ]

@@ -2,7 +2,7 @@
   "challengeId": "vwo-4-c14",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "intro": "Vier sporen, vier betekenissen — verbind ze.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 15 = 25"
+            "label": "Lees de opdracht rustig"
           },
           {
             "id": "wrong",
-            "label": "x berekenen door alles op te tellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +15 weg is.\n\nWat doe je met +15?",
-        "question": "Hoe haal je +15 weg?",
-        "options": [
-          {
-            "id": "sub",
-            "label": "15 aftrekken aan beide kanten"
-          },
-          {
-            "id": "add",
-            "label": "15 optellen"
-          }
-        ],
-        "correctAnswer": "sub",
-        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
-        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
-      },
-      {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 15 = 25. Haal +15 weg → x = 25 − 15.",
-        "question": "Wat is 25 − 15?",
-        "options": [
-          {
-            "id": "x",
-            "label": "10"
-          },
-          {
-            "id": "wrong",
-            "label": "12"
-          }
-        ],
-        "correctAnswer": "x",
-        "successFeedback": "Goed: x = 10.",
-        "retryFeedback": "Reken uit: 25 − 15."
-      },
-      {
-        "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 15 = 25?",
+        "explanation": "Neem de tijd. Geen haast.",
+        "question": "Snap je wat je moet doen?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, dat klopt"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. x = 10!",
-        "retryFeedback": "Reken na: x + 15 moet 25 zijn."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de vraag nog eens rustig."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 10"
+    "conclusion": "Vier sporen, vier betekenissen — verbind ze."
   },
   "bonusVariants": [
     {
-      "id": "vwo-4-c14-b1",
-      "type": "number-input",
-      "question": "Los op: x + 17 = 27.",
-      "answer": 10,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 27 − 17 = 10.",
-      "explanation": "x = 27 − 17 = 10."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Even oefenen?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-4-c14-b2",
-      "type": "number-input",
-      "question": "Los op: x + 15 = 30.",
-      "answer": 15,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 30 − 15.",
-      "explanation": "x = 30 − 15."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

@@ -1,28 +1,14 @@
 {
   "id": "groep-6-c25",
-  "type": "multiple-choice",
-  "topic": "breuken",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 3/6 + 3/6? Kies het juiste antwoord.",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "1"
-    },
-    {
-      "id": "b",
-      "label": "1/2"
-    },
-    {
-      "id": "c",
-      "label": "7/6"
-    }
-  ],
-  "hint1": "Hebben beide breuken dezelfde noemer? Tel dan de tellers op.",
-  "hint2": "3 + 3 = 6, noemer blijft 6.",
-  "explanation": "3/6 + 3/6 = 1",
+  "question": "Voor elke 3 rode plakkers horen 4 blauwe. Je hebt 12 rode. Hoeveel blauwe horen daarbij?",
+  "answer": 16,
+  "hint1": "Deel 12 door 3.",
+  "hint2": "Dat getal × 4 = 16.",
+  "explanation": "12 ÷ 3 = 4.\n4 × 4 = 16.",
   "classLevels": [
     "groep-6"
   ]

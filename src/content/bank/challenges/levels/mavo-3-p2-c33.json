@@ -1,28 +1,14 @@
 {
   "id": "mavo-3-p2-c33",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 6x + 4x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "10x"
-    },
-    {
-      "id": "b",
-      "label": "24x"
-    },
-    {
-      "id": "c",
-      "label": "10"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "6x + 4x = (6+4)x",
-  "explanation": "6x + 4x = 10x",
+  "question": "Figuurstenen: figuur 1 = 4 stenen, figuur 2 = 7, figuur 3 = 10. Hoeveel stenen heeft figuur 10?",
+  "answer": 31,
+  "hint1": "Verschil +3 per figuur. Formule: 3n + 1.",
+  "hint2": "3·10 + 1 = 31.",
+  "explanation": "Figuur 10 heeft 31 stenen.",
   "classLevels": [
     "mavo-3"
   ]

@@ -1,14 +1,20 @@
 {
   "id": "havo-3-c39",
-  "type": "number-input",
+  "type": "text-input",
   "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 84, lengte = 21. Wat is de breedte?",
-  "answer": 4,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 84 ÷ 21",
-  "explanation": "b = A ÷ l = 84 ÷ 21 = 4",
+  "question": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b.",
+  "answer": "l=(P-2b)/2",
+  "acceptedAnswers": [
+    "l=(P-2b)/2",
+    "ℓ=(P-2b)/2",
+    "l=P/2-b",
+    "ℓ=P/2-b"
+  ],
+  "hint1": "Trek 2b af, deel door 2.",
+  "hint2": "ℓ = (P − 2b) / 2.",
+  "explanation": "ℓ = (P − 2b) / 2.",
   "classLevels": [
     "havo-3"
   ]

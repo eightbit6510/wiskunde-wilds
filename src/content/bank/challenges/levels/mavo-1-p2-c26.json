@@ -1,35 +1,32 @@
 {
   "id": "mavo-1-p2-c26",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "multiple-choice",
+  "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "question": "Wat is 2³ × 2²? (zelfde grondtal)",
+  "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "Het gemiddelde van 2, 4 en 6 is 4"
+      "label": "2⁵"
     },
     {
       "id": "b",
-      "label": "Het gemiddelde van 2, 4 en 6 is 6"
+      "label": "2⁶"
     },
     {
       "id": "c",
-      "label": "De mediaan van 1, 3, 9 is 3"
+      "label": "4⁵"
     },
     {
       "id": "d",
-      "label": "De mediaan van 1, 3, 9 is 9"
+      "label": "2¹"
     }
   ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: (2+4+6)÷3=4. C: middelste waarde=3.",
+  "hint1": "Exponenten optellen bij dezelfde grondtal.",
+  "hint2": "3 + 2 = 5 → 2⁵.",
+  "explanation": "2³ × 2² = 2⁵.",
   "classLevels": [
     "mavo-1"
   ]

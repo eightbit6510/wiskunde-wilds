@@ -2,7 +2,7 @@
   "challengeId": "vwo-6-c25",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij gelijke letters tel je alleen de getallen ervoor op.",
+    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "5x + 2x vereenvoudigen"
+            "label": "Tweede deel vinden bij verhouding 2:5"
           },
           {
             "id": "wrong",
-            "label": "De getallen 5 en 2 vermenigvuldigen"
+            "label": "De getallen 2 en 5 direct optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,46 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
-        "question": "Kun je 5x en 2x optellen?",
+        "explanation": "Stap 2: verhouding 2:5 betekent steeds dezelfde factor.\n\nEerste deel = 4.",
+        "question": "Hoeveel keer past 2 in 4? (schaalfactor)",
+        "options": [
+          {
+            "id": "f",
+            "label": "2"
+          },
+          {
+            "id": "w",
+            "label": "3"
+          }
+        ],
+        "correctAnswer": "f",
+        "successFeedback": "Goed — schaalfactor = 2.",
+        "retryFeedback": "Deel 4 door 2."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
+        "question": "Tweede deel = 2 × 5 = ?",
+        "options": [
+          {
+            "id": "o",
+            "label": "10"
+          },
+          {
+            "id": "w",
+            "label": "15"
+          }
+        ],
+        "correctAnswer": "o",
+        "successFeedback": "Klopt: 10.",
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 5."
+      },
+      {
+        "explanation": "Stap 4: controleer de verhouding.",
+        "question": "Klopt 4:10 = 2:5?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, beide hebben x"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -35,84 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — tel de getallen vóór x op.",
-        "retryFeedback": "Kijk naar de letter: beide hebben x."
-      },
-      {
-        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 5 + 2.",
-        "question": "Wat is 5x + 2x?",
-        "options": [
-          {
-            "id": "a",
-            "label": "7x"
-          },
-          {
-            "id": "b",
-            "label": "10x"
-          }
-        ],
-        "correctAnswer": "a",
-        "successFeedback": "Juist: 7x.",
-        "retryFeedback": "Tel 5 en 2 op; x blijft staan."
-      },
-      {
-        "explanation": "Stap 4: kies het juiste antwoord in de som.",
-        "question": "Welke optie klopt?",
-        "options": [
-          {
-            "id": "a",
-            "label": "7x"
-          },
-          {
-            "id": "c",
-            "label": "7"
-          }
-        ],
-        "correctAnswer": "a",
-        "successFeedback": "Precies — antwoord A: 7x.",
-        "retryFeedback": "5x + 2x = (5+2)x."
+        "successFeedback": "Perfect. Antwoord = 10.",
+        "retryFeedback": "Deel 4 door 2, vermenigvuldig met 5."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5x + 2x = 7x"
+    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 10."
   },
   "bonusVariants": [
     {
       "id": "vwo-6-c25-b1",
-      "type": "multiple-choice",
-      "question": "Vereenvoudig: 6x + 2x",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "8x"
-        },
-        {
-          "id": "b",
-          "label": "8"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 6 + 2.",
-      "explanation": "Tel 6 + 2."
+      "type": "number-input",
+      "question": "Verhouding 2:5, eerste = 6. Tweede?",
+      "answer": 15,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde schaalfactor.",
+      "explanation": "Zelfde schaalfactor."
     },
     {
       "id": "vwo-6-c25-b2",
-      "type": "multiple-choice",
-      "question": "Vereenvoudig: 5x + 3x",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "8x"
-        },
-        {
-          "id": "b",
-          "label": "8x"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 5 + 3.",
-      "explanation": "Tel 5 + 3."
+      "type": "number-input",
+      "question": "Verhouding 2:5, eerste = 4. Tweede?",
+      "answer": 10,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "4 ÷ 2 × 5.",
+      "explanation": "4 ÷ 2 × 5."
     }
   ]
 }

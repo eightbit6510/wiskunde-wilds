@@ -4,25 +4,29 @@
   "topic": "grafieken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 9x. Welke tabel hoort daarbij?",
-  "answer": "a",
+  "question": "Runesteen Grafieken: welke beschrijving past bij y = −x + 4?",
+  "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→9, 2→18, 3→27"
+      "label": "Stijgend, snijpunt y-as bij 4"
     },
     {
       "id": "b",
-      "label": "x: 1→10, 2→11, 3→12"
+      "label": "Dalend, snijpunt y-as bij 4"
     },
     {
       "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "label": "Horizontaal op y = 4"
+    },
+    {
+      "id": "d",
+      "label": "Door oorsprong, steil omhoog"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 9.",
-  "hint2": "Bij x = 2 hoort y = 18.",
-  "explanation": "y = 9x betekent: y is steeds 9 keer x.\nBij x = 2: y = 18.",
+  "hint1": "Hellingsgetal −1 → dalend.",
+  "hint2": "+4 is het snijpunt met de y-as.",
+  "explanation": "Dalend met y-as snijpunt 4.",
   "classLevels": [
     "groep-8"
   ]

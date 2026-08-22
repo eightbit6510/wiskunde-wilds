@@ -1,14 +1,32 @@
 {
   "id": "mavo-1-c23",
-  "type": "number-input",
-  "topic": "formules",
+  "type": "multiple-choice",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 24, lengte = 8. Wat is de breedte?",
-  "answer": 3,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 24 ÷ 8",
-  "explanation": "b = A ÷ l = 24 ÷ 8 = 3",
+  "question": "Welke situatie past bij y = −2x + 10?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Start met 10, elke stap −2"
+    },
+    {
+      "id": "b",
+      "label": "Start met 10, elke stap +2"
+    },
+    {
+      "id": "c",
+      "label": "Altijd y = 10"
+    },
+    {
+      "id": "d",
+      "label": "Elke stap verdubbelen"
+    }
+  ],
+  "hint1": "Het minteken: y daalt als x stijgt.",
+  "hint2": "Bij x=0 is y=10, daarna −2 per stap.",
+  "explanation": "y = −2x + 10: start 10, daarna steeds 2 minder.",
   "classLevels": [
     "mavo-1"
   ]

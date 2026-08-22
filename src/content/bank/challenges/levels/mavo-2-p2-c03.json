@@ -1,15 +1,14 @@
 {
   "id": "mavo-2-p2-c03",
   "type": "number-input",
-  "topic": "breuken",
+  "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 1/3 + 1/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 1.33,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "1/3 + 1/1 = 4/3",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 12.",
-  "explanation": "1/3 + 1/1 = 4/3 = 1.33",
+  "question": "Los op: 3x + 7 = x + 17. Wat is x?",
+  "answer": 5,
+  "hint1": "Haal x-termen naar links, getallen naar rechts.",
+  "hint2": "2x = 10 → x = 5.",
+  "explanation": "3x + 7 = x + 17 → 2x = 10 → x = 5.",
   "classLevels": [
     "mavo-2"
   ]

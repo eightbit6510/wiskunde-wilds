@@ -1,14 +1,32 @@
 {
   "id": "havo-4-c27",
-  "type": "number-input",
-  "topic": "formules",
+  "type": "multiple-choice",
+  "topic": "grafieken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 80, lengte = 16. Wat is de breedte?",
-  "answer": 5,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 80 ÷ 16",
-  "explanation": "b = A ÷ l = 80 ÷ 16 = 5",
+  "question": "Runesteen Grafieken: welke beschrijving past bij y = −x + 4?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Stijgend, snijpunt y-as bij 4"
+    },
+    {
+      "id": "b",
+      "label": "Dalend, snijpunt y-as bij 4"
+    },
+    {
+      "id": "c",
+      "label": "Horizontaal op y = 4"
+    },
+    {
+      "id": "d",
+      "label": "Door oorsprong, steil omhoog"
+    }
+  ],
+  "hint1": "Hellingsgetal −1 → dalend.",
+  "hint2": "+4 is het snijpunt met de y-as.",
+  "explanation": "Dalend met y-as snijpunt 4.",
   "classLevels": [
     "havo-4"
   ]

@@ -2,7 +2,7 @@
   "challengeId": "groep-7-p2-c16",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Er ontbreekt een getal. Tel terug: van het totaal haal je het bekende deel af.",
+    "intro": "Patronen in maanlicht.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Het ontbrekende getal zoeken in ? + 3 = 5"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Alle getallen bij elkaar optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: wat weten we?\n\n? + 3 moet samen 5 worden.",
-        "question": "Moet het ontbrekende getal kleiner zijn dan 5?",
+        "explanation": "Patronen in maanlicht.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, het is een stukje van 5"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee, groter dan 5"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
-        "retryFeedback": "Samen moet het 5 worden."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\nTrek 3 af van 5.",
-        "question": "Wat is 5 − 3?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "m",
-            "label": "2"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "w",
-            "label": "4"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "m",
-        "successFeedback": "Juist! Het ontbrekende getal is 2.",
-        "retryFeedback": "Trek 3 af van 5."
-      },
-      {
-        "explanation": "Stap 4: controleer.",
-        "question": "Tel je antwoord op bij 3. Kom je op 5?",
-        "options": [
-          {
-            "id": "yes",
-            "label": "Ja, dat klopt"
-          },
-          {
-            "id": "no",
-            "label": "Nee"
-          }
-        ],
-        "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het ontbrekende getal is 2.",
-        "retryFeedback": "Reken na: antwoord + 3 = 5."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 2."
+    "conclusion": "Patronen in maanlicht."
   },
   "bonusVariants": [
     {
-      "id": "groep-7-c56-b1",
-      "type": "number-input",
-      "question": "3 + 3 = ?",
-      "answer": 6,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "3 + 3 = 6.",
-      "explanation": "3 + 3 = 6."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-7-c56-b2",
-      "type": "number-input",
-      "question": "? + 3 = 5",
-      "answer": 2,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "5 − 3 = 2.",
-      "explanation": "5 − 3 = 2."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "id": "groep-7-c28",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "text-input",
+  "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 4 rode plakkers horen 2 blauwe. Je hebt 12 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 6,
-  "hint1": "Deel 12 door 4.",
-  "hint2": "Dat getal × 2 = 6.",
-  "explanation": "12 ÷ 4 = 3.\n3 × 2 = 6.",
+  "question": "Runesteen Breuken: vereenvoudig 8/12.",
+  "answer": "2/3",
+  "hint1": "Deel teller en noemer door hun GGD.",
+  "hint2": "GGD is 4 → 2/3.",
+  "explanation": "8/12 = 2/3.",
   "classLevels": [
     "groep-7"
   ]

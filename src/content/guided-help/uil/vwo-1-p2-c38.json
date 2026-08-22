@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Breedte vinden (A=315, lengte=105)"
+            "label": "Breedte vinden (A=606, lengte=101)"
           },
           {
             "id": "wrong",
@@ -22,7 +22,7 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=315, lengte=105.",
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=606, lengte=101.",
         "question": "Welke grootte zoek je?",
         "options": [
           {
@@ -40,24 +40,24 @@
       },
       {
         "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
-        "question": "315 ÷ 105 = ?",
+        "question": "606 ÷ 101 = ?",
         "options": [
           {
             "id": "b",
-            "label": "3"
+            "label": "6"
           },
           {
             "id": "w",
-            "label": "4"
+            "label": "7"
           }
         ],
         "correctAnswer": "b",
-        "successFeedback": "Breedte = 3.",
-        "retryFeedback": "Deel 315 door 105."
+        "successFeedback": "Breedte = 6.",
+        "retryFeedback": "Deel 606 door 101."
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "Vermenigvuldig lengte 105 met je breedte-antwoord. Is het 315?",
+        "question": "Vermenigvuldig lengte 101 met je breedte-antwoord. Is het 606?",
         "options": [
           {
             "id": "yes",
@@ -69,18 +69,18 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed! Breedte = 3.",
-        "retryFeedback": "105 × 3 moet 315 zijn."
+        "successFeedback": "Goed! Breedte = 6.",
+        "retryFeedback": "101 × 6 moet 606 zijn."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 b = 3"
+    "conclusion": "Pootafdruk! 🐾 b = 6"
   },
   "bonusVariants": [
     {
       "id": "vwo-1-c78-b1",
       "type": "number-input",
-      "question": "A = 420, l = 105. b = ?",
-      "answer": 4,
+      "question": "A = 707, l = 101. b = ?",
+      "answer": 7,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Deel oppervlakte door lengte.",
       "explanation": "Deel oppervlakte door lengte."
@@ -88,11 +88,11 @@
     {
       "id": "vwo-1-c78-b2",
       "type": "number-input",
-      "question": "A = 315, l = 105. b = ?",
-      "answer": 3,
+      "question": "A = 606, l = 101. b = ?",
+      "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "b = 315 ÷ 105.",
-      "explanation": "b = 315 ÷ 105."
+      "hint2": "b = 606 ÷ 101.",
+      "explanation": "b = 606 ÷ 101."
     }
   ]
 }

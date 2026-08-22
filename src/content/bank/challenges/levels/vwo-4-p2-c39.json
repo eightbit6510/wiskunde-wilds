@@ -1,14 +1,20 @@
 {
   "id": "vwo-4-p2-c39",
-  "type": "number-input",
-  "topic": "kwadratisch",
+  "type": "text-input",
+  "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x² = 49 (x positief). Wat is x?",
-  "answer": 7,
-  "hint1": "Welk positief getal keer zichzelf geeft 49?",
-  "hint2": "7 × 7 = 49",
-  "explanation": "x² = 49 → x = 7 (positief).",
+  "question": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b.",
+  "answer": "l=(P-2b)/2",
+  "acceptedAnswers": [
+    "l=(P-2b)/2",
+    "ℓ=(P-2b)/2",
+    "l=P/2-b",
+    "ℓ=P/2-b"
+  ],
+  "hint1": "Trek 2b af, deel door 2.",
+  "hint2": "ℓ = (P − 2b) / 2.",
+  "explanation": "ℓ = (P − 2b) / 2.",
   "classLevels": [
     "vwo-4"
   ]

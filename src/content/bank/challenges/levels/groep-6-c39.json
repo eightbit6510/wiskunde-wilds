@@ -1,28 +1,20 @@
 {
   "id": "groep-6-c39",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "text-input",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "1 sticker kost 3 euro. Wat kosten 3 sticker?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "9 euro"
-    },
-    {
-      "id": "b",
-      "label": "12 euro"
-    },
-    {
-      "id": "c",
-      "label": "8 euro"
-    }
+  "question": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b.",
+  "answer": "l=(P-2b)/2",
+  "acceptedAnswers": [
+    "l=(P-2b)/2",
+    "ℓ=(P-2b)/2",
+    "l=P/2-b",
+    "ℓ=P/2-b"
   ],
-  "hint1": "Elke sticker kost 3 euro — tel dat 3 keer op.",
-  "hint2": "3 × 3 = 9",
-  "explanation": "3 × 3 euro = 9 euro",
+  "hint1": "Trek 2b af, deel door 2.",
+  "hint2": "ℓ = (P − 2b) / 2.",
+  "explanation": "ℓ = (P − 2b) / 2.",
   "classLevels": [
     "groep-6"
   ]

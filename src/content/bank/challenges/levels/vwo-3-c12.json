@@ -1,14 +1,56 @@
 {
   "id": "vwo-3-c12",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 2:2. De eerste deelgroep is 8. Hoe groot is de tweede?",
-  "answer": 8,
-  "hint1": "Deel 8 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 2 = 8.",
-  "explanation": "8 ÷ 2 = 4.\n4 × 2 = 8.",
+  "question": "Welk patroon zie je in de tabel? Welke formule past erbij?",
+  "tableData": {
+    "headers": [
+      "x",
+      "y"
+    ],
+    "rows": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        9
+      ]
+    ]
+  },
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "y = x + 3"
+    },
+    {
+      "id": "b",
+      "label": "y = 2x + 3"
+    },
+    {
+      "id": "c",
+      "label": "y = 3x"
+    },
+    {
+      "id": "d",
+      "label": "y = 2x − 3"
+    }
+  ],
+  "hint1": "Kijk hoeveel y stijgt als x met 1 toeneemt.",
+  "hint2": "Elke stap +2 in y, start bij y = 3 → y = 2x + 3.",
+  "explanation": "y = 2x + 3. Elke stap in x geeft +2 in y.",
   "classLevels": [
     "vwo-3"
   ]

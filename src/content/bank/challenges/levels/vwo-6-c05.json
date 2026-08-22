@@ -1,28 +1,28 @@
 {
   "id": "vwo-6-c05",
   "type": "multiple-choice",
-  "topic": "grafieken",
+  "topic": "redeneren",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 2x. Welke tabel hoort daarbij?",
-  "answer": "a",
+  "question": "Welke oplossing kan niet kloppen? Redeneer zonder alles uit te rekenen.",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→2, 2→4, 3→6"
+      "label": "A. Bij x + 8 = 3 zegt Sam: x = −5"
     },
     {
       "id": "b",
-      "label": "x: 1→3, 2→4, 3→5"
+      "label": "B. Bij 2x = −10 zegt Noor: x = −5"
     },
     {
       "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "label": "C. Bij −x = 4 zegt Finn: x = 4"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 2.",
-  "hint2": "Bij x = 2 hoort y = 4.",
-  "explanation": "y = 2x betekent: y is steeds 2 keer x.\nBij x = 2: y = 4.",
+  "answer": "c",
+  "hint1": "Bij −x = 4: wat gebeurt er als je beide kanten met −1 vermenigvuldigt?",
+  "hint2": "Als −x = 4, dan is x = −4. Finn zegt +4 — dat kan niet.",
+  "explanation": "C kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4).",
   "classLevels": [
     "vwo-6"
   ]

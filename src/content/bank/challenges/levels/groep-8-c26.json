@@ -1,15 +1,14 @@
 {
   "id": "groep-8-c26",
   "type": "number-input",
-  "topic": "vergelijkingen",
+  "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 18 = 29. Wat is x?",
-  "answer": 11,
-  "hint1": "Haal 18 naar de andere kant: x = 29 − 18.",
-  "hint2": "x = 29 − 18",
-  "optionalWorkedFirstStep": "x + 18 = 29 → x = 29 − 18",
-  "explanation": "x + 18 = 29\nx = 29 − 18 = 11",
+  "question": "Runesteen Algebra: Los op 3(x − 2) = 15. Wat is x?",
+  "answer": 7,
+  "hint1": "Deel beide kanten door 3, of werk haakjes uit.",
+  "hint2": "x − 2 = 5 → x = 7.",
+  "explanation": "3(x − 2) = 15 → x − 2 = 5 → x = 7.",
   "classLevels": [
     "groep-8"
   ]

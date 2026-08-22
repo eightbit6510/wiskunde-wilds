@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "−3 + 5 = 2"
+      "label": "6 is een veelvoud van 3"
     },
     {
       "id": "b",
-      "label": "−3 + 5 = −8"
+      "label": "6 is een veelvoud van 4"
     },
     {
       "id": "c",
-      "label": "4 − 7 = −3"
+      "label": "15 is een veelvoud van 5"
     },
     {
       "id": "d",
-      "label": "4 − 7 = 3"
+      "label": "15 is een veelvoud van 6"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: −3+5=2. C: 4−7=−3.",
+  "explanation": "A: 6=2×3. C: 15=3×5.",
   "classLevels": [
     "vwo-5"
   ]

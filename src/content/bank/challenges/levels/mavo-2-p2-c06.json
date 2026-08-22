@@ -1,14 +1,14 @@
 {
   "id": "mavo-2-p2-c06",
   "type": "number-input",
-  "topic": "verbanden",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 4:5. De eerste deelgroep is 20. Hoe groot is de tweede?",
-  "answer": 25,
-  "hint1": "Deel 20 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 25.",
-  "explanation": "20 ÷ 4 = 5.\n5 × 5 = 25.",
+  "question": "A = b × h. A = 48 m² en b = 6 m. Wat is h? (in meters)",
+  "answer": 8,
+  "hint1": "h = A ÷ b.",
+  "hint2": "48 ÷ 6 = 8.",
+  "explanation": "h = 8 m.",
   "classLevels": [
     "mavo-2"
   ]

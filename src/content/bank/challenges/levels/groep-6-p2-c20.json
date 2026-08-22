@@ -1,14 +1,28 @@
 {
   "id": "groep-6-p2-c20",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 3 rode kaarten horen 3 blauwe. Je hebt 6 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 6,
-  "hint1": "Deel 6 door 3.",
-  "hint2": "Dat getal × 3 = 6.",
-  "explanation": "6 ÷ 3 = 2.\n2 × 3 = 6.",
+  "question": "Welke breuk is groter: 3/4 of 5/8?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "3/4"
+    },
+    {
+      "id": "b",
+      "label": "5/8"
+    },
+    {
+      "id": "gelijk",
+      "label": "Even groot"
+    }
+  ],
+  "hint1": "Maak gelijke noemers of vergelijk met decimalen.",
+  "hint2": "3/4 = 6/8 > 5/8.",
+  "explanation": "3/4 is groter dan 5/8.",
   "classLevels": [
     "groep-6"
   ]

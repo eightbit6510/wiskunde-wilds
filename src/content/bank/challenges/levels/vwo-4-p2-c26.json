@@ -1,14 +1,32 @@
 {
   "id": "vwo-4-p2-c26",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "machten",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Verhouding 4:3. De eerste deelgroep is 16. Hoe groot is de tweede?",
-  "answer": 12,
-  "hint1": "Deel 16 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 12.",
-  "explanation": "16 ÷ 4 = 4.\n4 × 3 = 12.",
+  "question": "Wat is 2³ × 2²? (zelfde grondtal)",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "2⁵"
+    },
+    {
+      "id": "b",
+      "label": "2⁶"
+    },
+    {
+      "id": "c",
+      "label": "4⁵"
+    },
+    {
+      "id": "d",
+      "label": "2¹"
+    }
+  ],
+  "hint1": "Exponenten optellen bij dezelfde grondtal.",
+  "hint2": "3 + 2 = 5 → 2⁵.",
+  "explanation": "2³ × 2² = 2⁵.",
   "classLevels": [
     "vwo-4"
   ]

@@ -1,28 +1,62 @@
 {
   "id": "havo-2-p2-c04",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "equation-steps",
+  "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 7x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
+  "question": "Los stap voor stap op: 2x + 5 = 17",
+  "equationSteps": [
     {
-      "id": "a",
-      "label": "x: 1→7, 2→14, 3→21"
+      "prompt": "Wat doe je eerst om dichter bij x te komen?",
+      "options": [
+        {
+          "id": "plus",
+          "label": "Beide kanten +5"
+        },
+        {
+          "id": "min",
+          "label": "Beide kanten −5"
+        },
+        {
+          "id": "keer",
+          "label": "Beide kanten ÷2"
+        },
+        {
+          "id": "alleen",
+          "label": "Alleen links −5"
+        }
+      ],
+      "correctId": "min",
+      "resultDisplay": "2x = 12"
     },
     {
-      "id": "b",
-      "label": "x: 1→8, 2→9, 3→10"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "prompt": "Nu staat er 2x = 12. Wat is de volgende stap?",
+      "options": [
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "min2",
+          "label": "Beide kanten − 2"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten × 2"
+        },
+        {
+          "id": "plus2",
+          "label": "Beide kanten + 2"
+        }
+      ],
+      "correctId": "deel2",
+      "resultDisplay": "x = 6"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 7.",
-  "hint2": "Bij x = 3 hoort y = 21.",
-  "explanation": "y = 7x betekent: y is steeds 7 keer x.\nBij x = 3: y = 21.",
+  "answer": 6,
+  "hint1": "Je wilt de constante term wegwerken — doe aan beide kanten het tegenovergestelde.",
+  "hint2": "2x + 5 = 17 → 2x = 12 → x = 6",
+  "explanation": "2x + 5 = 17\nBeide kanten −5 → 2x = 12\nBeide kanten ÷ 2 → x = 6",
   "classLevels": [
     "havo-2"
   ]

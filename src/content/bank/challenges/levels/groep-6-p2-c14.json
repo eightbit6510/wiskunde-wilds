@@ -1,14 +1,35 @@
 {
   "id": "groep-6-p2-c14",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "matching",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Er ontbreekt een getal: 6 + ? = 8. Wat is het ontbrekende getal?",
-  "answer": 2,
-  "hint1": "Tel terug: trek het bekende getal af van het totaal.",
-  "hint2": "8 − 6 = 2",
-  "explanation": "8 − 6 = 2",
+  "question": "Match formule, tabel-idee en verhaal.",
+  "matchingPairs": [
+    {
+      "id": "1",
+      "left": "y = 3x",
+      "right": "Door 0, steil omhoog"
+    },
+    {
+      "id": "2",
+      "left": "y = x + 2",
+      "right": "Start bij 2, helling 1"
+    },
+    {
+      "id": "3",
+      "left": "Tabel: (0,5)(1,5)(2,5)",
+      "right": "Constant verband"
+    },
+    {
+      "id": "4",
+      "left": "y = −x + 4",
+      "right": "Dalend, start hoog"
+    }
+  ],
+  "hint1": "Koppel elke formule aan het juiste beeld.",
+  "hint2": "Constant in y betekent horizontaal verband.",
+  "explanation": "Elk spoor hoort bij precies één betekenis.",
   "classLevels": [
     "groep-6"
   ]

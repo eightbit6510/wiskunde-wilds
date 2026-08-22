@@ -1,15 +1,14 @@
 {
   "id": "mavo-2-p2-c19",
   "type": "number-input",
-  "topic": "breuken",
+  "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 1/2 + 3/4? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 1.25,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "1/2 + 3/4 = 5/4",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
-  "explanation": "1/2 + 3/4 = 5/4 = 1.25",
+  "question": "√64 = ?",
+  "answer": 8,
+  "hint1": "Welk getal keer zichzelf geeft 64?",
+  "hint2": "8 × 8 = 64.",
+  "explanation": "√64 = 8.",
   "classLevels": [
     "mavo-2"
   ]

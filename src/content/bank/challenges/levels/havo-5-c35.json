@@ -1,14 +1,32 @@
 {
   "id": "havo-5-c35",
-  "type": "number-input",
-  "topic": "machten",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Bereken: 3^3",
-  "answer": 27,
-  "hint1": "3 × 3 × …",
-  "hint2": "Vermenigvuldig 3 3 keer met zichzelf.",
-  "explanation": "3^3 = 27",
+  "question": "Welke grafiek hoort bij y = x²?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Rechte lijn door de oorsprong"
+    },
+    {
+      "id": "b",
+      "label": "U-vormige parabool"
+    },
+    {
+      "id": "c",
+      "label": "Horizontale lijn"
+    },
+    {
+      "id": "d",
+      "label": "Dalende rechte lijn"
+    }
+  ],
+  "hint1": "Kwadratisch → boog, geen rechte lijn.",
+  "hint2": "y = x² is een parabool.",
+  "explanation": "y = x² is een U-vormige parabool.",
   "classLevels": [
     "havo-5"
   ]

@@ -1,14 +1,32 @@
 {
   "id": "vwo-1-c23",
-  "type": "number-input",
+  "type": "multiple-choice",
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 4:4. De eerste deelgroep is 16. Hoe groot is de tweede?",
-  "answer": 16,
-  "hint1": "Deel 16 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 4 = 16.",
-  "explanation": "16 ÷ 4 = 4.\n4 × 4 = 16.",
+  "question": "Welke situatie past bij y = −2x + 10?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Start met 10, elke stap −2"
+    },
+    {
+      "id": "b",
+      "label": "Start met 10, elke stap +2"
+    },
+    {
+      "id": "c",
+      "label": "Altijd y = 10"
+    },
+    {
+      "id": "d",
+      "label": "Elke stap verdubbelen"
+    }
+  ],
+  "hint1": "Het minteken: y daalt als x stijgt.",
+  "hint2": "Bij x=0 is y=10, daarna −2 per stap.",
+  "explanation": "y = −2x + 10: start 10, daarna steeds 2 minder.",
   "classLevels": [
     "vwo-1"
   ]

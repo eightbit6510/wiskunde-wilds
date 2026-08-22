@@ -1,28 +1,32 @@
 {
   "id": "havo-4-p2-c18",
   "type": "multiple-choice",
-  "topic": "grafieken",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 6x. Welke tabel hoort daarbij?",
+  "question": "Paraboolvallei — Vergelijk y = x² met y = x² + 2. Wat gebeurt er met de grafiek?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→6, 2→12, 3→18"
+      "label": "De grafiek schuift 2 omhoog"
     },
     {
       "id": "b",
-      "label": "x: 1→7, 2→8, 3→9"
+      "label": "De grafiek schuift 2 naar rechts"
     },
     {
       "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "label": "Wordt een rechte lijn"
+    },
+    {
+      "id": "d",
+      "label": "Alle y worden 2 kleiner"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 6.",
-  "hint2": "Bij x = 6 hoort y = 36.",
-  "explanation": "y = 6x betekent: y is steeds 6 keer x.\nBij x = 6: y = 36.",
+  "hint1": "Bij x = 0: y = 2 in plaats van 0.",
+  "hint2": "Elke y krijgt +2.",
+  "explanation": "De parabool schuift 2 omhoog.",
   "classLevels": [
     "havo-4"
   ]

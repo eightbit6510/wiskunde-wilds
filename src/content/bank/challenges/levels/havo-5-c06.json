@@ -1,14 +1,14 @@
 {
   "id": "havo-5-c06",
   "type": "number-input",
-  "topic": "verbanden",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 2:4. De eerste deelgroep is 8. Hoe groot is de tweede?",
-  "answer": 16,
-  "hint1": "Deel 8 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 4 = 16.",
-  "explanation": "8 ÷ 2 = 4.\n4 × 4 = 16.",
+  "question": "A = ℓ × b. Als A = 56 en ℓ = 8, wat is b?",
+  "answer": 7,
+  "hint1": "Deel beide kanten door ℓ: b = A ÷ ℓ.",
+  "hint2": "b = 56 ÷ 8 = 7.",
+  "explanation": "b = A ÷ ℓ = 56 ÷ 8 = 7.",
   "classLevels": [
     "havo-5"
   ]

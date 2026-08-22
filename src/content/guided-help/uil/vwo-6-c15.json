@@ -2,7 +2,7 @@
   "challengeId": "vwo-6-c15",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij x² = getal zoek je welk positief getal keer zichzelf dat getal geeft.",
+    "intro": "Bij y = 8x vermenigvuldig je x steeds met 8. Zo herken je de juiste tabel.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "x vinden in x² = 169 (x positief)"
+            "label": "De juiste tabel bij y = 8x kiezen"
           },
           {
             "id": "wrong",
-            "label": "x = 169 ÷ 2"
+            "label": "Bij elke x steeds 1 optellen bij y"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x² betekent x × x.\n\nWe zoeken: welk getal × zichzelf = 169?",
-        "question": "x² = x × x. Klopt dat?",
+        "explanation": "Stap 2: y = 8x betekent y = 8 × x.\n\nProbeer x = 1.",
+        "question": "Wat is y als x = 1?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "k",
+            "label": "8"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "k1",
+            "label": "9"
           }
         ],
-        "correctAnswer": "yes",
-        "successFeedback": "Goed — kwadraat = keer zichzelf.",
-        "retryFeedback": "x² is niet x×2."
+        "correctAnswer": "k",
+        "successFeedback": "Goed: y = 8 × 1 = 8.",
+        "retryFeedback": "Vermenigvuldig: 8 × 1."
       },
       {
-        "explanation": "Stap 3: welk getal keer zichzelf geeft 169?\n\nReken een paar getallen keer zichzelf.",
-        "question": "13 × 13 = ?",
+        "explanation": "Stap 3: vul nog een paar waarden in.\n\nBereken y voor x = 2 en x = 3.",
+        "question": "Welk patroon past bij y = 8x?",
         "options": [
           {
-            "id": "sq",
-            "label": "169"
+            "id": "a",
+            "label": "y: 8, 16, 24…"
           },
           {
-            "id": "wrong",
-            "label": "170"
+            "id": "b",
+            "label": "y stijgt steeds +1"
           }
         ],
-        "correctAnswer": "sq",
-        "successFeedback": "Juist: x = 13.",
-        "retryFeedback": "Probeer 13 × 13."
+        "correctAnswer": "a",
+        "successFeedback": "Precies — elke y is k keer x.",
+        "retryFeedback": "Tel niet +1, maar ×8."
       },
       {
-        "explanation": "Stap 4: controle.",
-        "question": "x = 13 positief en 13²=169?",
+        "explanation": "Stap 4: kies de tabel die klopt.",
+        "question": "Welke beschrijving past?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "a",
+            "label": "Elke y is 8× de x-waarde"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "b",
+            "label": "Elke y is x + 1"
           }
         ],
-        "correctAnswer": "yes",
-        "successFeedback": "Goed! x = 13.",
-        "retryFeedback": "13 is positief en 13²=169."
+        "correctAnswer": "a",
+        "successFeedback": "Goed! y = 8x → tabel A.",
+        "retryFeedback": "Check: bij x=2 moet y=16."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 13"
+    "conclusion": "Pootafdruk! 🐾 y = 8x → tabel A klopt."
   },
   "bonusVariants": [
     {
       "id": "vwo-6-c15-b1",
-      "type": "number-input",
-      "question": "x² = 196 (x positief)",
-      "answer": 14,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Zelfde methode.",
-      "explanation": "Zelfde methode."
+      "type": "multiple-choice",
+      "question": "Welke formule hoort bij y = 3, 6, 9?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 3x"
+        },
+        {
+          "id": "b",
+          "label": "y = x + 3"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "y = 3x: elke y is 3× de x.",
+      "explanation": "y = 3x: elke y is 3× de x."
     },
     {
       "id": "vwo-6-c15-b2",
-      "type": "number-input",
-      "question": "x² = 169 (x positief)",
-      "answer": 13,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "13² = 169.",
-      "explanation": "13² = 169."
+      "type": "multiple-choice",
+      "question": "Bij y = 8x, wat is y als x = 4?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "32"
+        },
+        {
+          "id": "b",
+          "label": "12"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "y = 8 × 4 = 32.",
+      "explanation": "y = 8 × 4 = 32."
     }
   ]
 }

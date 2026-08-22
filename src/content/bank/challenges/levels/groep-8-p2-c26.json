@@ -1,28 +1,32 @@
 {
   "id": "groep-8-p2-c26",
   "type": "multiple-choice",
-  "topic": "algebra",
+  "topic": "machten",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 2x + 3x",
+  "question": "Wat is 2³ × 2²? (zelfde grondtal)",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "5x"
+      "label": "2⁵"
     },
     {
       "id": "b",
-      "label": "6x"
+      "label": "2⁶"
     },
     {
       "id": "c",
-      "label": "5"
+      "label": "4⁵"
+    },
+    {
+      "id": "d",
+      "label": "2¹"
     }
   ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "2x + 3x = (2+3)x",
-  "explanation": "2x + 3x = 5x",
+  "hint1": "Exponenten optellen bij dezelfde grondtal.",
+  "hint2": "3 + 2 = 5 → 2⁵.",
+  "explanation": "2³ × 2² = 2⁵.",
   "classLevels": [
     "groep-8"
   ]

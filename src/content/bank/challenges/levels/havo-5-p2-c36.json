@@ -1,28 +1,14 @@
 {
   "id": "havo-5-p2-c36",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "number-input",
+  "topic": "vergelijkingen",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Een formule is y = 7x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→7, 2→14, 3→21"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→8, 2→9, 3→10"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 7.",
-  "hint2": "Bij x = 6 hoort y = 42.",
-  "explanation": "y = 7x betekent: y is steeds 7 keer x.\nBij x = 6: y = 42.",
+  "question": "Kamer I — Los op: 5x + 2 = 2x + 14. Wat is x?",
+  "answer": 4,
+  "hint1": "Haal 2x naar links.",
+  "hint2": "3x = 12 → x = 4.",
+  "explanation": "5x + 2 = 2x + 14 → x = 4.",
   "classLevels": [
     "havo-5"
   ]

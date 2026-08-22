@@ -1,15 +1,35 @@
 {
   "id": "vwo-3-c14",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "matching",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 15 = 20. Wat is x?",
-  "answer": 5,
-  "hint1": "Haal 15 naar de andere kant: x = 20 − 15.",
-  "hint2": "x = 20 − 15",
-  "optionalWorkedFirstStep": "x + 15 = 20 → x = 20 − 15",
-  "explanation": "x + 15 = 20\nx = 20 − 15 = 5",
+  "question": "Match formule, tabel-idee en verhaal.",
+  "matchingPairs": [
+    {
+      "id": "1",
+      "left": "y = 3x",
+      "right": "Door 0, steil omhoog"
+    },
+    {
+      "id": "2",
+      "left": "y = x + 2",
+      "right": "Start bij 2, helling 1"
+    },
+    {
+      "id": "3",
+      "left": "Tabel: (0,5)(1,5)(2,5)",
+      "right": "Constant verband"
+    },
+    {
+      "id": "4",
+      "left": "y = −x + 4",
+      "right": "Dalend, start hoog"
+    }
+  ],
+  "hint1": "Koppel elke formule aan het juiste beeld.",
+  "hint2": "Constant in y betekent horizontaal verband.",
+  "explanation": "Elk spoor hoort bij precies één betekenis.",
   "classLevels": [
     "vwo-3"
   ]

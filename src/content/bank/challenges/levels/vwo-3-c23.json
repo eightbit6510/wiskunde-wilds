@@ -1,28 +1,32 @@
 {
   "id": "vwo-3-c23",
   "type": "multiple-choice",
-  "topic": "grafieken",
+  "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 6x. Welke tabel hoort daarbij?",
+  "question": "Welke situatie past bij y = −2x + 10?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→6, 2→12, 3→18"
+      "label": "Start met 10, elke stap −2"
     },
     {
       "id": "b",
-      "label": "x: 1→7, 2→8, 3→9"
+      "label": "Start met 10, elke stap +2"
     },
     {
       "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "label": "Altijd y = 10"
+    },
+    {
+      "id": "d",
+      "label": "Elke stap verdubbelen"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 6.",
-  "hint2": "Bij x = 4 hoort y = 24.",
-  "explanation": "y = 6x betekent: y is steeds 6 keer x.\nBij x = 4: y = 24.",
+  "hint1": "Het minteken: y daalt als x stijgt.",
+  "hint2": "Bij x=0 is y=10, daarna −2 per stap.",
+  "explanation": "y = −2x + 10: start 10, daarna steeds 2 minder.",
   "classLevels": [
     "vwo-3"
   ]

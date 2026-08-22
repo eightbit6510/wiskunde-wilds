@@ -2,7 +2,7 @@
   "challengeId": "groep-7-p2-c22",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij ballonnen geldt: voor elke 2 horen 4. Zoek eerst hoe vaak 2 in 8 past.",
+    "intro": "Niet alles in het lab is lineair…",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Bij ballonnen: 4 horen bij 2, nu 8 gegeven"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "2 en 4 gewoon bij elkaar optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 2:4 betekent steeds dezelfde verhouding.\n\nEerst deel je 8 door 2.",
-        "question": "Hoeveel keer past 2 in 8?",
-        "options": [
-          {
-            "id": "f",
-            "label": "4"
-          },
-          {
-            "id": "w",
-            "label": "5"
-          }
-        ],
-        "correctAnswer": "f",
-        "successFeedback": "Goed — dat is 4 keer.",
-        "retryFeedback": "Deel 8 door 2."
-      },
-      {
-        "explanation": "Stap 3: vermenigvuldig met 4.",
-        "question": "4 × 4 = ?",
-        "options": [
-          {
-            "id": "o",
-            "label": "16"
-          },
-          {
-            "id": "w",
-            "label": "20"
-          }
-        ],
-        "correctAnswer": "o",
-        "successFeedback": "Klopt: 16.",
-        "retryFeedback": "Vermenigvuldig je schaalfactor met 4."
-      },
-      {
-        "explanation": "Stap 4: controle.",
-        "question": "Klopt 8:16 = 2:4?",
+        "explanation": "Niet alles in het lab is lineair…",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Super! Antwoord = 16.",
-        "retryFeedback": "Deel eerst, dan vermenigvuldig."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Het antwoord is 16."
+    "conclusion": "Niet alles in het lab is lineair…"
   },
   "bonusVariants": [
     {
-      "id": "groep-7-c22-b1",
-      "type": "number-input",
-      "question": "ballonnen: 2:4, eerste = 10. Tweede?",
-      "answer": 20,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Zelfde stap: delen en vermenigvuldigen.",
-      "explanation": "Zelfde stap: delen en vermenigvuldigen."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-7-c22-b2",
-      "type": "number-input",
-      "question": "ballonnen: eerste = 8. Tweede?",
-      "answer": 16,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "8 ÷ 2 × 4.",
-      "explanation": "8 ÷ 2 × 4."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

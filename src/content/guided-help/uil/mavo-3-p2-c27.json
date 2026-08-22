@@ -2,7 +2,7 @@
   "challengeId": "mavo-3-p2-c27",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We gaan 1/1 + 4/3 uitrekenen. Ik leg elke stap uit — jij hoeft alleen mee te denken.",
+    "intro": "Tweede runesteen: grafiekspoor.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "1/1 en 4/3 optellen (als kommagetal)"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Tellers en noemers direct bij elkaar optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,91 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: maak de noemers gelijk.\n\n1/1 en 4/3 hebben verschillende noemers.",
-        "question": "Welke gemeenschappelijke noemer gebruiken we?",
+        "explanation": "Tweede runesteen: grafiekspoor.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "12"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "13"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed. Beide breuken krijgen noemer 12.",
-        "retryFeedback": "Vermenigvuldig beide noemers — dat geeft een gemeenschappelijke noemer."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: tel de tellers op.\n\nNoemers zijn gelijk → alleen tellers optellen.",
-        "question": "Wat is 1/1 + 4/3 als breuk?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "right",
-            "label": "7/3"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "wrong",
-            "label": "7/4"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "right",
-        "successFeedback": "Precies: 7/3.",
-        "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
-      },
-      {
-        "explanation": "Stap 4: schrijf 7/3 als kommagetal.\n\nDeel teller door noemer (7 ÷ 3).",
-        "question": "Wat is 7 ÷ 3?",
-        "options": [
-          {
-            "id": "a",
-            "label": "2.33"
-          },
-          {
-            "id": "b",
-            "label": "2.83"
-          }
-        ],
-        "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 2.33.",
-        "retryFeedback": "Reken: 7 ÷ 3."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 1/1 + 4/3 = 2.33"
+    "conclusion": "Tweede runesteen: grafiekspoor."
   },
   "bonusVariants": [
     {
-      "id": "mavo-3-c27-b1",
-      "type": "number-input",
-      "question": "Wat is 1/1 + 4/3? (kommagetal)",
-      "answer": 2.33,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Gelijknamig → optellen → delen.",
-      "explanation": "Gelijknamig → optellen → delen."
-    },
-    {
-      "id": "mavo-3-c27-b2",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Welke breuk is het grootst?",
-      "answer": "b",
+      "question": "Nog een tip?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1/4"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "3/4"
-        },
-        {
-          "id": "c",
-          "label": "1/3"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "3/4 is het grootst.",
-      "explanation": "3/4 is het grootst."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
+    },
+    {
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

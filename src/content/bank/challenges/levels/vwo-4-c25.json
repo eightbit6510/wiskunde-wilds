@@ -1,28 +1,14 @@
 {
   "id": "vwo-4-c25",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 2x + 4x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "6x"
-    },
-    {
-      "id": "b",
-      "label": "8x"
-    },
-    {
-      "id": "c",
-      "label": "6"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "2x + 4x = (2+4)x",
-  "explanation": "2x + 4x = 6x",
+  "question": "Verhouding 4:5. De eerste deelgroep is 16. Hoe groot is de tweede?",
+  "answer": 20,
+  "hint1": "Deel 16 door 4 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 5 = 20.",
+  "explanation": "16 ÷ 4 = 4.\n4 × 5 = 20.",
   "classLevels": [
     "vwo-4"
   ]

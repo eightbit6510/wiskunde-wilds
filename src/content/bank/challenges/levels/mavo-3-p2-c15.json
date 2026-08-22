@@ -1,14 +1,94 @@
 {
   "id": "mavo-3-p2-c15",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "graph-choice",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 4:3. De eerste deelgroep is 8. Hoe groot is de tweede?",
-  "answer": 6,
-  "hint1": "Deel 8 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 6.",
-  "explanation": "8 ÷ 4 = 2.\n2 × 3 = 6.",
+  "question": "Welke grafiek past bij iemand die eerst stilstaat, daarna steeds sneller beweegt en vervolgens weer stopt?",
+  "answer": "b",
+  "graphOptions": [
+    {
+      "id": "a",
+      "label": "A: constant stijgend",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 4,
+          "y": 8
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "B: plat, dan steiler, dan plat",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 4
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "C: dalend",
+      "points": [
+        {
+          "x": 0,
+          "y": 8
+        },
+        {
+          "x": 1,
+          "y": 6
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 2
+        },
+        {
+          "x": 4,
+          "y": 0
+        }
+      ]
+    }
+  ],
+  "hint1": "Stilstand = horizontale lijn. Steeds sneller = steilere helling.",
+  "hint2": "Zoek plat → steiler → plat.",
+  "explanation": "Grafiek B: eerst stil, dan sneller, dan weer stil.",
   "classLevels": [
     "mavo-3"
   ]

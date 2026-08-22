@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c29",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "intro": "Vierde runesteen: verbanden.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle juiste uitspraken kiezen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Slechts één antwoord kiezen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,118 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "50% = de helft.",
-        "question": "Is 50% van 20 gelijk aan 10?",
+        "explanation": "Vierde runesteen: verbanden.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 20÷2=10"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "A is waar.",
-        "retryFeedback": "50% = halveren."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "B: 50% van 20 = 5?",
-        "question": "Klopt B?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "no",
-        "successFeedback": "B is onwaar.",
-        "retryFeedback": "50% van 20 is 10."
-      },
-      {
-        "explanation": "C: 25% van 20. 25% = 1/4.",
-        "question": "Is 25% van 20 = 5?",
-        "options": [
-          {
-            "id": "yes",
-            "label": "Ja"
-          },
-          {
-            "id": "no",
-            "label": "Nee"
-          }
-        ],
-        "correctAnswer": "yes",
-        "successFeedback": "C is waar.",
-        "retryFeedback": "20÷4=5."
-      },
-      {
-        "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
-        "options": [
-          {
-            "id": "acd",
-            "label": "A, C en D"
-          },
-          {
-            "id": "ac",
-            "label": "Alleen A en C"
-          },
-          {
-            "id": "ab",
-            "label": "A en B"
-          }
-        ],
-        "correctAnswer": "acd",
-        "successFeedback": "A, C en D kloppen.",
-        "retryFeedback": "B klopt niet."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C, D zijn waar."
+    "conclusion": "Vierde runesteen: verbanden."
   },
   "bonusVariants": [
     {
-      "id": "groep-6-c29-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "50% van 30?",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "15"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "10"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "30÷2=15.",
-      "explanation": "30÷2=15."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-6-c29-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "10% van 50?",
+      "question": "Nog één tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "5"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "10"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "50÷10=5.",
-      "explanation": "50÷10=5."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

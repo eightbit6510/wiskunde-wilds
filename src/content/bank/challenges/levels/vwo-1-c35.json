@@ -1,14 +1,32 @@
 {
   "id": "vwo-1-c35",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 3:3. De eerste deelgroep is 9. Hoe groot is de tweede?",
-  "answer": 9,
-  "hint1": "Deel 9 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 9.",
-  "explanation": "9 ÷ 3 = 3.\n3 × 3 = 9.",
+  "question": "Welke grafiek hoort bij y = x²?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Rechte lijn door de oorsprong"
+    },
+    {
+      "id": "b",
+      "label": "U-vormige parabool"
+    },
+    {
+      "id": "c",
+      "label": "Horizontale lijn"
+    },
+    {
+      "id": "d",
+      "label": "Dalende rechte lijn"
+    }
+  ],
+  "hint1": "Kwadratisch → boog, geen rechte lijn.",
+  "hint2": "y = x² is een parabool.",
+  "explanation": "y = x² is een U-vormige parabool.",
   "classLevels": [
     "vwo-1"
   ]

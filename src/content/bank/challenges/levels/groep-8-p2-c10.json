@@ -1,28 +1,14 @@
 {
   "id": "groep-8-p2-c10",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 3x + 3x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "6x"
-    },
-    {
-      "id": "b",
-      "label": "9x"
-    },
-    {
-      "id": "c",
-      "label": "6"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "3x + 3x = (3+3)x",
-  "explanation": "3x + 3x = 6x",
+  "question": "A = ℓ × b. Als A = 42 en ℓ = 7, wat is b?",
+  "answer": 6,
+  "hint1": "Deel beide kanten door ℓ: b = A ÷ ℓ.",
+  "hint2": "b = 42 ÷ 7 = 6.",
+  "explanation": "b = A ÷ ℓ = 42 ÷ 7 = 6.",
   "classLevels": [
     "groep-8"
   ]

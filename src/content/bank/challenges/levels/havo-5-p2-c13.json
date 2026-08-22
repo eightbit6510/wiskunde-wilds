@@ -1,14 +1,14 @@
 {
   "id": "havo-5-p2-c13",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "verbanden",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Bereken: 7^3",
-  "answer": 343,
-  "hint1": "7 × 7 × …",
-  "hint2": "Vermenigvuldig 7 3 keer met zichzelf.",
-  "explanation": "7^3 = 343",
+  "question": "Je mengt sap en water in de verhouding 2 : 3. In totaal gebruik je 25 liter. Hoeveel liter sap?",
+  "answer": 10,
+  "hint1": "2 + 3 = 5 delen. 25 ÷ 5 = 5 liter per deel.",
+  "hint2": "Sap = 2 × 5 = 10 liter.",
+  "explanation": "10 liter sap (2 delen van 5).",
   "classLevels": [
     "havo-5"
   ]

@@ -1,14 +1,14 @@
 {
   "id": "havo-5-p2-c08",
   "type": "number-input",
-  "topic": "verbanden",
+  "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 2:2. De eerste deelgroep is 4. Hoe groot is de tweede?",
-  "answer": 4,
-  "hint1": "Deel 4 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 2 = 4.",
-  "explanation": "4 ÷ 2 = 2.\n2 × 2 = 4.",
+  "question": "P = 2ℓ + 2b. P = 30 cm en b = 5 cm. Wat is ℓ? (in cm)",
+  "answer": 10,
+  "hint1": "30 = 2ℓ + 10.",
+  "hint2": "2ℓ = 20 → ℓ = 10.",
+  "explanation": "ℓ = 10 cm.",
   "classLevels": [
     "havo-5"
   ]

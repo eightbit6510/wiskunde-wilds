@@ -2,7 +2,7 @@
   "challengeId": "havo-4-p2-c09",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Zoek wat onbekend is — draai de formule om.",
+    "intro": "Maak n vrij in de formule.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Breedte vinden (A=18, lengte=6)"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Lengte en breedte optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=18, lengte=6.",
-        "question": "Welke grootte zoek je?",
-        "options": [
-          {
-            "id": "b",
-            "label": "Breedte"
-          },
-          {
-            "id": "a",
-            "label": "Oppervlakte"
-          }
-        ],
-        "correctAnswer": "b",
-        "successFeedback": "Goed — breedte is onbekend.",
-        "retryFeedback": "Oppervlakte en lengte zijn gegeven."
-      },
-      {
-        "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
-        "question": "18 ÷ 6 = ?",
-        "options": [
-          {
-            "id": "b",
-            "label": "3"
-          },
-          {
-            "id": "w",
-            "label": "4"
-          }
-        ],
-        "correctAnswer": "b",
-        "successFeedback": "Breedte = 3.",
-        "retryFeedback": "Deel 18 door 6."
-      },
-      {
-        "explanation": "Stap 4: controleer.",
-        "question": "Vermenigvuldig lengte 6 met je breedte-antwoord. Is het 18?",
+        "explanation": "Maak n vrij in de formule.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed! Breedte = 3.",
-        "retryFeedback": "6 × 3 moet 18 zijn."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 b = 3"
+    "conclusion": "Maak n vrij in de formule."
   },
   "bonusVariants": [
     {
-      "id": "havo-4-c09-b1",
-      "type": "number-input",
-      "question": "A = 24, l = 6. b = ?",
-      "answer": 4,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Deel oppervlakte door lengte.",
-      "explanation": "Deel oppervlakte door lengte."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "havo-4-c09-b2",
-      "type": "number-input",
-      "question": "A = 18, l = 6. b = ?",
-      "answer": 3,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "b = 18 ÷ 6.",
-      "explanation": "b = 18 ÷ 6."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

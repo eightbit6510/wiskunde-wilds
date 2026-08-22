@@ -2,7 +2,7 @@
   "challengeId": "vwo-5-c26",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "intro": "De eerste runesteen gloeit zwak…",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 19 = 32"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "x berekenen door alles op te tellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +19 weg is.\n\nWat doe je met +19?",
-        "question": "Hoe haal je +19 weg?",
-        "options": [
-          {
-            "id": "sub",
-            "label": "19 aftrekken aan beide kanten"
-          },
-          {
-            "id": "add",
-            "label": "19 optellen"
-          }
-        ],
-        "correctAnswer": "sub",
-        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
-        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
-      },
-      {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 19 = 32. Haal +19 weg → x = 32 − 19.",
-        "question": "Wat is 32 − 19?",
-        "options": [
-          {
-            "id": "x",
-            "label": "13"
-          },
-          {
-            "id": "wrong",
-            "label": "15"
-          }
-        ],
-        "correctAnswer": "x",
-        "successFeedback": "Goed: x = 13.",
-        "retryFeedback": "Reken uit: 32 − 19."
-      },
-      {
-        "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 19 = 32?",
+        "explanation": "De eerste runesteen gloeit zwak…",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, dat klopt"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. x = 13!",
-        "retryFeedback": "Reken na: x + 19 moet 32 zijn."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 13"
+    "conclusion": "De eerste runesteen gloeit zwak…"
   },
   "bonusVariants": [
     {
-      "id": "vwo-5-c26-b1",
-      "type": "number-input",
-      "question": "Los op: x + 21 = 34.",
-      "answer": 13,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 34 − 21 = 13.",
-      "explanation": "x = 34 − 21 = 13."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-5-c26-b2",
-      "type": "number-input",
-      "question": "Los op: x + 19 = 37.",
-      "answer": 18,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 37 − 19.",
-      "explanation": "x = 37 − 19."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

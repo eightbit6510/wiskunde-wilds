@@ -1,28 +1,14 @@
 {
   "id": "vwo-3-p2-c31",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "number-input",
+  "topic": "redeneren",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 7x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→7, 2→14, 3→21"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→8, 2→9, 3→10"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 7.",
-  "hint2": "Bij x = 5 hoort y = 35.",
-  "explanation": "y = 7x betekent: y is steeds 7 keer x.\nBij x = 5: y = 35.",
+  "question": "Reeks: 3, 7, 11, 15, … Wat is het volgende getal?",
+  "answer": 19,
+  "hint1": "Elke stap +4.",
+  "hint2": "15 + 4 = 19.",
+  "explanation": "Het patroon is +4 → 19.",
   "classLevels": [
     "vwo-3"
   ]

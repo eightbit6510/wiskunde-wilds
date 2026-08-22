@@ -1,35 +1,28 @@
 {
   "id": "vwo-5-c18",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "multiple-choice",
+  "topic": "machten",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "question": "Wat is groter: 2⁵ of 5²?",
+  "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "In een parallellogram zijn tegenoverliggende zijden even lang"
+      "label": "2⁵ (= 32)"
     },
     {
       "id": "b",
-      "label": "In een parallellogram zijn alle zijden even lang"
+      "label": "5² (= 25)"
     },
     {
-      "id": "c",
-      "label": "Een ruit heeft vier gelijke zijden"
-    },
-    {
-      "id": "d",
-      "label": "Een ruit heeft altijd rechte hoeken"
+      "id": "gelijk",
+      "label": "Even groot"
     }
   ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A en C kloppen. B geldt alleen voor ruit/vierkant. D: ruit hoeft geen rechte hoeken.",
+  "hint1": "Reken beide uit.",
+  "hint2": "2⁵ = 32 en 5² = 25.",
+  "explanation": "2⁵ = 32 > 5² = 25.",
   "classLevels": [
     "vwo-5"
   ]

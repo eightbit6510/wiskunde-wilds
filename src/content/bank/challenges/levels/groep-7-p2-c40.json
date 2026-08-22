@@ -4,11 +4,11 @@
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 4 + 4 (2 keer 4). Wat is het antwoord?",
-  "answer": 8,
-  "hint1": "2 keer 4 is hetzelfde als 2 × 4.",
-  "hint2": "2 × 4 = 8",
-  "explanation": "2 × 4 = 8",
+  "question": "Stersteen 1: Bereken −6 + (−3) × 2",
+  "answer": -12,
+  "hint1": "Eerst vermenigvuldigen.",
+  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
+  "explanation": "−6 + (−6) = −12.",
   "classLevels": [
     "groep-7"
   ]

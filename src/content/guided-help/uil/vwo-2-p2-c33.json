@@ -2,7 +2,7 @@
   "challengeId": "vwo-2-p2-c33",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij gelijke letters tel je alleen de getallen ervoor op.",
+    "intro": "Elke figuur groeit met een laag stenen.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "3x + 6x vereenvoudigen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "De getallen 3 en 6 vermenigvuldigen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
-        "question": "Kun je 3x en 6x optellen?",
+        "explanation": "Elke figuur groeit met een laag stenen.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, beide hebben x"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — tel de getallen vóór x op.",
-        "retryFeedback": "Kijk naar de letter: beide hebben x."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 3 + 6.",
-        "question": "Wat is 3x + 6x?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "a",
-            "label": "9x"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "b",
-            "label": "18x"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Juist: 9x.",
-        "retryFeedback": "Tel 3 en 6 op; x blijft staan."
-      },
-      {
-        "explanation": "Stap 4: kies het juiste antwoord in de som.",
-        "question": "Welke optie klopt?",
-        "options": [
-          {
-            "id": "a",
-            "label": "9x"
-          },
-          {
-            "id": "c",
-            "label": "9"
-          }
-        ],
-        "correctAnswer": "a",
-        "successFeedback": "Precies — antwoord A: 9x.",
-        "retryFeedback": "3x + 6x = (3+6)x."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3x + 6x = 9x"
+    "conclusion": "Elke figuur groeit met een laag stenen."
   },
   "bonusVariants": [
     {
-      "id": "vwo-2-c74-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 4x + 6x",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "10x"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "10"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 4 + 6.",
-      "explanation": "Tel 4 + 6."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-2-c74-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 3x + 7x",
+      "question": "Nog één tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "10x"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "10x"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 3 + 7.",
-      "explanation": "Tel 3 + 7."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

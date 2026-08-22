@@ -1,35 +1,14 @@
 {
   "id": "mavo-1-p2-c40",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "number-input",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "1/2 is groter dan 1/4"
-    },
-    {
-      "id": "b",
-      "label": "1/4 is groter dan 1/2"
-    },
-    {
-      "id": "c",
-      "label": "2/3 is kleiner dan 1/2"
-    },
-    {
-      "id": "d",
-      "label": "3/4 is groter dan 1/2"
-    }
-  ],
-  "answers": [
-    "a",
-    "d"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A en D kloppen. 1/2>1/4 en 3/4>1/2.",
+  "question": "Stersteen 1: Bereken −6 + (−3) × 2",
+  "answer": -12,
+  "hint1": "Eerst vermenigvuldigen.",
+  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
+  "explanation": "−6 + (−6) = −12.",
   "classLevels": [
     "mavo-1"
   ]

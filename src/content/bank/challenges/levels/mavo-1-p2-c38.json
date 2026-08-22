@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "In een parallellogram zijn tegenoverliggende zijden even lang"
+      "label": "1 km = 1000 m"
     },
     {
       "id": "b",
-      "label": "In een parallellogram zijn alle zijden even lang"
+      "label": "1 km = 100 m"
     },
     {
       "id": "c",
-      "label": "Een ruit heeft vier gelijke zijden"
+      "label": "1 uur = 60 minuten"
     },
     {
       "id": "d",
-      "label": "Een ruit heeft altijd rechte hoeken"
+      "label": "1 uur = 100 minuten"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A en C kloppen. B geldt alleen voor ruit/vierkant. D: ruit hoeft geen rechte hoeken.",
+  "explanation": "A en C zijn standaard eenheden.",
   "classLevels": [
     "mavo-1"
   ]

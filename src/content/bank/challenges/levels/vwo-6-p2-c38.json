@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "De omtrek van een vierkant met zijde 3 is 12"
+      "label": "0 is een even getal"
     },
     {
       "id": "b",
-      "label": "De omtrek van een vierkant met zijde 3 is 9"
+      "label": "0 is een oneven getal"
     },
     {
       "id": "c",
-      "label": "De oppervlakte van een rechthoek 4×5 is 20"
+      "label": "De som van twee oneven getallen is even"
     },
     {
       "id": "d",
-      "label": "De oppervlakte van 4×5 is 9"
+      "label": "De som van twee even getallen is oneven"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: omtrek 4×3=12. C: oppervlakte 4×5=20.",
+  "explanation": "A en C kloppen. 0 is even. Oneven+oneven=even.",
   "classLevels": [
     "vwo-6"
   ]

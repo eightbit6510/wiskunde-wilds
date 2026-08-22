@@ -1,14 +1,14 @@
 {
   "id": "groep-8-p2-c34",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "true-false",
+  "topic": "redeneren",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 2:5. De eerste deelgroep is 8. Hoe groot is de tweede?",
-  "answer": 20,
-  "hint1": "Deel 8 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 20.",
-  "explanation": "8 ÷ 2 = 4.\n4 × 5 = 20.",
+  "question": "Klopt dit? “De grafiek van y = x² is symmetrisch in de y-as.”",
+  "answer": true,
+  "hint1": "(−x)² = x².",
+  "hint2": "Links en rechts spiegelbeeld.",
+  "explanation": "Ja — de parabool is symmetrisch.",
   "classLevels": [
     "groep-8"
   ]

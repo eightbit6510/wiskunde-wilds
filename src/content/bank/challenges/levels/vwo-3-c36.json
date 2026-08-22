@@ -1,14 +1,14 @@
 {
   "id": "vwo-3-c36",
   "type": "number-input",
-  "topic": "verbanden",
+  "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 3:2. De eerste deelgroep is 6. Hoe groot is de tweede?",
-  "answer": 4,
-  "hint1": "Deel 6 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 2 = 4.",
-  "explanation": "6 ÷ 3 = 2.\n2 × 2 = 4.",
+  "question": "Stersteen 1: Bereken −6 + (−3) × 2",
+  "answer": -12,
+  "hint1": "Eerst vermenigvuldigen.",
+  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
+  "explanation": "−6 + (−6) = −12.",
   "classLevels": [
     "vwo-3"
   ]

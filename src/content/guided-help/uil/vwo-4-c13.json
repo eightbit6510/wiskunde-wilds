@@ -2,7 +2,7 @@
   "challengeId": "vwo-4-c13",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij gelijke letters tel je alleen de getallen ervoor op.",
+    "intro": "De lynx kijkt naar het snijpunt met de verticale as.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "5x + 2x vereenvoudigen"
+            "label": "Lees de opdracht rustig"
           },
           {
             "id": "wrong",
-            "label": "De getallen 5 en 2 vermenigvuldigen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
-        "question": "Kun je 5x en 2x optellen?",
+        "explanation": "Neem de tijd. Geen haast.",
+        "question": "Snap je wat je moet doen?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, beide hebben x"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — tel de getallen vóór x op.",
-        "retryFeedback": "Kijk naar de letter: beide hebben x."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de vraag nog eens rustig."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 5 + 2.",
-        "question": "Wat is 5x + 2x?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "a",
-            "label": "7x"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "b",
-            "label": "10x"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Juist: 7x.",
-        "retryFeedback": "Tel 5 en 2 op; x blijft staan."
-      },
-      {
-        "explanation": "Stap 4: kies het juiste antwoord in de som.",
-        "question": "Welke optie klopt?",
-        "options": [
-          {
-            "id": "a",
-            "label": "7x"
-          },
-          {
-            "id": "c",
-            "label": "7"
-          }
-        ],
-        "correctAnswer": "a",
-        "successFeedback": "Precies — antwoord A: 7x.",
-        "retryFeedback": "5x + 2x = (5+2)x."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5x + 2x = 7x"
+    "conclusion": "De lynx kijkt naar het snijpunt met de verticale as."
   },
   "bonusVariants": [
     {
-      "id": "vwo-4-c13-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 6x + 2x",
+      "question": "Even oefenen?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "8x"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "8"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 6 + 2.",
-      "explanation": "Tel 6 + 2."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-4-c13-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 5x + 3x",
+      "question": "Nog één tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "8x"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "8x"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 5 + 3.",
-      "explanation": "Tel 5 + 3."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

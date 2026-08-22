@@ -1,14 +1,14 @@
 {
   "id": "havo-3-p2-c23",
   "type": "number-input",
-  "topic": "formules",
+  "topic": "grafieken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 312, lengte = 104. Wat is de breedte?",
-  "answer": 3,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 312 ÷ 104",
-  "explanation": "b = A ÷ l = 312 ÷ 104 = 3",
+  "question": "y = −x + 8. Wat is de startwaarde (snijpunt met de y-as)?",
+  "answer": 8,
+  "hint1": "Op de y-as is x = 0.",
+  "hint2": "y = −0 + 8 = 8.",
+  "explanation": "Startwaarde = 8.",
   "classLevels": [
     "havo-3"
   ]

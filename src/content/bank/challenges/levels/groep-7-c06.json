@@ -1,14 +1,14 @@
 {
   "id": "groep-7-c06",
   "type": "number-input",
-  "topic": "algebra",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 4 + 4 + 4 + 4 + … (5 keer 4). Wat is het antwoord?",
-  "answer": 20,
-  "hint1": "5 keer 4 is hetzelfde als 5 × 4.",
-  "hint2": "5 × 4 = 20",
-  "explanation": "5 × 4 = 20",
+  "question": "A = ℓ × b. Als A = 42 en ℓ = 7, wat is b?",
+  "answer": 6,
+  "hint1": "Deel beide kanten door ℓ: b = A ÷ ℓ.",
+  "hint2": "b = 42 ÷ 7 = 6.",
+  "explanation": "b = A ÷ ℓ = 42 ÷ 7 = 6.",
   "classLevels": [
     "groep-7"
   ]

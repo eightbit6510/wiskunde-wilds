@@ -1,28 +1,32 @@
 {
   "id": "mavo-3-p2-c35",
   "type": "multiple-choice",
-  "topic": "algebra",
+  "topic": "kwadratisch",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 3x + 2x",
+  "question": "Bij y = x²: wat valt op voor x = −3 en x = 3?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "5x"
+      "label": "Dezelfde y-waarde (symmetrie)"
     },
     {
       "id": "b",
-      "label": "6x"
+      "label": "De grafiek is een rechte lijn"
     },
     {
       "id": "c",
-      "label": "5"
+      "label": "Alleen positieve x telt"
+    },
+    {
+      "id": "d",
+      "label": "y is altijd negatief"
     }
   ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "3x + 2x = (3+2)x",
-  "explanation": "3x + 2x = 5x",
+  "hint1": "(−3)² = 3² = 9.",
+  "hint2": "Spiegelbeeld in de y-as.",
+  "explanation": "Positieve en negatieve x kunnen dezelfde y geven.",
   "classLevels": [
     "mavo-3"
   ]

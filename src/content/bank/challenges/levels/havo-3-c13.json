@@ -1,28 +1,14 @@
 {
   "id": "havo-3-c13",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 6x + 4x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "10x"
-    },
-    {
-      "id": "b",
-      "label": "24x"
-    },
-    {
-      "id": "c",
-      "label": "10"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "6x + 4x = (6+4)x",
-  "explanation": "6x + 4x = 10x",
+  "question": "y = 2x + 3. Waar raakt de grafiek de y-as? Geef de y-waarde.",
+  "answer": 3,
+  "hint1": "Op de y-as is x = 0.",
+  "hint2": "Vul x = 0 in: y = 2·0 + 3.",
+  "explanation": "Bij x = 0: y = 3. Dat is het snijpunt met de y-as.",
   "classLevels": [
     "havo-3"
   ]

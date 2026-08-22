@@ -2,7 +2,7 @@
   "challengeId": "mavo-2-c30",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "intro": "Alle runestenen samen — bijna op de top!",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle juiste uitspraken kiezen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Slechts één antwoord kiezen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,85 +22,47 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Veelvoud = keer tafel.",
-        "question": "Is 6 = 2 × 3?",
+        "explanation": "Alle runestenen samen — bijna op de top!",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "A is waar.",
-        "retryFeedback": "6 is veelvoud van 3."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "B: 6 veelvoud van 4?",
-        "question": "6÷4 exact?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "no",
-        "successFeedback": "B is onwaar.",
-        "retryFeedback": "6÷4 gaat niet exact."
-      },
-      {
-        "explanation": "C: 15 veelvoud van 5?",
-        "question": "15÷5 = 3?",
-        "options": [
-          {
-            "id": "yes",
-            "label": "Ja"
-          },
-          {
-            "id": "no",
-            "label": "Nee"
-          }
-        ],
-        "correctAnswer": "yes",
-        "successFeedback": "C is waar.",
-        "retryFeedback": "15=3×5."
-      },
-      {
-        "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
-        "options": [
-          {
-            "id": "ac",
-            "label": "A en C"
-          },
-          {
-            "id": "ab",
-            "label": "A en B"
-          },
-          {
-            "id": "cd",
-            "label": "C en D"
-          }
-        ],
-        "correctAnswer": "ac",
-        "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+    "conclusion": "Alle runestenen samen — bijna op de top!"
   },
   "bonusVariants": [
     {
-      "id": "mavo-2-c30-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "8 veelvoud van 2?",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
@@ -113,27 +75,27 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "8=4×2.",
-      "explanation": "8=4×2."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "mavo-2-c30-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "10 veelvoud van 3?",
-      "answer": "b",
+      "question": "Nog één tip?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "10÷3 niet exact.",
-      "explanation": "10÷3 niet exact."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

@@ -1,14 +1,32 @@
 {
   "id": "mavo-4-c29",
-  "type": "number-input",
+  "type": "multiple-choice",
   "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 3:5. De eerste deelgroep is 9. Hoe groot is de tweede?",
-  "answer": 15,
-  "hint1": "Deel 9 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 15.",
-  "explanation": "9 ÷ 3 = 3.\n3 × 5 = 15.",
+  "question": "Runesteen Verbanden: tabel x: 0,1,2,3 en y: 2,5,8,11. Welke formule?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "y = 3x + 2"
+    },
+    {
+      "id": "b",
+      "label": "y = 3x + 1"
+    },
+    {
+      "id": "c",
+      "label": "y = 2x + 3"
+    },
+    {
+      "id": "d",
+      "label": "y = 4x + 1"
+    }
+  ],
+  "hint1": "Verschil in y is steeds +3.",
+  "hint2": "y = 3x + 2.",
+  "explanation": "y = 3x + 2.",
   "classLevels": [
     "mavo-4"
   ]

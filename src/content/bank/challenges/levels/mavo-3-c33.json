@@ -1,15 +1,14 @@
 {
   "id": "mavo-3-c33",
   "type": "number-input",
-  "topic": "breuken",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Wat is 5/3 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 2.17,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "5/3 + 1/2 = 13/6",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 12.",
-  "explanation": "5/3 + 1/2 = 13/6 = 2.17",
+  "question": "Wat is (−4)²?",
+  "answer": 16,
+  "hint1": "Negatief × negatief = positief.",
+  "hint2": "(−4) × (−4) = 16.",
+  "explanation": "(−4)² = 16.",
   "classLevels": [
     "mavo-3"
   ]

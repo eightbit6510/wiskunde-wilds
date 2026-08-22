@@ -1,15 +1,32 @@
 {
   "id": "mavo-2-c37",
-  "type": "number-input",
-  "topic": "breuken",
+  "type": "multiple-choice",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 5/4 + 1/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 2.25,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "5/4 + 1/1 = 9/4",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
-  "explanation": "5/4 + 1/1 = 9/4 = 2.25",
+  "question": "Stersteen 2: Wat is 2(3x − 1) uitgewerkt?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "6x − 1"
+    },
+    {
+      "id": "b",
+      "label": "6x − 2"
+    },
+    {
+      "id": "c",
+      "label": "5x − 2"
+    },
+    {
+      "id": "d",
+      "label": "6x + 2"
+    }
+  ],
+  "hint1": "Vermenigvuldig 2 met beide termen.",
+  "hint2": "6x − 2.",
+  "explanation": "2(3x − 1) = 6x − 2.",
   "classLevels": [
     "mavo-2"
   ]

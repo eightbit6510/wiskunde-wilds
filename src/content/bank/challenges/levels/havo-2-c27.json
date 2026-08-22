@@ -1,15 +1,32 @@
 {
   "id": "havo-2-c27",
-  "type": "number-input",
-  "topic": "breuken",
+  "type": "multiple-choice",
+  "topic": "grafieken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Wat is 1/1 + 1/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 2,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "1/1 + 1/1 = 2/1",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 16.",
-  "explanation": "1/1 + 1/1 = 2/1 = 2",
+  "question": "Runesteen Grafieken: welke beschrijving past bij y = −x + 4?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Stijgend, snijpunt y-as bij 4"
+    },
+    {
+      "id": "b",
+      "label": "Dalend, snijpunt y-as bij 4"
+    },
+    {
+      "id": "c",
+      "label": "Horizontaal op y = 4"
+    },
+    {
+      "id": "d",
+      "label": "Door oorsprong, steil omhoog"
+    }
+  ],
+  "hint1": "Hellingsgetal −1 → dalend.",
+  "hint2": "+4 is het snijpunt met de y-as.",
+  "explanation": "Dalend met y-as snijpunt 4.",
   "classLevels": [
     "havo-2"
   ]

@@ -1,14 +1,14 @@
 {
   "id": "groep-8-c10",
   "type": "number-input",
-  "topic": "verbanden",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 4:5. De eerste deelgroep is 8. Hoe groot is de tweede?",
-  "answer": 10,
-  "hint1": "Deel 8 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 10.",
-  "explanation": "8 ÷ 4 = 2.\n2 × 5 = 10.",
+  "question": "P = 2ℓ + 2b. P = 30, ℓ = 8. Wat is b?",
+  "answer": 7,
+  "hint1": "2ℓ = 16, dus 2b = P − 16.",
+  "hint2": "2b = 14 → b = 7.",
+  "explanation": "2·8 + 2b = 30 → 2b = 14 → b = 7.",
   "classLevels": [
     "groep-8"
   ]

@@ -1,15 +1,14 @@
 {
   "id": "vwo-1-c33",
   "type": "number-input",
-  "topic": "breuken",
+  "topic": "kwadratisch",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 2/1 + 1/4? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 2.25,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "2/1 + 1/4 = 9/4",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
-  "explanation": "2/1 + 1/4 = 9/4 = 2.25",
+  "question": "Wat is (−4)²?",
+  "answer": 16,
+  "hint1": "Negatief × negatief = positief.",
+  "hint2": "(−4) × (−4) = 16.",
+  "explanation": "(−4)² = 16.",
   "classLevels": [
     "vwo-1"
   ]

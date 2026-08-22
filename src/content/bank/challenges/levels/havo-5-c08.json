@@ -1,15 +1,32 @@
 {
   "id": "havo-5-c08",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "multiple-choice",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 7 = 15. Wat is x?",
-  "answer": 8,
-  "hint1": "Haal 7 naar de andere kant: x = 15 − 7.",
-  "hint2": "x = 15 − 7",
-  "optionalWorkedFirstStep": "x + 7 = 15 → x = 15 − 7",
-  "explanation": "x + 7 = 15\nx = 15 − 7 = 8",
+  "question": "€12 vaste kosten plus €4 per zak voer. Welke formule voor totale kosten K bij z zakken?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "K = 12z + 4"
+    },
+    {
+      "id": "b",
+      "label": "K = 4z + 12"
+    },
+    {
+      "id": "c",
+      "label": "K = 12 × 4 × z"
+    },
+    {
+      "id": "d",
+      "label": "K = 4 + 12 + z"
+    }
+  ],
+  "hint1": "Startbedrag 12, daarna +4 per zak.",
+  "hint2": "K = 4z + 12.",
+  "explanation": "K = 4z + 12.",
   "classLevels": [
     "havo-5"
   ]

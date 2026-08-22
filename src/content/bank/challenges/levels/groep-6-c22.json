@@ -1,14 +1,14 @@
 {
   "id": "groep-6-c22",
-  "type": "number-input",
+  "type": "true-false",
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 3 rode snoepjes horen 3 blauwe. Je hebt 6 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 6,
-  "hint1": "Deel 6 door 3.",
-  "hint2": "Dat getal × 3 = 6.",
-  "explanation": "6 ÷ 3 = 2.\n2 × 3 = 6.",
+  "question": "Is dit een lineair verband? week: 0,1,2,3 — hoogte: 1,2,4,8",
+  "answer": false,
+  "hint1": "Bij lineair is de toename steeds gelijk.",
+  "hint2": "Verschillen: +1, +2, +4 — verdubbelt.",
+  "explanation": "Nee — de waarden verdubbelen, dat is niet lineair.",
   "classLevels": [
     "groep-6"
   ]

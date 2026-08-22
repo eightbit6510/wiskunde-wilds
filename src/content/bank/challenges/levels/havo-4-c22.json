@@ -1,28 +1,14 @@
 {
   "id": "havo-4-c22",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "true-false",
+  "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 10x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→10, 2→20, 3→30"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→11, 2→12, 3→13"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 10.",
-  "hint2": "Bij x = 3 hoort y = 30.",
-  "explanation": "y = 10x betekent: y is steeds 10 keer x.\nBij x = 3: y = 30.",
+  "question": "Is dit een lineair verband? week: 0,1,2,3 — hoogte: 1,2,4,8",
+  "answer": false,
+  "hint1": "Bij lineair is de toename steeds gelijk.",
+  "hint2": "Verschillen: +1, +2, +4 — verdubbelt.",
+  "explanation": "Nee — de waarden verdubbelen, dat is niet lineair.",
   "classLevels": [
     "havo-4"
   ]

@@ -1,28 +1,14 @@
 {
   "id": "havo-2-c19",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "machten",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 2x + 4x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "6x"
-    },
-    {
-      "id": "b",
-      "label": "8x"
-    },
-    {
-      "id": "c",
-      "label": "6"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "2x + 4x = (2+4)x",
-  "explanation": "2x + 4x = 6x",
+  "question": "√64 = ?",
+  "answer": 8,
+  "hint1": "Welk getal keer zichzelf geeft 64?",
+  "hint2": "8 × 8 = 64.",
+  "explanation": "√64 = 8.",
   "classLevels": [
     "havo-2"
   ]

@@ -1,28 +1,14 @@
 {
   "id": "groep-7-p2-c11",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "1 potlood kost 4 euro. Wat kosten 5 potloden?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "20 euro"
-    },
-    {
-      "id": "b",
-      "label": "24 euro"
-    },
-    {
-      "id": "c",
-      "label": "19 euro"
-    }
-  ],
-  "hint1": "Elke potlood kost 4 euro — tel dat 5 keer op.",
-  "hint2": "5 × 4 = 20",
-  "explanation": "5 × 4 euro = 20 euro",
+  "question": "Op een kaart met schaal 1 : 25 000 staat een brug 4 cm lang. Hoe lang is de brug in werkelijkheid? (antwoord in meters)",
+  "answer": 1000,
+  "hint1": "Werkelijke lengte = 4 × 25 000 cm.",
+  "hint2": "100 000 cm = 1000 m.",
+  "explanation": "4 cm × 25 000 = 100 000 cm = 1000 m.",
   "classLevels": [
     "groep-7"
   ]

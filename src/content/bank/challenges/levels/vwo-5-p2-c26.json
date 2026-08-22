@@ -1,35 +1,32 @@
 {
   "id": "vwo-5-p2-c26",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "multiple-choice",
+  "topic": "machten",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "question": "Wat is 2³ × 2²? (zelfde grondtal)",
+  "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "Een rechte hoek is 90°"
+      "label": "2⁵"
     },
     {
       "id": "b",
-      "label": "Een rechte hoek is 180°"
+      "label": "2⁶"
     },
     {
       "id": "c",
-      "label": "Een gestrekte hoek is 180°"
+      "label": "4⁵"
     },
     {
       "id": "d",
-      "label": "Drie rechte hoeken passen in een driehoek"
+      "label": "2¹"
     }
   ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: 90°. C: 180°. D klopt niet.",
+  "hint1": "Exponenten optellen bij dezelfde grondtal.",
+  "hint2": "3 + 2 = 5 → 2⁵.",
+  "explanation": "2³ × 2² = 2⁵.",
   "classLevels": [
     "vwo-5"
   ]

@@ -1,28 +1,28 @@
 {
   "id": "groep-8-c18",
   "type": "multiple-choice",
-  "topic": "algebra",
+  "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 6x",
+  "question": "Wat is groter: 2⁵ of 5²?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "11x"
+      "label": "2⁵ (= 32)"
     },
     {
       "id": "b",
-      "label": "30x"
+      "label": "5² (= 25)"
     },
     {
-      "id": "c",
-      "label": "11"
+      "id": "gelijk",
+      "label": "Even groot"
     }
   ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 6x = (5+6)x",
-  "explanation": "5x + 6x = 11x",
+  "hint1": "Reken beide uit.",
+  "hint2": "2⁵ = 32 en 5² = 25.",
+  "explanation": "2⁵ = 32 > 5² = 25.",
   "classLevels": [
     "groep-8"
   ]

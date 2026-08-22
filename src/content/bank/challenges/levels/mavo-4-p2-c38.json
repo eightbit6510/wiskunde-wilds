@@ -4,11 +4,11 @@
   "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 510, lengte = 102. Wat is de breedte?",
-  "answer": 5,
+  "question": "Oppervlakte A = lengte × breedte. A = 294, lengte = 98. Wat is de breedte?",
+  "answer": 3,
   "hint1": "Deel A door lengte.",
-  "hint2": "b = 510 ÷ 102",
-  "explanation": "b = A ÷ l = 510 ÷ 102 = 5",
+  "hint2": "b = 294 ÷ 98",
+  "explanation": "b = A ÷ l = 294 ÷ 98 = 3",
   "classLevels": [
     "mavo-4"
   ]

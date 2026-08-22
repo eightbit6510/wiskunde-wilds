@@ -1,28 +1,28 @@
 {
   "id": "havo-3-p2-c20",
   "type": "multiple-choice",
-  "topic": "grafieken",
+  "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 7x. Welke tabel hoort daarbij?",
+  "question": "Welke breuk is groter: 3/4 of 5/8?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→7, 2→14, 3→21"
+      "label": "3/4"
     },
     {
       "id": "b",
-      "label": "x: 1→8, 2→9, 3→10"
+      "label": "5/8"
     },
     {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "id": "gelijk",
+      "label": "Even groot"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 7.",
-  "hint2": "Bij x = 4 hoort y = 28.",
-  "explanation": "y = 7x betekent: y is steeds 7 keer x.\nBij x = 4: y = 28.",
+  "hint1": "Maak gelijke noemers of vergelijk met decimalen.",
+  "hint2": "3/4 = 6/8 > 5/8.",
+  "explanation": "3/4 is groter dan 5/8.",
   "classLevels": [
     "havo-3"
   ]

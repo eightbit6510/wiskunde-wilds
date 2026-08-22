@@ -1,15 +1,14 @@
 {
   "id": "mavo-3-p2-c23",
   "type": "number-input",
-  "topic": "breuken",
+  "topic": "grafieken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Wat is 1/4 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 0.75,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "1/4 + 1/2 = 3/4",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
-  "explanation": "1/4 + 1/2 = 3/4 = 0.75",
+  "question": "y = −x + 8. Wat is de startwaarde (snijpunt met de y-as)?",
+  "answer": 8,
+  "hint1": "Op de y-as is x = 0.",
+  "hint2": "y = −0 + 8 = 8.",
+  "explanation": "Startwaarde = 8.",
   "classLevels": [
     "mavo-3"
   ]

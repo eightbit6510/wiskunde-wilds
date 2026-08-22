@@ -49,6 +49,34 @@ describe('buildLevelBundle', () => {
     }
   });
 
+  it('aligns vossenpad slot 0 with multi-select detective story', () => {
+    const bundle = buildAllLevelBundles().find((item) => item.level === 'vwo-3');
+    expect(bundle).toBeDefined();
+    const lesson = bundle!.lessons.find((l) => l.order === 1);
+    expect(lesson?.areaName).toBe('Het Vossenpad');
+    const first = bundle!.challenges.find((c) => c.id === lesson?.placements[0]?.challengeId);
+    expect(first?.type).toBe('multi-select');
+    expect(first?.question).toMatch(/berekeningen kloppen/i);
+  });
+
+  it('aligns konijnenhol slot 2 with machten compare story', () => {
+    const bundle = buildAllLevelBundles().find((item) => item.level === 'vwo-3');
+    expect(bundle).toBeDefined();
+    const lesson = bundle!.lessons.find((l) => l.order === 4);
+    expect(lesson?.areaName).toBe('Konijnenhol');
+    const third = bundle!.challenges.find((c) => c.id === lesson?.placements[2]?.challengeId);
+    expect(third?.question).toMatch(/2⁵|5²/);
+  });
+
+  it('aligns schaduwgrot hard slot 2 with two-x equation story', () => {
+    const bundle = buildAllLevelBundles().find((item) => item.level === 'vwo-3');
+    expect(bundle).toBeDefined();
+    const lesson = bundle!.part2Lessons.find((l) => l.order === 1);
+    expect(lesson?.areaName).toBe('De Schaduwgrot');
+    const hard = bundle!.challenges.find((c) => c.id === lesson?.placements[2]?.challengeId);
+    expect(hard?.question).toMatch(/3x \+ 7 = x \+ 17/);
+  });
+
   it('avoids repeated kwadratisch and machten in vwo-6 opening chapters', () => {
     const bundle = buildAllLevelBundles().find((item) => item.level === 'vwo-6');
     expect(bundle).toBeDefined();

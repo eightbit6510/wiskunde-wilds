@@ -1,35 +1,28 @@
 {
   "id": "mavo-1-c18",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "multiple-choice",
+  "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "question": "Wat is groter: 2⁵ of 5²?",
+  "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "Een vierkant heeft vier gelijke zijden"
+      "label": "2⁵ (= 32)"
     },
     {
       "id": "b",
-      "label": "Elke rechthoek is een vierkant"
+      "label": "5² (= 25)"
     },
     {
-      "id": "c",
-      "label": "De som van hoeken in een driehoek is 180°"
-    },
-    {
-      "id": "d",
-      "label": "Een cirkel heeft vier hoeken"
+      "id": "gelijk",
+      "label": "Even groot"
     }
   ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A en C kloppen.\nB: niet elke rechthoek is vierkant.\nD: cirkel heeft geen hoeken.",
+  "hint1": "Reken beide uit.",
+  "hint2": "2⁵ = 32 en 5² = 25.",
+  "explanation": "2⁵ = 32 > 5² = 25.",
   "classLevels": [
     "mavo-1"
   ]

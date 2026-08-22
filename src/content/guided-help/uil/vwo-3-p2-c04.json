@@ -2,7 +2,7 @@
   "challengeId": "vwo-3-p2-c04",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Macht = hetzelfde getal steeds opnieuw vermenigvuldigen.",
+    "intro": "Eerst de constante weg, daarna x vrijmaken.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "5^2 uitrekenen"
+            "label": "Lees de opdracht rustig"
           },
           {
             "id": "wrong",
-            "label": "5 × 2 uitrekenen (dat is fout!)"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 5^2 = 5 × 5.\n\nDe exponent 2 telt hoe vaak je vermenigvuldigt.",
-        "question": "Wat betekent de exponent?",
+        "explanation": "Neem de tijd. Geen haast.",
+        "question": "Snap je wat je moet doen?",
         "options": [
           {
-            "id": "repeat",
-            "label": "5 2 keer vermenigvuldigen"
+            "id": "yes",
+            "label": "Ja, ik ga rekenen"
           },
           {
-            "id": "times",
-            "label": "5 × 2"
+            "id": "no",
+            "label": "Nog niet"
           }
         ],
-        "correctAnswer": "repeat",
-        "successFeedback": "Juist — herhalen, niet × de exponent.",
-        "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
+        "correctAnswer": "yes",
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de vraag nog eens rustig."
       },
       {
-        "explanation": "Stap 3: reken 5 × 5.",
-        "question": "Wat is 5^2?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "a",
-            "label": "25"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "b",
-            "label": "10"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Goed: 5^2 = 25.",
-        "retryFeedback": "Niet 5×2, maar herhaald vermenigvuldigen."
-      },
-      {
-        "explanation": "Stap 4: antwoord invullen.",
-        "question": "5^2 = ?",
-        "options": [
-          {
-            "id": "a",
-            "label": "25"
-          },
-          {
-            "id": "b",
-            "label": "30"
-          }
-        ],
-        "correctAnswer": "a",
-        "successFeedback": "Super! Antwoord = 25.",
-        "retryFeedback": "Reken 5 × 5 uit."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5^2 = 25"
+    "conclusion": "Eerst de constante weg, daarna x vrijmaken."
   },
   "bonusVariants": [
     {
-      "id": "vwo-3-c04-b1",
-      "type": "number-input",
-      "question": "Bereken: 5^3",
-      "answer": 125,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog ×5.",
-      "explanation": "Nog ×5."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Even oefenen?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-3-c04-b2",
-      "type": "number-input",
-      "question": "Bereken: 5^2",
-      "answer": 25,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "5^2 = 25.",
-      "explanation": "5^2 = 25."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "challengeId": "vwo-6-p2-c34",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Macht = hetzelfde getal steeds opnieuw vermenigvuldigen.",
+    "intro": "Symmetrie in maanlicht.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "3^2 uitrekenen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "3 × 2 uitrekenen (dat is fout!)"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 3^2 = 3 × 3.\n\nDe exponent 2 telt hoe vaak je vermenigvuldigt.",
-        "question": "Wat betekent de exponent?",
+        "explanation": "Symmetrie in maanlicht.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
-            "id": "repeat",
-            "label": "3 2 keer vermenigvuldigen"
+            "id": "yes",
+            "label": "Ja, ik ga rekenen"
           },
           {
-            "id": "times",
-            "label": "3 × 2"
+            "id": "no",
+            "label": "Nog niet"
           }
         ],
-        "correctAnswer": "repeat",
-        "successFeedback": "Juist — herhalen, niet × de exponent.",
-        "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
+        "correctAnswer": "yes",
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: reken 3 × 3.",
-        "question": "Wat is 3^2?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "a",
-            "label": "9"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "b",
-            "label": "6"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Goed: 3^2 = 9.",
-        "retryFeedback": "Niet 3×2, maar herhaald vermenigvuldigen."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. 3^2 = 3 × 3\n2. Niet 3×2\n3. Antwoord: 9",
-        "question": "Bevestig: 3^2 = ?",
+        "explanation": "Controleer je antwoord voordat je verder gaat.",
+        "question": "Heb je alles netjes uitgewerkt?",
         "options": [
           {
-            "id": "a",
-            "label": "9"
+            "id": "check",
+            "label": "Ja, gecontroleerd"
           },
           {
-            "id": "b",
-            "label": "12"
+            "id": "skip",
+            "label": "Nog niet"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Klopt! 3^2 = 9.",
-        "retryFeedback": "Volg het stappenplan stap voor stap."
+        "correctAnswer": "check",
+        "successFeedback": "Helemaal goed.",
+        "retryFeedback": "Kijk je stappen nog eens na."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3^2 = 9"
+    "conclusion": "Symmetrie in maanlicht."
   },
   "bonusVariants": [
     {
-      "id": "vwo-6-c34-b1",
-      "type": "number-input",
-      "question": "Bereken: 3^3",
-      "answer": 27,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog ×3.",
-      "explanation": "Nog ×3."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-6-c34-b2",
-      "type": "number-input",
-      "question": "Bereken: 3^2",
-      "answer": 9,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "3^2 = 9.",
-      "explanation": "3^2 = 9."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

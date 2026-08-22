@@ -1,35 +1,14 @@
 {
   "id": "groep-8-p2-c13",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "−3 + 5 = 2"
-    },
-    {
-      "id": "b",
-      "label": "−3 + 5 = −8"
-    },
-    {
-      "id": "c",
-      "label": "4 − 7 = −3"
-    },
-    {
-      "id": "d",
-      "label": "4 − 7 = 3"
-    }
-  ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: −3+5=2. C: 4−7=−3.",
+  "question": "Je mengt sap en water in de verhouding 2 : 3. In totaal gebruik je 25 liter. Hoeveel liter sap?",
+  "answer": 10,
+  "hint1": "2 + 3 = 5 delen. 25 ÷ 5 = 5 liter per deel.",
+  "hint2": "Sap = 2 × 5 = 10 liter.",
+  "explanation": "10 liter sap (2 delen van 5).",
   "classLevels": [
     "groep-8"
   ]

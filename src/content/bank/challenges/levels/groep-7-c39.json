@@ -1,28 +1,20 @@
 {
   "id": "groep-7-c39",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "text-input",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "1 potlood kost 4 euro. Wat kosten 3 potloden?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "12 euro"
-    },
-    {
-      "id": "b",
-      "label": "16 euro"
-    },
-    {
-      "id": "c",
-      "label": "11 euro"
-    }
+  "question": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b.",
+  "answer": "l=(P-2b)/2",
+  "acceptedAnswers": [
+    "l=(P-2b)/2",
+    "ℓ=(P-2b)/2",
+    "l=P/2-b",
+    "ℓ=P/2-b"
   ],
-  "hint1": "Elke potlood kost 4 euro — tel dat 3 keer op.",
-  "hint2": "3 × 4 = 12",
-  "explanation": "3 × 4 euro = 12 euro",
+  "hint1": "Trek 2b af, deel door 2.",
+  "hint2": "ℓ = (P − 2b) / 2.",
+  "explanation": "ℓ = (P − 2b) / 2.",
   "classLevels": [
     "groep-7"
   ]

@@ -1,35 +1,14 @@
 {
   "id": "groep-7-p2-c17",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "text-input",
+  "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "0 is een even getal"
-    },
-    {
-      "id": "b",
-      "label": "0 is een oneven getal"
-    },
-    {
-      "id": "c",
-      "label": "De som van twee oneven getallen is even"
-    },
-    {
-      "id": "d",
-      "label": "De som van twee even getallen is oneven"
-    }
-  ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A en C kloppen. 0 is even. Oneven+oneven=even.",
+  "question": "Bereken 1/2 + 1/3. Geef als breuk (bijv. 5/6).",
+  "answer": "5/6",
+  "hint1": "Kleinste gemeenschappelijke noemer is 6.",
+  "hint2": "3/6 + 2/6 = 5/6.",
+  "explanation": "1/2 + 1/3 = 5/6.",
   "classLevels": [
     "groep-7"
   ]

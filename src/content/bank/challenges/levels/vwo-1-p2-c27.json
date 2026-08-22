@@ -1,15 +1,32 @@
 {
   "id": "vwo-1-p2-c27",
-  "type": "number-input",
-  "topic": "breuken",
+  "type": "multiple-choice",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 4/5 + 1/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 1.13,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "4/5 + 1/3 = 17/15",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 15.",
-  "explanation": "4/5 + 1/3 = 17/15 = 1.13",
+  "question": "Runesteen Grafieken: welke beschrijving past bij y = −x + 4?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Stijgend, snijpunt y-as bij 4"
+    },
+    {
+      "id": "b",
+      "label": "Dalend, snijpunt y-as bij 4"
+    },
+    {
+      "id": "c",
+      "label": "Horizontaal op y = 4"
+    },
+    {
+      "id": "d",
+      "label": "Door oorsprong, steil omhoog"
+    }
+  ],
+  "hint1": "Hellingsgetal −1 → dalend.",
+  "hint2": "+4 is het snijpunt met de y-as.",
+  "explanation": "Dalend met y-as snijpunt 4.",
   "classLevels": [
     "vwo-1"
   ]

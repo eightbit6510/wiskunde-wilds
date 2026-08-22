@@ -1,14 +1,19 @@
 {
   "id": "havo-3-p2-c09",
-  "type": "number-input",
+  "type": "text-input",
   "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 24, lengte = 6. Wat is de breedte?",
-  "answer": 4,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 24 ÷ 6",
-  "explanation": "b = A ÷ l = 24 ÷ 6 = 4",
+  "question": "T = 5n + 20. Geef n in termen van T. (bijv. n = ...)",
+  "answer": "n=(T-20)/5",
+  "acceptedAnswers": [
+    "n=(T-20)/5",
+    "n=(t-20)/5",
+    "n=T/5-4"
+  ],
+  "hint1": "Trek 20 af van beide kanten, deel daarna door 5.",
+  "hint2": "n = (T − 20) / 5.",
+  "explanation": "n = (T − 20) / 5.",
   "classLevels": [
     "havo-3"
   ]

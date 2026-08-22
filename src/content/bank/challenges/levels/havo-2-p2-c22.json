@@ -1,28 +1,14 @@
 {
   "id": "havo-2-p2-c22",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "true-false",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 5x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→5, 2→10, 3→15"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→6, 2→7, 3→8"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 5.",
-  "hint2": "Bij x = 6 hoort y = 30.",
-  "explanation": "y = 5x betekent: y is steeds 5 keer x.\nBij x = 6: y = 30.",
+  "question": "Is dit een lineair verband? week: 0,1,2,3 — hoogte: 1,2,4,8",
+  "answer": false,
+  "hint1": "Bij lineair is de toename steeds gelijk.",
+  "hint2": "Verschillen: +1, +2, +4 — verdubbelt.",
+  "explanation": "Nee — de waarden verdubbelen, dat is niet lineair.",
   "classLevels": [
     "havo-2"
   ]

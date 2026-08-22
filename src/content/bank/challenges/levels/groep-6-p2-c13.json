@@ -1,35 +1,14 @@
 {
   "id": "groep-6-p2-c13",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "12 is deelbaar door 3"
-    },
-    {
-      "id": "b",
-      "label": "12 is deelbaar door 5"
-    },
-    {
-      "id": "c",
-      "label": "15 is deelbaar door 3"
-    },
-    {
-      "id": "d",
-      "label": "10 is deelbaar door 4"
-    }
-  ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A: 12÷3=4. C: 15÷3=5. B en D kloppen niet.",
+  "question": "Je mengt sap en water in de verhouding 2 : 3. In totaal gebruik je 25 liter. Hoeveel liter sap?",
+  "answer": 10,
+  "hint1": "2 + 3 = 5 delen. 25 ÷ 5 = 5 liter per deel.",
+  "hint2": "Sap = 2 × 5 = 10 liter.",
+  "explanation": "10 liter sap (2 delen van 5).",
   "classLevels": [
     "groep-6"
   ]

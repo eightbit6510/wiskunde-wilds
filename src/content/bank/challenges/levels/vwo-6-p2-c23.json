@@ -1,14 +1,14 @@
 {
   "id": "vwo-6-p2-c23",
   "type": "number-input",
-  "topic": "kwadratisch",
+  "topic": "grafieken",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Los op: x² = 144 (x positief). Wat is x?",
-  "answer": 12,
-  "hint1": "Welk positief getal keer zichzelf geeft 144?",
-  "hint2": "12 × 12 = 144",
-  "explanation": "x² = 144 → x = 12 (positief).",
+  "question": "y = −x + 8. Wat is de startwaarde (snijpunt met de y-as)?",
+  "answer": 8,
+  "hint1": "Op de y-as is x = 0.",
+  "hint2": "y = −0 + 8 = 8.",
+  "explanation": "Startwaarde = 8.",
   "classLevels": [
     "vwo-6"
   ]

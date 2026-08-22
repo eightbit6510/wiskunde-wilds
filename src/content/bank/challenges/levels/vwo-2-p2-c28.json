@@ -1,15 +1,14 @@
 {
   "id": "vwo-2-p2-c28",
   "type": "number-input",
-  "topic": "vergelijkingen",
+  "topic": "machten",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 106 = 162. Wat is x?",
-  "answer": 56,
-  "hint1": "Haal 106 naar de andere kant: x = 162 − 106.",
-  "hint2": "x = 162 − 106",
-  "optionalWorkedFirstStep": "x + 106 = 162 → x = 162 − 106",
-  "explanation": "x + 106 = 162\nx = 162 − 106 = 56",
+  "question": "12² = ?",
+  "answer": 144,
+  "hint1": "12 × 12.",
+  "hint2": "12² = 144.",
+  "explanation": "12² = 144.",
   "classLevels": [
     "vwo-2"
   ]

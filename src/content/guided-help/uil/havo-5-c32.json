@@ -2,7 +2,7 @@
   "challengeId": "havo-5-c32",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "intro": "De vallei spiegelt zich in maanlicht.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 20 = 28"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "x berekenen door alles op te tellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +20 weg is.\n\nWat doe je met +20?",
-        "question": "Hoe haal je +20 weg?",
-        "options": [
-          {
-            "id": "sub",
-            "label": "20 aftrekken aan beide kanten"
-          },
-          {
-            "id": "add",
-            "label": "20 optellen"
-          }
-        ],
-        "correctAnswer": "sub",
-        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
-        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
-      },
-      {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 20 = 28. Haal +20 weg → x = 28 − 20.",
-        "question": "Wat is 28 − 20?",
-        "options": [
-          {
-            "id": "x",
-            "label": "8"
-          },
-          {
-            "id": "wrong",
-            "label": "10"
-          }
-        ],
-        "correctAnswer": "x",
-        "successFeedback": "Goed: x = 8.",
-        "retryFeedback": "Reken uit: 28 − 20."
-      },
-      {
-        "explanation": "Stappenplan voor dit type som:\n1. Constante (+20) naar de andere kant\n2. x = 28 − 20 = 8\n3. Controle: 8 + 20 = 28",
-        "question": "Controle: klopt x = 8?",
+        "explanation": "De vallei spiegelt zich in maanlicht.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 8 + 20 = 28"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! x = 8 is het antwoord.",
-        "retryFeedback": "Volg het stappenplan stap voor stap."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
+      },
+      {
+        "explanation": "Controleer je antwoord voordat je verder gaat.",
+        "question": "Heb je alles netjes uitgewerkt?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Ja, gecontroleerd"
+          },
+          {
+            "id": "skip",
+            "label": "Nog niet"
+          }
+        ],
+        "correctAnswer": "check",
+        "successFeedback": "Helemaal goed.",
+        "retryFeedback": "Kijk je stappen nog eens na."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 8"
+    "conclusion": "De vallei spiegelt zich in maanlicht."
   },
   "bonusVariants": [
     {
-      "id": "havo-5-c32-b1",
-      "type": "number-input",
-      "question": "Los op: x + 22 = 30.",
-      "answer": 8,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 30 − 22 = 8.",
-      "explanation": "x = 30 − 22 = 8."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "havo-5-c32-b2",
-      "type": "number-input",
-      "question": "Los op: x + 20 = 33.",
-      "answer": 13,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 33 − 20.",
-      "explanation": "x = 33 − 20."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

@@ -1,28 +1,14 @@
 {
   "id": "groep-7-c25",
-  "type": "multiple-choice",
-  "topic": "breuken",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 2/3 + 1/4? Geef je antwoord als breuk.",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "11/12"
-    },
-    {
-      "id": "b",
-      "label": "1"
-    },
-    {
-      "id": "c",
-      "label": "3/7"
-    }
-  ],
-  "hint1": "Maak eerst de noemers gelijk.",
-  "hint2": "2/3 + 1/4 = 11/12",
-  "explanation": "2/3 + 1/4 = 11/12",
+  "question": "Voor elke 2 rode kaarten horen 2 blauwe. Je hebt 6 rode. Hoeveel blauwe horen daarbij?",
+  "answer": 6,
+  "hint1": "Deel 6 door 2.",
+  "hint2": "Dat getal × 2 = 6.",
+  "explanation": "6 ÷ 2 = 3.\n3 × 2 = 6.",
   "classLevels": [
     "groep-7"
   ]

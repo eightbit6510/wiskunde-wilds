@@ -1,15 +1,32 @@
 {
   "id": "havo-1-c32",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 13 = 22. Wat is x?",
-  "answer": 9,
-  "hint1": "Haal 13 naar de andere kant: x = 22 − 13.",
-  "hint2": "x = 22 − 13",
-  "optionalWorkedFirstStep": "x + 13 = 22 → x = 22 − 13",
-  "explanation": "x + 13 = 22\nx = 22 − 13 = 9",
+  "question": "Vergelijk y = x² met y = x² + 2. Wat gebeurt er met de grafiek?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "De grafiek schuift 2 omhoog"
+    },
+    {
+      "id": "b",
+      "label": "De grafiek schuift 2 naar rechts"
+    },
+    {
+      "id": "c",
+      "label": "Wordt een rechte lijn"
+    },
+    {
+      "id": "d",
+      "label": "Alle y worden 2 kleiner"
+    }
+  ],
+  "hint1": "Bij x = 0: y = 2 in plaats van 0.",
+  "hint2": "Elke y krijgt +2.",
+  "explanation": "De parabool schuift 2 omhoog.",
   "classLevels": [
     "havo-1"
   ]

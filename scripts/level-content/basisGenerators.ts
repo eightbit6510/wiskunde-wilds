@@ -126,6 +126,13 @@ export function generateBasisForTopic(
         [1, 2, 1, 3],
         [2, 5, 1, 2],
         [3, 4, 1, 8],
+        [2, 3, 1, 6],
+        [3, 5, 2, 7],
+        [1, 5, 1, 10],
+        [2, 7, 1, 3],
+        [4, 5, 1, 2],
+        [3, 8, 1, 4],
+        [5, 6, 1, 3],
       ] as const;
       const [n1, d1, n2, d2] = pairs[(topicOccurrence + s + challengeIndex) % pairs.length];
       const num = n1 * d2 + n2 * d1;

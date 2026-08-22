@@ -2,7 +2,7 @@
   "challengeId": "vwo-6-p2-c32",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "intro": "De vallei spiegelt zich in maanlicht.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 16 = 26"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "x berekenen door alles op te tellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +16 weg is.\n\nWat doe je met +16?",
-        "question": "Hoe haal je +16 weg?",
-        "options": [
-          {
-            "id": "sub",
-            "label": "16 aftrekken aan beide kanten"
-          },
-          {
-            "id": "add",
-            "label": "16 optellen"
-          }
-        ],
-        "correctAnswer": "sub",
-        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
-        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
-      },
-      {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 16 = 26. Haal +16 weg → x = 26 − 16.",
-        "question": "Wat is 26 − 16?",
-        "options": [
-          {
-            "id": "x",
-            "label": "10"
-          },
-          {
-            "id": "wrong",
-            "label": "12"
-          }
-        ],
-        "correctAnswer": "x",
-        "successFeedback": "Goed: x = 10.",
-        "retryFeedback": "Reken uit: 26 − 16."
-      },
-      {
-        "explanation": "Stappenplan voor dit type som:\n1. Constante (+16) naar de andere kant\n2. x = 26 − 16 = 10\n3. Controle: 10 + 16 = 26",
-        "question": "Controle: klopt x = 10?",
+        "explanation": "De vallei spiegelt zich in maanlicht.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 10 + 16 = 26"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! x = 10 is het antwoord.",
-        "retryFeedback": "Volg het stappenplan stap voor stap."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
+      },
+      {
+        "explanation": "Controleer je antwoord voordat je verder gaat.",
+        "question": "Heb je alles netjes uitgewerkt?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Ja, gecontroleerd"
+          },
+          {
+            "id": "skip",
+            "label": "Nog niet"
+          }
+        ],
+        "correctAnswer": "check",
+        "successFeedback": "Helemaal goed.",
+        "retryFeedback": "Kijk je stappen nog eens na."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 10"
+    "conclusion": "De vallei spiegelt zich in maanlicht."
   },
   "bonusVariants": [
     {
-      "id": "vwo-6-c32-b1",
-      "type": "number-input",
-      "question": "Los op: x + 18 = 28.",
-      "answer": 10,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 28 − 18 = 10.",
-      "explanation": "x = 28 − 18 = 10."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-6-c32-b2",
-      "type": "number-input",
-      "question": "Los op: x + 16 = 31.",
-      "answer": 15,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 31 − 16.",
-      "explanation": "x = 31 − 16."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

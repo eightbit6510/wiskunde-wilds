@@ -1,14 +1,32 @@
 {
   "id": "groep-6-p2-c18",
-  "type": "number-input",
+  "type": "multiple-choice",
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 2 rode snoepjes horen 2 blauwe. Je hebt 4 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 4,
-  "hint1": "Deel 4 door 2.",
-  "hint2": "Dat getal × 2 = 4.",
-  "explanation": "4 ÷ 2 = 2.\n2 × 2 = 4.",
+  "question": "Paraboolvallei — Vergelijk y = x² met y = x² + 2. Wat gebeurt er met de grafiek?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "De grafiek schuift 2 omhoog"
+    },
+    {
+      "id": "b",
+      "label": "De grafiek schuift 2 naar rechts"
+    },
+    {
+      "id": "c",
+      "label": "Wordt een rechte lijn"
+    },
+    {
+      "id": "d",
+      "label": "Alle y worden 2 kleiner"
+    }
+  ],
+  "hint1": "Bij x = 0: y = 2 in plaats van 0.",
+  "hint2": "Elke y krijgt +2.",
+  "explanation": "De parabool schuift 2 omhoog.",
   "classLevels": [
     "groep-6"
   ]

@@ -1,28 +1,14 @@
 {
   "id": "havo-3-p2-c19",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 3x + 2x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "5x"
-    },
-    {
-      "id": "b",
-      "label": "6x"
-    },
-    {
-      "id": "c",
-      "label": "5"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "3x + 2x = (3+2)x",
-  "explanation": "3x + 2x = 5x",
+  "question": "√64 = ?",
+  "answer": 8,
+  "hint1": "Welk getal keer zichzelf geeft 64?",
+  "hint2": "8 × 8 = 64.",
+  "explanation": "√64 = 8.",
   "classLevels": [
     "havo-3"
   ]

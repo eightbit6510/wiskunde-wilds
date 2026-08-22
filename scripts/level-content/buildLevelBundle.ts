@@ -25,7 +25,9 @@ import {
   validateHelpPack,
 } from './guidedHelpBuilder';
 import { basisGrade, generateBasisForTopic } from './basisGenerators';
-import { generateSpecialChallenge } from './specialChallenges';
+import { generateStoryChallenge } from './specialChallenges';
+import { part1StorySlot, part1StoryTopic } from './storySlots';
+import { part2HardStoryKind } from './storySlotsPart2';
 import { loadStoryShell, PART1_STORY_IDS, PART2_STORY_IDS, storyOptionalStory } from './storyMeta';
 import {
   difficultyForPart2,
@@ -481,7 +483,10 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
 
     for (let slot = 0; slot < CHALLENGES_PER_LESSON; slot += 1) {
       const challengeIndex = (li - 1) * CHALLENGES_PER_LESSON + slot + 1;
-      const topic = profile.topicsUnlocked[(challengeIndex - 1) % profile.topicsUnlocked.length];
+      const storySlot = part1StorySlot(li, slot);
+      const topic =
+        part1StoryTopic(li, slot) ??
+        profile.topicsUnlocked[(challengeIndex - 1) % profile.topicsUnlocked.length];
       const occurrence = topicOccurrence.get(topic) ?? 0;
       topicOccurrence.set(topic, occurrence + 1);
       const difficulty = difficultyFor(level, li, slot);
@@ -490,28 +495,31 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
       let challenge: ChallengeDefinition | undefined;
       let help: GuidedHelpPack | undefined;
 
-      const special = generateSpecialChallenge(
-        challengeId,
-        level,
-        li,
-        slot,
-        difficulty,
-        seed(level, challengeIndex),
-      );
-      if (special) {
-        challenge = special.challenge;
-        help = special.help;
-        usedQuestions.add(challengeQuestionKey(challenge));
+      if (storySlot && 'kind' in storySlot) {
+        const storyChallenge = generateStoryChallenge(
+          challengeId,
+          level,
+          li,
+          slot,
+          difficulty,
+          seed(level, challengeIndex),
+          storySlot.kind,
+        );
+        if (storyChallenge) {
+          challenge = storyChallenge.challenge;
+          help = storyChallenge.help;
+          usedQuestions.add(challengeQuestionKey(challenge));
+        }
       }
 
       if (!challenge || !help) {
-        for (let salt = 0; salt < 64; salt += 1) {
+        for (let salt = 0; salt < 128; salt += 1) {
           const generated = generateForTopic(
             level,
             challengeIndex,
             topic,
             difficulty,
-            occurrence,
+            occurrence + salt,
             salt,
           );
           const key = challengeQuestionKey(generated.challenge);
@@ -609,7 +617,25 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
         let generatedChallenge: ChallengeDefinition | undefined;
         let generatedHelp: GuidedHelpPack | undefined;
 
-        for (let topicOffset = 0; topicOffset < profile.topicsUnlocked.length; topicOffset += 1) {
+        const hardStoryKind = part2HardStoryKind(li, slot);
+        if (hardStoryKind) {
+          const storyChallenge = generateStoryChallenge(
+            challengeId,
+            level,
+            li,
+            slot,
+            difficulty,
+            seed(level, globalIndex),
+            hardStoryKind,
+          );
+          if (storyChallenge) {
+            generatedChallenge = storyChallenge.challenge;
+            generatedHelp = storyChallenge.help;
+            usedQuestions.add(challengeQuestionKey(storyChallenge.challenge));
+          }
+        }
+
+        for (let topicOffset = 0; topicOffset < profile.topicsUnlocked.length && !generatedChallenge; topicOffset += 1) {
           const topic =
             profile.topicsUnlocked[(baseTopicIndex + topicOffset) % profile.topicsUnlocked.length];
           const occurrence = topicOccurrence.get(topic) ?? 0;

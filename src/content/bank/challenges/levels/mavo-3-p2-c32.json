@@ -1,15 +1,32 @@
 {
   "id": "mavo-3-p2-c32",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 17 = 27. Wat is x?",
-  "answer": 10,
-  "hint1": "Haal 17 naar de andere kant: x = 27 − 17.",
-  "hint2": "x = 27 − 17",
-  "optionalWorkedFirstStep": "x + 17 = 27 → x = 27 − 17",
-  "explanation": "x + 17 = 27\nx = 27 − 17 = 10",
+  "question": "Vergelijk y = x² met y = x² + 2. Wat gebeurt er met de grafiek?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "De grafiek schuift 2 omhoog"
+    },
+    {
+      "id": "b",
+      "label": "De grafiek schuift 2 naar rechts"
+    },
+    {
+      "id": "c",
+      "label": "Wordt een rechte lijn"
+    },
+    {
+      "id": "d",
+      "label": "Alle y worden 2 kleiner"
+    }
+  ],
+  "hint1": "Bij x = 0: y = 2 in plaats van 0.",
+  "hint2": "Elke y krijgt +2.",
+  "explanation": "De parabool schuift 2 omhoog.",
   "classLevels": [
     "mavo-3"
   ]

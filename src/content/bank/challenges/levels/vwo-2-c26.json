@@ -1,15 +1,14 @@
 {
   "id": "vwo-2-c26",
   "type": "number-input",
-  "topic": "vergelijkingen",
+  "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 12 = 24. Wat is x?",
-  "answer": 12,
-  "hint1": "Haal 12 naar de andere kant: x = 24 − 12.",
-  "hint2": "x = 24 − 12",
-  "optionalWorkedFirstStep": "x + 12 = 24 → x = 24 − 12",
-  "explanation": "x + 12 = 24\nx = 24 − 12 = 12",
+  "question": "Runesteen Algebra: Los op 3(x − 2) = 15. Wat is x?",
+  "answer": 7,
+  "hint1": "Deel beide kanten door 3, of werk haakjes uit.",
+  "hint2": "x − 2 = 5 → x = 7.",
+  "explanation": "3(x − 2) = 15 → x − 2 = 5 → x = 7.",
   "classLevels": [
     "vwo-2"
   ]

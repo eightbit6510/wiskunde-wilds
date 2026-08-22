@@ -1,14 +1,62 @@
 {
   "id": "mavo-1-p2-c04",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "equation-steps",
+  "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 2:4. De eerste deelgroep is 10. Hoe groot is de tweede?",
-  "answer": 20,
-  "hint1": "Deel 10 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 4 = 20.",
-  "explanation": "10 ÷ 2 = 5.\n5 × 4 = 20.",
+  "question": "Los stap voor stap op: 2x + 5 = 17",
+  "equationSteps": [
+    {
+      "prompt": "Wat doe je eerst om dichter bij x te komen?",
+      "options": [
+        {
+          "id": "plus",
+          "label": "Beide kanten +5"
+        },
+        {
+          "id": "min",
+          "label": "Beide kanten −5"
+        },
+        {
+          "id": "keer",
+          "label": "Beide kanten ÷2"
+        },
+        {
+          "id": "alleen",
+          "label": "Alleen links −5"
+        }
+      ],
+      "correctId": "min",
+      "resultDisplay": "2x = 12"
+    },
+    {
+      "prompt": "Nu staat er 2x = 12. Wat is de volgende stap?",
+      "options": [
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "min2",
+          "label": "Beide kanten − 2"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten × 2"
+        },
+        {
+          "id": "plus2",
+          "label": "Beide kanten + 2"
+        }
+      ],
+      "correctId": "deel2",
+      "resultDisplay": "x = 6"
+    }
+  ],
+  "answer": 6,
+  "hint1": "Je wilt de constante term wegwerken — doe aan beide kanten het tegenovergestelde.",
+  "hint2": "2x + 5 = 17 → 2x = 12 → x = 6",
+  "explanation": "2x + 5 = 17\nBeide kanten −5 → 2x = 12\nBeide kanten ÷ 2 → x = 6",
   "classLevels": [
     "mavo-1"
   ]

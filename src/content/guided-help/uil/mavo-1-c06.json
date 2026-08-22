@@ -2,7 +2,7 @@
   "challengeId": "mavo-1-c06",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "intro": "Oppervlakte = lengte × breedte. Zoek de ontbrekende zijde.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle juiste uitspraken kiezen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Slechts één antwoord kiezen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,118 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Rechte hoek = hoek van een vierkant.",
-        "question": "Hoeveel graden?",
-        "options": [
-          {
-            "id": "90",
-            "label": "90°"
-          },
-          {
-            "id": "180",
-            "label": "180°"
-          }
-        ],
-        "correctAnswer": "90",
-        "successFeedback": "A is waar.",
-        "retryFeedback": "Rechte hoek = 90°."
-      },
-      {
-        "explanation": "B zegt rechte hoek = 180°.",
-        "question": "Klopt B?",
+        "explanation": "Oppervlakte = lengte × breedte. Zoek de ontbrekende zijde.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
-        "correctAnswer": "no",
-        "successFeedback": "B is onwaar.",
-        "retryFeedback": "180° = gestrekte hoek."
+        "correctAnswer": "yes",
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "C: gestrekte hoek.",
-        "question": "Hoeveel graden?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "90",
-            "label": "90°"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "180",
-            "label": "180°"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "180",
-        "successFeedback": "C is waar.",
-        "retryFeedback": "Gestrekte hoek = 180°."
-      },
-      {
-        "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
-        "options": [
-          {
-            "id": "ac",
-            "label": "A en C"
-          },
-          {
-            "id": "ab",
-            "label": "A en B"
-          },
-          {
-            "id": "bd",
-            "label": "B en D"
-          }
-        ],
-        "correctAnswer": "ac",
-        "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B verwart hoeken."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+    "conclusion": "Oppervlakte = lengte × breedte. Zoek de ontbrekende zijde."
   },
   "bonusVariants": [
     {
-      "id": "mavo-1-c06-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Rechte hoek in graden?",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "90°"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "45°"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "90°.",
-      "explanation": "90°."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "mavo-1-c06-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "Gestrekte hoek?",
-      "answer": "b",
+      "question": "Nog één tip?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "90°"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "180°"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "180°.",
-      "explanation": "180°."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

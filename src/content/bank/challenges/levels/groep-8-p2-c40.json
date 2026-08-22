@@ -1,28 +1,14 @@
 {
   "id": "groep-8-p2-c40",
-  "type": "multiple-choice",
+  "type": "number-input",
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 3x + 4x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "7x"
-    },
-    {
-      "id": "b",
-      "label": "12x"
-    },
-    {
-      "id": "c",
-      "label": "7"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "3x + 4x = (3+4)x",
-  "explanation": "3x + 4x = 7x",
+  "question": "Stersteen 1: Bereken −6 + (−3) × 2",
+  "answer": -12,
+  "hint1": "Eerst vermenigvuldigen.",
+  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
+  "explanation": "−6 + (−6) = −12.",
   "classLevels": [
     "groep-8"
   ]

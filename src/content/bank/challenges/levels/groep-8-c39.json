@@ -1,28 +1,20 @@
 {
   "id": "groep-8-c39",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "text-input",
+  "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 4x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→4, 2→8, 3→12"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→5, 2→6, 3→7"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
+  "question": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b.",
+  "answer": "l=(P-2b)/2",
+  "acceptedAnswers": [
+    "l=(P-2b)/2",
+    "ℓ=(P-2b)/2",
+    "l=P/2-b",
+    "ℓ=P/2-b"
   ],
-  "hint1": "Vermenigvuldig elke x met 4.",
-  "hint2": "Bij x = 6 hoort y = 24.",
-  "explanation": "y = 4x betekent: y is steeds 4 keer x.\nBij x = 6: y = 24.",
+  "hint1": "Trek 2b af, deel door 2.",
+  "hint2": "ℓ = (P − 2b) / 2.",
+  "explanation": "ℓ = (P − 2b) / 2.",
   "classLevels": [
     "groep-8"
   ]

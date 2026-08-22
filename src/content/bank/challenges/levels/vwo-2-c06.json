@@ -1,14 +1,14 @@
 {
   "id": "vwo-2-c06",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Bereken: 3^2",
-  "answer": 9,
-  "hint1": "3 × 3",
-  "hint2": "Vermenigvuldig 3 2 keer met zichzelf.",
-  "explanation": "3^2 = 9",
+  "question": "A = ℓ × b. Als A = 56 en ℓ = 8, wat is b?",
+  "answer": 7,
+  "hint1": "Deel beide kanten door ℓ: b = A ÷ ℓ.",
+  "hint2": "b = 56 ÷ 8 = 7.",
+  "explanation": "b = A ÷ ℓ = 56 ÷ 8 = 7.",
   "classLevels": [
     "vwo-2"
   ]

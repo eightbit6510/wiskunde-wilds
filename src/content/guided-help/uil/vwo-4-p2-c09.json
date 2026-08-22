@@ -2,7 +2,7 @@
   "challengeId": "vwo-4-p2-c09",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij x² = getal zoek je welk positief getal keer zichzelf dat getal geeft.",
+    "intro": "Maak n vrij in de formule.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "x vinden in x² = 81 (x positief)"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "x = 81 ÷ 2"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x² betekent x × x.\n\nWe zoeken: welk getal × zichzelf = 81?",
-        "question": "x² = x × x. Klopt dat?",
+        "explanation": "Maak n vrij in de formule.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — kwadraat = keer zichzelf.",
-        "retryFeedback": "x² is niet x×2."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: welk getal keer zichzelf geeft 81?\n\nReken een paar getallen keer zichzelf.",
-        "question": "9 × 9 = ?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "sq",
-            "label": "81"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "wrong",
-            "label": "82"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "sq",
-        "successFeedback": "Juist: x = 9.",
-        "retryFeedback": "Probeer 9 × 9."
-      },
-      {
-        "explanation": "Stap 4: controle.",
-        "question": "x = 9 positief en 9²=81?",
-        "options": [
-          {
-            "id": "yes",
-            "label": "Ja"
-          },
-          {
-            "id": "no",
-            "label": "Nee"
-          }
-        ],
-        "correctAnswer": "yes",
-        "successFeedback": "Goed! x = 9.",
-        "retryFeedback": "9 is positief en 9²=81."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 9"
+    "conclusion": "Maak n vrij in de formule."
   },
   "bonusVariants": [
     {
-      "id": "vwo-4-c09-b1",
-      "type": "number-input",
-      "question": "x² = 100 (x positief)",
-      "answer": 10,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Zelfde methode.",
-      "explanation": "Zelfde methode."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-4-c09-b2",
-      "type": "number-input",
-      "question": "x² = 81 (x positief)",
-      "answer": 9,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "9² = 81.",
-      "explanation": "9² = 81."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

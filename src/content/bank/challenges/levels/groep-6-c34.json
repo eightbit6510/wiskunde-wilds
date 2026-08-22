@@ -1,14 +1,14 @@
 {
   "id": "groep-6-c34",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "true-false",
+  "topic": "redeneren",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 3 rode kaarten horen 3 blauwe. Je hebt 12 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 12,
-  "hint1": "Deel 12 door 3.",
-  "hint2": "Dat getal × 3 = 12.",
-  "explanation": "12 ÷ 3 = 4.\n4 × 3 = 12.",
+  "question": "Klopt dit? “De grafiek van y = x² is symmetrisch in de y-as.”",
+  "answer": true,
+  "hint1": "(−x)² = x².",
+  "hint2": "Links en rechts spiegelbeeld.",
+  "explanation": "Ja — de parabool is symmetrisch.",
   "classLevels": [
     "groep-6"
   ]

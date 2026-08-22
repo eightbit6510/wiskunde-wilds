@@ -1,14 +1,32 @@
 {
   "id": "vwo-2-p2-c26",
-  "type": "number-input",
+  "type": "multiple-choice",
   "topic": "machten",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 2^4",
-  "answer": 16,
-  "hint1": "2 × 2 × …",
-  "hint2": "Vermenigvuldig 2 4 keer met zichzelf.",
-  "explanation": "2^4 = 16",
+  "question": "Wat is 2³ × 2²? (zelfde grondtal)",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "2⁵"
+    },
+    {
+      "id": "b",
+      "label": "2⁶"
+    },
+    {
+      "id": "c",
+      "label": "4⁵"
+    },
+    {
+      "id": "d",
+      "label": "2¹"
+    }
+  ],
+  "hint1": "Exponenten optellen bij dezelfde grondtal.",
+  "hint2": "3 + 2 = 5 → 2⁵.",
+  "explanation": "2³ × 2² = 2⁵.",
   "classLevels": [
     "vwo-2"
   ]

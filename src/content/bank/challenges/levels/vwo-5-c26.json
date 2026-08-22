@@ -1,15 +1,14 @@
 {
   "id": "vwo-5-c26",
   "type": "number-input",
-  "topic": "vergelijkingen",
+  "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 19 = 32. Wat is x?",
-  "answer": 13,
-  "hint1": "Haal 19 naar de andere kant: x = 32 − 19.",
-  "hint2": "x = 32 − 19",
-  "optionalWorkedFirstStep": "x + 19 = 32 → x = 32 − 19",
-  "explanation": "x + 19 = 32\nx = 32 − 19 = 13",
+  "question": "Runesteen Algebra: Los op 3(x − 2) = 15. Wat is x?",
+  "answer": 7,
+  "hint1": "Deel beide kanten door 3, of werk haakjes uit.",
+  "hint2": "x − 2 = 5 → x = 7.",
+  "explanation": "3(x − 2) = 15 → x − 2 = 5 → x = 7.",
   "classLevels": [
     "vwo-5"
   ]

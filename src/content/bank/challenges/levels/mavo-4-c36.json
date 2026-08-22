@@ -1,14 +1,14 @@
 {
   "id": "mavo-4-c36",
   "type": "number-input",
-  "topic": "formules",
+  "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 42, lengte = 14. Wat is de breedte?",
-  "answer": 3,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 42 ÷ 14",
-  "explanation": "b = A ÷ l = 42 ÷ 14 = 3",
+  "question": "Stersteen 1: Bereken −6 + (−3) × 2",
+  "answer": -12,
+  "hint1": "Eerst vermenigvuldigen.",
+  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
+  "explanation": "−6 + (−6) = −12.",
   "classLevels": [
     "mavo-4"
   ]

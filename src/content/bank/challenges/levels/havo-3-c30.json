@@ -1,14 +1,14 @@
 {
   "id": "havo-3-c30",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 7^4",
-  "answer": 2401,
-  "hint1": "7 × 7 × …",
-  "hint2": "Vermenigvuldig 7 4 keer met zichzelf.",
-  "explanation": "7^4 = 2401",
+  "question": "Laatste runesteen: Los op 2x + 5 = 17. Wat is x?",
+  "answer": 6,
+  "hint1": "Trek 5 af van beide kanten.",
+  "hint2": "2x = 12 → x = 6.",
+  "explanation": "x = 6.",
   "classLevels": [
     "havo-3"
   ]

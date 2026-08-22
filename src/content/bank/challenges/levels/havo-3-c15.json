@@ -1,14 +1,28 @@
 {
   "id": "havo-3-c15",
-  "type": "number-input",
-  "topic": "formules",
+  "type": "multiple-choice",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 44, lengte = 11. Wat is de breedte?",
-  "answer": 4,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 44 ÷ 11",
-  "explanation": "b = A ÷ l = 44 ÷ 11 = 4",
+  "question": "Een formule is y = 9x. Welke tabel hoort daarbij?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "x: 1→9, 2→18, 3→27"
+    },
+    {
+      "id": "b",
+      "label": "x: 1→10, 2→11, 3→12"
+    },
+    {
+      "id": "c",
+      "label": "x: 1→1, 2→2, 3→3"
+    }
+  ],
+  "hint1": "Vermenigvuldig elke x met 9.",
+  "hint2": "Bij x = 3 hoort y = 27.",
+  "explanation": "y = 9x betekent: y is steeds 9 keer x.\nBij x = 3: y = 27.",
   "classLevels": [
     "havo-3"
   ]

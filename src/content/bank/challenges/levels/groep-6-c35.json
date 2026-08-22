@@ -1,35 +1,28 @@
 {
   "id": "groep-6-c35",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "multiple-choice",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "question": "Welke beschrijving past bij y = x²?",
+  "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "Een rechte hoek is 90°"
+      "label": "Een rechte lijn"
     },
     {
       "id": "b",
-      "label": "Een rechte hoek is 180°"
+      "label": "Een boog (parabool)"
     },
     {
       "id": "c",
-      "label": "Een gestrekte hoek is 180°"
-    },
-    {
-      "id": "d",
-      "label": "Drie rechte hoeken passen in een driehoek"
+      "label": "Een horizontale lijn"
     }
   ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A: 90°. C: 180°. D klopt niet.",
+  "hint1": "Kwadratisch → boog, geen rechte lijn.",
+  "hint2": "y = x² buigt omhoog als een U.",
+  "explanation": "y = x² is een parabool — een boog.",
   "classLevels": [
     "groep-6"
   ]

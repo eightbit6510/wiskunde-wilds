@@ -2,7 +2,7 @@
   "challengeId": "groep-6-p2-c37",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We tellen 2/4 en 2/4 op. Beide stukken hebben dezelfde noemer — dat maakt het makkelijker.",
+    "intro": "Haakjes uitwerken op de tempelmuur.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "2/4 + 2/4 uitrekenen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Teller en noemer van beide breuken bij elkaar optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: kijk naar de noemer (onderste getal).\n\nBij 2/4 en 2/4 is die overal 4.",
-        "question": "Hebben beide breuken dezelfde noemer?",
+        "explanation": "Haakjes uitwerken op de tempelmuur.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, beide hebben noemer 4"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee, de noemers zijn verschillend"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed! Dan hoef je de noemer niet te veranderen.",
-        "retryFeedback": "Kijk onderaan de breuk: het getal onder de streep."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: tel alleen de tellers op.\n\nTel 2 + 2. De noemer 4 blijft staan.",
-        "question": "Wat is 2/4 + 2/4?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "right",
-            "label": "1"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "wrong",
-            "label": "1/2"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "right",
-        "successFeedback": "Precies! Het antwoord is 1.",
-        "retryFeedback": "Tel 2 + 2 = 4. Noemer blijft 4."
-      },
-      {
-        "explanation": "Stap 4: kies je antwoord in de som.",
-        "question": "Welke breuk is 2/4 + 2/4?",
-        "options": [
-          {
-            "id": "right",
-            "label": "1"
-          },
-          {
-            "id": "wrong",
-            "label": "1/2"
-          }
-        ],
-        "correctAnswer": "right",
-        "successFeedback": "Super! 2/4 + 2/4 = 1.",
-        "retryFeedback": "Tel de bovenste getallen: 2 + 2."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2/4 + 2/4 = 1"
+    "conclusion": "Haakjes uitwerken op de tempelmuur."
   },
   "bonusVariants": [
     {
-      "id": "groep-6-c37-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Wat is 1/4 + 2/4?",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "3/4"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "3/8"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel tellers: 1+2=3, noemer blijft 4.",
-      "explanation": "Tel tellers: 1+2=3, noemer blijft 4."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-6-c37-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "Welke is groter: 1/2 of 1/4?",
+      "question": "Nog één tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1/2"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "1/4"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Half is groter dan kwart.",
-      "explanation": "Half is groter dan kwart."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

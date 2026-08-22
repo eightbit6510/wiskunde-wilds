@@ -2,7 +2,7 @@
   "challengeId": "vwo-5-p2-c29",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij y = 10x vermenigvuldig je x steeds met 10. Zo herken je de juiste tabel.",
+    "intro": "Vierde runesteen: verbanden.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "De juiste tabel bij y = 10x kiezen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Bij elke x steeds 1 optellen bij y"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: y = 10x betekent y = 10 × x.\n\nProbeer x = 1.",
-        "question": "Wat is y als x = 1?",
+        "explanation": "Vierde runesteen: verbanden.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
-            "id": "k",
-            "label": "10"
+            "id": "yes",
+            "label": "Ja, ik ga rekenen"
           },
           {
-            "id": "k1",
-            "label": "11"
+            "id": "no",
+            "label": "Nog niet"
           }
         ],
-        "correctAnswer": "k",
-        "successFeedback": "Goed: y = 10 × 1 = 10.",
-        "retryFeedback": "Vermenigvuldig: 10 × 1."
+        "correctAnswer": "yes",
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: vul nog een paar waarden in.\n\nBereken y voor x = 2 en x = 3.",
-        "question": "Welk patroon past bij y = 10x?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "a",
-            "label": "y: 10, 20, 30…"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "b",
-            "label": "y stijgt steeds +1"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Precies — elke y is k keer x.",
-        "retryFeedback": "Tel niet +1, maar ×10."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. Formule: y = 10 × x\n2. Vul x in (1, 2, 3…)\n3. Kies tabel waar y steeds ×10 is",
-        "question": "Welke tabel hoort bij y = 10x?",
+        "explanation": "Controleer je antwoord voordat je verder gaat.",
+        "question": "Heb je alles netjes uitgewerkt?",
         "options": [
           {
-            "id": "a",
-            "label": "x: 1→10, 2→20, 3→30"
+            "id": "check",
+            "label": "Ja, gecontroleerd"
           },
           {
-            "id": "b",
-            "label": "x: 1→11, 2→12…"
+            "id": "skip",
+            "label": "Nog niet"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord A.",
-        "retryFeedback": "Volg het stappenplan stap voor stap."
+        "correctAnswer": "check",
+        "successFeedback": "Helemaal goed.",
+        "retryFeedback": "Kijk je stappen nog eens na."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 y = 10x → tabel A klopt."
+    "conclusion": "Vierde runesteen: verbanden."
   },
   "bonusVariants": [
     {
-      "id": "vwo-5-c29-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Welke formule hoort bij y = 3, 6, 9?",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "y = 3x"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "y = x + 3"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 3x: elke y is 3× de x.",
-      "explanation": "y = 3x: elke y is 3× de x."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-5-c29-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "Bij y = 10x, wat is y als x = 4?",
+      "question": "Nog één tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "40"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "14"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 10 × 4 = 40.",
-      "explanation": "y = 10 × 4 = 40."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

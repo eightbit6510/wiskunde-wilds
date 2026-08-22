@@ -1,14 +1,32 @@
 {
   "id": "havo-2-c35",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 2:5. De eerste deelgroep is 4. Hoe groot is de tweede?",
-  "answer": 10,
-  "hint1": "Deel 4 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 10.",
-  "explanation": "4 ÷ 2 = 2.\n2 × 5 = 10.",
+  "question": "Welke grafiek hoort bij y = x²?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Rechte lijn door de oorsprong"
+    },
+    {
+      "id": "b",
+      "label": "U-vormige parabool"
+    },
+    {
+      "id": "c",
+      "label": "Horizontale lijn"
+    },
+    {
+      "id": "d",
+      "label": "Dalende rechte lijn"
+    }
+  ],
+  "hint1": "Kwadratisch → boog, geen rechte lijn.",
+  "hint2": "y = x² is een parabool.",
+  "explanation": "y = x² is een U-vormige parabool.",
   "classLevels": [
     "havo-2"
   ]

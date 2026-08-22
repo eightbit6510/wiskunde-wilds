@@ -1,14 +1,14 @@
 {
   "id": "havo-4-p2-c08",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 3^2",
-  "answer": 9,
-  "hint1": "3 × 3",
-  "hint2": "Vermenigvuldig 3 2 keer met zichzelf.",
-  "explanation": "3^2 = 9",
+  "question": "P = 2ℓ + 2b. P = 30 cm en b = 5 cm. Wat is ℓ? (in cm)",
+  "answer": 10,
+  "hint1": "30 = 2ℓ + 10.",
+  "hint2": "2ℓ = 20 → ℓ = 10.",
+  "explanation": "ℓ = 10 cm.",
   "classLevels": [
     "havo-4"
   ]

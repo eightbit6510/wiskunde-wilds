@@ -1,28 +1,14 @@
 {
   "id": "havo-5-p2-c19",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 2x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "7x"
-    },
-    {
-      "id": "b",
-      "label": "10x"
-    },
-    {
-      "id": "c",
-      "label": "7"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 2x = (5+2)x",
-  "explanation": "5x + 2x = 7x",
+  "question": "√64 = ?",
+  "answer": 8,
+  "hint1": "Welk getal keer zichzelf geeft 64?",
+  "hint2": "8 × 8 = 64.",
+  "explanation": "√64 = 8.",
   "classLevels": [
     "havo-5"
   ]

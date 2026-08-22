@@ -1,28 +1,32 @@
 {
   "id": "groep-7-p2-c07",
   "type": "multiple-choice",
-  "topic": "breuken",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 1/2 + 1/4? Geef je antwoord als breuk.",
-  "answer": "a",
+  "question": "v = s / t. Welke formule geeft s (afstand)?",
+  "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "3/4"
+      "label": "s = v / t"
     },
     {
       "id": "b",
-      "label": "7/8"
+      "label": "s = v × t"
     },
     {
       "id": "c",
-      "label": "1/3"
+      "label": "s = t / v"
+    },
+    {
+      "id": "d",
+      "label": "s = v + t"
     }
   ],
-  "hint1": "Maak eerst de noemers gelijk.",
-  "hint2": "1/2 + 1/4 = 3/4",
-  "explanation": "1/2 + 1/4 = 3/4",
+  "hint1": "Vermenigvuldig beide kanten van v = s/t met t.",
+  "hint2": "v · t = s.",
+  "explanation": "s = v × t.",
   "classLevels": [
     "groep-7"
   ]

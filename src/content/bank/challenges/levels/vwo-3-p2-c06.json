@@ -1,14 +1,14 @@
 {
   "id": "vwo-3-p2-c06",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 3^4",
-  "answer": 81,
-  "hint1": "3 × 3 × …",
-  "hint2": "Vermenigvuldig 3 4 keer met zichzelf.",
-  "explanation": "3^4 = 81",
+  "question": "A = b × h. A = 48 m² en b = 6 m. Wat is h? (in meters)",
+  "answer": 8,
+  "hint1": "h = A ÷ b.",
+  "hint2": "48 ÷ 6 = 8.",
+  "explanation": "h = 8 m.",
   "classLevels": [
     "vwo-3"
   ]

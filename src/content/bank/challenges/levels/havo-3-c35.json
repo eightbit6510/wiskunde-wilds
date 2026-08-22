@@ -1,14 +1,32 @@
 {
   "id": "havo-3-c35",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 3:5. De eerste deelgroep is 15. Hoe groot is de tweede?",
-  "answer": 25,
-  "hint1": "Deel 15 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 25.",
-  "explanation": "15 ÷ 3 = 5.\n5 × 5 = 25.",
+  "question": "Welke grafiek hoort bij y = x²?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Rechte lijn door de oorsprong"
+    },
+    {
+      "id": "b",
+      "label": "U-vormige parabool"
+    },
+    {
+      "id": "c",
+      "label": "Horizontale lijn"
+    },
+    {
+      "id": "d",
+      "label": "Dalende rechte lijn"
+    }
+  ],
+  "hint1": "Kwadratisch → boog, geen rechte lijn.",
+  "hint2": "y = x² is een parabool.",
+  "explanation": "y = x² is een U-vormige parabool.",
   "classLevels": [
     "havo-3"
   ]

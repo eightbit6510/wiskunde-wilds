@@ -7,28 +7,8 @@ import type { HelpDifficulty } from './guidedHelpBuilder';
 import { buildGuidedHelpPack, readQuestionStep, owlStep, mcBonus } from './guidedHelpBuilder';
 import { bandFor } from './specialChallengeUtils';
 
-export type SpecialKind = 'code-crack' | 'boss-battle' | 'sorting' | 'spot-error';
-
-export interface SpecialSlotSpec {
-  kind: SpecialKind;
-}
-
-/** Deel I: les (1–8) → slot (0–4) */
-export const PART1_SPECIAL_SLOTS: Record<string, SpecialSlotSpec> = {
-  '1:1': { kind: 'spot-error' },
-  '1:2': { kind: 'code-crack' },
-  '4:4': { kind: 'boss-battle' },
-  '5:3': { kind: 'sorting' },
-  '8:4': { kind: 'code-crack' },
-};
-
-function slotKey(lessonIndex: number, slot: number): string {
-  return `${lessonIndex}:${slot}`;
-}
-
-export function specialForPart1Slot(lessonIndex: number, slot: number): SpecialSlotSpec | undefined {
-  return PART1_SPECIAL_SLOTS[slotKey(lessonIndex, slot)];
-}
+import type { StoryChallengeKind } from './storySlots';
+import { generateStoryKindChallenge } from './storyChallengeGenerators';
 
 function simpleHelp(id: string, difficulty: HelpDifficulty, intro: string): GuidedHelpPack {
   return buildGuidedHelpPack(
@@ -163,7 +143,7 @@ function spotErrorForLevel(
     topic: 'algebra',
     difficulty,
     starsAvailable: 3,
-    question: 'Op een boomstam staat een uitwerking. Waar gaat het mis?',
+    question: `Op een boomstam staat: ${wrong.expr}. Waar gaat het mis?`,
     answer: wrong.fault,
     answerOptions: [
       { id: 'bijx', label: 'Bij de x' },
@@ -298,18 +278,312 @@ function sortingForLevel(
   return { challenge, help: simpleHelp(id, difficulty, 'Kijk goed naar wat je vergelijkt.') };
 }
 
-export function generateSpecialChallenge(
+function multiSelectSignsForLevel(
+  id: string,
+  level: ClassLevel,
+  difficulty: HelpDifficulty,
+): { challenge: ChallengeDefinition; help: GuidedHelpPack } {
+  const band = bandFor(level);
+  const challenge: ChallengeDefinition =
+    band === 'basis'
+      ? {
+          id,
+          type: 'multi-select',
+          topic: 'algebra',
+          difficulty,
+          starsAvailable: 3,
+          question: 'Welke berekeningen kloppen? Kies alle juiste antwoorden.',
+          answerOptions: [
+            { id: 'a', label: 'A. 4 + 7 = 10' },
+            { id: 'b', label: 'B. 8 − 3 = 4' },
+            { id: 'c', label: 'C. 3 × 4 = 12' },
+            { id: 'd', label: 'D. 10 ÷ 2 = 6' },
+          ],
+          answers: ['c'],
+          hint1: 'Reken elke som rustig uit — niet elk spoor in het mos is echt.',
+          hint2: 'Alleen C klopt: 3 × 4 = 12.',
+          explanation:
+            'Alleen C klopt.\n\nA: 4 + 7 = 11\nB: 8 − 3 = 5\nC: 3 × 4 = 12 ✓\nD: 10 ÷ 2 = 5',
+          classLevels: [level],
+        }
+      : {
+          id,
+          type: 'multi-select',
+          topic: 'algebra',
+          difficulty,
+          starsAvailable: 3,
+          question: 'Welke berekeningen kloppen? Kies alle juiste antwoorden.',
+          answerOptions: [
+            { id: 'a', label: 'A. −4 + 7 = −11' },
+            { id: 'b', label: 'B. 5 − (−3) = 2' },
+            { id: 'c', label: 'C. −3 × −4 = 12' },
+            { id: 'd', label: 'D. 18 ÷ −3 = 6' },
+          ],
+          answers: ['c'],
+          hint1: 'Denk na over tekens: negatief × negatief, en min een negatief getal.',
+          hint2: 'Controleer A, B en D opnieuw — alleen C klopt.',
+          explanation:
+            'Alleen C klopt.\n\nA: −4 + 7 = 3\nB: 5 − (−3) = 8\nC: −3 × −4 = 12 ✓\nD: 18 ÷ −3 = −6',
+          classLevels: [level],
+        };
+
+  return {
+    challenge,
+    help: simpleHelp(id, difficulty, 'Lees elke som apart — welke sporen zijn echt?'),
+  };
+}
+
+function equationStepsForLevel(
+  id: string,
+  level: ClassLevel,
+  difficulty: HelpDifficulty,
+): { challenge: ChallengeDefinition; help: GuidedHelpPack } {
+  const band = bandFor(level);
+  const a = band === 'basis' ? 3 : 5;
+  const b = band === 'basis' ? 11 : 17;
+  const x = band === 'basis' ? 4 : 6;
+  const lhs = band === 'basis' ? 'x + 3' : '2x + 5';
+
+  const challenge: ChallengeDefinition = {
+    id,
+    type: 'equation-steps',
+    topic: 'vergelijkingen',
+    difficulty,
+    starsAvailable: 3,
+    question: `Los stap voor stap op: ${lhs} = ${b}`,
+    equationSteps: [
+      {
+        prompt: 'Wat doe je eerst om dichter bij x te komen?',
+        options: [
+          { id: 'plus', label: `Beide kanten +${a}` },
+          { id: 'min', label: `Beide kanten −${a}` },
+          { id: 'keer', label: band === 'basis' ? 'Beide kanten ×2' : 'Beide kanten ÷2' },
+          { id: 'alleen', label: `Alleen links −${a}` },
+        ],
+        correctId: 'min',
+        resultDisplay: band === 'basis' ? 'x = 8' : '2x = 12',
+      },
+      ...(band === 'basis'
+        ? []
+        : [
+            {
+              prompt: 'Nu staat er 2x = 12. Wat is de volgende stap?',
+              options: [
+                { id: 'deel2', label: 'Beide kanten ÷ 2' },
+                { id: 'min2', label: 'Beide kanten − 2' },
+                { id: 'keer2', label: 'Beide kanten × 2' },
+                { id: 'plus2', label: 'Beide kanten + 2' },
+              ],
+              correctId: 'deel2',
+              resultDisplay: 'x = 6',
+            },
+          ]),
+    ],
+    answer: x,
+    hint1: 'Je wilt de constante term wegwerken — doe aan beide kanten het tegenovergestelde.',
+    hint2: band === 'basis' ? 'x + 3 = 11 → x = 8' : '2x + 5 = 17 → 2x = 12 → x = 6',
+    explanation:
+      band === 'basis'
+        ? 'x + 3 = 11\nBeide kanten −3 → x = 8'
+        : '2x + 5 = 17\nBeide kanten −5 → 2x = 12\nBeide kanten ÷ 2 → x = 6',
+    classLevels: [level],
+  };
+
+  return {
+    challenge,
+    help: simpleHelp(id, difficulty, 'Eerst de constante weg, daarna x vrijmaken.'),
+  };
+}
+
+function imposterEquationForLevel(
+  id: string,
+  level: ClassLevel,
+  difficulty: HelpDifficulty,
+): { challenge: ChallengeDefinition; help: GuidedHelpPack } {
+  const challenge: ChallengeDefinition = {
+    id,
+    type: 'multiple-choice',
+    topic: 'redeneren',
+    difficulty,
+    starsAvailable: 3,
+    question: 'Welke oplossing kan niet kloppen? Redeneer zonder alles uit te rekenen.',
+    answerOptions: [
+      { id: 'a', label: 'A. Bij x + 8 = 3 zegt Sam: x = −5' },
+      { id: 'b', label: 'B. Bij 2x = −10 zegt Noor: x = −5' },
+      { id: 'c', label: 'C. Bij −x = 4 zegt Finn: x = 4' },
+    ],
+    answer: 'c',
+    hint1: 'Bij −x = 4: wat gebeurt er als je beide kanten met −1 vermenigvuldigt?',
+    hint2: 'Als −x = 4, dan is x = −4. Finn zegt +4 — dat kan niet.',
+    explanation:
+      'C kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4).',
+    classLevels: [level],
+  };
+  return {
+    challenge,
+    help: simpleHelp(id, difficulty, 'Drie leerlingen, één vals spoor — wie heeft de fout?'),
+  };
+}
+
+function graphChoiceForLevel(
+  id: string,
+  level: ClassLevel,
+  difficulty: HelpDifficulty,
+): { challenge: ChallengeDefinition; help: GuidedHelpPack } {
+  const challenge: ChallengeDefinition = {
+    id,
+    type: 'graph-choice',
+    topic: 'grafieken',
+    difficulty,
+    starsAvailable: 3,
+    question:
+      'Welke grafiek past bij iemand die eerst stilstaat, daarna steeds sneller beweegt en vervolgens weer stopt?',
+    answer: 'b',
+    graphOptions: [
+      {
+        id: 'a',
+        label: 'A: constant stijgend',
+        points: [
+          { x: 0, y: 0 },
+          { x: 1, y: 2 },
+          { x: 2, y: 4 },
+          { x: 3, y: 6 },
+          { x: 4, y: 8 },
+        ],
+      },
+      {
+        id: 'b',
+        label: 'B: plat, dan steiler, dan plat',
+        points: [
+          { x: 0, y: 0 },
+          { x: 1, y: 0 },
+          { x: 2, y: 1 },
+          { x: 3, y: 4 },
+          { x: 4, y: 4 },
+        ],
+      },
+      {
+        id: 'c',
+        label: 'C: dalend',
+        points: [
+          { x: 0, y: 8 },
+          { x: 1, y: 6 },
+          { x: 2, y: 4 },
+          { x: 3, y: 2 },
+          { x: 4, y: 0 },
+        ],
+      },
+    ],
+    hint1: 'Stilstand = horizontale lijn. Steeds sneller = steilere helling.',
+    hint2: 'Zoek plat → steiler → plat.',
+    explanation: 'Grafiek B: eerst stil, dan sneller, dan weer stil.',
+    classLevels: [level],
+  };
+  return { challenge, help: simpleHelp(id, difficulty, 'Welke lijn past bij het verhaal?') };
+}
+
+function tableFormulaForLevel(
+  id: string,
+  level: ClassLevel,
+  difficulty: HelpDifficulty,
+): { challenge: ChallengeDefinition; help: GuidedHelpPack } {
+  const challenge: ChallengeDefinition = {
+    id,
+    type: 'multiple-choice',
+    topic: 'grafieken',
+    difficulty,
+    starsAvailable: 3,
+    question: 'Welk patroon zie je in de tabel? Welke formule past erbij?',
+    tableData: {
+      headers: ['x', 'y'],
+      rows: [
+        [0, 3],
+        [1, 5],
+        [2, 7],
+        [3, 9],
+      ],
+    },
+    answer: 'b',
+    answerOptions: [
+      { id: 'a', label: 'y = x + 3' },
+      { id: 'b', label: 'y = 2x + 3' },
+      { id: 'c', label: 'y = 3x' },
+      { id: 'd', label: 'y = 2x − 3' },
+    ],
+    hint1: 'Kijk hoeveel y stijgt als x met 1 toeneemt.',
+    hint2: 'Elke stap +2 in y, start bij y = 3 → y = 2x + 3.',
+    explanation: 'y = 2x + 3. Elke stap in x geeft +2 in y.',
+    classLevels: [level],
+  };
+  return { challenge, help: simpleHelp(id, difficulty, 'Lees de tabel als sporen in de sneeuw.') };
+}
+
+function yInterceptForLevel(
+  id: string,
+  level: ClassLevel,
+  difficulty: HelpDifficulty,
+): { challenge: ChallengeDefinition; help: GuidedHelpPack } {
+  const challenge: ChallengeDefinition = {
+    id,
+    type: 'number-input',
+    topic: 'grafieken',
+    difficulty,
+    starsAvailable: 3,
+    question: 'y = 2x + 3. Waar raakt de grafiek de y-as? Geef de y-waarde.',
+    answer: 3,
+    hint1: 'Op de y-as is x = 0.',
+    hint2: 'Vul x = 0 in: y = 2·0 + 3.',
+    explanation: 'Bij x = 0: y = 3. Dat is het snijpunt met de y-as.',
+    classLevels: [level],
+  };
+  return {
+    challenge,
+    help: simpleHelp(id, difficulty, 'De lynx kijkt naar het snijpunt met de verticale as.'),
+  };
+}
+
+function matchingGraphsForLevel(
+  id: string,
+  level: ClassLevel,
+  difficulty: HelpDifficulty,
+): { challenge: ChallengeDefinition; help: GuidedHelpPack } {
+  const challenge: ChallengeDefinition = {
+    id,
+    type: 'matching',
+    topic: 'verbanden',
+    difficulty,
+    starsAvailable: 3,
+    question: 'Match formule, tabel-idee en verhaal.',
+    matchingPairs: [
+      { id: '1', left: 'y = 3x', right: 'Door 0, steil omhoog' },
+      { id: '2', left: 'y = x + 2', right: 'Start bij 2, helling 1' },
+      { id: '3', left: 'Tabel: (0,5)(1,5)(2,5)', right: 'Constant verband' },
+      { id: '4', left: 'y = −x + 4', right: 'Dalend, start hoog' },
+    ],
+    hint1: 'Koppel elke formule aan het juiste beeld.',
+    hint2: 'Constant in y betekent horizontaal verband.',
+    explanation: 'Elk spoor hoort bij precies één betekenis.',
+    classLevels: [level],
+  };
+  return {
+    challenge,
+    help: simpleHelp(id, difficulty, 'Vier sporen, vier betekenissen — verbind ze.'),
+  };
+}
+
+export function generateStoryChallenge(
   id: string,
   level: ClassLevel,
   lessonIndex: number,
   slot: number,
   difficulty: HelpDifficulty,
   seed: number,
+  kind: StoryChallengeKind,
 ): { challenge: ChallengeDefinition; help: GuidedHelpPack } | null {
-  const spec = specialForPart1Slot(lessonIndex, slot);
-  if (!spec) return null;
+  const themed = generateStoryKindChallenge(kind, id, level, lessonIndex, difficulty, seed);
+  if (themed) return themed;
 
-  switch (spec.kind) {
+  switch (kind) {
     case 'code-crack':
       return codeCrackForLevel(
         id,
@@ -324,6 +598,20 @@ export function generateSpecialChallenge(
       return bossBattleForLevel(id, level, difficulty, seed);
     case 'sorting':
       return sortingForLevel(id, level, difficulty);
+    case 'multi-select-signs':
+      return multiSelectSignsForLevel(id, level, difficulty);
+    case 'equation-steps':
+      return equationStepsForLevel(id, level, difficulty);
+    case 'imposter-equation':
+      return imposterEquationForLevel(id, level, difficulty);
+    case 'graph-choice':
+      return graphChoiceForLevel(id, level, difficulty);
+    case 'table-formula':
+      return tableFormulaForLevel(id, level, difficulty);
+    case 'y-intercept':
+      return yInterceptForLevel(id, level, difficulty);
+    case 'matching-graphs':
+      return matchingGraphsForLevel(id, level, difficulty);
     default:
       return null;
   }

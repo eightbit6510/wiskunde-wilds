@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c23",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "intro": "Koppel formule aan verhaal.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle juiste uitspraken kiezen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Slechts één antwoord kiezen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,118 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Kilometer en meter.",
-        "question": "1 km = 1000 m?",
+        "explanation": "Koppel formule aan verhaal.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "A is waar.",
-        "retryFeedback": "kilo = duizend."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "B: 1 km = 100 m?",
-        "question": "Klopt B?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "no",
-        "successFeedback": "B is onwaar.",
-        "retryFeedback": "1 km = 1000 m."
-      },
-      {
-        "explanation": "Tijd: uur en minuten.",
-        "question": "1 uur = 60 min?",
-        "options": [
-          {
-            "id": "yes",
-            "label": "Ja"
-          },
-          {
-            "id": "no",
-            "label": "Nee"
-          }
-        ],
-        "correctAnswer": "yes",
-        "successFeedback": "C is waar.",
-        "retryFeedback": "1 uur = 60 minuten."
-      },
-      {
-        "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
-        "options": [
-          {
-            "id": "ac",
-            "label": "A en C"
-          },
-          {
-            "id": "ab",
-            "label": "A en B"
-          },
-          {
-            "id": "cd",
-            "label": "C en D"
-          }
-        ],
-        "correctAnswer": "ac",
-        "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+    "conclusion": "Koppel formule aan verhaal."
   },
   "bonusVariants": [
     {
-      "id": "groep-6-c23-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "2 km = ? meter",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2000"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "200"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2×1000=2000.",
-      "explanation": "2×1000=2000."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-6-c23-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "30 min = ? uur",
-      "answer": "b",
+      "question": "Nog één tip?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1 uur"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "0,5 uur"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "30 min = halve uur.",
-      "explanation": "30 min = halve uur."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

@@ -22,25 +22,25 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Bij optellen: van −3 naar rechts.",
-        "question": "Wat is −3 + 5?",
+        "explanation": "Veelvoud = keer tafel.",
+        "question": "Is 6 = 2 × 3?",
         "options": [
           {
-            "id": "2",
-            "label": "2"
+            "id": "yes",
+            "label": "Ja"
           },
           {
-            "id": "m8",
-            "label": "−8"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "2",
+        "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "−3+5=2."
+        "retryFeedback": "6 is veelvoud van 3."
       },
       {
-        "explanation": "B zegt −3+5=−8.",
-        "question": "Klopt B?",
+        "explanation": "B: 6 veelvoud van 4?",
+        "question": "6÷4 exact?",
         "options": [
           {
             "id": "yes",
@@ -53,24 +53,24 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Je gaat omhoog, niet verder omlaag."
+        "retryFeedback": "6÷4 gaat niet exact."
       },
       {
-        "explanation": "C: 4 − 7. Onder nul.",
-        "question": "Wat is 4 − 7?",
+        "explanation": "C: 15 veelvoud van 5?",
+        "question": "15÷5 = 3?",
         "options": [
           {
-            "id": "m3",
-            "label": "−3"
+            "id": "yes",
+            "label": "Ja"
           },
           {
-            "id": "3",
-            "label": "3"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "m3",
+        "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "4−7=−3."
+        "retryFeedback": "15=3×5."
       },
       {
         "explanation": "Welke zijn waar?",
@@ -117,40 +117,40 @@
     {
       "id": "vwo-5-c78-b1",
       "type": "multiple-choice",
-      "question": "−5 + 8 = ?",
+      "question": "8 veelvoud van 2?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "3"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "−3"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "−5+8=3.",
-      "explanation": "−5+8=3."
+      "hint2": "8=4×2.",
+      "explanation": "8=4×2."
     },
     {
       "id": "vwo-5-c78-b2",
       "type": "multiple-choice",
-      "question": "2 − 6 = ?",
+      "question": "10 veelvoud van 3?",
       "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "4"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "−4"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2−6=−4.",
-      "explanation": "2−6=−4."
+      "hint2": "10÷3 niet exact.",
+      "explanation": "10÷3 niet exact."
     }
   ]
 }

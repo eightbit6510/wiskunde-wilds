@@ -1,14 +1,32 @@
 {
   "id": "mavo-3-p2-c26",
-  "type": "number-input",
-  "topic": "formules",
+  "type": "multiple-choice",
+  "topic": "machten",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 300, lengte = 100. Wat is de breedte?",
-  "answer": 3,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 300 ÷ 100",
-  "explanation": "b = A ÷ l = 300 ÷ 100 = 3",
+  "question": "Wat is 2³ × 2²? (zelfde grondtal)",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "2⁵"
+    },
+    {
+      "id": "b",
+      "label": "2⁶"
+    },
+    {
+      "id": "c",
+      "label": "4⁵"
+    },
+    {
+      "id": "d",
+      "label": "2¹"
+    }
+  ],
+  "hint1": "Exponenten optellen bij dezelfde grondtal.",
+  "hint2": "3 + 2 = 5 → 2⁵.",
+  "explanation": "2³ × 2² = 2⁵.",
   "classLevels": [
     "mavo-3"
   ]

@@ -1,14 +1,32 @@
 {
   "id": "groep-6-c08",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "multiple-choice",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Er ontbreekt een getal: ? + 8 = 12. Wat is het ontbrekende getal?",
-  "answer": 4,
-  "hint1": "Tel terug: trek het bekende getal af van het totaal.",
-  "hint2": "12 − 8 = 4",
-  "explanation": "12 − 8 = 4",
+  "question": "€12 vaste kosten plus €4 per zak voer. Welke formule voor totale kosten K bij z zakken?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "K = 12z + 4"
+    },
+    {
+      "id": "b",
+      "label": "K = 4z + 12"
+    },
+    {
+      "id": "c",
+      "label": "K = 12 × 4 × z"
+    },
+    {
+      "id": "d",
+      "label": "K = 4 + 12 + z"
+    }
+  ],
+  "hint1": "Startbedrag 12, daarna +4 per zak.",
+  "hint2": "K = 4z + 12.",
+  "explanation": "K = 4z + 12.",
   "classLevels": [
     "groep-6"
   ]

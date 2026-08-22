@@ -4,11 +4,11 @@
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 6 + 6 + 6 + 6 + … (5 keer 6). Wat is het antwoord?",
-  "answer": 30,
-  "hint1": "5 keer 6 is hetzelfde als 5 × 6.",
-  "hint2": "5 × 6 = 30",
-  "explanation": "5 × 6 = 30",
+  "question": "Stersteen 1: Bereken −6 + (−3) × 2",
+  "answer": -12,
+  "hint1": "Eerst vermenigvuldigen.",
+  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
+  "explanation": "−6 + (−6) = −12.",
   "classLevels": [
     "groep-6"
   ]

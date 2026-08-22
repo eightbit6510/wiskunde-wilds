@@ -1,14 +1,14 @@
 {
   "id": "vwo-4-c28",
-  "type": "number-input",
-  "topic": "machten",
+  "type": "text-input",
+  "topic": "breuken",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Bereken: 7^3",
-  "answer": 343,
-  "hint1": "7 × 7 × …",
-  "hint2": "Vermenigvuldig 7 3 keer met zichzelf.",
-  "explanation": "7^3 = 343",
+  "question": "Runesteen Breuken: vereenvoudig 8/12.",
+  "answer": "2/3",
+  "hint1": "Deel teller en noemer door hun GGD.",
+  "hint2": "GGD is 4 → 2/3.",
+  "explanation": "8/12 = 2/3.",
   "classLevels": [
     "vwo-4"
   ]

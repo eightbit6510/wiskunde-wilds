@@ -1,35 +1,14 @@
 {
   "id": "vwo-5-p2-c40",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "number-input",
+  "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "De omtrek van een vierkant met zijde 3 is 12"
-    },
-    {
-      "id": "b",
-      "label": "De omtrek van een vierkant met zijde 3 is 9"
-    },
-    {
-      "id": "c",
-      "label": "De oppervlakte van een rechthoek 4×5 is 20"
-    },
-    {
-      "id": "d",
-      "label": "De oppervlakte van 4×5 is 9"
-    }
-  ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: omtrek 4×3=12. C: oppervlakte 4×5=20.",
+  "question": "Stersteen 1: Bereken −6 + (−3) × 2",
+  "answer": -12,
+  "hint1": "Eerst vermenigvuldigen.",
+  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
+  "explanation": "−6 + (−6) = −12.",
   "classLevels": [
     "vwo-5"
   ]

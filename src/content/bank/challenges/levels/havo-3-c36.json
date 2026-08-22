@@ -1,14 +1,14 @@
 {
   "id": "havo-3-c36",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 2^5",
-  "answer": 32,
-  "hint1": "2 × 2 × …",
-  "hint2": "Vermenigvuldig 2 5 keer met zichzelf.",
-  "explanation": "2^5 = 32",
+  "question": "Stersteen 1: Bereken −6 + (−3) × 2",
+  "answer": -12,
+  "hint1": "Eerst vermenigvuldigen.",
+  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
+  "explanation": "−6 + (−6) = −12.",
   "classLevels": [
     "havo-3"
   ]

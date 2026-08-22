@@ -1,14 +1,14 @@
 {
   "id": "vwo-3-p2-c36",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 2^5",
-  "answer": 32,
-  "hint1": "2 × 2 × …",
-  "hint2": "Vermenigvuldig 2 5 keer met zichzelf.",
-  "explanation": "2^5 = 32",
+  "question": "Kamer I — Los op: 5x + 2 = 2x + 14. Wat is x?",
+  "answer": 4,
+  "hint1": "Haal 2x naar links.",
+  "hint2": "3x = 12 → x = 4.",
+  "explanation": "5x + 2 = 2x + 14 → x = 4.",
   "classLevels": [
     "vwo-3"
   ]

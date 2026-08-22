@@ -1,14 +1,28 @@
 {
   "id": "mavo-2-c16",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 4:3. De eerste deelgroep is 20. Hoe groot is de tweede?",
-  "answer": 15,
-  "hint1": "Deel 20 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 15.",
-  "explanation": "20 ÷ 4 = 5.\n5 × 3 = 15.",
+  "question": "Welke breuk is groter: 3/4 of 5/8?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "3/4"
+    },
+    {
+      "id": "b",
+      "label": "5/8"
+    },
+    {
+      "id": "gelijk",
+      "label": "Even groot"
+    }
+  ],
+  "hint1": "Maak gelijke noemers of vergelijk met decimalen.",
+  "hint2": "3/4 = 6/8 > 5/8.",
+  "explanation": "3/4 is groter dan 5/8.",
   "classLevels": [
     "mavo-2"
   ]

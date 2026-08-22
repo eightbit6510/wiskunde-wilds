@@ -1,15 +1,34 @@
 {
   "id": "mavo-1-p2-c05",
-  "type": "number-input",
-  "topic": "breuken",
+  "type": "multi-select",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 1/1 + 2/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 3,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "1/1 + 2/1 = 3/1",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 4.",
-  "explanation": "1/1 + 2/1 = 3/1 = 3",
+  "question": "Welke berekeningen kloppen? Kies alle juiste antwoorden.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "A. −4 + 7 = −11"
+    },
+    {
+      "id": "b",
+      "label": "B. 5 − (−3) = 2"
+    },
+    {
+      "id": "c",
+      "label": "C. −3 × −4 = 12"
+    },
+    {
+      "id": "d",
+      "label": "D. 18 ÷ −3 = 6"
+    }
+  ],
+  "answers": [
+    "c"
+  ],
+  "hint1": "Denk na over tekens: negatief × negatief, en min een negatief getal.",
+  "hint2": "Controleer A, B en D opnieuw — alleen C klopt.",
+  "explanation": "Alleen C klopt.\n\nA: −4 + 7 = 3\nB: 5 − (−3) = 8\nC: −3 × −4 = 12 ✓\nD: 18 ÷ −3 = −6",
   "classLevels": [
     "mavo-1"
   ]

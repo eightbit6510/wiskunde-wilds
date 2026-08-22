@@ -1,14 +1,14 @@
 {
   "id": "havo-2-c30",
   "type": "number-input",
-  "topic": "formules",
+  "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 119, lengte = 17. Wat is de breedte?",
-  "answer": 7,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 119 ÷ 17",
-  "explanation": "b = A ÷ l = 119 ÷ 17 = 7",
+  "question": "Laatste runesteen: Los op 2x + 5 = 17. Wat is x?",
+  "answer": 6,
+  "hint1": "Trek 5 af van beide kanten.",
+  "hint2": "2x = 12 → x = 6.",
+  "explanation": "x = 6.",
   "classLevels": [
     "havo-2"
   ]

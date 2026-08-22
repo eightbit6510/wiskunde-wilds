@@ -1,35 +1,32 @@
 {
   "id": "groep-7-p2-c29",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "multiple-choice",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "question": "Runesteen Verbanden: tabel x: 0,1,2,3 en y: 2,5,8,11. Welke formule?",
+  "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "In een parallellogram zijn tegenoverliggende zijden even lang"
+      "label": "y = 3x + 2"
     },
     {
       "id": "b",
-      "label": "In een parallellogram zijn alle zijden even lang"
+      "label": "y = 3x + 1"
     },
     {
       "id": "c",
-      "label": "Een ruit heeft vier gelijke zijden"
+      "label": "y = 2x + 3"
     },
     {
       "id": "d",
-      "label": "Een ruit heeft altijd rechte hoeken"
+      "label": "y = 4x + 1"
     }
   ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A en C kloppen. B geldt alleen voor ruit/vierkant. D: ruit hoeft geen rechte hoeken.",
+  "hint1": "Verschil in y is steeds +3.",
+  "hint2": "y = 3x + 2.",
+  "explanation": "y = 3x + 2.",
   "classLevels": [
     "groep-7"
   ]

@@ -4,11 +4,11 @@
   "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 315, lengte = 105. Wat is de breedte?",
-  "answer": 3,
+  "question": "Oppervlakte A = lengte × breedte. A = 606, lengte = 101. Wat is de breedte?",
+  "answer": 6,
   "hint1": "Deel A door lengte.",
-  "hint2": "b = 315 ÷ 105",
-  "explanation": "b = A ÷ l = 315 ÷ 105 = 3",
+  "hint2": "b = 606 ÷ 101",
+  "explanation": "b = A ÷ l = 606 ÷ 101 = 6",
   "classLevels": [
     "vwo-1"
   ]

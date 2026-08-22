@@ -1,28 +1,56 @@
 {
   "id": "mavo-2-p2-c25",
   "type": "multiple-choice",
-  "topic": "grafieken",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 6x. Welke tabel hoort daarbij?",
+  "question": "Welke formule past bij de tabel (week 0→4, 1→6, 2→8, 3→10)?",
+  "tableData": {
+    "headers": [
+      "week",
+      "gewicht"
+    ],
+    "rows": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        10
+      ]
+    ]
+  },
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→6, 2→12, 3→18"
+      "label": "g = 2w + 4"
     },
     {
       "id": "b",
-      "label": "x: 1→7, 2→8, 3→9"
+      "label": "g = 4w + 2"
     },
     {
       "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "label": "g = w + 4"
+    },
+    {
+      "id": "d",
+      "label": "g = 2w"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 6.",
-  "hint2": "Bij x = 3 hoort y = 18.",
-  "explanation": "y = 6x betekent: y is steeds 6 keer x.\nBij x = 3: y = 18.",
+  "hint1": "Start bij week 0: g = 4. Elke week +2.",
+  "hint2": "g = 2w + 4.",
+  "explanation": "g = 2w + 4.",
   "classLevels": [
     "mavo-2"
   ]

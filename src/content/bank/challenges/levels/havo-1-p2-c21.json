@@ -1,28 +1,14 @@
 {
   "id": "havo-1-p2-c21",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 3x + 3x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "6x"
-    },
-    {
-      "id": "b",
-      "label": "9x"
-    },
-    {
-      "id": "c",
-      "label": "6"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "3x + 3x = (3+3)x",
-  "explanation": "3x + 3x = 6x",
+  "question": "Waar snijden y = 2x + 3 en y = x + 7 elkaar? Los x op. Wat is x?",
+  "answer": 4,
+  "hint1": "Stel 2x + 3 gelijk aan x + 7.",
+  "hint2": "x = 4.",
+  "explanation": "2x + 3 = x + 7 → x = 4. Snijpunt (4, 11).",
   "classLevels": [
     "havo-1"
   ]

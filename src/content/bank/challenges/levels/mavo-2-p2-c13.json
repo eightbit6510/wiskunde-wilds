@@ -1,14 +1,14 @@
 {
   "id": "mavo-2-p2-c13",
   "type": "number-input",
-  "topic": "formules",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 300, lengte = 100. Wat is de breedte?",
-  "answer": 3,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 300 ÷ 100",
-  "explanation": "b = A ÷ l = 300 ÷ 100 = 3",
+  "question": "Je mengt sap en water in de verhouding 2 : 3. In totaal gebruik je 25 liter. Hoeveel liter sap?",
+  "answer": 10,
+  "hint1": "2 + 3 = 5 delen. 25 ÷ 5 = 5 liter per deel.",
+  "hint2": "Sap = 2 × 5 = 10 liter.",
+  "explanation": "10 liter sap (2 delen van 5).",
   "classLevels": [
     "mavo-2"
   ]

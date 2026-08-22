@@ -1,14 +1,14 @@
 {
   "id": "groep-6-p2-c28",
   "type": "number-input",
-  "topic": "vergelijkingen",
+  "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Er ontbreekt een getal: ? + 3 = 6. Wat is het ontbrekende getal?",
-  "answer": 3,
-  "hint1": "Tel terug: trek het bekende getal af van het totaal.",
-  "hint2": "6 − 3 = 3",
-  "explanation": "6 − 3 = 3",
+  "question": "12² = ?",
+  "answer": 144,
+  "hint1": "12 × 12.",
+  "hint2": "12² = 144.",
+  "explanation": "12² = 144.",
   "classLevels": [
     "groep-6"
   ]

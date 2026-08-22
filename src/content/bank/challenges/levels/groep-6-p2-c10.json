@@ -1,14 +1,14 @@
 {
   "id": "groep-6-p2-c10",
   "type": "number-input",
-  "topic": "algebra",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 4 + 4 + 4 + 4 (4 keer 4). Wat is het antwoord?",
-  "answer": 16,
-  "hint1": "4 keer 4 is hetzelfde als 4 × 4.",
-  "hint2": "4 × 4 = 16",
-  "explanation": "4 × 4 = 16",
+  "question": "A = ℓ × b. Als A = 42 en ℓ = 7, wat is b?",
+  "answer": 6,
+  "hint1": "Deel beide kanten door ℓ: b = A ÷ ℓ.",
+  "hint2": "b = 42 ÷ 7 = 6.",
+  "explanation": "b = A ÷ ℓ = 42 ÷ 7 = 6.",
   "classLevels": [
     "groep-6"
   ]

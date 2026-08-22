@@ -1,14 +1,14 @@
 {
   "id": "groep-7-c30",
   "type": "number-input",
-  "topic": "algebra",
+  "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 4 + 4 + 4 + 4 (4 keer 4). Wat is het antwoord?",
-  "answer": 16,
-  "hint1": "4 keer 4 is hetzelfde als 4 × 4.",
-  "hint2": "4 × 4 = 16",
-  "explanation": "4 × 4 = 16",
+  "question": "Laatste runesteen: Los op 2x + 5 = 17. Wat is x?",
+  "answer": 6,
+  "hint1": "Trek 5 af van beide kanten.",
+  "hint2": "2x = 12 → x = 6.",
+  "explanation": "x = 6.",
   "classLevels": [
     "groep-7"
   ]

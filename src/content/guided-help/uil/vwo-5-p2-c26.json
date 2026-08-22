@@ -2,7 +2,7 @@
   "challengeId": "vwo-5-p2-c26",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "intro": "Runen: exponenten stapelen.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle juiste uitspraken kiezen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Slechts één antwoord kiezen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,135 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Rechte hoek = hoek van een vierkant.",
-        "question": "Hoeveel graden?",
-        "options": [
-          {
-            "id": "90",
-            "label": "90°"
-          },
-          {
-            "id": "180",
-            "label": "180°"
-          }
-        ],
-        "correctAnswer": "90",
-        "successFeedback": "A is waar.",
-        "retryFeedback": "Rechte hoek = 90°."
-      },
-      {
-        "explanation": "B zegt rechte hoek = 180°.",
-        "question": "Klopt B?",
+        "explanation": "Runen: exponenten stapelen.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
-        "correctAnswer": "no",
-        "successFeedback": "B is onwaar.",
-        "retryFeedback": "180° = gestrekte hoek."
+        "correctAnswer": "yes",
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "C: gestrekte hoek.",
-        "question": "Hoeveel graden?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "90",
-            "label": "90°"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "180",
-            "label": "180°"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "180",
-        "successFeedback": "C is waar.",
-        "retryFeedback": "Gestrekte hoek = 180°."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       },
       {
-        "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
+        "explanation": "Controleer je antwoord voordat je verder gaat.",
+        "question": "Heb je alles netjes uitgewerkt?",
         "options": [
           {
-            "id": "ac",
-            "label": "A en C"
+            "id": "check",
+            "label": "Ja, gecontroleerd"
           },
           {
-            "id": "ab",
-            "label": "A en B"
-          },
-          {
-            "id": "bd",
-            "label": "B en D"
+            "id": "skip",
+            "label": "Nog niet"
           }
         ],
-        "correctAnswer": "ac",
-        "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B verwart hoeken."
-      },
-      {
-        "explanation": "Stappenplan voor dit type som:\n1. Lees uitspraak A, B, C en D\n2. Zet bij elke: waar of onwaar?\n3. Kies alles wat waar is",
-        "question": "Welke letters kloppen?",
-        "options": [
-          {
-            "id": "ans",
-            "label": "A en C"
-          },
-          {
-            "id": "wrong",
-            "label": "Alleen de eerste"
-          }
-        ],
-        "correctAnswer": "ans",
-        "successFeedback": "Helemaal goed! A en C zijn waar.",
-        "retryFeedback": "Volg het stappenplan stap voor stap."
+        "correctAnswer": "check",
+        "successFeedback": "Helemaal goed.",
+        "retryFeedback": "Kijk je stappen nog eens na."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+    "conclusion": "Runen: exponenten stapelen."
   },
   "bonusVariants": [
     {
-      "id": "vwo-5-c66-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Rechte hoek in graden?",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "90°"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "45°"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "90°.",
-      "explanation": "90°."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-5-c66-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "Gestrekte hoek?",
-      "answer": "b",
+      "question": "Nog één tip?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "90°"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "180°"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "180°.",
-      "explanation": "180°."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

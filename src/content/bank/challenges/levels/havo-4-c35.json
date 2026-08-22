@@ -1,14 +1,32 @@
 {
   "id": "havo-4-c35",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 4:5. De eerste deelgroep is 16. Hoe groot is de tweede?",
-  "answer": 20,
-  "hint1": "Deel 16 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 20.",
-  "explanation": "16 ÷ 4 = 4.\n4 × 5 = 20.",
+  "question": "Welke grafiek hoort bij y = x²?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Rechte lijn door de oorsprong"
+    },
+    {
+      "id": "b",
+      "label": "U-vormige parabool"
+    },
+    {
+      "id": "c",
+      "label": "Horizontale lijn"
+    },
+    {
+      "id": "d",
+      "label": "Dalende rechte lijn"
+    }
+  ],
+  "hint1": "Kwadratisch → boog, geen rechte lijn.",
+  "hint2": "y = x² is een parabool.",
+  "explanation": "y = x² is een U-vormige parabool.",
   "classLevels": [
     "havo-4"
   ]

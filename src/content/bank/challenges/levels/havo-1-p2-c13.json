@@ -4,11 +4,11 @@
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 4:3. De eerste deelgroep is 20. Hoe groot is de tweede?",
-  "answer": 15,
-  "hint1": "Deel 20 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 15.",
-  "explanation": "20 ÷ 4 = 5.\n5 × 3 = 15.",
+  "question": "Je mengt sap en water in de verhouding 2 : 3. In totaal gebruik je 25 liter. Hoeveel liter sap?",
+  "answer": 10,
+  "hint1": "2 + 3 = 5 delen. 25 ÷ 5 = 5 liter per deel.",
+  "hint2": "Sap = 2 × 5 = 10 liter.",
+  "explanation": "10 liter sap (2 delen van 5).",
   "classLevels": [
     "havo-1"
   ]

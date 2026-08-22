@@ -1,28 +1,14 @@
 {
   "id": "mavo-4-c34",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "true-false",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 4x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→4, 2→8, 3→12"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→5, 2→6, 3→7"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 4.",
-  "hint2": "Bij x = 5 hoort y = 20.",
-  "explanation": "y = 4x betekent: y is steeds 4 keer x.\nBij x = 5: y = 20.",
+  "question": "Klopt dit? “De grafiek van y = x² is symmetrisch in de y-as.”",
+  "answer": true,
+  "hint1": "(−x)² = x².",
+  "hint2": "Links en rechts spiegelbeeld.",
+  "explanation": "Ja — de parabool is symmetrisch.",
   "classLevels": [
     "mavo-4"
   ]

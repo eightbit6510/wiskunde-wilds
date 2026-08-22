@@ -2,7 +2,7 @@
   "challengeId": "vwo-2-p2-c03",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij gelijke letters tel je alleen de getallen ervoor op.",
+    "intro": "Twee x-termen in één vergelijking.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "4x + 4x vereenvoudigen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "De getallen 4 en 4 vermenigvuldigen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
-        "question": "Kun je 4x en 4x optellen?",
+        "explanation": "Twee x-termen in één vergelijking.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, beide hebben x"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — tel de getallen vóór x op.",
-        "retryFeedback": "Kijk naar de letter: beide hebben x."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 4 + 4.",
-        "question": "Wat is 4x + 4x?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "a",
-            "label": "8x"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "b",
-            "label": "16x"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Juist: 8x.",
-        "retryFeedback": "Tel 4 en 4 op; x blijft staan."
-      },
-      {
-        "explanation": "Stap 4: kies het juiste antwoord in de som.",
-        "question": "Welke optie klopt?",
-        "options": [
-          {
-            "id": "a",
-            "label": "8x"
-          },
-          {
-            "id": "c",
-            "label": "8"
-          }
-        ],
-        "correctAnswer": "a",
-        "successFeedback": "Precies — antwoord A: 8x.",
-        "retryFeedback": "4x + 4x = (4+4)x."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4x + 4x = 8x"
+    "conclusion": "Twee x-termen in één vergelijking."
   },
   "bonusVariants": [
     {
-      "id": "vwo-2-c43-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 5x + 4x",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "9x"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "9"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 5 + 4.",
-      "explanation": "Tel 5 + 4."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "vwo-2-c43-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 4x + 5x",
+      "question": "Nog één tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "9x"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "9x"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 4 + 5.",
-      "explanation": "Tel 4 + 5."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

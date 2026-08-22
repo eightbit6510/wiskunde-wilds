@@ -1,14 +1,28 @@
 {
   "id": "vwo-4-c16",
-  "type": "number-input",
-  "topic": "machten",
+  "type": "multiple-choice",
+  "topic": "breuken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 5^4",
-  "answer": 625,
-  "hint1": "5 × 5 × …",
-  "hint2": "Vermenigvuldig 5 4 keer met zichzelf.",
-  "explanation": "5^4 = 625",
+  "question": "Welke breuk is groter: 3/4 of 5/8?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "3/4"
+    },
+    {
+      "id": "b",
+      "label": "5/8"
+    },
+    {
+      "id": "gelijk",
+      "label": "Even groot"
+    }
+  ],
+  "hint1": "Maak gelijke noemers of vergelijk met decimalen.",
+  "hint2": "3/4 = 6/8 > 5/8.",
+  "explanation": "3/4 is groter dan 5/8.",
   "classLevels": [
     "vwo-4"
   ]

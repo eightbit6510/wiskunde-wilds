@@ -1,28 +1,19 @@
 {
   "id": "groep-7-p2-c09",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "text-input",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "1 snoepje kost 5 euro. Wat kosten 2 snoepjes?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "10 euro"
-    },
-    {
-      "id": "b",
-      "label": "15 euro"
-    },
-    {
-      "id": "c",
-      "label": "9 euro"
-    }
+  "question": "T = 5n + 20. Geef n in termen van T. (bijv. n = ...)",
+  "answer": "n=(T-20)/5",
+  "acceptedAnswers": [
+    "n=(T-20)/5",
+    "n=(t-20)/5",
+    "n=T/5-4"
   ],
-  "hint1": "Elke snoepje kost 5 euro — tel dat 2 keer op.",
-  "hint2": "2 × 5 = 10",
-  "explanation": "2 × 5 euro = 10 euro",
+  "hint1": "Trek 20 af van beide kanten, deel daarna door 5.",
+  "hint2": "n = (T − 20) / 5.",
+  "explanation": "n = (T − 20) / 5.",
   "classLevels": [
     "groep-7"
   ]

@@ -2,7 +2,7 @@
   "challengeId": "havo-2-p2-c29",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
+    "intro": "Vierde runesteen: verbanden.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 4:2"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "De getallen 4 en 2 direct optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 4:2 betekent steeds dezelfde factor.\n\nEerste deel = 8.",
-        "question": "Hoeveel keer past 4 in 8? (schaalfactor)",
-        "options": [
-          {
-            "id": "f",
-            "label": "2"
-          },
-          {
-            "id": "w",
-            "label": "3"
-          }
-        ],
-        "correctAnswer": "f",
-        "successFeedback": "Goed — schaalfactor = 2.",
-        "retryFeedback": "Deel 8 door 4."
-      },
-      {
-        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
-        "question": "Tweede deel = 2 × 2 = ?",
-        "options": [
-          {
-            "id": "o",
-            "label": "4"
-          },
-          {
-            "id": "w",
-            "label": "6"
-          }
-        ],
-        "correctAnswer": "o",
-        "successFeedback": "Klopt: 4.",
-        "retryFeedback": "Vermenigvuldig je schaalfactor met 2."
-      },
-      {
-        "explanation": "Stap 4: controleer de verhouding.",
-        "question": "Klopt 8:4 = 4:2?",
+        "explanation": "Vierde runesteen: verbanden.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. Antwoord = 4.",
-        "retryFeedback": "Deel 8 door 4, vermenigvuldig met 2."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 4."
+    "conclusion": "Vierde runesteen: verbanden."
   },
   "bonusVariants": [
     {
-      "id": "havo-2-c29-b1",
-      "type": "number-input",
-      "question": "Verhouding 4:2, eerste = 12. Tweede?",
-      "answer": 6,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Zelfde schaalfactor.",
-      "explanation": "Zelfde schaalfactor."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "havo-2-c29-b2",
-      "type": "number-input",
-      "question": "Verhouding 4:2, eerste = 8. Tweede?",
-      "answer": 4,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "8 ÷ 4 × 2.",
-      "explanation": "8 ÷ 4 × 2."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

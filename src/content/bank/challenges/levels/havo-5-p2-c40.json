@@ -1,14 +1,14 @@
 {
   "id": "havo-5-p2-c40",
   "type": "number-input",
-  "topic": "verbanden",
+  "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 3:5. De eerste deelgroep is 12. Hoe groot is de tweede?",
-  "answer": 20,
-  "hint1": "Deel 12 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 20.",
-  "explanation": "12 ÷ 3 = 4.\n4 × 5 = 20.",
+  "question": "Stersteen 1: Bereken −6 + (−3) × 2",
+  "answer": -12,
+  "hint1": "Eerst vermenigvuldigen.",
+  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
+  "explanation": "−6 + (−6) = −12.",
   "classLevels": [
     "havo-5"
   ]

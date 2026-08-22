@@ -4,25 +4,29 @@
   "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 3x. Welke tabel hoort daarbij?",
-  "answer": "a",
+  "question": "Runesteen Grafieken: welke beschrijving past bij y = −x + 4?",
+  "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→3, 2→6, 3→9"
+      "label": "Stijgend, snijpunt y-as bij 4"
     },
     {
       "id": "b",
-      "label": "x: 1→4, 2→5, 3→6"
+      "label": "Dalend, snijpunt y-as bij 4"
     },
     {
       "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "label": "Horizontaal op y = 4"
+    },
+    {
+      "id": "d",
+      "label": "Door oorsprong, steil omhoog"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 3.",
-  "hint2": "Bij x = 4 hoort y = 12.",
-  "explanation": "y = 3x betekent: y is steeds 3 keer x.\nBij x = 4: y = 12.",
+  "hint1": "Hellingsgetal −1 → dalend.",
+  "hint2": "+4 is het snijpunt met de y-as.",
+  "explanation": "Dalend met y-as snijpunt 4.",
   "classLevels": [
     "mavo-1"
   ]

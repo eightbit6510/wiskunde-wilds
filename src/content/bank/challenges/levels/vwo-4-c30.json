@@ -1,14 +1,14 @@
 {
   "id": "vwo-4-c30",
   "type": "number-input",
-  "topic": "verbanden",
+  "topic": "vergelijkingen",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Verhouding 3:4. De eerste deelgroep is 6. Hoe groot is de tweede?",
-  "answer": 8,
-  "hint1": "Deel 6 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 4 = 8.",
-  "explanation": "6 ÷ 3 = 2.\n2 × 4 = 8.",
+  "question": "Laatste runesteen: Los op 2x + 5 = 17. Wat is x?",
+  "answer": 6,
+  "hint1": "Trek 5 af van beide kanten.",
+  "hint2": "2x = 12 → x = 6.",
+  "explanation": "x = 6.",
   "classLevels": [
     "vwo-4"
   ]

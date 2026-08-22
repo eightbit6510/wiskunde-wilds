@@ -1,15 +1,35 @@
 {
   "id": "mavo-1-p2-c14",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "matching",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 12 = 23. Wat is x?",
-  "answer": 11,
-  "hint1": "Haal 12 naar de andere kant: x = 23 − 12.",
-  "hint2": "x = 23 − 12",
-  "optionalWorkedFirstStep": "x + 12 = 23 → x = 23 − 12",
-  "explanation": "x + 12 = 23\nx = 23 − 12 = 11",
+  "question": "Match formule, tabel-idee en verhaal.",
+  "matchingPairs": [
+    {
+      "id": "1",
+      "left": "y = 3x",
+      "right": "Door 0, steil omhoog"
+    },
+    {
+      "id": "2",
+      "left": "y = x + 2",
+      "right": "Start bij 2, helling 1"
+    },
+    {
+      "id": "3",
+      "left": "Tabel: (0,5)(1,5)(2,5)",
+      "right": "Constant verband"
+    },
+    {
+      "id": "4",
+      "left": "y = −x + 4",
+      "right": "Dalend, start hoog"
+    }
+  ],
+  "hint1": "Koppel elke formule aan het juiste beeld.",
+  "hint2": "Constant in y betekent horizontaal verband.",
+  "explanation": "Elk spoor hoort bij precies één betekenis.",
   "classLevels": [
     "mavo-1"
   ]

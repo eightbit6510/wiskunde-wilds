@@ -1,14 +1,28 @@
 {
   "id": "havo-5-c18",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "machten",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 3:3. De eerste deelgroep is 15. Hoe groot is de tweede?",
-  "answer": 15,
-  "hint1": "Deel 15 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 15.",
-  "explanation": "15 ÷ 3 = 5.\n5 × 3 = 15.",
+  "question": "Wat is groter: 2⁵ of 5²?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "2⁵ (= 32)"
+    },
+    {
+      "id": "b",
+      "label": "5² (= 25)"
+    },
+    {
+      "id": "gelijk",
+      "label": "Even groot"
+    }
+  ],
+  "hint1": "Reken beide uit.",
+  "hint2": "2⁵ = 32 en 5² = 25.",
+  "explanation": "2⁵ = 32 > 5² = 25.",
   "classLevels": [
     "havo-5"
   ]

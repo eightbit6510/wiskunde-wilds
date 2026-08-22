@@ -1,14 +1,62 @@
 {
   "id": "vwo-3-p2-c04",
-  "type": "number-input",
-  "topic": "machten",
+  "type": "equation-steps",
+  "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Bereken: 5^2",
-  "answer": 25,
-  "hint1": "5 × 5",
-  "hint2": "Vermenigvuldig 5 2 keer met zichzelf.",
-  "explanation": "5^2 = 25",
+  "question": "Los stap voor stap op: 2x + 5 = 17",
+  "equationSteps": [
+    {
+      "prompt": "Wat doe je eerst om dichter bij x te komen?",
+      "options": [
+        {
+          "id": "plus",
+          "label": "Beide kanten +5"
+        },
+        {
+          "id": "min",
+          "label": "Beide kanten −5"
+        },
+        {
+          "id": "keer",
+          "label": "Beide kanten ÷2"
+        },
+        {
+          "id": "alleen",
+          "label": "Alleen links −5"
+        }
+      ],
+      "correctId": "min",
+      "resultDisplay": "2x = 12"
+    },
+    {
+      "prompt": "Nu staat er 2x = 12. Wat is de volgende stap?",
+      "options": [
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "min2",
+          "label": "Beide kanten − 2"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten × 2"
+        },
+        {
+          "id": "plus2",
+          "label": "Beide kanten + 2"
+        }
+      ],
+      "correctId": "deel2",
+      "resultDisplay": "x = 6"
+    }
+  ],
+  "answer": 6,
+  "hint1": "Je wilt de constante term wegwerken — doe aan beide kanten het tegenovergestelde.",
+  "hint2": "2x + 5 = 17 → 2x = 12 → x = 6",
+  "explanation": "2x + 5 = 17\nBeide kanten −5 → 2x = 12\nBeide kanten ÷ 2 → x = 6",
   "classLevels": [
     "vwo-3"
   ]

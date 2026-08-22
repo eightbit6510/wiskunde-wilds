@@ -1,14 +1,14 @@
 {
   "id": "vwo-2-c30",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 2^5",
-  "answer": 32,
-  "hint1": "2 × 2 × …",
-  "hint2": "Vermenigvuldig 2 5 keer met zichzelf.",
-  "explanation": "2^5 = 32",
+  "question": "Laatste runesteen: Los op 2x + 5 = 17. Wat is x?",
+  "answer": 6,
+  "hint1": "Trek 5 af van beide kanten.",
+  "hint2": "2x = 12 → x = 6.",
+  "explanation": "x = 6.",
   "classLevels": [
     "vwo-2"
   ]

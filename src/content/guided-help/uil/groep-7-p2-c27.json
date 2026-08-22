@@ -2,7 +2,7 @@
   "challengeId": "groep-7-p2-c27",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We lezen een tabel: 1 snoepje = 5 euro. Hoeveel kosten 3?",
+    "intro": "Tweede runesteen: grafiekspoor.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Uitrekenen wat 3 snoepjes kosten"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Het aantal en de prijs bij elkaar optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 1 snoepje kost 5 euro.\n\nElke extra snoepje kost weer 5 euro.",
-        "question": "Kost elke snoepje evenveel?",
+        "explanation": "Tweede runesteen: grafiekspoor.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, steeds 5 euro"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee, elke keer anders"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — je mag vermenigvuldigen.",
-        "retryFeedback": "1 stuk = 5 euro."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: vermenigvuldig.\n\n3 keer 5 euro.",
-        "question": "Wat kosten 3 snoepjes?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "t",
-            "label": "15 euro"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "w",
-            "label": "20 euro"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "t",
-        "successFeedback": "Klopt: 15 euro.",
-        "retryFeedback": "Reken: 3 keer 5."
-      },
-      {
-        "explanation": "Stap 4: welke tabel klopt?",
-        "question": "Bij 3 snoepjes betaal je…",
-        "options": [
-          {
-            "id": "a",
-            "label": "15 euro"
-          },
-          {
-            "id": "b",
-            "label": "17 euro"
-          }
-        ],
-        "correctAnswer": "a",
-        "successFeedback": "Precies — 3 × 5 = 15 euro.",
-        "retryFeedback": "3 keer 5 euro."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3 snoepjes = 15 euro"
+    "conclusion": "Tweede runesteen: grafiekspoor."
   },
   "bonusVariants": [
     {
-      "id": "groep-7-c27-b1",
-      "type": "number-input",
-      "question": "1 snoepje = 5 euro. 4 stuks?",
-      "answer": 20,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog 5 euro erbij.",
-      "explanation": "Nog 5 euro erbij."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-7-c27-b2",
-      "type": "number-input",
-      "question": "3 × 5 = ?",
-      "answer": 15,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "3 keer 5.",
-      "explanation": "3 keer 5."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

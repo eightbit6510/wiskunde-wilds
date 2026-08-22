@@ -1,14 +1,56 @@
 {
   "id": "mavo-3-c12",
-  "type": "number-input",
-  "topic": "formules",
+  "type": "multiple-choice",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 42, lengte = 7. Wat is de breedte?",
-  "answer": 6,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 42 ÷ 7",
-  "explanation": "b = A ÷ l = 42 ÷ 7 = 6",
+  "question": "Welk patroon zie je in de tabel? Welke formule past erbij?",
+  "tableData": {
+    "headers": [
+      "x",
+      "y"
+    ],
+    "rows": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        9
+      ]
+    ]
+  },
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "y = x + 3"
+    },
+    {
+      "id": "b",
+      "label": "y = 2x + 3"
+    },
+    {
+      "id": "c",
+      "label": "y = 3x"
+    },
+    {
+      "id": "d",
+      "label": "y = 2x − 3"
+    }
+  ],
+  "hint1": "Kijk hoeveel y stijgt als x met 1 toeneemt.",
+  "hint2": "Elke stap +2 in y, start bij y = 3 → y = 2x + 3.",
+  "explanation": "y = 2x + 3. Elke stap in x geeft +2 in y.",
   "classLevels": [
     "mavo-3"
   ]

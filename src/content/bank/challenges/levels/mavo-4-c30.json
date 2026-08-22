@@ -1,14 +1,14 @@
 {
   "id": "mavo-4-c30",
   "type": "number-input",
-  "topic": "formules",
+  "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 54, lengte = 18. Wat is de breedte?",
-  "answer": 3,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 54 ÷ 18",
-  "explanation": "b = A ÷ l = 54 ÷ 18 = 3",
+  "question": "Laatste runesteen: Los op 2x + 5 = 17. Wat is x?",
+  "answer": 6,
+  "hint1": "Trek 5 af van beide kanten.",
+  "hint2": "2x = 12 → x = 6.",
+  "explanation": "x = 6.",
   "classLevels": [
     "mavo-4"
   ]

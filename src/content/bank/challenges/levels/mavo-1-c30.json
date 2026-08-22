@@ -1,35 +1,14 @@
 {
   "id": "mavo-1-c30",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "number-input",
+  "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "0 is een even getal"
-    },
-    {
-      "id": "b",
-      "label": "0 is een oneven getal"
-    },
-    {
-      "id": "c",
-      "label": "De som van twee oneven getallen is even"
-    },
-    {
-      "id": "d",
-      "label": "De som van twee even getallen is oneven"
-    }
-  ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A en C kloppen. 0 is even. Oneven+oneven=even.",
+  "question": "Laatste runesteen: Los op 2x + 5 = 17. Wat is x?",
+  "answer": 6,
+  "hint1": "Trek 5 af van beide kanten.",
+  "hint2": "2x = 12 → x = 6.",
+  "explanation": "x = 6.",
   "classLevels": [
     "mavo-1"
   ]

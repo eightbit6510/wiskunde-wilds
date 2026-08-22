@@ -2,7 +2,7 @@
   "challengeId": "groep-8-p2-c01",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "intro": "Vertrouwd pootafdruk uit het Vossenwoud.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle juiste uitspraken kiezen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Slechts één antwoord kiezen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,118 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Vergelijk breuken.",
-        "question": "Is 1/2 groter dan 1/4?",
+        "explanation": "Vertrouwd pootafdruk uit het Vossenwoud.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "A is waar.",
-        "retryFeedback": "Half > kwart."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "B zegt 1/4 > 1/2.",
-        "question": "Klopt B?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "no",
-        "successFeedback": "B is onwaar.",
-        "retryFeedback": "Kwart < half."
-      },
-      {
-        "explanation": "D: is 3/4 > 1/2?",
-        "question": "Is 3/4 groter dan 1/2?",
-        "options": [
-          {
-            "id": "yes",
-            "label": "Ja"
-          },
-          {
-            "id": "no",
-            "label": "Nee"
-          }
-        ],
-        "correctAnswer": "yes",
-        "successFeedback": "D is waar.",
-        "retryFeedback": "3/4 = 0,75 > 0,5."
-      },
-      {
-        "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
-        "options": [
-          {
-            "id": "ad",
-            "label": "A en D"
-          },
-          {
-            "id": "ab",
-            "label": "A en B"
-          },
-          {
-            "id": "cd",
-            "label": "C en D"
-          }
-        ],
-        "correctAnswer": "ad",
-        "successFeedback": "A en D kloppen.",
-        "retryFeedback": "B en C zijn omgekeerd."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, D zijn waar."
+    "conclusion": "Vertrouwd pootafdruk uit het Vossenwoud."
   },
   "bonusVariants": [
     {
-      "id": "groep-8-c42-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Groter: 2/3 of 1/2?",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2/3"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "1/2"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2/3 > 1/2.",
-      "explanation": "2/3 > 1/2."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-8-c42-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "Groter: 1/3 of 1/4?",
+      "question": "Nog één tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1/3"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "1/4"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "1/3 > 1/4.",
-      "explanation": "1/3 > 1/4."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

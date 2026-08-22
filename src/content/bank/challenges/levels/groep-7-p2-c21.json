@@ -1,14 +1,14 @@
 {
   "id": "groep-7-p2-c21",
   "type": "number-input",
-  "topic": "vergelijkingen",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Er ontbreekt een getal: 5 + ? = 8. Wat is het ontbrekende getal?",
-  "answer": 3,
-  "hint1": "Tel terug: trek het bekende getal af van het totaal.",
-  "hint2": "8 − 5 = 3",
-  "explanation": "8 − 5 = 3",
+  "question": "Waar snijden y = 2x + 3 en y = x + 7 elkaar? Los x op. Wat is x?",
+  "answer": 4,
+  "hint1": "Stel 2x + 3 gelijk aan x + 7.",
+  "hint2": "x = 4.",
+  "explanation": "2x + 3 = x + 7 → x = 4. Snijpunt (4, 11).",
   "classLevels": [
     "groep-7"
   ]

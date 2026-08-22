@@ -1,35 +1,28 @@
 {
   "id": "groep-7-c35",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "multiple-choice",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "question": "Welke beschrijving past bij y = x²?",
+  "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "1 km = 1000 m"
+      "label": "Een rechte lijn"
     },
     {
       "id": "b",
-      "label": "1 km = 100 m"
+      "label": "Een boog (parabool)"
     },
     {
       "id": "c",
-      "label": "1 uur = 60 minuten"
-    },
-    {
-      "id": "d",
-      "label": "1 uur = 100 minuten"
+      "label": "Een horizontale lijn"
     }
   ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A en C zijn standaard eenheden.",
+  "hint1": "Kwadratisch → boog, geen rechte lijn.",
+  "hint2": "y = x² buigt omhoog als een U.",
+  "explanation": "y = x² is een parabool — een boog.",
   "classLevels": [
     "groep-7"
   ]

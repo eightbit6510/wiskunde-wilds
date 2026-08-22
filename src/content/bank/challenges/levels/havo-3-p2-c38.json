@@ -4,11 +4,11 @@
   "topic": "machten",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 3^4",
-  "answer": 81,
-  "hint1": "3 × 3 × …",
-  "hint2": "Vermenigvuldig 3 4 keer met zichzelf.",
-  "explanation": "3^4 = 81",
+  "question": "Bereken: 7^2",
+  "answer": 49,
+  "hint1": "7 × 7",
+  "hint2": "Vermenigvuldig 7 2 keer met zichzelf.",
+  "explanation": "7^2 = 49",
   "classLevels": [
     "havo-3"
   ]

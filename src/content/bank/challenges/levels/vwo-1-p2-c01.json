@@ -1,14 +1,62 @@
 {
   "id": "vwo-1-p2-c01",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "equation-steps",
+  "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 2:2. De eerste deelgroep is 6. Hoe groot is de tweede?",
-  "answer": 6,
-  "hint1": "Deel 6 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 2 = 6.",
-  "explanation": "6 ÷ 2 = 3.\n3 × 2 = 6.",
+  "question": "Los op: 2x + 6 = 16",
+  "equationSteps": [
+    {
+      "prompt": "Wat doe je eerst om dichter bij x te komen?",
+      "options": [
+        {
+          "id": "plus6",
+          "label": "Beide kanten +6"
+        },
+        {
+          "id": "min6",
+          "label": "Beide kanten −6"
+        },
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten × 2"
+        }
+      ],
+      "correctId": "min6",
+      "resultDisplay": "2x = 10"
+    },
+    {
+      "prompt": "Nu staat er 2x = 10. Wat is de volgende stap?",
+      "options": [
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "min2",
+          "label": "Beide kanten − 2"
+        },
+        {
+          "id": "plus2",
+          "label": "Beide kanten + 2"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten × 2"
+        }
+      ],
+      "correctId": "deel2",
+      "resultDisplay": "x = 5"
+    }
+  ],
+  "answer": 5,
+  "hint1": "Haal de +6 weg met −6 aan beide kanten.",
+  "hint2": "2x = 10 → x = 5.",
+  "explanation": "2x + 6 = 16 → 2x = 10 → x = 5.",
   "classLevels": [
     "vwo-1"
   ]

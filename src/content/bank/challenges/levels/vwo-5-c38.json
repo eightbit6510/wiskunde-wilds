@@ -4,12 +4,11 @@
   "topic": "vergelijkingen",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Los op: x + 24 = 35. Wat is x?",
-  "answer": 11,
-  "hint1": "Haal 24 naar de andere kant: x = 35 − 24.",
-  "hint2": "x = 35 − 24",
-  "optionalWorkedFirstStep": "x + 24 = 35 → x = 35 − 24",
-  "explanation": "x + 24 = 35\nx = 35 − 24 = 11",
+  "question": "Stersteen 3: Los op 4x − 7 = 9. Wat is x?",
+  "answer": 4,
+  "hint1": "+7 aan beide kanten.",
+  "hint2": "4x = 16 → x = 4.",
+  "explanation": "x = 4.",
   "classLevels": [
     "vwo-5"
   ]

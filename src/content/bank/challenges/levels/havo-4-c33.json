@@ -1,14 +1,14 @@
 {
   "id": "havo-4-c33",
   "type": "number-input",
-  "topic": "formules",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 63, lengte = 21. Wat is de breedte?",
-  "answer": 3,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 63 ÷ 21",
-  "explanation": "b = A ÷ l = 63 ÷ 21 = 3",
+  "question": "Wat is (−4)²?",
+  "answer": 16,
+  "hint1": "Negatief × negatief = positief.",
+  "hint2": "(−4) × (−4) = 16.",
+  "explanation": "(−4)² = 16.",
   "classLevels": [
     "havo-4"
   ]

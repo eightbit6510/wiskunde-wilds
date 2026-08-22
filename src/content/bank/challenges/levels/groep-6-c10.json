@@ -1,14 +1,14 @@
 {
   "id": "groep-6-c10",
   "type": "number-input",
-  "topic": "verbanden",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 3 rode ballonnen horen 2 blauwe. Je hebt 9 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 6,
-  "hint1": "Deel 9 door 3.",
-  "hint2": "Dat getal × 2 = 6.",
-  "explanation": "9 ÷ 3 = 3.\n3 × 2 = 6.",
+  "question": "P = 2ℓ + 2b. P = 30, ℓ = 8. Wat is b?",
+  "answer": 7,
+  "hint1": "2ℓ = 16, dus 2b = P − 16.",
+  "hint2": "2b = 14 → b = 7.",
+  "explanation": "2·8 + 2b = 30 → 2b = 14 → b = 7.",
   "classLevels": [
     "groep-6"
   ]

@@ -1,15 +1,14 @@
 {
   "id": "mavo-2-p2-c33",
   "type": "number-input",
-  "topic": "breuken",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 2/1 + 2/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 2.67,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "2/1 + 2/3 = 8/3",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 6.",
-  "explanation": "2/1 + 2/3 = 8/3 = 2.67",
+  "question": "Figuurstenen: figuur 1 = 4 stenen, figuur 2 = 7, figuur 3 = 10. Hoeveel stenen heeft figuur 10?",
+  "answer": 31,
+  "hint1": "Verschil +3 per figuur. Formule: 3n + 1.",
+  "hint2": "3·10 + 1 = 31.",
+  "explanation": "Figuur 10 heeft 31 stenen.",
   "classLevels": [
     "mavo-2"
   ]

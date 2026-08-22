@@ -1,14 +1,14 @@
 {
   "id": "havo-1-p2-c31",
   "type": "number-input",
-  "topic": "verbanden",
+  "topic": "redeneren",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 2:3. De eerste deelgroep is 4. Hoe groot is de tweede?",
-  "answer": 6,
-  "hint1": "Deel 4 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 6.",
-  "explanation": "4 ÷ 2 = 2.\n2 × 3 = 6.",
+  "question": "Reeks: 3, 7, 11, 15, … Wat is het volgende getal?",
+  "answer": 19,
+  "hint1": "Elke stap +4.",
+  "hint2": "15 + 4 = 19.",
+  "explanation": "Het patroon is +4 → 19.",
   "classLevels": [
     "havo-1"
   ]

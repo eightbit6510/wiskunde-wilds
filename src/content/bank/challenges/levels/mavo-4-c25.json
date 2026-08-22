@@ -1,28 +1,14 @@
 {
   "id": "mavo-4-c25",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 3x + 5x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "8x"
-    },
-    {
-      "id": "b",
-      "label": "15x"
-    },
-    {
-      "id": "c",
-      "label": "8"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "3x + 5x = (3+5)x",
-  "explanation": "3x + 5x = 8x",
+  "question": "Verhouding 4:2. De eerste deelgroep is 12. Hoe groot is de tweede?",
+  "answer": 6,
+  "hint1": "Deel 12 door 4 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 2 = 6.",
+  "explanation": "12 ÷ 4 = 3.\n3 × 2 = 6.",
   "classLevels": [
     "mavo-4"
   ]

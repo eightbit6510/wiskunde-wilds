@@ -1,14 +1,28 @@
 {
   "id": "havo-3-c18",
-  "type": "number-input",
+  "type": "multiple-choice",
   "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Bereken: 3^3",
-  "answer": 27,
-  "hint1": "3 × 3 × …",
-  "hint2": "Vermenigvuldig 3 3 keer met zichzelf.",
-  "explanation": "3^3 = 27",
+  "question": "Wat is groter: 2⁵ of 5²?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "2⁵ (= 32)"
+    },
+    {
+      "id": "b",
+      "label": "5² (= 25)"
+    },
+    {
+      "id": "gelijk",
+      "label": "Even groot"
+    }
+  ],
+  "hint1": "Reken beide uit.",
+  "hint2": "2⁵ = 32 en 5² = 25.",
+  "explanation": "2⁵ = 32 > 5² = 25.",
   "classLevels": [
     "havo-3"
   ]

@@ -1,15 +1,14 @@
 {
   "id": "havo-4-p2-c30",
   "type": "number-input",
-  "topic": "vergelijkingen",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 15 = 26. Wat is x?",
-  "answer": 11,
-  "hint1": "Haal 15 naar de andere kant: x = 26 − 15.",
-  "hint2": "x = 26 − 15",
-  "optionalWorkedFirstStep": "x + 15 = 26 → x = 26 − 15",
-  "explanation": "x + 15 = 26\nx = 26 − 15 = 11",
+  "question": "Runesteen Algebra: Los op 3(x − 2) = 15. Wat is x?",
+  "answer": 7,
+  "hint1": "Deel beide kanten door 3, of werk haakjes uit.",
+  "hint2": "x − 2 = 5 → x = 7.",
+  "explanation": "3(x − 2) = 15 → x − 2 = 5 → x = 7.",
   "classLevels": [
     "havo-4"
   ]

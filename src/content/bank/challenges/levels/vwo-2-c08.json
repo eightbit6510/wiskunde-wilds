@@ -1,15 +1,32 @@
 {
   "id": "vwo-2-c08",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "multiple-choice",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 12 = 22. Wat is x?",
-  "answer": 10,
-  "hint1": "Haal 12 naar de andere kant: x = 22 − 12.",
-  "hint2": "x = 22 − 12",
-  "optionalWorkedFirstStep": "x + 12 = 22 → x = 22 − 12",
-  "explanation": "x + 12 = 22\nx = 22 − 12 = 10",
+  "question": "€12 vaste kosten plus €4 per zak voer. Welke formule voor totale kosten K bij z zakken?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "K = 12z + 4"
+    },
+    {
+      "id": "b",
+      "label": "K = 4z + 12"
+    },
+    {
+      "id": "c",
+      "label": "K = 12 × 4 × z"
+    },
+    {
+      "id": "d",
+      "label": "K = 4 + 12 + z"
+    }
+  ],
+  "hint1": "Startbedrag 12, daarna +4 per zak.",
+  "hint2": "K = 4z + 12.",
+  "explanation": "K = 4z + 12.",
   "classLevels": [
     "vwo-2"
   ]

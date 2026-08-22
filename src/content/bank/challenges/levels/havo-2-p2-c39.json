@@ -1,15 +1,20 @@
 {
   "id": "havo-2-p2-c39",
-  "type": "number-input",
-  "topic": "breuken",
+  "type": "text-input",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 3/5 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 1.1,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "3/5 + 1/2 = 11/10",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 20.",
-  "explanation": "3/5 + 1/2 = 11/10 = 1.1",
+  "question": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b.",
+  "answer": "l=(P-2b)/2",
+  "acceptedAnswers": [
+    "l=(P-2b)/2",
+    "ℓ=(P-2b)/2",
+    "l=P/2-b",
+    "ℓ=P/2-b"
+  ],
+  "hint1": "Trek 2b af, deel door 2.",
+  "hint2": "ℓ = (P − 2b) / 2.",
+  "explanation": "ℓ = (P − 2b) / 2.",
   "classLevels": [
     "havo-2"
   ]

@@ -1,14 +1,14 @@
 {
   "id": "groep-8-p2-c06",
   "type": "number-input",
-  "topic": "verbanden",
+  "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 2:3. De eerste deelgroep is 10. Hoe groot is de tweede?",
-  "answer": 15,
-  "hint1": "Deel 10 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 15.",
-  "explanation": "10 ÷ 2 = 5.\n5 × 3 = 15.",
+  "question": "A = b × h. A = 48 m² en b = 6 m. Wat is h? (in meters)",
+  "answer": 8,
+  "hint1": "h = A ÷ b.",
+  "hint2": "48 ÷ 6 = 8.",
+  "explanation": "h = 8 m.",
   "classLevels": [
     "groep-8"
   ]

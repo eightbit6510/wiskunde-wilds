@@ -1,14 +1,28 @@
 {
   "id": "vwo-6-c15",
-  "type": "number-input",
-  "topic": "kwadratisch",
+  "type": "multiple-choice",
+  "topic": "grafieken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x² = 169 (x positief). Wat is x?",
-  "answer": 13,
-  "hint1": "Welk positief getal keer zichzelf geeft 169?",
-  "hint2": "13 × 13 = 169",
-  "explanation": "x² = 169 → x = 13 (positief).",
+  "question": "Een formule is y = 8x. Welke tabel hoort daarbij?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "x: 1→8, 2→16, 3→24"
+    },
+    {
+      "id": "b",
+      "label": "x: 1→9, 2→10, 3→11"
+    },
+    {
+      "id": "c",
+      "label": "x: 1→1, 2→2, 3→3"
+    }
+  ],
+  "hint1": "Vermenigvuldig elke x met 8.",
+  "hint2": "Bij x = 2 hoort y = 16.",
+  "explanation": "y = 8x betekent: y is steeds 8 keer x.\nBij x = 2: y = 16.",
   "classLevels": [
     "vwo-6"
   ]

@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c08",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Er ontbreekt een getal. Tel terug: van het totaal haal je het bekende deel af.",
+    "intro": "Vaste kosten + prijs per stuk.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Het ontbrekende getal zoeken in ? + 8 = 12"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Alle getallen bij elkaar optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: wat weten we?\n\n? + 8 moet samen 12 worden.",
-        "question": "Moet het ontbrekende getal kleiner zijn dan 12?",
+        "explanation": "Vaste kosten + prijs per stuk.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, het is een stukje van 12"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee, groter dan 12"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
-        "retryFeedback": "Samen moet het 12 worden."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\nTrek 8 af van 12.",
-        "question": "Wat is 12 − 8?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "m",
-            "label": "4"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "w",
-            "label": "6"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "m",
-        "successFeedback": "Juist! Het ontbrekende getal is 4.",
-        "retryFeedback": "Trek 8 af van 12."
-      },
-      {
-        "explanation": "Stap 4: controleer.",
-        "question": "Tel je antwoord op bij 8. Kom je op 12?",
-        "options": [
-          {
-            "id": "yes",
-            "label": "Ja, dat klopt"
-          },
-          {
-            "id": "no",
-            "label": "Nee"
-          }
-        ],
-        "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het ontbrekende getal is 4.",
-        "retryFeedback": "Reken na: antwoord + 8 = 12."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 4."
+    "conclusion": "Vaste kosten + prijs per stuk."
   },
   "bonusVariants": [
     {
-      "id": "groep-6-c08-b1",
-      "type": "number-input",
-      "question": "5 + 8 = ?",
-      "answer": 13,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "5 + 8 = 13.",
-      "explanation": "5 + 8 = 13."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-6-c08-b2",
-      "type": "number-input",
-      "question": "? + 8 = 12",
-      "answer": 4,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "12 − 8 = 4.",
-      "explanation": "12 − 8 = 4."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

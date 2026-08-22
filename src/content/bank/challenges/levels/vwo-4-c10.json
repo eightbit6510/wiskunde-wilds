@@ -1,14 +1,14 @@
 {
   "id": "vwo-4-c10",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Bereken: 7^4",
-  "answer": 2401,
-  "hint1": "7 × 7 × …",
-  "hint2": "Vermenigvuldig 7 4 keer met zichzelf.",
-  "explanation": "7^4 = 2401",
+  "question": "P = 2ℓ + 2b. P = 30, ℓ = 8. Wat is b?",
+  "answer": 7,
+  "hint1": "2ℓ = 16, dus 2b = P − 16.",
+  "hint2": "2b = 14 → b = 7.",
+  "explanation": "2·8 + 2b = 30 → 2b = 14 → b = 7.",
   "classLevels": [
     "vwo-4"
   ]

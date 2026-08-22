@@ -1,14 +1,14 @@
 {
   "id": "mavo-1-c28",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "text-input",
+  "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 4:4. De eerste deelgroep is 20. Hoe groot is de tweede?",
-  "answer": 20,
-  "hint1": "Deel 20 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 4 = 20.",
-  "explanation": "20 ÷ 4 = 5.\n5 × 4 = 20.",
+  "question": "Runesteen Breuken: vereenvoudig 8/12.",
+  "answer": "2/3",
+  "hint1": "Deel teller en noemer door hun GGD.",
+  "hint2": "GGD is 4 → 2/3.",
+  "explanation": "8/12 = 2/3.",
   "classLevels": [
     "mavo-1"
   ]

@@ -1,14 +1,32 @@
 {
   "id": "vwo-2-c35",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 4:2. De eerste deelgroep is 8. Hoe groot is de tweede?",
-  "answer": 4,
-  "hint1": "Deel 8 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 2 = 4.",
-  "explanation": "8 ÷ 4 = 2.\n2 × 2 = 4.",
+  "question": "Welke grafiek hoort bij y = x²?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Rechte lijn door de oorsprong"
+    },
+    {
+      "id": "b",
+      "label": "U-vormige parabool"
+    },
+    {
+      "id": "c",
+      "label": "Horizontale lijn"
+    },
+    {
+      "id": "d",
+      "label": "Dalende rechte lijn"
+    }
+  ],
+  "hint1": "Kwadratisch → boog, geen rechte lijn.",
+  "hint2": "y = x² is een parabool.",
+  "explanation": "y = x² is een U-vormige parabool.",
   "classLevels": [
     "vwo-2"
   ]

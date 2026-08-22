@@ -1,14 +1,32 @@
 {
   "id": "mavo-4-c35",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 4:3. De eerste deelgroep is 20. Hoe groot is de tweede?",
-  "answer": 15,
-  "hint1": "Deel 20 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 15.",
-  "explanation": "20 ÷ 4 = 5.\n5 × 3 = 15.",
+  "question": "Welke grafiek hoort bij y = x²?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Rechte lijn door de oorsprong"
+    },
+    {
+      "id": "b",
+      "label": "U-vormige parabool"
+    },
+    {
+      "id": "c",
+      "label": "Horizontale lijn"
+    },
+    {
+      "id": "d",
+      "label": "Dalende rechte lijn"
+    }
+  ],
+  "hint1": "Kwadratisch → boog, geen rechte lijn.",
+  "hint2": "y = x² is een parabool.",
+  "explanation": "y = x² is een U-vormige parabool.",
   "classLevels": [
     "mavo-4"
   ]

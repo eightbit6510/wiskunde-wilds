@@ -1,14 +1,14 @@
 {
   "id": "vwo-5-c28",
-  "type": "number-input",
-  "topic": "machten",
+  "type": "text-input",
+  "topic": "breuken",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Bereken: 5^3",
-  "answer": 125,
-  "hint1": "5 × 5 × …",
-  "hint2": "Vermenigvuldig 5 3 keer met zichzelf.",
-  "explanation": "5^3 = 125",
+  "question": "Runesteen Breuken: vereenvoudig 8/12.",
+  "answer": "2/3",
+  "hint1": "Deel teller en noemer door hun GGD.",
+  "hint2": "GGD is 4 → 2/3.",
+  "explanation": "8/12 = 2/3.",
   "classLevels": [
     "vwo-5"
   ]

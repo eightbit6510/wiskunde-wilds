@@ -4,11 +4,11 @@
   "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 606, lengte = 101. Wat is de breedte?",
-  "answer": 6,
+  "question": "Oppervlakte A = lengte × breedte. A = 388, lengte = 97. Wat is de breedte?",
+  "answer": 4,
   "hint1": "Deel A door lengte.",
-  "hint2": "b = 606 ÷ 101",
-  "explanation": "b = A ÷ l = 606 ÷ 101 = 6",
+  "hint2": "b = 388 ÷ 97",
+  "explanation": "b = A ÷ l = 388 ÷ 97 = 4",
   "classLevels": [
     "mavo-3"
   ]

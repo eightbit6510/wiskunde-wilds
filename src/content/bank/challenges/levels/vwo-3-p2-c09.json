@@ -1,14 +1,19 @@
 {
   "id": "vwo-3-p2-c09",
-  "type": "number-input",
-  "topic": "kwadratisch",
+  "type": "text-input",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x² = 100 (x positief). Wat is x?",
-  "answer": 10,
-  "hint1": "Welk positief getal keer zichzelf geeft 100?",
-  "hint2": "10 × 10 = 100",
-  "explanation": "x² = 100 → x = 10 (positief).",
+  "question": "T = 5n + 20. Geef n in termen van T. (bijv. n = ...)",
+  "answer": "n=(T-20)/5",
+  "acceptedAnswers": [
+    "n=(T-20)/5",
+    "n=(t-20)/5",
+    "n=T/5-4"
+  ],
+  "hint1": "Trek 20 af van beide kanten, deel daarna door 5.",
+  "hint2": "n = (T − 20) / 5.",
+  "explanation": "n = (T − 20) / 5.",
   "classLevels": [
     "vwo-3"
   ]

@@ -1,14 +1,14 @@
 {
   "id": "groep-8-p2-c22",
-  "type": "number-input",
+  "type": "true-false",
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 3:3. De eerste deelgroep is 9. Hoe groot is de tweede?",
-  "answer": 9,
-  "hint1": "Deel 9 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 9.",
-  "explanation": "9 ÷ 3 = 3.\n3 × 3 = 9.",
+  "question": "Is dit een lineair verband? week: 0,1,2,3 — hoogte: 1,2,4,8",
+  "answer": false,
+  "hint1": "Bij lineair is de toename steeds gelijk.",
+  "hint2": "Verschillen: +1, +2, +4 — verdubbelt.",
+  "explanation": "Nee — de waarden verdubbelen, dat is niet lineair.",
   "classLevels": [
     "groep-8"
   ]

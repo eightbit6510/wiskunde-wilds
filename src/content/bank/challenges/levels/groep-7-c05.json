@@ -1,35 +1,28 @@
 {
   "id": "groep-7-c05",
-  "type": "multi-select",
+  "type": "multiple-choice",
   "topic": "redeneren",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "question": "Welke oplossing kan niet kloppen? Redeneer zonder alles uit te rekenen.",
   "answerOptions": [
     {
       "id": "a",
-      "label": "Een rechte hoek is 90°"
+      "label": "A. Bij x + 8 = 3 zegt Sam: x = −5"
     },
     {
       "id": "b",
-      "label": "Een rechte hoek is 180°"
+      "label": "B. Bij 2x = −10 zegt Noor: x = −5"
     },
     {
       "id": "c",
-      "label": "Een gestrekte hoek is 180°"
-    },
-    {
-      "id": "d",
-      "label": "Drie rechte hoeken passen in een driehoek"
+      "label": "C. Bij −x = 4 zegt Finn: x = 4"
     }
   ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A: 90°. C: 180°. D klopt niet.",
+  "answer": "c",
+  "hint1": "Bij −x = 4: wat gebeurt er als je beide kanten met −1 vermenigvuldigt?",
+  "hint2": "Als −x = 4, dan is x = −4. Finn zegt +4 — dat kan niet.",
+  "explanation": "C kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4).",
   "classLevels": [
     "groep-7"
   ]

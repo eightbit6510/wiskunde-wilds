@@ -1,15 +1,35 @@
 {
   "id": "vwo-6-c14",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "matching",
+  "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 14 = 20. Wat is x?",
-  "answer": 6,
-  "hint1": "Haal 14 naar de andere kant: x = 20 − 14.",
-  "hint2": "x = 20 − 14",
-  "optionalWorkedFirstStep": "x + 14 = 20 → x = 20 − 14",
-  "explanation": "x + 14 = 20\nx = 20 − 14 = 6",
+  "question": "Match formule, tabel-idee en verhaal.",
+  "matchingPairs": [
+    {
+      "id": "1",
+      "left": "y = 3x",
+      "right": "Door 0, steil omhoog"
+    },
+    {
+      "id": "2",
+      "left": "y = x + 2",
+      "right": "Start bij 2, helling 1"
+    },
+    {
+      "id": "3",
+      "left": "Tabel: (0,5)(1,5)(2,5)",
+      "right": "Constant verband"
+    },
+    {
+      "id": "4",
+      "left": "y = −x + 4",
+      "right": "Dalend, start hoog"
+    }
+  ],
+  "hint1": "Koppel elke formule aan het juiste beeld.",
+  "hint2": "Constant in y betekent horizontaal verband.",
+  "explanation": "Elk spoor hoort bij precies één betekenis.",
   "classLevels": [
     "vwo-6"
   ]

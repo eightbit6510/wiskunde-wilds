@@ -1,36 +1,14 @@
 {
   "id": "vwo-5-c06",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "number-input",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "50% van 20 is 10"
-    },
-    {
-      "id": "b",
-      "label": "50% van 20 is 5"
-    },
-    {
-      "id": "c",
-      "label": "25% van 20 is 5"
-    },
-    {
-      "id": "d",
-      "label": "10% van 100 is 10"
-    }
-  ],
-  "answers": [
-    "a",
-    "c",
-    "d"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: 50% van 20=10. C: 25% van 20=5. D: 10% van 100=10.",
+  "question": "A = ℓ × b. Als A = 56 en ℓ = 8, wat is b?",
+  "answer": 7,
+  "hint1": "Deel beide kanten door ℓ: b = A ÷ ℓ.",
+  "hint2": "b = 56 ÷ 8 = 7.",
+  "explanation": "b = A ÷ ℓ = 56 ÷ 8 = 7.",
   "classLevels": [
     "vwo-5"
   ]

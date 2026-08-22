@@ -1,14 +1,14 @@
 {
   "id": "vwo-1-c36",
   "type": "number-input",
-  "topic": "formules",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 52, lengte = 13. Wat is de breedte?",
-  "answer": 4,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 52 ÷ 13",
-  "explanation": "b = A ÷ l = 52 ÷ 13 = 4",
+  "question": "Stersteen 1: Bereken −6 + (−3) × 2",
+  "answer": -12,
+  "hint1": "Eerst vermenigvuldigen.",
+  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
+  "explanation": "−6 + (−6) = −12.",
   "classLevels": [
     "vwo-1"
   ]

@@ -1,14 +1,14 @@
 {
   "id": "mavo-2-p2-c31",
   "type": "number-input",
-  "topic": "formules",
+  "topic": "redeneren",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 392, lengte = 98. Wat is de breedte?",
-  "answer": 4,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 392 ÷ 98",
-  "explanation": "b = A ÷ l = 392 ÷ 98 = 4",
+  "question": "Reeks: 3, 7, 11, 15, … Wat is het volgende getal?",
+  "answer": 19,
+  "hint1": "Elke stap +4.",
+  "hint2": "15 + 4 = 19.",
+  "explanation": "Het patroon is +4 → 19.",
   "classLevels": [
     "mavo-2"
   ]

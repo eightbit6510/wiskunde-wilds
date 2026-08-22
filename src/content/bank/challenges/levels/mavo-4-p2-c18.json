@@ -1,28 +1,32 @@
 {
   "id": "mavo-4-p2-c18",
   "type": "multiple-choice",
-  "topic": "grafieken",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 10x. Welke tabel hoort daarbij?",
+  "question": "Paraboolvallei — Vergelijk y = x² met y = x² + 2. Wat gebeurt er met de grafiek?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→10, 2→20, 3→30"
+      "label": "De grafiek schuift 2 omhoog"
     },
     {
       "id": "b",
-      "label": "x: 1→11, 2→12, 3→13"
+      "label": "De grafiek schuift 2 naar rechts"
     },
     {
       "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "label": "Wordt een rechte lijn"
+    },
+    {
+      "id": "d",
+      "label": "Alle y worden 2 kleiner"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 10.",
-  "hint2": "Bij x = 6 hoort y = 60.",
-  "explanation": "y = 10x betekent: y is steeds 10 keer x.\nBij x = 6: y = 60.",
+  "hint1": "Bij x = 0: y = 2 in plaats van 0.",
+  "hint2": "Elke y krijgt +2.",
+  "explanation": "De parabool schuift 2 omhoog.",
   "classLevels": [
     "mavo-4"
   ]

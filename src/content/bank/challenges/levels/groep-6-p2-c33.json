@@ -1,28 +1,14 @@
 {
   "id": "groep-6-p2-c33",
-  "type": "multiple-choice",
-  "topic": "breuken",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 1/8 + 2/8? Kies het juiste antwoord.",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "3/8"
-    },
-    {
-      "id": "b",
-      "label": "3/16"
-    },
-    {
-      "id": "c",
-      "label": "1/2"
-    }
-  ],
-  "hint1": "Hebben beide breuken dezelfde noemer? Tel dan de tellers op.",
-  "hint2": "1 + 2 = 3, noemer blijft 8.",
-  "explanation": "1/8 + 2/8 = 3/8",
+  "question": "Figuurstenen: figuur 1 = 4 stenen, figuur 2 = 7, figuur 3 = 10. Hoeveel stenen heeft figuur 10?",
+  "answer": 31,
+  "hint1": "Verschil +3 per figuur. Formule: 3n + 1.",
+  "hint2": "3·10 + 1 = 31.",
+  "explanation": "Figuur 10 heeft 31 stenen.",
   "classLevels": [
     "groep-6"
   ]

@@ -1,28 +1,14 @@
 {
   "id": "vwo-6-p2-c03",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 3x + 5x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "8x"
-    },
-    {
-      "id": "b",
-      "label": "15x"
-    },
-    {
-      "id": "c",
-      "label": "8"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "3x + 5x = (3+5)x",
-  "explanation": "3x + 5x = 8x",
+  "question": "Los op: 3x + 7 = x + 17. Wat is x?",
+  "answer": 5,
+  "hint1": "Haal x-termen naar links, getallen naar rechts.",
+  "hint2": "2x = 10 → x = 5.",
+  "explanation": "3x + 7 = x + 17 → 2x = 10 → x = 5.",
   "classLevels": [
     "vwo-6"
   ]

@@ -1,28 +1,14 @@
 {
   "id": "groep-7-c13",
-  "type": "multiple-choice",
-  "topic": "breuken",
+  "type": "number-input",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 2/5 + 1/2? Geef je antwoord als breuk.",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "9/10"
-    },
-    {
-      "id": "b",
-      "label": "1"
-    },
-    {
-      "id": "c",
-      "label": "3/7"
-    }
-  ],
-  "hint1": "Maak eerst de noemers gelijk.",
-  "hint2": "2/5 + 1/2 = 9/10",
-  "explanation": "2/5 + 1/2 = 9/10",
+  "question": "y = 2x + 3. Waar raakt de grafiek de y-as? Geef de y-waarde.",
+  "answer": 3,
+  "hint1": "Op de y-as is x = 0.",
+  "hint2": "Vul x = 0 in: y = 2·0 + 3.",
+  "explanation": "Bij x = 0: y = 3. Dat is het snijpunt met de y-as.",
   "classLevels": [
     "groep-7"
   ]

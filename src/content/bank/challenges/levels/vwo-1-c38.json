@@ -4,12 +4,11 @@
   "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 17 = 29. Wat is x?",
-  "answer": 12,
-  "hint1": "Haal 17 naar de andere kant: x = 29 − 17.",
-  "hint2": "x = 29 − 17",
-  "optionalWorkedFirstStep": "x + 17 = 29 → x = 29 − 17",
-  "explanation": "x + 17 = 29\nx = 29 − 17 = 12",
+  "question": "Stersteen 3: Los op 4x − 7 = 9. Wat is x?",
+  "answer": 4,
+  "hint1": "+7 aan beide kanten.",
+  "hint2": "4x = 16 → x = 4.",
+  "explanation": "x = 4.",
   "classLevels": [
     "vwo-1"
   ]

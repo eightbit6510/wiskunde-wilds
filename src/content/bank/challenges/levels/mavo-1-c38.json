@@ -4,12 +4,11 @@
   "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 18 = 27. Wat is x?",
-  "answer": 9,
-  "hint1": "Haal 18 naar de andere kant: x = 27 − 18.",
-  "hint2": "x = 27 − 18",
-  "optionalWorkedFirstStep": "x + 18 = 27 → x = 27 − 18",
-  "explanation": "x + 18 = 27\nx = 27 − 18 = 9",
+  "question": "Stersteen 3: Los op 4x − 7 = 9. Wat is x?",
+  "answer": 4,
+  "hint1": "+7 aan beide kanten.",
+  "hint2": "4x = 16 → x = 4.",
+  "explanation": "x = 4.",
   "classLevels": [
     "mavo-1"
   ]

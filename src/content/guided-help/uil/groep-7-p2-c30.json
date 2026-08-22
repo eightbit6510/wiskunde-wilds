@@ -2,7 +2,7 @@
   "challengeId": "groep-7-p2-c30",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Er ontbreekt een getal. Tel terug: van het totaal haal je het bekende deel af.",
+    "intro": "De eerste runesteen gloeit zwak…",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Het ontbrekende getal zoeken in 4 + ? = 10"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Alle getallen bij elkaar optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: wat weten we?\n\n4 + ? moet samen 10 worden.",
-        "question": "Moet het ontbrekende getal kleiner zijn dan 10?",
+        "explanation": "De eerste runesteen gloeit zwak…",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, het is een stukje van 10"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee, groter dan 10"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
-        "retryFeedback": "Samen moet het 10 worden."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\nTrek 4 af van 10.",
-        "question": "Wat is 10 − 4?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "m",
-            "label": "6"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "w",
-            "label": "8"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "m",
-        "successFeedback": "Juist! Het ontbrekende getal is 6.",
-        "retryFeedback": "Trek 4 af van 10."
-      },
-      {
-        "explanation": "Stap 4: controleer.",
-        "question": "Tel je antwoord op bij 4. Kom je op 10?",
-        "options": [
-          {
-            "id": "yes",
-            "label": "Ja, dat klopt"
-          },
-          {
-            "id": "no",
-            "label": "Nee"
-          }
-        ],
-        "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het ontbrekende getal is 6.",
-        "retryFeedback": "Reken na: antwoord + 4 = 10."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 6."
+    "conclusion": "De eerste runesteen gloeit zwak…"
   },
   "bonusVariants": [
     {
-      "id": "groep-7-c26-b1",
-      "type": "number-input",
-      "question": "7 + 4 = ?",
-      "answer": 11,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "7 + 4 = 11.",
-      "explanation": "7 + 4 = 11."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-7-c26-b2",
-      "type": "number-input",
-      "question": "? + 4 = 10",
-      "answer": 6,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "10 − 4 = 6.",
-      "explanation": "10 − 4 = 6."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

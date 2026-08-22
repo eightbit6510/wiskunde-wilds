@@ -1,28 +1,14 @@
 {
   "id": "vwo-5-p2-c31",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "number-input",
+  "topic": "redeneren",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Een formule is y = 3x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→3, 2→6, 3→9"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→4, 2→5, 3→6"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 3.",
-  "hint2": "Bij x = 2 hoort y = 6.",
-  "explanation": "y = 3x betekent: y is steeds 3 keer x.\nBij x = 2: y = 6.",
+  "question": "Reeks: 3, 7, 11, 15, … Wat is het volgende getal?",
+  "answer": 19,
+  "hint1": "Elke stap +4.",
+  "hint2": "15 + 4 = 19.",
+  "explanation": "Het patroon is +4 → 19.",
   "classLevels": [
     "vwo-5"
   ]

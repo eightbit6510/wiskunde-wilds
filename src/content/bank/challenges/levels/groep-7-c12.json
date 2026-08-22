@@ -1,14 +1,56 @@
 {
   "id": "groep-7-c12",
-  "type": "number-input",
-  "topic": "algebra",
+  "type": "multiple-choice",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 6 + 6 + 6 + 6 (4 keer 6). Wat is het antwoord?",
-  "answer": 24,
-  "hint1": "4 keer 6 is hetzelfde als 4 × 6.",
-  "hint2": "4 × 6 = 24",
-  "explanation": "4 × 6 = 24",
+  "question": "Welk patroon zie je in de tabel? Welke formule past erbij?",
+  "tableData": {
+    "headers": [
+      "x",
+      "y"
+    ],
+    "rows": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        9
+      ]
+    ]
+  },
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "y = x + 3"
+    },
+    {
+      "id": "b",
+      "label": "y = 2x + 3"
+    },
+    {
+      "id": "c",
+      "label": "y = 3x"
+    },
+    {
+      "id": "d",
+      "label": "y = 2x − 3"
+    }
+  ],
+  "hint1": "Kijk hoeveel y stijgt als x met 1 toeneemt.",
+  "hint2": "Elke stap +2 in y, start bij y = 3 → y = 2x + 3.",
+  "explanation": "y = 2x + 3. Elke stap in x geeft +2 in y.",
   "classLevels": [
     "groep-7"
   ]

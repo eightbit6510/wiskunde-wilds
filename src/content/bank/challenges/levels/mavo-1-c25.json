@@ -1,15 +1,14 @@
 {
   "id": "mavo-1-c25",
   "type": "number-input",
-  "topic": "breuken",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 3/4 + 2/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 2.75,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "3/4 + 2/1 = 11/4",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
-  "explanation": "3/4 + 2/1 = 11/4 = 2.75",
+  "question": "Verhouding 4:5. De eerste deelgroep is 16. Hoe groot is de tweede?",
+  "answer": 20,
+  "hint1": "Deel 16 door 4 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 5 = 20.",
+  "explanation": "16 ÷ 4 = 4.\n4 × 5 = 20.",
   "classLevels": [
     "mavo-1"
   ]

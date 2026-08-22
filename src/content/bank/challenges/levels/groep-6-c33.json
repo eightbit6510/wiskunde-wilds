@@ -1,28 +1,14 @@
 {
   "id": "groep-6-c33",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "number-input",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "1 snoepje kost 5 euro. Wat kosten 2 snoepjes?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "10 euro"
-    },
-    {
-      "id": "b",
-      "label": "15 euro"
-    },
-    {
-      "id": "c",
-      "label": "9 euro"
-    }
-  ],
-  "hint1": "Elke snoepje kost 5 euro — tel dat 2 keer op.",
-  "hint2": "2 × 5 = 10",
-  "explanation": "2 × 5 euro = 10 euro",
+  "question": "Wat is (−4)²?",
+  "answer": 16,
+  "hint1": "Negatief × negatief = positief.",
+  "hint2": "(−4) × (−4) = 16.",
+  "explanation": "(−4)² = 16.",
   "classLevels": [
     "groep-6"
   ]

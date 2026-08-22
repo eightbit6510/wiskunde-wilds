@@ -1,28 +1,14 @@
 {
   "id": "groep-8-p2-c08",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 6x + 2x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "8x"
-    },
-    {
-      "id": "b",
-      "label": "12x"
-    },
-    {
-      "id": "c",
-      "label": "8"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "6x + 2x = (6+2)x",
-  "explanation": "6x + 2x = 8x",
+  "question": "P = 2ℓ + 2b. P = 30 cm en b = 5 cm. Wat is ℓ? (in cm)",
+  "answer": 10,
+  "hint1": "30 = 2ℓ + 10.",
+  "hint2": "2ℓ = 20 → ℓ = 10.",
+  "explanation": "ℓ = 10 cm.",
   "classLevels": [
     "groep-8"
   ]

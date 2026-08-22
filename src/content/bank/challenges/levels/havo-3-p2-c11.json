@@ -1,14 +1,14 @@
 {
   "id": "havo-3-p2-c11",
   "type": "number-input",
-  "topic": "formules",
+  "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 404, lengte = 101. Wat is de breedte?",
-  "answer": 4,
-  "hint1": "Deel A door lengte.",
-  "hint2": "b = 404 ÷ 101",
-  "explanation": "b = A ÷ l = 404 ÷ 101 = 4",
+  "question": "Op een kaart met schaal 1 : 25 000 staat een brug 4 cm lang. Hoe lang is de brug in werkelijkheid? (antwoord in meters)",
+  "answer": 1000,
+  "hint1": "Werkelijke lengte = 4 × 25 000 cm.",
+  "hint2": "100 000 cm = 1000 m.",
+  "explanation": "4 cm × 25 000 = 100 000 cm = 1000 m.",
   "classLevels": [
     "havo-3"
   ]

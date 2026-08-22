@@ -1,15 +1,56 @@
 {
   "id": "havo-2-p2-c25",
-  "type": "number-input",
-  "topic": "breuken",
+  "type": "multiple-choice",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 5/4 + 1/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 2.25,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "5/4 + 1/1 = 9/4",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 12.",
-  "explanation": "5/4 + 1/1 = 9/4 = 2.25",
+  "question": "Welke formule past bij de tabel (week 0→4, 1→6, 2→8, 3→10)?",
+  "tableData": {
+    "headers": [
+      "week",
+      "gewicht"
+    ],
+    "rows": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        10
+      ]
+    ]
+  },
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "g = 2w + 4"
+    },
+    {
+      "id": "b",
+      "label": "g = 4w + 2"
+    },
+    {
+      "id": "c",
+      "label": "g = w + 4"
+    },
+    {
+      "id": "d",
+      "label": "g = 2w"
+    }
+  ],
+  "hint1": "Start bij week 0: g = 4. Elke week +2.",
+  "hint2": "g = 2w + 4.",
+  "explanation": "g = 2w + 4.",
   "classLevels": [
     "havo-2"
   ]

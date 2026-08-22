@@ -1,28 +1,56 @@
 {
   "id": "groep-7-c21",
   "type": "multiple-choice",
-  "topic": "grafieken",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "1 sticker kost 3 euro. Wat kosten 3 sticker?",
+  "question": "Welke formule past bij de tabel (week 0→4, 1→6, 2→8, 3→10)?",
+  "tableData": {
+    "headers": [
+      "week",
+      "gewicht"
+    ],
+    "rows": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        10
+      ]
+    ]
+  },
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "9 euro"
+      "label": "g = 2w + 4"
     },
     {
       "id": "b",
-      "label": "12 euro"
+      "label": "g = 4w + 2"
     },
     {
       "id": "c",
-      "label": "8 euro"
+      "label": "g = w + 4"
+    },
+    {
+      "id": "d",
+      "label": "g = 2w"
     }
   ],
-  "hint1": "Elke sticker kost 3 euro — tel dat 3 keer op.",
-  "hint2": "3 × 3 = 9",
-  "explanation": "3 × 3 euro = 9 euro",
+  "hint1": "Start bij week 0: g = 4. Elke week +2.",
+  "hint2": "g = 2w + 4.",
+  "explanation": "g = 2w + 4.",
   "classLevels": [
     "groep-7"
   ]

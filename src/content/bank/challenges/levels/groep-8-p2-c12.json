@@ -1,28 +1,56 @@
 {
   "id": "groep-8-p2-c12",
   "type": "multiple-choice",
-  "topic": "algebra",
+  "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 2x",
-  "answer": "a",
+  "question": "Welk patroon zie je in de tabel? Welke formule past erbij?",
+  "tableData": {
+    "headers": [
+      "x",
+      "y"
+    ],
+    "rows": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        9
+      ]
+    ]
+  },
+  "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "7x"
+      "label": "y = x + 3"
     },
     {
       "id": "b",
-      "label": "10x"
+      "label": "y = 2x + 3"
     },
     {
       "id": "c",
-      "label": "7"
+      "label": "y = 3x"
+    },
+    {
+      "id": "d",
+      "label": "y = 2x − 3"
     }
   ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 2x = (5+2)x",
-  "explanation": "5x + 2x = 7x",
+  "hint1": "Kijk hoeveel y stijgt als x met 1 toeneemt.",
+  "hint2": "Elke stap +2 in y, start bij y = 3 → y = 2x + 3.",
+  "explanation": "y = 2x + 3. Elke stap in x geeft +2 in y.",
   "classLevels": [
     "groep-8"
   ]

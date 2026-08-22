@@ -1,28 +1,14 @@
 {
   "id": "mavo-1-p2-c11",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 5x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→5, 2→10, 3→15"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→6, 2→7, 3→8"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 5.",
-  "hint2": "Bij x = 5 hoort y = 25.",
-  "explanation": "y = 5x betekent: y is steeds 5 keer x.\nBij x = 5: y = 25.",
+  "question": "Op een kaart met schaal 1 : 25 000 staat een brug 4 cm lang. Hoe lang is de brug in werkelijkheid? (antwoord in meters)",
+  "answer": 1000,
+  "hint1": "Werkelijke lengte = 4 × 25 000 cm.",
+  "hint2": "100 000 cm = 1000 m.",
+  "explanation": "4 cm × 25 000 = 100 000 cm = 1000 m.",
   "classLevels": [
     "mavo-1"
   ]

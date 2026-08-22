@@ -1,14 +1,14 @@
 {
   "id": "groep-7-c26",
   "type": "number-input",
-  "topic": "vergelijkingen",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Er ontbreekt een getal: 4 + ? = 10. Wat is het ontbrekende getal?",
-  "answer": 6,
-  "hint1": "Tel terug: trek het bekende getal af van het totaal.",
-  "hint2": "10 − 4 = 6",
-  "explanation": "10 − 4 = 6",
+  "question": "Runesteen Algebra: Los op 3(x − 2) = 15. Wat is x?",
+  "answer": 7,
+  "hint1": "Deel beide kanten door 3, of werk haakjes uit.",
+  "hint2": "x − 2 = 5 → x = 7.",
+  "explanation": "3(x − 2) = 15 → x − 2 = 5 → x = 7.",
   "classLevels": [
     "groep-7"
   ]

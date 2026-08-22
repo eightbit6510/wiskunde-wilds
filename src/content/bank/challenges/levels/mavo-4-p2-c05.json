@@ -1,28 +1,34 @@
 {
   "id": "mavo-4-p2-c05",
-  "type": "multiple-choice",
+  "type": "multi-select",
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 6x + 6x",
-  "answer": "a",
+  "question": "Welke berekeningen kloppen? Kies alle juiste antwoorden.",
   "answerOptions": [
     {
       "id": "a",
-      "label": "12x"
+      "label": "A. −4 + 7 = −11"
     },
     {
       "id": "b",
-      "label": "36x"
+      "label": "B. 5 − (−3) = 2"
     },
     {
       "id": "c",
-      "label": "12"
+      "label": "C. −3 × −4 = 12"
+    },
+    {
+      "id": "d",
+      "label": "D. 18 ÷ −3 = 6"
     }
   ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "6x + 6x = (6+6)x",
-  "explanation": "6x + 6x = 12x",
+  "answers": [
+    "c"
+  ],
+  "hint1": "Denk na over tekens: negatief × negatief, en min een negatief getal.",
+  "hint2": "Controleer A, B en D opnieuw — alleen C klopt.",
+  "explanation": "Alleen C klopt.\n\nA: −4 + 7 = 3\nB: 5 − (−3) = 8\nC: −3 × −4 = 12 ✓\nD: 18 ÷ −3 = −6",
   "classLevels": [
     "mavo-4"
   ]

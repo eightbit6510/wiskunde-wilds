@@ -1,35 +1,14 @@
 {
   "id": "vwo-5-p2-c08",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "number-input",
+  "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "Het gemiddelde van 2, 4 en 6 is 4"
-    },
-    {
-      "id": "b",
-      "label": "Het gemiddelde van 2, 4 en 6 is 6"
-    },
-    {
-      "id": "c",
-      "label": "De mediaan van 1, 3, 9 is 3"
-    },
-    {
-      "id": "d",
-      "label": "De mediaan van 1, 3, 9 is 9"
-    }
-  ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: (2+4+6)÷3=4. C: middelste waarde=3.",
+  "question": "P = 2ℓ + 2b. P = 30 cm en b = 5 cm. Wat is ℓ? (in cm)",
+  "answer": 10,
+  "hint1": "30 = 2ℓ + 10.",
+  "hint2": "2ℓ = 20 → ℓ = 10.",
+  "explanation": "ℓ = 10 cm.",
   "classLevels": [
     "vwo-5"
   ]

@@ -1,35 +1,14 @@
 {
   "id": "vwo-6-c30",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "number-input",
+  "topic": "vergelijkingen",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "1 km = 1000 m"
-    },
-    {
-      "id": "b",
-      "label": "1 km = 100 m"
-    },
-    {
-      "id": "c",
-      "label": "1 uur = 60 minuten"
-    },
-    {
-      "id": "d",
-      "label": "1 uur = 100 minuten"
-    }
-  ],
-  "answers": [
-    "a",
-    "c"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A en C zijn standaard eenheden.",
+  "question": "Laatste runesteen: Los op 2x + 5 = 17. Wat is x?",
+  "answer": 6,
+  "hint1": "Trek 5 af van beide kanten.",
+  "hint2": "2x = 12 → x = 6.",
+  "explanation": "x = 6.",
   "classLevels": [
     "vwo-6"
   ]

@@ -1,14 +1,14 @@
 {
   "id": "mavo-2-p2-c34",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "true-false",
+  "topic": "kwadratisch",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 4:3. De eerste deelgroep is 16. Hoe groot is de tweede?",
-  "answer": 12,
-  "hint1": "Deel 16 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 12.",
-  "explanation": "16 ÷ 4 = 4.\n4 × 3 = 12.",
+  "question": "Klopt dit? “De grafiek van y = x² is symmetrisch in de y-as.”",
+  "answer": true,
+  "hint1": "(−x)² = x².",
+  "hint2": "Links en rechts spiegelbeeld.",
+  "explanation": "Ja — de parabool is symmetrisch.",
   "classLevels": [
     "mavo-2"
   ]

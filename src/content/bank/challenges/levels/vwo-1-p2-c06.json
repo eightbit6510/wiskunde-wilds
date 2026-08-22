@@ -1,28 +1,14 @@
 {
   "id": "vwo-1-p2-c06",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "number-input",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 6x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→6, 2→12, 3→18"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→7, 2→8, 3→9"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 6.",
-  "hint2": "Bij x = 5 hoort y = 30.",
-  "explanation": "y = 6x betekent: y is steeds 6 keer x.\nBij x = 5: y = 30.",
+  "question": "A = b × h. A = 48 m² en b = 6 m. Wat is h? (in meters)",
+  "answer": 8,
+  "hint1": "h = A ÷ b.",
+  "hint2": "48 ÷ 6 = 8.",
+  "explanation": "h = 8 m.",
   "classLevels": [
     "vwo-1"
   ]

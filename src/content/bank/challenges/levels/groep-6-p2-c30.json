@@ -1,14 +1,14 @@
 {
   "id": "groep-6-p2-c30",
   "type": "number-input",
-  "topic": "vergelijkingen",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Er ontbreekt een getal: ? + 2 = 6. Wat is het ontbrekende getal?",
-  "answer": 4,
-  "hint1": "Tel terug: trek het bekende getal af van het totaal.",
-  "hint2": "6 − 2 = 4",
-  "explanation": "6 − 2 = 4",
+  "question": "Runesteen Algebra: Los op 3(x − 2) = 15. Wat is x?",
+  "answer": 7,
+  "hint1": "Deel beide kanten door 3, of werk haakjes uit.",
+  "hint2": "x − 2 = 5 → x = 7.",
+  "explanation": "3(x − 2) = 15 → x − 2 = 5 → x = 7.",
   "classLevels": [
     "groep-6"
   ]

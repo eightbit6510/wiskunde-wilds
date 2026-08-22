@@ -1,28 +1,14 @@
 {
   "id": "havo-1-c22",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "true-false",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 7x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→7, 2→14, 3→21"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→8, 2→9, 3→10"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 7.",
-  "hint2": "Bij x = 5 hoort y = 35.",
-  "explanation": "y = 7x betekent: y is steeds 7 keer x.\nBij x = 5: y = 35.",
+  "question": "Is dit een lineair verband? week: 0,1,2,3 — hoogte: 1,2,4,8",
+  "answer": false,
+  "hint1": "Bij lineair is de toename steeds gelijk.",
+  "hint2": "Verschillen: +1, +2, +4 — verdubbelt.",
+  "explanation": "Nee — de waarden verdubbelen, dat is niet lineair.",
   "classLevels": [
     "havo-1"
   ]

@@ -1,14 +1,14 @@
 {
   "id": "vwo-6-p2-c34",
-  "type": "number-input",
-  "topic": "machten",
+  "type": "true-false",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 3^2",
-  "answer": 9,
-  "hint1": "3 × 3",
-  "hint2": "Vermenigvuldig 3 2 keer met zichzelf.",
-  "explanation": "3^2 = 9",
+  "question": "Klopt dit? “De grafiek van y = x² is symmetrisch in de y-as.”",
+  "answer": true,
+  "hint1": "(−x)² = x².",
+  "hint2": "Links en rechts spiegelbeeld.",
+  "explanation": "Ja — de parabool is symmetrisch.",
   "classLevels": [
     "vwo-6"
   ]

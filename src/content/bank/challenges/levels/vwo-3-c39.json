@@ -1,14 +1,20 @@
 {
   "id": "vwo-3-c39",
-  "type": "number-input",
-  "topic": "kwadratisch",
+  "type": "text-input",
+  "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x² = 4 (x positief). Wat is x?",
-  "answer": 2,
-  "hint1": "Welk positief getal keer zichzelf geeft 4?",
-  "hint2": "2 × 2 = 4",
-  "explanation": "x² = 4 → x = 2 (positief).",
+  "question": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b.",
+  "answer": "l=(P-2b)/2",
+  "acceptedAnswers": [
+    "l=(P-2b)/2",
+    "ℓ=(P-2b)/2",
+    "l=P/2-b",
+    "ℓ=P/2-b"
+  ],
+  "hint1": "Trek 2b af, deel door 2.",
+  "hint2": "ℓ = (P − 2b) / 2.",
+  "explanation": "ℓ = (P − 2b) / 2.",
   "classLevels": [
     "vwo-3"
   ]

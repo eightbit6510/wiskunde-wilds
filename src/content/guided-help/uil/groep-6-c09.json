@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c09",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We lezen een tabel: 1 potlode = 4 euro. Hoeveel kosten 2?",
+    "intro": "Maak n vrij in de formule.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Uitrekenen wat 2 potloden kosten"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Het aantal en de prijs bij elkaar optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 1 potlode kost 4 euro.\n\nElke extra potlode kost weer 4 euro.",
-        "question": "Kost elke potlode evenveel?",
+        "explanation": "Maak n vrij in de formule.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, steeds 4 euro"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee, elke keer anders"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — je mag vermenigvuldigen.",
-        "retryFeedback": "1 stuk = 4 euro."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: vermenigvuldig.\n\n2 keer 4 euro.",
-        "question": "Wat kosten 2 potloden?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "t",
-            "label": "8 euro"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "w",
-            "label": "12 euro"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "t",
-        "successFeedback": "Klopt: 8 euro.",
-        "retryFeedback": "Reken: 2 keer 4."
-      },
-      {
-        "explanation": "Stap 4: welke tabel klopt?",
-        "question": "Bij 2 potloden betaal je…",
-        "options": [
-          {
-            "id": "a",
-            "label": "8 euro"
-          },
-          {
-            "id": "b",
-            "label": "10 euro"
-          }
-        ],
-        "correctAnswer": "a",
-        "successFeedback": "Precies — 2 × 4 = 8 euro.",
-        "retryFeedback": "2 keer 4 euro."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2 potloden = 8 euro"
+    "conclusion": "Maak n vrij in de formule."
   },
   "bonusVariants": [
     {
-      "id": "groep-6-c09-b1",
-      "type": "number-input",
-      "question": "1 potlode = 4 euro. 3 stuks?",
-      "answer": 12,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog 4 euro erbij.",
-      "explanation": "Nog 4 euro erbij."
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Nog een tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-6-c09-b2",
-      "type": "number-input",
-      "question": "2 × 4 = ?",
-      "answer": 8,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "2 keer 4.",
-      "explanation": "2 keer 4."
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

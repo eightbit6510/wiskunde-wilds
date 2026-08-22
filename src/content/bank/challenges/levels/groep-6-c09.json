@@ -1,28 +1,19 @@
 {
   "id": "groep-6-c09",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "text-input",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "1 potlood kost 4 euro. Wat kosten 2 potloden?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "8 euro"
-    },
-    {
-      "id": "b",
-      "label": "12 euro"
-    },
-    {
-      "id": "c",
-      "label": "7 euro"
-    }
+  "question": "T = 5n + 20. Geef n in termen van T. (bijv. n = ...)",
+  "answer": "n=(T-20)/5",
+  "acceptedAnswers": [
+    "n=(T-20)/5",
+    "n=(t-20)/5",
+    "n=T/5-4"
   ],
-  "hint1": "Elke potlood kost 4 euro — tel dat 2 keer op.",
-  "hint2": "2 × 4 = 8",
-  "explanation": "2 × 4 euro = 8 euro",
+  "hint1": "Trek 20 af van beide kanten, deel daarna door 5.",
+  "hint2": "n = (T − 20) / 5.",
+  "explanation": "n = (T − 20) / 5.",
   "classLevels": [
     "groep-6"
   ]

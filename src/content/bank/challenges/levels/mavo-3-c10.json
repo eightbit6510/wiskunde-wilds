@@ -1,28 +1,14 @@
 {
   "id": "mavo-3-c10",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "number-input",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 6x. Welke tabel hoort daarbij?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "x: 1→6, 2→12, 3→18"
-    },
-    {
-      "id": "b",
-      "label": "x: 1→7, 2→8, 3→9"
-    },
-    {
-      "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
-    }
-  ],
-  "hint1": "Vermenigvuldig elke x met 6.",
-  "hint2": "Bij x = 2 hoort y = 12.",
-  "explanation": "y = 6x betekent: y is steeds 6 keer x.\nBij x = 2: y = 12.",
+  "question": "P = 2ℓ + 2b. P = 30, ℓ = 8. Wat is b?",
+  "answer": 7,
+  "hint1": "2ℓ = 16, dus 2b = P − 16.",
+  "hint2": "2b = 14 → b = 7.",
+  "explanation": "2·8 + 2b = 30 → 2b = 14 → b = 7.",
   "classLevels": [
     "mavo-3"
   ]

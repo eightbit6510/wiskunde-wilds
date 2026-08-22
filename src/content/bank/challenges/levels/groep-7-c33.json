@@ -1,28 +1,14 @@
 {
   "id": "groep-7-c33",
-  "type": "multiple-choice",
-  "topic": "grafieken",
+  "type": "number-input",
+  "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "1 appel kost 2 euro. Wat kosten 3 appels?",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "6 euro"
-    },
-    {
-      "id": "b",
-      "label": "8 euro"
-    },
-    {
-      "id": "c",
-      "label": "5 euro"
-    }
-  ],
-  "hint1": "Elke appel kost 2 euro — tel dat 3 keer op.",
-  "hint2": "3 × 2 = 6",
-  "explanation": "3 × 2 euro = 6 euro",
+  "question": "Wat is (−4)²?",
+  "answer": 16,
+  "hint1": "Negatief × negatief = positief.",
+  "hint2": "(−4) × (−4) = 16.",
+  "explanation": "(−4)² = 16.",
   "classLevels": [
     "groep-7"
   ]

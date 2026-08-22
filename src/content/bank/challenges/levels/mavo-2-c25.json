@@ -1,15 +1,14 @@
 {
   "id": "mavo-2-c25",
   "type": "number-input",
-  "topic": "breuken",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 2/5 + 1/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 1.4,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "2/5 + 1/1 = 7/5",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 20.",
-  "explanation": "2/5 + 1/1 = 7/5 = 1.4",
+  "question": "Verhouding 3:5. De eerste deelgroep is 15. Hoe groot is de tweede?",
+  "answer": 25,
+  "hint1": "Deel 15 door 3 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 5 = 25.",
+  "explanation": "15 ÷ 3 = 5.\n5 × 5 = 25.",
   "classLevels": [
     "mavo-2"
   ]

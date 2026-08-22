@@ -1,28 +1,14 @@
 {
   "id": "vwo-6-c25",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 2x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "7x"
-    },
-    {
-      "id": "b",
-      "label": "10x"
-    },
-    {
-      "id": "c",
-      "label": "7"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 2x = (5+2)x",
-  "explanation": "5x + 2x = 7x",
+  "question": "Verhouding 2:5. De eerste deelgroep is 4. Hoe groot is de tweede?",
+  "answer": 10,
+  "hint1": "Deel 4 door 2 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 5 = 10.",
+  "explanation": "4 ÷ 2 = 2.\n2 × 5 = 10.",
   "classLevels": [
     "vwo-6"
   ]

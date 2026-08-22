@@ -1,28 +1,32 @@
 {
   "id": "havo-3-c07",
   "type": "multiple-choice",
-  "topic": "algebra",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 4x",
-  "answer": "a",
+  "question": "v = s / t. Welke formule geeft s (afstand)?",
+  "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "9x"
+      "label": "s = v / t"
     },
     {
       "id": "b",
-      "label": "20x"
+      "label": "s = v × t"
     },
     {
       "id": "c",
-      "label": "9"
+      "label": "s = t / v"
+    },
+    {
+      "id": "d",
+      "label": "s = v + t"
     }
   ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 4x = (5+4)x",
-  "explanation": "5x + 4x = 9x",
+  "hint1": "Vermenigvuldig beide kanten van v = s/t met t.",
+  "hint2": "v · t = s.",
+  "explanation": "s = v × t.",
   "classLevels": [
     "havo-3"
   ]

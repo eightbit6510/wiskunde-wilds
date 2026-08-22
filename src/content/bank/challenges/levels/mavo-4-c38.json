@@ -4,12 +4,11 @@
   "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 22 = 37. Wat is x?",
-  "answer": 15,
-  "hint1": "Haal 22 naar de andere kant: x = 37 − 22.",
-  "hint2": "x = 37 − 22",
-  "optionalWorkedFirstStep": "x + 22 = 37 → x = 37 − 22",
-  "explanation": "x + 22 = 37\nx = 37 − 22 = 15",
+  "question": "Stersteen 3: Los op 4x − 7 = 9. Wat is x?",
+  "answer": 4,
+  "hint1": "+7 aan beide kanten.",
+  "hint2": "4x = 16 → x = 4.",
+  "explanation": "x = 4.",
   "classLevels": [
     "mavo-4"
   ]

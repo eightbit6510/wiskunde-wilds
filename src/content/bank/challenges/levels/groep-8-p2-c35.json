@@ -1,15 +1,28 @@
 {
   "id": "groep-8-p2-c35",
-  "type": "number-input",
-  "topic": "breuken",
+  "type": "multiple-choice",
+  "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 1/2 + 1/1? Geef je antwoord als kommagetal (max. 2 cijfers achter de komma).",
-  "answer": 1.5,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "1/2 + 1/1 = 3/2",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 12.",
-  "explanation": "1/2 + 1/1 = 3/2 = 1.5",
+  "question": "Bij y = x²: wat is y als x = 3 en als x = −3?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Beide keren 9"
+    },
+    {
+      "id": "b",
+      "label": "3 en −3"
+    },
+    {
+      "id": "c",
+      "label": "0 en 9"
+    }
+  ],
+  "hint1": "(−3)² = 9 en 3² = 9.",
+  "hint2": "Positief en negatief x kunnen dezelfde y geven.",
+  "explanation": "Beide geven y = 9 — symmetrie in maanlicht.",
   "classLevels": [
     "groep-8"
   ]

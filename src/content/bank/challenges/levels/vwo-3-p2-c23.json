@@ -1,14 +1,14 @@
 {
   "id": "vwo-3-p2-c23",
   "type": "number-input",
-  "topic": "kwadratisch",
+  "topic": "grafieken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x² = 121 (x positief). Wat is x?",
-  "answer": 11,
-  "hint1": "Welk positief getal keer zichzelf geeft 121?",
-  "hint2": "11 × 11 = 121",
-  "explanation": "x² = 121 → x = 11 (positief).",
+  "question": "y = −x + 8. Wat is de startwaarde (snijpunt met de y-as)?",
+  "answer": 8,
+  "hint1": "Op de y-as is x = 0.",
+  "hint2": "y = −0 + 8 = 8.",
+  "explanation": "Startwaarde = 8.",
   "classLevels": [
     "vwo-3"
   ]

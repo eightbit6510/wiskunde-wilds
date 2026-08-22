@@ -1,14 +1,32 @@
 {
   "id": "mavo-4-c23",
-  "type": "number-input",
+  "type": "multiple-choice",
   "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 2:5. De eerste deelgroep is 8. Hoe groot is de tweede?",
-  "answer": 20,
-  "hint1": "Deel 8 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 20.",
-  "explanation": "8 ÷ 2 = 4.\n4 × 5 = 20.",
+  "question": "Welke situatie past bij y = −2x + 10?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Start met 10, elke stap −2"
+    },
+    {
+      "id": "b",
+      "label": "Start met 10, elke stap +2"
+    },
+    {
+      "id": "c",
+      "label": "Altijd y = 10"
+    },
+    {
+      "id": "d",
+      "label": "Elke stap verdubbelen"
+    }
+  ],
+  "hint1": "Het minteken: y daalt als x stijgt.",
+  "hint2": "Bij x=0 is y=10, daarna −2 per stap.",
+  "explanation": "y = −2x + 10: start 10, daarna steeds 2 minder.",
   "classLevels": [
     "mavo-4"
   ]

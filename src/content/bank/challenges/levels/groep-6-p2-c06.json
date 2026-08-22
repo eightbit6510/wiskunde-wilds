@@ -1,14 +1,14 @@
 {
   "id": "groep-6-p2-c06",
   "type": "number-input",
-  "topic": "verbanden",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 3 rode plakkers horen 4 blauwe. Je hebt 9 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 12,
-  "hint1": "Deel 9 door 3.",
-  "hint2": "Dat getal × 4 = 12.",
-  "explanation": "9 ÷ 3 = 3.\n3 × 4 = 12.",
+  "question": "A = b × h. A = 48 m² en b = 6 m. Wat is h? (in meters)",
+  "answer": 8,
+  "hint1": "h = A ÷ b.",
+  "hint2": "48 ÷ 6 = 8.",
+  "explanation": "h = 8 m.",
   "classLevels": [
     "groep-6"
   ]

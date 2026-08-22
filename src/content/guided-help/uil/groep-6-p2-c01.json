@@ -2,7 +2,7 @@
   "challengeId": "groep-6-p2-c01",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "intro": "Vertrouwd pootafdruk uit het Vossenwoud.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle juiste uitspraken kiezen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Slechts één antwoord kiezen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,108 +22,47 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Uitspraak A: vierkant.",
-        "question": "Heeft een vierkant vier gelijke zijden?",
+        "explanation": "Vertrouwd pootafdruk uit het Vossenwoud.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "A is waar.",
-        "retryFeedback": "Alle zijden even lang."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Uitspraak B: elke rechthoek is vierkant.",
-        "question": "Klopt B?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "no",
-        "successFeedback": "B is onwaar.",
-        "retryFeedback": "Rechthoek hoeft geen vierkant."
-      },
-      {
-        "explanation": "Uitspraak C: hoekensom driehoek.",
-        "question": "Is de som van hoeken in een driehoek 180°?",
-        "options": [
-          {
-            "id": "yes",
-            "label": "Ja"
-          },
-          {
-            "id": "no",
-            "label": "Nee"
-          }
-        ],
-        "correctAnswer": "yes",
-        "successFeedback": "C is waar.",
-        "retryFeedback": "Driehoek = altijd 180°."
-      },
-      {
-        "explanation": "Welke uitspraken zijn waar?",
-        "question": "Kies alles wat klopt.",
-        "options": [
-          {
-            "id": "ac",
-            "label": "A en C"
-          },
-          {
-            "id": "ab",
-            "label": "A en B"
-          },
-          {
-            "id": "all",
-            "label": "Allemaal"
-          }
-        ],
-        "correctAnswer": "ac",
-        "successFeedback": "Precies: A en C.",
-        "retryFeedback": "B en D kloppen niet."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+    "conclusion": "Vertrouwd pootafdruk uit het Vossenwoud."
   },
   "bonusVariants": [
     {
-      "id": "groep-6-c41-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Welke uitspraak is waar?",
-      "answer": "b",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Alle driehoeken zijn gelijk"
-        },
-        {
-          "id": "b",
-          "label": "Een driehoek heeft drie hoeken"
-        },
-        {
-          "id": "c",
-          "label": "Een cirkel is een veelhoek"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Driehoek heeft drie hoeken.",
-      "explanation": "Driehoek heeft drie hoeken."
-    },
-    {
-      "id": "groep-6-c41-b2",
-      "type": "multiple-choice",
-      "question": "Is een vierkant een rechthoek?",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
@@ -136,8 +75,27 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Vierkant is een rechthoek met 4 gelijke zijden.",
-      "explanation": "Vierkant is een rechthoek met 4 gelijke zijden."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
+    },
+    {
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

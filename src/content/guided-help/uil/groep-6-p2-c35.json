@@ -2,7 +2,7 @@
   "challengeId": "groep-6-p2-c35",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We tellen 7/8 en 1/8 op. Beide stukken hebben dezelfde noemer — dat maakt het makkelijker.",
+    "intro": "Patronen in maanlicht.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "7/8 + 1/8 uitrekenen"
+            "label": "Lees het verhaal en de vraag"
           },
           {
             "id": "wrong",
-            "label": "Teller en noemer van beide breuken bij elkaar optellen"
+            "label": "Wat moet je doen?"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,80 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: kijk naar de noemer (onderste getal).\n\nBij 7/8 en 1/8 is die overal 8.",
-        "question": "Hebben beide breuken dezelfde noemer?",
+        "explanation": "Patronen in maanlicht.",
+        "question": "Snap je wat er gevraagd wordt?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, beide hebben noemer 8"
+            "label": "Ja, ik ga rekenen"
           },
           {
             "id": "no",
-            "label": "Nee, de noemers zijn verschillend"
+            "label": "Nog niet"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed! Dan hoef je de noemer niet te veranderen.",
-        "retryFeedback": "Kijk onderaan de breuk: het getal onder de streep."
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de optionalStory en vraag nog eens."
       },
       {
-        "explanation": "Stap 3: tel alleen de tellers op.\n\nTel 7 + 1. De noemer 8 blijft staan.",
-        "question": "Wat is 7/8 + 1/8?",
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
         "options": [
           {
-            "id": "right",
-            "label": "1"
+            "id": "go",
+            "label": "Ja!"
           },
           {
-            "id": "wrong",
-            "label": "1/2"
+            "id": "wait",
+            "label": "Nog even nadenken"
           }
         ],
-        "correctAnswer": "right",
-        "successFeedback": "Precies! Het antwoord is 1.",
-        "retryFeedback": "Tel 7 + 1 = 8. Noemer blijft 8."
-      },
-      {
-        "explanation": "Stap 4: kies je antwoord in de som.",
-        "question": "Welke breuk is 7/8 + 1/8?",
-        "options": [
-          {
-            "id": "right",
-            "label": "1"
-          },
-          {
-            "id": "wrong",
-            "label": "1/2"
-          }
-        ],
-        "correctAnswer": "right",
-        "successFeedback": "Super! 7/8 + 1/8 = 1.",
-        "retryFeedback": "Tel de bovenste getallen: 7 + 1."
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 7/8 + 1/8 = 1"
+    "conclusion": "Patronen in maanlicht."
   },
   "bonusVariants": [
     {
-      "id": "groep-6-c31-b1",
+      "id": "b1",
       "type": "multiple-choice",
-      "question": "Wat is 1/8 + 2/8?",
+      "question": "Nog een tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "3/8"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "3/16"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel tellers: 1+2=3, noemer blijft 8.",
-      "explanation": "Tel tellers: 1+2=3, noemer blijft 8."
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
     },
     {
-      "id": "groep-6-c31-b2",
+      "id": "b2",
       "type": "multiple-choice",
-      "question": "Welke is groter: 1/2 of 1/4?",
+      "question": "Nog één tip?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1/2"
+          "label": "Dank je"
         },
         {
           "id": "b",
-          "label": "1/4"
+          "label": "Later"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Half is groter dan kwart.",
-      "explanation": "Half is groter dan kwart."
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
     }
   ]
 }

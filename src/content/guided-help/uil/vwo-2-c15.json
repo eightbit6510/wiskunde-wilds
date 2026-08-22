@@ -2,7 +2,7 @@
   "challengeId": "vwo-2-c15",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Zoek wat onbekend is — draai de formule om.",
+    "intro": "Bij y = 7x vermenigvuldig je x steeds met 7. Zo herken je de juiste tabel.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Breedte vinden (A=32, lengte=8)"
+            "label": "De juiste tabel bij y = 7x kiezen"
           },
           {
             "id": "wrong",
-            "label": "Lengte en breedte optellen"
+            "label": "Bij elke x steeds 1 optellen bij y"
           }
         ],
         "correctAnswer": "task",
@@ -22,77 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=32, lengte=8.",
-        "question": "Welke grootte zoek je?",
+        "explanation": "Stap 2: y = 7x betekent y = 7 × x.\n\nProbeer x = 1.",
+        "question": "Wat is y als x = 1?",
         "options": [
           {
-            "id": "b",
-            "label": "Breedte"
+            "id": "k",
+            "label": "7"
           },
+          {
+            "id": "k1",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "k",
+        "successFeedback": "Goed: y = 7 × 1 = 7.",
+        "retryFeedback": "Vermenigvuldig: 7 × 1."
+      },
+      {
+        "explanation": "Stap 3: vul nog een paar waarden in.\n\nBereken y voor x = 2 en x = 3.",
+        "question": "Welk patroon past bij y = 7x?",
+        "options": [
           {
             "id": "a",
-            "label": "Oppervlakte"
-          }
-        ],
-        "correctAnswer": "b",
-        "successFeedback": "Goed — breedte is onbekend.",
-        "retryFeedback": "Oppervlakte en lengte zijn gegeven."
-      },
-      {
-        "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
-        "question": "32 ÷ 8 = ?",
-        "options": [
+            "label": "y: 7, 14, 21…"
+          },
           {
             "id": "b",
-            "label": "4"
-          },
-          {
-            "id": "w",
-            "label": "5"
+            "label": "y stijgt steeds +1"
           }
         ],
-        "correctAnswer": "b",
-        "successFeedback": "Breedte = 4.",
-        "retryFeedback": "Deel 32 door 8."
+        "correctAnswer": "a",
+        "successFeedback": "Precies — elke y is k keer x.",
+        "retryFeedback": "Tel niet +1, maar ×7."
       },
       {
-        "explanation": "Stap 4: controleer.",
-        "question": "Vermenigvuldig lengte 8 met je breedte-antwoord. Is het 32?",
+        "explanation": "Stap 4: kies de tabel die klopt.",
+        "question": "Welke beschrijving past?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "a",
+            "label": "Elke y is 7× de x-waarde"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "b",
+            "label": "Elke y is x + 1"
           }
         ],
-        "correctAnswer": "yes",
-        "successFeedback": "Goed! Breedte = 4.",
-        "retryFeedback": "8 × 4 moet 32 zijn."
+        "correctAnswer": "a",
+        "successFeedback": "Goed! y = 7x → tabel A.",
+        "retryFeedback": "Check: bij x=2 moet y=14."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 b = 4"
+    "conclusion": "Pootafdruk! 🐾 y = 7x → tabel A klopt."
   },
   "bonusVariants": [
     {
       "id": "vwo-2-c15-b1",
-      "type": "number-input",
-      "question": "A = 40, l = 8. b = ?",
-      "answer": 5,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Deel oppervlakte door lengte.",
-      "explanation": "Deel oppervlakte door lengte."
+      "type": "multiple-choice",
+      "question": "Welke formule hoort bij y = 3, 6, 9?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 3x"
+        },
+        {
+          "id": "b",
+          "label": "y = x + 3"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "y = 3x: elke y is 3× de x.",
+      "explanation": "y = 3x: elke y is 3× de x."
     },
     {
       "id": "vwo-2-c15-b2",
-      "type": "number-input",
-      "question": "A = 32, l = 8. b = ?",
-      "answer": 4,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "b = 32 ÷ 8.",
-      "explanation": "b = 32 ÷ 8."
+      "type": "multiple-choice",
+      "question": "Bij y = 7x, wat is y als x = 4?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "28"
+        },
+        {
+          "id": "b",
+          "label": "11"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "y = 7 × 4 = 28.",
+      "explanation": "y = 7 × 4 = 28."
     }
   ]
 }

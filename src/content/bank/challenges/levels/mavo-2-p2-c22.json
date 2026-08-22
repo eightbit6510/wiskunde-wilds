@@ -1,14 +1,14 @@
 {
   "id": "mavo-2-p2-c22",
-  "type": "number-input",
+  "type": "true-false",
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 2:5. De eerste deelgroep is 6. Hoe groot is de tweede?",
-  "answer": 15,
-  "hint1": "Deel 6 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 15.",
-  "explanation": "6 ÷ 2 = 3.\n3 × 5 = 15.",
+  "question": "Is dit een lineair verband? week: 0,1,2,3 — hoogte: 1,2,4,8",
+  "answer": false,
+  "hint1": "Bij lineair is de toename steeds gelijk.",
+  "hint2": "Verschillen: +1, +2, +4 — verdubbelt.",
+  "explanation": "Nee — de waarden verdubbelen, dat is niet lineair.",
   "classLevels": [
     "mavo-2"
   ]

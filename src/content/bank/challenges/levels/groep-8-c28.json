@@ -1,14 +1,14 @@
 {
   "id": "groep-8-c28",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "text-input",
+  "topic": "breuken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 4:3. De eerste deelgroep is 8. Hoe groot is de tweede?",
-  "answer": 6,
-  "hint1": "Deel 8 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 6.",
-  "explanation": "8 ÷ 4 = 2.\n2 × 3 = 6.",
+  "question": "Runesteen Breuken: vereenvoudig 8/12.",
+  "answer": "2/3",
+  "hint1": "Deel teller en noemer door hun GGD.",
+  "hint2": "GGD is 4 → 2/3.",
+  "explanation": "8/12 = 2/3.",
   "classLevels": [
     "groep-8"
   ]

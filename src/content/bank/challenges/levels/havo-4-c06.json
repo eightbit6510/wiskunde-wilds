@@ -1,14 +1,14 @@
 {
   "id": "havo-4-c06",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Bereken: 7^4",
-  "answer": 2401,
-  "hint1": "7 × 7 × …",
-  "hint2": "Vermenigvuldig 7 4 keer met zichzelf.",
-  "explanation": "7^4 = 2401",
+  "question": "A = ℓ × b. Als A = 56 en ℓ = 8, wat is b?",
+  "answer": 7,
+  "hint1": "Deel beide kanten door ℓ: b = A ÷ ℓ.",
+  "hint2": "b = 56 ÷ 8 = 7.",
+  "explanation": "b = A ÷ ℓ = 56 ÷ 8 = 7.",
   "classLevels": [
     "havo-4"
   ]

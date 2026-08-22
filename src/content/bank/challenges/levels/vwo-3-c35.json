@@ -1,28 +1,32 @@
 {
   "id": "vwo-3-c35",
   "type": "multiple-choice",
-  "topic": "grafieken",
+  "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 4x. Welke tabel hoort daarbij?",
-  "answer": "a",
+  "question": "Welke grafiek hoort bij y = x²?",
+  "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→4, 2→8, 3→12"
+      "label": "Rechte lijn door de oorsprong"
     },
     {
       "id": "b",
-      "label": "x: 1→5, 2→6, 3→7"
+      "label": "U-vormige parabool"
     },
     {
       "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "label": "Horizontale lijn"
+    },
+    {
+      "id": "d",
+      "label": "Dalende rechte lijn"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 4.",
-  "hint2": "Bij x = 4 hoort y = 16.",
-  "explanation": "y = 4x betekent: y is steeds 4 keer x.\nBij x = 4: y = 16.",
+  "hint1": "Kwadratisch → boog, geen rechte lijn.",
+  "hint2": "y = x² is een parabool.",
+  "explanation": "y = x² is een U-vormige parabool.",
   "classLevels": [
     "vwo-3"
   ]

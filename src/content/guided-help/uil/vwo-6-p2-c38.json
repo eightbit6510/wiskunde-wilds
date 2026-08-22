@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Omtrek = som zijden. Oppervlakte = l×b.",
-        "question": "Vierkant zijde 3: omtrek=4×3. Klopt A?",
+        "explanation": "Even = deelbaar door 2.",
+        "question": "Is 0 deelbaar door 2?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 12"
+            "label": "Ja, 0÷2=0"
           },
           {
             "id": "no",
@@ -35,11 +35,11 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "A klopt.",
-        "retryFeedback": "4×3=12."
+        "successFeedback": "A is waar.",
+        "retryFeedback": "0 is even."
       },
       {
-        "explanation": "B zegt omtrek=9. Dat is 3×3 = oppervlakte.",
+        "explanation": "B: 0 oneven?",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "9 is oppervlakte, geen omtrek."
+        "retryFeedback": "0 is even, niet oneven."
       },
       {
-        "explanation": "C: oppervlakte 4×5.",
-        "question": "Is oppervlakte 4×5 = 20?",
+        "explanation": "C: oneven+oneven. Bijv. 3+5=8.",
+        "question": "Is som van twee oneven getallen even?",
         "options": [
           {
             "id": "yes",
@@ -69,11 +69,11 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "C klopt.",
-        "retryFeedback": "4×5=20."
+        "successFeedback": "C is waar.",
+        "retryFeedback": "Oneven+oneven=even."
       },
       {
-        "explanation": "Welke uitspraken zijn waar?",
+        "explanation": "Welke zijn waar?",
         "question": "Kies de juiste.",
         "options": [
           {
@@ -81,17 +81,17 @@
             "label": "A en C"
           },
           {
-            "id": "ab",
-            "label": "A en B"
+            "id": "bd",
+            "label": "B en D"
           },
           {
-            "id": "bc",
-            "label": "B en C"
+            "id": "ad",
+            "label": "A en D"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B verwart omtrek/oppervlakte."
+        "retryFeedback": "B en D niet."
       },
       {
         "explanation": "Stappenplan voor dit type som:\n1. Lees uitspraak A, B, C en D\n2. Zet bij elke: waar of onwaar?\n3. Kies alles wat waar is",
@@ -117,40 +117,40 @@
     {
       "id": "vwo-6-c78-b1",
       "type": "multiple-choice",
-      "question": "Oppervlakte 6×4?",
+      "question": "Is 7 oneven?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "24"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "20"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "6×4=24.",
-      "explanation": "6×4=24."
+      "hint2": "7 niet deelbaar door 2.",
+      "explanation": "7 niet deelbaar door 2."
     },
     {
       "id": "vwo-6-c78-b2",
       "type": "multiple-choice",
-      "question": "Omtrek vierkant zijde 5?",
+      "question": "Is 4+6 even of oneven?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "20"
+          "label": "Even"
         },
         {
           "id": "b",
-          "label": "25"
+          "label": "Oneven"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "4×5=20.",
-      "explanation": "4×5=20."
+      "hint2": "4+6=10, even.",
+      "explanation": "4+6=10, even."
     }
   ]
 }

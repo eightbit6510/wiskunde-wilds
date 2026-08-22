@@ -1,14 +1,14 @@
 {
   "id": "mavo-1-p2-c34",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "true-false",
+  "topic": "kwadratisch",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 2:3. De eerste deelgroep is 6. Hoe groot is de tweede?",
-  "answer": 9,
-  "hint1": "Deel 6 door 2 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 9.",
-  "explanation": "6 ÷ 2 = 3.\n3 × 3 = 9.",
+  "question": "Klopt dit? “De grafiek van y = x² is symmetrisch in de y-as.”",
+  "answer": true,
+  "hint1": "(−x)² = x².",
+  "hint2": "Links en rechts spiegelbeeld.",
+  "explanation": "Ja — de parabool is symmetrisch.",
   "classLevels": [
     "mavo-1"
   ]

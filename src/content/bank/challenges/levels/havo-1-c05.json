@@ -1,14 +1,28 @@
 {
   "id": "havo-1-c05",
-  "type": "number-input",
-  "topic": "verbanden",
+  "type": "multiple-choice",
+  "topic": "redeneren",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 4:5. De eerste deelgroep is 20. Hoe groot is de tweede?",
-  "answer": 25,
-  "hint1": "Deel 20 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 5 = 25.",
-  "explanation": "20 ÷ 4 = 5.\n5 × 5 = 25.",
+  "question": "Welke oplossing kan niet kloppen? Redeneer zonder alles uit te rekenen.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "A. Bij x + 8 = 3 zegt Sam: x = −5"
+    },
+    {
+      "id": "b",
+      "label": "B. Bij 2x = −10 zegt Noor: x = −5"
+    },
+    {
+      "id": "c",
+      "label": "C. Bij −x = 4 zegt Finn: x = 4"
+    }
+  ],
+  "answer": "c",
+  "hint1": "Bij −x = 4: wat gebeurt er als je beide kanten met −1 vermenigvuldigt?",
+  "hint2": "Als −x = 4, dan is x = −4. Finn zegt +4 — dat kan niet.",
+  "explanation": "C kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4).",
   "classLevels": [
     "havo-1"
   ]

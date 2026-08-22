@@ -1,15 +1,32 @@
 {
   "id": "mavo-2-c08",
-  "type": "number-input",
-  "topic": "vergelijkingen",
+  "type": "multiple-choice",
+  "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 4 = 8. Wat is x?",
-  "answer": 4,
-  "hint1": "Haal 4 naar de andere kant: x = 8 − 4.",
-  "hint2": "x = 8 − 4",
-  "optionalWorkedFirstStep": "x + 4 = 8 → x = 8 − 4",
-  "explanation": "x + 4 = 8\nx = 8 − 4 = 4",
+  "question": "€12 vaste kosten plus €4 per zak voer. Welke formule voor totale kosten K bij z zakken?",
+  "answer": "b",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "K = 12z + 4"
+    },
+    {
+      "id": "b",
+      "label": "K = 4z + 12"
+    },
+    {
+      "id": "c",
+      "label": "K = 12 × 4 × z"
+    },
+    {
+      "id": "d",
+      "label": "K = 4 + 12 + z"
+    }
+  ],
+  "hint1": "Startbedrag 12, daarna +4 per zak.",
+  "hint2": "K = 4z + 12.",
+  "explanation": "K = 4z + 12.",
   "classLevels": [
     "mavo-2"
   ]

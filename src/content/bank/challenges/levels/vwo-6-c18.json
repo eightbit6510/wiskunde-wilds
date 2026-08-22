@@ -1,36 +1,28 @@
 {
   "id": "vwo-6-c18",
-  "type": "multi-select",
-  "topic": "redeneren",
+  "type": "multiple-choice",
+  "topic": "machten",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "question": "Wat is groter: 2⁵ of 5²?",
+  "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "50% van 20 is 10"
+      "label": "2⁵ (= 32)"
     },
     {
       "id": "b",
-      "label": "50% van 20 is 5"
+      "label": "5² (= 25)"
     },
     {
-      "id": "c",
-      "label": "25% van 20 is 5"
-    },
-    {
-      "id": "d",
-      "label": "10% van 100 is 10"
+      "id": "gelijk",
+      "label": "Even groot"
     }
   ],
-  "answers": [
-    "a",
-    "c",
-    "d"
-  ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: 50% van 20=10. C: 25% van 20=5. D: 10% van 100=10.",
+  "hint1": "Reken beide uit.",
+  "hint2": "2⁵ = 32 en 5² = 25.",
+  "explanation": "2⁵ = 32 > 5² = 25.",
   "classLevels": [
     "vwo-6"
   ]

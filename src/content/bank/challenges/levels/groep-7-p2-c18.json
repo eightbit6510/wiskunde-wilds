@@ -1,14 +1,32 @@
 {
   "id": "groep-7-p2-c18",
-  "type": "number-input",
+  "type": "multiple-choice",
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 4 rode ballonnen horen 3 blauwe. Je hebt 16 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 12,
-  "hint1": "Deel 16 door 4.",
-  "hint2": "Dat getal × 3 = 12.",
-  "explanation": "16 ÷ 4 = 4.\n4 × 3 = 12.",
+  "question": "Paraboolvallei — Vergelijk y = x² met y = x² + 2. Wat gebeurt er met de grafiek?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "De grafiek schuift 2 omhoog"
+    },
+    {
+      "id": "b",
+      "label": "De grafiek schuift 2 naar rechts"
+    },
+    {
+      "id": "c",
+      "label": "Wordt een rechte lijn"
+    },
+    {
+      "id": "d",
+      "label": "Alle y worden 2 kleiner"
+    }
+  ],
+  "hint1": "Bij x = 0: y = 2 in plaats van 0.",
+  "hint2": "Elke y krijgt +2.",
+  "explanation": "De parabool schuift 2 omhoog.",
   "classLevels": [
     "groep-7"
   ]

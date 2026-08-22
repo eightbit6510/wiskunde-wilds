@@ -1,28 +1,14 @@
 {
   "id": "vwo-4-p2-c19",
-  "type": "multiple-choice",
-  "topic": "algebra",
+  "type": "number-input",
+  "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 3x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "8x"
-    },
-    {
-      "id": "b",
-      "label": "15x"
-    },
-    {
-      "id": "c",
-      "label": "8"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 3x = (5+3)x",
-  "explanation": "5x + 3x = 8x",
+  "question": "√64 = ?",
+  "answer": 8,
+  "hint1": "Welk getal keer zichzelf geeft 64?",
+  "hint2": "8 × 8 = 64.",
+  "explanation": "√64 = 8.",
   "classLevels": [
     "vwo-4"
   ]
