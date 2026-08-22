@@ -1,0 +1,15 @@
+{
+  "id": "mavo-3-c18",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Oppervlakte A = lengte × breedte. A = 40, lengte = 10. Wat is de breedte?",
+  "answer": 4,
+  "hint1": "Deel A door lengte.",
+  "hint2": "b = 40 ÷ 10",
+  "explanation": "b = A ÷ l = 40 ÷ 10 = 4",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

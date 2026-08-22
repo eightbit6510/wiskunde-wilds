@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-2-c33",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Zoek wat onbekend is — draai de formule om.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Breedte vinden (A=35, lengte=5)"
+          },
+          {
+            "id": "wrong",
+            "label": "Lengte en breedte optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=35, lengte=5.",
+        "question": "Welke grootte zoek je?",
+        "options": [
+          {
+            "id": "b",
+            "label": "Breedte"
+          },
+          {
+            "id": "a",
+            "label": "Oppervlakte"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Goed — breedte is onbekend.",
+        "retryFeedback": "Oppervlakte en lengte zijn gegeven."
+      },
+      {
+        "explanation": "Stap 3: draai de formule om.\nbreedte = A ÷ lengte = 35 ÷ 5",
+        "question": "35 ÷ 5 = ?",
+        "options": [
+          {
+            "id": "b",
+            "label": "7"
+          },
+          {
+            "id": "w",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Breedte = 7.",
+        "retryFeedback": "Deel 35 door 5."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "5 × 7 = 35?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! Breedte = 7.",
+        "retryFeedback": "5 × 7 moet 35 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 b = 7"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-2-c33-b1",
+      "type": "number-input",
+      "question": "A = 40, l = 5. b = ?",
+      "answer": 8,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Deel oppervlakte door lengte.",
+      "explanation": "Deel oppervlakte door lengte."
+    },
+    {
+      "id": "vwo-2-c33-b2",
+      "type": "number-input",
+      "question": "A = 35, l = 5. b = ?",
+      "answer": 7,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "b = 35 ÷ 5.",
+      "explanation": "b = 35 ÷ 5."
+    }
+  ]
+}

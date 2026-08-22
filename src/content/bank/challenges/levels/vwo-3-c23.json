@@ -1,0 +1,29 @@
+{
+  "id": "vwo-3-c23",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Een formule is y = 4x. Welke tabel hoort daarbij?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "x: 1→4, 2→8, 3→12"
+    },
+    {
+      "id": "b",
+      "label": "x: 1→5, 2→6, 3→7"
+    },
+    {
+      "id": "c",
+      "label": "x: 1→1, 2→2, 3→3"
+    }
+  ],
+  "hint1": "Vermenigvuldig elke x met 4.",
+  "hint2": "Bij x = 3 hoort y = 12.",
+  "explanation": "y = 4x betekent: y is steeds 4 keer x.\nBij x = 3: y = 12.",
+  "classLevels": [
+    "vwo-3"
+  ]
+}

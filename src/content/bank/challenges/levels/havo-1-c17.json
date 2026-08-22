@@ -1,0 +1,15 @@
+{
+  "id": "havo-1-c17",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Verhouding 3:5. De eerste deelgroep is 9. Hoe groot is de tweede?",
+  "answer": 15,
+  "hint1": "Deel 9 door 3 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 5 = 15.",
+  "explanation": "9 ÷ 3 = 3.\n3 × 5 = 15.",
+  "classLevels": [
+    "havo-1"
+  ]
+}

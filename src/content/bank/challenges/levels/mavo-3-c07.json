@@ -1,0 +1,29 @@
+{
+  "id": "mavo-3-c07",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 3x + 5x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "8x"
+    },
+    {
+      "id": "b",
+      "label": "15x"
+    },
+    {
+      "id": "c",
+      "label": "8"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "3x + 5x = (3+5)x",
+  "explanation": "3x + 5x = 8x",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

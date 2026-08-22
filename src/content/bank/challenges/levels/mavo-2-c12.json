@@ -1,0 +1,36 @@
+{
+  "id": "mavo-2-c12",
+  "type": "multi-select",
+  "topic": "redeneren",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Een vierkant heeft vier gelijke zijden"
+    },
+    {
+      "id": "b",
+      "label": "Elke rechthoek is een vierkant"
+    },
+    {
+      "id": "c",
+      "label": "De som van hoeken in een driehoek is 180°"
+    },
+    {
+      "id": "d",
+      "label": "Een cirkel heeft vier hoeken"
+    }
+  ],
+  "answers": [
+    "a",
+    "c"
+  ],
+  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
+  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
+  "explanation": "A en C kloppen.\nB: niet elke rechthoek is vierkant.\nD: cirkel heeft geen hoeken.",
+  "classLevels": [
+    "mavo-2"
+  ]
+}

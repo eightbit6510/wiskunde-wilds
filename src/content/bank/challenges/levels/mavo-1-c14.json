@@ -1,0 +1,16 @@
+{
+  "id": "mavo-1-c14",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 3 = 9. Wat is x?",
+  "answer": 6,
+  "hint1": "Haal 3 naar de andere kant: x = 9 − 3.",
+  "hint2": "x = 9 − 3",
+  "optionalWorkedFirstStep": "x + 3 = 9 → x = 9 − 3",
+  "explanation": "x + 3 = 9\nx = 9 − 3 = 6",
+  "classLevels": [
+    "mavo-1"
+  ]
+}

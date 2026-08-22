@@ -1,0 +1,15 @@
+{
+  "id": "mavo-1-c17",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Oppervlakte A = lengte × breedte. A = 56, lengte = 8. Wat is de breedte?",
+  "answer": 7,
+  "hint1": "Deel A door lengte.",
+  "hint2": "b = 56 ÷ 8",
+  "explanation": "b = A ÷ l = 56 ÷ 8 = 7",
+  "classLevels": [
+    "mavo-1"
+  ]
+}

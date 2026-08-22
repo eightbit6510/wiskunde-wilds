@@ -1,0 +1,139 @@
+{
+  "challengeId": "vwo-5-c06",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Alle WAARHE uitspraken kiezen (multi-select)"
+          },
+          {
+            "id": "wrong",
+            "label": "Precies één antwoord kiezen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Bij optellen: van −3 naar rechts.",
+        "question": "Wat is −3 + 5?",
+        "options": [
+          {
+            "id": "2",
+            "label": "2"
+          },
+          {
+            "id": "m8",
+            "label": "−8"
+          }
+        ],
+        "correctAnswer": "2",
+        "successFeedback": "A is waar.",
+        "retryFeedback": "−3+5=2."
+      },
+      {
+        "explanation": "B zegt −3+5=−8.",
+        "question": "Klopt B?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "no",
+        "successFeedback": "B is onwaar.",
+        "retryFeedback": "Je gaat omhoog, niet verder omlaag."
+      },
+      {
+        "explanation": "C: 4 − 7. Onder nul.",
+        "question": "Wat is 4 − 7?",
+        "options": [
+          {
+            "id": "m3",
+            "label": "−3"
+          },
+          {
+            "id": "3",
+            "label": "3"
+          }
+        ],
+        "correctAnswer": "m3",
+        "successFeedback": "C is waar.",
+        "retryFeedback": "4−7=−3."
+      },
+      {
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
+        "options": [
+          {
+            "id": "ac",
+            "label": "A en C"
+          },
+          {
+            "id": "ab",
+            "label": "A en B"
+          },
+          {
+            "id": "cd",
+            "label": "C en D"
+          }
+        ],
+        "correctAnswer": "ac",
+        "successFeedback": "A en C kloppen.",
+        "retryFeedback": "B en D niet."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-5-c06-b1",
+      "type": "multiple-choice",
+      "question": "−5 + 8 = ?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "−3"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "−5+8=3.",
+      "explanation": "−5+8=3."
+    },
+    {
+      "id": "vwo-5-c06-b2",
+      "type": "multiple-choice",
+      "question": "2 − 6 = ?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "−4"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "2−6=−4.",
+      "explanation": "2−6=−4."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "havo-2-l7",
+  "adventureId": "havo-2",
+  "order": 7,
+  "areaName": "Goniometrie",
+  "title": "Hoeken met sin & cos",
+  "emoji": "📐",
+  "intro": "Rechthoekige driehoeken en goniometrie.",
+  "color": "#7A6B5A",
+  "placements": [
+    {
+      "challengeId": "havo-2-c31",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "havo-2-c32",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "havo-2-c33",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "havo-2-c34",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "havo-2-c35",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 4
+    }
+  ]
+}

@@ -41,6 +41,13 @@ import {
   SIDE_MANIFEST,
   validateMigratedContent,
 } from './loader';
+import {
+  CLASS_LEVEL_IDS,
+  CHALLENGES_PER_LEVEL,
+  LEVEL_LESSON_COUNT,
+  normalizeClassLevel,
+} from './classLevels';
+import { validateAllLevelBundles, validateLevelBundle, LEVEL_CONTENT_IDS, loadLessonsForClassLevel } from './levelLoader';
 
 const LEGACY_PART1 = [
   withOwlHelp(lesson1, lesson1Owl),
@@ -111,5 +118,52 @@ describe('content loader (Fase 1 — volledige migratie)', () => {
 
   it('returns undefined for unknown lesson ids', () => {
     expect(loadLessonFromContent('onbekend')).toBeUndefined();
+  });
+});
+
+describe('jaargroep level bundles (Fase 4)', () => {
+  it('generates content for all 18 class levels', () => {
+    expect(LEVEL_CONTENT_IDS).toHaveLength(CLASS_LEVEL_IDS.length);
+    expect(LEVEL_CONTENT_IDS.sort()).toEqual([...CLASS_LEVEL_IDS].sort());
+  });
+
+  it.each(CLASS_LEVEL_IDS)('validates level bundle %s without errors', (level) => {
+    const result = validateLevelBundle(level);
+    expect(result.ok).toBe(true);
+    expect(result.issues.filter((i) => i.severity === 'error')).toEqual([]);
+  });
+
+  it('validates all level bundles in one pass', () => {
+    const result = validateAllLevelBundles();
+    expect(result.ok).toBe(true);
+  });
+
+  it('has 40 challenges and 8 lessons per level', () => {
+    for (const level of CLASS_LEVEL_IDS) {
+      const result = validateLevelBundle(level);
+      expect(result.ok).toBe(true);
+    }
+    expect(CHALLENGES_PER_LEVEL).toBe(40);
+    expect(LEVEL_LESSON_COUNT).toBe(8);
+  });
+
+  it('migrates legacy havo-6 to havo-5', () => {
+    expect(normalizeClassLevel('havo-6')).toBe('havo-5');
+    expect(CLASS_LEVEL_IDS).not.toContain('havo-6');
+  });
+
+  it('gives every level challenge ≥3 owl help steps', () => {
+    for (const level of CLASS_LEVEL_IDS) {
+      const lessons = loadLessonsForClassLevel(level);
+      for (const lesson of lessons) {
+        for (const c of lesson.challenges) {
+          expect(c.owlHelp?.steps.length ?? 0, c.id).toBeGreaterThanOrEqual(3);
+          if (c.difficulty === 3) {
+            expect(c.owlHelp?.steps.length ?? 0, c.id).toBeGreaterThanOrEqual(4);
+          }
+          expect(c.bonusVariants?.length ?? 0, c.id).toBeGreaterThanOrEqual(1);
+        }
+      }
+    }
   });
 });

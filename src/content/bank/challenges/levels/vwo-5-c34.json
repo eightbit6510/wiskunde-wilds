@@ -1,0 +1,15 @@
+{
+  "id": "vwo-5-c34",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 3,
+  "starsAvailable": 3,
+  "question": "Bereken: 5^6",
+  "answer": 15625,
+  "hint1": "5 × 5 × …",
+  "hint2": "Vermenigvuldig 5 6 keer met zichzelf.",
+  "explanation": "5^6 = 15625",
+  "classLevels": [
+    "vwo-5"
+  ]
+}

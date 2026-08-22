@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-3-c20",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 11 = 15"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +11 weg is.\n\nWat doe je met +11?",
+        "question": "Hoe haal je +11 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "11 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "11 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\nx + 11 = 15 → x = 15 − 11",
+        "question": "Wat is 15 − 11?",
+        "options": [
+          {
+            "id": "x",
+            "label": "4"
+          },
+          {
+            "id": "wrong",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 4.",
+        "retryFeedback": "Reken uit: 15 − 11."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Klopt x + 11 = 15 als x = 4?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 4 + 11 = 15"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 4!",
+        "retryFeedback": "Reken na: 4 + 11 moet 15 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 4"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-3-c20-b1",
+      "type": "number-input",
+      "question": "Los op: x + 13 = 17.",
+      "answer": 4,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 17 − 13 = 4.",
+      "explanation": "x = 17 − 13 = 4."
+    },
+    {
+      "id": "vwo-3-c20-b2",
+      "type": "number-input",
+      "question": "Los op: x + 11 = 20.",
+      "answer": 9,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 20 − 11.",
+      "explanation": "x = 20 − 11."
+    }
+  ]
+}

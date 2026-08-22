@@ -1,0 +1,16 @@
+{
+  "id": "vwo-2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 4 = 7. Wat is x?",
+  "answer": 3,
+  "hint1": "Haal 4 naar de andere kant: x = 7 − 4.",
+  "hint2": "x = 7 − 4",
+  "optionalWorkedFirstStep": "x + 4 = 7 → x = 7 − 4",
+  "explanation": "x + 4 = 7\nx = 7 − 4 = 3",
+  "classLevels": [
+    "vwo-2"
+  ]
+}

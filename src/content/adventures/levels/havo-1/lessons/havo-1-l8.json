@@ -1,0 +1,37 @@
+{
+  "id": "havo-1-l8",
+  "adventureId": "havo-1",
+  "order": 8,
+  "areaName": "Examenklif",
+  "title": "Alles samen",
+  "emoji": "🦉",
+  "intro": "Mix van onderwerpen — examenniveau.",
+  "color": "#9B6B8A",
+  "placements": [
+    {
+      "challengeId": "havo-1-c36",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "havo-1-c37",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "havo-1-c38",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "havo-1-c39",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "havo-1-c40",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 4
+    }
+  ]
+}

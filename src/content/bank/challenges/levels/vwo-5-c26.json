@@ -1,0 +1,16 @@
+{
+  "id": "vwo-5-c26",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 8 = 16. Wat is x?",
+  "answer": 8,
+  "hint1": "Haal 8 naar de andere kant: x = 16 − 8.",
+  "hint2": "x = 16 − 8",
+  "optionalWorkedFirstStep": "x + 8 = 16 → x = 16 − 8",
+  "explanation": "x + 8 = 16\nx = 16 − 8 = 8",
+  "classLevels": [
+    "vwo-5"
+  ]
+}

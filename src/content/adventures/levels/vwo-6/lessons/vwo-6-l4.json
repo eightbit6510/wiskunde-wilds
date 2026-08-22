@@ -1,0 +1,37 @@
+{
+  "id": "vwo-6-l4",
+  "adventureId": "vwo-6",
+  "order": 4,
+  "areaName": "Kwadratisch domein",
+  "title": "Kwadratisch",
+  "emoji": "👑",
+  "intro": "Parabolen, discriminant, abc-formule.",
+  "color": "#8B6B9E",
+  "placements": [
+    {
+      "challengeId": "vwo-6-c16",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "vwo-6-c17",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "vwo-6-c18",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "vwo-6-c19",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "vwo-6-c20",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 4
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import type { AdventureManifest, HelpPersonaId } from '../types/content';
+import { isClassLevel } from './classLevels';
 import part1Manifest from './adventures/part1/manifest.json';
 import part2Manifest from './adventures/part2/manifest.json';
 import sideManifest from './adventures/side/manifest.json';
@@ -10,6 +11,10 @@ const SIDE = unwrapJsonModule(sideManifest) as AdventureManifest;
 
 /** Bepaal welke hulppersona bij een les hoort (via avontuur-manifest). */
 export function getHelpPersonaIdForLesson(lessonId: string): HelpPersonaId {
+  const levelPrefix = lessonId.split('-l')[0];
+  if (isClassLevel(levelPrefix)) {
+    return 'uil';
+  }
   if ((PART1.lessonIds as readonly string[]).includes(lessonId)) {
     return PART1.helpPersonaId;
   }

@@ -1,0 +1,16 @@
+{
+  "id": "mavo-4-c26",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 6 = 10. Wat is x?",
+  "answer": 4,
+  "hint1": "Haal 6 naar de andere kant: x = 10 − 6.",
+  "hint2": "x = 10 − 6",
+  "optionalWorkedFirstStep": "x + 6 = 10 → x = 10 − 6",
+  "explanation": "x + 6 = 10\nx = 10 − 6 = 4",
+  "classLevels": [
+    "mavo-4"
+  ]
+}

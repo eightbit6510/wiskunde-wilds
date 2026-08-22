@@ -1,5 +1,6 @@
 import type { ProgressState } from '../../types';
 import type { ClassLevel, HelpPersona } from '../../types/content';
+import { CLASS_LEVEL_GROUPS } from '../../content/classLevels';
 import { getHelpPersona } from '../../content/personas';
 
 export type AuthWizardMode = 'register' | 'login';
@@ -33,13 +34,17 @@ export function getWizardSpeech(input: {
   persona: HelpPersona;
   displayName: string;
   nameHint?: string | null;
+  classOnly?: boolean;
 }): string {
-  const { step, mode, persona, displayName, nameHint } = input;
+  const { step, mode, persona, displayName, nameHint, classOnly } = input;
   const guide = getGuideName(persona);
   const name = displayName.trim();
 
   switch (step) {
     case 'choose-mode':
+      if (classOnly) {
+        return `Hoi! Ik ben ${guide}. In welke jaargroep zit je? Dan kies ik passende sommen voor je.`;
+      }
       return `Hoi! Ik ben ${guide}. Wil je je avontuur bewaren zodat je het later verder kunt spelen?`;
     case 'name':
       if (mode === 'login') {
@@ -60,9 +65,12 @@ export function getWizardSpeech(input: {
         : 'Typ je code nog één keer.';
     case 'class':
       return name
-        ? `${name}, in welke groep zit je? Dat mag je ook overslaan.`
-        : 'In welke groep zit je? Dat mag je overslaan.';
+        ? `${name}, in welke jaargroep zit je? Kies wat het best past — dat bepaalt je sommen.`
+        : 'In welke jaargroep zit je? Kies wat het best past.';
     case 'success':
+      if (classOnly) {
+        return 'Top! Je jaargroep staat klaar. Veel plezier met je avontuur!';
+      }
       if (mode === 'login' && name) {
         return `Top ${name}! Je avontuur staat klaar. Veel plezier in Wiskunde Wilds!`;
       }
@@ -76,12 +84,13 @@ export function getWizardSpeech(input: {
   }
 }
 
-export const CLASS_OPTIONS: { value: ClassLevel; label: string }[] = [
-  { value: 'groep-7', label: 'Groep 7' },
-  { value: 'groep-8', label: 'Groep 8' },
-  { value: 'vwo2', label: 'VWO 2' },
-  { value: 'vwo3', label: 'VWO 3' },
-];
+/** Alle 18 jaargroepen, gegroepeerd voor de wizard */
+export { CLASS_LEVEL_GROUPS };
+
+/** Flat list voor backwards compat */
+export const CLASS_OPTIONS: { value: ClassLevel; label: string }[] = CLASS_LEVEL_GROUPS.flatMap(
+  (g) => g.levels,
+);
 
 export function getRegisterSteps(): AuthWizardStep[] {
   return ['choose-mode', 'name', 'pin', 'pin-confirm', 'class', 'success'];
@@ -89,6 +98,10 @@ export function getRegisterSteps(): AuthWizardStep[] {
 
 export function getLoginSteps(): AuthWizardStep[] {
   return ['choose-mode', 'name', 'pin', 'success'];
+}
+
+export function getClassOnlySteps(): AuthWizardStep[] {
+  return ['class', 'success'];
 }
 
 export function getStepIndex(steps: AuthWizardStep[], step: AuthWizardStep): number {

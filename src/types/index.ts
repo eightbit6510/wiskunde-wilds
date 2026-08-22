@@ -194,8 +194,8 @@ export interface Lesson {
   intro: string;
   color: string;
   challenges: Challenge[];
-  /** Optional: part1 | part2 | side */
-  adventureId?: 'part1' | 'part2' | 'side';
+  /** Optional: part1 | part2 | side | jaargroep-id */
+  adventureId?: import('./content').AdventureId;
   /** Story blurb shown after completing this chapter */
   outroStory?: string;
   /** Short map teaser (esp. when locked / preview) */
@@ -266,6 +266,8 @@ export interface SettingsState {
   soundEnabled: boolean;
   animationsEnabled: boolean;
   calmMode: boolean;
+  /** Lokale jaargroep (offline of vóór cloud sync) */
+  classLevel: import('./content').ClassLevel | null;
 }
 
 export interface BadgeDefinition {

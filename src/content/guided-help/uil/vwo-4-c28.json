@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-4-c28",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Macht = hetzelfde getal steeds opnieuw vermenigvuldigen.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "3^5 uitrekenen"
+          },
+          {
+            "id": "wrong",
+            "label": "3 × 5 uitrekenen (dat is fout!)"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: 3^5 = 3 vermenigvuldigd 5 keer.\n\nDe exponent 5 telt hoe vaak je vermenigvuldigt.",
+        "question": "Wat betekent de exponent?",
+        "options": [
+          {
+            "id": "repeat",
+            "label": "3 5 keer vermenigvuldigen"
+          },
+          {
+            "id": "times",
+            "label": "3 × 5"
+          }
+        ],
+        "correctAnswer": "repeat",
+        "successFeedback": "Juist — herhalen, niet × de exponent.",
+        "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
+      },
+      {
+        "explanation": "Stap 3: 3×3=9, dan ×3=27….",
+        "question": "Wat is 3^5?",
+        "options": [
+          {
+            "id": "a",
+            "label": "243"
+          },
+          {
+            "id": "b",
+            "label": "15"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Goed: 3^5 = 243.",
+        "retryFeedback": "Niet 3×5, maar herhaald vermenigvuldigen."
+      },
+      {
+        "explanation": "Stappenplan voor dit type som:\n1. 3^5 = 3 vermenigvuldigd 5 keer\n2. Niet 3×5\n3. Antwoord: 243",
+        "question": "Bevestig: 3^5 = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "243"
+          },
+          {
+            "id": "b",
+            "label": "246"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! 3^5 = 243.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 3^5 = 243"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-4-c28-b1",
+      "type": "number-input",
+      "question": "Bereken: 3^6",
+      "answer": 729,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog ×3.",
+      "explanation": "Nog ×3."
+    },
+    {
+      "id": "vwo-4-c28-b2",
+      "type": "number-input",
+      "question": "Bereken: 3^5",
+      "answer": 243,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "3^5 = 243.",
+      "explanation": "3^5 = 243."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "havo-5-c08",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 10 = 17. Wat is x?",
+  "answer": 7,
+  "hint1": "Haal 10 naar de andere kant: x = 17 − 10.",
+  "hint2": "x = 17 − 10",
+  "optionalWorkedFirstStep": "x + 10 = 17 → x = 17 − 10",
+  "explanation": "x + 10 = 17\nx = 17 − 10 = 7",
+  "classLevels": [
+    "havo-5"
+  ]
+}

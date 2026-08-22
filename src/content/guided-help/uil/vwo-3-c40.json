@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-3-c40",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Macht = hetzelfde getal steeds opnieuw vermenigvuldigen.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "2^4 uitrekenen"
+          },
+          {
+            "id": "wrong",
+            "label": "2 × 4 uitrekenen (dat is fout!)"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: 2^4 = 2 vermenigvuldigd 4 keer.\n\nDe exponent 4 telt hoe vaak je vermenigvuldigt.",
+        "question": "Wat betekent de exponent?",
+        "options": [
+          {
+            "id": "repeat",
+            "label": "2 4 keer vermenigvuldigen"
+          },
+          {
+            "id": "times",
+            "label": "2 × 4"
+          }
+        ],
+        "correctAnswer": "repeat",
+        "successFeedback": "Juist — herhalen, niet × de exponent.",
+        "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
+      },
+      {
+        "explanation": "Stap 3: 2×2=4, dan ×2=8….",
+        "question": "Wat is 2^4?",
+        "options": [
+          {
+            "id": "a",
+            "label": "16"
+          },
+          {
+            "id": "b",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Goed: 2^4 = 16.",
+        "retryFeedback": "Niet 2×4, maar herhaald vermenigvuldigen."
+      },
+      {
+        "explanation": "Stap 4: antwoord invullen.",
+        "question": "2^4 = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "16"
+          },
+          {
+            "id": "b",
+            "label": "18"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Super! Antwoord = 16.",
+        "retryFeedback": "Reken 2 vermenigvuldigd 4 keer uit."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 2^4 = 16"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-3-c40-b1",
+      "type": "number-input",
+      "question": "Bereken: 2^5",
+      "answer": 32,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog ×2.",
+      "explanation": "Nog ×2."
+    },
+    {
+      "id": "vwo-3-c40-b2",
+      "type": "number-input",
+      "question": "Bereken: 2^4",
+      "answer": 16,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "2^4 = 16.",
+      "explanation": "2^4 = 16."
+    }
+  ]
+}

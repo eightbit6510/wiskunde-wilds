@@ -1,0 +1,98 @@
+{
+  "challengeId": "havo-2-c24",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Zoek wat onbekend is — draai de formule om.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Breedte vinden (A=15, lengte=3)"
+          },
+          {
+            "id": "wrong",
+            "label": "Lengte en breedte optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=15, lengte=3.",
+        "question": "Welke grootte zoek je?",
+        "options": [
+          {
+            "id": "b",
+            "label": "Breedte"
+          },
+          {
+            "id": "a",
+            "label": "Oppervlakte"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Goed — breedte is onbekend.",
+        "retryFeedback": "Oppervlakte en lengte zijn gegeven."
+      },
+      {
+        "explanation": "Stap 3: draai de formule om.\nbreedte = A ÷ lengte = 15 ÷ 3",
+        "question": "15 ÷ 3 = ?",
+        "options": [
+          {
+            "id": "b",
+            "label": "5"
+          },
+          {
+            "id": "w",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Breedte = 5.",
+        "retryFeedback": "Deel 15 door 3."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "3 × 5 = 15?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! Breedte = 5.",
+        "retryFeedback": "3 × 5 moet 15 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 b = 5"
+  },
+  "bonusVariants": [
+    {
+      "id": "havo-2-c24-b1",
+      "type": "number-input",
+      "question": "A = 18, l = 3. b = ?",
+      "answer": 6,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Deel oppervlakte door lengte.",
+      "explanation": "Deel oppervlakte door lengte."
+    },
+    {
+      "id": "havo-2-c24-b2",
+      "type": "number-input",
+      "question": "A = 15, l = 3. b = ?",
+      "answer": 5,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "b = 15 ÷ 3.",
+      "explanation": "b = 15 ÷ 3."
+    }
+  ]
+}

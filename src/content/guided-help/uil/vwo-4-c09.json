@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-4-c09",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij x² = getal zoek je welk positief getal keer zichzelf dat getal geeft.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x vinden in x² = 25 (x positief)"
+          },
+          {
+            "id": "wrong",
+            "label": "x = 25 ÷ 2"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x² betekent x × x.\n\nWe zoeken: welk getal × zichzelf = 25?",
+        "question": "x² = x × x. Klopt dat?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — kwadraat = keer zichzelf.",
+        "retryFeedback": "x² is niet x×2."
+      },
+      {
+        "explanation": "Stap 3: probeer 5.\n5 × 5 = 25",
+        "question": "5² = ?",
+        "options": [
+          {
+            "id": "sq",
+            "label": "25"
+          },
+          {
+            "id": "wrong",
+            "label": "26"
+          }
+        ],
+        "correctAnswer": "sq",
+        "successFeedback": "Juist: x = 5.",
+        "retryFeedback": "Probeer 5 × 5."
+      },
+      {
+        "explanation": "Stap 4: controle.",
+        "question": "x = 5 positief en 5²=25?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! x = 5.",
+        "retryFeedback": "5 is positief en 5²=25."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 5"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-4-c09-b1",
+      "type": "number-input",
+      "question": "x² = 36 (x positief)",
+      "answer": 6,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde methode.",
+      "explanation": "Zelfde methode."
+    },
+    {
+      "id": "vwo-4-c09-b2",
+      "type": "number-input",
+      "question": "x² = 25 (x positief)",
+      "answer": 5,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "5² = 25.",
+      "explanation": "5² = 25."
+    }
+  ]
+}

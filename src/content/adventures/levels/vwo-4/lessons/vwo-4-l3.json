@@ -1,0 +1,37 @@
+{
+  "id": "vwo-4-l3",
+  "adventureId": "vwo-4",
+  "order": 3,
+  "areaName": "Machtenput",
+  "title": "Machten & wortels",
+  "emoji": "⚡",
+  "intro": "Exponenten en wortels onder controle.",
+  "color": "#6B7FA8",
+  "placements": [
+    {
+      "challengeId": "vwo-4-c11",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "vwo-4-c12",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "vwo-4-c13",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "vwo-4-c14",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "vwo-4-c15",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 4
+    }
+  ]
+}

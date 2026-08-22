@@ -1,0 +1,37 @@
+{
+  "id": "mavo-1-l2",
+  "adventureId": "mavo-1",
+  "order": 2,
+  "areaName": "Breukenwerk",
+  "title": "Breuken & procent",
+  "emoji": "💯",
+  "intro": "Breuken, decimalen en procenten in de praktijk.",
+  "color": "#5B8A72",
+  "placements": [
+    {
+      "challengeId": "mavo-1-c06",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "mavo-1-c07",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "mavo-1-c08",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "mavo-1-c09",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "mavo-1-c10",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 4
+    }
+  ]
+}

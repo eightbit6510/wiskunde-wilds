@@ -1,0 +1,37 @@
+{
+  "id": "havo-1-l4",
+  "adventureId": "havo-1",
+  "order": 4,
+  "areaName": "Grafiekenhaven",
+  "title": "Grafieken",
+  "emoji": "⚓",
+  "intro": "Lezen, tekenen, interpreteren.",
+  "color": "#8B6B9E",
+  "placements": [
+    {
+      "challengeId": "havo-1-c16",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "havo-1-c17",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "havo-1-c18",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "havo-1-c19",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "havo-1-c20",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 4
+    }
+  ]
+}

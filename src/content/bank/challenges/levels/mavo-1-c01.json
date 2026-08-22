@@ -1,0 +1,16 @@
+{
+  "id": "mavo-1-c01",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 5/3 + 3/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 19,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "5/3 + 3/2 = 19/6",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 6.",
+  "explanation": "5/3 + 3/2 = 19/6 = 19",
+  "classLevels": [
+    "mavo-1"
+  ]
+}

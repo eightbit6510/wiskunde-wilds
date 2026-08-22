@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-8-c16",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Tweede deel vinden bij verhouding 3:2"
+          },
+          {
+            "id": "wrong",
+            "label": "De getallen 3 en 2 direct optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: verhouding 3:2 betekent steeds dezelfde factor.\n\nEerste deel = 9.",
+        "question": "Hoeveel keer past 3 in 9? (schaalfactor)",
+        "options": [
+          {
+            "id": "f",
+            "label": "3"
+          },
+          {
+            "id": "w",
+            "label": "4"
+          }
+        ],
+        "correctAnswer": "f",
+        "successFeedback": "Goed — schaalfactor = 3.",
+        "retryFeedback": "Deel 9 door 3."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
+        "question": "Tweede deel = 3 × 2 = ?",
+        "options": [
+          {
+            "id": "o",
+            "label": "6"
+          },
+          {
+            "id": "w",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "o",
+        "successFeedback": "Klopt: 6.",
+        "retryFeedback": "(9 ÷ 3) × 2 = 6."
+      },
+      {
+        "explanation": "Stap 4: controleer de verhouding.",
+        "question": "Klopt 9:6 = 3:2?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. Antwoord = 6.",
+        "retryFeedback": "Deel 9 door 3, vermenigvuldig met 2."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 6."
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-8-c16-b1",
+      "type": "number-input",
+      "question": "Verhouding 3:2, eerste = 12. Tweede?",
+      "answer": 8,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde schaalfactor.",
+      "explanation": "Zelfde schaalfactor."
+    },
+    {
+      "id": "groep-8-c16-b2",
+      "type": "number-input",
+      "question": "Verhouding 3:2, eerste = 9. Tweede?",
+      "answer": 6,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "9 ÷ 3 × 2.",
+      "explanation": "9 ÷ 3 × 2."
+    }
+  ]
+}

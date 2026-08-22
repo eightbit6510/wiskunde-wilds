@@ -1,0 +1,15 @@
+{
+  "id": "havo-3-c21",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Oppervlakte A = lengte × breedte. A = 49, lengte = 7. Wat is de breedte?",
+  "answer": 7,
+  "hint1": "Deel A door lengte.",
+  "hint2": "b = 49 ÷ 7",
+  "explanation": "b = A ÷ l = 49 ÷ 7 = 7",
+  "classLevels": [
+    "havo-3"
+  ]
+}

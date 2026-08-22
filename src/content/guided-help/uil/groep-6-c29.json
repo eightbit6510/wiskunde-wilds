@@ -1,0 +1,139 @@
+{
+  "challengeId": "groep-6-c29",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Alle WAARHE uitspraken kiezen (multi-select)"
+          },
+          {
+            "id": "wrong",
+            "label": "Precies één antwoord kiezen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Gemiddelde = som ÷ aantal.",
+        "question": "(2+4+6)÷3 = ?",
+        "options": [
+          {
+            "id": "4",
+            "label": "4"
+          },
+          {
+            "id": "6",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "4",
+        "successFeedback": "A is waar.",
+        "retryFeedback": "12÷3=4."
+      },
+      {
+        "explanation": "B zegt gemiddelde=6.",
+        "question": "Klopt B?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "no",
+        "successFeedback": "B is onwaar.",
+        "retryFeedback": "Gemiddelde is 4."
+      },
+      {
+        "explanation": "Mediaan = middelste getal (gesorteerd).",
+        "question": "Mediaan van 1,3,9?",
+        "options": [
+          {
+            "id": "3",
+            "label": "3"
+          },
+          {
+            "id": "9",
+            "label": "9"
+          }
+        ],
+        "correctAnswer": "3",
+        "successFeedback": "C is waar.",
+        "retryFeedback": "Middelste = 3."
+      },
+      {
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
+        "options": [
+          {
+            "id": "ac",
+            "label": "A en C"
+          },
+          {
+            "id": "ab",
+            "label": "A en B"
+          },
+          {
+            "id": "bd",
+            "label": "B en D"
+          }
+        ],
+        "correctAnswer": "ac",
+        "successFeedback": "A en C kloppen.",
+        "retryFeedback": "B en D niet."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c29-b1",
+      "type": "multiple-choice",
+      "question": "Gemiddelde van 5 en 15?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "10"
+        },
+        {
+          "id": "b",
+          "label": "20"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "(5+15)÷2=10.",
+      "explanation": "(5+15)÷2=10."
+    },
+    {
+      "id": "groep-6-c29-b2",
+      "type": "multiple-choice",
+      "question": "Mediaan van 2, 5, 8?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Middelste = 5.",
+      "explanation": "Middelste = 5."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "groep-7-c23",
+  "type": "multi-select",
+  "topic": "redeneren",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "−3 + 5 = 2"
+    },
+    {
+      "id": "b",
+      "label": "−3 + 5 = −8"
+    },
+    {
+      "id": "c",
+      "label": "4 − 7 = −3"
+    },
+    {
+      "id": "d",
+      "label": "4 − 7 = 3"
+    }
+  ],
+  "answers": [
+    "a",
+    "c"
+  ],
+  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
+  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
+  "explanation": "A: −3+5=2. C: 4−7=−3.",
+  "classLevels": [
+    "groep-7"
+  ]
+}

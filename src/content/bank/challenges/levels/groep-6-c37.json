@@ -1,0 +1,16 @@
+{
+  "id": "groep-6-c37",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 4/5 + 1/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 17,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "4/5 + 1/3 = 17/15",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 15.",
+  "explanation": "4/5 + 1/3 = 17/15 = 17",
+  "classLevels": [
+    "groep-6"
+  ]
+}

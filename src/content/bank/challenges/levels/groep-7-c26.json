@@ -1,0 +1,16 @@
+{
+  "id": "groep-7-c26",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 4 = 13. Wat is x?",
+  "answer": 9,
+  "hint1": "Haal 4 naar de andere kant: x = 13 − 4.",
+  "hint2": "x = 13 − 4",
+  "optionalWorkedFirstStep": "x + 4 = 13 → x = 13 − 4",
+  "explanation": "x + 4 = 13\nx = 13 − 4 = 9",
+  "classLevels": [
+    "groep-7"
+  ]
+}

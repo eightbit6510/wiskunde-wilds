@@ -1,0 +1,118 @@
+{
+  "challengeId": "havo-2-c07",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij gelijke letters tel je alleen de getallen ervoor op.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "3x + 2x vereenvoudigen"
+          },
+          {
+            "id": "wrong",
+            "label": "De getallen 3 en 2 vermenigvuldigen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
+        "question": "Kun je 3x en 2x optellen?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, beide hebben x"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — tel de getallen vóór x op.",
+        "retryFeedback": "Kijk naar de letter: beide hebben x."
+      },
+      {
+        "explanation": "Stap 3: tel coëfficiënten op.\n3 + 2 = 5",
+        "question": "Wat is 3x + 2x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "5x"
+          },
+          {
+            "id": "b",
+            "label": "6x"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Juist: 5x.",
+        "retryFeedback": "Tel 3 en 2 op; x blijft staan."
+      },
+      {
+        "explanation": "Stap 4: kies het juiste antwoord in de som.",
+        "question": "Welke optie klopt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "5x"
+          },
+          {
+            "id": "c",
+            "label": "5"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies — antwoord A: 5x.",
+        "retryFeedback": "3x + 2x = (3+2)x."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 3x + 2x = 5x"
+  },
+  "bonusVariants": [
+    {
+      "id": "havo-2-c07-b1",
+      "type": "multiple-choice",
+      "question": "Vereenvoudig: 4x + 2x",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "6x"
+        },
+        {
+          "id": "b",
+          "label": "6"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Tel 4 + 2.",
+      "explanation": "Tel 4 + 2."
+    },
+    {
+      "id": "havo-2-c07-b2",
+      "type": "multiple-choice",
+      "question": "Vereenvoudig: 3x + 3x",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "6x"
+        },
+        {
+          "id": "b",
+          "label": "6x"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Tel 3 + 3.",
+      "explanation": "Tel 3 + 3."
+    }
+  ]
+}

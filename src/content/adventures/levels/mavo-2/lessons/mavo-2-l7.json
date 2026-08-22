@@ -1,0 +1,37 @@
+{
+  "id": "mavo-2-l7",
+  "adventureId": "mavo-2",
+  "order": 7,
+  "areaName": "Verbandenweg",
+  "title": "Verbanden",
+  "emoji": "🔗",
+  "intro": "Hoe hangen grootheden aan elkaar?",
+  "color": "#7A6B5A",
+  "placements": [
+    {
+      "challengeId": "mavo-2-c31",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "mavo-2-c32",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "mavo-2-c33",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "mavo-2-c34",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "mavo-2-c35",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 4
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "groep-6-c01",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 5/2 + 1/4? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 11,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "5/2 + 1/4 = 11/4",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
+  "explanation": "5/2 + 1/4 = 11/4 = 11",
+  "classLevels": [
+    "groep-6"
+  ]
+}

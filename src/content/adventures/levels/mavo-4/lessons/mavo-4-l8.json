@@ -1,0 +1,37 @@
+{
+  "id": "mavo-4-l8",
+  "adventureId": "mavo-4",
+  "order": 8,
+  "areaName": "Eindproef",
+  "title": "Klaar voor de toets",
+  "emoji": "🎯",
+  "intro": "Alles nog eens — jij bent er klaar voor.",
+  "color": "#9B6B8A",
+  "placements": [
+    {
+      "challengeId": "mavo-4-c36",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "mavo-4-c37",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "mavo-4-c38",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "mavo-4-c39",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "mavo-4-c40",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 4
+    }
+  ]
+}

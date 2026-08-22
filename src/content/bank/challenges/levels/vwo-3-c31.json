@@ -1,0 +1,29 @@
+{
+  "id": "vwo-3-c31",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 5x + 3x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "8x"
+    },
+    {
+      "id": "b",
+      "label": "15x"
+    },
+    {
+      "id": "c",
+      "label": "8"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "5x + 3x = (5+3)x",
+  "explanation": "5x + 3x = 8x",
+  "classLevels": [
+    "vwo-3"
+  ]
+}

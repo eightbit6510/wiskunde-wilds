@@ -1,0 +1,16 @@
+{
+  "id": "vwo-4-c20",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 11 = 14. Wat is x?",
+  "answer": 3,
+  "hint1": "Haal 11 naar de andere kant: x = 14 − 11.",
+  "hint2": "x = 14 − 11",
+  "optionalWorkedFirstStep": "x + 11 = 14 → x = 14 − 11",
+  "explanation": "x + 11 = 14\nx = 14 − 11 = 3",
+  "classLevels": [
+    "vwo-4"
+  ]
+}

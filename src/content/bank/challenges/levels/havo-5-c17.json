@@ -1,0 +1,15 @@
+{
+  "id": "havo-5-c17",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Bereken: 2^5",
+  "answer": 32,
+  "hint1": "2 × 2 × …",
+  "hint2": "Vermenigvuldig 2 5 keer met zichzelf.",
+  "explanation": "2^5 = 32",
+  "classLevels": [
+    "havo-5"
+  ]
+}

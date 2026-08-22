@@ -10,6 +10,7 @@ import { StarCounter } from '../components/StarCounter';
 import { GuidedHelpController } from '../components/guided-help/GuidedHelpController';
 import { getHelpPersona } from '../content/personas';
 import { getHelpPersonaIdForLesson } from '../content/personaForLesson';
+import { useActiveClassLevel } from '../context/ActiveClassLevelContext';
 import { badges } from '../data/badges';
 import { getLesson } from '../data/lessons';
 import type { ProgressApi } from '../hooks/useProgress';
@@ -27,7 +28,8 @@ export function LessonPage({
   settingsApi: SettingsApi;
 }) {
   const { lessonId = '' } = useParams();
-  const lesson = getLesson(lessonId);
+  const classLevel = useActiveClassLevel();
+  const lesson = getLesson(lessonId, classLevel);
   const navigate = useNavigate();
   const {
     progress,

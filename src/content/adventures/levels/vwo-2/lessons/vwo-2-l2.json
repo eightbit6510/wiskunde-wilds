@@ -1,0 +1,37 @@
+{
+  "id": "vwo-2-l2",
+  "adventureId": "vwo-2",
+  "order": 2,
+  "areaName": "Functielab",
+  "title": "Functies",
+  "emoji": "🔬",
+  "intro": "Dieper in verbanden en grafieken.",
+  "color": "#5B8A72",
+  "placements": [
+    {
+      "challengeId": "vwo-2-c06",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "vwo-2-c07",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "vwo-2-c08",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "vwo-2-c09",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "vwo-2-c10",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 4
+    }
+  ]
+}

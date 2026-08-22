@@ -1,0 +1,18 @@
+{
+  "id": "groep-8",
+  "title": "Wiskunde Wilds",
+  "subtitle": "Groep 8 — wiskunde avontuur",
+  "theme": "day",
+  "helpPersonaId": "uil",
+  "lessonIds": [
+    "groep-8-l1",
+    "groep-8-l2",
+    "groep-8-l3",
+    "groep-8-l4",
+    "groep-8-l5",
+    "groep-8-l6",
+    "groep-8-l7",
+    "groep-8-l8"
+  ],
+  "unlockRuleId": "always"
+}

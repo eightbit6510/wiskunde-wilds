@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-6-c14",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 3 = 9"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +3 weg is.\n\nWat doe je met +3?",
+        "question": "Hoe haal je +3 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "3 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "3 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\nx + 3 = 9 → x = 9 − 3",
+        "question": "Wat is 9 − 3?",
+        "options": [
+          {
+            "id": "x",
+            "label": "6"
+          },
+          {
+            "id": "wrong",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 6.",
+        "retryFeedback": "Reken uit: 9 − 3."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Klopt x + 3 = 9 als x = 6?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 6 + 3 = 9"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 6!",
+        "retryFeedback": "Reken na: 6 + 3 moet 9 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 6"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c14-b1",
+      "type": "number-input",
+      "question": "Los op: x + 5 = 11.",
+      "answer": 6,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 11 − 5 = 6.",
+      "explanation": "x = 11 − 5 = 6."
+    },
+    {
+      "id": "groep-6-c14-b2",
+      "type": "number-input",
+      "question": "Los op: x + 3 = 14.",
+      "answer": 11,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 14 − 3.",
+      "explanation": "x = 14 − 3."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "havo-2-l4",
+  "adventureId": "havo-2",
+  "order": 4,
+  "areaName": "Grafiekenhaven",
+  "title": "Grafieken",
+  "emoji": "⚓",
+  "intro": "Lezen, tekenen, interpreteren.",
+  "color": "#8B6B9E",
+  "placements": [
+    {
+      "challengeId": "havo-2-c16",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "havo-2-c17",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "havo-2-c18",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "havo-2-c19",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "havo-2-c20",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 4
+    }
+  ]
+}

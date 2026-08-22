@@ -1,0 +1,37 @@
+{
+  "id": "havo-2-l2",
+  "adventureId": "havo-2",
+  "order": 2,
+  "areaName": "Vergelijkingenklif",
+  "title": "Vergelijkingen",
+  "emoji": "🧗",
+  "intro": "Lineair en steeds lastiger.",
+  "color": "#5B8A72",
+  "placements": [
+    {
+      "challengeId": "havo-2-c06",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "havo-2-c07",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "havo-2-c08",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "havo-2-c09",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "havo-2-c10",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 4
+    }
+  ]
+}

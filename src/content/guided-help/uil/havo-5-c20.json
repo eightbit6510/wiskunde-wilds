@@ -1,0 +1,98 @@
+{
+  "challengeId": "havo-5-c20",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 12 = 16"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +12 weg is.\n\nWat doe je met +12?",
+        "question": "Hoe haal je +12 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "12 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "12 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\nx + 12 = 16 → x = 16 − 12",
+        "question": "Wat is 16 − 12?",
+        "options": [
+          {
+            "id": "x",
+            "label": "4"
+          },
+          {
+            "id": "wrong",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 4.",
+        "retryFeedback": "Reken uit: 16 − 12."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Klopt x + 12 = 16 als x = 4?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 4 + 12 = 16"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 4!",
+        "retryFeedback": "Reken na: 4 + 12 moet 16 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 4"
+  },
+  "bonusVariants": [
+    {
+      "id": "havo-5-c20-b1",
+      "type": "number-input",
+      "question": "Los op: x + 14 = 18.",
+      "answer": 4,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 18 − 14 = 4.",
+      "explanation": "x = 18 − 14 = 4."
+    },
+    {
+      "id": "havo-5-c20-b2",
+      "type": "number-input",
+      "question": "Los op: x + 12 = 21.",
+      "answer": 9,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 21 − 12.",
+      "explanation": "x = 21 − 12."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "havo-5-c29",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 3,
+  "starsAvailable": 3,
+  "question": "Bereken: 2^6",
+  "answer": 64,
+  "hint1": "2 × 2 × …",
+  "hint2": "Vermenigvuldig 2 6 keer met zichzelf.",
+  "explanation": "2^6 = 64",
+  "classLevels": [
+    "havo-5"
+  ]
+}

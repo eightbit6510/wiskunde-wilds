@@ -1,0 +1,37 @@
+{
+  "id": "groep-7-l6",
+  "adventureId": "groep-7",
+  "order": 6,
+  "areaName": "Redeneerrots",
+  "title": "Logisch nadenken",
+  "emoji": "🪨",
+  "intro": "Niet rekenen alleen — ook goed kijken wat klopt.",
+  "color": "#4A7C59",
+  "placements": [
+    {
+      "challengeId": "groep-7-c26",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "groep-7-c27",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "groep-7-c28",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "groep-7-c29",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "groep-7-c30",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 4
+    }
+  ]
+}

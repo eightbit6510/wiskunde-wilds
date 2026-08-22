@@ -1,0 +1,16 @@
+{
+  "id": "groep-8-c13",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 3/5 + 2/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 19,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "3/5 + 2/3 = 19/15",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 15.",
+  "explanation": "3/5 + 2/3 = 19/15 = 19",
+  "classLevels": [
+    "groep-8"
+  ]
+}

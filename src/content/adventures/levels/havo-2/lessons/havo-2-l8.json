@@ -1,0 +1,37 @@
+{
+  "id": "havo-2-l8",
+  "adventureId": "havo-2",
+  "order": 8,
+  "areaName": "Examenklif",
+  "title": "Alles samen",
+  "emoji": "🦉",
+  "intro": "Mix van onderwerpen — examenniveau.",
+  "color": "#9B6B8A",
+  "placements": [
+    {
+      "challengeId": "havo-2-c36",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "havo-2-c37",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "havo-2-c38",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "havo-2-c39",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "havo-2-c40",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 4
+    }
+  ]
+}

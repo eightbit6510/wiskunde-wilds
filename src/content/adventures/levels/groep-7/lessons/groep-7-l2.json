@@ -1,0 +1,37 @@
+{
+  "id": "groep-7-l2",
+  "adventureId": "groep-7",
+  "order": 2,
+  "areaName": "Verhoudingspad",
+  "title": "Evenredig denken",
+  "emoji": "⚖️",
+  "intro": "Op het pad zie je verhoudingen in alledaagse situaties.",
+  "color": "#5B8A72",
+  "placements": [
+    {
+      "challengeId": "groep-7-c06",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "groep-7-c07",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "groep-7-c08",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "groep-7-c09",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "groep-7-c10",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 4
+    }
+  ]
+}

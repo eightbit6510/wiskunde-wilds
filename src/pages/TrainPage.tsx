@@ -2,11 +2,7 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChallengeCard } from '../components/ChallengeCard';
 import { ForestMascot } from '../components/ForestMascot';
-import {
-  getPart2ChallengePool,
-  getReviewChallengePool,
-  part2MainLessons,
-} from '../data/lessons';
+import { useActiveLessons } from '../hooks/useActiveLessons';
 import type { ProgressApi } from '../hooks/useProgress';
 import type { SettingsApi } from '../hooks/useSettings';
 import { buildTrainingSession } from '../utils/mastery';
@@ -22,15 +18,19 @@ export function TrainPage({
   const { progress, completeChallenge, recordWrongAttempt, completeTrainingSession } =
     progressApi;
   const { settings } = settingsApi;
+  const { trainingPool, reviewPool, hasLevelContent, lessons } = useActiveLessons();
+
+  const easyPool = useMemo(
+    () => trainingPool.filter((c) => c.difficulty <= 2),
+    [trainingPool],
+  );
+  const hardPool = useMemo(
+    () => trainingPool.filter((c) => c.difficulty >= 2),
+    [trainingPool],
+  );
 
   const session = useMemo(
-    () =>
-      buildTrainingSession(
-        getReviewChallengePool(),
-        getPart2ChallengePool().filter((c) => c.difficulty <= 2),
-        getPart2ChallengePool().filter((c) => c.difficulty >= 2),
-        progress,
-      ),
+    () => buildTrainingSession(reviewPool, easyPool, hardPool, progress),
     // Only rebuild when starting — freeze for the session
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [],
@@ -42,13 +42,12 @@ export function TrainPage({
 
   const challenge = session[index];
   const lessonId =
-    part2MainLessons.find((l) => l.challenges.some((c) => c.id === challenge?.id))?.id ??
-    'train';
+    lessons.find((l) => l.challenges.some((c) => c.id === challenge?.id))?.id ?? 'train';
 
-  if (!session.length) {
+  if (!hasLevelContent || !session.length) {
     return (
       <div className="card">
-        <p>Nog geen trainingsvragen beschikbaar. Speel eerst wat challenges!</p>
+        <p>Kies eerst je jaargroep op de kaart — dan kun je trainen met passende sommen.</p>
         <Link to="/" className="btn">
           Naar de kaart
         </Link>
@@ -119,7 +118,7 @@ export function TrainPage({
           } else setIndex((i) => i + 1);
         }}
       >
-        Sla over
+        Overslaan
       </button>
     </div>
   );

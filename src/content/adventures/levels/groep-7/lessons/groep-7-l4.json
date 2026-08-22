@@ -1,0 +1,37 @@
+{
+  "id": "groep-7-l4",
+  "adventureId": "groep-7",
+  "order": 4,
+  "areaName": "Grafiekheuvel",
+  "title": "Lezen van grafieken",
+  "emoji": "📊",
+  "intro": "Stijgen, dalen, stilstand — wat vertelt de grafiek?",
+  "color": "#8B6B9E",
+  "placements": [
+    {
+      "challengeId": "groep-7-c16",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "groep-7-c17",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "groep-7-c18",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "groep-7-c19",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "groep-7-c20",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 4
+    }
+  ]
+}

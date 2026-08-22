@@ -1,0 +1,16 @@
+{
+  "id": "mavo-2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 8 = 11. Wat is x?",
+  "answer": 3,
+  "hint1": "Haal 8 naar de andere kant: x = 11 − 8.",
+  "hint2": "x = 11 − 8",
+  "optionalWorkedFirstStep": "x + 8 = 11 → x = 11 − 8",
+  "explanation": "x + 8 = 11\nx = 11 − 8 = 3",
+  "classLevels": [
+    "mavo-2"
+  ]
+}

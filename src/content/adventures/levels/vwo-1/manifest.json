@@ -1,0 +1,18 @@
+{
+  "id": "vwo-1",
+  "title": "Wiskunde Wilds",
+  "subtitle": "VWO 1 — wiskunde avontuur",
+  "theme": "day",
+  "helpPersonaId": "uil",
+  "lessonIds": [
+    "vwo-1-l1",
+    "vwo-1-l2",
+    "vwo-1-l3",
+    "vwo-1-l4",
+    "vwo-1-l5",
+    "vwo-1-l6",
+    "vwo-1-l7",
+    "vwo-1-l8"
+  ],
+  "unlockRuleId": "always"
+}

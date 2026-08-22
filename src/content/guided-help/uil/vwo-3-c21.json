@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-3-c21",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij x² = getal zoek je welk positief getal keer zichzelf dat getal geeft.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x vinden in x² = 16 (x positief)"
+          },
+          {
+            "id": "wrong",
+            "label": "x = 16 ÷ 2"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x² betekent x × x.\n\nWe zoeken: welk getal × zichzelf = 16?",
+        "question": "x² = x × x. Klopt dat?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — kwadraat = keer zichzelf.",
+        "retryFeedback": "x² is niet x×2."
+      },
+      {
+        "explanation": "Stap 3: probeer 4.\n4 × 4 = 16",
+        "question": "4² = ?",
+        "options": [
+          {
+            "id": "sq",
+            "label": "16"
+          },
+          {
+            "id": "wrong",
+            "label": "17"
+          }
+        ],
+        "correctAnswer": "sq",
+        "successFeedback": "Juist: x = 4.",
+        "retryFeedback": "Probeer 4 × 4."
+      },
+      {
+        "explanation": "Stap 4: controle.",
+        "question": "x = 4 positief en 4²=16?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! x = 4.",
+        "retryFeedback": "4 is positief en 4²=16."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 4"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-3-c21-b1",
+      "type": "number-input",
+      "question": "x² = 25 (x positief)",
+      "answer": 5,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde methode.",
+      "explanation": "Zelfde methode."
+    },
+    {
+      "id": "vwo-3-c21-b2",
+      "type": "number-input",
+      "question": "x² = 16 (x positief)",
+      "answer": 4,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "4² = 16.",
+      "explanation": "4² = 16."
+    }
+  ]
+}

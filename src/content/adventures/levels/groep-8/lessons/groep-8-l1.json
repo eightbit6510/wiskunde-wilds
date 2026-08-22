@@ -1,0 +1,37 @@
+{
+  "id": "groep-8-l1",
+  "adventureId": "groep-8",
+  "order": 1,
+  "areaName": "Breukenbos",
+  "title": "Stukjes en heel",
+  "emoji": "🍕",
+  "intro": "In het Breukenbos liggen plakken die je moet combineren. De Uil helpt je tellen.",
+  "color": "#C4784A",
+  "placements": [
+    {
+      "challengeId": "groep-8-c01",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "groep-8-c02",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "groep-8-c03",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "groep-8-c04",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "groep-8-c05",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 4
+    }
+  ]
+}

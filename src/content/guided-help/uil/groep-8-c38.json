@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-8-c38",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 4 = 9"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +4 weg is.\n\nWat doe je met +4?",
+        "question": "Hoe haal je +4 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "4 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "4 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\nx + 4 = 9 → x = 9 − 4",
+        "question": "Wat is 9 − 4?",
+        "options": [
+          {
+            "id": "x",
+            "label": "5"
+          },
+          {
+            "id": "wrong",
+            "label": "7"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 5.",
+        "retryFeedback": "Reken uit: 9 − 4."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Klopt x + 4 = 9 als x = 5?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 5 + 4 = 9"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 5!",
+        "retryFeedback": "Reken na: 5 + 4 moet 9 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 5"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-8-c38-b1",
+      "type": "number-input",
+      "question": "Los op: x + 6 = 11.",
+      "answer": 5,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 11 − 6 = 5.",
+      "explanation": "x = 11 − 6 = 5."
+    },
+    {
+      "id": "groep-8-c38-b2",
+      "type": "number-input",
+      "question": "Los op: x + 4 = 14.",
+      "answer": 10,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 14 − 4.",
+      "explanation": "x = 14 − 4."
+    }
+  ]
+}

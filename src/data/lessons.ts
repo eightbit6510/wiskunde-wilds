@@ -1,55 +1,80 @@
 import type { Challenge, Lesson } from '../types';
-import { loadPart1LessonsFromContent } from '../content/loader';
-import { part2Lessons, part2SideMissions } from './part2';
+import type { ClassLevel } from '../types/content';
+import {
+  loadLessonsForClassLevel,
+  loadLevelLessonFromContent,
+  LEVEL_CONTENT_IDS,
+} from '../content/levelLoader';
+import {
+  loadPart1LessonsFromContent,
+  loadPart2LessonsFromContent,
+  loadSideMissionsFromContent,
+} from '../content/loader';
+import { isClassLevel } from '../content/classLevels';
 
-const part1Raw: Lesson[] = loadPart1LessonsFromContent();
-
-export const part1Lessons: Lesson[] = part1Raw.map((l) => ({
+/** Legacy bos content — alleen tests/backup */
+const legacyPart1 = loadPart1LessonsFromContent().map((l) => ({
   ...l,
   adventureId: 'part1' as const,
 }));
 
-export const part2MainLessons: Lesson[] = part2Lessons.map((l) => ({
+const legacyPart2 = loadPart2LessonsFromContent().map((l) => ({
   ...l,
   adventureId: 'part2' as const,
 }));
 
-export const sideMissionLessons: Lesson[] = part2SideMissions.map((l) => ({
+const legacySide = loadSideMissionsFromContent().map((l) => ({
   ...l,
   adventureId: 'side' as const,
 }));
 
-/** Part 1 only — backward compatible export name */
-export const lessons: Lesson[] = part1Lessons;
+export const legacyAllLessons: Lesson[] = [...legacyPart1, ...legacyPart2, ...legacySide];
 
-/** Everything playable once unlocked */
-export const allPlayableLessons: Lesson[] = [
-  ...part1Lessons,
-  ...part2MainLessons,
-  ...sideMissionLessons,
-];
-
-export function getLesson(id: string): Lesson | undefined {
-  return allPlayableLessons.find((l) => l.id === id);
+/** Huidige actieve jaargroep-lessen (default groep-8 als fallback voor dev) */
+export function getLessonsForClassLevel(level: ClassLevel): Lesson[] {
+  return loadLessonsForClassLevel(level);
 }
 
-export function challengesMissingOwlHelp(scope: Lesson[] = allPlayableLessons): string[] {
+/** Default playable lessons when no class level — empty until user picks */
+export function getPlayableLessons(classLevel: ClassLevel | null): Lesson[] {
+  if (classLevel && isClassLevel(classLevel) && LEVEL_CONTENT_IDS.includes(classLevel)) {
+    return getLessonsForClassLevel(classLevel);
+  }
+  return [];
+}
+
+export function getLesson(id: string, classLevel: ClassLevel | null): Lesson | undefined {
+  const fromLevel = loadLevelLessonFromContent(id);
+  if (fromLevel) {
+    return { ...fromLevel, adventureId: classLevel ?? id.split('-')[0] ?? 'level' };
+  }
+  return legacyAllLessons.find((l) => l.id === id);
+}
+
+export function getTrainingChallengePool(classLevel: ClassLevel | null): Challenge[] {
+  const lessons = getPlayableLessons(classLevel);
+  return lessons.flatMap((l) => l.challenges);
+}
+
+export function getReviewChallengePool(classLevel: ClassLevel | null): Challenge[] {
+  const pool = getTrainingChallengePool(classLevel);
+  return pool.filter((c) => c.difficulty === 1).slice(0, Math.max(8, Math.floor(pool.length * 0.25)));
+}
+
+/** @deprecated use getPlayableLessons */
+export const allPlayableLessons: Lesson[] = legacyAllLessons;
+
+/** @deprecated */
+export const part1Lessons = legacyPart1;
+/** @deprecated */
+export const part2MainLessons = legacyPart2;
+/** @deprecated */
+export const sideMissionLessons = legacySide;
+/** @deprecated */
+export const lessons = legacyPart1;
+
+export function challengesMissingOwlHelp(scope: Lesson[]): string[] {
   return scope.flatMap((lesson) =>
     lesson.challenges.filter((c) => !c.owlHelp).map((c) => c.id),
   );
-}
-
-/** Pool of easy review-style challenges (flagged or difficulty 1 from part1) */
-export function getReviewChallengePool(): Challenge[] {
-  const fromPart2 = part2MainLessons.flatMap((l) =>
-    l.challenges.filter((c) => c.reviewOfPart1),
-  );
-  const fromPart1 = part1Lessons.flatMap((l) =>
-    l.challenges.filter((c) => c.difficulty === 1).slice(0, 2),
-  );
-  return [...fromPart2, ...fromPart1];
-}
-
-export function getPart2ChallengePool(): Challenge[] {
-  return part2MainLessons.flatMap((l) => l.challenges);
 }

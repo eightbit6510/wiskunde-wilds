@@ -1,0 +1,37 @@
+{
+  "id": "vwo-6-l8",
+  "adventureId": "vwo-6",
+  "order": 8,
+  "areaName": "VWO-top",
+  "title": "Eindniveau",
+  "emoji": "🦉",
+  "intro": "De zwaarste mix — jij bent er klaar voor.",
+  "color": "#9B6B8A",
+  "placements": [
+    {
+      "challengeId": "vwo-6-c36",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "vwo-6-c37",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "vwo-6-c38",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "vwo-6-c39",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "vwo-6-c40",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 4
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "vwo-5-l8",
+  "adventureId": "vwo-5",
+  "order": 8,
+  "areaName": "VWO-top",
+  "title": "Eindniveau",
+  "emoji": "🦉",
+  "intro": "De zwaarste mix — jij bent er klaar voor.",
+  "color": "#9B6B8A",
+  "placements": [
+    {
+      "challengeId": "vwo-5-c36",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "vwo-5-c37",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "vwo-5-c38",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "vwo-5-c39",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "vwo-5-c40",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 4
+    }
+  ]
+}

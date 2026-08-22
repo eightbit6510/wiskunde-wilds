@@ -1,0 +1,36 @@
+{
+  "id": "vwo-6-c36",
+  "type": "multi-select",
+  "topic": "redeneren",
+  "difficulty": 3,
+  "starsAvailable": 3,
+  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Een rechte hoek is 90°"
+    },
+    {
+      "id": "b",
+      "label": "Een rechte hoek is 180°"
+    },
+    {
+      "id": "c",
+      "label": "Een gestrekte hoek is 180°"
+    },
+    {
+      "id": "d",
+      "label": "Drie rechte hoeken passen in een driehoek"
+    }
+  ],
+  "answers": [
+    "a",
+    "c"
+  ],
+  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
+  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
+  "explanation": "A: 90°. C: 180°. D klopt niet.",
+  "classLevels": [
+    "vwo-6"
+  ]
+}

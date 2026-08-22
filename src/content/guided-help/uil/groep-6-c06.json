@@ -1,0 +1,118 @@
+{
+  "challengeId": "groep-6-c06",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij gelijke letters tel je alleen de getallen ervoor op.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "5x + 5x vereenvoudigen"
+          },
+          {
+            "id": "wrong",
+            "label": "De getallen 5 en 5 vermenigvuldigen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
+        "question": "Kun je 5x en 5x optellen?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, beide hebben x"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — tel de getallen vóór x op.",
+        "retryFeedback": "Kijk naar de letter: beide hebben x."
+      },
+      {
+        "explanation": "Stap 3: tel coëfficiënten op.\n5 + 5 = 10",
+        "question": "Wat is 5x + 5x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "10x"
+          },
+          {
+            "id": "b",
+            "label": "25x"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Juist: 10x.",
+        "retryFeedback": "Tel 5 en 5 op; x blijft staan."
+      },
+      {
+        "explanation": "Stap 4: kies het juiste antwoord in de som.",
+        "question": "Welke optie klopt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "10x"
+          },
+          {
+            "id": "c",
+            "label": "10"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies — antwoord A: 10x.",
+        "retryFeedback": "5x + 5x = (5+5)x."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 5x + 5x = 10x"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c06-b1",
+      "type": "multiple-choice",
+      "question": "Vereenvoudig: 6x + 5x",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "11x"
+        },
+        {
+          "id": "b",
+          "label": "11"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Tel 6 + 5.",
+      "explanation": "Tel 6 + 5."
+    },
+    {
+      "id": "groep-6-c06-b2",
+      "type": "multiple-choice",
+      "question": "Vereenvoudig: 5x + 6x",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "11x"
+        },
+        {
+          "id": "b",
+          "label": "11x"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Tel 5 + 6.",
+      "explanation": "Tel 5 + 6."
+    }
+  ]
+}

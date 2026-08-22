@@ -1,0 +1,16 @@
+{
+  "id": "havo-3-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 7 = 11. Wat is x?",
+  "answer": 4,
+  "hint1": "Haal 7 naar de andere kant: x = 11 − 7.",
+  "hint2": "x = 11 − 7",
+  "optionalWorkedFirstStep": "x + 7 = 11 → x = 11 − 7",
+  "explanation": "x + 7 = 11\nx = 11 − 7 = 4",
+  "classLevels": [
+    "havo-3"
+  ]
+}

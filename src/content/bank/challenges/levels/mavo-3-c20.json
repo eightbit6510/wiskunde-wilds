@@ -1,0 +1,16 @@
+{
+  "id": "mavo-3-c20",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 3 = 12. Wat is x?",
+  "answer": 9,
+  "hint1": "Haal 3 naar de andere kant: x = 12 − 3.",
+  "hint2": "x = 12 − 3",
+  "optionalWorkedFirstStep": "x + 3 = 12 → x = 12 − 3",
+  "explanation": "x + 3 = 12\nx = 12 − 3 = 9",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

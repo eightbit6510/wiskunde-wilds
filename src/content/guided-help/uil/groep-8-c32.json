@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-8-c32",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 10 = 14"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +10 weg is.\n\nWat doe je met +10?",
+        "question": "Hoe haal je +10 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "10 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "10 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\nx + 10 = 14 → x = 14 − 10",
+        "question": "Wat is 14 − 10?",
+        "options": [
+          {
+            "id": "x",
+            "label": "4"
+          },
+          {
+            "id": "wrong",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 4.",
+        "retryFeedback": "Reken uit: 14 − 10."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Klopt x + 10 = 14 als x = 4?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 4 + 10 = 14"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 4!",
+        "retryFeedback": "Reken na: 4 + 10 moet 14 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 4"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-8-c32-b1",
+      "type": "number-input",
+      "question": "Los op: x + 12 = 16.",
+      "answer": 4,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 16 − 12 = 4.",
+      "explanation": "x = 16 − 12 = 4."
+    },
+    {
+      "id": "groep-8-c32-b2",
+      "type": "number-input",
+      "question": "Los op: x + 10 = 19.",
+      "answer": 9,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 19 − 10.",
+      "explanation": "x = 19 − 10."
+    }
+  ]
+}

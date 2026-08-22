@@ -1,0 +1,16 @@
+{
+  "id": "mavo-3-c33",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Wat is 5/4 + 1/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 19,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "5/4 + 1/3 = 19/12",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 12.",
+  "explanation": "5/4 + 1/3 = 19/12 = 19",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

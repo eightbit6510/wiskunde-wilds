@@ -1,0 +1,15 @@
+{
+  "id": "havo-3-c23",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Verhouding 4:4. De eerste deelgroep is 16. Hoe groot is de tweede?",
+  "answer": 16,
+  "hint1": "Deel 16 door 4 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 4 = 16.",
+  "explanation": "16 ÷ 4 = 4.\n4 × 4 = 16.",
+  "classLevels": [
+    "havo-3"
+  ]
+}

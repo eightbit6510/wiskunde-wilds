@@ -1,0 +1,29 @@
+{
+  "id": "vwo-4-c19",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 2x + 2x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "4x"
+    },
+    {
+      "id": "b",
+      "label": "4x"
+    },
+    {
+      "id": "c",
+      "label": "4"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "2x + 2x = (2+2)x",
+  "explanation": "2x + 2x = 4x",
+  "classLevels": [
+    "vwo-4"
+  ]
+}

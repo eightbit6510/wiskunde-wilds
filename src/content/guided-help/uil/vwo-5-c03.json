@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-5-c03",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij x² = getal zoek je welk positief getal keer zichzelf dat getal geeft.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x vinden in x² = 36 (x positief)"
+          },
+          {
+            "id": "wrong",
+            "label": "x = 36 ÷ 2"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x² betekent x × x.\n\nWe zoeken: welk getal × zichzelf = 36?",
+        "question": "x² = x × x. Klopt dat?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — kwadraat = keer zichzelf.",
+        "retryFeedback": "x² is niet x×2."
+      },
+      {
+        "explanation": "Stap 3: probeer 6.\n6 × 6 = 36",
+        "question": "6² = ?",
+        "options": [
+          {
+            "id": "sq",
+            "label": "36"
+          },
+          {
+            "id": "wrong",
+            "label": "37"
+          }
+        ],
+        "correctAnswer": "sq",
+        "successFeedback": "Juist: x = 6.",
+        "retryFeedback": "Probeer 6 × 6."
+      },
+      {
+        "explanation": "Stap 4: controle.",
+        "question": "x = 6 positief en 6²=36?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! x = 6.",
+        "retryFeedback": "6 is positief en 6²=36."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 6"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-5-c03-b1",
+      "type": "number-input",
+      "question": "x² = 49 (x positief)",
+      "answer": 7,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde methode.",
+      "explanation": "Zelfde methode."
+    },
+    {
+      "id": "vwo-5-c03-b2",
+      "type": "number-input",
+      "question": "x² = 36 (x positief)",
+      "answer": 6,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "6² = 36.",
+      "explanation": "6² = 36."
+    }
+  ]
+}

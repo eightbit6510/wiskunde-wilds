@@ -1,0 +1,118 @@
+{
+  "challengeId": "groep-6-c33",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij y = 5x vermenigvuldig je x steeds met 5. Zo herken je de juiste tabel.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "De juiste tabel bij y = 5x kiezen"
+          },
+          {
+            "id": "wrong",
+            "label": "Bij elke x steeds 1 optellen bij y"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: y = 5x betekent y = 5 × x.\n\nProbeer x = 1.",
+        "question": "Wat is y als x = 1?",
+        "options": [
+          {
+            "id": "k",
+            "label": "5"
+          },
+          {
+            "id": "k1",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "k",
+        "successFeedback": "Goed: y = 5 × 1 = 5.",
+        "retryFeedback": "Vermenigvuldig: 5 × 1."
+      },
+      {
+        "explanation": "Stap 3: vul nog een paar waarden in.\nx=2 → y=10, x=3 → y=15",
+        "question": "Welk patroon past bij y = 5x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "y: 5, 10, 15…"
+          },
+          {
+            "id": "b",
+            "label": "y stijgt steeds +1"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies — elke y is k keer x.",
+        "retryFeedback": "Tel niet +1, maar ×5."
+      },
+      {
+        "explanation": "Stap 4: kies de tabel die klopt.",
+        "question": "Welke beschrijving past?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Elke y is 5× de x-waarde"
+          },
+          {
+            "id": "b",
+            "label": "Elke y is x + 1"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Goed! y = 5x → tabel A.",
+        "retryFeedback": "Check: bij x=2 moet y=10."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 y = 5x → tabel A klopt."
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c33-b1",
+      "type": "multiple-choice",
+      "question": "Welke formule hoort bij y = 3, 6, 9?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 3x"
+        },
+        {
+          "id": "b",
+          "label": "y = x + 3"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "y = 3x: elke y is 3× de x.",
+      "explanation": "y = 3x: elke y is 3× de x."
+    },
+    {
+      "id": "groep-6-c33-b2",
+      "type": "multiple-choice",
+      "question": "Bij y = 5x, wat is y als x = 4?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "20"
+        },
+        {
+          "id": "b",
+          "label": "9"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "y = 5 × 4 = 20.",
+      "explanation": "y = 5 × 4 = 20."
+    }
+  ]
+}

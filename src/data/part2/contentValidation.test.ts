@@ -1,7 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
   allPlayableLessons,
-  getReviewChallengePool,
   part2MainLessons,
   sideMissionLessons,
 } from '../lessons';
@@ -40,7 +39,10 @@ describe('part2 content quality', () => {
     }));
     const withReview = reviews.filter((r) => r.n > 0);
     expect(withReview.length).toBeGreaterThanOrEqual(6);
-    expect(getReviewChallengePool().length).toBeGreaterThanOrEqual(10);
+    const legacyReviewCount = part2MainLessons
+      .flatMap((l) => l.challenges)
+      .filter((c) => c.reviewOfPart1).length;
+    expect(legacyReviewCount).toBeGreaterThanOrEqual(10);
   });
 
   it('ensures bonus variants differ from originals', () => {

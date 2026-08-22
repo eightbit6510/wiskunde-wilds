@@ -1,0 +1,16 @@
+{
+  "id": "mavo-3-c14",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 6 = 14. Wat is x?",
+  "answer": 8,
+  "hint1": "Haal 6 naar de andere kant: x = 14 − 6.",
+  "hint2": "x = 14 − 6",
+  "optionalWorkedFirstStep": "x + 6 = 14 → x = 14 − 6",
+  "explanation": "x + 6 = 14\nx = 14 − 6 = 8",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

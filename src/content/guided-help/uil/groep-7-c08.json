@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-7-c08",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 8 = 11"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +8 weg is.\n\nWat doe je met +8?",
+        "question": "Hoe haal je +8 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "8 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "8 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\nx + 8 = 11 → x = 11 − 8",
+        "question": "Wat is 11 − 8?",
+        "options": [
+          {
+            "id": "x",
+            "label": "3"
+          },
+          {
+            "id": "wrong",
+            "label": "5"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 3.",
+        "retryFeedback": "Reken uit: 11 − 8."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Klopt x + 8 = 11 als x = 3?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 3 + 8 = 11"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 3!",
+        "retryFeedback": "Reken na: 3 + 8 moet 11 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 3"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-7-c08-b1",
+      "type": "number-input",
+      "question": "Los op: x + 10 = 13.",
+      "answer": 3,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 13 − 10 = 3.",
+      "explanation": "x = 13 − 10 = 3."
+    },
+    {
+      "id": "groep-7-c08-b2",
+      "type": "number-input",
+      "question": "Los op: x + 8 = 16.",
+      "answer": 8,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 16 − 8.",
+      "explanation": "x = 16 − 8."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "havo-4-l1",
+  "adventureId": "havo-4",
+  "order": 1,
+  "areaName": "Functieheuvel",
+  "title": "Functies",
+  "emoji": "⛰️",
+  "intro": "y hangt af van x. Ontdek het verband.",
+  "color": "#C4784A",
+  "placements": [
+    {
+      "challengeId": "havo-4-c01",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "havo-4-c02",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "havo-4-c03",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "havo-4-c04",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "havo-4-c05",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 4
+    }
+  ]
+}

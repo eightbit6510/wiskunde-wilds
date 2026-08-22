@@ -1,0 +1,15 @@
+{
+  "id": "vwo-2-c39",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Oppervlakte A = lengte × breedte. A = 9, lengte = 3. Wat is de breedte?",
+  "answer": 3,
+  "hint1": "Deel A door lengte.",
+  "hint2": "b = 9 ÷ 3",
+  "explanation": "b = A ÷ l = 9 ÷ 3 = 3",
+  "classLevels": [
+    "vwo-2"
+  ]
+}

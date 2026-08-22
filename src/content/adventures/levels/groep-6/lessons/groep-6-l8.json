@@ -1,0 +1,37 @@
+{
+  "id": "groep-6-l8",
+  "adventureId": "groep-6",
+  "order": 8,
+  "areaName": "Uilentop",
+  "title": "Alles samen",
+  "emoji": "🦉",
+  "intro": "Op de top combineer je wat je geleerd hebt. De Uil gelooft in je.",
+  "color": "#9B6B8A",
+  "placements": [
+    {
+      "challengeId": "groep-6-c36",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "groep-6-c37",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "groep-6-c38",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "groep-6-c39",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "groep-6-c40",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 4
+    }
+  ]
+}

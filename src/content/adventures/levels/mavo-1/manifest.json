@@ -1,0 +1,18 @@
+{
+  "id": "mavo-1",
+  "title": "Wiskunde Wilds",
+  "subtitle": "MAVO 1 — wiskunde avontuur",
+  "theme": "day",
+  "helpPersonaId": "uil",
+  "lessonIds": [
+    "mavo-1-l1",
+    "mavo-1-l2",
+    "mavo-1-l3",
+    "mavo-1-l4",
+    "mavo-1-l5",
+    "mavo-1-l6",
+    "mavo-1-l7",
+    "mavo-1-l8"
+  ],
+  "unlockRuleId": "always"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "mavo-4-l6",
+  "adventureId": "mavo-4",
+  "order": 6,
+  "areaName": "Vergelijkingenpoort",
+  "title": "Vergelijkingen",
+  "emoji": "🚪",
+  "intro": "Lineaire vergelijkingen stap voor stap.",
+  "color": "#4A7C59",
+  "placements": [
+    {
+      "challengeId": "mavo-4-c26",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "mavo-4-c27",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "mavo-4-c28",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "mavo-4-c29",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "mavo-4-c30",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 4
+    }
+  ]
+}

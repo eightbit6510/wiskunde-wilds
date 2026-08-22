@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-6-c32",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 11 = 17"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +11 weg is.\n\nWat doe je met +11?",
+        "question": "Hoe haal je +11 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "11 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "11 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\nx + 11 = 17 → x = 17 − 11",
+        "question": "Wat is 17 − 11?",
+        "options": [
+          {
+            "id": "x",
+            "label": "6"
+          },
+          {
+            "id": "wrong",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 6.",
+        "retryFeedback": "Reken uit: 17 − 11."
+      },
+      {
+        "explanation": "Stappenplan voor dit type som:\n1. Constante (+11) naar de andere kant\n2. x = 17 − 11 = 6\n3. Controle: 6 + 11 = 17",
+        "question": "Controle: klopt x = 6?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 6 + 11 = 17"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect! x = 6 is het antwoord.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 6"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-6-c32-b1",
+      "type": "number-input",
+      "question": "Los op: x + 13 = 19.",
+      "answer": 6,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 19 − 13 = 6.",
+      "explanation": "x = 19 − 13 = 6."
+    },
+    {
+      "id": "vwo-6-c32-b2",
+      "type": "number-input",
+      "question": "Los op: x + 11 = 22.",
+      "answer": 11,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 22 − 11.",
+      "explanation": "x = 22 − 11."
+    }
+  ]
+}

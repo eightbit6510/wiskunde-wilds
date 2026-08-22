@@ -20,7 +20,25 @@ export type AdventureThemeId = 'day' | 'night' | 'race' | 'detective';
 export type AdventureId = 'part1' | 'part2' | string;
 
 /** Klas/niveau — geen school-PII, alleen moeilijkheidsprofiel (Fase 4) */
-export type ClassLevel = 'vwo2' | 'vwo3' | 'groep-7' | 'groep-8';
+export type ClassLevel =
+  | 'groep-6'
+  | 'groep-7'
+  | 'groep-8'
+  | 'mavo-1'
+  | 'mavo-2'
+  | 'mavo-3'
+  | 'mavo-4'
+  | 'havo-1'
+  | 'havo-2'
+  | 'havo-3'
+  | 'havo-4'
+  | 'havo-5'
+  | 'vwo-1'
+  | 'vwo-2'
+  | 'vwo-3'
+  | 'vwo-4'
+  | 'vwo-5'
+  | 'vwo-6';
 
 /** Hulppersona (uil, detective, pitstop — Fase 2) */
 export type HelpPersonaId = 'uil' | 'detective' | 'pitstop';
@@ -32,7 +50,10 @@ export type HelpPersonaId = 'uil' | 'detective' | 'pitstop';
 export type ChallengeDefinition = Omit<
   Challenge,
   'optionalStory' | 'owlHelp' | 'bonusVariants' | 'reviewOfPart1' | 'title' | 'xpReward'
->;
+> & {
+  /** Optioneel: beperk tot specifieke jaargroepen */
+  classLevels?: ClassLevel[];
+};
 
 /**
  * Verhaal-overlay: koppelt een bank-challenge aan een les/avontuur.

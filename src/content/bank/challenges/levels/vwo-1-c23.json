@@ -1,0 +1,15 @@
+{
+  "id": "vwo-1-c23",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Verhouding 4:2. De eerste deelgroep is 16. Hoe groot is de tweede?",
+  "answer": 8,
+  "hint1": "Deel 16 door 4 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 2 = 8.",
+  "explanation": "16 ÷ 4 = 4.\n4 × 2 = 8.",
+  "classLevels": [
+    "vwo-1"
+  ]
+}

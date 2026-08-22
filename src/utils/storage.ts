@@ -78,6 +78,7 @@ export const DEFAULT_SETTINGS: SettingsState = {
   soundEnabled: true,
   animationsEnabled: true,
   calmMode: false,
+  classLevel: null,
 };
 
 export function loadJson<T>(key: string, fallback: T): T {

@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { getClassLevelLabel } from '../content/classLevels';
 import type { ProgressApi } from '../hooks/useProgress';
 import type { SettingsApi } from '../hooks/useSettings';
 import type { PlayerAuthApi } from '../hooks/usePlayerAuth';
@@ -9,17 +10,37 @@ export function CloudSavePanel({
   authApi,
   progressApi,
   settingsApi,
+  forceWizardOpen = false,
+  onWizardClose,
+  classOnly = false,
 }: {
   authApi: PlayerAuthApi;
   progressApi: ProgressApi;
   settingsApi: SettingsApi;
+  forceWizardOpen?: boolean;
+  onWizardClose?: () => void;
+  /** Alleen jaargroep kiezen, zonder cloud account */
+  classOnly?: boolean;
 }) {
   const { session, isLoggedIn, syncStatus, syncError, logout } = authApi;
   const { progress } = progressApi;
+  const { settings } = settingsApi;
 
   const [wizardOpen, setWizardOpen] = useState(false);
   const [wizardMode, setWizardMode] = useState<AuthWizardMode | null>(null);
   const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    if (forceWizardOpen) {
+      setWizardMode(classOnly ? null : 'register');
+      setWizardOpen(true);
+    }
+  }, [forceWizardOpen, classOnly]);
+
+  const closeWizard = () => {
+    setWizardOpen(false);
+    onWizardClose?.();
+  };
 
   const openWizard = (mode: AuthWizardMode | null) => {
     setWizardMode(mode);
@@ -31,6 +52,19 @@ export function CloudSavePanel({
     await logout();
     setBusy(false);
   };
+
+  const wizard = (
+    <PlayerAuthWizard
+      open={wizardOpen}
+      onClose={closeWizard}
+      initialMode={wizardMode}
+      classOnly={classOnly}
+      authApi={authApi}
+      progressApi={progressApi}
+      settingsApi={settingsApi}
+      progress={progress}
+    />
+  );
 
   if (isLoggedIn && session) {
     return (
@@ -64,21 +98,20 @@ export function CloudSavePanel({
               Uitloggen
             </button>
           </div>
+          {settings.classLevel && (
+            <p className="muted" style={{ marginTop: '0.75rem' }}>
+              Jaargroep: <strong>{getClassLevelLabel(settings.classLevel)}</strong>
+            </p>
+          )}
+          <button type="button" className="btn btn-ghost" style={{ marginTop: '0.5rem' }} onClick={() => openWizard(null)}>
+            Jaargroep wijzigen
+          </button>
           <p className="muted" style={{ margin: '0.75rem 0 0', fontSize: '0.82rem' }}>
             Geheime code kwijt? Begin een nieuw avontuur met een andere naam — we slaan geen e-mail op
             om je te helpen herstellen.
           </p>
         </div>
-
-        <PlayerAuthWizard
-          open={wizardOpen}
-          onClose={() => setWizardOpen(false)}
-          initialMode={wizardMode}
-          authApi={authApi}
-          progressApi={progressApi}
-          settingsApi={settingsApi}
-          progress={progress}
-        />
+        {wizard}
       </>
     );
   }
@@ -99,16 +132,7 @@ export function CloudSavePanel({
           </button>
         </div>
       </div>
-
-      <PlayerAuthWizard
-        open={wizardOpen}
-        onClose={() => setWizardOpen(false)}
-        initialMode={wizardMode}
-        authApi={authApi}
-        progressApi={progressApi}
-        settingsApi={settingsApi}
-        progress={progress}
-      />
+      {wizard}
     </>
   );
 }

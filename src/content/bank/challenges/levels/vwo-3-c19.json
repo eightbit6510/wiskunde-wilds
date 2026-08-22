@@ -1,0 +1,29 @@
+{
+  "id": "vwo-3-c19",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 3x + 2x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "5x"
+    },
+    {
+      "id": "b",
+      "label": "6x"
+    },
+    {
+      "id": "c",
+      "label": "5"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "3x + 2x = (3+2)x",
+  "explanation": "3x + 2x = 5x",
+  "classLevels": [
+    "vwo-3"
+  ]
+}

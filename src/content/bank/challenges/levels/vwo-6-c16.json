@@ -1,0 +1,15 @@
+{
+  "id": "vwo-6-c16",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Bereken: 2^4",
+  "answer": 16,
+  "hint1": "2 × 2 × …",
+  "hint2": "Vermenigvuldig 2 4 keer met zichzelf.",
+  "explanation": "2^4 = 16",
+  "classLevels": [
+    "vwo-6"
+  ]
+}

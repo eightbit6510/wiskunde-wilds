@@ -1,0 +1,37 @@
+{
+  "id": "vwo-1-l7",
+  "adventureId": "vwo-1",
+  "order": 7,
+  "areaName": "Calculus voorproef",
+  "title": "Grenzen & hellingen",
+  "emoji": "📈",
+  "intro": "Richtingscoëfficiënt en verandering.",
+  "color": "#7A6B5A",
+  "placements": [
+    {
+      "challengeId": "vwo-1-c31",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "vwo-1-c32",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "vwo-1-c33",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "vwo-1-c34",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "vwo-1-c35",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 4
+    }
+  ]
+}

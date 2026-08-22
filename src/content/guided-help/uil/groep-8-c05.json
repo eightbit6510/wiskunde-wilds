@@ -1,0 +1,139 @@
+{
+  "challengeId": "groep-8-c05",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Alle WAARHE uitspraken kiezen (multi-select)"
+          },
+          {
+            "id": "wrong",
+            "label": "Precies één antwoord kiezen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Omtrek = som zijden. Oppervlakte = l×b.",
+        "question": "Vierkant zijde 3: omtrek=4×3. Klopt A?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 12"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "A klopt.",
+        "retryFeedback": "4×3=12."
+      },
+      {
+        "explanation": "B zegt omtrek=9. Dat is 3×3 = oppervlakte.",
+        "question": "Klopt B?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "no",
+        "successFeedback": "B is onwaar.",
+        "retryFeedback": "9 is oppervlakte, geen omtrek."
+      },
+      {
+        "explanation": "C: oppervlakte 4×5.",
+        "question": "Is oppervlakte 4×5 = 20?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "C klopt.",
+        "retryFeedback": "4×5=20."
+      },
+      {
+        "explanation": "Welke uitspraken zijn waar?",
+        "question": "Kies de juiste.",
+        "options": [
+          {
+            "id": "ac",
+            "label": "A en C"
+          },
+          {
+            "id": "ab",
+            "label": "A en B"
+          },
+          {
+            "id": "bc",
+            "label": "B en C"
+          }
+        ],
+        "correctAnswer": "ac",
+        "successFeedback": "A en C kloppen.",
+        "retryFeedback": "B verwart omtrek/oppervlakte."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-8-c05-b1",
+      "type": "multiple-choice",
+      "question": "Oppervlakte 6×4?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "24"
+        },
+        {
+          "id": "b",
+          "label": "20"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "6×4=24.",
+      "explanation": "6×4=24."
+    },
+    {
+      "id": "groep-8-c05-b2",
+      "type": "multiple-choice",
+      "question": "Omtrek vierkant zijde 5?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "20"
+        },
+        {
+          "id": "b",
+          "label": "25"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "4×5=20.",
+      "explanation": "4×5=20."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "challengeId": "mavo-2-c36",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Alle WAARHE uitspraken kiezen (multi-select)"
+          },
+          {
+            "id": "wrong",
+            "label": "Precies één antwoord kiezen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "50% = de helft.",
+        "question": "Is 50% van 20 gelijk aan 10?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 20÷2=10"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "A is waar.",
+        "retryFeedback": "50% = halveren."
+      },
+      {
+        "explanation": "B: 50% van 20 = 5?",
+        "question": "Klopt B?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "no",
+        "successFeedback": "B is onwaar.",
+        "retryFeedback": "50% van 20 is 10."
+      },
+      {
+        "explanation": "C: 25% van 20. 25% = 1/4.",
+        "question": "Is 25% van 20 = 5?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "C is waar.",
+        "retryFeedback": "20÷4=5."
+      },
+      {
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
+        "options": [
+          {
+            "id": "acd",
+            "label": "A, C en D"
+          },
+          {
+            "id": "ac",
+            "label": "Alleen A en C"
+          },
+          {
+            "id": "ab",
+            "label": "A en B"
+          }
+        ],
+        "correctAnswer": "acd",
+        "successFeedback": "A, C en D kloppen.",
+        "retryFeedback": "B klopt niet."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 A, C, D zijn waar."
+  },
+  "bonusVariants": [
+    {
+      "id": "mavo-2-c36-b1",
+      "type": "multiple-choice",
+      "question": "50% van 30?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "15"
+        },
+        {
+          "id": "b",
+          "label": "10"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "30÷2=15.",
+      "explanation": "30÷2=15."
+    },
+    {
+      "id": "mavo-2-c36-b2",
+      "type": "multiple-choice",
+      "question": "10% van 50?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "10"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "50÷10=5.",
+      "explanation": "50÷10=5."
+    }
+  ]
+}

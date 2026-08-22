@@ -1,8 +1,8 @@
-import type { ChallengeDefinition } from '../../types/content';
+import type { ChallengeDefinition, ClassLevel } from '../../types/content';
 import { unwrapJsonModule } from '../jsonModule';
 
 const modules = import.meta.glob<{ default: ChallengeDefinition } | ChallengeDefinition>(
-  './challenges/*.json',
+  './challenges/**/*.json',
   { eager: true },
 );
 
@@ -29,4 +29,10 @@ export function getChallengesByDifficulty(
   difficulty: ChallengeDefinition['difficulty'],
 ): ChallengeDefinition[] {
   return [...CHALLENGE_BANK.values()].filter((c) => c.difficulty === difficulty);
+}
+
+export function getChallengesForClassLevel(level: ClassLevel): ChallengeDefinition[] {
+  return [...CHALLENGE_BANK.values()].filter(
+    (c) => !c.classLevels?.length || c.classLevels.includes(level),
+  );
 }

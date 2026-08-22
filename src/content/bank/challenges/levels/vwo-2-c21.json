@@ -1,0 +1,15 @@
+{
+  "id": "vwo-2-c21",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Oppervlakte A = lengte × breedte. A = 16, lengte = 4. Wat is de breedte?",
+  "answer": 4,
+  "hint1": "Deel A door lengte.",
+  "hint2": "b = 16 ÷ 4",
+  "explanation": "b = A ÷ l = 16 ÷ 4 = 4",
+  "classLevels": [
+    "vwo-2"
+  ]
+}

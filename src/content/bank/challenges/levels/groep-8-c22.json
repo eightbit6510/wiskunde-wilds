@@ -1,0 +1,15 @@
+{
+  "id": "groep-8-c22",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Verhouding 3:3. De eerste deelgroep is 9. Hoe groot is de tweede?",
+  "answer": 9,
+  "hint1": "Deel 9 door 3 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 3 = 9.",
+  "explanation": "9 ÷ 3 = 3.\n3 × 3 = 9.",
+  "classLevels": [
+    "groep-8"
+  ]
+}

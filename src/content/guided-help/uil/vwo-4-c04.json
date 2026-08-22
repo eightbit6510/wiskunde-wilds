@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-4-c04",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Macht = hetzelfde getal steeds opnieuw vermenigvuldigen.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "3^4 uitrekenen"
+          },
+          {
+            "id": "wrong",
+            "label": "3 × 4 uitrekenen (dat is fout!)"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: 3^4 = 3 vermenigvuldigd 4 keer.\n\nDe exponent 4 telt hoe vaak je vermenigvuldigt.",
+        "question": "Wat betekent de exponent?",
+        "options": [
+          {
+            "id": "repeat",
+            "label": "3 4 keer vermenigvuldigen"
+          },
+          {
+            "id": "times",
+            "label": "3 × 4"
+          }
+        ],
+        "correctAnswer": "repeat",
+        "successFeedback": "Juist — herhalen, niet × de exponent.",
+        "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
+      },
+      {
+        "explanation": "Stap 3: 3×3=9, dan ×3=27….",
+        "question": "Wat is 3^4?",
+        "options": [
+          {
+            "id": "a",
+            "label": "81"
+          },
+          {
+            "id": "b",
+            "label": "12"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Goed: 3^4 = 81.",
+        "retryFeedback": "Niet 3×4, maar herhaald vermenigvuldigen."
+      },
+      {
+        "explanation": "Stap 4: antwoord invullen.",
+        "question": "3^4 = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "81"
+          },
+          {
+            "id": "b",
+            "label": "84"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Super! Antwoord = 81.",
+        "retryFeedback": "Reken 3 vermenigvuldigd 4 keer uit."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 3^4 = 81"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-4-c04-b1",
+      "type": "number-input",
+      "question": "Bereken: 3^5",
+      "answer": 243,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog ×3.",
+      "explanation": "Nog ×3."
+    },
+    {
+      "id": "vwo-4-c04-b2",
+      "type": "number-input",
+      "question": "Bereken: 3^4",
+      "answer": 81,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "3^4 = 81.",
+      "explanation": "3^4 = 81."
+    }
+  ]
+}

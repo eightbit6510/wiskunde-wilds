@@ -1,0 +1,16 @@
+{
+  "id": "havo-2-c39",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Wat is 1/1 + 1/4? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 5,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "1/1 + 1/4 = 5/4",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
+  "explanation": "1/1 + 1/4 = 5/4 = 5",
+  "classLevels": [
+    "havo-2"
+  ]
+}

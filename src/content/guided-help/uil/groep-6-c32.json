@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-6-c32",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 7 = 16"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +7 weg is.\n\nWat doe je met +7?",
+        "question": "Hoe haal je +7 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "7 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "7 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\nx + 7 = 16 → x = 16 − 7",
+        "question": "Wat is 16 − 7?",
+        "options": [
+          {
+            "id": "x",
+            "label": "9"
+          },
+          {
+            "id": "wrong",
+            "label": "11"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 9.",
+        "retryFeedback": "Reken uit: 16 − 7."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Klopt x + 7 = 16 als x = 9?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 9 + 7 = 16"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 9!",
+        "retryFeedback": "Reken na: 9 + 7 moet 16 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 9"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c32-b1",
+      "type": "number-input",
+      "question": "Los op: x + 9 = 18.",
+      "answer": 9,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 18 − 9 = 9.",
+      "explanation": "x = 18 − 9 = 9."
+    },
+    {
+      "id": "groep-6-c32-b2",
+      "type": "number-input",
+      "question": "Los op: x + 7 = 21.",
+      "answer": 14,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 21 − 7.",
+      "explanation": "x = 21 − 7."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "havo-2-c33",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Wat is 3/4 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 5,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "3/4 + 1/2 = 5/4",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 16.",
+  "explanation": "3/4 + 1/2 = 5/4 = 5",
+  "classLevels": [
+    "havo-2"
+  ]
+}

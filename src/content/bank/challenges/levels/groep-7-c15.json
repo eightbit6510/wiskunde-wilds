@@ -1,0 +1,29 @@
+{
+  "id": "groep-7-c15",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Een formule is y = 2x. Welke tabel hoort daarbij?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "x: 1→2, 2→4, 3→6"
+    },
+    {
+      "id": "b",
+      "label": "x: 1→3, 2→4, 3→5"
+    },
+    {
+      "id": "c",
+      "label": "x: 1→1, 2→2, 3→3"
+    }
+  ],
+  "hint1": "Vermenigvuldig elke x met 2.",
+  "hint2": "Bij x = 2 hoort y = 4.",
+  "explanation": "y = 2x betekent: y is steeds 2 keer x.\nBij x = 2: y = 4.",
+  "classLevels": [
+    "groep-7"
+  ]
+}

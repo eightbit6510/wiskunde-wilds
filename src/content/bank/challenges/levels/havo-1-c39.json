@@ -1,0 +1,16 @@
+{
+  "id": "havo-1-c39",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 3/5 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 11,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "3/5 + 1/2 = 11/10",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 10.",
+  "explanation": "3/5 + 1/2 = 11/10 = 11",
+  "classLevels": [
+    "havo-1"
+  ]
+}

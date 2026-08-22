@@ -1,0 +1,15 @@
+{
+  "id": "vwo-5-c22",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Bereken: 5^5",
+  "answer": 3125,
+  "hint1": "5 × 5 × …",
+  "hint2": "Vermenigvuldig 5 5 keer met zichzelf.",
+  "explanation": "5^5 = 3125",
+  "classLevels": [
+    "vwo-5"
+  ]
+}

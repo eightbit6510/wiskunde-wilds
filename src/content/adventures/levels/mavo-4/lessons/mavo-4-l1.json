@@ -1,0 +1,37 @@
+{
+  "id": "mavo-4-l1",
+  "adventureId": "mavo-4",
+  "order": 1,
+  "areaName": "Lineair dal",
+  "title": "Rechte lijnen",
+  "emoji": "📈",
+  "intro": "Formules en grafieken lopen recht door.",
+  "color": "#C4784A",
+  "placements": [
+    {
+      "challengeId": "mavo-4-c01",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "mavo-4-c02",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "mavo-4-c03",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "mavo-4-c04",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "mavo-4-c05",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 4
+    }
+  ]
+}

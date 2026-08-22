@@ -1,0 +1,37 @@
+{
+  "id": "vwo-3-l5",
+  "adventureId": "vwo-3",
+  "order": 5,
+  "areaName": "Redeneerfort",
+  "title": "Bewijzen & redeneren",
+  "emoji": "🏰",
+  "intro": "Strikte logica en exacte redeneringen.",
+  "color": "#C49A6C",
+  "placements": [
+    {
+      "challengeId": "vwo-3-c21",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "vwo-3-c22",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "vwo-3-c23",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "vwo-3-c24",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "vwo-3-c25",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 4
+    }
+  ]
+}

@@ -20,6 +20,10 @@ interface AdventureMapProps {
   part1Total: number;
   onLockedPart2Click: () => void;
   sequential?: boolean;
+  /** Hide Deel II gate — jaargroep-avonturen */
+  singleAdventure?: boolean;
+  sectionTitle?: string;
+  sectionSubtitle?: string;
 }
 
 function sectionLessons(
@@ -89,6 +93,9 @@ export function AdventureMap({
   part1Total,
   onLockedPart2Click,
   sequential = true,
+  singleAdventure = false,
+  sectionTitle = 'DEEL I — Het Ontwaakte Bos',
+  sectionSubtitle,
 }: AdventureMapProps) {
   return (
     <section aria-labelledby="map-title">
@@ -106,7 +113,7 @@ export function AdventureMap({
             Avonturenkaart
           </h2>
           <p className="muted" style={{ marginTop: 0 }}>
-            Reis door het magische bos — en misschien verder.
+            {sectionSubtitle ?? 'Reis door het magische bos — en misschien verder.'}
           </p>
         </div>
         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
@@ -119,11 +126,12 @@ export function AdventureMap({
         </div>
       </div>
 
-      <h3 className="adventure-section-title">DEEL I — Het Ontwaakte Bos</h3>
+      <h3 className="adventure-section-title">{sectionTitle}</h3>
       <div className="level-grid">
         {sectionLessons(part1Lessons, lessonProgress, sequential)}
       </div>
 
+      {!singleAdventure && (
       <div className={`part2-gate${part2Unlocked ? ' open' : ''}`}>
         <div className="part2-sky" aria-hidden="true">
           <span className="part2-moon" />
@@ -164,8 +172,9 @@ export function AdventureMap({
           </div>
         </div>
       </div>
+      )}
 
-      {part2Unlocked && sideMissions.length > 0 && (
+      {!singleAdventure && part2Unlocked && sideMissions.length > 0 && (
         <>
           <h3 className="adventure-section-title">🌿 Zijpaden</h3>
           <p className="muted">Optioneel — voor extra oefening, niet verplicht voor het verhaal.</p>

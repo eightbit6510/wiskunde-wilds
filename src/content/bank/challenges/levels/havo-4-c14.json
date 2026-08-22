@@ -1,0 +1,16 @@
+{
+  "id": "havo-4-c14",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 5 = 14. Wat is x?",
+  "answer": 9,
+  "hint1": "Haal 5 naar de andere kant: x = 14 − 5.",
+  "hint2": "x = 14 − 5",
+  "optionalWorkedFirstStep": "x + 5 = 14 → x = 14 − 5",
+  "explanation": "x + 5 = 14\nx = 14 − 5 = 9",
+  "classLevels": [
+    "havo-4"
+  ]
+}

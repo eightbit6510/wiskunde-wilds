@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-1-c23",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Tweede deel vinden bij verhouding 4:2"
+          },
+          {
+            "id": "wrong",
+            "label": "De getallen 4 en 2 direct optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: verhouding 4:2 betekent steeds dezelfde factor.\n\nEerste deel = 16.",
+        "question": "Hoeveel keer past 4 in 16? (schaalfactor)",
+        "options": [
+          {
+            "id": "f",
+            "label": "4"
+          },
+          {
+            "id": "w",
+            "label": "5"
+          }
+        ],
+        "correctAnswer": "f",
+        "successFeedback": "Goed — schaalfactor = 4.",
+        "retryFeedback": "Deel 16 door 4."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
+        "question": "Tweede deel = 4 × 2 = ?",
+        "options": [
+          {
+            "id": "o",
+            "label": "8"
+          },
+          {
+            "id": "w",
+            "label": "10"
+          }
+        ],
+        "correctAnswer": "o",
+        "successFeedback": "Klopt: 8.",
+        "retryFeedback": "(16 ÷ 4) × 2 = 8."
+      },
+      {
+        "explanation": "Stap 4: controleer de verhouding.",
+        "question": "Klopt 16:8 = 4:2?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. Antwoord = 8.",
+        "retryFeedback": "Deel 16 door 4, vermenigvuldig met 2."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 8."
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-1-c23-b1",
+      "type": "number-input",
+      "question": "Verhouding 4:2, eerste = 20. Tweede?",
+      "answer": 10,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde schaalfactor.",
+      "explanation": "Zelfde schaalfactor."
+    },
+    {
+      "id": "vwo-1-c23-b2",
+      "type": "number-input",
+      "question": "Verhouding 4:2, eerste = 16. Tweede?",
+      "answer": 8,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "16 ÷ 4 × 2.",
+      "explanation": "16 ÷ 4 × 2."
+    }
+  ]
+}

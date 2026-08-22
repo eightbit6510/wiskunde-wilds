@@ -1,0 +1,98 @@
+{
+  "challengeId": "mavo-3-c26",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 5 = 8"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +5 weg is.\n\nWat doe je met +5?",
+        "question": "Hoe haal je +5 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "5 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "5 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\nx + 5 = 8 → x = 8 − 5",
+        "question": "Wat is 8 − 5?",
+        "options": [
+          {
+            "id": "x",
+            "label": "3"
+          },
+          {
+            "id": "wrong",
+            "label": "5"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 3.",
+        "retryFeedback": "Reken uit: 8 − 5."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Klopt x + 5 = 8 als x = 3?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 3 + 5 = 8"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 3!",
+        "retryFeedback": "Reken na: 3 + 5 moet 8 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 3"
+  },
+  "bonusVariants": [
+    {
+      "id": "mavo-3-c26-b1",
+      "type": "number-input",
+      "question": "Los op: x + 7 = 10.",
+      "answer": 3,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 10 − 7 = 3.",
+      "explanation": "x = 10 − 7 = 3."
+    },
+    {
+      "id": "mavo-3-c26-b2",
+      "type": "number-input",
+      "question": "Los op: x + 5 = 13.",
+      "answer": 8,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 13 − 5.",
+      "explanation": "x = 13 − 5."
+    }
+  ]
+}

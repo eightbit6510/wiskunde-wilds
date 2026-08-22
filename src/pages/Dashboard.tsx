@@ -1,24 +1,16 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AdventureMap } from '../components/AdventureMap';
+import { CloudSavePanel } from '../components/CloudSavePanel';
 import { ForestMascot } from '../components/ForestMascot';
-import { Part2LockedModal } from '../components/Part2LockedModal';
-import { Part2UnlockReveal } from '../components/Part2UnlockReveal';
 import { ProgressBar } from '../components/ProgressBar';
 import { StarCounter } from '../components/StarCounter';
-import {
-  part1Lessons,
-  part2MainLessons,
-  sideMissionLessons,
-} from '../data/lessons';
+import { getClassLevelLabel } from '../content/classLevels';
+import { getLevelManifest } from '../content/levelLoader';
 import type { ProgressApi } from '../hooks/useProgress';
 import type { SettingsApi } from '../hooks/useSettings';
 import type { PlayerAuthApi } from '../hooks/usePlayerAuth';
-import {
-  isAdventureUnlocked,
-  isPart1Complete,
-  PART1_LESSON_IDS,
-} from '../utils/adventureUnlock';
+import { useActiveLessons } from '../hooks/useActiveLessons';
 import { part1LessonCompletionSummary } from '../utils/progressSync';
 
 export function Dashboard({
@@ -30,31 +22,30 @@ export function Dashboard({
   settingsApi: SettingsApi;
   authApi: PlayerAuthApi;
 }) {
-  const { progress, startAdventure, lessonProgress, markPart2UnlockSeen } = progressApi;
-  const { settings } = settingsApi;
+  const { progress, startAdventure, lessonProgress } = progressApi;
   const { session, isLoggedIn } = authApi;
-  const [showLocked, setShowLocked] = useState(false);
+  const { classLevel, lessons, hasLevelContent } = useActiveLessons();
+  const [wizardOpen, setWizardOpen] = useState(false);
 
-  const part1Done = isPart1Complete(progress);
-  const part2Open = isAdventureUnlocked('part2', progress);
-  const part1Summary = useMemo(() => part1LessonCompletionSummary(progress), [progress]);
-  const p1CompleteCount = part1Summary.filter((c) => c.complete).length;
-
-  const showUnlockReveal = part1Done && progress.part2Unlocked && !progress.part2UnlockSeen;
+  const manifest = classLevel ? getLevelManifest(classLevel) : undefined;
+  const summary = useMemo(
+    () => part1LessonCompletionSummary(progress, lessons),
+    [progress, lessons],
+  );
+  const completeCount = summary.filter((c) => c.complete).length;
 
   const totalChallenges = useMemo(
-    () =>
-      [...part1Lessons, ...(part2Open ? part2MainLessons : [])].reduce(
-        (s, l) => s + l.challenges.length,
-        0,
-      ),
-    [part2Open],
+    () => lessons.reduce((s, l) => s + l.challenges.length, 0),
+    [lessons],
   );
   const doneChallenges = progress.completedChallenges.filter((id) =>
-    [...part1Lessons, ...part2MainLessons].some((l) => l.challenges.some((c) => c.id === id)),
+    lessons.some((l) => l.challenges.some((c) => c.id === id)),
   ).length;
 
   const playerName = session?.player.displayName;
+  const hasLegacyBosProgress = progress.completedChallenges.some(
+    (id) => id.startsWith('l') || id.startsWith('p2-') || id.startsWith('zij-'),
+  );
   const welcomeTitle =
     isLoggedIn && playerName
       ? progress.adventureStarted || doneChallenges > 0
@@ -62,16 +53,50 @@ export function Dashboard({
         : `Welkom in Wiskunde Wilds, ${playerName}!`
       : 'Welkom in Wiskunde Wilds';
 
+  if (!hasLevelContent) {
+    return (
+      <div>
+        <section className="hero" aria-labelledby="welcome-title">
+          <div className="hero-panel">
+            <p className="chip">🐾 Wiskunde Wilds</p>
+            <h1 id="welcome-title">{welcomeTitle}</h1>
+            <p className="lead">Kies eerst je jaargroep — dan staat je avontuur klaar.</p>
+            <p className="subtitle">
+              Sommen en uil-hulp passend bij basisschool, MAVO, HAVO of VWO.
+            </p>
+            <button type="button" className="btn btn-large" onClick={() => setWizardOpen(true)}>
+              Kies mijn jaargroep
+            </button>
+          </div>
+          <div className="card" style={{ display: 'grid', placeItems: 'center' }}>
+            <ForestMascot mood="normal" size={160} className="float" />
+          </div>
+        </section>
+
+        <div className="settings-list" style={{ marginTop: '1.5rem' }}>
+          <CloudSavePanel
+            authApi={authApi}
+            progressApi={progressApi}
+            settingsApi={settingsApi}
+            forceWizardOpen={wizardOpen}
+            onWizardClose={() => setWizardOpen(false)}
+            classOnly
+          />
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className={part2Open ? 'theme-night-soft' : undefined}>
+    <div>
       <section className="hero" aria-labelledby="welcome-title">
         <div className="hero-panel">
-          <p className="chip">🐾 Wiskunde Wilds</p>
-          <h1 id="welcome-title">{welcomeTitle}</h1>
-          <p className="lead">Klaar om je wiskundeskills wakker te maken?</p>
-          <p className="subtitle">
-            Train je skills. Ontdek patronen. Level up naar VWO 3.
+          <p className="chip">
+            🦉 {classLevel ? getClassLevelLabel(classLevel) : 'Wiskunde Wilds'}
           </p>
+          <h1 id="welcome-title">{welcomeTitle}</h1>
+          <p className="lead">{manifest?.subtitle ?? 'Klaar om je wiskundeskills wakker te maken?'}</p>
+          <p className="subtitle">{manifest?.title ?? 'Wiskunde Wilds'}</p>
           <button
             type="button"
             className="btn btn-large"
@@ -92,7 +117,7 @@ export function Dashboard({
             className="float"
           />
           <p className="muted" style={{ textAlign: 'center', margin: '0.5rem 0 0' }}>
-            Jouw bosgids
+            De Uil wijst je de weg
           </p>
         </div>
       </section>
@@ -127,14 +152,18 @@ export function Dashboard({
       </div>
 
       <AdventureMap
-        part1Lessons={part1Lessons}
-        part2Lessons={part2MainLessons}
-        sideMissions={part2Open ? sideMissionLessons : []}
+        part1Lessons={lessons}
+        part2Lessons={[]}
         lessonProgress={lessonProgress}
-        part2Unlocked={part2Open}
-        part1CompletedCount={p1CompleteCount}
-        part1Total={PART1_LESSON_IDS.length}
-        onLockedPart2Click={() => setShowLocked(true)}
+        part2Unlocked={false}
+        part1CompletedCount={completeCount}
+        part1Total={lessons.length}
+        onLockedPart2Click={() => {}}
+        singleAdventure
+        sectionTitle={manifest?.title ?? 'Jouw avontuur'}
+        sectionSubtitle={
+          classLevel ? `${getClassLevelLabel(classLevel)} — ${manifest?.subtitle ?? ''}` : undefined
+        }
         sequential
       />
 
@@ -143,23 +172,12 @@ export function Dashboard({
         <Link to="/badges">badges</Link>, of start een korte{' '}
         <Link to="/train">training</Link>.
       </p>
-
-      <Part2LockedModal
-        open={showLocked}
-        part1Completed={p1CompleteCount}
-        part1Total={PART1_LESSON_IDS.length}
-        chapters={part1Summary}
-        onClose={() => setShowLocked(false)}
-      />
-
-      <Part2UnlockReveal
-        open={showUnlockReveal}
-        animationsEnabled={settings.animationsEnabled && !settings.calmMode}
-        onDiscover={() => {
-          markPart2UnlockSeen();
-          document.getElementById('map-title')?.scrollIntoView({ behavior: 'smooth' });
-        }}
-      />
+      {hasLegacyBosProgress && (
+        <p className="muted" style={{ marginTop: '0.75rem', fontSize: '0.9rem' }}>
+          Je hebt nog voortgang uit het oude bos-avontuur. Dat blijft bewaard, maar je speelt nu
+          jaargroep-sommen — sterren op oude IDs tellen niet mee voor dit avontuur.
+        </p>
+      )}
     </div>
   );
 }

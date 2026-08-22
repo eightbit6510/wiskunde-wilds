@@ -1,0 +1,29 @@
+{
+  "id": "groep-8-c36",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 4x + 4x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "8x"
+    },
+    {
+      "id": "b",
+      "label": "16x"
+    },
+    {
+      "id": "c",
+      "label": "8"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "4x + 4x = (4+4)x",
+  "explanation": "4x + 4x = 8x",
+  "classLevels": [
+    "groep-8"
+  ]
+}

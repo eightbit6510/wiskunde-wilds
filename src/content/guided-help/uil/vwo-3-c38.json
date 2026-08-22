@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-3-c38",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 10 = 18"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +10 weg is.\n\nWat doe je met +10?",
+        "question": "Hoe haal je +10 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "10 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "10 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\nx + 10 = 18 → x = 18 − 10",
+        "question": "Wat is 18 − 10?",
+        "options": [
+          {
+            "id": "x",
+            "label": "8"
+          },
+          {
+            "id": "wrong",
+            "label": "10"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 8.",
+        "retryFeedback": "Reken uit: 18 − 10."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Klopt x + 10 = 18 als x = 8?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 8 + 10 = 18"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 8!",
+        "retryFeedback": "Reken na: 8 + 10 moet 18 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 8"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-3-c38-b1",
+      "type": "number-input",
+      "question": "Los op: x + 12 = 20.",
+      "answer": 8,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 20 − 12 = 8.",
+      "explanation": "x = 20 − 12 = 8."
+    },
+    {
+      "id": "vwo-3-c38-b2",
+      "type": "number-input",
+      "question": "Los op: x + 10 = 23.",
+      "answer": 13,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 23 − 10.",
+      "explanation": "x = 23 − 10."
+    }
+  ]
+}

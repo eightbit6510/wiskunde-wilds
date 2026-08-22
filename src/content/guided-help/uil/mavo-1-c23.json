@@ -1,0 +1,98 @@
+{
+  "challengeId": "mavo-1-c23",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Zoek wat onbekend is — draai de formule om.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Breedte vinden (A=25, lengte=5)"
+          },
+          {
+            "id": "wrong",
+            "label": "Lengte en breedte optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=25, lengte=5.",
+        "question": "Welke grootte zoek je?",
+        "options": [
+          {
+            "id": "b",
+            "label": "Breedte"
+          },
+          {
+            "id": "a",
+            "label": "Oppervlakte"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Goed — breedte is onbekend.",
+        "retryFeedback": "Oppervlakte en lengte zijn gegeven."
+      },
+      {
+        "explanation": "Stap 3: draai de formule om.\nbreedte = A ÷ lengte = 25 ÷ 5",
+        "question": "25 ÷ 5 = ?",
+        "options": [
+          {
+            "id": "b",
+            "label": "5"
+          },
+          {
+            "id": "w",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Breedte = 5.",
+        "retryFeedback": "Deel 25 door 5."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "5 × 5 = 25?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! Breedte = 5.",
+        "retryFeedback": "5 × 5 moet 25 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 b = 5"
+  },
+  "bonusVariants": [
+    {
+      "id": "mavo-1-c23-b1",
+      "type": "number-input",
+      "question": "A = 30, l = 5. b = ?",
+      "answer": 6,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Deel oppervlakte door lengte.",
+      "explanation": "Deel oppervlakte door lengte."
+    },
+    {
+      "id": "mavo-1-c23-b2",
+      "type": "number-input",
+      "question": "A = 25, l = 5. b = ?",
+      "answer": 5,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "b = 25 ÷ 5.",
+      "explanation": "b = 25 ÷ 5."
+    }
+  ]
+}

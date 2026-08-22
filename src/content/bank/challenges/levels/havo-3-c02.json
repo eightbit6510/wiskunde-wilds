@@ -1,0 +1,16 @@
+{
+  "id": "havo-3-c02",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 8 = 12. Wat is x?",
+  "answer": 4,
+  "hint1": "Haal 8 naar de andere kant: x = 12 − 8.",
+  "hint2": "x = 12 − 8",
+  "optionalWorkedFirstStep": "x + 8 = 12 → x = 12 − 8",
+  "explanation": "x + 8 = 12\nx = 12 − 8 = 4",
+  "classLevels": [
+    "havo-3"
+  ]
+}

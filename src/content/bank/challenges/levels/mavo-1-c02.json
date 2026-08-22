@@ -1,0 +1,16 @@
+{
+  "id": "mavo-1-c02",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 8 = 14. Wat is x?",
+  "answer": 6,
+  "hint1": "Haal 8 naar de andere kant: x = 14 − 8.",
+  "hint2": "x = 14 − 8",
+  "optionalWorkedFirstStep": "x + 8 = 14 → x = 14 − 8",
+  "explanation": "x + 8 = 14\nx = 14 − 8 = 6",
+  "classLevels": [
+    "mavo-1"
+  ]
+}

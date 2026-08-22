@@ -1,0 +1,15 @@
+{
+  "id": "havo-5-c03",
+  "type": "number-input",
+  "topic": "kwadratisch",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x² = 4 (x positief). Wat is x?",
+  "answer": 2,
+  "hint1": "Welk positief getal keer zichzelf geeft 4?",
+  "hint2": "2 × 2 = 4",
+  "explanation": "x² = 4 → x = 2 (positief).",
+  "classLevels": [
+    "havo-5"
+  ]
+}

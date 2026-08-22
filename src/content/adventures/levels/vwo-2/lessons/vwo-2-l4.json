@@ -1,0 +1,37 @@
+{
+  "id": "vwo-2-l4",
+  "adventureId": "vwo-2",
+  "order": 4,
+  "areaName": "Kwadratisch domein",
+  "title": "Kwadratisch",
+  "emoji": "👑",
+  "intro": "Parabolen, discriminant, abc-formule.",
+  "color": "#8B6B9E",
+  "placements": [
+    {
+      "challengeId": "vwo-2-c16",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "vwo-2-c17",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "vwo-2-c18",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "vwo-2-c19",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "vwo-2-c20",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 4
+    }
+  ]
+}

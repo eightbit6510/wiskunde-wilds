@@ -1,0 +1,37 @@
+{
+  "id": "mavo-2-l4",
+  "adventureId": "mavo-2",
+  "order": 4,
+  "areaName": "Tabellenstation",
+  "title": "Data lezen",
+  "emoji": "📋",
+  "intro": "Tabellen en grafieken vertellen een verhaal.",
+  "color": "#8B6B9E",
+  "placements": [
+    {
+      "challengeId": "mavo-2-c16",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "mavo-2-c17",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "mavo-2-c18",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "mavo-2-c19",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "mavo-2-c20",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 4
+    }
+  ]
+}

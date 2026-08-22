@@ -1,9 +1,13 @@
-import { allPlayableLessons, part1Lessons } from '../data/lessons';
+import type { Lesson } from '../types';
+import { legacyAllLessons, part1Lessons } from '../data/lessons';
 import type { ProgressState } from '../types';
 import { isPart1Complete, PART1_LESSON_IDS } from './adventureUnlock';
 
 /** Repair progress gaps: attempts → completedChallenges/stars, then lesson flags. */
-export function reconcileLessonCompletion(progress: ProgressState): ProgressState {
+export function reconcileLessonCompletion(
+  progress: ProgressState,
+  playableLessons: Lesson[] = legacyAllLessons,
+): ProgressState {
   const completedChallenges = [...progress.completedChallenges];
   const challengeStars = { ...progress.challengeStars };
   let changed = false;
@@ -34,7 +38,7 @@ export function reconcileLessonCompletion(progress: ProgressState): ProgressStat
 
   const completedLessons = [...progress.completedLessons];
 
-  for (const lesson of allPlayableLessons) {
+  for (const lesson of playableLessons) {
     if (completedLessons.includes(lesson.id)) continue;
     const allDone = lesson.challenges.every((c) => completedChallenges.includes(c.id));
     if (allDone && lesson.challenges.length > 0) {
@@ -66,9 +70,10 @@ export function reconcileLessonCompletion(progress: ProgressState): ProgressStat
 export function isLessonFullyComplete(
   lessonId: string,
   progress: Pick<ProgressState, 'completedChallenges' | 'completedLessons'>,
+  playableLessons: Lesson[] = legacyAllLessons,
 ): boolean {
   if (progress.completedLessons.includes(lessonId)) return true;
-  const lesson = allPlayableLessons.find((l) => l.id === lessonId);
+  const lesson = playableLessons.find((l) => l.id === lessonId);
   if (!lesson) return false;
   return lesson.challenges.every((c) => progress.completedChallenges.includes(c.id));
 }
@@ -81,8 +86,9 @@ export function incompletePart1LessonIds(
 
 export function part1LessonCompletionSummary(
   progress: Pick<ProgressState, 'completedChallenges' | 'completedLessons'>,
+  lessons: Lesson[] = part1Lessons,
 ): { id: string; areaName: string; done: number; total: number; complete: boolean }[] {
-  return part1Lessons.map((lesson) => {
+  return lessons.map((lesson) => {
     const done = lesson.challenges.filter((c) =>
       progress.completedChallenges.includes(c.id),
     ).length;

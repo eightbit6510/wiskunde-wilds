@@ -1,0 +1,98 @@
+{
+  "challengeId": "havo-4-c17",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Tweede deel vinden bij verhouding 3:4"
+          },
+          {
+            "id": "wrong",
+            "label": "De getallen 3 en 4 direct optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: verhouding 3:4 betekent steeds dezelfde factor.\n\nEerste deel = 9.",
+        "question": "Hoeveel keer past 3 in 9? (schaalfactor)",
+        "options": [
+          {
+            "id": "f",
+            "label": "3"
+          },
+          {
+            "id": "w",
+            "label": "4"
+          }
+        ],
+        "correctAnswer": "f",
+        "successFeedback": "Goed — schaalfactor = 3.",
+        "retryFeedback": "Deel 9 door 3."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
+        "question": "Tweede deel = 3 × 4 = ?",
+        "options": [
+          {
+            "id": "o",
+            "label": "12"
+          },
+          {
+            "id": "w",
+            "label": "16"
+          }
+        ],
+        "correctAnswer": "o",
+        "successFeedback": "Klopt: 12.",
+        "retryFeedback": "(9 ÷ 3) × 4 = 12."
+      },
+      {
+        "explanation": "Stap 4: controleer de verhouding.",
+        "question": "Klopt 9:12 = 3:4?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. Antwoord = 12.",
+        "retryFeedback": "Deel 9 door 3, vermenigvuldig met 4."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 12."
+  },
+  "bonusVariants": [
+    {
+      "id": "havo-4-c17-b1",
+      "type": "number-input",
+      "question": "Verhouding 3:4, eerste = 12. Tweede?",
+      "answer": 16,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde schaalfactor.",
+      "explanation": "Zelfde schaalfactor."
+    },
+    {
+      "id": "havo-4-c17-b2",
+      "type": "number-input",
+      "question": "Verhouding 3:4, eerste = 9. Tweede?",
+      "answer": 12,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "9 ÷ 3 × 4.",
+      "explanation": "9 ÷ 3 × 4."
+    }
+  ]
+}

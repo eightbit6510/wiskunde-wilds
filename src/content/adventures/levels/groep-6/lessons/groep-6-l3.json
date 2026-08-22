@@ -1,0 +1,37 @@
+{
+  "id": "groep-6-l3",
+  "adventureId": "groep-6",
+  "order": 3,
+  "areaName": "Meetvallei",
+  "title": "Meten en omrekenen",
+  "emoji": "📏",
+  "intro": "Lengtes, oppervlaktes en eenheden — alles moet kloppen.",
+  "color": "#6B7FA8",
+  "placements": [
+    {
+      "challengeId": "groep-6-c11",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "groep-6-c12",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "groep-6-c13",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "groep-6-c14",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "groep-6-c15",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 4
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "havo-5",
+  "title": "Wiskunde Wilds",
+  "subtitle": "HAVO 5 — wiskunde avontuur",
+  "theme": "day",
+  "helpPersonaId": "uil",
+  "lessonIds": [
+    "havo-5-l1",
+    "havo-5-l2",
+    "havo-5-l3",
+    "havo-5-l4",
+    "havo-5-l5",
+    "havo-5-l6",
+    "havo-5-l7",
+    "havo-5-l8"
+  ],
+  "unlockRuleId": "always"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "vwo-1-l6",
+  "adventureId": "vwo-1",
+  "order": 6,
+  "areaName": "Grafiekengraf",
+  "title": "Grafieken",
+  "emoji": "🗺️",
+  "intro": "Complexere grafieken en transformaties.",
+  "color": "#4A7C59",
+  "placements": [
+    {
+      "challengeId": "vwo-1-c26",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "vwo-1-c27",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "vwo-1-c28",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "vwo-1-c29",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "vwo-1-c30",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 4
+    }
+  ]
+}

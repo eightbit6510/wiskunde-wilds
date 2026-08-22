@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { ChallengeAttempt, ProgressState, Topic } from '../types';
 import { badges } from '../data/badges';
-import { allPlayableLessons, getLesson } from '../data/lessons';
+import type { ClassLevel } from '../types/content';
+import { getLesson, getPlayableLessons } from '../data/lessons';
 import {
   STORAGE_KEYS,
   createEmptyProgress,
@@ -29,13 +30,18 @@ function unlockBadges(next: ProgressState): ProgressState {
   return { ...next, unlockedBadges: [...next.unlockedBadges, ...unlocked] };
 }
 
-export function useProgress() {
+export function useProgress(classLevel: ClassLevel | null) {
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress());
   const owlSpendLock = useRef(false);
+  const playableLessons = useMemo(() => getPlayableLessons(classLevel), [classLevel]);
+  const resolveLesson = useCallback(
+    (lessonId: string) => getLesson(lessonId, classLevel),
+    [classLevel],
+  );
 
   useEffect(() => {
-    setProgress((p) => reconcileLessonCompletion(p));
-  }, []);
+    setProgress((p) => reconcileLessonCompletion(p, playableLessons));
+  }, [playableLessons]);
 
   useEffect(() => {
     saveJson(STORAGE_KEYS.progress, progress);
@@ -150,7 +156,7 @@ export function useProgress() {
           ? p.completedChallenges
           : [...p.completedChallenges, input.challengeId];
 
-        const lesson = getLesson(input.lessonId);
+        const lesson = resolveLesson(input.lessonId);
         const lessonDone =
           !!lesson && lesson.challenges.every((c) => nextCompleted.includes(c.id));
 
@@ -226,7 +232,7 @@ export function useProgress() {
   );
 
   const finalizeLesson = useCallback((lessonId: string): boolean => {
-    const lesson = getLesson(lessonId);
+    const lesson = resolveLesson(lessonId);
     if (!lesson) return false;
     let didFinalize = false;
 
@@ -308,11 +314,11 @@ export function useProgress() {
 
   const applyProgress = useCallback((next: ProgressState) => {
     owlSpendLock.current = false;
-    setProgress(unlockBadges(reconcileLessonCompletion(migrateProgress(next))));
-  }, []);
+    setProgress(unlockBadges(reconcileLessonCompletion(migrateProgress(next), playableLessons)));
+  }, [playableLessons]);
 
   const lessonProgress = useMemo(() => {
-    return allPlayableLessons.map((lesson) => {
+    return playableLessons.map((lesson) => {
       const done = lesson.challenges.filter((c) =>
         progress.completedChallenges.includes(c.id),
       ).length;
@@ -329,7 +335,7 @@ export function useProgress() {
           progress.completedLessons.includes(lesson.id) || done >= lesson.challenges.length,
       };
     });
-  }, [progress]);
+  }, [progress, playableLessons]);
 
   return {
     progress,

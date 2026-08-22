@@ -1,0 +1,37 @@
+{
+  "id": "havo-4-l5",
+  "adventureId": "havo-4",
+  "order": 5,
+  "areaName": "Kwadratisch kloof",
+  "title": "Kwadratisch",
+  "emoji": "🏔️",
+  "intro": "Parabolen en kwadratische vergelijkingen.",
+  "color": "#C49A6C",
+  "placements": [
+    {
+      "challengeId": "havo-4-c21",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "havo-4-c22",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "havo-4-c23",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "havo-4-c24",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "havo-4-c25",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 4
+    }
+  ]
+}

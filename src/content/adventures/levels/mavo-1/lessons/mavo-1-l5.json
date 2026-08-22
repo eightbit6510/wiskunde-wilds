@@ -1,0 +1,37 @@
+{
+  "id": "mavo-1-l5",
+  "adventureId": "mavo-1",
+  "order": 5,
+  "areaName": "Formulefabriek",
+  "title": "Formules gebruiken",
+  "emoji": "⚙️",
+  "intro": "Invullen, oplossen, controleren.",
+  "color": "#C49A6C",
+  "placements": [
+    {
+      "challengeId": "mavo-1-c21",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "mavo-1-c22",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "mavo-1-c23",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "mavo-1-c24",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "mavo-1-c25",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 4
+    }
+  ]
+}

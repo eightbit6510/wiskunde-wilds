@@ -1,0 +1,36 @@
+{
+  "id": "mavo-1-c24",
+  "type": "multi-select",
+  "topic": "redeneren",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "1 km = 1000 m"
+    },
+    {
+      "id": "b",
+      "label": "1 km = 100 m"
+    },
+    {
+      "id": "c",
+      "label": "1 uur = 60 minuten"
+    },
+    {
+      "id": "d",
+      "label": "1 uur = 100 minuten"
+    }
+  ],
+  "answers": [
+    "a",
+    "c"
+  ],
+  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
+  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
+  "explanation": "A en C zijn standaard eenheden.",
+  "classLevels": [
+    "mavo-1"
+  ]
+}

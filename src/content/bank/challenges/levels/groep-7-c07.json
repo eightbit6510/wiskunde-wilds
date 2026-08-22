@@ -1,0 +1,16 @@
+{
+  "id": "groep-7-c07",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 1/1 + 4/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 7,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "1/1 + 4/3 = 7/3",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 9.",
+  "explanation": "1/1 + 4/3 = 7/3 = 7",
+  "classLevels": [
+    "groep-7"
+  ]
+}

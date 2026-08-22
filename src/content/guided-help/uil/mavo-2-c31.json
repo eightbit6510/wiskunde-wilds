@@ -1,0 +1,112 @@
+{
+  "challengeId": "mavo-2-c31",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "We gaan 3/5 + 1/4 uitrekenen. Ik leg elke stap uit — jij hoeft alleen mee te denken.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "3/5 en 1/4 optellen (als decimaal)"
+          },
+          {
+            "id": "wrong",
+            "label": "Tellers en noemers direct bij elkaar optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: maak de noemers gelijk.\n\n3/5 en 1/4 hebben verschillende noemers.",
+        "question": "Welke gemeenschappelijke noemer gebruiken we?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "20"
+          },
+          {
+            "id": "no",
+            "label": "21"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed. Beide breuken krijgen noemer 20.",
+        "retryFeedback": "Vermenigvuldig beide noemers — dat geeft een gemeenschappelijke noemer."
+      },
+      {
+        "explanation": "Stap 3: tel de tellers op.\n\nNoemers zijn gelijk → alleen tellers optellen.",
+        "question": "Wat is 3/5 + 1/4 als breuk?",
+        "options": [
+          {
+            "id": "right",
+            "label": "17/20"
+          },
+          {
+            "id": "wrong",
+            "label": "17/21"
+          }
+        ],
+        "correctAnswer": "right",
+        "successFeedback": "Precies: 17/20.",
+        "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
+      },
+      {
+        "explanation": "Stap 4: schrijf 17/20 als decimaal.",
+        "question": "Deel 17 door 20. Wat is het antwoord?",
+        "options": [
+          {
+            "id": "a",
+            "label": "17"
+          },
+          {
+            "id": "b",
+            "label": "18"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Het antwoord is 17.",
+        "retryFeedback": "Reken: 17 ÷ 20."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 3/5 + 1/4 = 17"
+  },
+  "bonusVariants": [
+    {
+      "id": "mavo-2-c31-b1",
+      "type": "number-input",
+      "question": "Wat is 3/5 + 1/4? (decimaal)",
+      "answer": 17,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Gelijknamig → optellen → delen.",
+      "explanation": "Gelijknamig → optellen → delen."
+    },
+    {
+      "id": "mavo-2-c31-b2",
+      "type": "multiple-choice",
+      "question": "Welke breuk is het grootst?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "1/4"
+        },
+        {
+          "id": "b",
+          "label": "3/4"
+        },
+        {
+          "id": "c",
+          "label": "1/3"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "3/4 is het grootst.",
+      "explanation": "3/4 is het grootst."
+    }
+  ]
+}

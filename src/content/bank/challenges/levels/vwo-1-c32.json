@@ -1,0 +1,16 @@
+{
+  "id": "vwo-1-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 4 = 8. Wat is x?",
+  "answer": 4,
+  "hint1": "Haal 4 naar de andere kant: x = 8 − 4.",
+  "hint2": "x = 8 − 4",
+  "optionalWorkedFirstStep": "x + 4 = 8 → x = 8 − 4",
+  "explanation": "x + 4 = 8\nx = 8 − 4 = 4",
+  "classLevels": [
+    "vwo-1"
+  ]
+}

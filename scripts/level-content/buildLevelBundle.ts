@@ -1,0 +1,485 @@
+import type { ClassLevel, ChallengeDefinition, GuidedHelpPack, LessonShell } from '../../src/types/content';
+import type { Topic } from '../../src/types';
+import {
+  CHALLENGES_PER_LESSON,
+  CLASS_LEVEL_IDS,
+  CLASS_LEVEL_PROFILES,
+  getClassProfile,
+  lessonIdForLevel,
+  challengeIdForLevel,
+  LEVEL_LESSON_COUNT,
+} from '../../src/content/classLevels';
+import {
+  helpForAlgebra,
+  helpForBreuken,
+  helpForFormules,
+  helpForGrafieken,
+  helpForKwadratisch,
+  helpForMachten,
+  helpForRedeneren,
+  helpForVerbanden,
+  helpForVergelijkingen,
+  validateHelpPack,
+} from './guidedHelpBuilder';
+
+export interface LevelBundle {
+  level: ClassLevel;
+  manifest: {
+    id: ClassLevel;
+    title: string;
+    subtitle: string;
+    theme: 'day';
+    helpPersonaId: 'uil';
+    lessonIds: string[];
+    unlockRuleId: 'always';
+  };
+  lessons: LessonShell[];
+  challenges: ChallengeDefinition[];
+  helpPacks: GuidedHelpPack[];
+}
+
+function seed(level: ClassLevel, index: number): number {
+  let h = 0;
+  const s = `${level}-${index}`;
+  for (let i = 0; i < s.length; i += 1) {
+    h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
+  }
+  return Math.abs(h);
+}
+
+function pick<T>(arr: T[], n: number): T {
+  return arr[n % arr.length];
+}
+
+function gcd(a: number, b: number): number {
+  let x = Math.abs(a);
+  let y = Math.abs(b);
+  while (y) {
+    const t = y;
+    y = x % y;
+    x = t;
+  }
+  return x || 1;
+}
+
+function frac(n: number, d: number): string {
+  const g = gcd(n, d);
+  return `${n / g}/${d / g}`;
+}
+
+type Band = 'basis' | 'mavo' | 'havo' | 'vwo';
+
+function bandFor(level: ClassLevel): Band {
+  if (level.startsWith('groep')) return 'basis';
+  if (level.startsWith('mavo')) return 'mavo';
+  if (level.startsWith('havo')) return 'havo';
+  return 'vwo';
+}
+
+function yearNum(level: ClassLevel): number {
+  const m = level.match(/(\d)$/);
+  return m ? Number(m[1]) : 1;
+}
+
+const LESSON_THEMES: Record<
+  Band,
+  { areaName: string; title: string; emoji: string; intro: string }[]
+> = {
+  basis: [
+    {
+      areaName: 'Breukenbos',
+      title: 'Stukjes en heel',
+      emoji: '🍕',
+      intro: 'In het Breukenbos liggen plakken die je moet combineren. De Uil helpt je tellen.',
+    },
+    {
+      areaName: 'Verhoudingspad',
+      title: 'Evenredig denken',
+      emoji: '⚖️',
+      intro: 'Op het pad zie je verhoudingen in alledaagse situaties.',
+    },
+    {
+      areaName: 'Meetvallei',
+      title: 'Meten en omrekenen',
+      emoji: '📏',
+      intro: 'Lengtes, oppervlaktes en eenheden — alles moet kloppen.',
+    },
+    {
+      areaName: 'Grafiekheuvel',
+      title: 'Lezen van grafieken',
+      emoji: '📊',
+      intro: 'Stijgen, dalen, stilstand — wat vertelt de grafiek?',
+    },
+    {
+      areaName: 'Vergelijkingenbrug',
+      title: 'Onbekende vinden',
+      emoji: '🌉',
+      intro: 'Er ontbreekt een getal. Kun jij de brug over?',
+    },
+    {
+      areaName: 'Redeneerrots',
+      title: 'Logisch nadenken',
+      emoji: '🪨',
+      intro: 'Niet rekenen alleen — ook goed kijken wat klopt.',
+    },
+    {
+      areaName: 'Algebra-adje',
+      title: 'Letters en getallen',
+      emoji: '🔤',
+      intro: 'x en y duiken op. Geen paniek: stap voor stap.',
+    },
+    {
+      areaName: 'Uilentop',
+      title: 'Alles samen',
+      emoji: '🦉',
+      intro: 'Op de top combineer je wat je geleerd hebt. De Uil gelooft in je.',
+    },
+  ],
+  mavo: [
+    { areaName: 'Lineair dal', title: 'Rechte lijnen', emoji: '📈', intro: 'Formules en grafieken lopen recht door.' },
+    { areaName: 'Breukenwerk', title: 'Breuken & procent', emoji: '💯', intro: 'Breuken, decimalen en procenten in de praktijk.' },
+    { areaName: 'Meetkundemoeras', title: 'Hoeken & oppervlakte', emoji: '📐', intro: 'Driehoeken, rechthoeken en cirkels.' },
+    { areaName: 'Tabellenstation', title: 'Data lezen', emoji: '📋', intro: 'Tabellen en grafieken vertellen een verhaal.' },
+    { areaName: 'Formulefabriek', title: 'Formules gebruiken', emoji: '⚙️', intro: 'Invullen, oplossen, controleren.' },
+    { areaName: 'Vergelijkingenpoort', title: 'Vergelijkingen', emoji: '🚪', intro: 'Lineaire vergelijkingen stap voor stap.' },
+    { areaName: 'Verbandenweg', title: 'Verbanden', emoji: '🔗', intro: 'Hoe hangen grootheden aan elkaar?' },
+    { areaName: 'Eindproef', title: 'Klaar voor de toets', emoji: '🎯', intro: 'Alles nog eens — jij bent er klaar voor.' },
+  ],
+  havo: [
+    { areaName: 'Functieheuvel', title: 'Functies', emoji: '⛰️', intro: 'y hangt af van x. Ontdek het verband.' },
+    { areaName: 'Vergelijkingenklif', title: 'Vergelijkingen', emoji: '🧗', intro: 'Lineair en steeds lastiger.' },
+    { areaName: 'Breukenbaai', title: 'Breuken & machten', emoji: '🌊', intro: 'Breuken, machten en wortels.' },
+    { areaName: 'Grafiekenhaven', title: 'Grafieken', emoji: '⚓', intro: 'Lezen, tekenen, interpreteren.' },
+    { areaName: 'Kwadratisch kloof', title: 'Kwadratisch', emoji: '🏔️', intro: 'Parabolen en kwadratische vergelijkingen.' },
+    { areaName: 'Statistiekstation', title: 'Statistiek', emoji: '📉', intro: 'Gemiddelde, mediaan, spreiding.' },
+    { areaName: 'Goniometrie', title: 'Hoeken met sin & cos', emoji: '📐', intro: 'Rechthoekige driehoeken en goniometrie.' },
+    { areaName: 'Examenklif', title: 'Alles samen', emoji: '🦉', intro: 'Mix van onderwerpen — examenniveau.' },
+  ],
+  vwo: [
+    { areaName: 'Algebra-arena', title: 'Algebra', emoji: '🏟️', intro: 'Herschrijven, ontbinden, oplossen.' },
+    { areaName: 'Functielab', title: 'Functies', emoji: '🔬', intro: 'Dieper in verbanden en grafieken.' },
+    { areaName: 'Machtenput', title: 'Machten & wortels', emoji: '⚡', intro: 'Exponenten en wortels onder controle.' },
+    { areaName: 'Kwadratisch domein', title: 'Kwadratisch', emoji: '👑', intro: 'Parabolen, discriminant, abc-formule.' },
+    { areaName: 'Redeneerfort', title: 'Bewijzen & redeneren', emoji: '🏰', intro: 'Strikte logica en exacte redeneringen.' },
+    { areaName: 'Grafiekengraf', title: 'Grafieken', emoji: '🗺️', intro: 'Complexere grafieken en transformaties.' },
+    { areaName: 'Calculus voorproef', title: 'Grenzen & hellingen', emoji: '📈', intro: 'Richtingscoëfficiënt en verandering.' },
+    { areaName: 'VWO-top', title: 'Eindniveau', emoji: '🦉', intro: 'De zwaarste mix — jij bent er klaar voor.' },
+  ],
+};
+
+const COLORS = ['#C4784A', '#5B8A72', '#6B7FA8', '#8B6B9E', '#C49A6C', '#4A7C59', '#7A6B5A', '#9B6B8A'];
+
+function generateForTopic(
+  level: ClassLevel,
+  challengeIndex: number,
+  topic: Topic,
+  difficulty: 1 | 2 | 3,
+): { challenge: ChallengeDefinition; help: GuidedHelpPack } {
+  const id = challengeIdForLevel(level, challengeIndex);
+  const s = seed(level, challengeIndex);
+  const yr = yearNum(level);
+  const band = bandFor(level);
+  const scale = band === 'basis' ? 1 : band === 'mavo' ? 1.5 : band === 'havo' ? 2 : 2.5;
+  const base = Math.max(2, Math.floor((s % 8) + 2 + yr * scale * 0.3));
+
+  switch (topic) {
+    case 'breuken': {
+      const n1 = (s % 5) + 1;
+      const d1 = (s % 4) + 2;
+      const n2 = ((s >> 3) % 4) + 1;
+      const d2 = ((s >> 5) % 3) + 2;
+      const num = n1 * d2 + n2 * d1;
+      const den = d1 * d2;
+      const answer = num / gcd(num, den);
+      const question = `Wat is ${frac(n1, d1)} + ${frac(n2, d2)}? Geef het antwoord als decimaal getal (max. 2 decimalen).`;
+      const challenge: ChallengeDefinition = {
+        id,
+        type: 'number-input',
+        topic,
+        difficulty,
+        starsAvailable: 3,
+        question,
+        answer,
+        hint1: 'Maak de noemers gelijk, tel de tellers op.',
+        hint2: `${frac(n1, d1)} + ${frac(n2, d2)} = ${frac(num, den)}`,
+        optionalWorkedFirstStep: `Gelijknamig maken: noemer ${d1 * d2}.`,
+        explanation: `${frac(n1, d1)} + ${frac(n2, d2)} = ${frac(num, den)} = ${answer}`,
+        classLevels: [level],
+      };
+      const help = helpForBreuken(
+        id,
+        difficulty,
+        frac(n1, d1),
+        frac(n2, d2),
+        d1 * d2,
+        num,
+        den,
+        frac(num, den),
+        answer,
+      );
+      return { challenge, help };
+    }
+    case 'vergelijkingen': {
+      const a = base;
+      const b = base + (s % 7) + 3;
+      const x = b - a;
+      const challenge: ChallengeDefinition = {
+        id,
+        type: 'number-input',
+        topic,
+        difficulty,
+        starsAvailable: 3,
+        question: `Los op: x + ${a} = ${b}. Wat is x?`,
+        answer: x,
+        hint1: `Haal ${a} naar de andere kant: x = ${b} − ${a}.`,
+        hint2: `x = ${b} − ${a}`,
+        optionalWorkedFirstStep: `x + ${a} = ${b} → x = ${b} − ${a}`,
+        explanation: `x + ${a} = ${b}\nx = ${b} − ${a} = ${x}`,
+        classLevels: [level],
+      };
+      const help = helpForVergelijkingen(id, difficulty, a, b, x);
+      return { challenge, help };
+    }
+    case 'grafieken': {
+      const k = (s % 4) + 2;
+      const x = (s % 3) + 2;
+      const y = k * x;
+      const challenge: ChallengeDefinition = {
+        id,
+        type: 'multiple-choice',
+        topic,
+        difficulty,
+        starsAvailable: 3,
+        question: `Een formule is y = ${k}x. Welke tabel hoort daarbij?`,
+        answer: 'a',
+        answerOptions: [
+          { id: 'a', label: `x: 1→${k}, 2→${k * 2}, 3→${k * 3}` },
+          { id: 'b', label: `x: 1→${k + 1}, 2→${k + 2}, 3→${k + 3}` },
+          { id: 'c', label: `x: 1→1, 2→2, 3→3` },
+        ],
+        hint1: `Vermenigvuldig elke x met ${k}.`,
+        hint2: `Bij x = ${x} hoort y = ${y}.`,
+        explanation: `y = ${k}x betekent: y is steeds ${k} keer x.\nBij x = ${x}: y = ${y}.`,
+        classLevels: [level],
+      };
+      const help = helpForGrafieken(id, difficulty, k);
+      return { challenge, help };
+    }
+    case 'verbanden': {
+      const p1 = (s % 3) + 2;
+      const p2 = (s % 4) + 2;
+      const given = p1 * ((s % 3) + 2);
+      const other = (given / p1) * p2;
+      const challenge: ChallengeDefinition = {
+        id,
+        type: 'number-input',
+        topic,
+        difficulty,
+        starsAvailable: 3,
+        question: `Verhouding ${p1}:${p2}. De eerste deelgroep is ${given}. Hoe groot is de tweede?`,
+        answer: other,
+        hint1: `Deel ${given} door ${p1} om de schaalfactor te vinden.`,
+        hint2: `Schaalfactor × ${p2} = ${other}.`,
+        explanation: `${given} ÷ ${p1} = ${given / p1}.\n${given / p1} × ${p2} = ${other}.`,
+        classLevels: [level],
+      };
+      const factor = given / p1;
+      const help = helpForVerbanden(id, difficulty, p1, p2, given, factor, other);
+      return { challenge, help };
+    }
+    case 'redeneren': {
+      const { challenge: redParts, help } = helpForRedeneren(id, difficulty, s);
+      const challenge: ChallengeDefinition = {
+        id,
+        type: 'multi-select',
+        topic,
+        difficulty,
+        starsAvailable: 3,
+        question: redParts.question,
+        answerOptions: redParts.answerOptions,
+        answers: redParts.answers,
+        hint1: 'Lees elke uitspraak apart. “Elke … is …” is vaak te streng.',
+        hint2: 'Check elke uitspraak één voor één voordat je kiest.',
+        explanation: redParts.explanation,
+        classLevels: [level],
+      };
+      return { challenge, help };
+    }
+    case 'algebra': {
+      const c1 = (s % 4) + 2;
+      const c2 = ((s >> 2) % 4) + 2;
+      const sum = c1 + c2;
+      const challenge: ChallengeDefinition = {
+        id,
+        type: 'multiple-choice',
+        topic,
+        difficulty,
+        starsAvailable: 3,
+        question: `Vereenvoudig: ${c1}x + ${c2}x`,
+        answer: 'a',
+        answerOptions: [
+          { id: 'a', label: `${sum}x` },
+          { id: 'b', label: `${c1 * c2}x` },
+          { id: 'c', label: `${c1 + c2}` },
+        ],
+        hint1: 'Gelijke termen kun je optellen.',
+        hint2: `${c1}x + ${c2}x = (${c1}+${c2})x`,
+        explanation: `${c1}x + ${c2}x = ${sum}x`,
+        classLevels: [level],
+      };
+      const help = helpForAlgebra(id, difficulty, c1, c2, sum);
+      return { challenge, help };
+    }
+    case 'formules': {
+      const l = base;
+      const b = (s % 5) + 3;
+      const area = l * b;
+      const challenge: ChallengeDefinition = {
+        id,
+        type: 'number-input',
+        topic,
+        difficulty,
+        starsAvailable: 3,
+        question: `Oppervlakte A = lengte × breedte. A = ${area}, lengte = ${l}. Wat is de breedte?`,
+        answer: b,
+        hint1: 'Deel A door lengte.',
+        hint2: `b = ${area} ÷ ${l}`,
+        explanation: `b = A ÷ l = ${area} ÷ ${l} = ${b}`,
+        classLevels: [level],
+      };
+      const help = helpForFormules(id, difficulty, area, l, b);
+      return { challenge, help };
+    }
+    case 'machten': {
+      const exp = Math.min(4 + (yr % 3), 2 + difficulty + 1);
+      const baseNum = pick([2, 3, 5], s);
+      const answer = baseNum ** exp;
+      const challenge: ChallengeDefinition = {
+        id,
+        type: 'number-input',
+        topic,
+        difficulty,
+        starsAvailable: 3,
+        question: `Bereken: ${baseNum}^${exp}`,
+        answer,
+        hint1: `${baseNum} × ${baseNum}${exp > 2 ? ' × …' : ''}`,
+        hint2: `Vermenigvuldig ${baseNum} ${exp} keer met zichzelf.`,
+        explanation: `${baseNum}^${exp} = ${answer}`,
+        classLevels: [level],
+      };
+      const help = helpForMachten(id, difficulty, baseNum, exp, answer);
+      return { challenge, help };
+    }
+    case 'kwadratisch': {
+      const root = (s % 6) + 2;
+      const sq = root * root;
+      const challenge: ChallengeDefinition = {
+        id,
+        type: 'number-input',
+        topic,
+        difficulty,
+        starsAvailable: 3,
+        question: `Los op: x² = ${sq} (x positief). Wat is x?`,
+        answer: root,
+        hint1: 'Welk positief getal keer zichzelf geeft ' + sq + '?',
+        hint2: `${root} × ${root} = ${sq}`,
+        explanation: `x² = ${sq} → x = ${root} (positief).`,
+        classLevels: [level],
+      };
+      const help = helpForKwadratisch(id, difficulty, root, sq);
+      return { challenge, help };
+    }
+    default: {
+      return generateForTopic(level, challengeIndex, 'algebra', difficulty);
+    }
+  }
+}
+
+function difficultyFor(level: ClassLevel, lessonIndex: number, slot: number): 1 | 2 | 3 {
+  const profile = getClassProfile(level);
+  const max = profile.maxDifficulty;
+  const progress = (lessonIndex * CHALLENGES_PER_LESSON + slot) / (LEVEL_LESSON_COUNT * CHALLENGES_PER_LESSON);
+  if (max === 1) return 1;
+  if (max === 2) return progress > 0.55 ? 2 : 1;
+  if (progress > 0.75) return 3;
+  if (progress > 0.35) return 2;
+  return 1;
+}
+
+export function buildLevelBundle(level: ClassLevel): LevelBundle {
+  const profile = getClassProfile(level);
+  const band = bandFor(level);
+  const themes = LESSON_THEMES[band];
+  const label = CLASS_LEVEL_PROFILES[level].label;
+
+  const challenges: ChallengeDefinition[] = [];
+  const helpPacks: GuidedHelpPack[] = [];
+  const lessons: LessonShell[] = [];
+  const lessonIds: string[] = [];
+
+  for (let li = 1; li <= LEVEL_LESSON_COUNT; li += 1) {
+    const lessonId = lessonIdForLevel(level, li);
+    lessonIds.push(lessonId);
+    const theme = themes[li - 1];
+    const placements: LessonShell['placements'] = [];
+
+    for (let slot = 0; slot < CHALLENGES_PER_LESSON; slot += 1) {
+      const challengeIndex = (li - 1) * CHALLENGES_PER_LESSON + slot + 1;
+      const topic = profile.topicsUnlocked[(challengeIndex - 1) % profile.topicsUnlocked.length];
+      const difficulty = difficultyFor(level, li, slot);
+      const { challenge, help } = generateForTopic(level, challengeIndex, topic, difficulty);
+      const helpIssues = validateHelpPack(help, difficulty);
+      if (helpIssues.length) {
+        throw new Error(`Help validation failed for ${challenge.id}: ${helpIssues.join('; ')}`);
+      }
+      challenges.push(challenge);
+      helpPacks.push(help);
+      placements.push({
+        challengeId: challenge.id,
+        optionalStory: pick(
+          [
+            'De Uil fluistert: “Neem je tijd, denk hardop.”',
+            'Op het pad ligt een raadsel te wachten.',
+            'Nog één stap — jij kunt dit.',
+            'Kijk goed naar wat gegeven is.',
+            'Welke strategie past hier?',
+          ],
+          seed(level, challengeIndex),
+        ),
+        sortOrder: slot,
+      });
+    }
+
+    lessons.push({
+      id: lessonId,
+      adventureId: level,
+      order: li,
+      areaName: theme.areaName,
+      title: theme.title,
+      emoji: theme.emoji,
+      intro: theme.intro.replace('De Uil', 'De Uil').replace('jij', 'jij'),
+      color: COLORS[(li - 1) % COLORS.length],
+      placements,
+    });
+  }
+
+  return {
+    level,
+    manifest: {
+      id: level,
+      title: 'Wiskunde Wilds',
+      subtitle: `${label} — wiskunde avontuur`,
+      theme: 'day',
+      helpPersonaId: 'uil',
+      lessonIds,
+      unlockRuleId: 'always',
+    },
+    lessons,
+    challenges,
+    helpPacks,
+  };
+}
+
+export function buildAllLevelBundles(): LevelBundle[] {
+  return CLASS_LEVEL_IDS.map((level) => buildLevelBundle(level));
+}

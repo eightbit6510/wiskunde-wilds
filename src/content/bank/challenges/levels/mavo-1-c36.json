@@ -1,0 +1,36 @@
+{
+  "id": "mavo-1-c36",
+  "type": "multi-select",
+  "topic": "redeneren",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "12 is deelbaar door 3"
+    },
+    {
+      "id": "b",
+      "label": "12 is deelbaar door 5"
+    },
+    {
+      "id": "c",
+      "label": "15 is deelbaar door 3"
+    },
+    {
+      "id": "d",
+      "label": "10 is deelbaar door 4"
+    }
+  ],
+  "answers": [
+    "a",
+    "c"
+  ],
+  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
+  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
+  "explanation": "A: 12÷3=4. C: 15÷3=5. B en D kloppen niet.",
+  "classLevels": [
+    "mavo-1"
+  ]
+}

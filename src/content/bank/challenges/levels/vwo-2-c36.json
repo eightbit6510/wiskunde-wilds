@@ -1,0 +1,15 @@
+{
+  "id": "vwo-2-c36",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Bereken: 3^5",
+  "answer": 243,
+  "hint1": "3 × 3 × …",
+  "hint2": "Vermenigvuldig 3 5 keer met zichzelf.",
+  "explanation": "3^5 = 243",
+  "classLevels": [
+    "vwo-2"
+  ]
+}

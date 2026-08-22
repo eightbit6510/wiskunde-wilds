@@ -1,0 +1,37 @@
+{
+  "id": "groep-8-l8",
+  "adventureId": "groep-8",
+  "order": 8,
+  "areaName": "Uilentop",
+  "title": "Alles samen",
+  "emoji": "🦉",
+  "intro": "Op de top combineer je wat je geleerd hebt. De Uil gelooft in je.",
+  "color": "#9B6B8A",
+  "placements": [
+    {
+      "challengeId": "groep-8-c36",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "groep-8-c37",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "groep-8-c38",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "groep-8-c39",
+      "optionalStory": "Welke strategie past hier?",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "groep-8-c40",
+      "optionalStory": "Nog één stap — jij kunt dit.",
+      "sortOrder": 4
+    }
+  ]
+}

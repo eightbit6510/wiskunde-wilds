@@ -1,0 +1,29 @@
+{
+  "id": "mavo-4-c19",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 5x + 5x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "10x"
+    },
+    {
+      "id": "b",
+      "label": "25x"
+    },
+    {
+      "id": "c",
+      "label": "10"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "5x + 5x = (5+5)x",
+  "explanation": "5x + 5x = 10x",
+  "classLevels": [
+    "mavo-4"
+  ]
+}

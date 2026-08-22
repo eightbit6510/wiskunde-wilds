@@ -10,7 +10,8 @@ import { PinCodeInput } from './PinCodeInput';
 import {
   type AuthWizardMode,
   type AuthWizardStep,
-  CLASS_OPTIONS,
+  CLASS_LEVEL_GROUPS,
+  getClassOnlySteps,
   getGuidePersona,
   getLoginSteps,
   getRegisterSteps,
@@ -22,13 +23,16 @@ interface PlayerAuthWizardProps {
   open: boolean;
   onClose: () => void;
   initialMode?: AuthWizardMode | null;
+  /** Alleen jaargroep kiezen (geen cloud account) */
+  classOnly?: boolean;
   authApi: PlayerAuthApi;
   progressApi: ProgressApi;
   settingsApi: SettingsApi;
   progress: ProgressState;
 }
 
-function stepsForMode(mode: AuthWizardMode | null): AuthWizardStep[] {
+function stepsForMode(mode: AuthWizardMode | null, classOnly: boolean): AuthWizardStep[] {
+  if (classOnly) return getClassOnlySteps();
   if (mode === 'login') return getLoginSteps();
   if (mode === 'register') return getRegisterSteps();
   return ['choose-mode'];
@@ -38,6 +42,7 @@ export function PlayerAuthWizard({
   open,
   onClose,
   initialMode = null,
+  classOnly = false,
   authApi,
   progressApi,
   settingsApi,
@@ -45,11 +50,14 @@ export function PlayerAuthWizard({
 }: PlayerAuthWizardProps) {
   const { register, login, checkName } = authApi;
   const { applyProgress } = progressApi;
+  const { update: updateSettings } = settingsApi;
 
   const persona = useMemo(() => getGuidePersona(progress), [progress.part2Unlocked]);
 
   const [mode, setMode] = useState<AuthWizardMode | null>(initialMode);
-  const [step, setStep] = useState<AuthWizardStep>(initialMode ? 'name' : 'choose-mode');
+  const [step, setStep] = useState<AuthWizardStep>(
+    classOnly ? 'class' : initialMode ? 'name' : 'choose-mode',
+  );
   const [displayName, setDisplayName] = useState('');
   const [pin, setPin] = useState('');
   const [pinConfirm, setPinConfirm] = useState('');
@@ -60,15 +68,15 @@ export function PlayerAuthWizard({
   const [formError, setFormError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
-  const steps = stepsForMode(mode);
+  const steps = stepsForMode(mode, classOnly);
   const stepIndex = getStepIndex(steps, step);
   const trimmedName = displayName.trim();
-  const speech = getWizardSpeech({ step, mode, persona, displayName, nameHint });
+  const speech = getWizardSpeech({ step, mode, persona, displayName, nameHint, classOnly });
 
   useEffect(() => {
     if (!open) return;
     setMode(initialMode);
-    setStep(initialMode ? 'name' : 'choose-mode');
+    setStep(classOnly ? 'class' : initialMode ? 'name' : 'choose-mode');
     setDisplayName('');
     setPin('');
     setPinConfirm('');
@@ -78,7 +86,7 @@ export function PlayerAuthWizard({
     setNameAvailable(null);
     setFormError(null);
     setBusy(false);
-  }, [open, initialMode]);
+  }, [open, initialMode, classOnly]);
 
   useEffect(() => {
     if (!open || step !== 'name' || mode !== 'register' || trimmedName.length < 2) {
@@ -155,12 +163,22 @@ export function PlayerAuthWizard({
       return;
     }
     if (step === 'class') {
+      if (!classLevel) return setFormError('Kies je jaargroep — dat bepaalt welke sommen je krijgt.');
+      if (classOnly) {
+        updateSettings({ classLevel: classLevel as ClassLevel });
+        setStep('success');
+        return;
+      }
       await submitRegister();
     }
   };
 
   const goBack = () => {
     setFormError(null);
+    if (classOnly) {
+      onClose();
+      return;
+    }
     if (step === 'name') {
       setStep('choose-mode');
       setMode(null);
@@ -177,9 +195,10 @@ export function PlayerAuthWizard({
       await register({
         displayName: trimmedName,
         pin,
-        classLevel: classLevel || null,
+        classLevel: classLevel as ClassLevel,
         localProgress: progress,
       });
+      updateSettings({ classLevel: classLevel as ClassLevel });
       setStep('success');
     } catch (err) {
       setFormError(err instanceof Error ? err.message : 'Registreren mislukt.');
@@ -341,20 +360,25 @@ export function PlayerAuthWizard({
 
           {step === 'class' && (
             <>
-              <h2 id="auth-wizard-title">In welke groep zit je?</h2>
-              <p className="muted">Optioneel — mag je overslaan.</p>
-              <div className="auth-wizard-class-grid">
-                {CLASS_OPTIONS.map((opt) => (
-                  <button
-                    key={opt.value}
-                    type="button"
-                    className={`auth-wizard-class${classLevel === opt.value ? ' selected' : ''}`}
-                    onClick={() => setClassLevel(opt.value)}
-                  >
-                    {opt.label}
-                  </button>
-                ))}
-              </div>
+              <h2 id="auth-wizard-title">In welke jaargroep zit je?</h2>
+              <p className="muted">Kies wat het best past — je sommen en uil-hulp sluiten daarop aan.</p>
+              {CLASS_LEVEL_GROUPS.map((group) => (
+                <div key={group.label} className="auth-wizard-class-section">
+                  <p className="auth-wizard-class-group-label">{group.label}</p>
+                  <div className="auth-wizard-class-grid">
+                    {group.levels.map((opt) => (
+                      <button
+                        key={opt.value}
+                        type="button"
+                        className={`auth-wizard-class${classLevel === opt.value ? ' selected' : ''}`}
+                        onClick={() => setClassLevel(opt.value)}
+                      >
+                        {opt.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </>
           )}
 
@@ -377,7 +401,7 @@ export function PlayerAuthWizard({
               Terug
             </button>
             <button type="button" className="btn btn-large" disabled={busy} onClick={() => void goNext()}>
-              {busy ? 'Even geduld…' : step === 'class' ? 'Opslaan' : step === 'pin' && mode === 'login' ? 'Inloggen' : 'Verder'}
+              {busy ? 'Even geduld…' : step === 'class' ? (classOnly ? 'Start avontuur' : 'Opslaan') : step === 'pin' && mode === 'login' ? 'Inloggen' : 'Verder'}
             </button>
           </div>
         )}

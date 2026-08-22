@@ -1,0 +1,98 @@
+{
+  "challengeId": "mavo-3-c24",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Zoek wat onbekend is — draai de formule om.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Breedte vinden (A=49, lengte=7)"
+          },
+          {
+            "id": "wrong",
+            "label": "Lengte en breedte optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=49, lengte=7.",
+        "question": "Welke grootte zoek je?",
+        "options": [
+          {
+            "id": "b",
+            "label": "Breedte"
+          },
+          {
+            "id": "a",
+            "label": "Oppervlakte"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Goed — breedte is onbekend.",
+        "retryFeedback": "Oppervlakte en lengte zijn gegeven."
+      },
+      {
+        "explanation": "Stap 3: draai de formule om.\nbreedte = A ÷ lengte = 49 ÷ 7",
+        "question": "49 ÷ 7 = ?",
+        "options": [
+          {
+            "id": "b",
+            "label": "7"
+          },
+          {
+            "id": "w",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Breedte = 7.",
+        "retryFeedback": "Deel 49 door 7."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "7 × 7 = 49?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! Breedte = 7.",
+        "retryFeedback": "7 × 7 moet 49 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 b = 7"
+  },
+  "bonusVariants": [
+    {
+      "id": "mavo-3-c24-b1",
+      "type": "number-input",
+      "question": "A = 56, l = 7. b = ?",
+      "answer": 8,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Deel oppervlakte door lengte.",
+      "explanation": "Deel oppervlakte door lengte."
+    },
+    {
+      "id": "mavo-3-c24-b2",
+      "type": "number-input",
+      "question": "A = 49, l = 7. b = ?",
+      "answer": 7,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "b = 49 ÷ 7.",
+      "explanation": "b = 49 ÷ 7."
+    }
+  ]
+}

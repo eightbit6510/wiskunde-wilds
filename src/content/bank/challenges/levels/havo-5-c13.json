@@ -1,0 +1,29 @@
+{
+  "id": "havo-5-c13",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 5x + 4x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "9x"
+    },
+    {
+      "id": "b",
+      "label": "20x"
+    },
+    {
+      "id": "c",
+      "label": "9"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "5x + 4x = (5+4)x",
+  "explanation": "5x + 4x = 9x",
+  "classLevels": [
+    "havo-5"
+  ]
+}
