@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AdventureMap } from '../components/AdventureMap';
-import { CloudSavePanel } from '../components/CloudSavePanel';
+import { PlayerAuthWizard } from '../components/auth/PlayerAuthWizard';
 import { ForestMascot } from '../components/ForestMascot';
 import { ProgressBar } from '../components/ProgressBar';
 import { StarCounter } from '../components/StarCounter';
@@ -25,7 +25,7 @@ export function Dashboard({
   const { progress, startAdventure, lessonProgress } = progressApi;
   const { session, isLoggedIn } = authApi;
   const { classLevel, lessons, hasLevelContent } = useActiveLessons();
-  const [wizardOpen, setWizardOpen] = useState(false);
+  const [classWizardOpen, setClassWizardOpen] = useState(false);
 
   const manifest = classLevel ? getLevelManifest(classLevel) : undefined;
   const summary = useMemo(
@@ -53,40 +53,6 @@ export function Dashboard({
         : `Welkom in Wiskunde Wilds, ${playerName}!`
       : 'Welkom in Wiskunde Wilds';
 
-  if (!hasLevelContent) {
-    return (
-      <div>
-        <section className="hero" aria-labelledby="welcome-title">
-          <div className="hero-panel">
-            <p className="chip">🐾 Wiskunde Wilds</p>
-            <h1 id="welcome-title">{welcomeTitle}</h1>
-            <p className="lead">Kies eerst je jaargroep — dan staat je avontuur klaar.</p>
-            <p className="subtitle">
-              Sommen en uil-hulp passend bij basisschool, MAVO, HAVO of VWO.
-            </p>
-            <button type="button" className="btn btn-large" onClick={() => setWizardOpen(true)}>
-              Kies mijn jaargroep
-            </button>
-          </div>
-          <div className="card" style={{ display: 'grid', placeItems: 'center' }}>
-            <ForestMascot mood="normal" size={160} className="float" />
-          </div>
-        </section>
-
-        <div className="settings-list" style={{ marginTop: '1.5rem' }}>
-          <CloudSavePanel
-            authApi={authApi}
-            progressApi={progressApi}
-            settingsApi={settingsApi}
-            forceWizardOpen={wizardOpen}
-            onWizardClose={() => setWizardOpen(false)}
-            classOnly
-          />
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div>
       <section className="hero" aria-labelledby="welcome-title">
@@ -95,20 +61,38 @@ export function Dashboard({
             🦉 {classLevel ? getClassLevelLabel(classLevel) : 'Wiskunde Wilds'}
           </p>
           <h1 id="welcome-title">{welcomeTitle}</h1>
-          <p className="lead">{manifest?.subtitle ?? 'Klaar om je wiskundeskills wakker te maken?'}</p>
-          <p className="subtitle">{manifest?.title ?? 'Wiskunde Wilds'}</p>
-          <button
-            type="button"
-            className="btn btn-large"
-            onClick={() => {
-              startAdventure();
-              document.getElementById('map-title')?.scrollIntoView({ behavior: 'smooth' });
-            }}
-          >
-            {progress.adventureStarted || doneChallenges > 0
-              ? 'Ga verder met mijn avontuur'
-              : 'Start mijn avontuur'}
-          </button>
+          {hasLevelContent ? (
+            <>
+              <p className="lead">{manifest?.subtitle ?? 'Klaar om je wiskundeskills wakker te maken?'}</p>
+              <p className="subtitle">{manifest?.title ?? 'Wiskunde Wilds'}</p>
+              <button
+                type="button"
+                className="btn btn-large"
+                onClick={() => {
+                  startAdventure();
+                  document.getElementById('map-title')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
+                {progress.adventureStarted || doneChallenges > 0
+                  ? 'Ga verder met mijn avontuur'
+                  : 'Start mijn avontuur'}
+              </button>
+            </>
+          ) : (
+            <>
+              <p className="lead">Kies je jaargroep — dan staan je hoofdstukken op de kaart klaar.</p>
+              <p className="subtitle">
+                Sommen en uil-hulp passend bij basisschool, MAVO, HAVO of VWO.
+              </p>
+              <button
+                type="button"
+                className="btn btn-large"
+                onClick={() => setClassWizardOpen(true)}
+              >
+                Kies mijn jaargroep
+              </button>
+            </>
+          )}
         </div>
         <div className="card" style={{ display: 'grid', placeItems: 'center' }}>
           <ForestMascot
@@ -117,55 +101,84 @@ export function Dashboard({
             className="float"
           />
           <p className="muted" style={{ textAlign: 'center', margin: '0.5rem 0 0' }}>
-            De Uil wijst je de weg
+            {hasLevelContent ? 'De Uil wijst je de weg' : 'De Uil wacht op je jaargroep'}
           </p>
         </div>
       </section>
 
-      <section className="stat-grid" aria-label="Voortgangsoverzicht">
-        <div className="stat-card">
-          <div className="label">Sterren</div>
-          <div className="value">
-            <StarCounter stars={progress.totalStars} />
+      {hasLevelContent && (
+        <>
+          <section className="stat-grid" aria-label="Voortgangsoverzicht">
+            <div className="stat-card">
+              <div className="label">Sterren</div>
+              <div className="value">
+                <StarCounter stars={progress.totalStars} />
+              </div>
+            </div>
+            <div className="stat-card">
+              <div className="label">Sessie-streak</div>
+              <div className="value">{progress.sessionStreak}</div>
+            </div>
+            <div className="stat-card">
+              <div className="label">Opgelost</div>
+              <div className="value">{progress.challengesSolved}</div>
+            </div>
+            <div className="stat-card">
+              <div className="label">XP</div>
+              <div className="value">{progress.totalXp}</div>
+            </div>
+          </section>
+
+          <div style={{ margin: '1.25rem 0 1.75rem' }}>
+            <ProgressBar
+              value={doneChallenges}
+              max={Math.max(totalChallenges, 1)}
+              label="Levelprogressie"
+            />
           </div>
-        </div>
-        <div className="stat-card">
-          <div className="label">Sessie-streak</div>
-          <div className="value">{progress.sessionStreak}</div>
-        </div>
-        <div className="stat-card">
-          <div className="label">Opgelost</div>
-          <div className="value">{progress.challengesSolved}</div>
-        </div>
-        <div className="stat-card">
-          <div className="label">XP</div>
-          <div className="value">{progress.totalXp}</div>
-        </div>
-      </section>
+        </>
+      )}
 
-      <div style={{ margin: '1.25rem 0 1.75rem' }}>
-        <ProgressBar
-          value={doneChallenges}
-          max={Math.max(totalChallenges, 1)}
-          label="Levelprogressie"
+      {hasLevelContent ? (
+        <AdventureMap
+          part1Lessons={lessons}
+          part2Lessons={[]}
+          lessonProgress={lessonProgress}
+          part2Unlocked={false}
+          part1CompletedCount={completeCount}
+          part1Total={lessons.length}
+          onLockedPart2Click={() => {}}
+          singleAdventure
+          sectionTitle={manifest?.title ?? 'Jouw avontuur'}
+          sectionSubtitle={
+            classLevel ? `${getClassLevelLabel(classLevel)} — ${manifest?.subtitle ?? ''}` : undefined
+          }
+          sequential
         />
-      </div>
-
-      <AdventureMap
-        part1Lessons={lessons}
-        part2Lessons={[]}
-        lessonProgress={lessonProgress}
-        part2Unlocked={false}
-        part1CompletedCount={completeCount}
-        part1Total={lessons.length}
-        onLockedPart2Click={() => {}}
-        singleAdventure
-        sectionTitle={manifest?.title ?? 'Jouw avontuur'}
-        sectionSubtitle={
-          classLevel ? `${getClassLevelLabel(classLevel)} — ${manifest?.subtitle ?? ''}` : undefined
-        }
-        sequential
-      />
+      ) : (
+        <section aria-labelledby="map-title">
+          <h2 id="map-title" className="section-title" style={{ marginTop: 0 }}>
+            Avonturenkaart
+          </h2>
+          <p className="muted" style={{ marginTop: 0 }}>
+            Kies je jaargroep om alle hoofdstukken te zien.
+          </p>
+          <div className="card" style={{ marginTop: '1rem' }}>
+            <p style={{ marginTop: 0 }}>
+              Nog geen jaargroep gekozen. Zodra je die kiest, verschijnen hier je 8 hoofdstukken
+              met sommen op jouw niveau.
+            </p>
+            <div style={{ display: 'flex', gap: '0.65rem', flexWrap: 'wrap' }}>
+              <button type="button" className="btn" onClick={() => setClassWizardOpen(true)}>
+                Kies mijn jaargroep
+              </button>
+              <Link to="/settings" className="btn btn-secondary">
+                Via instellingen
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
 
       <p className="muted" style={{ marginTop: '1.5rem' }}>
         Tip: bekijk ook je <Link to="/skills">skills</Link> en{' '}
@@ -178,6 +191,16 @@ export function Dashboard({
           jaargroep-sommen — sterren op oude IDs tellen niet mee voor dit avontuur.
         </p>
       )}
+
+      <PlayerAuthWizard
+        open={classWizardOpen}
+        onClose={() => setClassWizardOpen(false)}
+        classOnly
+        authApi={authApi}
+        progressApi={progressApi}
+        settingsApi={settingsApi}
+        progress={progress}
+      />
     </div>
   );
 }

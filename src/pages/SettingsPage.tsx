@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { CloudSavePanel } from '../components/CloudSavePanel';
+import { PlayerAuthWizard } from '../components/auth/PlayerAuthWizard';
+import { getClassLevelLabel } from '../content/classLevels';
 import type { PlayerAuthApi } from '../hooks/usePlayerAuth';
 import type { ProgressApi } from '../hooks/useProgress';
 import type { SettingsApi } from '../hooks/useSettings';
@@ -14,8 +16,9 @@ export function SettingsPage({
   authApi: PlayerAuthApi;
 }) {
   const { settings, update } = settingsApi;
-  const { resetProgress } = progressApi;
+  const { resetProgress, progress } = progressApi;
   const [confirmReset, setConfirmReset] = useState(false);
+  const [classWizardOpen, setClassWizardOpen] = useState(false);
 
   return (
     <div>
@@ -23,6 +26,18 @@ export function SettingsPage({
       <p className="muted">Maak het bos rustiger of frisser — jij bepaalt.</p>
 
       <div className="settings-list" style={{ marginTop: '1rem' }}>
+        <div className="settings-row" style={{ flexDirection: 'column', alignItems: 'stretch' }}>
+          <strong>Jaargroep</strong>
+          <p className="muted" style={{ margin: '0.35rem 0 0.75rem', fontSize: '0.9rem' }}>
+            {settings.classLevel
+              ? <>Je speelt nu met sommen voor <strong>{getClassLevelLabel(settings.classLevel)}</strong>.</>
+              : 'Kies je jaargroep om hoofdstukken en sommen op jouw niveau te zien.'}
+          </p>
+          <button type="button" className="btn btn-secondary" onClick={() => setClassWizardOpen(true)}>
+            {settings.classLevel ? 'Jaargroep wijzigen' : 'Jaargroep kiezen'}
+          </button>
+        </div>
+
         <CloudSavePanel authApi={authApi} progressApi={progressApi} settingsApi={settingsApi} />
 
         <div className="settings-row">
@@ -105,6 +120,16 @@ export function SettingsPage({
           )}
         </div>
       </div>
+
+      <PlayerAuthWizard
+        open={classWizardOpen}
+        onClose={() => setClassWizardOpen(false)}
+        classOnly
+        authApi={authApi}
+        progressApi={progressApi}
+        settingsApi={settingsApi}
+        progress={progress}
+      />
     </div>
   );
 }
