@@ -39,8 +39,8 @@
         "retryFeedback": "x² is niet x×2."
       },
       {
-        "explanation": "Stap 3: probeer 2.\n2 × 2 = 4",
-        "question": "2² = ?",
+        "explanation": "Stap 3: welk getal keer zichzelf geeft 4?\n\nReken een paar getallen keer zichzelf.",
+        "question": "2 × 2 = ?",
         "options": [
           {
             "id": "sq",
@@ -56,7 +56,7 @@
         "retryFeedback": "Probeer 2 × 2."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal met 2²=4\n3. Controle: 2×2=4",
+        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal dat × zichzelf 4 geeft\n3. Controleer door te vermenigvuldigen",
         "question": "Is x = 2 het antwoord?",
         "options": [
           {

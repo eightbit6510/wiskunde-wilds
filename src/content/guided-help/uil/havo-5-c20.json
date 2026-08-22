@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 12 = 16 → x = 16 − 12",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 12 = 16. Haal +12 weg → x = 16 − 12.",
         "question": "Wat is 16 − 12?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 12 = 16 als x = 4?",
+        "question": "Past je x-waarde in x + 12 = 16?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 4 + 12 = 16"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 4!",
-        "retryFeedback": "Reken na: 4 + 12 moet 16 zijn."
+        "retryFeedback": "Reken na: x + 12 moet 16 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 4"

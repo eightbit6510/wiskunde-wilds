@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "o",
         "successFeedback": "Klopt: 4.",
-        "retryFeedback": "(4 ÷ 2) × 2 = 4."
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 2."
       },
       {
         "explanation": "Stap 4: controleer de verhouding.",

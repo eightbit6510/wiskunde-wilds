@@ -39,7 +39,7 @@
         "retryFeedback": "Oppervlakte en lengte zijn gegeven."
       },
       {
-        "explanation": "Stap 3: draai de formule om.\nbreedte = A ÷ lengte = 50 ÷ 10",
+        "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
         "question": "50 ÷ 10 = ?",
         "options": [
           {
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "10 × 5 = 50?",
+        "question": "Vermenigvuldig lengte 10 met je breedte-antwoord. Is het 50?",
         "options": [
           {
             "id": "yes",

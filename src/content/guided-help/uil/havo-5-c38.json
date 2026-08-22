@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 5 = 12 → x = 12 − 5",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 5 = 12. Haal +5 weg → x = 12 − 5.",
         "question": "Wat is 12 − 5?",
         "options": [
           {

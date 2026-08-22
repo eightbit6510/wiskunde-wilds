@@ -39,7 +39,7 @@
         "retryFeedback": "Samen moet het 11 worden."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\n11 − 6 = 5",
+        "explanation": "Stap 3: reken terug.\n\nTrek 6 af van 11.",
         "question": "Wat is 11 − 6?",
         "options": [
           {
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "6 + 5 = 11?",
+        "question": "Tel je antwoord op bij 6. Kom je op 11?",
         "options": [
           {
             "id": "yes",
@@ -69,8 +69,8 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het antwoord is 5.",
-        "retryFeedback": "Reken na: 5 + 6 = 11."
+        "successFeedback": "Perfect! Het ontbrekende getal is 5.",
+        "retryFeedback": "Reken na: antwoord + 6 = 11."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 5."

@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "o",
         "successFeedback": "Klopt: 16.",
-        "retryFeedback": "(16 ÷ 4) × 4 = 16."
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 4."
       },
       {
         "explanation": "Stappenplan voor dit type som:\n1. Deel gegeven deel door verhoudingsdeel (16 ÷ 4 = 4)\n2. Vermenigvuldig met ander deel (4 × 4)\n3. Controle: 16:16 = 4:4",

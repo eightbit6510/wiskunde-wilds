@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 8 = 12 → x = 12 − 8",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 8 = 12. Haal +8 weg → x = 12 − 8.",
         "question": "Wat is 12 − 8?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 8 = 12 als x = 4?",
+        "question": "Past je x-waarde in x + 8 = 12?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 4 + 8 = 12"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 4!",
-        "retryFeedback": "Reken na: 4 + 8 moet 12 zijn."
+        "retryFeedback": "Reken na: x + 8 moet 12 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 4"

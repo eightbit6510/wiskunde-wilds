@@ -39,7 +39,7 @@
         "retryFeedback": "Kijk onderaan de breuk: het getal onder de streep."
       },
       {
-        "explanation": "Stap 3: tel alleen de tellers op.\n\n2 + 4 = 6. De noemer 8 blijft staan.",
+        "explanation": "Stap 3: tel alleen de tellers op.\n\nTel 2 + 4. De noemer 8 blijft staan.",
         "question": "Wat is 2/8 + 4/8?",
         "options": [
           {

@@ -39,8 +39,8 @@
         "retryFeedback": "x² is niet x×2."
       },
       {
-        "explanation": "Stap 3: probeer 4.\n4 × 4 = 16",
-        "question": "4² = ?",
+        "explanation": "Stap 3: welk getal keer zichzelf geeft 16?\n\nReken een paar getallen keer zichzelf.",
+        "question": "4 × 4 = ?",
         "options": [
           {
             "id": "sq",

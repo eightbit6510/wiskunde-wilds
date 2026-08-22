@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 9 = 15 → x = 15 − 9",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 9 = 15. Haal +9 weg → x = 15 − 9.",
         "question": "Wat is 15 − 9?",
         "options": [
           {

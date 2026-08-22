@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 2 = 6 → x = 6 − 2",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 2 = 6. Haal +2 weg → x = 6 − 2.",
         "question": "Wat is 6 − 2?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 2 = 6 als x = 4?",
+        "question": "Past je x-waarde in x + 2 = 6?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 4 + 2 = 6"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 4!",
-        "retryFeedback": "Reken na: 4 + 2 moet 6 zijn."
+        "retryFeedback": "Reken na: x + 2 moet 6 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 4"

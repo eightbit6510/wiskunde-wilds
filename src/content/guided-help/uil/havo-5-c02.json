@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 12 = 20 → x = 20 − 12",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 12 = 20. Haal +12 weg → x = 20 − 12.",
         "question": "Wat is 20 − 12?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 12 = 20 als x = 8?",
+        "question": "Past je x-waarde in x + 12 = 20?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 8 + 12 = 20"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 8!",
-        "retryFeedback": "Reken na: 8 + 12 moet 20 zijn."
+        "retryFeedback": "Reken na: x + 12 moet 20 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 8"

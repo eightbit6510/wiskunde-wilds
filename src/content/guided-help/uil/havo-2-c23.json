@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "o",
         "successFeedback": "Klopt: 6.",
-        "retryFeedback": "(4 ÷ 2) × 3 = 6."
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 3."
       },
       {
         "explanation": "Stap 4: controleer de verhouding.",

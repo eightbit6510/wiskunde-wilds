@@ -39,7 +39,7 @@
         "retryFeedback": "Oppervlakte en lengte zijn gegeven."
       },
       {
-        "explanation": "Stap 3: draai de formule om.\nbreedte = A ÷ lengte = 56 ÷ 8",
+        "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
         "question": "56 ÷ 8 = ?",
         "options": [
           {
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "8 × 7 = 56?",
+        "question": "Vermenigvuldig lengte 8 met je breedte-antwoord. Is het 56?",
         "options": [
           {
             "id": "yes",

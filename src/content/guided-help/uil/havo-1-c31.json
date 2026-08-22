@@ -39,7 +39,7 @@
         "retryFeedback": "Kijk naar de letter: beide hebben x."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n5 + 4 = 9",
+        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 5 + 4.",
         "question": "Wat is 5x + 4x?",
         "options": [
           {

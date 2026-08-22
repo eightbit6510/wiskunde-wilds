@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 9 = 17 → x = 17 − 9",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 9 = 17. Haal +9 weg → x = 17 − 9.",
         "question": "Wat is 17 − 9?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 9 = 17 als x = 8?",
+        "question": "Past je x-waarde in x + 9 = 17?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 8 + 9 = 17"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 8!",
-        "retryFeedback": "Reken na: 8 + 9 moet 17 zijn."
+        "retryFeedback": "Reken na: x + 9 moet 17 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 8"

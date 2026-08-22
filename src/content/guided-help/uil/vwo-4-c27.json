@@ -39,8 +39,8 @@
         "retryFeedback": "x² is niet x×2."
       },
       {
-        "explanation": "Stap 3: probeer 5.\n5 × 5 = 25",
-        "question": "5² = ?",
+        "explanation": "Stap 3: welk getal keer zichzelf geeft 25?\n\nReken een paar getallen keer zichzelf.",
+        "question": "5 × 5 = ?",
         "options": [
           {
             "id": "sq",
@@ -56,7 +56,7 @@
         "retryFeedback": "Probeer 5 × 5."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal met 5²=25\n3. Controle: 5×5=25",
+        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal dat × zichzelf 25 geeft\n3. Controleer door te vermenigvuldigen",
         "question": "Is x = 5 het antwoord?",
         "options": [
           {

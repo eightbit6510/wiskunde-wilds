@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 4 = 11 → x = 11 − 4",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 4 = 11. Haal +4 weg → x = 11 − 4.",
         "question": "Wat is 11 − 4?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 4 = 11 als x = 7?",
+        "question": "Past je x-waarde in x + 4 = 11?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 7 + 4 = 11"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 7!",
-        "retryFeedback": "Reken na: 7 + 4 moet 11 zijn."
+        "retryFeedback": "Reken na: x + 4 moet 11 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 7"

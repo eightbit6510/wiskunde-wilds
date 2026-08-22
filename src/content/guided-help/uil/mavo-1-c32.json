@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 7 = 16 → x = 16 − 7",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 7 = 16. Haal +7 weg → x = 16 − 7.",
         "question": "Wat is 16 − 7?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 7 = 16 als x = 9?",
+        "question": "Past je x-waarde in x + 7 = 16?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 9 + 7 = 16"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 9!",
-        "retryFeedback": "Reken na: 9 + 7 moet 16 zijn."
+        "retryFeedback": "Reken na: x + 7 moet 16 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 9"

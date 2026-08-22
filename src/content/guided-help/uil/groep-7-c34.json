@@ -36,7 +36,7 @@
         ],
         "correctAnswer": "f",
         "successFeedback": "Goed — dat is 4 keer.",
-        "retryFeedback": "16 ÷ 4 = 4."
+        "retryFeedback": "Deel 16 door 4."
       },
       {
         "explanation": "Stap 3: vermenigvuldig met 4.",
@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "o",
         "successFeedback": "Klopt: 16.",
-        "retryFeedback": "4 keer 4."
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 4."
       },
       {
         "explanation": "Stap 4: controle.",

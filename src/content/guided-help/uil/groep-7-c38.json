@@ -39,7 +39,7 @@
         "retryFeedback": "Samen moet het 5 worden."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\n5 − 3 = 2",
+        "explanation": "Stap 3: reken terug.\n\nTrek 3 af van 5.",
         "question": "Wat is 5 − 3?",
         "options": [
           {
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "3 + 2 = 5?",
+        "question": "Tel je antwoord op bij 3. Kom je op 5?",
         "options": [
           {
             "id": "yes",
@@ -69,8 +69,8 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het antwoord is 2.",
-        "retryFeedback": "Reken na: 2 + 3 = 5."
+        "successFeedback": "Perfect! Het ontbrekende getal is 2.",
+        "retryFeedback": "Reken na: antwoord + 3 = 5."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 2."

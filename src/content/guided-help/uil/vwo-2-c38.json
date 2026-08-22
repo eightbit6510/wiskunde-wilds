@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 10 = 19 → x = 19 − 10",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 10 = 19. Haal +10 weg → x = 19 − 10.",
         "question": "Wat is 19 − 10?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 10 = 19 als x = 9?",
+        "question": "Past je x-waarde in x + 10 = 19?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 9 + 10 = 19"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 9!",
-        "retryFeedback": "Reken na: 9 + 10 moet 19 zijn."
+        "retryFeedback": "Reken na: x + 10 moet 19 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 9"

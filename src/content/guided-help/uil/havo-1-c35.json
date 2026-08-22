@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "o",
         "successFeedback": "Klopt: 15.",
-        "retryFeedback": "(9 ÷ 3) × 5 = 15."
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 5."
       },
       {
         "explanation": "Stap 4: controleer de verhouding.",

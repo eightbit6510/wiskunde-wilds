@@ -39,7 +39,7 @@
         "retryFeedback": "Oppervlakte en lengte zijn gegeven."
       },
       {
-        "explanation": "Stap 3: draai de formule om.\nbreedte = A ÷ lengte = 55 ÷ 11",
+        "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
         "question": "55 ÷ 11 = ?",
         "options": [
           {
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "11 × 5 = 55?",
+        "question": "Vermenigvuldig lengte 11 met je breedte-antwoord. Is het 55?",
         "options": [
           {
             "id": "yes",

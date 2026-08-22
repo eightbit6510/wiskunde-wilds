@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "o",
         "successFeedback": "Klopt: 8.",
-        "retryFeedback": "(16 ÷ 4) × 2 = 8."
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 2."
       },
       {
         "explanation": "Stap 4: controleer de verhouding.",

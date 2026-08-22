@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "o",
         "successFeedback": "Klopt: 6.",
-        "retryFeedback": "(4 ÷ 2) × 3 = 6."
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 3."
       },
       {
         "explanation": "Stappenplan voor dit type som:\n1. Deel gegeven deel door verhoudingsdeel (4 ÷ 2 = 2)\n2. Vermenigvuldig met ander deel (2 × 3)\n3. Controle: 4:6 = 2:3",

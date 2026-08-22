@@ -39,7 +39,7 @@
         "retryFeedback": "Samen moet het 8 worden."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\n8 − 5 = 3",
+        "explanation": "Stap 3: reken terug.\n\nTrek 5 af van 8.",
         "question": "Wat is 8 − 5?",
         "options": [
           {
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "3 + 5 = 8?",
+        "question": "Tel je antwoord op bij 5. Kom je op 8?",
         "options": [
           {
             "id": "yes",
@@ -69,8 +69,8 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het antwoord is 3.",
-        "retryFeedback": "Reken na: 3 + 5 = 8."
+        "successFeedback": "Perfect! Het ontbrekende getal is 3.",
+        "retryFeedback": "Reken na: antwoord + 5 = 8."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 3."

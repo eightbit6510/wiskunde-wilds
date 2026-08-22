@@ -39,8 +39,8 @@
         "retryFeedback": "x² is niet x×2."
       },
       {
-        "explanation": "Stap 3: probeer 7.\n7 × 7 = 49",
-        "question": "7² = ?",
+        "explanation": "Stap 3: welk getal keer zichzelf geeft 49?\n\nReken een paar getallen keer zichzelf.",
+        "question": "7 × 7 = ?",
         "options": [
           {
             "id": "sq",

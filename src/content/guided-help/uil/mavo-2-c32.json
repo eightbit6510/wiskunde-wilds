@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 8 = 11 → x = 11 − 8",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 8 = 11. Haal +8 weg → x = 11 − 8.",
         "question": "Wat is 11 − 8?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 8 = 11 als x = 3?",
+        "question": "Past je x-waarde in x + 8 = 11?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 3 + 8 = 11"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 3!",
-        "retryFeedback": "Reken na: 3 + 8 moet 11 zijn."
+        "retryFeedback": "Reken na: x + 8 moet 11 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 3"

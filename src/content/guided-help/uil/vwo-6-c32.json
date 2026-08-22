@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 11 = 17 → x = 17 − 11",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 11 = 17. Haal +11 weg → x = 17 − 11.",
         "question": "Wat is 17 − 11?",
         "options": [
           {

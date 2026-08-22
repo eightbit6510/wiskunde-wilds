@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 9 = 14 → x = 14 − 9",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 9 = 14. Haal +9 weg → x = 14 − 9.",
         "question": "Wat is 14 − 9?",
         "options": [
           {

@@ -36,7 +36,7 @@
         ],
         "correctAnswer": "f",
         "successFeedback": "Goed — dat is 3 keer.",
-        "retryFeedback": "9 ÷ 3 = 3."
+        "retryFeedback": "Deel 9 door 3."
       },
       {
         "explanation": "Stap 3: vermenigvuldig met 3.",
@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "o",
         "successFeedback": "Klopt: 9.",
-        "retryFeedback": "3 keer 3."
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 3."
       },
       {
         "explanation": "Stap 4: controle.",

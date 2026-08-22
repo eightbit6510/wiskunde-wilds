@@ -169,7 +169,7 @@ export function helpForBreuken(
   } else {
     steps.push(
       owlStep(
-        `Stap 4: schrijf ${fracSum} als kommagetal.\n\nDeel de teller door de noemer: ${simpNum} ÷ ${simpDen}.`,
+        `Stap 4: schrijf ${fracSum} als kommagetal.\n\nDeel teller door noemer (${simpNum} ÷ ${simpDen}).`,
         `Wat is ${simpNum} ÷ ${simpDen}?`,
         [
           { id: 'a', label: String(answer) },
@@ -225,7 +225,7 @@ export function helpForVergelijkingen(
       'Om + weg te halen, trek je af — links én rechts.',
     ),
     owlStep(
-      `Stap 3: reken uit.\nx + ${a} = ${b} → x = ${b} − ${a}`,
+      `Stap 3: reken uit.\n\nJe weet: x + ${a} = ${b}. Haal +${a} weg → x = ${b} − ${a}.`,
       `Wat is ${b} − ${a}?`,
       [
         { id: 'x', label: String(x) },
@@ -254,14 +254,14 @@ export function helpForVergelijkingen(
     steps.push(
       owlStep(
         `Stap 4: controleer je antwoord.`,
-        `Klopt x + ${a} = ${b} als x = ${x}?`,
+        `Past je x-waarde in x + ${a} = ${b}?`,
         [
-          { id: 'yes', label: `Ja, ${x} + ${a} = ${b}` },
+          { id: 'yes', label: 'Ja, dat klopt' },
           { id: 'no', label: 'Nee' },
         ],
         'yes',
         `Perfect. x = ${x}!`,
-        `Reken na: ${x} + ${a} moet ${b} zijn.`,
+        `Reken na: x + ${a} moet ${b} zijn.`,
       ),
     );
   }
@@ -299,7 +299,7 @@ export function helpForGrafieken(id: string, difficulty: HelpDifficulty, k: numb
       `Vermenigvuldig: ${k} × 1.`,
     ),
     owlStep(
-      `Stap 3: vul nog een paar waarden in.\nx=2 → y=${k * 2}, x=3 → y=${k * 3}`,
+      `Stap 3: vul nog een paar waarden in.\n\nBereken y voor x = 2 en x = 3.`,
       `Welk patroon past bij y = ${k}x?`,
       [
         { id: 'a', label: `y: ${k}, ${k * 2}, ${k * 3}…` },
@@ -395,7 +395,7 @@ export function helpForVerbanden(
       ],
       'o',
       `Klopt: ${other}.`,
-      `(${given} ÷ ${p1}) × ${p2} = ${other}.`,
+      `Vermenigvuldig je schaalfactor met ${p2}.`,
     ),
   ];
 
@@ -467,7 +467,7 @@ export function helpForAlgebra(
       'Kijk naar de letter: beide hebben x.',
     ),
     owlStep(
-      `Stap 3: tel coëfficiënten op.\n${c1} + ${c2} = ${sum}`,
+      `Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: ${c1} + ${c2}.`,
       `Wat is ${c1}x + ${c2}x?`,
       [
         { id: 'a', label: `${sum}x` },
@@ -553,7 +553,7 @@ export function helpForFormules(
       'Oppervlakte en lengte zijn gegeven.',
     ),
     owlStep(
-      `Stap 3: draai de formule om.\nbreedte = A ÷ lengte = ${area} ÷ ${length}`,
+      `Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.`,
       `${area} ÷ ${length} = ?`,
       [
         { id: 'b', label: String(width) },
@@ -582,7 +582,7 @@ export function helpForFormules(
     steps.push(
       owlStep(
         `Stap 4: controleer.`,
-        `${length} × ${width} = ${area}?`,
+        `Vermenigvuldig lengte ${length} met je breedte-antwoord. Is het ${area}?`,
         [
           { id: 'yes', label: 'Ja' },
           { id: 'no', label: 'Nee' },
@@ -641,8 +641,8 @@ export function helpForMachten(
     ),
     owlStep(
       exp >= 3
-        ? `Stap 3: ${baseNum}×${baseNum}=${baseNum ** 2}, dan ×${baseNum}=${baseNum ** 3}${exp > 3 ? '…' : ''}.`
-        : `Stap 3: reken ${baseNum} × ${baseNum} = ${baseNum ** 2}.`,
+        ? `Stap 3: reken stap voor stap.\n\nBegin met ${baseNum} × ${baseNum}, vermenigvuldig daarna verder tot je ${exp} keer hebt.`
+        : `Stap 3: reken ${baseNum} × ${baseNum}.`,
       `Wat is ${baseNum}^${exp}?`,
       [
         { id: 'a', label: String(answer) },
@@ -721,8 +721,8 @@ export function helpForKwadratisch(
       'x² is niet x×2.',
     ),
     owlStep(
-      `Stap 3: probeer ${root}.\n${root} × ${root} = ${sq}`,
-      `${root}² = ?`,
+      `Stap 3: welk getal keer zichzelf geeft ${sq}?\n\nReken een paar getallen keer zichzelf.`,
+      `${root} × ${root} = ?`,
       [
         { id: 'sq', label: String(sq) },
         { id: 'wrong', label: String(sq + 1) },
@@ -736,7 +736,7 @@ export function helpForKwadratisch(
   if (difficulty >= 3) {
     steps.push(
       recipeStep(
-        `1. x² = x × x\n2. Zoek positief getal met ${root}²=${sq}\n3. Controle: ${root}×${root}=${sq}`,
+        `1. x² = x × x\n2. Zoek positief getal dat × zichzelf ${sq} geeft\n3. Controleer door te vermenigvuldigen`,
         `Is x = ${root} het antwoord?`,
         [
           { id: 'yes', label: `Ja, positief en klopt` },
@@ -1065,7 +1065,7 @@ export function helpForBreukenGelijknamig(
       'Kijk onderaan de breuk: het getal onder de streep.',
     ),
     owlStep(
-      `Stap 3: tel alleen de tellers op.\n\n${n1} + ${n2} = ${n1 + n2}. De noemer ${den} blijft staan.`,
+      `Stap 3: tel alleen de tellers op.\n\nTel ${n1} + ${n2}. De noemer ${den} blijft staan.`,
       `Wat is ${f1} + ${f2}?`,
       [
         { id: 'right', label: fracSum },
@@ -1207,7 +1207,7 @@ export function helpForOntbrekendGetal(
       `Samen moet het ${right} worden.`,
     ),
     owlStep(
-      `Stap 3: reken terug.\n\n${right} − ${left} = ${missing}`,
+      `Stap 3: reken terug.\n\nTrek ${left} af van ${right}.`,
       `Wat is ${right} − ${left}?`,
       [
         { id: 'm', label: String(missing) },
@@ -1219,14 +1219,14 @@ export function helpForOntbrekendGetal(
     ),
     owlStep(
       `Stap 4: controleer.`,
-      `${missingFirst ? `${missing} + ${left}` : `${left} + ${missing}`} = ${right}?`,
+      `Tel je antwoord op bij ${left}. Kom je op ${right}?`,
       [
-        { id: 'yes', label: `Ja, dat klopt` },
+        { id: 'yes', label: 'Ja, dat klopt' },
         { id: 'no', label: 'Nee' },
       ],
       'yes',
-      `Perfect! Het antwoord is ${missing}.`,
-      `Reken na: ${missing} + ${left} = ${right}.`,
+      `Perfect! Het ontbrekende getal is ${missing}.`,
+      `Reken na: antwoord + ${left} = ${right}.`,
     ),
   ];
 
@@ -1270,7 +1270,7 @@ export function helpForTabelGroep(
       `1 stuk = ${unitPrice} euro.`,
     ),
     owlStep(
-      `Stap 3: ${count} × ${unitPrice} = ${total}`,
+      `Stap 3: vermenigvuldig.\n\n${count} keer ${unitPrice} euro.`,
       `Wat kosten ${count} ${unitLabel}?`,
       [
         { id: 't', label: `${total} euro` },
@@ -1395,7 +1395,7 @@ export function helpForVerbandenBasis(
       ],
       'f',
       `Goed — dat is ${factor} keer.`,
-      `${given} ÷ ${p1} = ${factor}.`,
+      `Deel ${given} door ${p1}.`,
     ),
     owlStep(
       `Stap 3: vermenigvuldig met ${p2}.`,
@@ -1406,7 +1406,7 @@ export function helpForVerbandenBasis(
       ],
       'o',
       `Klopt: ${other}.`,
-      `${factor} keer ${p2}.`,
+      `Vermenigvuldig je schaalfactor met ${p2}.`,
     ),
     owlStep(
       `Stap 4: controle.`,

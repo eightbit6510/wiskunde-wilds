@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 4 = 9 → x = 9 − 4",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 4 = 9. Haal +4 weg → x = 9 − 4.",
         "question": "Wat is 9 − 4?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 4 = 9 als x = 5?",
+        "question": "Past je x-waarde in x + 4 = 9?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 5 + 4 = 9"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 5!",
-        "retryFeedback": "Reken na: 5 + 4 moet 9 zijn."
+        "retryFeedback": "Reken na: x + 4 moet 9 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 5"

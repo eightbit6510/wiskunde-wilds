@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 8 = 16 → x = 16 − 8",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 8 = 16. Haal +8 weg → x = 16 − 8.",
         "question": "Wat is 16 − 8?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 8 = 16 als x = 8?",
+        "question": "Past je x-waarde in x + 8 = 16?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 8 + 8 = 16"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 8!",
-        "retryFeedback": "Reken na: 8 + 8 moet 16 zijn."
+        "retryFeedback": "Reken na: x + 8 moet 16 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 8"

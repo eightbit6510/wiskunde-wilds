@@ -39,7 +39,7 @@
         "retryFeedback": "Oppervlakte en lengte zijn gegeven."
       },
       {
-        "explanation": "Stap 3: draai de formule om.\nbreedte = A ÷ lengte = 12 ÷ 4",
+        "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
         "question": "12 ÷ 4 = ?",
         "options": [
           {
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "4 × 3 = 12?",
+        "question": "Vermenigvuldig lengte 4 met je breedte-antwoord. Is het 12?",
         "options": [
           {
             "id": "yes",

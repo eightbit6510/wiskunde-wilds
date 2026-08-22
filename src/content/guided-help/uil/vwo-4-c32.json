@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 12 = 20 → x = 20 − 12",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 12 = 20. Haal +12 weg → x = 20 − 12.",
         "question": "Wat is 20 − 12?",
         "options": [
           {

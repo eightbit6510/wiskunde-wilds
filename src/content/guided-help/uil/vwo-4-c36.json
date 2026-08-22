@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "o",
         "successFeedback": "Klopt: 10.",
-        "retryFeedback": "(4 ÷ 2) × 5 = 10."
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 5."
       },
       {
         "explanation": "Stappenplan voor dit type som:\n1. Deel gegeven deel door verhoudingsdeel (4 ÷ 2 = 2)\n2. Vermenigvuldig met ander deel (2 × 5)\n3. Controle: 4:10 = 2:5",

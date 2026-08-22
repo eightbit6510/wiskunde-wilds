@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 8 = 15 → x = 15 − 8",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 8 = 15. Haal +8 weg → x = 15 − 8.",
         "question": "Wat is 15 − 8?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 8 = 15 als x = 7?",
+        "question": "Past je x-waarde in x + 8 = 15?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 7 + 8 = 15"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 7!",
-        "retryFeedback": "Reken na: 7 + 8 moet 15 zijn."
+        "retryFeedback": "Reken na: x + 8 moet 15 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 7"

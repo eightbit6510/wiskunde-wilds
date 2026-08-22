@@ -39,7 +39,7 @@
         "retryFeedback": "Vermenigvuldig: 3 × 1."
       },
       {
-        "explanation": "Stap 3: vul nog een paar waarden in.\nx=2 → y=6, x=3 → y=9",
+        "explanation": "Stap 3: vul nog een paar waarden in.\n\nBereken y voor x = 2 en x = 3.",
         "question": "Welk patroon past bij y = 3x?",
         "options": [
           {

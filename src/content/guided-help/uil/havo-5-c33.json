@@ -39,8 +39,8 @@
         "retryFeedback": "x² is niet x×2."
       },
       {
-        "explanation": "Stap 3: probeer 7.\n7 × 7 = 49",
-        "question": "7² = ?",
+        "explanation": "Stap 3: welk getal keer zichzelf geeft 49?\n\nReken een paar getallen keer zichzelf.",
+        "question": "7 × 7 = ?",
         "options": [
           {
             "id": "sq",
@@ -56,7 +56,7 @@
         "retryFeedback": "Probeer 7 × 7."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal met 7²=49\n3. Controle: 7×7=49",
+        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal dat × zichzelf 49 geeft\n3. Controleer door te vermenigvuldigen",
         "question": "Is x = 7 het antwoord?",
         "options": [
           {

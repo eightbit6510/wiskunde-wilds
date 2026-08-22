@@ -56,7 +56,7 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 21/20 als kommagetal.\n\nDeel de teller door de noemer: 21 ÷ 20.",
+        "explanation": "Stap 4: schrijf 21/20 als kommagetal.\n\nDeel teller door noemer (21 ÷ 20).",
         "question": "Wat is 21 ÷ 20?",
         "options": [
           {

@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 11 = 15 → x = 15 − 11",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 11 = 15. Haal +11 weg → x = 15 − 11.",
         "question": "Wat is 15 − 11?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 11 = 15 als x = 4?",
+        "question": "Past je x-waarde in x + 11 = 15?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 4 + 11 = 15"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 4!",
-        "retryFeedback": "Reken na: 4 + 11 moet 15 zijn."
+        "retryFeedback": "Reken na: x + 11 moet 15 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 4"

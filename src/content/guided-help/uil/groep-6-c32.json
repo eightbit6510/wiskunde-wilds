@@ -39,7 +39,7 @@
         "retryFeedback": "Samen moet het 15 worden."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\n15 − 8 = 7",
+        "explanation": "Stap 3: reken terug.\n\nTrek 8 af van 15.",
         "question": "Wat is 15 − 8?",
         "options": [
           {
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "7 + 8 = 15?",
+        "question": "Tel je antwoord op bij 8. Kom je op 15?",
         "options": [
           {
             "id": "yes",
@@ -69,8 +69,8 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het antwoord is 7.",
-        "retryFeedback": "Reken na: 7 + 8 = 15."
+        "successFeedback": "Perfect! Het ontbrekende getal is 7.",
+        "retryFeedback": "Reken na: antwoord + 8 = 15."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 7."

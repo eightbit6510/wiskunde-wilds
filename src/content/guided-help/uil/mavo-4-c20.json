@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 4 = 7 → x = 7 − 4",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 4 = 7. Haal +4 weg → x = 7 − 4.",
         "question": "Wat is 7 − 4?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 4 = 7 als x = 3?",
+        "question": "Past je x-waarde in x + 4 = 7?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 3 + 4 = 7"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 3!",
-        "retryFeedback": "Reken na: 3 + 4 moet 7 zijn."
+        "retryFeedback": "Reken na: x + 4 moet 7 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 3"

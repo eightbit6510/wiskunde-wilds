@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 7 = 14 → x = 14 − 7",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 7 = 14. Haal +7 weg → x = 14 − 7.",
         "question": "Wat is 14 − 7?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 7 = 14 als x = 7?",
+        "question": "Past je x-waarde in x + 7 = 14?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 7 + 7 = 14"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 7!",
-        "retryFeedback": "Reken na: 7 + 7 moet 14 zijn."
+        "retryFeedback": "Reken na: x + 7 moet 14 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 7"

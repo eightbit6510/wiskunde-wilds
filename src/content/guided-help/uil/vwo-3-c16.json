@@ -39,7 +39,7 @@
         "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
       },
       {
-        "explanation": "Stap 3: 2×2=4, dan ×2=8….",
+        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 2 × 2, vermenigvuldig daarna verder tot je 4 keer hebt.",
         "question": "Wat is 2^4?",
         "options": [
           {

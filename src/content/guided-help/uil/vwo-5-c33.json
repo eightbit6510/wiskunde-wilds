@@ -39,8 +39,8 @@
         "retryFeedback": "x² is niet x×2."
       },
       {
-        "explanation": "Stap 3: probeer 3.\n3 × 3 = 9",
-        "question": "3² = ?",
+        "explanation": "Stap 3: welk getal keer zichzelf geeft 9?\n\nReken een paar getallen keer zichzelf.",
+        "question": "3 × 3 = ?",
         "options": [
           {
             "id": "sq",
@@ -56,7 +56,7 @@
         "retryFeedback": "Probeer 3 × 3."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal met 3²=9\n3. Controle: 3×3=9",
+        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal dat × zichzelf 9 geeft\n3. Controleer door te vermenigvuldigen",
         "question": "Is x = 3 het antwoord?",
         "options": [
           {

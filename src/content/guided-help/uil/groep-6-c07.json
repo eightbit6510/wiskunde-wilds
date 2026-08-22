@@ -39,7 +39,7 @@
         "retryFeedback": "Kijk onderaan de breuk: het getal onder de streep."
       },
       {
-        "explanation": "Stap 3: tel alleen de tellers op.\n\n4 + 2 = 6. De noemer 6 blijft staan.",
+        "explanation": "Stap 3: tel alleen de tellers op.\n\nTel 4 + 2. De noemer 6 blijft staan.",
         "question": "Wat is 4/6 + 2/6?",
         "options": [
           {

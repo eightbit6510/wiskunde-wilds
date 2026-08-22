@@ -39,8 +39,8 @@
         "retryFeedback": "x² is niet x×2."
       },
       {
-        "explanation": "Stap 3: probeer 6.\n6 × 6 = 36",
-        "question": "6² = ?",
+        "explanation": "Stap 3: welk getal keer zichzelf geeft 36?\n\nReken een paar getallen keer zichzelf.",
+        "question": "6 × 6 = ?",
         "options": [
           {
             "id": "sq",
@@ -56,7 +56,7 @@
         "retryFeedback": "Probeer 6 × 6."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal met 6²=36\n3. Controle: 6×6=36",
+        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal dat × zichzelf 36 geeft\n3. Controleer door te vermenigvuldigen",
         "question": "Is x = 6 het antwoord?",
         "options": [
           {

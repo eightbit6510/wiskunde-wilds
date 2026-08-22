@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 10 = 18 → x = 18 − 10",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 10 = 18. Haal +10 weg → x = 18 − 10.",
         "question": "Wat is 18 − 10?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 10 = 18 als x = 8?",
+        "question": "Past je x-waarde in x + 10 = 18?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 8 + 10 = 18"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 8!",
-        "retryFeedback": "Reken na: 8 + 10 moet 18 zijn."
+        "retryFeedback": "Reken na: x + 10 moet 18 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 8"

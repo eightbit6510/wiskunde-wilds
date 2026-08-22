@@ -39,7 +39,7 @@
         "retryFeedback": "Samen moet het 7 worden."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\n7 − 3 = 4",
+        "explanation": "Stap 3: reken terug.\n\nTrek 3 af van 7.",
         "question": "Wat is 7 − 3?",
         "options": [
           {
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "3 + 4 = 7?",
+        "question": "Tel je antwoord op bij 3. Kom je op 7?",
         "options": [
           {
             "id": "yes",
@@ -69,8 +69,8 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het antwoord is 4.",
-        "retryFeedback": "Reken na: 4 + 3 = 7."
+        "successFeedback": "Perfect! Het ontbrekende getal is 4.",
+        "retryFeedback": "Reken na: antwoord + 3 = 7."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 4."

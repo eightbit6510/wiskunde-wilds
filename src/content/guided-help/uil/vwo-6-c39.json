@@ -39,8 +39,8 @@
         "retryFeedback": "x² is niet x×2."
       },
       {
-        "explanation": "Stap 3: probeer 4.\n4 × 4 = 16",
-        "question": "4² = ?",
+        "explanation": "Stap 3: welk getal keer zichzelf geeft 16?\n\nReken een paar getallen keer zichzelf.",
+        "question": "4 × 4 = ?",
         "options": [
           {
             "id": "sq",
@@ -56,7 +56,7 @@
         "retryFeedback": "Probeer 4 × 4."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal met 4²=16\n3. Controle: 4×4=16",
+        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal dat × zichzelf 16 geeft\n3. Controleer door te vermenigvuldigen",
         "question": "Is x = 4 het antwoord?",
         "options": [
           {

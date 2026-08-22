@@ -39,7 +39,7 @@
         "retryFeedback": "Kijk naar de letter: beide hebben x."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n3 + 3 = 6",
+        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 3 + 3.",
         "question": "Wat is 3x + 3x?",
         "options": [
           {

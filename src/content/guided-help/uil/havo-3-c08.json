@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 6 = 9 → x = 9 − 6",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 6 = 9. Haal +6 weg → x = 9 − 6.",
         "question": "Wat is 9 − 6?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 6 = 9 als x = 3?",
+        "question": "Past je x-waarde in x + 6 = 9?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 3 + 6 = 9"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 3!",
-        "retryFeedback": "Reken na: 3 + 6 moet 9 zijn."
+        "retryFeedback": "Reken na: x + 6 moet 9 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 3"

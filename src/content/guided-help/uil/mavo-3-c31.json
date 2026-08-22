@@ -39,7 +39,7 @@
         "retryFeedback": "Kijk naar de letter: beide hebben x."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n2 + 4 = 6",
+        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 2 + 4.",
         "question": "Wat is 2x + 4x?",
         "options": [
           {

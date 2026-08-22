@@ -39,7 +39,7 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\nx + 5 = 8 → x = 8 − 5",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 5 = 8. Haal +5 weg → x = 8 − 5.",
         "question": "Wat is 8 − 5?",
         "options": [
           {
@@ -57,11 +57,11 @@
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 5 = 8 als x = 3?",
+        "question": "Past je x-waarde in x + 5 = 8?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 3 + 5 = 8"
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 3!",
-        "retryFeedback": "Reken na: 3 + 5 moet 8 zijn."
+        "retryFeedback": "Reken na: x + 5 moet 8 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 3"
