@@ -25,6 +25,8 @@ export function usePlayerAuth() {
   const [syncStatus, setSyncStatus] = useState<SyncStatus>('idle');
   const [syncError, setSyncError] = useState<string | null>(null);
   const syncLock = useRef(false);
+  const sessionRef = useRef(session);
+  sessionRef.current = session;
 
   const persistSession = useCallback((data: AuthSession) => {
     const stored: StoredPlayerSession = {
@@ -93,8 +95,9 @@ export function usePlayerAuth() {
       settings: SettingsState;
       classLevel?: ClassLevel | null;
       adventureId?: AdventureId;
-    }) => {
-      if (!session || syncLock.current) return;
+    }): Promise<boolean> => {
+      const current = sessionRef.current;
+      if (!current || syncLock.current) return false;
       syncLock.current = true;
       setSyncStatus('syncing');
       setSyncError(null);
@@ -103,30 +106,40 @@ export function usePlayerAuth() {
         const result = await saveCloudProgress({
           progress: input.progress,
           settings: input.settings,
-          classLevel: input.classLevel ?? session.prefs.classLevel,
-          adventureId: input.adventureId ?? session.prefs.adventureId,
+          classLevel: input.classLevel ?? current.prefs.classLevel,
+          adventureId: input.adventureId ?? current.prefs.adventureId,
         });
 
         const nextPrefs: PlayerPrefs = {
-          ...session.prefs,
-          classLevel: input.classLevel ?? session.prefs.classLevel,
-          adventureId: input.adventureId ?? session.prefs.adventureId,
+          ...current.prefs,
+          classLevel: input.classLevel ?? current.prefs.classLevel,
+          adventureId: input.adventureId ?? current.prefs.adventureId,
           settings: input.settings,
           updatedAt: result.updatedAt,
         };
 
-        const nextSession = { ...session, prefs: nextPrefs };
-        savePlayerSession(nextSession);
-        setSession(nextSession);
+        const prefsChanged =
+          nextPrefs.classLevel !== current.prefs.classLevel ||
+          nextPrefs.adventureId !== current.prefs.adventureId ||
+          JSON.stringify(nextPrefs.settings) !== JSON.stringify(current.prefs.settings);
+
+        if (prefsChanged) {
+          const nextSession = { ...current, prefs: nextPrefs };
+          savePlayerSession(nextSession);
+          setSession(nextSession);
+        }
+
         setSyncStatus('saved');
+        return true;
       } catch (err) {
         setSyncStatus('error');
         setSyncError(err instanceof Error ? err.message : 'Sync mislukt.');
+        return false;
       } finally {
         syncLock.current = false;
       }
     },
-    [session],
+    [],
   );
 
   const refreshFromCloud = useCallback(async (localProgress: ProgressState) => {

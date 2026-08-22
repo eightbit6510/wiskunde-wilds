@@ -1,6 +1,6 @@
-import { useEffect, useRef } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
+import { useCloudSync } from './hooks/useCloudSync';
 import { usePlayerAuth } from './hooks/usePlayerAuth';
 import { useProgress } from './hooks/useProgress';
 import { useSettings } from './hooks/useSettings';
@@ -15,23 +15,13 @@ export default function App() {
   const progressApi = useProgress();
   const settingsApi = useSettings();
   const authApi = usePlayerAuth();
-  const syncTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  useEffect(() => {
-    if (!authApi.isLoggedIn) return;
-
-    if (syncTimer.current) clearTimeout(syncTimer.current);
-    syncTimer.current = setTimeout(() => {
-      void authApi.syncToCloud({
-        progress: progressApi.progress,
-        settings: settingsApi.settings,
-      });
-    }, 2500);
-
-    return () => {
-      if (syncTimer.current) clearTimeout(syncTimer.current);
-    };
-  }, [authApi, progressApi.progress, settingsApi.settings]);
+  useCloudSync({
+    enabled: authApi.isLoggedIn,
+    progress: progressApi.progress,
+    settings: settingsApi.settings,
+    syncToCloud: authApi.syncToCloud,
+  });
 
   return (
     <BrowserRouter>
