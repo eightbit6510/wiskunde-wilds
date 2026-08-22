@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "Bereken 1/2 + 1/3. Geef als breuk (bijv. 5/6)."
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Tel de breuken op.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\nKleinste gemeenschappelijke noemer is 6.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Kleinste gemeenschappelijke noemer is 6."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\n3/6 + 2/6 = 5/6.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "3/6 + 2/6 = 5/6."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\n1/2 + 1/3 = 5/6.",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "5/6"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "Iets anders"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: 5/6.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 5/6."
       }
     ],
-    "conclusion": "Tel de breuken op."
+    "conclusion": "Pootafdruk! 🐾 5/6"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "vwo-1-c17-b1",
       "type": "multiple-choice",
-      "question": "Nog een tip?",
+      "question": "Welke tip helpt het meest?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "Kleinste gemeenschappelijke noemer is 6."
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "Raad zonder te rekenen"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "Kleinste gemeenschappelijke noemer is 6.",
+      "explanation": "Kleinste gemeenschappelijke noemer is 6."
     },
     {
-      "id": "b2",
+      "id": "vwo-1-c17-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
+      "question": "Wat is het antwoord?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Dank je"
+          "label": "5/6"
         },
         {
           "id": "b",
-          "label": "Later"
+          "label": "Iets anders"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "1/2 + 1/3 = 5/6.",
+      "explanation": "1/2 + 1/3 = 5/6."
     }
   ]
 }

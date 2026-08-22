@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees de opdracht rustig"
+            "label": "De formule bij de tabel vinden"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Alleen naar de eerste rij kijken"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,105 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Neem de tijd. Geen haast.",
-        "question": "Snap je wat je moet doen?",
+        "explanation": "Stap 2: strategie.\n\nKijk hoeveel y stijgt als x met 1 toeneemt.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Kijk hoeveel y stijgt als x met 1 toeneemt."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nElke stap +2 in y, start bij y = 3 → y = 2x + 3.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "Elke stap +2 in y, start bij y = 3 → y = 2x + 3."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de vraag nog eens rustig."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\ny = 2x + 3. Elke stap in x geeft +2 in y.",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "y = 2x + 3"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "y = x + 3"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: y = 2x + 3.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is y = 2x + 3."
       }
     ],
-    "conclusion": "Lees de tabel als sporen in de sneeuw."
+    "conclusion": "Pootafdruk! 🐾 y = 2x + 3"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "mavo-4-c12-b1",
       "type": "multiple-choice",
-      "question": "Even oefenen?",
-      "answer": "a",
+      "question": "Welke uitwerking past bij deze som?",
+      "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "y = x + 3"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "y = 2x + 3"
+        },
+        {
+          "id": "c",
+          "label": "y = 3x"
+        },
+        {
+          "id": "d",
+          "label": "y = 2x − 3"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "y = 2x + 3. Elke stap in x geeft +2 in y.",
+      "explanation": "y = 2x + 3. Elke stap in x geeft +2 in y."
     },
     {
-      "id": "b2",
+      "id": "mavo-4-c12-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
+      "question": "Wat was het antwoord?",
+      "answer": "yes",
       "answerOptions": [
         {
-          "id": "a",
-          "label": "Dank je"
+          "id": "yes",
+          "label": "y = 2x + 3"
         },
         {
-          "id": "b",
-          "label": "Later"
+          "id": "no",
+          "label": "y = x + 3"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "y = 2x + 3. Elke stap in x geeft +2 in y.",
+      "explanation": "y = 2x + 3. Elke stap in x geeft +2 in y."
     }
   ]
 }

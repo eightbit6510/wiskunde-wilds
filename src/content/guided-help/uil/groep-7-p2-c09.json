@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "T = 5n + 20. Geef n in termen van T. (bijv. n = ...)"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Maak n vrij in de formule.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\nTrek 20 af van beide kanten, deel daarna door 5.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Trek 20 af van beide kanten, deel daarna door 5."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nn = (T − 20) / 5.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "n = (T − 20) / 5."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\nn = (T − 20) / 5.",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "n=(T-20)/5"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "Iets anders"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: n=(T-20)/5.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is n=(T-20)/5."
       }
     ],
-    "conclusion": "Maak n vrij in de formule."
+    "conclusion": "Pootafdruk! 🐾 n=(T-20)/5"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "groep-7-c09-b1",
       "type": "multiple-choice",
-      "question": "Nog een tip?",
+      "question": "Welke tip helpt het meest?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "Trek 20 af van beide kanten, deel daarna door 5."
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "Raad zonder te rekenen"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "Trek 20 af van beide kanten, deel daarna door 5.",
+      "explanation": "Trek 20 af van beide kanten, deel daarna door 5."
     },
     {
-      "id": "b2",
+      "id": "groep-7-c09-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
+      "question": "Wat is het antwoord?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Dank je"
+          "label": "n=(T-20)/5"
         },
         {
           "id": "b",
-          "label": "Later"
+          "label": "Iets anders"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "n = (T − 20) / 5.",
+      "explanation": "n = (T − 20) / 5."
     }
   ]
 }

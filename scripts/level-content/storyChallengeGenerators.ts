@@ -4,70 +4,29 @@
  */
 import type { ClassLevel, ChallengeDefinition, GuidedHelpPack } from '../../src/types/content';
 import type { HelpDifficulty } from './guidedHelpBuilder';
-import { buildGuidedHelpPack, readQuestionStep, owlStep, mcBonus } from './guidedHelpBuilder';
+import { helpFromChallenge } from './challengeHelpFromFacts';
 import { bandFor } from './specialChallengeUtils';
 import type { StoryChallengeKind } from './storySlots';
-
-export function storyHelp(id: string, difficulty: HelpDifficulty, intro: string): GuidedHelpPack {
-  return buildGuidedHelpPack(
-    id,
-    intro,
-    [
-      readQuestionStep('Lees het verhaal en de vraag', 'Wat moet je doen?'),
-      owlStep(
-        intro,
-        'Snap je wat er gevraagd wordt?',
-        [
-          { id: 'yes', label: 'Ja, ik ga rekenen' },
-          { id: 'no', label: 'Nog niet' },
-        ],
-        'yes',
-        'Mooi — probeer het zelf.',
-        'Lees de optionalStory en vraag nog eens.',
-      ),
-      owlStep(
-        'Je kunt het.',
-        'Klaar voor je antwoord?',
-        [
-          { id: 'go', label: 'Ja!' },
-          { id: 'wait', label: 'Nog even nadenken' },
-        ],
-        'go',
-        'Succes!',
-        'Adem in — dan probeer je het nog eens.',
-      ),
-      ...(difficulty >= 3
-        ? [
-            owlStep(
-              'Controleer je antwoord voordat je verder gaat.',
-              'Heb je alles netjes uitgewerkt?',
-              [
-                { id: 'check', label: 'Ja, gecontroleerd' },
-                { id: 'skip', label: 'Nog niet' },
-              ],
-              'check',
-              'Helemaal goed.',
-              'Kijk je stappen nog eens na.',
-            ),
-          ]
-        : []),
-    ],
-    intro,
-    [
-      mcBonus('b1', 'Nog een tip?', 'a', [{ id: 'a', label: 'Ja' }, { id: 'b', label: 'Nee' }], 'Goed bezig!'),
-      mcBonus('b2', 'Nog één tip?', 'a', [{ id: 'a', label: 'Dank je' }, { id: 'b', label: 'Later' }], 'De Uil knipoogt.'),
-    ],
-    difficulty,
-  );
-}
 
 function pack(
   id: string,
   difficulty: HelpDifficulty,
   challenge: ChallengeDefinition,
   helpIntro: string,
+  taskLabel?: string,
+  wrongTaskLabel?: string,
 ): { challenge: ChallengeDefinition; help: GuidedHelpPack } {
-  return { challenge: { ...challenge, id, difficulty, starsAvailable: 3, classLevels: [challenge.classLevels![0]] }, help: storyHelp(id, difficulty, helpIntro) };
+  const full: ChallengeDefinition = {
+    ...challenge,
+    id,
+    difficulty,
+    starsAvailable: 3,
+    classLevels: [challenge.classLevels![0]],
+  };
+  return {
+    challenge: full,
+    help: helpFromChallenge(full, difficulty, helpIntro, taskLabel, wrongTaskLabel),
+  };
 }
 
 // —— Deel I: Wolvenkluis (formules) ——

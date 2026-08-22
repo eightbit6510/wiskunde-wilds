@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "Runesteen Algebra: Los op 3(x − 2) = 15. Wat is x?"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,77 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "De eerste runesteen gloeit zwak…",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\nDeel beide kanten door 3, of werk haakjes uit.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Deel beide kanten door 3, of werk haakjes uit."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nx − 2 = 5 → x = 7.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "x − 2 = 5 → x = 7."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\n3(x − 2) = 15 → x − 2 = 5 → x = 7.",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "7"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "8"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: 7.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 7."
       }
     ],
-    "conclusion": "De eerste runesteen gloeit zwak…"
+    "conclusion": "Pootafdruk! 🐾 7"
   },
   "bonusVariants": [
     {
-      "id": "b1",
-      "type": "multiple-choice",
-      "question": "Nog een tip?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Ja"
-        },
-        {
-          "id": "b",
-          "label": "Nee"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "id": "vwo-6-c26-b1",
+      "type": "number-input",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Deel beide kanten door 3, of werk haakjes uit.)",
+      "answer": 7,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "3(x − 2) = 15 → x − 2 = 5 → x = 7.",
+      "explanation": "3(x − 2) = 15 → x − 2 = 5 → x = 7."
     },
     {
-      "id": "b2",
-      "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Dank je"
-        },
-        {
-          "id": "b",
-          "label": "Later"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "id": "vwo-6-c26-b2",
+      "type": "number-input",
+      "question": "Controle: klopt 7? Reken na — wat krijg je?",
+      "answer": 7,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x − 2 = 5 → x = 7.",
+      "explanation": "x − 2 = 5 → x = 7."
     }
   ]
 }

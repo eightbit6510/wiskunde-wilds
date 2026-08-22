@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "Vergelijk y = x² met y = x² + 2. Wat gebeurt er met de grafiek?"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,105 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "De vallei spiegelt zich in maanlicht.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\nBij x = 0: y = 2 in plaats van 0.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Bij x = 0: y = 2 in plaats van 0."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nElke y krijgt +2.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "Elke y krijgt +2."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\nDe parabool schuift 2 omhoog.",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "De grafiek schuift 2 omhoog"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "De grafiek schuift 2 naar rechts"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: De grafiek schuift 2 omhoog.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is De grafiek schuift 2 omhoog."
       }
     ],
-    "conclusion": "De vallei spiegelt zich in maanlicht."
+    "conclusion": "Pootafdruk! 🐾 De grafiek schuift 2 omhoog"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "groep-7-p2-c18-b1",
       "type": "multiple-choice",
-      "question": "Nog een tip?",
+      "question": "Welke uitwerking past bij deze som?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "De grafiek schuift 2 omhoog"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "De grafiek schuift 2 naar rechts"
+        },
+        {
+          "id": "c",
+          "label": "Wordt een rechte lijn"
+        },
+        {
+          "id": "d",
+          "label": "Alle y worden 2 kleiner"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "De parabool schuift 2 omhoog.",
+      "explanation": "De parabool schuift 2 omhoog."
     },
     {
-      "id": "b2",
+      "id": "groep-7-p2-c18-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
+      "question": "Wat was het antwoord?",
+      "answer": "yes",
       "answerOptions": [
         {
-          "id": "a",
-          "label": "Dank je"
+          "id": "yes",
+          "label": "De grafiek schuift 2 omhoog"
         },
         {
-          "id": "b",
-          "label": "Later"
+          "id": "no",
+          "label": "De grafiek schuift 2 naar rechts"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "De parabool schuift 2 omhoog.",
+      "explanation": "De parabool schuift 2 omhoog."
     }
   ]
 }

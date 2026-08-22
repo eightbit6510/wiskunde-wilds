@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "Je mengt sap en water in de verhouding 2 : 3. In totaal gebruik je 25…"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,77 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Twee delen sap, drie delen water — de riviercocktail.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\n2 + 3 = 5 delen. 25 ÷ 5 = 5 liter per deel.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "2 + 3 = 5 delen. 25 ÷ 5 = 5 liter per deel."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nSap = 2 × 5 = 10 liter.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "Sap = 2 × 5 = 10 liter."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stappenplan voor dit type som:\n10 liter sap (2 delen van 5).",
+        "question": "Wat is het antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "10"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "11"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
-      },
-      {
-        "explanation": "Controleer je antwoord voordat je verder gaat.",
-        "question": "Heb je alles netjes uitgewerkt?",
-        "options": [
-          {
-            "id": "check",
-            "label": "Ja, gecontroleerd"
-          },
-          {
-            "id": "skip",
-            "label": "Nog niet"
-          }
-        ],
-        "correctAnswer": "check",
-        "successFeedback": "Helemaal goed.",
-        "retryFeedback": "Kijk je stappen nog eens na."
+        "correctAnswer": "a",
+        "successFeedback": "Super! Antwoord: 10.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Twee delen sap, drie delen water — de riviercocktail."
+    "conclusion": "Pootafdruk! 🐾 10"
   },
   "bonusVariants": [
     {
-      "id": "b1",
-      "type": "multiple-choice",
-      "question": "Nog een tip?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Ja"
-        },
-        {
-          "id": "b",
-          "label": "Nee"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "id": "vwo-6-p2-c13-b1",
+      "type": "number-input",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: 2 + 3 = 5 delen. 25 ÷ 5 = 5 liter per deel.)",
+      "answer": 10,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "10 liter sap (2 delen van 5).",
+      "explanation": "10 liter sap (2 delen van 5)."
     },
     {
-      "id": "b2",
-      "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Dank je"
-        },
-        {
-          "id": "b",
-          "label": "Later"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "id": "vwo-6-p2-c13-b2",
+      "type": "number-input",
+      "question": "Controle: klopt 10? Reken na — wat krijg je?",
+      "answer": 10,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Sap = 2 × 5 = 10 liter.",
+      "explanation": "Sap = 2 × 5 = 10 liter."
     }
   ]
 }

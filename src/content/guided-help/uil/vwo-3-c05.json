@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees de opdracht rustig"
+            "label": "De foute redenering aanwijzen"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "De eerste leerling kiezen"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,101 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Neem de tijd. Geen haast.",
-        "question": "Snap je wat je moet doen?",
+        "explanation": "Stap 2: strategie.\n\nBij −x = 4: wat gebeurt er als je beide kanten met −1 vermenigvuldigt?",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Bij −x = 4: wat gebeurt er als je beide kanten met −1 vermenigvuldigt?"
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nAls −x = 4, dan is x = −4. Finn zegt +4 — dat kan niet.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "Als −x = 4, dan is x = −4. Finn zegt +4 — dat kan niet."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de vraag nog eens rustig."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\nC kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4).",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "C. Bij −x = 4 zegt Finn: x = 4"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "A. Bij x + 8 = 3 zegt Sam: x = −5"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: C. Bij −x = 4 zegt Finn: x = 4.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is C. Bij −x = 4 zegt Finn: x = 4."
       }
     ],
-    "conclusion": "Drie leerlingen, één vals spoor — wie heeft de fout?"
+    "conclusion": "Pootafdruk! 🐾 C. Bij −x = 4 zegt Finn: x = 4"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "vwo-3-c05-b1",
       "type": "multiple-choice",
-      "question": "Even oefenen?",
-      "answer": "a",
+      "question": "Welke uitwerking past bij deze som?",
+      "answer": "c",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "A. Bij x + 8 = 3 zegt Sam: x = −5"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "B. Bij 2x = −10 zegt Noor: x = −5"
+        },
+        {
+          "id": "c",
+          "label": "C. Bij −x = 4 zegt Finn: x = 4"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "C kan niet.",
+      "explanation": "C kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4)."
     },
     {
-      "id": "b2",
+      "id": "vwo-3-c05-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
+      "question": "Wat was het antwoord?",
+      "answer": "yes",
       "answerOptions": [
         {
-          "id": "a",
-          "label": "Dank je"
+          "id": "yes",
+          "label": "C. Bij −x = 4 zegt Finn: x = 4"
         },
         {
-          "id": "b",
-          "label": "Later"
+          "id": "no",
+          "label": "A. Bij x + 8 = 3 zegt Sam: x = −5"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "C kan niet.",
+      "explanation": "C kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4)."
     }
   ]
 }

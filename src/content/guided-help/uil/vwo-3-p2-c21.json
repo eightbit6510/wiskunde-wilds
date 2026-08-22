@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "Waar snijden y = 2x + 3 en y = x + 7 elkaar? Los x op. Wat is x?"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,77 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Twee lichtlijnen kruisen boven het dak.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\nStel 2x + 3 gelijk aan x + 7.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Stel 2x + 3 gelijk aan x + 7."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nx = 4.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "x = 4."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\n2x + 3 = x + 7 → x = 4. Snijpunt (4, 11).",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "4"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "5"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: 4.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 4."
       }
     ],
-    "conclusion": "Twee lichtlijnen kruisen boven het dak."
+    "conclusion": "Pootafdruk! 🐾 4"
   },
   "bonusVariants": [
     {
-      "id": "b1",
-      "type": "multiple-choice",
-      "question": "Nog een tip?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Ja"
-        },
-        {
-          "id": "b",
-          "label": "Nee"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "id": "vwo-3-p2-c21-b1",
+      "type": "number-input",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Stel 2x + 3 gelijk aan x + 7.)",
+      "answer": 4,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "2x + 3 = x + 7 → x = 4. Snijpunt (4, 11).",
+      "explanation": "2x + 3 = x + 7 → x = 4. Snijpunt (4, 11)."
     },
     {
-      "id": "b2",
-      "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Dank je"
-        },
-        {
-          "id": "b",
-          "label": "Later"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "id": "vwo-3-p2-c21-b2",
+      "type": "number-input",
+      "question": "Controle: klopt 4? Reken na — wat krijg je?",
+      "answer": 4,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 4.",
+      "explanation": "x = 4."
     }
   ]
 }

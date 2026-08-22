@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "Bij y = x²: wat valt op voor x = −3 en x = 3?"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,105 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Patronen in maanlicht.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\n(−3)² = 3² = 9.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "(−3)² = 3² = 9."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nSpiegelbeeld in de y-as.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "Spiegelbeeld in de y-as."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stappenplan voor dit type som:\nPositieve en negatieve x kunnen dezelfde y geven.",
+        "question": "Wat is het antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "Dezelfde y-waarde (symmetrie)"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "De grafiek is een rechte lijn"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
-      },
-      {
-        "explanation": "Controleer je antwoord voordat je verder gaat.",
-        "question": "Heb je alles netjes uitgewerkt?",
-        "options": [
-          {
-            "id": "check",
-            "label": "Ja, gecontroleerd"
-          },
-          {
-            "id": "skip",
-            "label": "Nog niet"
-          }
-        ],
-        "correctAnswer": "check",
-        "successFeedback": "Helemaal goed.",
-        "retryFeedback": "Kijk je stappen nog eens na."
+        "correctAnswer": "a",
+        "successFeedback": "Super! Antwoord: Dezelfde y-waarde (symmetrie).",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Patronen in maanlicht."
+    "conclusion": "Pootafdruk! 🐾 Dezelfde y-waarde (symmetrie)"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "vwo-4-c31-b1",
       "type": "multiple-choice",
-      "question": "Nog een tip?",
+      "question": "Welke uitwerking past bij deze som?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "Dezelfde y-waarde (symmetrie)"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "De grafiek is een rechte lijn"
+        },
+        {
+          "id": "c",
+          "label": "Alleen positieve x telt"
+        },
+        {
+          "id": "d",
+          "label": "y is altijd negatief"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "Positieve en negatieve x kunnen dezelfde y geven.",
+      "explanation": "Positieve en negatieve x kunnen dezelfde y geven."
     },
     {
-      "id": "b2",
+      "id": "vwo-4-c31-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
+      "question": "Wat was het antwoord?",
+      "answer": "yes",
       "answerOptions": [
         {
-          "id": "a",
-          "label": "Dank je"
+          "id": "yes",
+          "label": "Dezelfde y-waarde (symmetrie)"
         },
         {
-          "id": "b",
-          "label": "Later"
+          "id": "no",
+          "label": "De grafiek is een rechte lijn"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "Positieve en negatieve x kunnen dezelfde y geven.",
+      "explanation": "Positieve en negatieve x kunnen dezelfde y geven."
     }
   ]
 }

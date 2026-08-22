@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "€12 vaste kosten plus €4 per zak voer. Welke formule voor totale kost…"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,105 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Vaste kosten + prijs per stuk.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\nStartbedrag 12, daarna +4 per zak.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Startbedrag 12, daarna +4 per zak."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nK = 4z + 12.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "K = 4z + 12."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\nK = 4z + 12.",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "K = 4z + 12"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "K = 12z + 4"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: K = 4z + 12.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is K = 4z + 12."
       }
     ],
-    "conclusion": "Vaste kosten + prijs per stuk."
+    "conclusion": "Pootafdruk! 🐾 K = 4z + 12"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "mavo-1-c08-b1",
       "type": "multiple-choice",
-      "question": "Nog een tip?",
-      "answer": "a",
+      "question": "Welke uitwerking past bij deze som?",
+      "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "K = 12z + 4"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "K = 4z + 12"
+        },
+        {
+          "id": "c",
+          "label": "K = 12 × 4 × z"
+        },
+        {
+          "id": "d",
+          "label": "K = 4 + 12 + z"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "K = 4z + 12.",
+      "explanation": "K = 4z + 12."
     },
     {
-      "id": "b2",
+      "id": "mavo-1-c08-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
+      "question": "Wat was het antwoord?",
+      "answer": "yes",
       "answerOptions": [
         {
-          "id": "a",
-          "label": "Dank je"
+          "id": "yes",
+          "label": "K = 4z + 12"
         },
         {
-          "id": "b",
-          "label": "Later"
+          "id": "no",
+          "label": "K = 12z + 4"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "K = 4z + 12.",
+      "explanation": "K = 4z + 12."
     }
   ]
 }

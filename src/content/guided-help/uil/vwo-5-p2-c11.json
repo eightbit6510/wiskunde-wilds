@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "Op een kaart met schaal 1 : 25 000 staat een brug 4 cm lang. Hoe lang…"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,77 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "De rivierkaart schaalt de werkelijkheid.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\nWerkelijke lengte = 4 × 25 000 cm.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Werkelijke lengte = 4 × 25 000 cm."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\n100 000 cm = 1000 m.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "100 000 cm = 1000 m."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stappenplan voor dit type som:\n4 cm × 25 000 = 100 000 cm = 1000 m.",
+        "question": "Wat is het antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "1000"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "1001"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
-      },
-      {
-        "explanation": "Controleer je antwoord voordat je verder gaat.",
-        "question": "Heb je alles netjes uitgewerkt?",
-        "options": [
-          {
-            "id": "check",
-            "label": "Ja, gecontroleerd"
-          },
-          {
-            "id": "skip",
-            "label": "Nog niet"
-          }
-        ],
-        "correctAnswer": "check",
-        "successFeedback": "Helemaal goed.",
-        "retryFeedback": "Kijk je stappen nog eens na."
+        "correctAnswer": "a",
+        "successFeedback": "Super! Antwoord: 1000.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "De rivierkaart schaalt de werkelijkheid."
+    "conclusion": "Pootafdruk! 🐾 1000"
   },
   "bonusVariants": [
     {
-      "id": "b1",
-      "type": "multiple-choice",
-      "question": "Nog een tip?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Ja"
-        },
-        {
-          "id": "b",
-          "label": "Nee"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "id": "vwo-5-p2-c11-b1",
+      "type": "number-input",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Werkelijke lengte = 4 × 25 000 cm.)",
+      "answer": 1000,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "4 cm × 25 000 = 100 000 cm = 1000 m.",
+      "explanation": "4 cm × 25 000 = 100 000 cm = 1000 m."
     },
     {
-      "id": "b2",
-      "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Dank je"
-        },
-        {
-          "id": "b",
-          "label": "Later"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "id": "vwo-5-p2-c11-b2",
+      "type": "number-input",
+      "question": "Controle: klopt 1000? Reken na — wat krijg je?",
+      "answer": 1000,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "100 000 cm = 1000 m.",
+      "explanation": "100 000 cm = 1000 m."
     }
   ]
 }

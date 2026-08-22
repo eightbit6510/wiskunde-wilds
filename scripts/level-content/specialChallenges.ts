@@ -4,63 +4,20 @@
 import type { ClassLevel, ChallengeDefinition, GuidedHelpPack } from '../../src/types/content';
 import type { Topic } from '../../src/types';
 import type { HelpDifficulty } from './guidedHelpBuilder';
-import { buildGuidedHelpPack, readQuestionStep, owlStep, mcBonus } from './guidedHelpBuilder';
+import { helpFromChallenge } from './challengeHelpFromFacts';
 import { bandFor } from './specialChallengeUtils';
 
 import type { StoryChallengeKind } from './storySlots';
 import { generateStoryKindChallenge } from './storyChallengeGenerators';
 
-function simpleHelp(id: string, difficulty: HelpDifficulty, intro: string): GuidedHelpPack {
-  return buildGuidedHelpPack(
-    id,
-    intro,
-    [
-      readQuestionStep('Lees de opdracht rustig', 'Wat moet je doen?'),
-      owlStep(
-        'Neem de tijd. Geen haast.',
-        'Snap je wat je moet doen?',
-        [
-          { id: 'yes', label: 'Ja, ik ga rekenen' },
-          { id: 'no', label: 'Nog niet' },
-        ],
-        'yes',
-        'Mooi — probeer het zelf.',
-        'Lees de vraag nog eens rustig.',
-      ),
-      owlStep(
-        'Je kunt het.',
-        'Klaar voor je antwoord?',
-        [
-          { id: 'go', label: 'Ja!' },
-          { id: 'wait', label: 'Nog even nadenken' },
-        ],
-        'go',
-        'Succes!',
-        'Adem in — dan probeer je het nog eens.',
-      ),
-      ...(difficulty >= 3
-        ? [
-            owlStep(
-              'Controleer je antwoord voordat je verder gaat.',
-              'Heb je alles netjes uitgewerkt?',
-              [
-                { id: 'check', label: 'Ja, gecontroleerd' },
-                { id: 'skip', label: 'Nog niet' },
-              ],
-              'check',
-              'Helemaal goed.',
-              'Kijk je stappen nog eens na.',
-            ),
-          ]
-        : []),
-    ],
-    intro,
-    [
-      mcBonus('b1', 'Even oefenen?', 'a', [{ id: 'a', label: 'Ja' }, { id: 'b', label: 'Nee' }], 'Goed bezig!'),
-      mcBonus('b2', 'Nog één tip?', 'a', [{ id: 'a', label: 'Dank je' }, { id: 'b', label: 'Later' }], 'De Uil knipoogt.'),
-    ],
-    difficulty,
-  );
+function challengeHelp(
+  challenge: ChallengeDefinition,
+  difficulty: HelpDifficulty,
+  intro: string,
+  taskLabel?: string,
+  wrongTaskLabel?: string,
+): GuidedHelpPack {
+  return helpFromChallenge(challenge, difficulty, intro, taskLabel, wrongTaskLabel);
 }
 
 function codeCrackForLevel(
@@ -116,14 +73,18 @@ function codeCrackForLevel(
     classLevels: [level],
   };
 
-  const help = simpleHelp(
-    id,
-    difficulty,
-    lessonIndex === 8
-      ? 'Elke juiste som onthult een letter op de tempeldeur.'
-      : 'Geen stress. We kraken de kluis som voor som.',
-  );
-  return { challenge, help };
+  return {
+    challenge,
+    help: challengeHelp(
+      challenge,
+      difficulty,
+      lessonIndex === 8
+        ? 'Elke juiste som onthult een letter op de tempeldeur.'
+        : 'Geen stress. We kraken de kluis som voor som.',
+      `Elke som → letter → woord ${word}`,
+      'Alleen raden zonder te rekenen',
+    ),
+  };
 }
 
 function spotErrorForLevel(
@@ -155,7 +116,16 @@ function spotErrorForLevel(
     explanation: `De fout zat ${wrong.label.toLowerCase()} — de factor moet met alle termen vermenigvuldigd worden.`,
     classLevels: [level],
   };
-  return { challenge, help: simpleHelp(id, difficulty, 'Lees de uitwerking stap voor stap.') };
+  return {
+    challenge,
+    help: challengeHelp(
+      challenge,
+      difficulty,
+      'Lees de uitwerking stap voor stap.',
+      'De fout in de haakjes vinden',
+      'Zeggen dat er geen fout is zonder te kijken',
+    ),
+  };
 }
 
 function bossBattleForLevel(
@@ -239,7 +209,13 @@ function bossBattleForLevel(
   };
   return {
     challenge,
-    help: simpleHelp(id, difficulty, 'De konijnenkoning test je snelheid. Eén vraag tegelijk.'),
+    help: challengeHelp(
+      challenge,
+      difficulty,
+      'De konijnenkoning test je snelheid. Eén vraag tegelijk.',
+      'Drie snelle vragen achter elkaar beantwoorden',
+      'Alleen de eerste vraag doen',
+    ),
   };
 }
 
@@ -275,7 +251,16 @@ function sortingForLevel(
     explanation: 'Goed gesorteerd!',
     classLevels: [level],
   };
-  return { challenge, help: simpleHelp(id, difficulty, 'Kijk goed naar wat je vergelijkt.') };
+  return {
+    challenge,
+    help: challengeHelp(
+      challenge,
+      difficulty,
+      'Kijk goed naar wat je vergelijkt.',
+      'Items in de juiste volgorde zetten',
+      'Willekeurig slepen',
+    ),
+  };
 }
 
 function multiSelectSignsForLevel(
@@ -329,7 +314,13 @@ function multiSelectSignsForLevel(
 
   return {
     challenge,
-    help: simpleHelp(id, difficulty, 'Lees elke som apart — welke sporen zijn echt?'),
+    help: challengeHelp(
+      challenge,
+      difficulty,
+      'Lees elke som apart — welke sporen zijn echt?',
+      'Alle juiste berekeningen kiezen',
+      'Eén willekeurige som aankruisen',
+    ),
   };
 }
 
@@ -391,7 +382,13 @@ function equationStepsForLevel(
 
   return {
     challenge,
-    help: simpleHelp(id, difficulty, 'Eerst de constante weg, daarna x vrijmaken.'),
+    help: challengeHelp(
+      challenge,
+      difficulty,
+      'Eerst de constante weg, daarna x vrijmaken.',
+      'Stap voor stap de vergelijking oplossen',
+      'x gokken zonder stappen',
+    ),
   };
 }
 
@@ -421,7 +418,13 @@ function imposterEquationForLevel(
   };
   return {
     challenge,
-    help: simpleHelp(id, difficulty, 'Drie leerlingen, één vals spoor — wie heeft de fout?'),
+    help: challengeHelp(
+      challenge,
+      difficulty,
+      'Drie leerlingen, één vals spoor — wie heeft de fout?',
+      'De foute redenering aanwijzen',
+      'De eerste leerling kiezen',
+    ),
   };
 }
 
@@ -479,7 +482,16 @@ function graphChoiceForLevel(
     explanation: 'Grafiek B: eerst stil, dan sneller, dan weer stil.',
     classLevels: [level],
   };
-  return { challenge, help: simpleHelp(id, difficulty, 'Welke lijn past bij het verhaal?') };
+  return {
+    challenge,
+    help: challengeHelp(
+      challenge,
+      difficulty,
+      'Welke lijn past bij het verhaal?',
+      'De grafiek bij het verhaal kiezen',
+      'De steilste lijn kiezen',
+    ),
+  };
 }
 
 function tableFormulaForLevel(
@@ -515,7 +527,16 @@ function tableFormulaForLevel(
     explanation: 'y = 2x + 3. Elke stap in x geeft +2 in y.',
     classLevels: [level],
   };
-  return { challenge, help: simpleHelp(id, difficulty, 'Lees de tabel als sporen in de sneeuw.') };
+  return {
+    challenge,
+    help: challengeHelp(
+      challenge,
+      difficulty,
+      'Lees de tabel als sporen in de sneeuw.',
+      'De formule bij de tabel vinden',
+      'Alleen naar de eerste rij kijken',
+    ),
+  };
 }
 
 function yInterceptForLevel(
@@ -538,7 +559,13 @@ function yInterceptForLevel(
   };
   return {
     challenge,
-    help: simpleHelp(id, difficulty, 'De lynx kijkt naar het snijpunt met de verticale as.'),
+    help: challengeHelp(
+      challenge,
+      difficulty,
+      'De lynx kijkt naar het snijpunt met de verticale as.',
+      'Het snijpunt met de y-as vinden',
+      'Het hellingsgetal invullen',
+    ),
   };
 }
 
@@ -567,7 +594,13 @@ function matchingGraphsForLevel(
   };
   return {
     challenge,
-    help: simpleHelp(id, difficulty, 'Vier sporen, vier betekenissen — verbind ze.'),
+    help: challengeHelp(
+      challenge,
+      difficulty,
+      'Vier sporen, vier betekenissen — verbind ze.',
+      'Formule, tabel en verhaal matchen',
+      'Alles willekeurig koppelen',
+    ),
   };
 }
 

@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "Bij y = x²: wat is y als x = 3 en als x = −3?"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,101 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Patronen in maanlicht.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\n(−3)² = 9 en 3² = 9.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "(−3)² = 9 en 3² = 9."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nPositief en negatief x kunnen dezelfde y geven.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "Positief en negatief x kunnen dezelfde y geven."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\nBeide geven y = 9 — symmetrie in maanlicht.",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "Beide keren 9"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "3 en −3"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: Beide keren 9.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Beide keren 9."
       }
     ],
-    "conclusion": "Patronen in maanlicht."
+    "conclusion": "Pootafdruk! 🐾 Beide keren 9"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "groep-6-p2-c16-b1",
       "type": "multiple-choice",
-      "question": "Nog een tip?",
+      "question": "Welke uitwerking past bij deze som?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "Beide keren 9"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "3 en −3"
+        },
+        {
+          "id": "c",
+          "label": "0 en 9"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "Beide geven y = 9 — symmetrie in maanlicht.",
+      "explanation": "Beide geven y = 9 — symmetrie in maanlicht."
     },
     {
-      "id": "b2",
+      "id": "groep-6-p2-c16-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
+      "question": "Wat was het antwoord?",
+      "answer": "yes",
       "answerOptions": [
         {
-          "id": "a",
-          "label": "Dank je"
+          "id": "yes",
+          "label": "Beide keren 9"
         },
         {
-          "id": "b",
-          "label": "Later"
+          "id": "no",
+          "label": "3 en −3"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "Beide geven y = 9 — symmetrie in maanlicht.",
+      "explanation": "Beide geven y = 9 — symmetrie in maanlicht."
     }
   ]
 }

@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "12² = ?"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,77 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "De runen vragen om het kwadraat van 12.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\n12 × 12.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "12 × 12."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\n12² = 144.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "12² = 144."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\n12² = 144.",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "144"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "145"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: 144.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 144."
       }
     ],
-    "conclusion": "De runen vragen om het kwadraat van 12."
+    "conclusion": "Pootafdruk! 🐾 144"
   },
   "bonusVariants": [
     {
-      "id": "b1",
-      "type": "multiple-choice",
-      "question": "Nog een tip?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Ja"
-        },
-        {
-          "id": "b",
-          "label": "Nee"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "id": "havo-2-p2-c28-b1",
+      "type": "number-input",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: 12 × 12.)",
+      "answer": 144,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "12² = 144.",
+      "explanation": "12² = 144."
     },
     {
-      "id": "b2",
-      "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Dank je"
-        },
-        {
-          "id": "b",
-          "label": "Later"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "id": "havo-2-p2-c28-b2",
+      "type": "number-input",
+      "question": "Controle: klopt 144? Reken na — wat krijg je?",
+      "answer": 144,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "12² = 144.",
+      "explanation": "12² = 144."
     }
   ]
 }

@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "Welke situatie past bij y = −2x + 10?"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,105 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Koppel formule aan verhaal.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\nHet minteken: y daalt als x stijgt.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Het minteken: y daalt als x stijgt."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nBij x=0 is y=10, daarna −2 per stap.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "Bij x=0 is y=10, daarna −2 per stap."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\ny = −2x + 10: start 10, daarna steeds 2 minder.",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "Start met 10, elke stap −2"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "Start met 10, elke stap +2"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: Start met 10, elke stap −2.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Start met 10, elke stap −2."
       }
     ],
-    "conclusion": "Koppel formule aan verhaal."
+    "conclusion": "Pootafdruk! 🐾 Start met 10, elke stap −2"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "havo-4-c23-b1",
       "type": "multiple-choice",
-      "question": "Nog een tip?",
+      "question": "Welke uitwerking past bij deze som?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "Start met 10, elke stap −2"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "Start met 10, elke stap +2"
+        },
+        {
+          "id": "c",
+          "label": "Altijd y = 10"
+        },
+        {
+          "id": "d",
+          "label": "Elke stap verdubbelen"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "y = −2x + 10: start 10, daarna steeds 2 minder.",
+      "explanation": "y = −2x + 10: start 10, daarna steeds 2 minder."
     },
     {
-      "id": "b2",
+      "id": "havo-4-c23-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
+      "question": "Wat was het antwoord?",
+      "answer": "yes",
       "answerOptions": [
         {
-          "id": "a",
-          "label": "Dank je"
+          "id": "yes",
+          "label": "Start met 10, elke stap −2"
         },
         {
-          "id": "b",
-          "label": "Later"
+          "id": "no",
+          "label": "Start met 10, elke stap +2"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "y = −2x + 10: start 10, daarna steeds 2 minder.",
+      "explanation": "y = −2x + 10: start 10, daarna steeds 2 minder."
     }
   ]
 }

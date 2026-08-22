@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b."
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Formule omdraaien bij de tempel.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\nTrek 2b af, deel door 2.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Trek 2b af, deel door 2."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nℓ = (P − 2b) / 2.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "ℓ = (P − 2b) / 2."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stappenplan voor dit type som:\nℓ = (P − 2b) / 2.",
+        "question": "Wat is het antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "l=(P-2b)/2"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "Iets anders"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
-      },
-      {
-        "explanation": "Controleer je antwoord voordat je verder gaat.",
-        "question": "Heb je alles netjes uitgewerkt?",
-        "options": [
-          {
-            "id": "check",
-            "label": "Ja, gecontroleerd"
-          },
-          {
-            "id": "skip",
-            "label": "Nog niet"
-          }
-        ],
-        "correctAnswer": "check",
-        "successFeedback": "Helemaal goed.",
-        "retryFeedback": "Kijk je stappen nog eens na."
+        "correctAnswer": "a",
+        "successFeedback": "Super! Antwoord: l=(P-2b)/2.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Formule omdraaien bij de tempel."
+    "conclusion": "Pootafdruk! 🐾 l=(P-2b)/2"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "vwo-4-c39-b1",
       "type": "multiple-choice",
-      "question": "Nog een tip?",
+      "question": "Welke tip helpt het meest?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "Trek 2b af, deel door 2."
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "Raad zonder te rekenen"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "Trek 2b af, deel door 2.",
+      "explanation": "Trek 2b af, deel door 2."
     },
     {
-      "id": "b2",
+      "id": "vwo-4-c39-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
+      "question": "Wat is het antwoord?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Dank je"
+          "label": "l=(P-2b)/2"
         },
         {
           "id": "b",
-          "label": "Later"
+          "label": "Iets anders"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "ℓ = (P − 2b) / 2.",
+      "explanation": "ℓ = (P − 2b) / 2."
     }
   ]
 }

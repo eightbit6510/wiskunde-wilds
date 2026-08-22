@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees het verhaal en de vraag"
+            "label": "Runesteen Grafieken: welke beschrijving past bij y = −x + 4?"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,105 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Tweede runesteen: grafiekspoor.",
-        "question": "Snap je wat er gevraagd wordt?",
+        "explanation": "Stap 2: strategie.\n\nHellingsgetal −1 → dalend.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Hellingsgetal −1 → dalend."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\n+4 is het snijpunt met de y-as.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "+4 is het snijpunt met de y-as."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de optionalStory en vraag nog eens."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stappenplan voor dit type som:\nDalend met y-as snijpunt 4.",
+        "question": "Wat is het antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "Dalend, snijpunt y-as bij 4"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "Stijgend, snijpunt y-as bij 4"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
-      },
-      {
-        "explanation": "Controleer je antwoord voordat je verder gaat.",
-        "question": "Heb je alles netjes uitgewerkt?",
-        "options": [
-          {
-            "id": "check",
-            "label": "Ja, gecontroleerd"
-          },
-          {
-            "id": "skip",
-            "label": "Nog niet"
-          }
-        ],
-        "correctAnswer": "check",
-        "successFeedback": "Helemaal goed.",
-        "retryFeedback": "Kijk je stappen nog eens na."
+        "correctAnswer": "a",
+        "successFeedback": "Super! Antwoord: Dalend, snijpunt y-as bij 4.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Tweede runesteen: grafiekspoor."
+    "conclusion": "Pootafdruk! 🐾 Dalend, snijpunt y-as bij 4"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "vwo-5-c27-b1",
       "type": "multiple-choice",
-      "question": "Nog een tip?",
-      "answer": "a",
+      "question": "Welke uitwerking past bij deze som?",
+      "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "Stijgend, snijpunt y-as bij 4"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "Dalend, snijpunt y-as bij 4"
+        },
+        {
+          "id": "c",
+          "label": "Horizontaal op y = 4"
+        },
+        {
+          "id": "d",
+          "label": "Door oorsprong, steil omhoog"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "Dalend met y-as snijpunt 4.",
+      "explanation": "Dalend met y-as snijpunt 4."
     },
     {
-      "id": "b2",
+      "id": "vwo-5-c27-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
-      "answer": "a",
+      "question": "Wat was het antwoord?",
+      "answer": "yes",
       "answerOptions": [
         {
-          "id": "a",
-          "label": "Dank je"
+          "id": "yes",
+          "label": "Dalend, snijpunt y-as bij 4"
         },
         {
-          "id": "b",
-          "label": "Later"
+          "id": "no",
+          "label": "Stijgend, snijpunt y-as bij 4"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "Dalend met y-as snijpunt 4.",
+      "explanation": "Dalend met y-as snijpunt 4."
     }
   ]
 }

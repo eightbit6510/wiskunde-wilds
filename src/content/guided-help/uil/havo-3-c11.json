@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Lees de opdracht rustig"
+            "label": "De grafiek bij het verhaal kiezen"
           },
           {
             "id": "wrong",
-            "label": "Wat moet je doen?"
+            "label": "De steilste lijn kiezen"
           }
         ],
         "correctAnswer": "task",
@@ -22,80 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Neem de tijd. Geen haast.",
-        "question": "Snap je wat je moet doen?",
+        "explanation": "Stap 2: strategie.\n\nStilstand = horizontale lijn. Steeds sneller = steilere helling.",
+        "question": "Welke aanpak past hier?",
+        "options": [
+          {
+            "id": "good",
+            "label": "Stilstand = horizontale lijn. Steeds sneller = steilere helling."
+          },
+          {
+            "id": "bad",
+            "label": "Meteen een getal invullen zonder uitwerken"
+          }
+        ],
+        "correctAnswer": "good",
+        "successFeedback": "Goed — zo pakken we het aan.",
+        "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
+      },
+      {
+        "explanation": "Stap 3: uitwerken.\n\nZoek plat → steiler → plat.",
+        "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, ik ga rekenen"
+            "label": "Zoek plat → steiler → plat."
           },
           {
             "id": "no",
-            "label": "Nog niet"
+            "label": "Nee, ik sla de tussenstap over"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Mooi — probeer het zelf.",
-        "retryFeedback": "Lees de vraag nog eens rustig."
+        "successFeedback": "Precies. Nu kun je het antwoord afronden.",
+        "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Je kunt het.",
-        "question": "Klaar voor je antwoord?",
+        "explanation": "Stap 4: het antwoord.\n\nGrafiek B: eerst stil, dan sneller, dan weer stil.",
+        "question": "Wat is het juiste antwoord?",
         "options": [
           {
-            "id": "go",
-            "label": "Ja!"
+            "id": "a",
+            "label": "b"
           },
           {
-            "id": "wait",
-            "label": "Nog even nadenken"
+            "id": "b",
+            "label": "Iets anders"
           }
         ],
-        "correctAnswer": "go",
-        "successFeedback": "Succes!",
-        "retryFeedback": "Adem in — dan probeer je het nog eens."
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord: b.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is b."
       }
     ],
-    "conclusion": "Welke lijn past bij het verhaal?"
+    "conclusion": "Pootafdruk! 🐾 b"
   },
   "bonusVariants": [
     {
-      "id": "b1",
+      "id": "havo-3-c11-b1",
       "type": "multiple-choice",
-      "question": "Even oefenen?",
+      "question": "Welke tip helpt het meest?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "Stilstand = horizontale lijn. Steeds sneller = steilere hell"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "Raad zonder te rekenen"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed bezig!",
-      "explanation": "Goed bezig!"
+      "hint2": "Stilstand = horizontale lijn. Steeds sneller = steilere helling.",
+      "explanation": "Stilstand = horizontale lijn. Steeds sneller = steilere helling."
     },
     {
-      "id": "b2",
+      "id": "havo-3-c11-b2",
       "type": "multiple-choice",
-      "question": "Nog één tip?",
+      "question": "Wat is het antwoord?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Dank je"
+          "label": "b"
         },
         {
           "id": "b",
-          "label": "Later"
+          "label": "Iets anders"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De Uil knipoogt.",
-      "explanation": "De Uil knipoogt."
+      "hint2": "Grafiek B: eerst stil, dan sneller, dan weer stil.",
+      "explanation": "Grafiek B: eerst stil, dan sneller, dan weer stil."
     }
   ]
 }
