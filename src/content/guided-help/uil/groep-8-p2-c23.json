@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "y = −x + 8. Wat is de startwaarde (snijpunt met de y-as)?"
+            "label": "Het snijpunt met de y-as"
           },
           {
             "id": "wrong",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\ny = −0 + 8 = 8.",
+        "explanation": "Stap 3: uitwerken.\n\ny = 8.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "y = −0 + 8 = 8."
+            "label": "y = 8."
           },
           {
             "id": "no",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 8? Reken na — wat krijg je?",
       "answer": 8,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "y = −0 + 8 = 8.",
-      "explanation": "y = −0 + 8 = 8."
+      "hint2": "y = 8.",
+      "explanation": "y = 8."
     }
   ]
 }

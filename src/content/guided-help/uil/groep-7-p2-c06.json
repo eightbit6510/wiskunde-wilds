@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "A = b × h. A = 48 m² en b = 6 m. Wat is h? (in meters)"
+            "label": "De ontbrekende lengte"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nh = A ÷ b.",
+        "explanation": "Stap 2: strategie.\n\nOppervlakte ÷ breedte = lengte.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "h = A ÷ b."
+            "label": "Oppervlakte ÷ breedte = lengte."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n48 ÷ 6 = 8.",
+        "explanation": "Stap 3: uitwerken.\n\n48 ÷ 8 = 6.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "48 ÷ 6 = 8."
+            "label": "48 ÷ 8 = 6."
           },
           {
             "id": "no",
@@ -56,43 +56,43 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nh = 8 m.",
+        "explanation": "Stap 4: het antwoord.\n\nLengte = 6 m.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "8"
+            "label": "6"
           },
           {
             "id": "b",
-            "label": "9"
+            "label": "7"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: 8.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is 8."
+        "successFeedback": "Klopt! Antwoord: 6.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 6."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 8"
+    "conclusion": "Pootafdruk! 🐾 6"
   },
   "bonusVariants": [
     {
       "id": "groep-7-p2-c06-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: h = A ÷ b.)",
-      "answer": 8,
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Oppervlakte ÷ breedte = lengte.)",
+      "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "h = 8 m.",
-      "explanation": "h = 8 m."
+      "hint2": "Lengte = 6 m.",
+      "explanation": "Lengte = 6 m."
     },
     {
       "id": "groep-7-p2-c06-b2",
       "type": "number-input",
-      "question": "Controle: klopt 8? Reken na — wat krijg je?",
-      "answer": 8,
+      "question": "Controle: klopt 6? Reken na — wat krijg je?",
+      "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "48 ÷ 6 = 8.",
-      "explanation": "48 ÷ 6 = 8."
+      "hint2": "48 ÷ 8 = 6.",
+      "explanation": "48 ÷ 8 = 6."
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-p2-c23",
   "type": "number-input",
   "topic": "grafieken",
-  "difficulty": 2,
-  "starsAvailable": 3,
-  "question": "y = −x + 8. Wat is de startwaarde (snijpunt met de y-as)?",
+  "question": "Observatorium: y = −x + 8. Wat is de startwaarde (snijpunt y-as)?",
   "answer": 8,
   "hint1": "Op de y-as is x = 0.",
-  "hint2": "y = −0 + 8 = 8.",
+  "hint2": "y = 8.",
   "explanation": "Startwaarde = 8.",
+  "id": "groep-8-p2-c23",
+  "difficulty": 2,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

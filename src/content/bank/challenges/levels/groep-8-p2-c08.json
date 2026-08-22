@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-p2-c08",
   "type": "number-input",
   "topic": "formules",
+  "question": "Om het nest: P = 2ℓ + 2b. P = 40 en b = 7. Wat is ℓ?",
+  "answer": 13,
+  "hint1": "2b = 14; 2ℓ = 26.",
+  "hint2": "ℓ = 13.",
+  "explanation": "ℓ = 13.",
+  "id": "groep-8-p2-c08",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "P = 2ℓ + 2b. P = 30 cm en b = 5 cm. Wat is ℓ? (in cm)",
-  "answer": 10,
-  "hint1": "30 = 2ℓ + 10.",
-  "hint2": "2ℓ = 20 → ℓ = 10.",
-  "explanation": "ℓ = 10 cm.",
   "classLevels": [
     "groep-8"
   ]

@@ -1,25 +1,25 @@
 {
-  "id": "groep-8-c24",
   "type": "sorting",
   "topic": "redeneren",
-  "difficulty": 2,
-  "starsAvailable": 3,
-  "question": "Sorteer de breuken van groot naar klein.",
+  "question": "Sorteer van “sterkst dalend” naar “sterkst stijgend”.",
   "sortItems": [
-    "1/2",
-    "1/4",
-    "3/4",
-    "1/8"
+    "elke stap −3",
+    "elke stap −1",
+    "elke stap +0,5",
+    "elke stap +2"
   ],
   "correctOrder": [
-    "3/4",
-    "1/2",
-    "1/4",
-    "1/8"
+    "elke stap −3",
+    "elke stap −1",
+    "elke stap +0,5",
+    "elke stap +2"
   ],
-  "hint1": "Vergelijk de breuken — maak ze gelijknamig of gebruik een getal-lijn.",
-  "hint2": "Sleep de items in de juiste volgorde.",
-  "explanation": "Goed gesorteerd!",
+  "hint1": "Meest negatieve stap eerst.",
+  "hint2": "−3 → −1 → +0,5 → +2.",
+  "explanation": "Volgorde op stapgrootte: −3 → −1 → +0,5 → +2.",
+  "id": "groep-8-c24",
+  "difficulty": 2,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

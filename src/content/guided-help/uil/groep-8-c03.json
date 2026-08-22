@@ -14,7 +14,7 @@
           },
           {
             "id": "wrong",
-            "label": "Alleen raden zonder te rekenen"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",

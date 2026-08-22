@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "T = 5n + 20. Geef n in termen van T. (bijv. n = ...)"
+            "label": "n uitdrukken in T"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nTrek 20 af van beide kanten, deel daarna door 5.",
+        "explanation": "Stap 2: strategie.\n\nTrek 20 af, deel door 5.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Trek 20 af van beide kanten, deel daarna door 5."
+            "label": "Trek 20 af, deel door 5."
           },
           {
             "id": "bad",
@@ -84,7 +84,7 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Trek 20 af van beide kanten, deel daarna door 5."
+          "label": "Trek 20 af, deel door 5."
         },
         {
           "id": "b",
@@ -92,8 +92,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Trek 20 af van beide kanten, deel daarna door 5.",
-      "explanation": "Trek 20 af van beide kanten, deel daarna door 5."
+      "hint2": "Trek 20 af, deel door 5.",
+      "explanation": "Trek 20 af, deel door 5."
     },
     {
       "id": "groep-8-c09-b2",

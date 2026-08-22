@@ -1,14 +1,11 @@
 {
-  "id": "groep-6-c12",
   "type": "multiple-choice",
-  "topic": "grafieken",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Welk patroon zie je in de tabel? Welke formule past erbij?",
+  "topic": "verbanden",
+  "question": "Tabel: week 0→3, 1→5, 2→7, 3→9. Welke regel past?",
   "tableData": {
     "headers": [
-      "x",
-      "y"
+      "week",
+      "punten"
     ],
     "rows": [
       [
@@ -29,28 +26,31 @@
       ]
     ]
   },
-  "answer": "b",
+  "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "y = x + 3"
+      "label": "Start 3, elke week +2"
     },
     {
       "id": "b",
-      "label": "y = 2x + 3"
+      "label": "Start 3, elke week +3"
     },
     {
       "id": "c",
-      "label": "y = 3x"
+      "label": "Altijd 3"
     },
     {
       "id": "d",
-      "label": "y = 2x − 3"
+      "label": "Elke week verdubbelen"
     }
   ],
-  "hint1": "Kijk hoeveel y stijgt als x met 1 toeneemt.",
-  "hint2": "Elke stap +2 in y, start bij y = 3 → y = 2x + 3.",
-  "explanation": "y = 2x + 3. Elke stap in x geeft +2 in y.",
+  "hint1": "Kijk hoeveel er bij komt per week.",
+  "hint2": "Verschil is steeds +2.",
+  "explanation": "Start 3, elke week +2.",
+  "id": "groep-6-c12",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

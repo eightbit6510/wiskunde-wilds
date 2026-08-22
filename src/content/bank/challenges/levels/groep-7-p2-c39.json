@@ -1,20 +1,14 @@
 {
-  "id": "groep-7-p2-c39",
-  "type": "text-input",
+  "type": "number-input",
   "topic": "formules",
+  "question": "Stersteen 4: P = 2ℓ + 2b. P = 30, b = 5. Wat is ℓ?",
+  "answer": 10,
+  "hint1": "2b = 10; 2ℓ = 20.",
+  "hint2": "ℓ = 10.",
+  "explanation": "ℓ = 10.",
+  "id": "groep-7-p2-c39",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b.",
-  "answer": "l=(P-2b)/2",
-  "acceptedAnswers": [
-    "l=(P-2b)/2",
-    "ℓ=(P-2b)/2",
-    "l=P/2-b",
-    "ℓ=P/2-b"
-  ],
-  "hint1": "Trek 2b af, deel door 2.",
-  "hint2": "ℓ = (P − 2b) / 2.",
-  "explanation": "ℓ = (P − 2b) / 2.",
   "classLevels": [
     "groep-7"
   ]

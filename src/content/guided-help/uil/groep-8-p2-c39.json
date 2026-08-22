@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b."
+            "label": "ℓ uitdrukken in P en b"
           },
           {
             "id": "wrong",

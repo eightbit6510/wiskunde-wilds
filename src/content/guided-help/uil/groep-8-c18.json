@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Wat is groter: 2⁵ of 5²?"
+            "label": "Het grotere getal kiezen"
           },
           {
             "id": "wrong",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n2⁵ = 32 en 5² = 25.",
+        "explanation": "Stap 3: uitwerken.\n\n32 > 25.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "2⁵ = 32 en 5² = 25."
+            "label": "32 > 25."
           },
           {
             "id": "no",

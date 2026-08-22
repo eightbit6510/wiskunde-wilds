@@ -1,32 +1,28 @@
 {
-  "id": "groep-6-c32",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Vergelijk y = x² met y = x² + 2. Wat gebeurt er met de grafiek?",
+  "question": "Rij 1, 4, 9, 16. Wat gebeurt er als je bij elk getal +2 doet?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "De grafiek schuift 2 omhoog"
+      "label": "Nieuwe rij: 3, 6, 11, 18"
     },
     {
       "id": "b",
-      "label": "De grafiek schuift 2 naar rechts"
+      "label": "Nieuwe rij: 2, 8, 18, 32"
     },
     {
       "id": "c",
-      "label": "Wordt een rechte lijn"
-    },
-    {
-      "id": "d",
-      "label": "Alle y worden 2 kleiner"
+      "label": "De rij blijft hetzelfde"
     }
   ],
-  "hint1": "Bij x = 0: y = 2 in plaats van 0.",
-  "hint2": "Elke y krijgt +2.",
-  "explanation": "De parabool schuift 2 omhoog.",
+  "hint1": "Tel bij elk getal 2 op.",
+  "hint2": "1+2=3, 4+2=6, …",
+  "explanation": "Elk getal +2 → 3, 6, 11, 18.",
+  "id": "groep-6-c32",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

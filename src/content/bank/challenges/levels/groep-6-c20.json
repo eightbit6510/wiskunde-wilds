@@ -1,14 +1,11 @@
 {
-  "id": "groep-6-c20",
   "type": "boss-battle",
   "topic": "breuken",
-  "difficulty": 2,
-  "starsAvailable": 3,
   "question": "Boss battle! De konijnenkoning daagt je uit — drie snelle vragen.",
   "bossQuestions": [
     {
       "id": "b1",
-      "question": "Wat is 1/2 + 1/4?",
+      "question": "1/4 + 2/4 = ?",
       "type": "multiple-choice",
       "options": [
         {
@@ -17,34 +14,37 @@
         },
         {
           "id": "b",
-          "label": "2/6"
+          "label": "3/8"
         },
         {
           "id": "c",
-          "label": "1/3"
+          "label": "2/4"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "1/2 + 1/4 = 2/4 + 1/4 = 3/4"
+      "explanation": "1/4 + 2/4 = 3/4"
     },
     {
       "id": "b2",
-      "question": "Is 1/3 groter dan 1/4?",
+      "question": "Is 1/2 groter dan 1/3?",
       "type": "true-false",
       "correctAnswer": true,
-      "explanation": "1/3 is groter dan 1/4."
+      "explanation": "Ja, 1/2 > 1/3."
     },
     {
       "id": "b3",
-      "question": "2 × 6 = ?",
+      "question": "5 × 5 = ?",
       "type": "number-input",
-      "correctAnswer": 12,
-      "explanation": "2 × 6 = 12"
+      "correctAnswer": 25,
+      "explanation": "5 × 5 = 25"
     }
   ],
-  "hint1": "Drie vragen achter elkaar. Adem in tussen elke vraag.",
-  "hint2": "Je hoeft niet perfect te zijn — lees elke vraag rustig.",
-  "explanation": "De konijnenkoning buigt voor je — goed gedaan!",
+  "hint1": "Eén vraag tegelijk. Neem de tijd.",
+  "hint2": "Bij breuken: gelijke noemers of kruisproduct.",
+  "explanation": "Boss verslagen!",
+  "id": "groep-6-c20",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

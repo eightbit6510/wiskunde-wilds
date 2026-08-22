@@ -1,9 +1,6 @@
 {
-  "id": "groep-7-c29",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
   "question": "Runesteen Verbanden: tabel x: 0,1,2,3 en y: 2,5,8,11. Welke formule?",
   "answer": "a",
   "answerOptions": [
@@ -27,6 +24,9 @@
   "hint1": "Verschil in y is steeds +3.",
   "hint2": "y = 3x + 2.",
   "explanation": "y = 3x + 2.",
+  "id": "groep-7-c29",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

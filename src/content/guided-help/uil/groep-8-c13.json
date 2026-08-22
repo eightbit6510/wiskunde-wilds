@@ -14,7 +14,7 @@
           },
           {
             "id": "wrong",
-            "label": "Het hellingsgetal invullen"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nVul x = 0 in: y = 2·0 + 3.",
+        "explanation": "Stap 3: uitwerken.\n\ny = 2·0 + 3 = 3.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Vul x = 0 in: y = 2·0 + 3."
+            "label": "y = 2·0 + 3 = 3."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nBij x = 0: y = 3. Dat is het snijpunt met de y-as.",
+        "explanation": "Stap 4: het antwoord.\n\nSnijpunt y-as: y = 3.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -82,8 +82,8 @@
       "question": "Zelfde soort som: wat is het antwoord? (hint: Op de y-as is x = 0.)",
       "answer": 3,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Bij x = 0: y = 3. Dat is het snijpunt met de y-as.",
-      "explanation": "Bij x = 0: y = 3. Dat is het snijpunt met de y-as."
+      "hint2": "Snijpunt y-as: y = 3.",
+      "explanation": "Snijpunt y-as: y = 3."
     },
     {
       "id": "groep-8-c13-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 3? Reken na — wat krijg je?",
       "answer": 3,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Vul x = 0 in: y = 2·0 + 3.",
-      "explanation": "Vul x = 0 in: y = 2·0 + 3."
+      "hint2": "y = 2·0 + 3 = 3.",
+      "explanation": "y = 2·0 + 3 = 3."
     }
   ]
 }

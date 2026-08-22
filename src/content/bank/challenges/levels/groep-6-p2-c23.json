@@ -1,14 +1,14 @@
 {
-  "id": "groep-6-p2-c23",
   "type": "number-input",
   "topic": "grafieken",
+  "question": "Observatorium: bij 0 uren is de hoogte 8. Wat is de startwaarde?",
+  "answer": 8,
+  "hint1": "Startwaarde = waarde bij 0.",
+  "hint2": "Dat is 8.",
+  "explanation": "Startwaarde = 8.",
+  "id": "groep-6-p2-c23",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "y = −x + 8. Wat is de startwaarde (snijpunt met de y-as)?",
-  "answer": 8,
-  "hint1": "Op de y-as is x = 0.",
-  "hint2": "y = −0 + 8 = 8.",
-  "explanation": "Startwaarde = 8.",
   "classLevels": [
     "groep-6"
   ]

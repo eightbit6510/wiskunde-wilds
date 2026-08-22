@@ -1,14 +1,14 @@
 {
-  "id": "groep-6-c10",
   "type": "number-input",
   "topic": "formules",
+  "question": "Rechthoek 8 bij 5. Wat is de omtrek?",
+  "answer": 26,
+  "hint1": "Omtrek = 2 × lengte + 2 × breedte.",
+  "hint2": "2×8 + 2×5 = 16 + 10 = 26.",
+  "explanation": "Omtrek = 26.",
+  "id": "groep-6-c10",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "P = 2ℓ + 2b. P = 30, ℓ = 8. Wat is b?",
-  "answer": 7,
-  "hint1": "2ℓ = 16, dus 2b = P − 16.",
-  "hint2": "2b = 14 → b = 7.",
-  "explanation": "2·8 + 2b = 30 → 2b = 14 → b = 7.",
   "classLevels": [
     "groep-6"
   ]

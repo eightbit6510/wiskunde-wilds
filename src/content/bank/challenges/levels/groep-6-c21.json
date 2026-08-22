@@ -1,10 +1,7 @@
 {
-  "id": "groep-6-c21",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Welke formule past bij de tabel (week 0→4, 1→6, 2→8, 3→10)?",
+  "question": "Week 0→4, 1→6, 2→8, 3→10. Welke regel?",
   "tableData": {
     "headers": [
       "week",
@@ -33,24 +30,27 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "g = 2w + 4"
+      "label": "Start 4, elke week +2"
     },
     {
       "id": "b",
-      "label": "g = 4w + 2"
+      "label": "Start 4, elke week +4"
     },
     {
       "id": "c",
-      "label": "g = w + 4"
+      "label": "Start 2, elke week +4"
     },
     {
       "id": "d",
-      "label": "g = 2w"
+      "label": "Verdubbelen"
     }
   ],
-  "hint1": "Start bij week 0: g = 4. Elke week +2.",
-  "hint2": "g = 2w + 4.",
-  "explanation": "g = 2w + 4.",
+  "hint1": "Verschil per week?",
+  "hint2": "Steeds +2.",
+  "explanation": "Start 4, elke week +2.",
+  "id": "groep-6-c21",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

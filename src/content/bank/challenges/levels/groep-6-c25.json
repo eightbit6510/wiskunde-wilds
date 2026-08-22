@@ -4,11 +4,11 @@
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 3 rode plakkers horen 4 blauwe. Je hebt 12 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 16,
+  "question": "Voor elke 3 rode snoepjes horen 3 blauwe. Je hebt 12 rode. Hoeveel blauwe horen daarbij?",
+  "answer": 12,
   "hint1": "Deel 12 door 3.",
-  "hint2": "Dat getal × 4 = 16.",
-  "explanation": "12 ÷ 3 = 4.\n4 × 4 = 16.",
+  "hint2": "Dat getal × 3 = 12.",
+  "explanation": "12 ÷ 3 = 4.\n4 × 3 = 12.",
   "classLevels": [
     "groep-6"
   ]

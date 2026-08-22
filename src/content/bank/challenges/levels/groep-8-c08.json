@@ -1,32 +1,32 @@
 {
-  "id": "groep-8-c08",
   "type": "multiple-choice",
   "topic": "formules",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "€12 vaste kosten plus €4 per zak voer. Welke formule voor totale kosten K bij z zakken?",
+  "question": "€12 vast + €4 per zak. Welke regel past bij z zakken?",
   "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "K = 12z + 4"
+      "label": "Kosten = 12 × z + 4"
     },
     {
       "id": "b",
-      "label": "K = 4z + 12"
+      "label": "Kosten = 4 × z + 12"
     },
     {
       "id": "c",
-      "label": "K = 12 × 4 × z"
+      "label": "Kosten = 12 × 4 × z"
     },
     {
       "id": "d",
-      "label": "K = 4 + 12 + z"
+      "label": "Kosten = 4 + 12 + z"
     }
   ],
-  "hint1": "Startbedrag 12, daarna +4 per zak.",
-  "hint2": "K = 4z + 12.",
-  "explanation": "K = 4z + 12.",
+  "hint1": "Start met 12, daarna +4 per zak.",
+  "hint2": "Kosten = 4 × z + 12.",
+  "explanation": "Kosten = 4 × z + 12.",
+  "id": "groep-8-c08",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

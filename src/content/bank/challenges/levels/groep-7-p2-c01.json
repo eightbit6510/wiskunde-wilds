@@ -1,62 +1,35 @@
 {
-  "id": "groep-7-p2-c01",
   "type": "equation-steps",
-  "topic": "vergelijkingen",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Los op: 2x + 6 = 16",
+  "topic": "algebra",
+  "question": "Schaduwgrot: vul het ontbrekende getal in: □ × 5 = 35",
   "equationSteps": [
     {
-      "prompt": "Wat doe je eerst om dichter bij x te komen?",
+      "prompt": "Hoe vind je □?",
       "options": [
         {
-          "id": "plus6",
-          "label": "Beide kanten +6"
+          "id": "deel",
+          "label": "35 ÷ 5"
         },
         {
-          "id": "min6",
-          "label": "Beide kanten −6"
+          "id": "keer",
+          "label": "35 × 5"
         },
         {
-          "id": "deel2",
-          "label": "Beide kanten ÷ 2"
-        },
-        {
-          "id": "keer2",
-          "label": "Beide kanten × 2"
+          "id": "min",
+          "label": "35 − 5"
         }
       ],
-      "correctId": "min6",
-      "resultDisplay": "2x = 10"
-    },
-    {
-      "prompt": "Nu staat er 2x = 10. Wat is de volgende stap?",
-      "options": [
-        {
-          "id": "deel2",
-          "label": "Beide kanten ÷ 2"
-        },
-        {
-          "id": "min2",
-          "label": "Beide kanten − 2"
-        },
-        {
-          "id": "plus2",
-          "label": "Beide kanten + 2"
-        },
-        {
-          "id": "keer2",
-          "label": "Beide kanten × 2"
-        }
-      ],
-      "correctId": "deel2",
-      "resultDisplay": "x = 5"
+      "correctId": "deel",
+      "resultDisplay": "□ = 7"
     }
   ],
-  "answer": 5,
-  "hint1": "Haal de +6 weg met −6 aan beide kanten.",
-  "hint2": "2x = 10 → x = 5.",
-  "explanation": "2x + 6 = 16 → 2x = 10 → x = 5.",
+  "answer": 7,
+  "hint1": "□ keer 5 is 35. Deel 35 door 5.",
+  "hint2": "35 ÷ 5 = 7.",
+  "explanation": "□ × 5 = 35 → □ = 7.",
+  "id": "groep-7-p2-c01",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

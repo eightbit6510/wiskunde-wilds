@@ -63,7 +63,7 @@ export function basisGrade(level: ClassLevel): 6 | 7 | 8 | null {
 
 export function generateBasisForTopic(
   level: ClassLevel,
-  grade: 6 | 7,
+  grade: 6 | 7 | 8,
   challengeIndex: number,
   topic: Topic,
   difficulty: HelpDifficulty,
@@ -117,23 +117,35 @@ export function generateBasisForTopic(
         return { challenge, help };
       }
 
-      // groep 7: ongelijknamig, antwoord als breuk
-      const pairs = [
-        [1, 2, 1, 4],
-        [1, 3, 1, 6],
-        [1, 4, 1, 2],
-        [2, 3, 1, 4],
-        [1, 2, 1, 3],
-        [2, 5, 1, 2],
-        [3, 4, 1, 8],
-        [2, 3, 1, 6],
-        [3, 5, 2, 7],
-        [1, 5, 1, 10],
-        [2, 7, 1, 3],
-        [4, 5, 1, 2],
-        [3, 8, 1, 4],
-        [5, 6, 1, 3],
-      ] as const;
+      // groep 7–8: ongelijknamig, antwoord als breuk (G8: hardere paren)
+      const pairs =
+        grade === 8
+          ? ([
+              [2, 3, 1, 4],
+              [3, 5, 2, 7],
+              [5, 6, 1, 4],
+              [3, 8, 1, 3],
+              [4, 5, 1, 2],
+              [2, 7, 3, 4],
+              [5, 8, 1, 3],
+              [3, 4, 2, 5],
+            ] as const)
+          : ([
+              [1, 2, 1, 4],
+              [1, 3, 1, 6],
+              [1, 4, 1, 2],
+              [2, 3, 1, 4],
+              [1, 2, 1, 3],
+              [2, 5, 1, 2],
+              [3, 4, 1, 8],
+              [2, 3, 1, 6],
+              [3, 5, 2, 7],
+              [1, 5, 1, 10],
+              [2, 7, 1, 3],
+              [4, 5, 1, 2],
+              [3, 8, 1, 4],
+              [5, 6, 1, 3],
+            ] as const);
       const [n1, d1, n2, d2] = pairs[(topicOccurrence + s + challengeIndex) % pairs.length];
       const num = n1 * d2 + n2 * d1;
       const den = d1 * d2;
@@ -171,19 +183,58 @@ export function generateBasisForTopic(
       return { challenge, help };
     }
 
-    case 'vergelijkingen': {
+    case 'vergelijkingen':
+    case 'formules': {
+      if (topic === 'formules') {
+        const mix = topicOccurrence + s + challengeIndex;
+        const length = (mix % 6) + 4 + (grade === 8 ? 2 : 0);
+        const width = ((mix >> 2) % 5) + 3;
+        const area = length * width;
+        const askWidth = mix % 2 === 0;
+        const challenge: ChallengeDefinition = {
+          id,
+          type: 'number-input',
+          topic: 'formules',
+          difficulty,
+          starsAvailable: 3,
+          question: askWidth
+            ? `Oppervlakte ${area}, lengte ${length}. Wat is de breedte?`
+            : `Rechthoek ${length} bij ${width}. Wat is de omtrek?`,
+          answer: askWidth ? width : 2 * (length + width),
+          hint1: askWidth
+            ? 'Oppervlakte ÷ lengte = breedte.'
+            : 'Omtrek = 2 × (lengte + breedte).',
+          hint2: askWidth
+            ? `${area} ÷ ${length} = ${width}`
+            : `2 × (${length} + ${width}) = ${2 * (length + width)}`,
+          explanation: askWidth
+            ? `Breedte = ${width}`
+            : `Omtrek = ${2 * (length + width)}`,
+          classLevels: [level],
+        };
+        const help = helpForOntbrekendGetal(
+          id,
+          difficulty,
+          askWidth ? length : length + width,
+          askWidth ? area : 2 * (length + width),
+          askWidth ? width : 2 * (length + width),
+          true,
+        );
+        return { challenge, help };
+      }
+
       const mix = topicOccurrence + s + challengeIndex;
-      const a = (mix % 7) + 2;
-      const b = a + ((mix >> 3) % 6) + 2;
+      const a = (mix % 7) + 2 + (grade === 8 ? 3 : 0);
+      const b = a + ((mix >> 3) % 6) + 2 + (grade === 8 ? 2 : 0);
       const missing = b - a;
       const missingFirst = mix % 2 === 0;
       const question = missingFirst
-        ? `Er ontbreekt een getal: ? + ${a} = ${b}. Wat is het ontbrekende getal?`
-        : `Er ontbreekt een getal: ${a} + ? = ${b}. Wat is het ontbrekende getal?`;
+        ? `Er ontbreekt een getal: □ + ${a} = ${b}. Wat is het ontbrekende getal?`
+        : `Er ontbreekt een getal: ${a} + □ = ${b}. Wat is het ontbrekende getal?`;
       const challenge: ChallengeDefinition = {
         id,
         type: 'number-input',
-        topic,
+        topic: 'algebra',
         difficulty,
         starsAvailable: 3,
         question,
@@ -200,8 +251,8 @@ export function generateBasisForTopic(
     case 'grafieken': {
       const mix = topicOccurrence + s + challengeIndex;
       const item = TABLE_ITEMS[mix % TABLE_ITEMS.length];
-      const unitPrice = (mix % 4) + 2;
-      const count = ((mix >> 2) % 4) + 2;
+      const unitPrice = (mix % 4) + 2 + (grade === 8 ? 2 : 0);
+      const count = ((mix >> 2) % 4) + 2 + (grade === 8 ? 1 : 0);
       const total = unitPrice * count;
       const challenge: ChallengeDefinition = {
         id,
@@ -235,8 +286,8 @@ export function generateBasisForTopic(
     case 'verbanden': {
       const mix = topicOccurrence + s + challengeIndex;
       const p1 = (mix % 3) + 2;
-      const p2 = ((mix >> 2) % 3) + 2;
-      const factor = ((mix >> 3) % 3) + 2;
+      const p2 = ((mix >> 2) % 3) + 2 + (grade === 8 ? 1 : 0);
+      const factor = ((mix >> 3) % 3) + 2 + (grade === 8 ? 1 : 0);
       const given = p1 * factor;
       const other = factor * p2;
       const context = RATIO_CONTEXTS[mix % RATIO_CONTEXTS.length];
@@ -293,8 +344,8 @@ export function generateBasisForTopic(
 
     case 'algebra': {
       const mix = topicOccurrence + s + challengeIndex;
-      const groups = (mix % 4) + 2;
-      const each = ((mix >> 2) % 5) + 2;
+      const groups = (mix % 4) + 2 + (grade === 8 ? 1 : 0);
+      const each = ((mix >> 2) % 5) + 2 + (grade === 8 ? 1 : 0);
       const total = groups * each;
       const sumParts = Array.from({ length: Math.min(groups, 4) }, () => String(each)).join(' + ');
       const dots = groups > 4 ? ' + …' : '';

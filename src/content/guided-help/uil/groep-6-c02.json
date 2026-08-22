@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c02",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Lees de uitwerking stap voor stap.",
+    "intro": "Lees de uitwerking op de boomstam.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "De fout in de haakjes vinden"
+            "label": "De rekenfout vinden"
           },
           {
             "id": "wrong",
-            "label": "Zeggen dat er geen fout is zonder te kijken"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nBij haakjes wegwerken moet de factor buiten de haakjes met élke term vermenigvuldigd worden.",
+        "explanation": "Stap 2: strategie.\n\n12 − 5 moet 7 zijn.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Bij haakjes wegwerken moet de factor buiten de haakjes met élke ter…"
+            "label": "12 − 5 moet 7 zijn."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nKijk naar: 2(x + 3) = 2x + 3",
+        "explanation": "Stap 3: uitwerken.\n\nIemand heeft 1 te veel gerekend.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Kijk naar: 2(x + 3) = 2x + 3"
+            "label": "Iemand heeft 1 te veel gerekend."
           },
           {
             "id": "no",
@@ -56,39 +56,39 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nDe fout zat bij de +3 — de factor moet met alle termen vermenigvuldigd worden.",
+        "explanation": "Stap 4: het antwoord.\n\n12 − 5 = 7, niet 8. De fout zit bij het aftrekken.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "Bij de +3"
+            "label": "Bij het aftrekken"
           },
           {
             "id": "b",
-            "label": "Bij de x"
+            "label": "Bij het optellen"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: Bij de +3.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is Bij de +3."
+        "successFeedback": "Klopt! Antwoord: Bij het aftrekken.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Bij het aftrekken."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Bij de +3"
+    "conclusion": "Pootafdruk! 🐾 Bij het aftrekken"
   },
   "bonusVariants": [
     {
       "id": "groep-6-c02-b1",
       "type": "multiple-choice",
       "question": "Welke uitwerking past bij deze som?",
-      "answer": "bij3",
+      "answer": "aftrek",
       "answerOptions": [
         {
-          "id": "bijx",
-          "label": "Bij de x"
+          "id": "optel",
+          "label": "Bij het optellen"
         },
         {
-          "id": "bij3",
-          "label": "Bij de +3"
+          "id": "aftrek",
+          "label": "Bij het aftrekken"
         },
         {
           "id": "geen",
@@ -96,8 +96,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De fout zat bij de +3 — de factor moet met alle termen vermenigvuldigd worden.",
-      "explanation": "De fout zat bij de +3 — de factor moet met alle termen vermenigvuldigd worden."
+      "hint2": "12 − 5 = 7, niet 8. De fout zit bij het aftrekken.",
+      "explanation": "12 − 5 = 7, niet 8. De fout zit bij het aftrekken."
     },
     {
       "id": "groep-6-c02-b2",
@@ -107,16 +107,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "Bij de +3"
+          "label": "Bij het aftrekken"
         },
         {
           "id": "no",
-          "label": "Bij de x"
+          "label": "Bij het optellen"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De fout zat bij de +3 — de factor moet met alle termen vermenigvuldigd worden.",
-      "explanation": "De fout zat bij de +3 — de factor moet met alle termen vermenigvuldigd worden."
+      "hint2": "12 − 5 = 7, niet 8. De fout zit bij het aftrekken.",
+      "explanation": "12 − 5 = 7, niet 8. De fout zit bij het aftrekken."
     }
   ]
 }

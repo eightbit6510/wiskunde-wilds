@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Wat is (−4)²?"
+            "label": "(−4)×(−4) uitrekenen"
           },
           {
             "id": "wrong",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n(−4) × (−4) = 16.",
+        "explanation": "Stap 3: uitwerken.\n\n16.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "(−4) × (−4) = 16."
+            "label": "16."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n(−4)² = 16.",
+        "explanation": "Stap 4: het antwoord.\n\n(−4)×(−4) = 16.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -82,8 +82,8 @@
       "question": "Zelfde soort som: wat is het antwoord? (hint: Negatief × negatief = positief.)",
       "answer": 16,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "(−4)² = 16.",
-      "explanation": "(−4)² = 16."
+      "hint2": "(−4)×(−4) = 16.",
+      "explanation": "(−4)×(−4) = 16."
     },
     {
       "id": "groep-7-c33-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 16? Reken na — wat krijg je?",
       "answer": 16,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "(−4) × (−4) = 16.",
-      "explanation": "(−4) × (−4) = 16."
+      "hint2": "16.",
+      "explanation": "16."
     }
   ]
 }

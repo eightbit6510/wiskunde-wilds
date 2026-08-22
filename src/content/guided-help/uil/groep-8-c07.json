@@ -2,7 +2,7 @@
   "challengeId": "groep-8-c07",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Snelheid × tijd = afstand.",
+    "intro": "Maak de tijd vrij in de formule.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "v = s / t. Welke formule geeft s (afstand)?"
+            "label": "De juiste formule voor tijd kiezen"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nVermenigvuldig beide kanten van v = s/t met t.",
+        "explanation": "Stap 2: strategie.\n\nDeel beide kanten door de snelheid.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Vermenigvuldig beide kanten van v = s/t met t."
+            "label": "Deel beide kanten door de snelheid."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nv · t = s.",
+        "explanation": "Stap 3: uitwerken.\n\ntijd = afstand ÷ snelheid.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "v · t = s."
+            "label": "tijd = afstand ÷ snelheid."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\ns = v × t.",
+        "explanation": "Stap 4: het antwoord.\n\ntijd = afstand ÷ snelheid.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "s = v × t"
+            "label": "tijd = afstand ÷ snelheid"
           },
           {
             "id": "b",
-            "label": "s = v / t"
+            "label": "tijd = snelheid × afstand"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: s = v × t.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is s = v × t."
+        "successFeedback": "Klopt! Antwoord: tijd = afstand ÷ snelheid.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is tijd = afstand ÷ snelheid."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 s = v × t"
+    "conclusion": "Pootafdruk! 🐾 tijd = afstand ÷ snelheid"
   },
   "bonusVariants": [
     {
@@ -84,24 +84,24 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "s = v / t"
+          "label": "tijd = snelheid × afstand"
         },
         {
           "id": "b",
-          "label": "s = v × t"
+          "label": "tijd = afstand ÷ snelheid"
         },
         {
           "id": "c",
-          "label": "s = t / v"
+          "label": "tijd = snelheid ÷ afstand"
         },
         {
           "id": "d",
-          "label": "s = v + t"
+          "label": "tijd = afstand + snelheid"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "s = v × t.",
-      "explanation": "s = v × t."
+      "hint2": "tijd = afstand ÷ snelheid.",
+      "explanation": "tijd = afstand ÷ snelheid."
     },
     {
       "id": "groep-8-c07-b2",
@@ -111,16 +111,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "s = v × t"
+          "label": "tijd = afstand ÷ snelheid"
         },
         {
           "id": "no",
-          "label": "s = v / t"
+          "label": "tijd = snelheid × afstand"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "s = v × t.",
-      "explanation": "s = v × t."
+      "hint2": "tijd = afstand ÷ snelheid.",
+      "explanation": "tijd = afstand ÷ snelheid."
     }
   ]
 }

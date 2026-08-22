@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-p2-c31",
   "type": "number-input",
   "topic": "redeneren",
-  "difficulty": 2,
-  "starsAvailable": 3,
   "question": "Reeks: 3, 7, 11, 15, … Wat is het volgende getal?",
   "answer": 19,
   "hint1": "Elke stap +4.",
   "hint2": "15 + 4 = 19.",
-  "explanation": "Het patroon is +4 → 19.",
+  "explanation": "19.",
+  "id": "groep-8-p2-c31",
+  "difficulty": 2,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

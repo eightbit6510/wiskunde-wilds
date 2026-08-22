@@ -2,7 +2,7 @@
   "challengeId": "groep-8-c04",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Eerst de constante weg, daarna x vrijmaken.",
+    "intro": "Twee stappen: eerst +4 weg, dan delen.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Stap voor stap de vergelijking oplossen"
+            "label": "Het ontbrekende getal in twee stappen zoeken"
           },
           {
             "id": "wrong",
-            "label": "x gokken zonder stappen"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nJe wilt de constante term wegwerken — doe aan beide kanten het tegenovergestelde.",
+        "explanation": "Stap 2: strategie.\n\nHaal eerst de +4 weg: 19 − 4 = 15.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Je wilt de constante term wegwerken — doe aan beide kanten het tege…"
+            "label": "Haal eerst de +4 weg: 19 − 4 = 15."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nx + 3 = 11 → x = 8",
+        "explanation": "Stap 3: uitwerken.\n\nDan 15 ÷ 3 = 5.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "x + 3 = 11 → x = 8"
+            "label": "Dan 15 ÷ 3 = 5."
           },
           {
             "id": "no",
@@ -56,43 +56,43 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nx + 3 = 11\nBeide kanten −3 → x = 8",
+        "explanation": "Stap 4: het antwoord.\n\n□ × 3 + 4 = 19 → □ = 5.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "4"
+            "label": "5"
           },
           {
             "id": "b",
-            "label": "5"
+            "label": "6"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: 4.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is 4."
+        "successFeedback": "Klopt! Antwoord: 5.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 5."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4"
+    "conclusion": "Pootafdruk! 🐾 5"
   },
   "bonusVariants": [
     {
       "id": "groep-8-c04-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Je wilt de constante term wegwerken — doe aan beide kanten het tegenovergestelde.)",
-      "answer": 4,
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Haal eerst de +4 weg: 19 − 4 = 15.)",
+      "answer": 5,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x + 3 = 11",
-      "explanation": "x + 3 = 11\nBeide kanten −3 → x = 8"
+      "hint2": "□ × 3 + 4 = 19 → □ = 5.",
+      "explanation": "□ × 3 + 4 = 19 → □ = 5."
     },
     {
       "id": "groep-8-c04-b2",
       "type": "number-input",
-      "question": "Controle: klopt 4? Reken na — wat krijg je?",
-      "answer": 4,
+      "question": "Controle: klopt 5? Reken na — wat krijg je?",
+      "answer": 5,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x + 3 = 11 → x = 8",
-      "explanation": "x + 3 = 11 → x = 8"
+      "hint2": "Dan 15 ÷ 3 = 5.",
+      "explanation": "Dan 15 ÷ 3 = 5."
     }
   ]
 }

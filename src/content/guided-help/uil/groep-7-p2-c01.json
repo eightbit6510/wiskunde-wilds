@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Los op: 2x + 6 = 16"
+            "label": "Het ontbrekende getal zoeken"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nHaal de +6 weg met −6 aan beide kanten.",
+        "explanation": "Stap 2: strategie.\n\n□ keer 5 is 35. Deel 35 door 5.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Haal de +6 weg met −6 aan beide kanten."
+            "label": "□ keer 5 is 35. Deel 35 door 5."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n2x = 10 → x = 5.",
+        "explanation": "Stap 3: uitwerken.\n\n35 ÷ 5 = 7.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "2x = 10 → x = 5."
+            "label": "35 ÷ 5 = 7."
           },
           {
             "id": "no",
@@ -56,43 +56,43 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n2x + 6 = 16 → 2x = 10 → x = 5.",
+        "explanation": "Stap 4: het antwoord.\n\n□ × 5 = 35 → □ = 7.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "5"
+            "label": "7"
           },
           {
             "id": "b",
-            "label": "6"
+            "label": "8"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: 5.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is 5."
+        "successFeedback": "Klopt! Antwoord: 7.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 7."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5"
+    "conclusion": "Pootafdruk! 🐾 7"
   },
   "bonusVariants": [
     {
       "id": "groep-7-p2-c01-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Haal de +6 weg met −6 aan beide kanten.)",
-      "answer": 5,
+      "question": "Zelfde soort som: wat is het antwoord? (hint: □ keer 5 is 35. Deel 35 door 5.)",
+      "answer": 7,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "2x + 6 = 16 → 2x = 10 → x = 5.",
-      "explanation": "2x + 6 = 16 → 2x = 10 → x = 5."
+      "hint2": "□ × 5 = 35 → □ = 7.",
+      "explanation": "□ × 5 = 35 → □ = 7."
     },
     {
       "id": "groep-7-p2-c01-b2",
       "type": "number-input",
-      "question": "Controle: klopt 5? Reken na — wat krijg je?",
-      "answer": 5,
+      "question": "Controle: klopt 7? Reken na — wat krijg je?",
+      "answer": 7,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "2x = 10 → x = 5.",
-      "explanation": "2x = 10 → x = 5."
+      "hint2": "35 ÷ 5 = 7.",
+      "explanation": "35 ÷ 5 = 7."
     }
   ]
 }

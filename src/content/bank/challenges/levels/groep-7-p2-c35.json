@@ -1,28 +1,28 @@
 {
-  "id": "groep-7-p2-c35",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Bij y = x²: wat is y als x = 3 en als x = −3?",
+  "question": "Bij 3×3 en (−3)×(−3): wat valt op?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "Beide keren 9"
+      "label": "Beide geven 9"
     },
     {
       "id": "b",
-      "label": "3 en −3"
+      "label": "Eén is negatief"
     },
     {
       "id": "c",
-      "label": "0 en 9"
+      "label": "Alleen 3×3 mag"
     }
   ],
-  "hint1": "(−3)² = 9 en 3² = 9.",
-  "hint2": "Positief en negatief x kunnen dezelfde y geven.",
-  "explanation": "Beide geven y = 9 — symmetrie in maanlicht.",
+  "hint1": "Negatief × negatief = positief.",
+  "hint2": "Beide 9.",
+  "explanation": "Beide geven 9 — het teken verdwijnt bij kwadrateren.",
+  "id": "groep-7-p2-c35",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

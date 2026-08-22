@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Reeks: 3, 7, 11, 15, … Wat is het volgende getal?"
+            "label": "Het volgende getal"
           },
           {
             "id": "wrong",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nHet patroon is +4 → 19.",
+        "explanation": "Stap 4: het antwoord.\n\n19.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -82,8 +82,8 @@
       "question": "Zelfde soort som: wat is het antwoord? (hint: Elke stap +4.)",
       "answer": 19,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Het patroon is +4 → 19.",
-      "explanation": "Het patroon is +4 → 19."
+      "hint2": "19.",
+      "explanation": "19."
     },
     {
       "id": "groep-8-p2-c31-b2",

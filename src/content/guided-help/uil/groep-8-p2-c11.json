@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Op een kaart met schaal 1 : 25 000 staat een brug 4 cm lang. Hoe lang…"
+            "label": "De echte lengte in meters"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nWerkelijke lengte = 4 × 25 000 cm.",
+        "explanation": "Stap 2: strategie.\n\n4 × 25 000 cm = 100 000 cm.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Werkelijke lengte = 4 × 25 000 cm."
+            "label": "4 × 25 000 cm = 100 000 cm."
           },
           {
             "id": "bad",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n4 cm × 25 000 = 100 000 cm = 1000 m.",
+        "explanation": "Stap 4: het antwoord.\n\n1000 m.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-8-p2-c11-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Werkelijke lengte = 4 × 25 000 cm.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: 4 × 25 000 cm = 100 000 cm.)",
       "answer": 1000,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4 cm × 25 000 = 100 000 cm = 1000 m.",
-      "explanation": "4 cm × 25 000 = 100 000 cm = 1000 m."
+      "hint2": "1000 m.",
+      "explanation": "1000 m."
     },
     {
       "id": "groep-8-p2-c11-b2",

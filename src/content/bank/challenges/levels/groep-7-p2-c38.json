@@ -1,14 +1,14 @@
 {
-  "id": "groep-7-p2-c38",
   "type": "number-input",
-  "topic": "algebra",
+  "topic": "grafieken",
+  "question": "Kamer III: Lijn A: 2×stap + 1. Bij stap 5: wat is de y van A?",
+  "answer": 11,
+  "hint1": "2×5 + 1.",
+  "hint2": "11.",
+  "explanation": "y = 11.",
+  "id": "groep-7-p2-c38",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 2 + 2 + 2 + 2 (4 keer 2). Wat is het antwoord?",
-  "answer": 8,
-  "hint1": "4 keer 2 is hetzelfde als 4 × 2.",
-  "hint2": "4 × 2 = 8",
-  "explanation": "4 × 2 = 8",
   "classLevels": [
     "groep-7"
   ]

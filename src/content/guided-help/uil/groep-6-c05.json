@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c05",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Drie leerlingen, één vals spoor — wie heeft de fout?",
+    "intro": "Drie sporen lijken echt — één is vals.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "De foute redenering aanwijzen"
+            "label": "De foute uitspraak aanwijzen"
           },
           {
             "id": "wrong",
-            "label": "De eerste leerling kiezen"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nBij −x = 4: wat gebeurt er als je beide kanten met −1 vermenigvuldigt?",
+        "explanation": "Stap 2: strategie.\n\nOneven getallen zijn niet deelbaar door 2.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Bij −x = 4: wat gebeurt er als je beide kanten met −1 vermenigvuldigt?"
+            "label": "Oneven getallen zijn niet deelbaar door 2."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nAls −x = 4, dan is x = −4. Finn zegt +4 — dat kan niet.",
+        "explanation": "Stap 3: uitwerken.\n\nC is te streng / fout.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Als −x = 4, dan is x = −4. Finn zegt +4 — dat kan niet."
+            "label": "C is te streng / fout."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nC kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4).",
+        "explanation": "Stap 4: het antwoord.\n\nC klopt niet. Oneven getallen zijn niet deelbaar door 2.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "C. Bij −x = 4 zegt Finn: x = 4"
+            "label": "C. Elk oneven getal is deelbaar door 2"
           },
           {
             "id": "b",
-            "label": "A. Bij x + 8 = 3 zegt Sam: x = −5"
+            "label": "A. 2 + 2 = 4"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: C. Bij −x = 4 zegt Finn: x = 4.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is C. Bij −x = 4 zegt Finn: x = 4."
+        "successFeedback": "Klopt! Antwoord: C. Elk oneven getal is deelbaar door 2.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is C. Elk oneven getal is deelbaar door 2."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 C. Bij −x = 4 zegt Finn: x = 4"
+    "conclusion": "Pootafdruk! 🐾 C. Elk oneven getal is deelbaar door 2"
   },
   "bonusVariants": [
     {
@@ -84,20 +84,24 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "A. Bij x + 8 = 3 zegt Sam: x = −5"
+          "label": "A. 2 + 2 = 4"
         },
         {
           "id": "b",
-          "label": "B. Bij 2x = −10 zegt Noor: x = −5"
+          "label": "B. Even getallen eindigen op 0, 2, 4, 6 of 8"
         },
         {
           "id": "c",
-          "label": "C. Bij −x = 4 zegt Finn: x = 4"
+          "label": "C. Elk oneven getal is deelbaar door 2"
+        },
+        {
+          "id": "d",
+          "label": "D. 5 × 0 = 0"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "C kan niet.",
-      "explanation": "C kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4)."
+      "hint2": "C klopt niet. Oneven getallen zijn niet deelbaar door 2.",
+      "explanation": "C klopt niet. Oneven getallen zijn niet deelbaar door 2."
     },
     {
       "id": "groep-6-c05-b2",
@@ -107,16 +111,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "C. Bij −x = 4 zegt Finn: x = 4"
+          "label": "C. Elk oneven getal is deelbaar door 2"
         },
         {
           "id": "no",
-          "label": "A. Bij x + 8 = 3 zegt Sam: x = −5"
+          "label": "A. 2 + 2 = 4"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "C kan niet.",
-      "explanation": "C kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4)."
+      "hint2": "C klopt niet. Oneven getallen zijn niet deelbaar door 2.",
+      "explanation": "C klopt niet. Oneven getallen zijn niet deelbaar door 2."
     }
   ]
 }

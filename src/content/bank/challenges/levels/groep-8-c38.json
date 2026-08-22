@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-c38",
   "type": "number-input",
   "topic": "vergelijkingen",
-  "difficulty": 2,
-  "starsAvailable": 3,
   "question": "Stersteen 3: Los op 4x − 7 = 9. Wat is x?",
   "answer": 4,
   "hint1": "+7 aan beide kanten.",
   "hint2": "4x = 16 → x = 4.",
   "explanation": "x = 4.",
+  "id": "groep-8-c38",
+  "difficulty": 2,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

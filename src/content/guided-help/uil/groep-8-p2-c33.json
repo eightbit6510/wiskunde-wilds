@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Figuurstenen: figuur 1 = 4 stenen, figuur 2 = 7, figuur 3 = 10. Hoeve…"
+            "label": "Het aantal stenen bij figuur 10"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nVerschil +3 per figuur. Formule: 3n + 1.",
+        "explanation": "Stap 2: strategie.\n\nStap +3. Formule: 3n + 1.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Verschil +3 per figuur. Formule: 3n + 1."
+            "label": "Stap +3. Formule: 3n + 1."
           },
           {
             "id": "bad",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nFiguur 10 heeft 31 stenen.",
+        "explanation": "Stap 4: het antwoord.\n\n31 stenen.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-8-p2-c33-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Verschil +3 per figuur. Formule: 3n + 1.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Stap +3. Formule: 3n + 1.)",
       "answer": 31,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Figuur 10 heeft 31 stenen.",
-      "explanation": "Figuur 10 heeft 31 stenen."
+      "hint2": "31 stenen.",
+      "explanation": "31 stenen."
     },
     {
       "id": "groep-8-p2-c33-b2",

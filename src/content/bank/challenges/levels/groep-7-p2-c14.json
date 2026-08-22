@@ -1,35 +1,35 @@
 {
-  "id": "groep-7-p2-c14",
   "type": "matching",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Match formule, tabel-idee en verhaal.",
+  "question": "Match regel en betekenis.",
   "matchingPairs": [
     {
       "id": "1",
-      "left": "y = 3x",
-      "right": "Door 0, steil omhoog"
+      "left": "Elke stap ×3",
+      "right": "Steil omhoog vanaf 0"
     },
     {
       "id": "2",
-      "left": "y = x + 2",
-      "right": "Start bij 2, helling 1"
+      "left": "Start 2, elke stap +1",
+      "right": "Begint bij 2, rustig omhoog"
     },
     {
       "id": "3",
-      "left": "Tabel: (0,5)(1,5)(2,5)",
-      "right": "Constant verband"
+      "left": "Altijd 5",
+      "right": "Horizontale lijn"
     },
     {
       "id": "4",
-      "left": "y = −x + 4",
-      "right": "Dalend, start hoog"
+      "left": "Elke stap −1, start 4",
+      "right": "Dalend, begint hoog"
     }
   ],
-  "hint1": "Koppel elke formule aan het juiste beeld.",
-  "hint2": "Constant in y betekent horizontaal verband.",
+  "hint1": "Constant = geen verandering = horizontaal.",
+  "hint2": "Dalend = elke stap kleiner.",
   "explanation": "Elk spoor hoort bij precies één betekenis.",
+  "id": "groep-7-p2-c14",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

@@ -1,9 +1,6 @@
 {
-  "id": "groep-8-p2-c39",
   "type": "text-input",
   "topic": "formules",
-  "difficulty": 1,
-  "starsAvailable": 3,
   "question": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b.",
   "answer": "l=(P-2b)/2",
   "acceptedAnswers": [
@@ -15,6 +12,9 @@
   "hint1": "Trek 2b af, deel door 2.",
   "hint2": "ℓ = (P − 2b) / 2.",
   "explanation": "ℓ = (P − 2b) / 2.",
+  "id": "groep-8-p2-c39",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

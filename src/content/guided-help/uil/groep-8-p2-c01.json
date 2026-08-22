@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Los op: 2x + 6 = 16"
+            "label": "Het ontbrekende getal in twee stappen zoeken"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nHaal de +6 weg met −6 aan beide kanten.",
+        "explanation": "Stap 2: strategie.\n\nHaal eerst de +3 weg: 23 − 3 = 20.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Haal de +6 weg met −6 aan beide kanten."
+            "label": "Haal eerst de +3 weg: 23 − 3 = 20."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n2x = 10 → x = 5.",
+        "explanation": "Stap 3: uitwerken.\n\nDan 20 ÷ 4 = 5.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "2x = 10 → x = 5."
+            "label": "Dan 20 ÷ 4 = 5."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n2x + 6 = 16 → 2x = 10 → x = 5.",
+        "explanation": "Stap 4: het antwoord.\n\n□ × 4 + 3 = 23 → □ = 5.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-8-p2-c01-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Haal de +6 weg met −6 aan beide kanten.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Haal eerst de +3 weg: 23 − 3 = 20.)",
       "answer": 5,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "2x + 6 = 16 → 2x = 10 → x = 5.",
-      "explanation": "2x + 6 = 16 → 2x = 10 → x = 5."
+      "hint2": "□ × 4 + 3 = 23 → □ = 5.",
+      "explanation": "□ × 4 + 3 = 23 → □ = 5."
     },
     {
       "id": "groep-8-p2-c01-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 5? Reken na — wat krijg je?",
       "answer": 5,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "2x = 10 → x = 5.",
-      "explanation": "2x = 10 → x = 5."
+      "hint2": "Dan 20 ÷ 4 = 5.",
+      "explanation": "Dan 20 ÷ 4 = 5."
     }
   ]
 }

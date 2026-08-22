@@ -1,36 +1,36 @@
 {
-  "id": "groep-8-c03",
   "type": "code-crack",
   "topic": "algebra",
-  "difficulty": 1,
-  "starsAvailable": 3,
   "question": "Kraak de kluis! Los de sommen op. De antwoorden vormen letters van een geheim woord.",
   "secretWord": "PAWS",
   "codeItems": [
     {
-      "expression": "12 − 5",
-      "answer": 7,
+      "expression": "3 × 4 + 2",
+      "answer": 14,
       "letter": "P"
     },
     {
-      "expression": "3 × 2",
-      "answer": 6,
+      "expression": "20 − 3 × 4",
+      "answer": 8,
       "letter": "A"
     },
     {
-      "expression": "20 ÷ 4",
-      "answer": 5,
+      "expression": "(10 − 2) ÷ 2",
+      "answer": 4,
       "letter": "W"
     },
     {
-      "expression": "9 − 6",
-      "answer": 3,
+      "expression": "5 × 5 − 10",
+      "answer": 15,
       "letter": "S"
     }
   ],
   "hint1": "Werk elke som uit. Het antwoord hoort bij een letter.",
   "hint2": "Antwoorden in volgorde → letters van PAWS.",
   "explanation": "De code is PAWS!",
+  "id": "groep-8-c03",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

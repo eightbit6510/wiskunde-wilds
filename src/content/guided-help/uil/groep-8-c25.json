@@ -2,7 +2,7 @@
   "challengeId": "groep-8-c25",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
+    "intro": "Bij snoepjes geldt: voor elke 4 horen 5. Zoek eerst hoe vaak 4 in 16 past.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 4:3"
+            "label": "Bij snoepjes: 5 horen bij 4, nu 16 gegeven"
           },
           {
             "id": "wrong",
-            "label": "De getallen 4 en 3 direct optellen"
+            "label": "4 en 5 gewoon bij elkaar optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,42 +22,42 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 4:3 betekent steeds dezelfde factor.\n\nEerste deel = 20.",
-        "question": "Hoeveel keer past 4 in 20? (schaalfactor)",
+        "explanation": "Stap 2: verhouding 4:5 betekent steeds dezelfde verhouding.\n\nEerst deel je 16 door 4.",
+        "question": "Hoeveel keer past 4 in 16?",
         "options": [
           {
             "id": "f",
-            "label": "5"
+            "label": "4"
           },
           {
             "id": "w",
-            "label": "6"
+            "label": "5"
           }
         ],
         "correctAnswer": "f",
-        "successFeedback": "Goed — schaalfactor = 5.",
-        "retryFeedback": "Deel 20 door 4."
+        "successFeedback": "Goed — dat is 4 keer.",
+        "retryFeedback": "Deel 16 door 4."
       },
       {
-        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
-        "question": "Tweede deel = 5 × 3 = ?",
+        "explanation": "Stap 3: vermenigvuldig met 5.",
+        "question": "4 × 5 = ?",
         "options": [
           {
             "id": "o",
-            "label": "15"
+            "label": "20"
           },
           {
             "id": "w",
-            "label": "18"
+            "label": "25"
           }
         ],
         "correctAnswer": "o",
-        "successFeedback": "Klopt: 15.",
-        "retryFeedback": "Vermenigvuldig je schaalfactor met 3."
+        "successFeedback": "Klopt: 20.",
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 5."
       },
       {
-        "explanation": "Stap 4: controleer de verhouding.",
-        "question": "Klopt 20:15 = 4:3?",
+        "explanation": "Stap 4: controle.",
+        "question": "Klopt 16:20 = 4:5?",
         "options": [
           {
             "id": "yes",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. Antwoord = 15.",
-        "retryFeedback": "Deel 20 door 4, vermenigvuldig met 3."
+        "successFeedback": "Super! Antwoord = 20.",
+        "retryFeedback": "Deel eerst, dan vermenigvuldig."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 15."
+    "conclusion": "Pootafdruk! 🐾 Het antwoord is 20."
   },
   "bonusVariants": [
     {
       "id": "groep-8-c25-b1",
       "type": "number-input",
-      "question": "Verhouding 4:3, eerste = 24. Tweede?",
-      "answer": 18,
+      "question": "snoepjes: 4:5, eerste = 20. Tweede?",
+      "answer": 25,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Zelfde schaalfactor.",
-      "explanation": "Zelfde schaalfactor."
+      "hint2": "Zelfde stap: delen en vermenigvuldigen.",
+      "explanation": "Zelfde stap: delen en vermenigvuldigen."
     },
     {
       "id": "groep-8-c25-b2",
       "type": "number-input",
-      "question": "Verhouding 4:3, eerste = 20. Tweede?",
-      "answer": 15,
+      "question": "snoepjes: eerste = 16. Tweede?",
+      "answer": 20,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "20 ÷ 4 × 3.",
-      "explanation": "20 ÷ 4 × 3."
+      "hint2": "16 ÷ 4 × 5.",
+      "explanation": "16 ÷ 4 × 5."
     }
   ]
 }

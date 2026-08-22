@@ -1,9 +1,6 @@
 {
-  "id": "groep-8-c27",
   "type": "multiple-choice",
   "topic": "grafieken",
-  "difficulty": 2,
-  "starsAvailable": 3,
   "question": "Runesteen Grafieken: welke beschrijving past bij y = −x + 4?",
   "answer": "b",
   "answerOptions": [
@@ -27,6 +24,9 @@
   "hint1": "Hellingsgetal −1 → dalend.",
   "hint2": "+4 is het snijpunt met de y-as.",
   "explanation": "Dalend met y-as snijpunt 4.",
+  "id": "groep-8-c27",
+  "difficulty": 2,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

@@ -1,14 +1,14 @@
 {
-  "id": "groep-7-c10",
   "type": "number-input",
   "topic": "formules",
+  "question": "Omtrek is 30. Lengte is 8. Wat is de breedte?",
+  "answer": 7,
+  "hint1": "2 × lengte = 16. Dan blijft 14 over voor 2 × breedte.",
+  "hint2": "14 ÷ 2 = 7.",
+  "explanation": "Breedte = 7.",
+  "id": "groep-7-c10",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "P = 2ℓ + 2b. P = 30, ℓ = 8. Wat is b?",
-  "answer": 7,
-  "hint1": "2ℓ = 16, dus 2b = P − 16.",
-  "hint2": "2b = 14 → b = 7.",
-  "explanation": "2·8 + 2b = 30 → 2b = 14 → b = 7.",
   "classLevels": [
     "groep-7"
   ]

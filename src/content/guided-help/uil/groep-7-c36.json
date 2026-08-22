@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Stersteen 1: Bereken −6 + (−3) × 2"
+            "label": "De som uitrekenen"
           },
           {
             "id": "wrong",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n(−3)×2 = −6, daarna −6 + (−6) = −12.",
+        "explanation": "Stap 3: uitwerken.\n\n10 − 6 = 4.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "(−3)×2 = −6, daarna −6 + (−6) = −12."
+            "label": "10 − 6 = 4."
           },
           {
             "id": "no",
@@ -56,43 +56,43 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n−6 + (−6) = −12.",
+        "explanation": "Stap 4: het antwoord.\n\n10 − 6 = 4.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "-12"
+            "label": "4"
           },
           {
             "id": "b",
-            "label": "-11"
+            "label": "5"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: -12.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is -12."
+        "successFeedback": "Klopt! Antwoord: 4.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 4."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 -12"
+    "conclusion": "Pootafdruk! 🐾 4"
   },
   "bonusVariants": [
     {
       "id": "groep-7-c36-b1",
       "type": "number-input",
       "question": "Zelfde soort som: wat is het antwoord? (hint: Eerst vermenigvuldigen.)",
-      "answer": -12,
+      "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "−6 + (−6) = −12.",
-      "explanation": "−6 + (−6) = −12."
+      "hint2": "10 − 6 = 4.",
+      "explanation": "10 − 6 = 4."
     },
     {
       "id": "groep-7-c36-b2",
       "type": "number-input",
-      "question": "Controle: klopt -12? Reken na — wat krijg je?",
-      "answer": -12,
+      "question": "Controle: klopt 4? Reken na — wat krijg je?",
+      "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
-      "explanation": "(−3)×2 = −6, daarna −6 + (−6) = −12."
+      "hint2": "10 − 6 = 4.",
+      "explanation": "10 − 6 = 4."
     }
   ]
 }

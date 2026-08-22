@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Klopt dit? “De grafiek van y = x² is symmetrisch in de y-as.”"
+            "label": "Of de uitspraak klopt"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\n(−x)² = x².",
+        "explanation": "Stap 2: strategie.\n\nNegatief × negatief = positief.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "(−x)² = x²."
+            "label": "Negatief × negatief = positief."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nLinks en rechts spiegelbeeld.",
+        "explanation": "Stap 3: uitwerken.\n\nBeide 9.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Links en rechts spiegelbeeld."
+            "label": "Beide 9."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nJa — de parabool is symmetrisch.",
+        "explanation": "Stap 4: het antwoord.\n\nJa — beide geven 9.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -84,7 +84,7 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "(−x)² = x²."
+          "label": "Negatief × negatief = positief."
         },
         {
           "id": "b",
@@ -92,8 +92,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "(−x)² = x².",
-      "explanation": "(−x)² = x²."
+      "hint2": "Negatief × negatief = positief.",
+      "explanation": "Negatief × negatief = positief."
     },
     {
       "id": "groep-6-c34-b2",
@@ -111,8 +111,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Ja — de parabool is symmetrisch.",
-      "explanation": "Ja — de parabool is symmetrisch."
+      "hint2": "Ja — beide geven 9.",
+      "explanation": "Ja — beide geven 9."
     }
   ]
 }

@@ -1,36 +1,36 @@
 {
-  "id": "groep-6-c40",
   "type": "code-crack",
   "topic": "algebra",
-  "difficulty": 1,
-  "starsAvailable": 3,
   "question": "De tempeldeur wacht op een geheim woord. Los de sommen op — de antwoorden geven letters.",
-  "secretWord": "STAR",
+  "secretWord": "STER",
   "codeItems": [
     {
-      "expression": "12 − 5",
-      "answer": 7,
+      "expression": "8 − 3",
+      "answer": 5,
       "letter": "S"
     },
     {
-      "expression": "3 × 2",
-      "answer": 6,
+      "expression": "2 × 4",
+      "answer": 8,
       "letter": "T"
     },
     {
-      "expression": "20 ÷ 4",
-      "answer": 5,
-      "letter": "A"
+      "expression": "12 ÷ 3",
+      "answer": 4,
+      "letter": "E"
     },
     {
-      "expression": "9 − 6",
-      "answer": 3,
+      "expression": "6 + 1",
+      "answer": 7,
       "letter": "R"
     }
   ],
   "hint1": "Werk elke som uit. Het antwoord hoort bij een letter.",
-  "hint2": "Antwoorden in volgorde → letters van STAR.",
-  "explanation": "De code is STAR!",
+  "hint2": "Antwoorden in volgorde → letters van STER.",
+  "explanation": "De code is STER!",
+  "id": "groep-6-c40",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

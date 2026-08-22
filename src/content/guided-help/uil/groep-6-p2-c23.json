@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "y = −x + 8. Wat is de startwaarde (snijpunt met de y-as)?"
+            "label": "De startwaarde aflezen"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nOp de y-as is x = 0.",
+        "explanation": "Stap 2: strategie.\n\nStartwaarde = waarde bij 0.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Op de y-as is x = 0."
+            "label": "Startwaarde = waarde bij 0."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\ny = −0 + 8 = 8.",
+        "explanation": "Stap 3: uitwerken.\n\nDat is 8.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "y = −0 + 8 = 8."
+            "label": "Dat is 8."
           },
           {
             "id": "no",
@@ -79,7 +79,7 @@
     {
       "id": "groep-6-p2-c23-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Op de y-as is x = 0.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Startwaarde = waarde bij 0.)",
       "answer": 8,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Startwaarde = 8.",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 8? Reken na — wat krijg je?",
       "answer": 8,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "y = −0 + 8 = 8.",
-      "explanation": "y = −0 + 8 = 8."
+      "hint2": "Dat is 8.",
+      "explanation": "Dat is 8."
     }
   ]
 }

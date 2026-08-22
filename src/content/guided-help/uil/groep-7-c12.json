@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "De formule bij de tabel vinden"
+            "label": "De juiste regel bij de tabel"
           },
           {
             "id": "wrong",
-            "label": "Alleen naar de eerste rij kijken"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nKijk hoeveel y stijgt als x met 1 toeneemt.",
+        "explanation": "Stap 2: strategie.\n\nElke stap +2; bij x=0 is y=3.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Kijk hoeveel y stijgt als x met 1 toeneemt."
+            "label": "Elke stap +2; bij x=0 is y=3."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nElke stap +2 in y, start bij y = 3 → y = 2x + 3.",
+        "explanation": "Stap 3: uitwerken.\n\ny = 2 × x + 3.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Elke stap +2 in y, start bij y = 3 → y = 2x + 3."
+            "label": "y = 2 × x + 3."
           },
           {
             "id": "no",
@@ -56,12 +56,12 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\ny = 2x + 3. Elke stap in x geeft +2 in y.",
+        "explanation": "Stap 4: het antwoord.\n\ny = 2 × x + 3.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "y = 2x + 3"
+            "label": "y = 2 × x + 3"
           },
           {
             "id": "b",
@@ -69,11 +69,11 @@
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: y = 2x + 3.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is y = 2x + 3."
+        "successFeedback": "Klopt! Antwoord: y = 2 × x + 3.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is y = 2 × x + 3."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 y = 2x + 3"
+    "conclusion": "Pootafdruk! 🐾 y = 2 × x + 3"
   },
   "bonusVariants": [
     {
@@ -88,20 +88,20 @@
         },
         {
           "id": "b",
-          "label": "y = 2x + 3"
+          "label": "y = 2 × x + 3"
         },
         {
           "id": "c",
-          "label": "y = 3x"
+          "label": "y = 3 × x"
         },
         {
           "id": "d",
-          "label": "y = 2x − 3"
+          "label": "y = 2 × x − 3"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 2x + 3. Elke stap in x geeft +2 in y.",
-      "explanation": "y = 2x + 3. Elke stap in x geeft +2 in y."
+      "hint2": "y = 2 × x + 3.",
+      "explanation": "y = 2 × x + 3."
     },
     {
       "id": "groep-7-c12-b2",
@@ -111,7 +111,7 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "y = 2x + 3"
+          "label": "y = 2 × x + 3"
         },
         {
           "id": "no",
@@ -119,8 +119,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 2x + 3. Elke stap in x geeft +2 in y.",
-      "explanation": "y = 2x + 3. Elke stap in x geeft +2 in y."
+      "hint2": "y = 2 × x + 3.",
+      "explanation": "y = 2 × x + 3."
     }
   ]
 }

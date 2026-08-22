@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "P = 2ℓ + 2b. P = 30 cm en b = 5 cm. Wat is ℓ? (in cm)"
+            "label": "De lengte berekenen"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\n30 = 2ℓ + 10.",
+        "explanation": "Stap 2: strategie.\n\n2b = 14; 2ℓ = 26.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "30 = 2ℓ + 10."
+            "label": "2b = 14; 2ℓ = 26."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n2ℓ = 20 → ℓ = 10.",
+        "explanation": "Stap 3: uitwerken.\n\nℓ = 13.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "2ℓ = 20 → ℓ = 10."
+            "label": "ℓ = 13."
           },
           {
             "id": "no",
@@ -56,43 +56,43 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nℓ = 10 cm.",
+        "explanation": "Stap 4: het antwoord.\n\nℓ = 13.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "10"
+            "label": "13"
           },
           {
             "id": "b",
-            "label": "11"
+            "label": "14"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: 10.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is 10."
+        "successFeedback": "Klopt! Antwoord: 13.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 13."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 10"
+    "conclusion": "Pootafdruk! 🐾 13"
   },
   "bonusVariants": [
     {
       "id": "groep-8-p2-c08-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: 30 = 2ℓ + 10.)",
-      "answer": 10,
+      "question": "Zelfde soort som: wat is het antwoord? (hint: 2b = 14; 2ℓ = 26.)",
+      "answer": 13,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "ℓ = 10 cm.",
-      "explanation": "ℓ = 10 cm."
+      "hint2": "ℓ = 13.",
+      "explanation": "ℓ = 13."
     },
     {
       "id": "groep-8-p2-c08-b2",
       "type": "number-input",
-      "question": "Controle: klopt 10? Reken na — wat krijg je?",
-      "answer": 10,
+      "question": "Controle: klopt 13? Reken na — wat krijg je?",
+      "answer": 13,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "2ℓ = 20 → ℓ = 10.",
-      "explanation": "2ℓ = 20 → ℓ = 10."
+      "hint2": "ℓ = 13.",
+      "explanation": "ℓ = 13."
     }
   ]
 }

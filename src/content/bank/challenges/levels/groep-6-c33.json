@@ -1,14 +1,14 @@
 {
-  "id": "groep-6-c33",
   "type": "number-input",
   "topic": "algebra",
+  "question": "Wat is 4 × 4?",
+  "answer": 16,
+  "hint1": "4 keer 4.",
+  "hint2": "16.",
+  "explanation": "4 × 4 = 16.",
+  "id": "groep-6-c33",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is (−4)²?",
-  "answer": 16,
-  "hint1": "Negatief × negatief = positief.",
-  "hint2": "(−4) × (−4) = 16.",
-  "explanation": "(−4)² = 16.",
   "classLevels": [
     "groep-6"
   ]

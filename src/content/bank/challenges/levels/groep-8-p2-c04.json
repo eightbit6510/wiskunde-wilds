@@ -1,39 +1,54 @@
 {
-  "id": "groep-8-p2-c04",
   "type": "equation-steps",
-  "topic": "vergelijkingen",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Los stap voor stap op: x + 3 = 11",
+  "topic": "algebra",
+  "question": "Vul het ontbrekende getal in: □ × 3 + 4 = 19",
   "equationSteps": [
     {
-      "prompt": "Wat doe je eerst om dichter bij x te komen?",
+      "prompt": "Eerste stap: wat doe je met de +4?",
       "options": [
         {
-          "id": "plus",
-          "label": "Beide kanten +3"
+          "id": "min4",
+          "label": "Eerst 19 − 4"
+        },
+        {
+          "id": "deel3",
+          "label": "Eerst 19 ÷ 3"
+        },
+        {
+          "id": "plus4",
+          "label": "Eerst 19 + 4"
+        }
+      ],
+      "correctId": "min4",
+      "resultDisplay": "□ × 3 = 15"
+    },
+    {
+      "prompt": "Nu: □ × 3 = 15. Wat is □?",
+      "options": [
+        {
+          "id": "deel",
+          "label": "15 ÷ 3 = 5"
         },
         {
           "id": "min",
-          "label": "Beide kanten −3"
+          "label": "15 − 3 = 12"
         },
         {
           "id": "keer",
-          "label": "Beide kanten ×2"
-        },
-        {
-          "id": "alleen",
-          "label": "Alleen links −3"
+          "label": "15 × 3 = 45"
         }
       ],
-      "correctId": "min",
-      "resultDisplay": "x = 8"
+      "correctId": "deel",
+      "resultDisplay": "□ = 5"
     }
   ],
-  "answer": 4,
-  "hint1": "Je wilt de constante term wegwerken — doe aan beide kanten het tegenovergestelde.",
-  "hint2": "x + 3 = 11 → x = 8",
-  "explanation": "x + 3 = 11\nBeide kanten −3 → x = 8",
+  "answer": 5,
+  "hint1": "Haal eerst de +4 weg: 19 − 4 = 15.",
+  "hint2": "Dan 15 ÷ 3 = 5.",
+  "explanation": "□ × 3 + 4 = 19 → □ = 5.",
+  "id": "groep-8-p2-c04",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

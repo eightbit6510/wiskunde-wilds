@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-p2-c19",
   "type": "number-input",
   "topic": "machten",
+  "question": "Welk positief getal × zichzelf geeft 64?",
+  "answer": 8,
+  "hint1": "Probeer: 8 × 8.",
+  "hint2": "8 × 8 = 64.",
+  "explanation": "8 × 8 = 64.",
+  "id": "groep-8-p2-c19",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "√49 = ?",
-  "answer": 7,
-  "hint1": "Welk getal keer zichzelf geeft 49?",
-  "hint2": "7 × 7 = 49.",
-  "explanation": "√49 = 7.",
   "classLevels": [
     "groep-8"
   ]

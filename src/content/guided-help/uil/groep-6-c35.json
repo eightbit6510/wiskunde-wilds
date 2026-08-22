@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Welke beschrijving past bij y = x²?"
+            "label": "Het juiste patroon"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nKwadratisch → boog, geen rechte lijn.",
+        "explanation": "Stap 2: strategie.\n\n1=1×1, 4=2×2, 9=3×3…",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Kwadratisch → boog, geen rechte lijn."
+            "label": "1=1×1, 4=2×2, 9=3×3…"
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\ny = x² buigt omhoog als een U.",
+        "explanation": "Stap 3: uitwerken.\n\nHet zijn kwadraatgetallen.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "y = x² buigt omhoog als een U."
+            "label": "Het zijn kwadraatgetallen."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\ny = x² is een parabool — een boog.",
+        "explanation": "Stap 4: het antwoord.\n\nKwadraatgetallen.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "Een boog (parabool)"
+            "label": "Kwadraatgetallen (1×1, 2×2, …)"
           },
           {
             "id": "b",
-            "label": "Een rechte lijn"
+            "label": "Steeds +1"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: Een boog (parabool).",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is Een boog (parabool)."
+        "successFeedback": "Klopt! Antwoord: Kwadraatgetallen (1×1, 2×2, …).",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Kwadraatgetallen (1×1, 2×2, …)."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Een boog (parabool)"
+    "conclusion": "Pootafdruk! 🐾 Kwadraatgetallen (1×1, 2×2, …)"
   },
   "bonusVariants": [
     {
@@ -84,20 +84,20 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Een rechte lijn"
+          "label": "Steeds +1"
         },
         {
           "id": "b",
-          "label": "Een boog (parabool)"
+          "label": "Kwadraatgetallen (1×1, 2×2, …)"
         },
         {
           "id": "c",
-          "label": "Een horizontale lijn"
+          "label": "Verdubbelen"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = x² is een parabool — een boog.",
-      "explanation": "y = x² is een parabool — een boog."
+      "hint2": "Kwadraatgetallen.",
+      "explanation": "Kwadraatgetallen."
     },
     {
       "id": "groep-6-c35-b2",
@@ -107,16 +107,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "Een boog (parabool)"
+          "label": "Kwadraatgetallen (1×1, 2×2, …)"
         },
         {
           "id": "no",
-          "label": "Een rechte lijn"
+          "label": "Steeds +1"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = x² is een parabool — een boog.",
-      "explanation": "y = x² is een parabool — een boog."
+      "hint2": "Kwadraatgetallen.",
+      "explanation": "Kwadraatgetallen."
     }
   ]
 }

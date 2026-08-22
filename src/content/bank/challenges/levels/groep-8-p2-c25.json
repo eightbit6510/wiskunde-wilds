@@ -1,9 +1,6 @@
 {
-  "id": "groep-8-p2-c25",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
   "question": "Welke formule past bij de tabel (week 0→4, 1→6, 2→8, 3→10)?",
   "tableData": {
     "headers": [
@@ -45,12 +42,15 @@
     },
     {
       "id": "d",
-      "label": "g = 2w"
+      "label": "g = 2 × w"
     }
   ],
   "hint1": "Start bij week 0: g = 4. Elke week +2.",
-  "hint2": "g = 2w + 4.",
-  "explanation": "g = 2w + 4.",
+  "hint2": "g = 2 × w + 4.",
+  "explanation": "g = 2 × w + 4.",
+  "id": "groep-8-p2-c25",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

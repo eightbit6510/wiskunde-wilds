@@ -1,28 +1,28 @@
 {
-  "id": "groep-7-p2-c02",
   "type": "spot-error",
   "topic": "algebra",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Op een boomstam staat: 2(x + 3) = 2x + 3. Waar gaat het mis?",
-  "answer": "bij3",
+  "question": "Op een boomstam staat: 3 + 4 × 2 = 14. Waar gaat het mis?",
+  "answer": "volgorde",
   "answerOptions": [
     {
-      "id": "bijx",
-      "label": "Bij de x"
+      "id": "optel",
+      "label": "Bij 3 + 4"
     },
     {
-      "id": "bij3",
-      "label": "Bij de +3"
+      "id": "volgorde",
+      "label": "Bij de volgorde van bewerkingen"
     },
     {
       "id": "geen",
       "label": "Er is geen fout"
     }
   ],
-  "hint1": "Bij haakjes wegwerken moet de factor buiten de haakjes met élke term vermenigvuldigd worden.",
-  "hint2": "Kijk naar: 2(x + 3) = 2x + 3",
-  "explanation": "De fout zat bij de +3 — de factor moet met alle termen vermenigvuldigd worden.",
+  "hint1": "Eerst vermenigvuldigen: 4 × 2 = 8.",
+  "hint2": "Daarna 3 + 8 = 11, niet 14.",
+  "explanation": "Iemand deed eerst 3 + 4. Juist is 3 + 8 = 11.",
+  "id": "groep-7-p2-c02",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

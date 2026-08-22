@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-c10",
   "type": "number-input",
   "topic": "formules",
+  "question": "Omtrek P = 2ℓ + 2b. P = 36 en b = 6. Wat is ℓ?",
+  "answer": 12,
+  "hint1": "2b = 12, dus 2ℓ = 36 − 12 = 24.",
+  "hint2": "ℓ = 12.",
+  "explanation": "ℓ = 12.",
+  "id": "groep-8-c10",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "P = 2ℓ + 2b. P = 30, ℓ = 8. Wat is b?",
-  "answer": 7,
-  "hint1": "2ℓ = 16, dus 2b = P − 16.",
-  "hint2": "2b = 14 → b = 7.",
-  "explanation": "2·8 + 2b = 30 → 2b = 14 → b = 7.",
   "classLevels": [
     "groep-8"
   ]

@@ -1,9 +1,6 @@
 {
-  "id": "groep-8-c37",
   "type": "multiple-choice",
   "topic": "algebra",
-  "difficulty": 2,
-  "starsAvailable": 3,
   "question": "Stersteen 2: Wat is 2(3x − 1) uitgewerkt?",
   "answer": "b",
   "answerOptions": [
@@ -27,6 +24,9 @@
   "hint1": "Vermenigvuldig 2 met beide termen.",
   "hint2": "6x − 2.",
   "explanation": "2(3x − 1) = 6x − 2.",
+  "id": "groep-8-c37",
+  "difficulty": 2,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

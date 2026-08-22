@@ -1,10 +1,7 @@
 {
-  "id": "groep-7-c35",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Welke beschrijving past bij y = x²?",
+  "question": "Welke beschrijving past bij y = x² (x positief)?",
   "answer": "b",
   "answerOptions": [
     {
@@ -13,16 +10,19 @@
     },
     {
       "id": "b",
-      "label": "Een boog (parabool)"
+      "label": "Een boog die omhoog buigt (parabool)"
     },
     {
       "id": "c",
       "label": "Een horizontale lijn"
     }
   ],
-  "hint1": "Kwadratisch → boog, geen rechte lijn.",
-  "hint2": "y = x² buigt omhoog als een U.",
-  "explanation": "y = x² is een parabool — een boog.",
+  "hint1": "Kwadraten groeien sneller — geen rechte lijn.",
+  "hint2": "Dat is een U-vorm / parabool.",
+  "explanation": "y = x² is een U-vormige parabool.",
+  "id": "groep-7-c35",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

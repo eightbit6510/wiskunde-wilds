@@ -1,10 +1,7 @@
 {
-  "id": "groep-8-c18",
   "type": "multiple-choice",
   "topic": "machten",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Wat is groter: 2⁵ of 5²?",
+  "question": "Wat is groter: 2⁵ of 5²? (2⁵ = 2×2×2×2×2)",
   "answer": "a",
   "answerOptions": [
     {
@@ -21,8 +18,11 @@
     }
   ],
   "hint1": "Reken beide uit.",
-  "hint2": "2⁵ = 32 en 5² = 25.",
+  "hint2": "32 > 25.",
   "explanation": "2⁵ = 32 > 5² = 25.",
+  "id": "groep-8-c18",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

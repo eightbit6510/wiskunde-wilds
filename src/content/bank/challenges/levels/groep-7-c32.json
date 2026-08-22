@@ -1,32 +1,32 @@
 {
-  "id": "groep-7-c32",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Vergelijk y = x² met y = x² + 2. Wat gebeurt er met de grafiek?",
+  "question": "Vergelijk de rij 0,1,4,9 met 2,3,6,11. Wat gebeurde er?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "De grafiek schuift 2 omhoog"
+      "label": "Elk getal kreeg +2"
     },
     {
       "id": "b",
-      "label": "De grafiek schuift 2 naar rechts"
+      "label": "Elk getal werd verdubbeld"
     },
     {
       "id": "c",
-      "label": "Wordt een rechte lijn"
+      "label": "Er kwam een getal bij links"
     },
     {
       "id": "d",
-      "label": "Alle y worden 2 kleiner"
+      "label": "Alles werd 2 kleiner"
     }
   ],
-  "hint1": "Bij x = 0: y = 2 in plaats van 0.",
-  "hint2": "Elke y krijgt +2.",
-  "explanation": "De parabool schuift 2 omhoog.",
+  "hint1": "Vergelijk 0→2, 1→3, 4→6.",
+  "hint2": "Steeds +2.",
+  "explanation": "Elk getal kreeg +2.",
+  "id": "groep-7-c32",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

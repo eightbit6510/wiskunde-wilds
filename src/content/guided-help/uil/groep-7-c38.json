@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Stersteen 3: Los op 4x − 7 = 9. Wat is x?"
+            "label": "Het ontbrekende getal"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\n+7 aan beide kanten.",
+        "explanation": "Stap 2: strategie.\n\nEerst 9 + 7 = 16, dan ÷ 4.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "+7 aan beide kanten."
+            "label": "Eerst 9 + 7 = 16, dan ÷ 4."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n4x = 16 → x = 4.",
+        "explanation": "Stap 3: uitwerken.\n\n□ = 4.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "4x = 16 → x = 4."
+            "label": "□ = 4."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nx = 4.",
+        "explanation": "Stap 4: het antwoord.\n\n□ = 4.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-7-c38-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: +7 aan beide kanten.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Eerst 9 + 7 = 16, dan ÷ 4.)",
       "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 4.",
-      "explanation": "x = 4."
+      "hint2": "□ = 4.",
+      "explanation": "□ = 4."
     },
     {
       "id": "groep-7-c38-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 4? Reken na — wat krijg je?",
       "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4x = 16 → x = 4.",
-      "explanation": "4x = 16 → x = 4."
+      "hint2": "□ = 4.",
+      "explanation": "□ = 4."
     }
   ]
 }

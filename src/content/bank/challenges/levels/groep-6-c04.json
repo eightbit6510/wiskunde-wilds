@@ -1,39 +1,35 @@
 {
-  "id": "groep-6-c04",
   "type": "equation-steps",
-  "topic": "vergelijkingen",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Los stap voor stap op: x + 3 = 11",
+  "topic": "algebra",
+  "question": "Vul het ontbrekende getal in: □ + 5 = 12",
   "equationSteps": [
     {
-      "prompt": "Wat doe je eerst om dichter bij x te komen?",
+      "prompt": "Wat moet je doen om □ te vinden?",
       "options": [
         {
-          "id": "plus",
-          "label": "Beide kanten +3"
+          "id": "min",
+          "label": "12 − 5 uitrekenen"
         },
         {
-          "id": "min",
-          "label": "Beide kanten −3"
+          "id": "plus",
+          "label": "12 + 5 uitrekenen"
         },
         {
           "id": "keer",
-          "label": "Beide kanten ×2"
-        },
-        {
-          "id": "alleen",
-          "label": "Alleen links −3"
+          "label": "12 × 5 uitrekenen"
         }
       ],
       "correctId": "min",
-      "resultDisplay": "x = 8"
+      "resultDisplay": "□ = 7"
     }
   ],
-  "answer": 4,
-  "hint1": "Je wilt de constante term wegwerken — doe aan beide kanten het tegenovergestelde.",
-  "hint2": "x + 3 = 11 → x = 8",
-  "explanation": "x + 3 = 11\nBeide kanten −3 → x = 8",
+  "answer": 7,
+  "hint1": "Je zoekt welk getal plus 5 gelijk is aan 12.",
+  "hint2": "12 − 5 = 7.",
+  "explanation": "□ + 5 = 12 → □ = 7.",
+  "id": "groep-6-c04",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

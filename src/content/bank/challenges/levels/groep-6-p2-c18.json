@@ -1,32 +1,28 @@
 {
-  "id": "groep-6-p2-c18",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Paraboolvallei — Vergelijk y = x² met y = x² + 2. Wat gebeurt er met de grafiek?",
+  "question": "Paraboolvallei: rij 4, 9, 16, 25. Wat gebeurt er als je bij elk getal +3 doet?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "De grafiek schuift 2 omhoog"
+      "label": "Nieuwe rij: 7, 12, 19, 28"
     },
     {
       "id": "b",
-      "label": "De grafiek schuift 2 naar rechts"
+      "label": "Nieuwe rij: 12, 27, 48, 75"
     },
     {
       "id": "c",
-      "label": "Wordt een rechte lijn"
-    },
-    {
-      "id": "d",
-      "label": "Alle y worden 2 kleiner"
+      "label": "De rij blijft hetzelfde"
     }
   ],
-  "hint1": "Bij x = 0: y = 2 in plaats van 0.",
-  "hint2": "Elke y krijgt +2.",
-  "explanation": "De parabool schuift 2 omhoog.",
+  "hint1": "Tel bij elk getal 3 op.",
+  "hint2": "4+3=7, 9+3=12, …",
+  "explanation": "Elk getal +3 → 7, 12, 19, 28.",
+  "id": "groep-6-p2-c18",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

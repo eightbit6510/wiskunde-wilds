@@ -216,7 +216,7 @@ function generateForTopic(
   const base = Math.max(2, Math.floor((s % 8) + 2 + yr * scale * 0.3 + topicOccurrence));
   const grade = basisGrade(level);
 
-  if (grade === 6 || grade === 7) {
+  if (grade === 6 || grade === 7 || grade === 8) {
     return generateBasisForTopic(level, grade, challengeIndex, topic, difficulty, s, topicOccurrence);
   }
 

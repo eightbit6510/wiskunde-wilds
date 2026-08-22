@@ -1,32 +1,32 @@
 {
-  "id": "groep-7-c23",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Welke situatie past bij y = −2x + 10?",
+  "question": "Welke situatie past bij: start 10, elke stap −2?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "Start met 10, elke stap −2"
+      "label": "Een vos start met 10 stukken en eet er 2 per uur"
     },
     {
       "id": "b",
-      "label": "Start met 10, elke stap +2"
+      "label": "Een vos vindt elk uur 2 stukken, start bij 10"
     },
     {
       "id": "c",
-      "label": "Altijd y = 10"
+      "label": "Een vos heeft altijd 10 stukken"
     },
     {
       "id": "d",
-      "label": "Elke stap verdubbelen"
+      "label": "Een vos verdubbelt zijn voedsel elke 2 uur"
     }
   ],
-  "hint1": "Het minteken: y daalt als x stijgt.",
-  "hint2": "Bij x=0 is y=10, daarna −2 per stap.",
-  "explanation": "y = −2x + 10: start 10, daarna steeds 2 minder.",
+  "hint1": "−2 betekent: er gaat elke stap iets af.",
+  "hint2": "Start 10, daarna steeds 2 minder.",
+  "explanation": "Start 10, elke stap −2 → voedsel dat opraakt.",
+  "id": "groep-7-c23",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

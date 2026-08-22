@@ -1,19 +1,19 @@
 {
-  "id": "groep-8-p2-c09",
   "type": "text-input",
   "topic": "formules",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "T = 5n + 20. Geef n in termen van T. (bijv. n = ...)",
+  "question": "T = 5n + 20. Schrijf n als formule (n = …).",
   "answer": "n=(T-20)/5",
   "acceptedAnswers": [
     "n=(T-20)/5",
     "n=(t-20)/5",
     "n=T/5-4"
   ],
-  "hint1": "Trek 20 af van beide kanten, deel daarna door 5.",
+  "hint1": "Trek 20 af, deel door 5.",
   "hint2": "n = (T − 20) / 5.",
   "explanation": "n = (T − 20) / 5.",
+  "id": "groep-8-p2-c09",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

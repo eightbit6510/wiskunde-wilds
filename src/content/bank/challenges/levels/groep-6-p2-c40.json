@@ -1,14 +1,14 @@
 {
-  "id": "groep-6-p2-c40",
   "type": "number-input",
   "topic": "algebra",
+  "question": "Stersteen 1: Bereken 6 + 3 × 2",
+  "answer": 12,
+  "hint1": "Eerst vermenigvuldigen.",
+  "hint2": "3×2=6, daarna 6+6=12.",
+  "explanation": "6 + 6 = 12.",
+  "id": "groep-6-p2-c40",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Stersteen 1: Bereken −6 + (−3) × 2",
-  "answer": -12,
-  "hint1": "Eerst vermenigvuldigen.",
-  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
-  "explanation": "−6 + (−6) = −12.",
   "classLevels": [
     "groep-6"
   ]

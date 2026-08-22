@@ -1,14 +1,14 @@
 {
-  "id": "groep-7-c33",
   "type": "number-input",
   "topic": "algebra",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Wat is (−4)²?",
+  "question": "Wat is (−4) × (−4)?",
   "answer": 16,
   "hint1": "Negatief × negatief = positief.",
-  "hint2": "(−4) × (−4) = 16.",
-  "explanation": "(−4)² = 16.",
+  "hint2": "16.",
+  "explanation": "(−4)×(−4) = 16.",
+  "id": "groep-7-c33",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

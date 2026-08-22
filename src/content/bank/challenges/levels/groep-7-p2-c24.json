@@ -1,25 +1,25 @@
 {
-  "id": "groep-7-p2-c24",
   "type": "sorting",
-  "topic": "redeneren",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Sorteer de breuken van groot naar klein.",
+  "topic": "breuken",
+  "question": "Sorteer van klein naar groot.",
   "sortItems": [
+    "1/6",
+    "1/3",
     "1/2",
-    "1/4",
-    "3/4",
-    "1/8"
+    "2/3"
   ],
   "correctOrder": [
-    "3/4",
+    "1/6",
+    "1/3",
     "1/2",
-    "1/4",
-    "1/8"
+    "2/3"
   ],
-  "hint1": "Vergelijk de breuken — maak ze gelijknamig of gebruik een getal-lijn.",
-  "hint2": "Sleep de items in de juiste volgorde.",
-  "explanation": "Goed gesorteerd!",
+  "hint1": "Denk aan stukken van een pizza.",
+  "hint2": "Kleinere noemer (bij teller 1) = grotere breuk… hier: grotere stukken later.",
+  "explanation": "Volgorde: 1/6 → 1/3 → 1/2 → 2/3.",
+  "id": "groep-7-p2-c24",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

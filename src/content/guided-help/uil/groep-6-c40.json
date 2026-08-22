@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Elke som → letter → woord STAR"
+            "label": "Elke som → letter → woord STER"
           },
           {
             "id": "wrong",
-            "label": "Alleen raden zonder te rekenen"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nAntwoorden in volgorde → letters van STAR.",
+        "explanation": "Stap 3: uitwerken.\n\nAntwoorden in volgorde → letters van STER.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Antwoorden in volgorde → letters van STAR."
+            "label": "Antwoorden in volgorde → letters van STER."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nDe code is STAR!",
+        "explanation": "Stap 4: het antwoord.\n\nDe code is STER!",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -111,8 +111,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "De code is STAR!",
-      "explanation": "De code is STAR!"
+      "hint2": "De code is STER!",
+      "explanation": "De code is STER!"
     }
   ]
 }

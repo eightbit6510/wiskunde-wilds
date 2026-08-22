@@ -1,14 +1,14 @@
 {
-  "id": "groep-7-c34",
   "type": "true-false",
   "topic": "redeneren",
+  "question": "Klopt dit? “3×3 geeft hetzelfde als (−3)×(−3).”",
+  "answer": true,
+  "hint1": "Negatief × negatief = positief.",
+  "hint2": "Beide 9.",
+  "explanation": "Ja — beide geven 9.",
+  "id": "groep-7-c34",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Klopt dit? “De grafiek van y = x² is symmetrisch in de y-as.”",
-  "answer": true,
-  "hint1": "(−x)² = x².",
-  "hint2": "Links en rechts spiegelbeeld.",
-  "explanation": "Ja — de parabool is symmetrisch.",
   "classLevels": [
     "groep-7"
   ]

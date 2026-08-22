@@ -1,14 +1,14 @@
 {
-  "id": "groep-7-p2-c28",
   "type": "number-input",
-  "topic": "machten",
+  "topic": "algebra",
+  "question": "8 × 8 = ?",
+  "answer": 64,
+  "hint1": "8 keer 8.",
+  "hint2": "64.",
+  "explanation": "8 × 8 = 64.",
+  "id": "groep-7-p2-c28",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "12² = ?",
-  "answer": 144,
-  "hint1": "12 × 12.",
-  "hint2": "12² = 144.",
-  "explanation": "12² = 144.",
   "classLevels": [
     "groep-7"
   ]

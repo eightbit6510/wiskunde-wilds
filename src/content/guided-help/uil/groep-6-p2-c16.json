@@ -2,7 +2,7 @@
   "challengeId": "groep-6-p2-c16",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Patronen in maanlicht.",
+    "intro": "Patronen in de paraboolvallei.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Bij y = x²: wat is y als x = 3 en als x = −3?"
+            "label": "Het volgende kwadraatgetal"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\n(−3)² = 9 en 3² = 9.",
+        "explanation": "Stap 2: strategie.\n\n2×2, 3×3, 4×4, 5×5…",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "(−3)² = 9 en 3² = 9."
+            "label": "2×2, 3×3, 4×4, 5×5…"
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nPositief en negatief x kunnen dezelfde y geven.",
+        "explanation": "Stap 3: uitwerken.\n\n6×6 = 36.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Positief en negatief x kunnen dezelfde y geven."
+            "label": "6×6 = 36."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nBeide geven y = 9 — symmetrie in maanlicht.",
+        "explanation": "Stap 4: het antwoord.\n\nVolgende is 36.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "Beide keren 9"
+            "label": "36"
           },
           {
             "id": "b",
-            "label": "3 en −3"
+            "label": "30"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: Beide keren 9.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is Beide keren 9."
+        "successFeedback": "Klopt! Antwoord: 36.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 36."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Beide keren 9"
+    "conclusion": "Pootafdruk! 🐾 36"
   },
   "bonusVariants": [
     {
@@ -84,20 +84,20 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Beide keren 9"
+          "label": "36"
         },
         {
           "id": "b",
-          "label": "3 en −3"
+          "label": "30"
         },
         {
           "id": "c",
-          "label": "0 en 9"
+          "label": "32"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Beide geven y = 9 — symmetrie in maanlicht.",
-      "explanation": "Beide geven y = 9 — symmetrie in maanlicht."
+      "hint2": "Volgende is 36.",
+      "explanation": "Volgende is 36."
     },
     {
       "id": "groep-6-p2-c16-b2",
@@ -107,16 +107,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "Beide keren 9"
+          "label": "36"
         },
         {
           "id": "no",
-          "label": "3 en −3"
+          "label": "30"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Beide geven y = 9 — symmetrie in maanlicht.",
-      "explanation": "Beide geven y = 9 — symmetrie in maanlicht."
+      "hint2": "Volgende is 36.",
+      "explanation": "Volgende is 36."
     }
   ]
 }

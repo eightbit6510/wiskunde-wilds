@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Waar snijden y = 2x + 3 en y = x + 7 elkaar? Los x op. Wat is x?"
+            "label": "x op het snijpunt"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nStel 2x + 3 gelijk aan x + 7.",
+        "explanation": "Stap 2: strategie.\n\nStel 2x + 3 = x + 7.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Stel 2x + 3 gelijk aan x + 7."
+            "label": "Stel 2x + 3 = x + 7."
           },
           {
             "id": "bad",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n2x + 3 = x + 7 → x = 4. Snijpunt (4, 11).",
+        "explanation": "Stap 4: het antwoord.\n\nx = 4.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-8-p2-c21-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Stel 2x + 3 gelijk aan x + 7.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Stel 2x + 3 = x + 7.)",
       "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "2x + 3 = x + 7 → x = 4. Snijpunt (4, 11).",
-      "explanation": "2x + 3 = x + 7 → x = 4. Snijpunt (4, 11)."
+      "hint2": "x = 4.",
+      "explanation": "x = 4."
     },
     {
       "id": "groep-8-p2-c21-b2",

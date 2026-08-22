@@ -14,7 +14,7 @@
           },
           {
             "id": "wrong",
-            "label": "Eén willekeurige som aankruisen"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nReken elke som rustig uit — niet elk spoor in het mos is echt.",
+        "explanation": "Stap 2: strategie.\n\nReken elke som rustig uit.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Reken elke som rustig uit — niet elk spoor in het mos is echt."
+            "label": "Reken elke som rustig uit."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nAlleen C klopt: 3 × 4 = 12.",
+        "explanation": "Stap 3: uitwerken.\n\nC klopt niet: 3 × 4 = 12, niet 11.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Alleen C klopt: 3 × 4 = 12."
+            "label": "C klopt niet: 3 × 4 = 12, niet 11."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nAlleen C klopt.\n\nA: 4 + 7 = 11\nB: 8 − 3 = 5\nC: 3 × 4 = 12 ✓\nD: 10 ÷ 2 = 5",
+        "explanation": "Stap 4: het antwoord.\n\nA, B en D kloppen. C: 3 × 4 = 12.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -65,7 +65,7 @@
           },
           {
             "id": "b",
-            "label": "A. 4 + 7 = 10"
+            "label": "A. 4 + 7 = 11"
           }
         ],
         "correctAnswer": "a",
@@ -84,24 +84,24 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "A. 4 + 7 = 10"
+          "label": "A. 4 + 7 = 11"
         },
         {
           "id": "b",
-          "label": "B. 8 − 3 = 4"
+          "label": "B. 8 − 3 = 5"
         },
         {
           "id": "c",
-          "label": "C. 3 × 4 = 12"
+          "label": "C. 3 × 4 = 11"
         },
         {
           "id": "d",
-          "label": "D. 10 ÷ 2 = 6"
+          "label": "D. 10 ÷ 2 = 5"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Alleen C klopt.",
-      "explanation": "Alleen C klopt.\n\nA: 4 + 7 = 11\nB: 8 − 3 = 5\nC: 3 × 4 = 12 ✓\nD: 10 ÷ 2 = 5"
+      "hint2": "A, B en D kloppen. C: 3 × 4 = 12.",
+      "explanation": "A, B en D kloppen. C: 3 × 4 = 12."
     },
     {
       "id": "groep-6-c01-b2",
@@ -115,12 +115,12 @@
         },
         {
           "id": "no",
-          "label": "A. 4 + 7 = 10"
+          "label": "A. 4 + 7 = 11"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Alleen C klopt.",
-      "explanation": "Alleen C klopt.\n\nA: 4 + 7 = 11\nB: 8 − 3 = 5\nC: 3 × 4 = 12 ✓\nD: 10 ÷ 2 = 5"
+      "hint2": "A, B en D kloppen. C: 3 × 4 = 12.",
+      "explanation": "A, B en D kloppen. C: 3 × 4 = 12."
     }
   ]
 }

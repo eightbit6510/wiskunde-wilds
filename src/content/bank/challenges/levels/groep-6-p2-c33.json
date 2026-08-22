@@ -1,14 +1,14 @@
 {
-  "id": "groep-6-p2-c33",
   "type": "number-input",
   "topic": "verbanden",
+  "question": "Figuur 1 = 3 stenen, figuur 2 = 5, figuur 3 = 7. Hoeveel stenen heeft figuur 5?",
+  "answer": 11,
+  "hint1": "Elke figuur +2.",
+  "hint2": "3 + 2×4 = 11.",
+  "explanation": "11 stenen.",
+  "id": "groep-6-p2-c33",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Figuurstenen: figuur 1 = 4 stenen, figuur 2 = 7, figuur 3 = 10. Hoeveel stenen heeft figuur 10?",
-  "answer": 31,
-  "hint1": "Verschil +3 per figuur. Formule: 3n + 1.",
-  "hint2": "3·10 + 1 = 31.",
-  "explanation": "Figuur 10 heeft 31 stenen.",
   "classLevels": [
     "groep-6"
   ]

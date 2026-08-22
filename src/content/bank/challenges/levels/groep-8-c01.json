@@ -1,34 +1,36 @@
 {
-  "id": "groep-8-c01",
   "type": "multi-select",
   "topic": "algebra",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Welke berekeningen kloppen? Kies alle juiste antwoorden.",
+  "question": "Welke berekeningen kloppen? Let op de volgorde van bewerkingen.",
   "answerOptions": [
     {
       "id": "a",
-      "label": "A. 4 + 7 = 10"
+      "label": "A. 2 + 3 × 4 = 14"
     },
     {
       "id": "b",
-      "label": "B. 8 − 3 = 4"
+      "label": "B. 2 + 3 × 4 = 20"
     },
     {
       "id": "c",
-      "label": "C. 3 × 4 = 12"
+      "label": "C. (2 + 3) × 4 = 20"
     },
     {
       "id": "d",
-      "label": "D. 10 ÷ 2 = 6"
+      "label": "D. 10 − 2 × 3 = 4"
     }
   ],
   "answers": [
-    "c"
+    "a",
+    "c",
+    "d"
   ],
-  "hint1": "Reken elke som rustig uit — niet elk spoor in het mos is echt.",
-  "hint2": "Alleen C klopt: 3 × 4 = 12.",
-  "explanation": "Alleen C klopt.\n\nA: 4 + 7 = 11\nB: 8 − 3 = 5\nC: 3 × 4 = 12 ✓\nD: 10 ÷ 2 = 5",
+  "hint1": "Eerst vermenigvuldigen, daarna optellen — behalve bij haakjes.",
+  "hint2": "B is fout: 3 × 4 = 12, plus 2 = 14.",
+  "explanation": "A, C en D kloppen. B vergeet de volgorde.",
+  "id": "groep-8-c01",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

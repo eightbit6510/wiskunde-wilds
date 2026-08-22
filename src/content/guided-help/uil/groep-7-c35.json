@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Welke beschrijving past bij y = x²?"
+            "label": "De juiste vorm"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nKwadratisch → boog, geen rechte lijn.",
+        "explanation": "Stap 2: strategie.\n\nKwadraten groeien sneller — geen rechte lijn.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Kwadratisch → boog, geen rechte lijn."
+            "label": "Kwadraten groeien sneller — geen rechte lijn."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\ny = x² buigt omhoog als een U.",
+        "explanation": "Stap 3: uitwerken.\n\nDat is een U-vorm / parabool.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "y = x² buigt omhoog als een U."
+            "label": "Dat is een U-vorm / parabool."
           },
           {
             "id": "no",
@@ -56,12 +56,12 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\ny = x² is een parabool — een boog.",
+        "explanation": "Stap 4: het antwoord.\n\ny = x² is een U-vormige parabool.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "Een boog (parabool)"
+            "label": "Een boog die omhoog buigt (parabool)"
           },
           {
             "id": "b",
@@ -69,11 +69,11 @@
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: Een boog (parabool).",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is Een boog (parabool)."
+        "successFeedback": "Klopt! Antwoord: Een boog die omhoog buigt (parabool).",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Een boog die omhoog buigt (parabool)."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Een boog (parabool)"
+    "conclusion": "Pootafdruk! 🐾 Een boog die omhoog buigt (parabool)"
   },
   "bonusVariants": [
     {
@@ -88,7 +88,7 @@
         },
         {
           "id": "b",
-          "label": "Een boog (parabool)"
+          "label": "Een boog die omhoog buigt (parabool)"
         },
         {
           "id": "c",
@@ -96,8 +96,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = x² is een parabool — een boog.",
-      "explanation": "y = x² is een parabool — een boog."
+      "hint2": "y = x² is een U-vormige parabool.",
+      "explanation": "y = x² is een U-vormige parabool."
     },
     {
       "id": "groep-7-c35-b2",
@@ -107,7 +107,7 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "Een boog (parabool)"
+          "label": "Een boog die omhoog buigt (parabool)"
         },
         {
           "id": "no",
@@ -115,8 +115,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = x² is een parabool — een boog.",
-      "explanation": "y = x² is een parabool — een boog."
+      "hint2": "y = x² is een U-vormige parabool.",
+      "explanation": "y = x² is een U-vormige parabool."
     }
   ]
 }

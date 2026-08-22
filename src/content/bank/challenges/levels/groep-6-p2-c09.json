@@ -1,19 +1,14 @@
 {
-  "id": "groep-6-p2-c09",
-  "type": "text-input",
+  "type": "number-input",
   "topic": "formules",
+  "question": "Bij 0 nesten is het 20 °C. Elk nest +5 °C. Hoe warm bij 3 nesten?",
+  "answer": 35,
+  "hint1": "Start 20, drie keer +5.",
+  "hint2": "20 + 15 = 35.",
+  "explanation": "20 + 3 × 5 = 35 °C.",
+  "id": "groep-6-p2-c09",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "T = 5n + 20. Geef n in termen van T. (bijv. n = ...)",
-  "answer": "n=(T-20)/5",
-  "acceptedAnswers": [
-    "n=(T-20)/5",
-    "n=(t-20)/5",
-    "n=T/5-4"
-  ],
-  "hint1": "Trek 20 af van beide kanten, deel daarna door 5.",
-  "hint2": "n = (T − 20) / 5.",
-  "explanation": "n = (T − 20) / 5.",
   "classLevels": [
     "groep-6"
   ]

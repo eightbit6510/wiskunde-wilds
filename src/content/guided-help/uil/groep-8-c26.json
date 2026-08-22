@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Runesteen Algebra: Los op 3(x − 2) = 15. Wat is x?"
+            "label": "x oplossen"
           },
           {
             "id": "wrong",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n3(x − 2) = 15 → x − 2 = 5 → x = 7.",
+        "explanation": "Stap 4: het antwoord.\n\nx = 7.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -82,8 +82,8 @@
       "question": "Zelfde soort som: wat is het antwoord? (hint: Deel beide kanten door 3, of werk haakjes uit.)",
       "answer": 7,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "3(x − 2) = 15 → x − 2 = 5 → x = 7.",
-      "explanation": "3(x − 2) = 15 → x − 2 = 5 → x = 7."
+      "hint2": "x = 7.",
+      "explanation": "x = 7."
     },
     {
       "id": "groep-8-c26-b2",

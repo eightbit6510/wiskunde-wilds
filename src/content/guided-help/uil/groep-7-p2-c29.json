@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Runesteen Verbanden: tabel x: 0,1,2,3 en y: 2,5,8,11. Welke formule?"
+            "label": "De formule bij de tabel"
           },
           {
             "id": "wrong",

@@ -1,32 +1,14 @@
 {
+  "type": "number-input",
+  "topic": "algebra",
+  "question": "2 × 2 × 2 = ?",
+  "answer": 8,
+  "hint1": "2×2=4, ×2=8.",
+  "hint2": "8.",
+  "explanation": "8.",
   "id": "groep-6-p2-c26",
-  "type": "multiple-choice",
-  "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 2³ × 2²? (zelfde grondtal)",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "2⁵"
-    },
-    {
-      "id": "b",
-      "label": "2⁶"
-    },
-    {
-      "id": "c",
-      "label": "4⁵"
-    },
-    {
-      "id": "d",
-      "label": "2¹"
-    }
-  ],
-  "hint1": "Exponenten optellen bij dezelfde grondtal.",
-  "hint2": "3 + 2 = 5 → 2⁵.",
-  "explanation": "2³ × 2² = 2⁵.",
   "classLevels": [
     "groep-6"
   ]

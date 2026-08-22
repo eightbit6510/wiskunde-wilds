@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-p2-c11",
   "type": "number-input",
   "topic": "verbanden",
+  "question": "Op een kaart met schaal 1 : 25 000 staat een brug 4 cm. Hoe lang is de brug in meters?",
+  "answer": 1000,
+  "hint1": "4 × 25 000 cm = 100 000 cm.",
+  "hint2": "100 000 cm = 1000 m.",
+  "explanation": "1000 m.",
+  "id": "groep-8-p2-c11",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Op een kaart met schaal 1 : 25 000 staat een brug 4 cm lang. Hoe lang is de brug in werkelijkheid? (antwoord in meters)",
-  "answer": 1000,
-  "hint1": "Werkelijke lengte = 4 × 25 000 cm.",
-  "hint2": "100 000 cm = 1000 m.",
-  "explanation": "4 cm × 25 000 = 100 000 cm = 1000 m.",
   "classLevels": [
     "groep-8"
   ]

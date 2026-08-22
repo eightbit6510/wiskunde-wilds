@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Figuurstenen: figuur 1 = 4 stenen, figuur 2 = 7, figuur 3 = 10. Hoeve…"
+            "label": "Het aantal stenen"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nVerschil +3 per figuur. Formule: 3n + 1.",
+        "explanation": "Stap 2: strategie.\n\nElke figuur +2.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Verschil +3 per figuur. Formule: 3n + 1."
+            "label": "Elke figuur +2."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n3·10 + 1 = 31.",
+        "explanation": "Stap 3: uitwerken.\n\n3 + 2×4 = 11.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "3·10 + 1 = 31."
+            "label": "3 + 2×4 = 11."
           },
           {
             "id": "no",
@@ -56,43 +56,43 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nFiguur 10 heeft 31 stenen.",
+        "explanation": "Stap 4: het antwoord.\n\n11 stenen.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "31"
+            "label": "11"
           },
           {
             "id": "b",
-            "label": "32"
+            "label": "12"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: 31.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is 31."
+        "successFeedback": "Klopt! Antwoord: 11.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 11."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 31"
+    "conclusion": "Pootafdruk! 🐾 11"
   },
   "bonusVariants": [
     {
       "id": "groep-6-p2-c33-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Verschil +3 per figuur. Formule: 3n + 1.)",
-      "answer": 31,
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Elke figuur +2.)",
+      "answer": 11,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Figuur 10 heeft 31 stenen.",
-      "explanation": "Figuur 10 heeft 31 stenen."
+      "hint2": "11 stenen.",
+      "explanation": "11 stenen."
     },
     {
       "id": "groep-6-p2-c33-b2",
       "type": "number-input",
-      "question": "Controle: klopt 31? Reken na — wat krijg je?",
-      "answer": 31,
+      "question": "Controle: klopt 11? Reken na — wat krijg je?",
+      "answer": 11,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "3·10 + 1 = 31.",
-      "explanation": "3·10 + 1 = 31."
+      "hint2": "3 + 2×4 = 11.",
+      "explanation": "3 + 2×4 = 11."
     }
   ]
 }

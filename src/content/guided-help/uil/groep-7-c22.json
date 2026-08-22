@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c22",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Niet alles in het lab is lineair…",
+    "intro": "Niet alles in het lab groeit gelijk…",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Is dit een lineair verband? week: 0,1,2,3 — hoogte: 1,2,4,8"
+            "label": "Of de stap steeds gelijk is"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nBij lineair is de toename steeds gelijk.",
+        "explanation": "Stap 2: strategie.\n\nKijk of het verschil steeds even groot is.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Bij lineair is de toename steeds gelijk."
+            "label": "Kijk of het verschil steeds even groot is."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nVerschillen: +1, +2, +4 — verdubbelt.",
+        "explanation": "Stap 3: uitwerken.\n\nVerschillen: +1, +2, +4 — dat verdubbelt.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Verschillen: +1, +2, +4 — verdubbelt."
+            "label": "Verschillen: +1, +2, +4 — dat verdubbelt."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nNee — de waarden verdubbelen, dat is niet lineair.",
+        "explanation": "Stap 4: het antwoord.\n\nNee — de waarden verdubbelen, dus niet dezelfde stap.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -84,7 +84,7 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Bij lineair is de toename steeds gelijk."
+          "label": "Kijk of het verschil steeds even groot is."
         },
         {
           "id": "b",
@@ -92,8 +92,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Bij lineair is de toename steeds gelijk.",
-      "explanation": "Bij lineair is de toename steeds gelijk."
+      "hint2": "Kijk of het verschil steeds even groot is.",
+      "explanation": "Kijk of het verschil steeds even groot is."
     },
     {
       "id": "groep-7-c22-b2",
@@ -111,8 +111,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Nee — de waarden verdubbelen, dat is niet lineair.",
-      "explanation": "Nee — de waarden verdubbelen, dat is niet lineair."
+      "hint2": "Nee — de waarden verdubbelen, dus niet dezelfde stap.",
+      "explanation": "Nee — de waarden verdubbelen, dus niet dezelfde stap."
     }
   ]
 }

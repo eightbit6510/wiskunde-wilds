@@ -1,19 +1,14 @@
 {
-  "id": "groep-7-c09",
-  "type": "text-input",
+  "type": "number-input",
   "topic": "formules",
+  "question": "Temperatuur = 5 × nesten + 20. Bij hoeveel nesten is het 45 °C?",
+  "answer": 5,
+  "hint1": "Eerst 45 − 20, daarna delen door 5.",
+  "hint2": "25 ÷ 5 = 5.",
+  "explanation": "45 − 20 = 25; 25 ÷ 5 = 5 nesten.",
+  "id": "groep-7-c09",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "T = 5n + 20. Geef n in termen van T. (bijv. n = ...)",
-  "answer": "n=(T-20)/5",
-  "acceptedAnswers": [
-    "n=(T-20)/5",
-    "n=(t-20)/5",
-    "n=T/5-4"
-  ],
-  "hint1": "Trek 20 af van beide kanten, deel daarna door 5.",
-  "hint2": "n = (T − 20) / 5.",
-  "explanation": "n = (T − 20) / 5.",
   "classLevels": [
     "groep-7"
   ]

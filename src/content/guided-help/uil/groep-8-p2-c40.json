@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Stersteen 1: Bereken −6 + (−3) × 2"
+            "label": "De som uitrekenen"
           },
           {
             "id": "wrong",

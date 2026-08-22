@@ -1,28 +1,28 @@
 {
-  "id": "groep-6-c02",
   "type": "spot-error",
   "topic": "algebra",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Op een boomstam staat: 2(x + 3) = 2x + 3. Waar gaat het mis?",
-  "answer": "bij3",
+  "question": "Op een boomstam staat: 12 − 5 = 8. Waar gaat het mis?",
+  "answer": "aftrek",
   "answerOptions": [
     {
-      "id": "bijx",
-      "label": "Bij de x"
+      "id": "optel",
+      "label": "Bij het optellen"
     },
     {
-      "id": "bij3",
-      "label": "Bij de +3"
+      "id": "aftrek",
+      "label": "Bij het aftrekken"
     },
     {
       "id": "geen",
       "label": "Er is geen fout"
     }
   ],
-  "hint1": "Bij haakjes wegwerken moet de factor buiten de haakjes met élke term vermenigvuldigd worden.",
-  "hint2": "Kijk naar: 2(x + 3) = 2x + 3",
-  "explanation": "De fout zat bij de +3 — de factor moet met alle termen vermenigvuldigd worden.",
+  "hint1": "12 − 5 moet 7 zijn.",
+  "hint2": "Iemand heeft 1 te veel gerekend.",
+  "explanation": "12 − 5 = 7, niet 8. De fout zit bij het aftrekken.",
+  "id": "groep-6-c02",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

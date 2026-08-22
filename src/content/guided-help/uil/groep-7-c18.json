@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c18",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "De gemene valkuil: exponent vs grondtal.",
+    "intro": "Reken beide uit en vergelijk.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Wat is groter: 2⁵ of 5²?"
+            "label": "Het grotere product kiezen"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nReken beide uit.",
+        "explanation": "Stap 2: strategie.\n\n2×2×2 = 8 en 3×3 = 9.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Reken beide uit."
+            "label": "2×2×2 = 8 en 3×3 = 9."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n2⁵ = 32 en 5² = 25.",
+        "explanation": "Stap 3: uitwerken.\n\n9 is groter.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "2⁵ = 32 en 5² = 25."
+            "label": "9 is groter."
           },
           {
             "id": "no",
@@ -56,39 +56,39 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n2⁵ = 32 > 5² = 25.",
+        "explanation": "Stap 4: het antwoord.\n\n3 × 3 = 9 is groter dan 8.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "2⁵ (= 32)"
+            "label": "3 × 3 (= 9)"
           },
           {
             "id": "b",
-            "label": "5² (= 25)"
+            "label": "2 × 2 × 2 (= 8)"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: 2⁵ (= 32).",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is 2⁵ (= 32)."
+        "successFeedback": "Klopt! Antwoord: 3 × 3 (= 9).",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 3 × 3 (= 9)."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2⁵ (= 32)"
+    "conclusion": "Pootafdruk! 🐾 3 × 3 (= 9)"
   },
   "bonusVariants": [
     {
       "id": "groep-7-c18-b1",
       "type": "multiple-choice",
       "question": "Welke uitwerking past bij deze som?",
-      "answer": "a",
+      "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2⁵ (= 32)"
+          "label": "2 × 2 × 2 (= 8)"
         },
         {
           "id": "b",
-          "label": "5² (= 25)"
+          "label": "3 × 3 (= 9)"
         },
         {
           "id": "gelijk",
@@ -96,8 +96,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2⁵ = 32 > 5² = 25.",
-      "explanation": "2⁵ = 32 > 5² = 25."
+      "hint2": "3 × 3 = 9 is groter dan 8.",
+      "explanation": "3 × 3 = 9 is groter dan 8."
     },
     {
       "id": "groep-7-c18-b2",
@@ -107,16 +107,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "2⁵ (= 32)"
+          "label": "3 × 3 (= 9)"
         },
         {
           "id": "no",
-          "label": "5² (= 25)"
+          "label": "2 × 2 × 2 (= 8)"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2⁵ = 32 > 5² = 25.",
-      "explanation": "2⁵ = 32 > 5² = 25."
+      "hint2": "3 × 3 = 9 is groter dan 8.",
+      "explanation": "3 × 3 = 9 is groter dan 8."
     }
   ]
 }

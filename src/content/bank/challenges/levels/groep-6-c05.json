@@ -1,28 +1,32 @@
 {
-  "id": "groep-6-c05",
   "type": "multiple-choice",
   "topic": "redeneren",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Welke oplossing kan niet kloppen? Redeneer zonder alles uit te rekenen.",
+  "question": "Welke uitspraak kan niet kloppen?",
+  "answer": "c",
   "answerOptions": [
     {
       "id": "a",
-      "label": "A. Bij x + 8 = 3 zegt Sam: x = −5"
+      "label": "A. 2 + 2 = 4"
     },
     {
       "id": "b",
-      "label": "B. Bij 2x = −10 zegt Noor: x = −5"
+      "label": "B. Even getallen eindigen op 0, 2, 4, 6 of 8"
     },
     {
       "id": "c",
-      "label": "C. Bij −x = 4 zegt Finn: x = 4"
+      "label": "C. Elk oneven getal is deelbaar door 2"
+    },
+    {
+      "id": "d",
+      "label": "D. 5 × 0 = 0"
     }
   ],
-  "answer": "c",
-  "hint1": "Bij −x = 4: wat gebeurt er als je beide kanten met −1 vermenigvuldigt?",
-  "hint2": "Als −x = 4, dan is x = −4. Finn zegt +4 — dat kan niet.",
-  "explanation": "C kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4).",
+  "hint1": "Oneven getallen zijn niet deelbaar door 2.",
+  "hint2": "C is te streng / fout.",
+  "explanation": "C klopt niet. Oneven getallen zijn niet deelbaar door 2.",
+  "id": "groep-6-c05",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

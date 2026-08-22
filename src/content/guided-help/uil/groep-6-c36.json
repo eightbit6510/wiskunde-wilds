@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Stersteen 1: Bereken −6 + (−3) × 2"
+            "label": "De som uitrekenen"
           },
           {
             "id": "wrong",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n(−3)×2 = −6, daarna −6 + (−6) = −12.",
+        "explanation": "Stap 3: uitwerken.\n\n3×2=6, daarna 6+6=12.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "(−3)×2 = −6, daarna −6 + (−6) = −12."
+            "label": "3×2=6, daarna 6+6=12."
           },
           {
             "id": "no",
@@ -56,43 +56,43 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n−6 + (−6) = −12.",
+        "explanation": "Stap 4: het antwoord.\n\n6 + 6 = 12.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "-12"
+            "label": "12"
           },
           {
             "id": "b",
-            "label": "-11"
+            "label": "13"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: -12.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is -12."
+        "successFeedback": "Klopt! Antwoord: 12.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 12."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 -12"
+    "conclusion": "Pootafdruk! 🐾 12"
   },
   "bonusVariants": [
     {
       "id": "groep-6-c36-b1",
       "type": "number-input",
       "question": "Zelfde soort som: wat is het antwoord? (hint: Eerst vermenigvuldigen.)",
-      "answer": -12,
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "−6 + (−6) = −12.",
-      "explanation": "−6 + (−6) = −12."
+      "hint2": "6 + 6 = 12.",
+      "explanation": "6 + 6 = 12."
     },
     {
       "id": "groep-6-c36-b2",
       "type": "number-input",
-      "question": "Controle: klopt -12? Reken na — wat krijg je?",
-      "answer": -12,
+      "question": "Controle: klopt 12? Reken na — wat krijg je?",
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
-      "explanation": "(−3)×2 = −6, daarna −6 + (−6) = −12."
+      "hint2": "3×2=6, daarna 6+6=12.",
+      "explanation": "3×2=6, daarna 6+6=12."
     }
   ]
 }

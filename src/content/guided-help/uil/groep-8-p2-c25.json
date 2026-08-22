@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Welke formule past bij de tabel (week 0→4, 1→6, 2→8, 3→10)?"
+            "label": "De formule bij de tabel"
           },
           {
             "id": "wrong",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\ng = 2w + 4.",
+        "explanation": "Stap 3: uitwerken.\n\ng = 2 × w + 4.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "g = 2w + 4."
+            "label": "g = 2 × w + 4."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\ng = 2w + 4.",
+        "explanation": "Stap 4: het antwoord.\n\ng = 2 × w + 4.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -96,12 +96,12 @@
         },
         {
           "id": "d",
-          "label": "g = 2w"
+          "label": "g = 2 × w"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "g = 2w + 4.",
-      "explanation": "g = 2w + 4."
+      "hint2": "g = 2 × w + 4.",
+      "explanation": "g = 2 × w + 4."
     },
     {
       "id": "groep-8-c21-b2",
@@ -119,8 +119,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "g = 2w + 4.",
-      "explanation": "g = 2w + 4."
+      "hint2": "g = 2 × w + 4.",
+      "explanation": "g = 2 × w + 4."
     }
   ]
 }

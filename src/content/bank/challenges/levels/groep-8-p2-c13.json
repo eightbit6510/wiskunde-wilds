@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-p2-c13",
   "type": "number-input",
   "topic": "verbanden",
+  "question": "Sap:water = 2:3, totaal 25 liter. Hoeveel liter sap?",
+  "answer": 10,
+  "hint1": "5 delen, 5 liter per deel.",
+  "hint2": "2 × 5 = 10.",
+  "explanation": "10 liter sap.",
+  "id": "groep-8-p2-c13",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Je mengt sap en water in de verhouding 2 : 3. In totaal gebruik je 25 liter. Hoeveel liter sap?",
-  "answer": 10,
-  "hint1": "2 + 3 = 5 delen. 25 ÷ 5 = 5 liter per deel.",
-  "hint2": "Sap = 2 × 5 = 10 liter.",
-  "explanation": "10 liter sap (2 delen van 5).",
   "classLevels": [
     "groep-8"
   ]

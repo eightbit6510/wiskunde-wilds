@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c18",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "De gemene valkuil: exponent vs grondtal.",
+    "intro": "Vergelijk de kwadraten.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Wat is groter: 2⁵ of 5²?"
+            "label": "Het grotere product kiezen"
           },
           {
             "id": "wrong",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n2⁵ = 32 en 5² = 25.",
+        "explanation": "Stap 3: uitwerken.\n\n25 < 36.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "2⁵ = 32 en 5² = 25."
+            "label": "25 < 36."
           },
           {
             "id": "no",
@@ -56,39 +56,39 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n2⁵ = 32 > 5² = 25.",
+        "explanation": "Stap 4: het antwoord.\n\n6 × 6 = 36 is groter.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "2⁵ (= 32)"
+            "label": "6 × 6 (= 36)"
           },
           {
             "id": "b",
-            "label": "5² (= 25)"
+            "label": "5 × 5 (= 25)"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: 2⁵ (= 32).",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is 2⁵ (= 32)."
+        "successFeedback": "Klopt! Antwoord: 6 × 6 (= 36).",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 6 × 6 (= 36)."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2⁵ (= 32)"
+    "conclusion": "Pootafdruk! 🐾 6 × 6 (= 36)"
   },
   "bonusVariants": [
     {
       "id": "groep-6-c18-b1",
       "type": "multiple-choice",
       "question": "Welke uitwerking past bij deze som?",
-      "answer": "a",
+      "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2⁵ (= 32)"
+          "label": "5 × 5 (= 25)"
         },
         {
           "id": "b",
-          "label": "5² (= 25)"
+          "label": "6 × 6 (= 36)"
         },
         {
           "id": "gelijk",
@@ -96,8 +96,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2⁵ = 32 > 5² = 25.",
-      "explanation": "2⁵ = 32 > 5² = 25."
+      "hint2": "6 × 6 = 36 is groter.",
+      "explanation": "6 × 6 = 36 is groter."
     },
     {
       "id": "groep-6-c18-b2",
@@ -107,16 +107,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "2⁵ (= 32)"
+          "label": "6 × 6 (= 36)"
         },
         {
           "id": "no",
-          "label": "5² (= 25)"
+          "label": "5 × 5 (= 25)"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2⁵ = 32 > 5² = 25.",
-      "explanation": "2⁵ = 32 > 5² = 25."
+      "hint2": "6 × 6 = 36 is groter.",
+      "explanation": "6 × 6 = 36 is groter."
     }
   ]
 }

@@ -1,9 +1,6 @@
 {
-  "id": "groep-7-p2-c20",
   "type": "multiple-choice",
   "topic": "breuken",
-  "difficulty": 1,
-  "starsAvailable": 3,
   "question": "Welke breuk is groter: 3/4 of 5/8?",
   "answer": "a",
   "answerOptions": [
@@ -20,9 +17,12 @@
       "label": "Even groot"
     }
   ],
-  "hint1": "Maak gelijke noemers of vergelijk met decimalen.",
-  "hint2": "3/4 = 6/8 > 5/8.",
+  "hint1": "Maak gelijke noemers: 3/4 = 6/8.",
+  "hint2": "6/8 > 5/8.",
   "explanation": "3/4 is groter dan 5/8.",
+  "id": "groep-7-p2-c20",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

@@ -1,9 +1,6 @@
 {
-  "id": "groep-8-p2-c26",
   "type": "multiple-choice",
   "topic": "machten",
-  "difficulty": 2,
-  "starsAvailable": 3,
   "question": "Wat is 2³ × 2²? (zelfde grondtal)",
   "answer": "a",
   "answerOptions": [
@@ -24,9 +21,12 @@
       "label": "2¹"
     }
   ],
-  "hint1": "Exponenten optellen bij dezelfde grondtal.",
-  "hint2": "3 + 2 = 5 → 2⁵.",
+  "hint1": "Exponenten optellen.",
+  "hint2": "3 + 2 = 5.",
   "explanation": "2³ × 2² = 2⁵.",
+  "id": "groep-8-p2-c26",
+  "difficulty": 2,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

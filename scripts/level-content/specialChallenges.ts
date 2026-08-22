@@ -9,6 +9,8 @@ import { bandFor } from './specialChallengeUtils';
 
 import type { StoryChallengeKind } from './storySlots';
 import { generateStoryKindChallenge } from './storyChallengeGenerators';
+import { basisGrade } from './basisGenerators';
+import { generateBasisStoryChallenge } from './basisStoryChallenges';
 
 function challengeHelp(
   challenge: ChallengeDefinition,
@@ -613,6 +615,11 @@ export function generateStoryChallenge(
   seed: number,
   kind: StoryChallengeKind,
 ): { challenge: ChallengeDefinition; help: GuidedHelpPack } | null {
+  const grade = basisGrade(level);
+  if (grade) {
+    return generateBasisStoryChallenge(kind, id, level, grade, lessonIndex, difficulty, seed);
+  }
+
   const themed = generateStoryKindChallenge(kind, id, level, lessonIndex, difficulty, seed);
   if (themed) return themed;
 

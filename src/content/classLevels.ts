@@ -69,7 +69,10 @@ export const CLASS_LEVEL_GROUPS: {
 ];
 
 const TOPIC_SETS = {
-  basis: ['breuken', 'vergelijkingen', 'grafieken', 'verbanden', 'redeneren', 'algebra'] as Topic[],
+  /** Basisschool: rekenen PO — geen VO-algebra/vergelijkingen/machten als vrije topics */
+  basis6: ['breuken', 'verbanden', 'redeneren', 'algebra', 'grafieken'] as Topic[],
+  basis7: ['breuken', 'verbanden', 'redeneren', 'algebra', 'grafieken', 'formules'] as Topic[],
+  basis8: ['breuken', 'verbanden', 'redeneren', 'algebra', 'grafieken', 'formules'] as Topic[],
   mavoLow: ['breuken', 'vergelijkingen', 'grafieken', 'verbanden', 'formules', 'redeneren'] as Topic[],
   mavoHigh: ['algebra', 'vergelijkingen', 'breuken', 'grafieken', 'verbanden', 'formules'] as Topic[],
   havoLow: ['algebra', 'vergelijkingen', 'breuken', 'grafieken', 'verbanden', 'formules'] as Topic[],
@@ -90,9 +93,9 @@ function profile(
 }
 
 export const CLASS_LEVEL_PROFILES: Record<ClassLevel, ClassLevelProfile> = {
-  'groep-6': profile('groep-6', 'Groep 6', 1, TOPIC_SETS.basis, 0.35),
-  'groep-7': profile('groep-7', 'Groep 7', 1, TOPIC_SETS.basis, 0.3),
-  'groep-8': profile('groep-8', 'Groep 8', 2, TOPIC_SETS.basis, 0.25),
+  'groep-6': profile('groep-6', 'Groep 6', 1, TOPIC_SETS.basis6, 0.35),
+  'groep-7': profile('groep-7', 'Groep 7', 1, TOPIC_SETS.basis7, 0.3),
+  'groep-8': profile('groep-8', 'Groep 8', 2, TOPIC_SETS.basis8, 0.25),
   'mavo-1': profile('mavo-1', 'MAVO 1', 1, TOPIC_SETS.mavoLow, 0.3),
   'mavo-2': profile('mavo-2', 'MAVO 2', 1, TOPIC_SETS.mavoLow, 0.28),
   'mavo-3': profile('mavo-3', 'MAVO 3', 2, TOPIC_SETS.mavoHigh, 0.25),

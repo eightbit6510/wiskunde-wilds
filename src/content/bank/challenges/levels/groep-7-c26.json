@@ -1,14 +1,14 @@
 {
-  "id": "groep-7-c26",
   "type": "number-input",
   "topic": "algebra",
+  "question": "Runesteen Rekenen: 3 × (□ − 2) = 15. Wat is □?",
+  "answer": 7,
+  "hint1": "Eerst 15 ÷ 3 = 5, dus □ − 2 = 5.",
+  "hint2": "□ = 7.",
+  "explanation": "□ − 2 = 5 → □ = 7.",
+  "id": "groep-7-c26",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Runesteen Algebra: Los op 3(x − 2) = 15. Wat is x?",
-  "answer": 7,
-  "hint1": "Deel beide kanten door 3, of werk haakjes uit.",
-  "hint2": "x − 2 = 5 → x = 7.",
-  "explanation": "3(x − 2) = 15 → x − 2 = 5 → x = 7.",
   "classLevels": [
     "groep-7"
   ]

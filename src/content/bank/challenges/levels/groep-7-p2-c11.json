@@ -1,14 +1,14 @@
 {
-  "id": "groep-7-p2-c11",
   "type": "number-input",
   "topic": "verbanden",
+  "question": "Op de kaart is 1 cm 25 km. Hoeveel km is 4 cm?",
+  "answer": 100,
+  "hint1": "4 × 25.",
+  "hint2": "100 km.",
+  "explanation": "4 cm → 100 km.",
+  "id": "groep-7-p2-c11",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Op een kaart met schaal 1 : 25 000 staat een brug 4 cm lang. Hoe lang is de brug in werkelijkheid? (antwoord in meters)",
-  "answer": 1000,
-  "hint1": "Werkelijke lengte = 4 × 25 000 cm.",
-  "hint2": "100 000 cm = 1000 m.",
-  "explanation": "4 cm × 25 000 = 100 000 cm = 1000 m.",
   "classLevels": [
     "groep-7"
   ]

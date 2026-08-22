@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-p2-c21",
   "type": "number-input",
   "topic": "grafieken",
+  "question": "Waar snijden y = 2x + 3 en y = x + 7 elkaar? Wat is x?",
+  "answer": 4,
+  "hint1": "Stel 2x + 3 = x + 7.",
+  "hint2": "x = 4.",
+  "explanation": "x = 4.",
+  "id": "groep-8-p2-c21",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Waar snijden y = 2x + 3 en y = x + 7 elkaar? Los x op. Wat is x?",
-  "answer": 4,
-  "hint1": "Stel 2x + 3 gelijk aan x + 7.",
-  "hint2": "x = 4.",
-  "explanation": "2x + 3 = x + 7 → x = 4. Snijpunt (4, 11).",
   "classLevels": [
     "groep-8"
   ]

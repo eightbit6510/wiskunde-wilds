@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c08",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Vaste kosten + prijs per stuk.",
+    "intro": "Vaste kosten + prijs per zak.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "€12 vaste kosten plus €4 per zak voer. Welke formule voor totale kost…"
+            "label": "De totale kosten berekenen"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nStartbedrag 12, daarna +4 per zak.",
+        "explanation": "Stap 2: strategie.\n\nEerst 3 × 4, daarna +12.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Startbedrag 12, daarna +4 per zak."
+            "label": "Eerst 3 × 4, daarna +12."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nK = 4z + 12.",
+        "explanation": "Stap 3: uitwerken.\n\n12 + 12 = 24.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "K = 4z + 12."
+            "label": "12 + 12 = 24."
           },
           {
             "id": "no",
@@ -56,71 +56,43 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nK = 4z + 12.",
+        "explanation": "Stap 4: het antwoord.\n\n12 + 3 × 4 = 12 + 12 = €24.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "K = 4z + 12"
+            "label": "24"
           },
           {
             "id": "b",
-            "label": "K = 12z + 4"
+            "label": "25"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: K = 4z + 12.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is K = 4z + 12."
+        "successFeedback": "Klopt! Antwoord: 24.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 24."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 K = 4z + 12"
+    "conclusion": "Pootafdruk! 🐾 24"
   },
   "bonusVariants": [
     {
       "id": "groep-7-c08-b1",
-      "type": "multiple-choice",
-      "question": "Welke uitwerking past bij deze som?",
-      "answer": "b",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "K = 12z + 4"
-        },
-        {
-          "id": "b",
-          "label": "K = 4z + 12"
-        },
-        {
-          "id": "c",
-          "label": "K = 12 × 4 × z"
-        },
-        {
-          "id": "d",
-          "label": "K = 4 + 12 + z"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "K = 4z + 12.",
-      "explanation": "K = 4z + 12."
+      "type": "number-input",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Eerst 3 × 4, daarna +12.)",
+      "answer": 24,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "12 + 3 × 4 = 12 + 12 = €24.",
+      "explanation": "12 + 3 × 4 = 12 + 12 = €24."
     },
     {
       "id": "groep-7-c08-b2",
-      "type": "multiple-choice",
-      "question": "Wat was het antwoord?",
-      "answer": "yes",
-      "answerOptions": [
-        {
-          "id": "yes",
-          "label": "K = 4z + 12"
-        },
-        {
-          "id": "no",
-          "label": "K = 12z + 4"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "K = 4z + 12.",
-      "explanation": "K = 4z + 12."
+      "type": "number-input",
+      "question": "Controle: klopt 24? Reken na — wat krijg je?",
+      "answer": 24,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "12 + 12 = 24.",
+      "explanation": "12 + 12 = 24."
     }
   ]
 }

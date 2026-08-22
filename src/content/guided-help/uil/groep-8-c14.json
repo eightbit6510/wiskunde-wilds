@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Formule, tabel en verhaal matchen"
+            "label": "Formule en betekenis matchen"
           },
           {
             "id": "wrong",
-            "label": "Alles willekeurig koppelen"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nConstant in y betekent horizontaal verband.",
+        "explanation": "Stap 3: uitwerken.\n\nConstant in y betekent horizontaal.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Constant in y betekent horizontaal verband."
+            "label": "Constant in y betekent horizontaal."
           },
           {
             "id": "no",

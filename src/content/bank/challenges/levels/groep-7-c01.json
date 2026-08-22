@@ -1,34 +1,36 @@
 {
-  "id": "groep-7-c01",
   "type": "multi-select",
   "topic": "algebra",
-  "difficulty": 1,
-  "starsAvailable": 3,
   "question": "Welke berekeningen kloppen? Kies alle juiste antwoorden.",
   "answerOptions": [
     {
       "id": "a",
-      "label": "A. 4 + 7 = 10"
+      "label": "A. 15 − 8 = 7"
     },
     {
       "id": "b",
-      "label": "B. 8 − 3 = 4"
+      "label": "B. 6 × 7 = 42"
     },
     {
       "id": "c",
-      "label": "C. 3 × 4 = 12"
+      "label": "C. 36 ÷ 6 = 5"
     },
     {
       "id": "d",
-      "label": "D. 10 ÷ 2 = 6"
+      "label": "D. 9 + 14 = 23"
     }
   ],
   "answers": [
-    "c"
+    "a",
+    "b",
+    "d"
   ],
-  "hint1": "Reken elke som rustig uit — niet elk spoor in het mos is echt.",
-  "hint2": "Alleen C klopt: 3 × 4 = 12.",
-  "explanation": "Alleen C klopt.\n\nA: 4 + 7 = 11\nB: 8 − 3 = 5\nC: 3 × 4 = 12 ✓\nD: 10 ÷ 2 = 5",
+  "hint1": "Reken elke som uit — niet elk spoor is echt.",
+  "hint2": "C: 36 ÷ 6 = 6, niet 5.",
+  "explanation": "A, B en D kloppen. C is fout.",
+  "id": "groep-7-c01",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

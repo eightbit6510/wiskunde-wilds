@@ -1,28 +1,28 @@
 {
-  "id": "groep-7-p2-c16",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Paraboolvallei — Bij y = x²: wat is y als x = 3 en als x = −3?",
+  "question": "Paraboolvallei: bij 4×4 en (−4)×(−4): wat valt op?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "Beide keren 9"
+      "label": "Beide geven 16"
     },
     {
       "id": "b",
-      "label": "3 en −3"
+      "label": "Eén is negatief"
     },
     {
       "id": "c",
-      "label": "0 en 9"
+      "label": "Alleen 4×4 mag"
     }
   ],
-  "hint1": "(−3)² = 9 en 3² = 9.",
-  "hint2": "Positief en negatief x kunnen dezelfde y geven.",
-  "explanation": "Beide geven y = 9 — symmetrie in maanlicht.",
+  "hint1": "Negatief × negatief = positief.",
+  "hint2": "Beide 16.",
+  "explanation": "Beide geven 16.",
+  "id": "groep-7-p2-c16",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

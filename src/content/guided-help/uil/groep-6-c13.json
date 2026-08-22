@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c13",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "De lynx kijkt naar het snijpunt met de verticale as.",
+    "intro": "De lynx kijkt naar het begin van het spoor.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Het snijpunt met de y-as vinden"
+            "label": "De startwaarde aflezen"
           },
           {
             "id": "wrong",
-            "label": "Het hellingsgetal invullen"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nOp de y-as is x = 0.",
+        "explanation": "Stap 2: strategie.\n\nStartwaarde = waarde bij 0.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Op de y-as is x = 0."
+            "label": "Startwaarde = waarde bij 0."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nVul x = 0 in: y = 2·0 + 3.",
+        "explanation": "Stap 3: uitwerken.\n\nDat is 3.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Vul x = 0 in: y = 2·0 + 3."
+            "label": "Dat is 3."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nBij x = 0: y = 3. Dat is het snijpunt met de y-as.",
+        "explanation": "Stap 4: het antwoord.\n\nStartwaarde = 3.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-6-c13-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Op de y-as is x = 0.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Startwaarde = waarde bij 0.)",
       "answer": 3,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Bij x = 0: y = 3. Dat is het snijpunt met de y-as.",
-      "explanation": "Bij x = 0: y = 3. Dat is het snijpunt met de y-as."
+      "hint2": "Startwaarde = 3.",
+      "explanation": "Startwaarde = 3."
     },
     {
       "id": "groep-6-c13-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 3? Reken na — wat krijg je?",
       "answer": 3,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Vul x = 0 in: y = 2·0 + 3.",
-      "explanation": "Vul x = 0 in: y = 2·0 + 3."
+      "hint2": "Dat is 3.",
+      "explanation": "Dat is 3."
     }
   ]
 }

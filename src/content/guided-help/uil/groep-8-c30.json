@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Laatste runesteen: Los op 2x + 5 = 17. Wat is x?"
+            "label": "x oplossen"
           },
           {
             "id": "wrong",

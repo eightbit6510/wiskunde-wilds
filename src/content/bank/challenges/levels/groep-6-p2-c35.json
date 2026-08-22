@@ -1,28 +1,28 @@
 {
-  "id": "groep-6-p2-c35",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Bij y = x²: wat is y als x = 3 en als x = −3?",
+  "question": "Rij: 1, 4, 9, 16, … Wat is het volgende getal?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "Beide keren 9"
+      "label": "25"
     },
     {
       "id": "b",
-      "label": "3 en −3"
+      "label": "20"
     },
     {
       "id": "c",
-      "label": "0 en 9"
+      "label": "32"
     }
   ],
-  "hint1": "(−3)² = 9 en 3² = 9.",
-  "hint2": "Positief en negatief x kunnen dezelfde y geven.",
-  "explanation": "Beide geven y = 9 — symmetrie in maanlicht.",
+  "hint1": "1×1, 2×2, 3×3, 4×4…",
+  "hint2": "5×5 = 25.",
+  "explanation": "Het zijn kwadraatgetallen: volgende is 25.",
+  "id": "groep-6-p2-c35",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

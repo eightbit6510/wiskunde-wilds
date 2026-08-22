@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-p2-c06",
   "type": "number-input",
   "topic": "formules",
+  "question": "Ravennest: oppervlakte 72 m², breedte 9 m. Wat is de lengte in meters?",
+  "answer": 8,
+  "hint1": "Oppervlakte ÷ breedte = lengte.",
+  "hint2": "72 ÷ 9 = 8.",
+  "explanation": "Lengte = 8 m.",
+  "id": "groep-8-p2-c06",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "A = b × h. A = 48 m² en b = 6 m. Wat is h? (in meters)",
-  "answer": 8,
-  "hint1": "h = A ÷ b.",
-  "hint2": "48 ÷ 6 = 8.",
-  "explanation": "h = 8 m.",
   "classLevels": [
     "groep-8"
   ]

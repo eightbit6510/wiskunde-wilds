@@ -1,39 +1,35 @@
 {
-  "id": "groep-7-p2-c04",
   "type": "equation-steps",
-  "topic": "vergelijkingen",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Los stap voor stap op: x + 3 = 11",
+  "topic": "algebra",
+  "question": "Vul het ontbrekende getal in: □ × 4 = 28",
   "equationSteps": [
     {
-      "prompt": "Wat doe je eerst om dichter bij x te komen?",
+      "prompt": "Hoe vind je □?",
       "options": [
         {
-          "id": "plus",
-          "label": "Beide kanten +3"
-        },
-        {
-          "id": "min",
-          "label": "Beide kanten −3"
+          "id": "deel",
+          "label": "28 ÷ 4"
         },
         {
           "id": "keer",
-          "label": "Beide kanten ×2"
+          "label": "28 × 4"
         },
         {
-          "id": "alleen",
-          "label": "Alleen links −3"
+          "id": "min",
+          "label": "28 − 4"
         }
       ],
-      "correctId": "min",
-      "resultDisplay": "x = 8"
+      "correctId": "deel",
+      "resultDisplay": "□ = 7"
     }
   ],
-  "answer": 4,
-  "hint1": "Je wilt de constante term wegwerken — doe aan beide kanten het tegenovergestelde.",
-  "hint2": "x + 3 = 11 → x = 8",
-  "explanation": "x + 3 = 11\nBeide kanten −3 → x = 8",
+  "answer": 7,
+  "hint1": "□ keer 4 is 28. Deel 28 door 4.",
+  "hint2": "28 ÷ 4 = 7.",
+  "explanation": "□ × 4 = 28 → □ = 7.",
+  "id": "groep-7-p2-c04",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-7"
   ]

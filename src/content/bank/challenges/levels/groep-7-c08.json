@@ -1,32 +1,14 @@
 {
-  "id": "groep-7-c08",
-  "type": "multiple-choice",
+  "type": "number-input",
   "topic": "formules",
+  "question": "Vaste kosten €12 plus €4 per zak. Wat kosten 3 zakken in totaal?",
+  "answer": 24,
+  "hint1": "Eerst 3 × 4, daarna +12.",
+  "hint2": "12 + 12 = 24.",
+  "explanation": "12 + 3 × 4 = 12 + 12 = €24.",
+  "id": "groep-7-c08",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "€12 vaste kosten plus €4 per zak voer. Welke formule voor totale kosten K bij z zakken?",
-  "answer": "b",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "K = 12z + 4"
-    },
-    {
-      "id": "b",
-      "label": "K = 4z + 12"
-    },
-    {
-      "id": "c",
-      "label": "K = 12 × 4 × z"
-    },
-    {
-      "id": "d",
-      "label": "K = 4 + 12 + z"
-    }
-  ],
-  "hint1": "Startbedrag 12, daarna +4 per zak.",
-  "hint2": "K = 4z + 12.",
-  "explanation": "K = 4z + 12.",
   "classLevels": [
     "groep-7"
   ]

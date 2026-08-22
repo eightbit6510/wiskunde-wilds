@@ -1,14 +1,14 @@
 {
-  "id": "groep-7-p2-c21",
   "type": "number-input",
   "topic": "grafieken",
+  "question": "Twee sporen: lijn A start 3 +2 per stap, lijn B start 7 +1 per stap. Bij welke stap zijn ze gelijk? (stapnummer)",
+  "answer": 4,
+  "hint1": "Maak een tabel of reken: 3+2n = 7+n.",
+  "hint2": "n = 4.",
+  "explanation": "Bij stap 4: beide 11.",
+  "id": "groep-7-p2-c21",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Waar snijden y = 2x + 3 en y = x + 7 elkaar? Los x op. Wat is x?",
-  "answer": 4,
-  "hint1": "Stel 2x + 3 gelijk aan x + 7.",
-  "hint2": "x = 4.",
-  "explanation": "2x + 3 = x + 7 → x = 4. Snijpunt (4, 11).",
   "classLevels": [
     "groep-7"
   ]

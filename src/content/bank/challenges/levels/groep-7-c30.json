@@ -1,14 +1,14 @@
 {
-  "id": "groep-7-c30",
   "type": "number-input",
-  "topic": "vergelijkingen",
+  "topic": "algebra",
+  "question": "Laatste runesteen: 2 × □ + 5 = 17. Wat is □?",
+  "answer": 6,
+  "hint1": "Eerst 17 − 5 = 12, dan ÷ 2.",
+  "hint2": "□ = 6.",
+  "explanation": "□ = 6.",
+  "id": "groep-7-c30",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Laatste runesteen: Los op 2x + 5 = 17. Wat is x?",
-  "answer": 6,
-  "hint1": "Trek 5 af van beide kanten.",
-  "hint2": "2x = 12 → x = 6.",
-  "explanation": "x = 6.",
   "classLevels": [
     "groep-7"
   ]

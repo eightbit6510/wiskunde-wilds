@@ -1,14 +1,18 @@
 {
-  "id": "groep-6-c28",
   "type": "text-input",
   "topic": "breuken",
+  "question": "Runesteen Breuken: 2/8 + 2/8 = ? (als breuk)",
+  "answer": "4/8",
+  "acceptedAnswers": [
+    "4/8",
+    "1/2"
+  ],
+  "hint1": "Zelfde noemer: tellers optellen.",
+  "hint2": "2 + 2 = 4 → 4/8.",
+  "explanation": "2/8 + 2/8 = 4/8 (of 1/2).",
+  "id": "groep-6-c28",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Runesteen Breuken: vereenvoudig 8/12.",
-  "answer": "2/3",
-  "hint1": "Deel teller en noemer door hun GGD.",
-  "hint2": "GGD is 4 → 2/3.",
-  "explanation": "8/12 = 2/3.",
   "classLevels": [
     "groep-6"
   ]

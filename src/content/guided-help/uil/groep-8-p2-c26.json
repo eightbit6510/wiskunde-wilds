@@ -2,7 +2,7 @@
   "challengeId": "groep-8-p2-c26",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Runen: exponenten stapelen.",
+    "intro": "Twee runen vermenigvuldigd — wat gebeurt er met de exponenten?",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Wat is 2³ × 2²? (zelfde grondtal)"
+            "label": "De juiste macht"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nExponenten optellen bij dezelfde grondtal.",
+        "explanation": "Stap 2: strategie.\n\nExponenten optellen.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Exponenten optellen bij dezelfde grondtal."
+            "label": "Exponenten optellen."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n3 + 2 = 5 → 2⁵.",
+        "explanation": "Stap 3: uitwerken.\n\n3 + 2 = 5.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "3 + 2 = 5 → 2⁵."
+            "label": "3 + 2 = 5."
           },
           {
             "id": "no",

@@ -2,7 +2,7 @@
   "challengeId": "groep-8-p2-c16",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Patronen in maanlicht.",
+    "intro": "Patronen in de paraboolvallei.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Bij y = x²: wat is y als x = 3 en als x = −3?"
+            "label": "Symmetrie bij kwadrateren"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\n(−3)² = 9 en 3² = 9.",
+        "explanation": "Stap 2: strategie.\n\n4×4 = 16 en (−4)×(−4) = 16.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "(−3)² = 9 en 3² = 9."
+            "label": "4×4 = 16 en (−4)×(−4) = 16."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nPositief en negatief x kunnen dezelfde y geven.",
+        "explanation": "Stap 3: uitwerken.\n\nBeide 16.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Positief en negatief x kunnen dezelfde y geven."
+            "label": "Beide 16."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nBeide geven y = 9 — symmetrie in maanlicht.",
+        "explanation": "Stap 4: het antwoord.\n\nBeide geven y = 16.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "Beide keren 9"
+            "label": "Beide keren 16"
           },
           {
             "id": "b",
-            "label": "3 en −3"
+            "label": "4 en −4"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: Beide keren 9.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is Beide keren 9."
+        "successFeedback": "Klopt! Antwoord: Beide keren 16.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Beide keren 16."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Beide keren 9"
+    "conclusion": "Pootafdruk! 🐾 Beide keren 16"
   },
   "bonusVariants": [
     {
@@ -84,20 +84,20 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Beide keren 9"
+          "label": "Beide keren 16"
         },
         {
           "id": "b",
-          "label": "3 en −3"
+          "label": "4 en −4"
         },
         {
           "id": "c",
-          "label": "0 en 9"
+          "label": "0 en 16"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Beide geven y = 9 — symmetrie in maanlicht.",
-      "explanation": "Beide geven y = 9 — symmetrie in maanlicht."
+      "hint2": "Beide geven y = 16.",
+      "explanation": "Beide geven y = 16."
     },
     {
       "id": "groep-8-p2-c16-b2",
@@ -107,16 +107,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "Beide keren 9"
+          "label": "Beide keren 16"
         },
         {
           "id": "no",
-          "label": "3 en −3"
+          "label": "4 en −4"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Beide geven y = 9 — symmetrie in maanlicht.",
-      "explanation": "Beide geven y = 9 — symmetrie in maanlicht."
+      "hint2": "Beide geven y = 16.",
+      "explanation": "Beide geven y = 16."
     }
   ]
 }

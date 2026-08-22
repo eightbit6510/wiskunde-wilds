@@ -1,32 +1,14 @@
 {
-  "id": "groep-7-p2-c07",
-  "type": "multiple-choice",
+  "type": "number-input",
   "topic": "formules",
+  "question": "Een wolf legt 36 meter af in 6 seconden. Hoeveel meter per seconde is dat?",
+  "answer": 6,
+  "hint1": "Snelheid = afstand ÷ tijd.",
+  "hint2": "36 ÷ 6 = 6.",
+  "explanation": "36 ÷ 6 = 6 meter per seconde.",
+  "id": "groep-7-p2-c07",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "v = s / t. Welke formule geeft s (afstand)?",
-  "answer": "b",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "s = v / t"
-    },
-    {
-      "id": "b",
-      "label": "s = v × t"
-    },
-    {
-      "id": "c",
-      "label": "s = t / v"
-    },
-    {
-      "id": "d",
-      "label": "s = v + t"
-    }
-  ],
-  "hint1": "Vermenigvuldig beide kanten van v = s/t met t.",
-  "hint2": "v · t = s.",
-  "explanation": "s = v × t.",
   "classLevels": [
     "groep-7"
   ]

@@ -1,28 +1,28 @@
 {
-  "id": "groep-6-c35",
   "type": "multiple-choice",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Welke beschrijving past bij y = x²?",
+  "question": "Welke beschrijving past bij 1, 4, 9, 16, 25?",
   "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "Een rechte lijn"
+      "label": "Steeds +1"
     },
     {
       "id": "b",
-      "label": "Een boog (parabool)"
+      "label": "Kwadraatgetallen (1×1, 2×2, …)"
     },
     {
       "id": "c",
-      "label": "Een horizontale lijn"
+      "label": "Verdubbelen"
     }
   ],
-  "hint1": "Kwadratisch → boog, geen rechte lijn.",
-  "hint2": "y = x² buigt omhoog als een U.",
-  "explanation": "y = x² is een parabool — een boog.",
+  "hint1": "1=1×1, 4=2×2, 9=3×3…",
+  "hint2": "Het zijn kwadraatgetallen.",
+  "explanation": "Kwadraatgetallen.",
+  "id": "groep-6-c35",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

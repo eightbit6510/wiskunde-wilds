@@ -1,9 +1,6 @@
 {
-  "id": "groep-8-c14",
   "type": "matching",
   "topic": "verbanden",
-  "difficulty": 1,
-  "starsAvailable": 3,
   "question": "Match formule, tabel-idee en verhaal.",
   "matchingPairs": [
     {
@@ -28,8 +25,11 @@
     }
   ],
   "hint1": "Koppel elke formule aan het juiste beeld.",
-  "hint2": "Constant in y betekent horizontaal verband.",
+  "hint2": "Constant in y betekent horizontaal.",
   "explanation": "Elk spoor hoort bij precies één betekenis.",
+  "id": "groep-8-c14",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

@@ -1,14 +1,14 @@
 {
-  "id": "groep-7-p2-c08",
   "type": "number-input",
   "topic": "formules",
+  "question": "Om het nest: omtrek 28, breedte 6. Wat is de lengte?",
+  "answer": 8,
+  "hint1": "2 × breedte = 12. Dan blijft 16 over voor 2 × lengte.",
+  "hint2": "16 ÷ 2 = 8.",
+  "explanation": "Lengte = 8.",
+  "id": "groep-7-p2-c08",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "P = 2ℓ + 2b. P = 30 cm en b = 5 cm. Wat is ℓ? (in cm)",
-  "answer": 10,
-  "hint1": "30 = 2ℓ + 10.",
-  "hint2": "2ℓ = 20 → ℓ = 10.",
-  "explanation": "ℓ = 10 cm.",
   "classLevels": [
     "groep-7"
   ]

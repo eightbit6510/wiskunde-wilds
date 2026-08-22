@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "A = ℓ × b. Als A = 42 en ℓ = 7, wat is b?"
+            "label": "De ontbrekende breedte berekenen"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nDeel beide kanten door ℓ: b = A ÷ ℓ.",
+        "explanation": "Stap 2: strategie.\n\nOppervlakte = lengte × breedte. Deel de oppervlakte door de lengte.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Deel beide kanten door ℓ: b = A ÷ ℓ."
+            "label": "Oppervlakte = lengte × breedte. Deel de oppervlakte door de lengte."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nb = 42 ÷ 7 = 6.",
+        "explanation": "Stap 3: uitwerken.\n\n42 ÷ 7 = 6.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "b = 42 ÷ 7 = 6."
+            "label": "42 ÷ 7 = 6."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nb = A ÷ ℓ = 42 ÷ 7 = 6.",
+        "explanation": "Stap 4: het antwoord.\n\nBreedte = 42 ÷ 7 = 6.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-7-c06-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Deel beide kanten door ℓ: b = A ÷ ℓ.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Oppervlakte = lengte × breedte. Deel de oppervlakte door de lengte.)",
       "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "b = A ÷ ℓ = 42 ÷ 7 = 6.",
-      "explanation": "b = A ÷ ℓ = 42 ÷ 7 = 6."
+      "hint2": "Breedte = 42 ÷ 7 = 6.",
+      "explanation": "Breedte = 42 ÷ 7 = 6."
     },
     {
       "id": "groep-7-c06-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 6? Reken na — wat krijg je?",
       "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "b = 42 ÷ 7 = 6.",
-      "explanation": "b = 42 ÷ 7 = 6."
+      "hint2": "42 ÷ 7 = 6.",
+      "explanation": "42 ÷ 7 = 6."
     }
   ]
 }

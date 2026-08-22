@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Laatste runesteen: Los op 2x + 5 = 17. Wat is x?"
+            "label": "Het ontbrekende getal"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nTrek 5 af van beide kanten.",
+        "explanation": "Stap 2: strategie.\n\nEerst 17 − 5 = 12, dan ÷ 2.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Trek 5 af van beide kanten."
+            "label": "Eerst 17 − 5 = 12, dan ÷ 2."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n2x = 12 → x = 6.",
+        "explanation": "Stap 3: uitwerken.\n\n□ = 6.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "2x = 12 → x = 6."
+            "label": "□ = 6."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nx = 6.",
+        "explanation": "Stap 4: het antwoord.\n\n□ = 6.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -79,11 +79,11 @@
     {
       "id": "groep-7-c30-b1",
       "type": "number-input",
-      "question": "Zelfde soort som: wat is het antwoord? (hint: Trek 5 af van beide kanten.)",
+      "question": "Zelfde soort som: wat is het antwoord? (hint: Eerst 17 − 5 = 12, dan ÷ 2.)",
       "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 6.",
-      "explanation": "x = 6."
+      "hint2": "□ = 6.",
+      "explanation": "□ = 6."
     },
     {
       "id": "groep-7-c30-b2",
@@ -91,8 +91,8 @@
       "question": "Controle: klopt 6? Reken na — wat krijg je?",
       "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "2x = 12 → x = 6.",
-      "explanation": "2x = 12 → x = 6."
+      "hint2": "□ = 6.",
+      "explanation": "□ = 6."
     }
   ]
 }

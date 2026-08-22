@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-p2-c30",
   "type": "number-input",
   "topic": "algebra",
-  "difficulty": 1,
-  "starsAvailable": 3,
   "question": "Runesteen Algebra: Los op 3(x − 2) = 15. Wat is x?",
   "answer": 7,
   "hint1": "Deel beide kanten door 3, of werk haakjes uit.",
   "hint2": "x − 2 = 5 → x = 7.",
-  "explanation": "3(x − 2) = 15 → x − 2 = 5 → x = 7.",
+  "explanation": "x = 7.",
+  "id": "groep-8-p2-c30",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

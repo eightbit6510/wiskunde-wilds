@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Items in de juiste volgorde zetten"
+            "label": "Breuken van klein naar groot"
           },
           {
             "id": "wrong",
-            "label": "Willekeurig slepen"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nVergelijk de breuken — maak ze gelijknamig of gebruik een getal-lijn.",
+        "explanation": "Stap 2: strategie.\n\nDenk aan stukken van een pizza.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Vergelijk de breuken — maak ze gelijknamig of gebruik een getal-lijn."
+            "label": "Denk aan stukken van een pizza."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nSleep de items in de juiste volgorde.",
+        "explanation": "Stap 3: uitwerken.\n\nKleinere noemer (bij teller 1) = grotere breuk… hier: grotere stukken later.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Sleep de items in de juiste volgorde."
+            "label": "Kleinere noemer (bij teller 1) = grotere breuk… hier: grotere stukk…"
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nGoed gesorteerd!",
+        "explanation": "Stap 4: het antwoord.\n\nVolgorde: 1/6 → 1/3 → 1/2 → 2/3.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -84,7 +84,7 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Vergelijk de breuken — maak ze gelijknamig of gebruik een ge"
+          "label": "Denk aan stukken van een pizza."
         },
         {
           "id": "b",
@@ -92,8 +92,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Vergelijk de breuken — maak ze gelijknamig of gebruik een getal-lijn.",
-      "explanation": "Vergelijk de breuken — maak ze gelijknamig of gebruik een getal-lijn."
+      "hint2": "Denk aan stukken van een pizza.",
+      "explanation": "Denk aan stukken van een pizza."
     },
     {
       "id": "groep-7-c24-b2",
@@ -111,8 +111,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Goed gesorteerd!",
-      "explanation": "Goed gesorteerd!"
+      "hint2": "Volgorde: 1/6 → 1/3 → 1/2 → 2/3.",
+      "explanation": "Volgorde: 1/6 → 1/3 → 1/2 → 2/3."
     }
   ]
 }

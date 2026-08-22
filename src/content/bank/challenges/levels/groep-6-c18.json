@@ -1,19 +1,16 @@
 {
-  "id": "groep-6-c18",
   "type": "multiple-choice",
-  "topic": "machten",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Wat is groter: 2⁵ of 5²?",
-  "answer": "a",
+  "topic": "algebra",
+  "question": "Wat is groter: 5 × 5 of 6 × 6?",
+  "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "2⁵ (= 32)"
+      "label": "5 × 5 (= 25)"
     },
     {
       "id": "b",
-      "label": "5² (= 25)"
+      "label": "6 × 6 (= 36)"
     },
     {
       "id": "gelijk",
@@ -21,8 +18,11 @@
     }
   ],
   "hint1": "Reken beide uit.",
-  "hint2": "2⁵ = 32 en 5² = 25.",
-  "explanation": "2⁵ = 32 > 5² = 25.",
+  "hint2": "25 < 36.",
+  "explanation": "6 × 6 = 36 is groter.",
+  "id": "groep-6-c18",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-6"
   ]

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Runesteen Breuken: vereenvoudig 8/12."
+            "label": "De breukensom"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nDeel teller en noemer door hun GGD.",
+        "explanation": "Stap 2: strategie.\n\nZelfde noemer: tellers optellen.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Deel teller en noemer door hun GGD."
+            "label": "Zelfde noemer: tellers optellen."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nGGD is 4 → 2/3.",
+        "explanation": "Stap 3: uitwerken.\n\n2 + 2 = 4 → 4/8.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "GGD is 4 → 2/3."
+            "label": "2 + 2 = 4 → 4/8."
           },
           {
             "id": "no",
@@ -56,12 +56,12 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\n8/12 = 2/3.",
+        "explanation": "Stap 4: het antwoord.\n\n2/8 + 2/8 = 4/8 (of 1/2).",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "2/3"
+            "label": "4/8"
           },
           {
             "id": "b",
@@ -69,11 +69,11 @@
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: 2/3.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is 2/3."
+        "successFeedback": "Klopt! Antwoord: 4/8.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is 4/8."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2/3"
+    "conclusion": "Pootafdruk! 🐾 4/8"
   },
   "bonusVariants": [
     {
@@ -84,7 +84,7 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Deel teller en noemer door hun GGD."
+          "label": "Zelfde noemer: tellers optellen."
         },
         {
           "id": "b",
@@ -92,8 +92,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Deel teller en noemer door hun GGD.",
-      "explanation": "Deel teller en noemer door hun GGD."
+      "hint2": "Zelfde noemer: tellers optellen.",
+      "explanation": "Zelfde noemer: tellers optellen."
     },
     {
       "id": "groep-6-c28-b2",
@@ -103,7 +103,7 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "2/3"
+          "label": "4/8"
         },
         {
           "id": "b",
@@ -111,8 +111,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "8/12 = 2/3.",
-      "explanation": "8/12 = 2/3."
+      "hint2": "2/8 + 2/8 = 4/8 (of 1/2).",
+      "explanation": "2/8 + 2/8 = 4/8 (of 1/2)."
     }
   ]
 }

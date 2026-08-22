@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Formule, tabel en verhaal matchen"
+            "label": "Regel en betekenis matchen"
           },
           {
             "id": "wrong",
-            "label": "Alles willekeurig koppelen"
+            "label": "Iets willekeurigs raden"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nKoppel elke formule aan het juiste beeld.",
+        "explanation": "Stap 2: strategie.\n\nConstant = geen verandering = horizontaal.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Koppel elke formule aan het juiste beeld."
+            "label": "Constant = geen verandering = horizontaal."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nConstant in y betekent horizontaal verband.",
+        "explanation": "Stap 3: uitwerken.\n\nDalend = elke stap kleiner.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Constant in y betekent horizontaal verband."
+            "label": "Dalend = elke stap kleiner."
           },
           {
             "id": "no",
@@ -84,7 +84,7 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Koppel elke formule aan het juiste beeld."
+          "label": "Constant = geen verandering = horizontaal."
         },
         {
           "id": "b",
@@ -92,8 +92,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Koppel elke formule aan het juiste beeld.",
-      "explanation": "Koppel elke formule aan het juiste beeld."
+      "hint2": "Constant = geen verandering = horizontaal.",
+      "explanation": "Constant = geen verandering = horizontaal."
     },
     {
       "id": "groep-7-c14-b2",

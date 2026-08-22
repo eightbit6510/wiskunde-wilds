@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-p2-c33",
   "type": "number-input",
   "topic": "verbanden",
+  "question": "Figuurstenen: figuur 1 = 4, figuur 2 = 7, figuur 3 = 10. Hoeveel stenen heeft figuur 10?",
+  "answer": 31,
+  "hint1": "Stap +3. Formule: 3n + 1.",
+  "hint2": "3·10 + 1 = 31.",
+  "explanation": "31 stenen.",
+  "id": "groep-8-p2-c33",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Figuurstenen: figuur 1 = 4 stenen, figuur 2 = 7, figuur 3 = 10. Hoeveel stenen heeft figuur 10?",
-  "answer": 31,
-  "hint1": "Verschil +3 per figuur. Formule: 3n + 1.",
-  "hint2": "3·10 + 1 = 31.",
-  "explanation": "Figuur 10 heeft 31 stenen.",
   "classLevels": [
     "groep-8"
   ]

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Welke breuk is groter: 3/4 of 5/8?"
+            "label": "De grotere breuk kiezen"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nMaak gelijke noemers of vergelijk met decimalen.",
+        "explanation": "Stap 2: strategie.\n\nMaak gelijke noemers: 3/4 = 6/8.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Maak gelijke noemers of vergelijk met decimalen."
+            "label": "Maak gelijke noemers: 3/4 = 6/8."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n3/4 = 6/8 > 5/8.",
+        "explanation": "Stap 3: uitwerken.\n\n6/8 > 5/8.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "3/4 = 6/8 > 5/8."
+            "label": "6/8 > 5/8."
           },
           {
             "id": "no",

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Bij y = x²: wat is y als x = 3 en als x = −3?"
+            "label": "Symmetrie bij kwadrateren"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\n(−3)² = 9 en 3² = 9.",
+        "explanation": "Stap 2: strategie.\n\n(−3)×(−3) = 9 en 3×3 = 9.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "(−3)² = 9 en 3² = 9."
+            "label": "(−3)×(−3) = 9 en 3×3 = 9."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nPositief en negatief x kunnen dezelfde y geven.",
+        "explanation": "Stap 3: uitwerken.\n\nPositief en negatief kunnen dezelfde y geven.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Positief en negatief x kunnen dezelfde y geven."
+            "label": "Positief en negatief kunnen dezelfde y geven."
           },
           {
             "id": "no",
@@ -56,7 +56,7 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nBeide geven y = 9 — symmetrie in maanlicht.",
+        "explanation": "Stap 4: het antwoord.\n\nBeide geven y = 9.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
@@ -96,8 +96,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Beide geven y = 9 — symmetrie in maanlicht.",
-      "explanation": "Beide geven y = 9 — symmetrie in maanlicht."
+      "hint2": "Beide geven y = 9.",
+      "explanation": "Beide geven y = 9."
     },
     {
       "id": "groep-8-c31-b2",
@@ -115,8 +115,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Beide geven y = 9 — symmetrie in maanlicht.",
-      "explanation": "Beide geven y = 9 — symmetrie in maanlicht."
+      "hint2": "Beide geven y = 9.",
+      "explanation": "Beide geven y = 9."
     }
   ]
 }

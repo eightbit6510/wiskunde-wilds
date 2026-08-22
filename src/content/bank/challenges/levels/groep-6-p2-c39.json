@@ -1,20 +1,14 @@
 {
-  "id": "groep-6-p2-c39",
-  "type": "text-input",
+  "type": "number-input",
   "topic": "formules",
+  "question": "Stersteen 4: Omtrek 20, breedte 4. Wat is de lengte? (rechthoek)",
+  "answer": 6,
+  "hint1": "2×lengte + 2×4 = 20.",
+  "hint2": "2×lengte = 12 → lengte = 6.",
+  "explanation": "Lengte = 6.",
+  "id": "groep-6-p2-c39",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Stersteen 4: P = 2ℓ + 2b. Geef ℓ in termen van P en b.",
-  "answer": "l=(P-2b)/2",
-  "acceptedAnswers": [
-    "l=(P-2b)/2",
-    "ℓ=(P-2b)/2",
-    "l=P/2-b",
-    "ℓ=P/2-b"
-  ],
-  "hint1": "Trek 2b af, deel door 2.",
-  "hint2": "ℓ = (P − 2b) / 2.",
-  "explanation": "ℓ = (P − 2b) / 2.",
   "classLevels": [
     "groep-6"
   ]

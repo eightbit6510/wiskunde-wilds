@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Bij y = x²: wat is y als x = 3 en als x = −3?"
+            "label": "Wat gebeurt er bij kwadrateren"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\n(−3)² = 9 en 3² = 9.",
+        "explanation": "Stap 2: strategie.\n\nNegatief × negatief = positief.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "(−3)² = 9 en 3² = 9."
+            "label": "Negatief × negatief = positief."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nPositief en negatief x kunnen dezelfde y geven.",
+        "explanation": "Stap 3: uitwerken.\n\nBeide 9.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "Positief en negatief x kunnen dezelfde y geven."
+            "label": "Beide 9."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nBeide geven y = 9 — symmetrie in maanlicht.",
+        "explanation": "Stap 4: het antwoord.\n\nBeide geven 9 — het teken verdwijnt bij kwadrateren.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "Beide keren 9"
+            "label": "Beide geven 9"
           },
           {
             "id": "b",
-            "label": "3 en −3"
+            "label": "Eén is negatief"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: Beide keren 9.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is Beide keren 9."
+        "successFeedback": "Klopt! Antwoord: Beide geven 9.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Beide geven 9."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Beide keren 9"
+    "conclusion": "Pootafdruk! 🐾 Beide geven 9"
   },
   "bonusVariants": [
     {
@@ -84,20 +84,20 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Beide keren 9"
+          "label": "Beide geven 9"
         },
         {
           "id": "b",
-          "label": "3 en −3"
+          "label": "Eén is negatief"
         },
         {
           "id": "c",
-          "label": "0 en 9"
+          "label": "Alleen 3×3 mag"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Beide geven y = 9 — symmetrie in maanlicht.",
-      "explanation": "Beide geven y = 9 — symmetrie in maanlicht."
+      "hint2": "Beide geven 9 — het teken verdwijnt bij kwadrateren.",
+      "explanation": "Beide geven 9 — het teken verdwijnt bij kwadrateren."
     },
     {
       "id": "groep-7-c31-b2",
@@ -107,16 +107,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "Beide keren 9"
+          "label": "Beide geven 9"
         },
         {
           "id": "no",
-          "label": "3 en −3"
+          "label": "Eén is negatief"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Beide geven y = 9 — symmetrie in maanlicht.",
-      "explanation": "Beide geven y = 9 — symmetrie in maanlicht."
+      "hint2": "Beide geven 9 — het teken verdwijnt bij kwadrateren.",
+      "explanation": "Beide geven 9 — het teken verdwijnt bij kwadrateren."
     }
   ]
 }

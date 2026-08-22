@@ -2,7 +2,7 @@
   "challengeId": "groep-8-c08",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Vaste kosten + prijs per stuk.",
+    "intro": "Vaste kosten + prijs per zak.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "€12 vaste kosten plus €4 per zak voer. Welke formule voor totale kost…"
+            "label": "De juiste kostenregel kiezen"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nStartbedrag 12, daarna +4 per zak.",
+        "explanation": "Stap 2: strategie.\n\nStart met 12, daarna +4 per zak.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Startbedrag 12, daarna +4 per zak."
+            "label": "Start met 12, daarna +4 per zak."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\nK = 4z + 12.",
+        "explanation": "Stap 3: uitwerken.\n\nKosten = 4 × z + 12.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "K = 4z + 12."
+            "label": "Kosten = 4 × z + 12."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nK = 4z + 12.",
+        "explanation": "Stap 4: het antwoord.\n\nKosten = 4 × z + 12.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "K = 4z + 12"
+            "label": "Kosten = 4 × z + 12"
           },
           {
             "id": "b",
-            "label": "K = 12z + 4"
+            "label": "Kosten = 12 × z + 4"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: K = 4z + 12.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is K = 4z + 12."
+        "successFeedback": "Klopt! Antwoord: Kosten = 4 × z + 12.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Kosten = 4 × z + 12."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 K = 4z + 12"
+    "conclusion": "Pootafdruk! 🐾 Kosten = 4 × z + 12"
   },
   "bonusVariants": [
     {
@@ -84,24 +84,24 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "K = 12z + 4"
+          "label": "Kosten = 12 × z + 4"
         },
         {
           "id": "b",
-          "label": "K = 4z + 12"
+          "label": "Kosten = 4 × z + 12"
         },
         {
           "id": "c",
-          "label": "K = 12 × 4 × z"
+          "label": "Kosten = 12 × 4 × z"
         },
         {
           "id": "d",
-          "label": "K = 4 + 12 + z"
+          "label": "Kosten = 4 + 12 + z"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "K = 4z + 12.",
-      "explanation": "K = 4z + 12."
+      "hint2": "Kosten = 4 × z + 12.",
+      "explanation": "Kosten = 4 × z + 12."
     },
     {
       "id": "groep-8-c08-b2",
@@ -111,16 +111,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "K = 4z + 12"
+          "label": "Kosten = 4 × z + 12"
         },
         {
           "id": "no",
-          "label": "K = 12z + 4"
+          "label": "Kosten = 12 × z + 4"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "K = 4z + 12.",
-      "explanation": "K = 4z + 12."
+      "hint2": "Kosten = 4 × z + 12.",
+      "explanation": "Kosten = 4 × z + 12."
     }
   ]
 }

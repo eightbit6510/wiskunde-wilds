@@ -1,28 +1,28 @@
 {
-  "id": "groep-8-p2-c02",
   "type": "spot-error",
-  "topic": "algebra",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "Op een boomstam staat: 2(x + 3) = 2x + 3. Waar gaat het mis?",
-  "answer": "bij3",
+  "topic": "formules",
+  "question": "Op een boomstam staat: oppervlakte 6 × 4 = 20. Waar gaat het mis?",
+  "answer": "vermenigvuldig",
   "answerOptions": [
     {
-      "id": "bijx",
-      "label": "Bij de x"
+      "id": "optel",
+      "label": "Bij het optellen van 6 en 4"
     },
     {
-      "id": "bij3",
-      "label": "Bij de +3"
+      "id": "vermenigvuldig",
+      "label": "Bij 6 × 4"
     },
     {
       "id": "geen",
       "label": "Er is geen fout"
     }
   ],
-  "hint1": "Bij haakjes wegwerken moet de factor buiten de haakjes met élke term vermenigvuldigd worden.",
-  "hint2": "Kijk naar: 2(x + 3) = 2x + 3",
-  "explanation": "De fout zat bij de +3 — de factor moet met alle termen vermenigvuldigd worden.",
+  "hint1": "Oppervlakte = lengte × breedte.",
+  "hint2": "6 × 4 = 24, niet 20.",
+  "explanation": "6 × 4 = 24. De vermenigvuldiging klopt niet.",
+  "id": "groep-8-p2-c02",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

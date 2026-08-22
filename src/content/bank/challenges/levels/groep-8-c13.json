@@ -1,14 +1,14 @@
 {
-  "id": "groep-8-c13",
   "type": "number-input",
   "topic": "grafieken",
-  "difficulty": 1,
-  "starsAvailable": 3,
   "question": "y = 2x + 3. Waar raakt de grafiek de y-as? Geef de y-waarde.",
   "answer": 3,
   "hint1": "Op de y-as is x = 0.",
-  "hint2": "Vul x = 0 in: y = 2·0 + 3.",
-  "explanation": "Bij x = 0: y = 3. Dat is het snijpunt met de y-as.",
+  "hint2": "y = 2·0 + 3 = 3.",
+  "explanation": "Snijpunt y-as: y = 3.",
+  "id": "groep-8-c13",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]

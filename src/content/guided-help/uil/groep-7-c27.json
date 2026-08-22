@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Runesteen Grafieken: welke beschrijving past bij y = −x + 4?"
+            "label": "De juiste beschrijving"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: strategie.\n\nHellingsgetal −1 → dalend.",
+        "explanation": "Stap 2: strategie.\n\n−1 betekent dalend.",
         "question": "Welke aanpak past hier?",
         "options": [
           {
             "id": "good",
-            "label": "Hellingsgetal −1 → dalend."
+            "label": "−1 betekent dalend."
           },
           {
             "id": "bad",
@@ -39,12 +39,12 @@
         "retryFeedback": "Lees de tip nog eens. Wat is de eerste echte rekenstap?"
       },
       {
-        "explanation": "Stap 3: uitwerken.\n\n+4 is het snijpunt met de y-as.",
+        "explanation": "Stap 3: uitwerken.\n\nStart 4.",
         "question": "Klopt deze tussenstap / tip?",
         "options": [
           {
             "id": "yes",
-            "label": "+4 is het snijpunt met de y-as."
+            "label": "Start 4."
           },
           {
             "id": "no",
@@ -56,24 +56,24 @@
         "retryFeedback": "Gebruik de tip: werk eerst deze tussenstap af."
       },
       {
-        "explanation": "Stap 4: het antwoord.\n\nDalend met y-as snijpunt 4.",
+        "explanation": "Stap 4: het antwoord.\n\nDalend, start bij 4.",
         "question": "Wat is het juiste antwoord?",
         "options": [
           {
             "id": "a",
-            "label": "Dalend, snijpunt y-as bij 4"
+            "label": "Dalend, start bij 4"
           },
           {
             "id": "b",
-            "label": "Stijgend, snijpunt y-as bij 4"
+            "label": "Stijgend, start bij 4"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Antwoord: Dalend, snijpunt y-as bij 4.",
-        "retryFeedback": "Denk terug aan de tips. Het antwoord is Dalend, snijpunt y-as bij 4."
+        "successFeedback": "Klopt! Antwoord: Dalend, start bij 4.",
+        "retryFeedback": "Denk terug aan de tips. Het antwoord is Dalend, start bij 4."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Dalend, snijpunt y-as bij 4"
+    "conclusion": "Pootafdruk! 🐾 Dalend, start bij 4"
   },
   "bonusVariants": [
     {
@@ -84,24 +84,24 @@
       "answerOptions": [
         {
           "id": "a",
-          "label": "Stijgend, snijpunt y-as bij 4"
+          "label": "Stijgend, start bij 4"
         },
         {
           "id": "b",
-          "label": "Dalend, snijpunt y-as bij 4"
+          "label": "Dalend, start bij 4"
         },
         {
           "id": "c",
-          "label": "Horizontaal op y = 4"
+          "label": "Altijd 4"
         },
         {
           "id": "d",
-          "label": "Door oorsprong, steil omhoog"
+          "label": "Door 0, steil omhoog"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Dalend met y-as snijpunt 4.",
-      "explanation": "Dalend met y-as snijpunt 4."
+      "hint2": "Dalend, start bij 4.",
+      "explanation": "Dalend, start bij 4."
     },
     {
       "id": "groep-7-c27-b2",
@@ -111,16 +111,16 @@
       "answerOptions": [
         {
           "id": "yes",
-          "label": "Dalend, snijpunt y-as bij 4"
+          "label": "Dalend, start bij 4"
         },
         {
           "id": "no",
-          "label": "Stijgend, snijpunt y-as bij 4"
+          "label": "Stijgend, start bij 4"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Dalend met y-as snijpunt 4.",
-      "explanation": "Dalend met y-as snijpunt 4."
+      "hint2": "Dalend, start bij 4.",
+      "explanation": "Dalend, start bij 4."
     }
   ]
 }

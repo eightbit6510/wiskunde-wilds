@@ -1,32 +1,32 @@
 {
-  "id": "groep-8-p2-c07",
   "type": "multiple-choice",
   "topic": "formules",
-  "difficulty": 1,
-  "starsAvailable": 3,
-  "question": "v = s / t. Welke formule geeft s (afstand)?",
+  "question": "Afstand = snelheid × tijd. Welke formule geeft de tijd?",
   "answer": "b",
   "answerOptions": [
     {
       "id": "a",
-      "label": "s = v / t"
+      "label": "tijd = snelheid × afstand"
     },
     {
       "id": "b",
-      "label": "s = v × t"
+      "label": "tijd = afstand ÷ snelheid"
     },
     {
       "id": "c",
-      "label": "s = t / v"
+      "label": "tijd = snelheid ÷ afstand"
     },
     {
       "id": "d",
-      "label": "s = v + t"
+      "label": "tijd = afstand + snelheid"
     }
   ],
-  "hint1": "Vermenigvuldig beide kanten van v = s/t met t.",
-  "hint2": "v · t = s.",
-  "explanation": "s = v × t.",
+  "hint1": "Deel beide kanten door de snelheid.",
+  "hint2": "tijd = afstand ÷ snelheid.",
+  "explanation": "tijd = afstand ÷ snelheid.",
+  "id": "groep-8-p2-c07",
+  "difficulty": 1,
+  "starsAvailable": 3,
   "classLevels": [
     "groep-8"
   ]
