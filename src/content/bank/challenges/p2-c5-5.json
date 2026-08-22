@@ -1,0 +1,13 @@
+{
+  "id": "p2-c5-5",
+  "type": "number-input",
+  "topic": "grafieken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "y = 3x + 2. Voorspel: wat is y als x = 5?",
+  "answer": 17,
+  "hint1": "Vul x = 5 in de formule in.",
+  "hint2": "y = 3·5 + 2 = 15 + 2 = 17.",
+  "optionalWorkedFirstStep": "3 × 5 = 15. 15 + 2 = 17.",
+  "explanation": "y = 17.\n\ny = 3x + 2\nx = 5: y = 3·5 + 2 = 15 + 2 = 17\n\nControle: bij x = 4 was y = 14 (+3) ✓"
+}

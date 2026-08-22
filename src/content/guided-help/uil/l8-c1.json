@@ -1,0 +1,72 @@
+{
+  "challengeId": "l8-c1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Eerst vermenigvuldigen, daarna optellen.",
+    "steps": [
+      {
+        "explanation": "−6 + (−3) × 2.\nEerst (−3) × 2.",
+        "question": "Wat is (−3) × 2?",
+        "options": [
+          {
+            "id": "m6",
+            "label": "−6"
+          },
+          {
+            "id": "6",
+            "label": "6"
+          },
+          {
+            "id": "m5",
+            "label": "−5"
+          }
+        ],
+        "correctAnswer": "m6",
+        "successFeedback": "Juist. Dan: −6 + (−6).",
+        "retryFeedback": "Negatief × positief = negatief."
+      },
+      {
+        "explanation": "−6 + (−6) = ?",
+        "question": "Wat is het eindantwoord?",
+        "options": [
+          {
+            "id": "0",
+            "label": "0"
+          },
+          {
+            "id": "m12",
+            "label": "−12"
+          },
+          {
+            "id": "12",
+            "label": "12"
+          }
+        ],
+        "correctAnswer": "m12",
+        "successFeedback": "Precies: −12.",
+        "retryFeedback": "Twee keer −6 bij elkaar."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 −12"
+  },
+  "bonusVariants": [
+    {
+      "id": "l8c1-b1",
+      "type": "number-input",
+      "question": "Bereken: −4 + (−2) × 3",
+      "answer": -10,
+      "hint1": "Eerst (−2)×3 = −6.",
+      "hint2": "−4 + (−6) = −10.",
+      "explanation": "−10."
+    },
+    {
+      "id": "l8c1-b2",
+      "type": "number-input",
+      "question": "Bereken: 5 + (−4) × 2",
+      "answer": -3,
+      "hint1": "Eerst (−4)×2 = −8.",
+      "hint2": "5 + (−8) = −3.",
+      "explanation": "−3."
+    }
+  ]
+}

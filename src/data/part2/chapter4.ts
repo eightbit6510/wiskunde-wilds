@@ -1,5 +1,6 @@
 import type { Lesson } from '../../types';
 
+/** @deprecated Content gemigreerd naar src/content/ — zie docs/FASE-1.md */
 export const chapter4: Lesson = {
   id: 'paraboolvallei',
   order: 104,

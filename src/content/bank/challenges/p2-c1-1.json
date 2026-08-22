@@ -1,0 +1,61 @@
+{
+  "id": "p2-c1-1",
+  "type": "equation-steps",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: 2x + 6 = 16",
+  "equationSteps": [
+    {
+      "prompt": "Wat doe je eerst om dichter bij x te komen?",
+      "options": [
+        {
+          "id": "plus6",
+          "label": "Beide kanten +6"
+        },
+        {
+          "id": "min6",
+          "label": "Beide kanten −6"
+        },
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten × 2"
+        }
+      ],
+      "correctId": "min6",
+      "resultDisplay": "2x = 10"
+    },
+    {
+      "prompt": "Nu staat er 2x = 10. Wat is de volgende stap?",
+      "options": [
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "min2",
+          "label": "Beide kanten − 2"
+        },
+        {
+          "id": "plus2",
+          "label": "Beide kanten + 2"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten × 2"
+        }
+      ],
+      "correctId": "deel2",
+      "resultDisplay": "x = 5"
+    }
+  ],
+  "answer": 5,
+  "hint1": "Je wilt de +6 wegwerken. Doe aan beide kanten het tegenovergestelde.",
+  "hint2": "Na 2x = 10 deel je beide kanten door 2.",
+  "optionalWorkedFirstStep": "Beide kanten −6: 2x + 6 − 6 = 16 − 6 → 2x = 10.",
+  "explanation": "Goed!\n\n2x + 6 = 16\nBeide kanten −6 → 2x = 10\nBeide kanten ÷ 2 → x = 5\n\nControle: 2·5 + 6 = 16 ✓"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "konijnenhol",
+  "adventureId": "part1",
+  "order": 4,
+  "areaName": "Konijnenhol",
+  "title": "De Breukenbattle",
+  "emoji": "🐇",
+  "intro": "Snel, speels en een beetje common: breuken, machten en wortels in het hol.",
+  "color": "#A67C52",
+  "placements": [
+    {
+      "challengeId": "l4-c1",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "l4-c2",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "l4-c3",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "l4-c4",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "l4-c5",
+      "optionalStory": "De konijnenkoning daagt je uit…",
+      "sortOrder": 4
+    }
+  ]
+}

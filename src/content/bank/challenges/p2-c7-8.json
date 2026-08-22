@@ -1,0 +1,13 @@
+{
+  "id": "p2-c7-8",
+  "type": "true-false",
+  "topic": "verbanden",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Is dit een lineair verband? week: 0,1,2,3 — hoogte: 1,2,4,8",
+  "answer": false,
+  "hint1": "Bij een lineair verband is de toename steeds even groot.",
+  "hint2": "Verschillen: +1, +2, +4 — dat verdubbelt, dus niet lineair.",
+  "optionalWorkedFirstStep": "Bereken de verschillen tussen opeenvolgende hoogtes.",
+  "explanation": "Nee, niet lineair.\n\nDe waarden verdubbelen (1, 2, 4, 8).\nBij lineair zou de stap steeds gelijk zijn."
+}

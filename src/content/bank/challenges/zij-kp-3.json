@@ -1,0 +1,12 @@
+{
+  "id": "zij-kp-3",
+  "type": "number-input",
+  "topic": "grafieken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "y = 2x + 3. Snijpunt y-as?",
+  "answer": 3,
+  "hint1": "x = 0.",
+  "hint2": "y = 3.",
+  "explanation": "Bij x = 0: y = 3."
+}

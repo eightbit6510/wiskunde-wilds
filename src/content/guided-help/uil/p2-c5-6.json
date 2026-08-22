@@ -1,0 +1,76 @@
+{
+  "challengeId": "p2-c5-6",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Lineair: snijpunt y-as = constante term (bij x = 0).",
+    "steps": [
+      {
+        "explanation": "y-as: x = 0.",
+        "question": "Wat vul je in bij y = 2x + 3?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x = 0"
+          },
+          {
+            "id": "b",
+            "label": "y = 0"
+          },
+          {
+            "id": "c",
+            "label": "x = 3"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Op y-as is x altijd 0.",
+        "retryFeedback": "y-as ⇒ x = 0."
+      },
+      {
+        "explanation": "y = 2·0 + 3 = 3.",
+        "question": "Wat is het snijpunt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "y = 3"
+          },
+          {
+            "id": "b",
+            "label": "y = 2"
+          },
+          {
+            "id": "c",
+            "label": "x = 3"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Snijpunt (0, 3). Pootafdruk!",
+        "retryFeedback": "0 + 3 = 3."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 y-as snijpunt = 3."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c5-6-b1",
+      "type": "number-input",
+      "question": "y = 3x − 5. Snijpunt y-as?",
+      "answer": -5,
+      "acceptedAnswers": [
+        -5,
+        "-5"
+      ],
+      "hint1": "x = 0.",
+      "hint2": "y = −5.",
+      "explanation": "Bij x = 0: y = −5."
+    },
+    {
+      "id": "p2c5-6-b2",
+      "type": "number-input",
+      "question": "y = −x + 7. Snijpunt y-as?",
+      "answer": 7,
+      "hint1": "x = 0.",
+      "hint2": "y = 7.",
+      "explanation": "Bij x = 0: y = 7."
+    }
+  ]
+}

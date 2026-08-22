@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c1-2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Haakjes eerst uitwerken — daarna los je het op zoals gewoonlijk.",
+    "steps": [
+      {
+        "explanation": "3(x + 2) betekent: 3 vermenigvuldigen met x én met 2.\n\nDus 3x + 6.",
+        "question": "Wat staat er na het uitwerken van de haakjes?",
+        "options": [
+          {
+            "id": "a",
+            "label": "3x + 6 = 15"
+          },
+          {
+            "id": "b",
+            "label": "3x + 2 = 15"
+          },
+          {
+            "id": "c",
+            "label": "x + 6 = 15"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Goed! 3 × 2 = 6.",
+        "retryFeedback": "De 3 moet ook met de 2 vermenigvuldigd worden."
+      },
+      {
+        "explanation": "Nu: 3x + 6 = 15.\n\nEerst 6 weg, dan delen door 3.",
+        "question": "Wat is x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x = 3"
+          },
+          {
+            "id": "b",
+            "label": "x = 5"
+          },
+          {
+            "id": "c",
+            "label": "x = 9"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! 3x = 9 → x = 3.",
+        "retryFeedback": "Beide kanten −6, daarna ÷ 3."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 3."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c1-2-b1",
+      "type": "number-input",
+      "question": "Los op: 2(x + 3) = 14",
+      "answer": 4,
+      "hint1": "2x + 6 = 14.",
+      "hint2": "2x = 8 → x = 4.",
+      "explanation": "2(x + 3) = 2x + 6 = 14 → x = 4."
+    },
+    {
+      "id": "p2c1-2-b2",
+      "type": "number-input",
+      "question": "Los op: 4(x − 1) = 12",
+      "answer": 4,
+      "hint1": "4x − 4 = 12.",
+      "hint2": "4x = 16 → x = 4.",
+      "explanation": "4(x − 1) = 4x − 4 = 12 → x = 4."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "zij-maansteen",
+  "adventureId": "side",
+  "order": 202,
+  "areaName": "Zijmissie: Maansteen",
+  "title": "Zware steen",
+  "emoji": "🪨",
+  "intro": "Optioneel zijpad — drie pittige opgaven rond de maansteen.",
+  "color": "#3D4A6B",
+  "placements": [
+    {
+      "challengeId": "zij-ms-1",
+      "xpReward": 22,
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "zij-ms-2",
+      "xpReward": 18,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "zij-ms-3",
+      "xpReward": 18,
+      "sortOrder": 2
+    }
+  ]
+}

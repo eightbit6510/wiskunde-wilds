@@ -1,0 +1,13 @@
+{
+  "id": "p2-c1-5",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: 3(x − 2) + 5 = 14. Wat is x?",
+  "answer": 5,
+  "hint1": "Werk eerst de haakjes uit: 3x − 6 + 5 = 14.",
+  "hint2": "3x − 1 = 14 → 3x = 15 → x = 5.",
+  "optionalWorkedFirstStep": "3(x − 2) + 5 = 3x − 6 + 5 = 3x − 1 = 14.",
+  "explanation": "x = 5.\n\n3(x − 2) + 5 = 14\n3x − 6 + 5 = 14\n3x − 1 = 14\n3x = 15\nx = 5\n\nControle: 3(5 − 2) + 5 = 3·3 + 5 = 14 ✓"
+}

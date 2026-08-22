@@ -1,0 +1,63 @@
+{
+  "id": "paraboolvallei",
+  "adventureId": "part2",
+  "order": 104,
+  "areaName": "De Paraboolvallei",
+  "title": "De bocht van de maan",
+  "emoji": "🌙",
+  "intro": "In de vallei tekent maanlicht parabolen in de lucht. y = x² — een nieuwe vorm, geen rechte lijn meer. Ontdek de symmetrie, de verschuivingen en wat er gebeurt als x negatief wordt.",
+  "color": "#5B4A7A",
+  "mapTeaser": "Lijnen buigen omhoog als bogen in de mist…",
+  "placements": [
+    {
+      "challengeId": "p2-c4-1",
+      "xpReward": 25,
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "p2-c4-2",
+      "optionalStory": "De vallei spiegelt zichzelf in het maanlicht.",
+      "xpReward": 25,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "p2-c4-3",
+      "xpReward": 27,
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "p2-c4-4",
+      "optionalStory": "De parabool wordt steiler — alsof de vallei smaller wordt.",
+      "xpReward": 28,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "p2-c4-5",
+      "optionalStory": "De parabool duikt onder nul — maar wat is y bij x = 3?",
+      "xpReward": 28,
+      "sortOrder": 4
+    },
+    {
+      "challengeId": "p2-c4-6",
+      "optionalStory": "Negatief in, positief uit — de vallei draait tekens om.",
+      "xpReward": 25,
+      "sortOrder": 5
+    },
+    {
+      "challengeId": "p2-c4-7",
+      "optionalStory": "Even terug naar rechte lijnen — het Lynx-uitzichtpunt.",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 14,
+      "sortOrder": 6
+    },
+    {
+      "challengeId": "p2-c4-8",
+      "optionalStory": "Een tabel uit het Uilenlab drijft de vallei in.",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 13,
+      "sortOrder": 7
+    }
+  ]
+}

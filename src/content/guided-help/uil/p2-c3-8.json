@@ -1,0 +1,80 @@
+{
+  "challengeId": "p2-c3-8",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Breuken optellen — gelijke noemer maken.",
+    "steps": [
+      {
+        "explanation": "1/2 + 1/3.\n\nNoemers 2 en 3 → kgv = 6.",
+        "question": "Wat is 1/2 met noemer 6?",
+        "options": [
+          {
+            "id": "a",
+            "label": "3/6"
+          },
+          {
+            "id": "b",
+            "label": "2/6"
+          },
+          {
+            "id": "c",
+            "label": "1/6"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "1/2 = 3/6.",
+        "retryFeedback": "× 3 boven en onder."
+      },
+      {
+        "explanation": "1/3 = 2/6.\n\n3/6 + 2/6 = ?",
+        "question": "Wat is het antwoord?",
+        "options": [
+          {
+            "id": "a",
+            "label": "5/6"
+          },
+          {
+            "id": "b",
+            "label": "5/12"
+          },
+          {
+            "id": "c",
+            "label": "1/5"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "3/6 + 2/6 = 5/6. Pootafdruk!",
+        "retryFeedback": "Tel tellers op: 3 + 2 = 5."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 5/6."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c3-8-b1",
+      "type": "text-input",
+      "question": "1/4 + 1/4 = ? (als breuk)",
+      "answer": "1/2",
+      "acceptedAnswers": [
+        "1/2",
+        "2/4"
+      ],
+      "hint1": "Zelfde noemer.",
+      "hint2": "1/4 + 1/4 = 2/4 = 1/2.",
+      "explanation": "1/4 + 1/4 = 2/4 = 1/2."
+    },
+    {
+      "id": "p2c3-8-b2",
+      "type": "text-input",
+      "question": "1/3 + 1/6 = ? (als breuk)",
+      "answer": "1/2",
+      "acceptedAnswers": [
+        "1/2",
+        "3/6"
+      ],
+      "hint1": "1/3 = 2/6.",
+      "hint2": "2/6 + 1/6 = 3/6 = 1/2.",
+      "explanation": "1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2."
+    }
+  ]
+}

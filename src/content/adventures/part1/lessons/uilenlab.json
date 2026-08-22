@@ -1,0 +1,28 @@
+{
+  "id": "uilenlab",
+  "adventureId": "part1",
+  "order": 5,
+  "areaName": "Het Uilenlab",
+  "title": "Het Verbandenlab",
+  "emoji": "🦉",
+  "intro": "Patronen, tabellen en formules onder maanlicht. Niet alles is lineair…",
+  "color": "#7A6B8A",
+  "placements": [
+    {
+      "challengeId": "l5-c1",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "l5-c2",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "l5-c3",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "l5-c4",
+      "sortOrder": 3
+    }
+  ]
+}

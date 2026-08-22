@@ -3,7 +3,7 @@ import { isPart1Complete } from './adventureUnlock';
 import { reconcileLessonCompletion } from './progressSync';
 import { TOPICS, emptyTopicStats } from './storage';
 
-export const PROGRESS_VERSION = 2;
+export const PROGRESS_VERSION = 3;
 
 export type ProgressV2 = ProgressState;
 
@@ -20,6 +20,14 @@ export function migrateProgress(raw: Partial<ProgressState> & { progressVersion?
   const completedLessons = [...(raw.completedLessons ?? [])];
   const part1Done = isPart1Complete({ completedLessons });
 
+  const helpUsed = raw.guidedHelpUsedCount ?? raw.owlHelpUsedCount ?? 0;
+  const helpChallenges = raw.guidedHelpChallenges?.length
+    ? [...raw.guidedHelpChallenges]
+    : [...(raw.owlHelpChallenges ?? [])];
+  const starsSpent = raw.guidedStarsSpent ?? raw.owlStarsSpent ?? 0;
+  const bonusTried = raw.guidedBonusTried ?? raw.owlBonusTried ?? 0;
+  const bonusSolved = raw.guidedBonusSolved ?? raw.owlBonusSolved ?? 0;
+
   const base: ProgressState = {
     adventureStarted: raw.adventureStarted ?? false,
     completedLessons,
@@ -34,11 +42,16 @@ export function migrateProgress(raw: Partial<ProgressState> & { progressVersion?
     bestSessionStreak: raw.bestSessionStreak ?? 0,
     unlockedBadges: [...(raw.unlockedBadges ?? [])],
     lastPlayedAt: raw.lastPlayedAt ?? null,
-    owlHelpUsedCount: raw.owlHelpUsedCount ?? 0,
-    owlHelpChallenges: [...(raw.owlHelpChallenges ?? [])],
-    owlStarsSpent: raw.owlStarsSpent ?? 0,
-    owlBonusTried: raw.owlBonusTried ?? 0,
-    owlBonusSolved: raw.owlBonusSolved ?? 0,
+    owlHelpUsedCount: helpUsed,
+    owlHelpChallenges: helpChallenges,
+    owlStarsSpent: starsSpent,
+    owlBonusTried: bonusTried,
+    owlBonusSolved: bonusSolved,
+    guidedHelpUsedCount: helpUsed,
+    guidedHelpChallenges: helpChallenges,
+    guidedStarsSpent: starsSpent,
+    guidedBonusTried: bonusTried,
+    guidedBonusSolved: bonusSolved,
     progressVersion: PROGRESS_VERSION,
     part2Unlocked: raw.part2Unlocked ?? part1Done,
     part2UnlockSeen: raw.part2UnlockSeen ?? false,

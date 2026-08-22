@@ -1,0 +1,12 @@
+{
+  "id": "zij-up-1",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: 3(x + 2) = 18. Wat is x?",
+  "answer": 4,
+  "hint1": "3x + 6 = 18.",
+  "hint2": "3x = 12 → x = 4.",
+  "explanation": "3(x + 2) = 18 → 3x + 6 = 18 → x = 4."
+}

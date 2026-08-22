@@ -1,0 +1,31 @@
+{
+  "id": "p2-c5-4",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Welke formule hoort bij een lijn die door (0, 1) gaat en bij elke stap in x met 3 stijgt?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "y = 3x + 1"
+    },
+    {
+      "id": "b",
+      "label": "y = x + 3"
+    },
+    {
+      "id": "c",
+      "label": "y = 3x"
+    },
+    {
+      "id": "d",
+      "label": "y = x + 1"
+    }
+  ],
+  "answer": "a",
+  "hint1": "Start bij (0, 1) → constante term is 1.",
+  "hint2": "Stijging +3 per stap → helling 3. Formule: y = 3x + 1.",
+  "optionalWorkedFirstStep": "Start y=1 bij x=0. Helling 3.",
+  "explanation": "y = 3x + 1.\n\nStart (0, 1) → +1\nHelling 3 → 3x\nControle x = 2: y = 6 + 1 = 7 ✓"
+}

@@ -1,0 +1,72 @@
+{
+  "challengeId": "l8-c10",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We lossen de sommen op voor de letters.",
+    "steps": [
+      {
+        "explanation": "√36 − 1. Eerst √36 = 6.",
+        "question": "Wat is 6 − 1?",
+        "options": [
+          {
+            "id": "5",
+            "label": "5"
+          },
+          {
+            "id": "7",
+            "label": "7"
+          },
+          {
+            "id": "35",
+            "label": "35"
+          }
+        ],
+        "correctAnswer": "5",
+        "successFeedback": "Juist → letter W.",
+        "retryFeedback": "6 − 1 = 5."
+      },
+      {
+        "explanation": "2² + 3 = 4 + 3 = 7 → I\n15 ÷ 5 + 1 = 4 → L\n−2 + 8 − 3 = 3 → D",
+        "question": "Welk woord vormen W, I, L, D?",
+        "options": [
+          {
+            "id": "wild",
+            "label": "WILD"
+          },
+          {
+            "id": "wind",
+            "label": "WIND"
+          },
+          {
+            "id": "weld",
+            "label": "WELD"
+          }
+        ],
+        "correctAnswer": "wild",
+        "successFeedback": "De tempel opent: WILD!",
+        "retryFeedback": "Letters in volgorde van de sommen."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 WILD"
+  },
+  "bonusVariants": [
+    {
+      "id": "l8c10-b1",
+      "type": "number-input",
+      "question": "Bereken: √25 + 2",
+      "answer": 7,
+      "hint1": "√25 = 5.",
+      "hint2": "5 + 2 = 7.",
+      "explanation": "7."
+    },
+    {
+      "id": "l8c10-b2",
+      "type": "number-input",
+      "question": "Bereken: 3² − 1",
+      "answer": 8,
+      "hint1": "3² = 9.",
+      "hint2": "9 − 1 = 8.",
+      "explanation": "8."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "part2",
+  "title": "Wiskunde Wilds II",
+  "subtitle": "Het Verborgen Gebied",
+  "theme": "night",
+  "helpPersonaId": "detective",
+  "lessonIds": [
+    "schaduwgrot",
+    "ravenpad",
+    "rivier",
+    "paraboolvallei",
+    "observatorium",
+    "runenruines",
+    "doolhof",
+    "nachtmissie"
+  ],
+  "sideMissionIds": [
+    "zij-vossenhol",
+    "zij-maansteen",
+    "zij-uilenproef",
+    "zij-konijnenpad"
+  ],
+  "unlockRuleId": "part1-complete"
+}

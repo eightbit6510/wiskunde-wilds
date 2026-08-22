@@ -1,0 +1,13 @@
+{
+  "id": "p2-c2-1",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "De oppervlakte van een rechthoek is A = b × h. Als A = 48 m² en b = 6 m, wat is h? (in meters)",
+  "answer": 8,
+  "hint1": "Maak h vrij: h = A ÷ b.",
+  "hint2": "h = 48 ÷ 6 = 8.",
+  "optionalWorkedFirstStep": "h = A / b = 48 / 6.",
+  "explanation": "h = 8 m.\n\nA = b × h\n48 = 6 × h\nh = 48 ÷ 6 = 8\n\nControle: 6 × 8 = 48 ✓"
+}

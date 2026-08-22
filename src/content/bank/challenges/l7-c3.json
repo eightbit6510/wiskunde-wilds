@@ -1,0 +1,13 @@
+{
+  "id": "l7-c3",
+  "type": "number-input",
+  "topic": "kwadratisch",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is (−4)²?",
+  "answer": 16,
+  "hint1": "Negatief × negatief = positief.",
+  "hint2": "(−4) × (−4) = 16.",
+  "optionalWorkedFirstStep": "Een kwadraat is altijd ≥ 0 (voor reële getallen).",
+  "explanation": "(−4)² = 16.\n\nLet op: −4² betekent −(4²) = −16. Haakjes maken het verschil!"
+}

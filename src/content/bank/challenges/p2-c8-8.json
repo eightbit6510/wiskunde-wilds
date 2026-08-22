@@ -1,0 +1,35 @@
+{
+  "id": "p2-c8-8",
+  "type": "boss-battle",
+  "topic": "redeneren",
+  "difficulty": 3,
+  "starsAvailable": 3,
+  "question": "Finale! Drie laatste vragen — daarna verschijnt het Maanpoot-symbool.",
+  "bossQuestions": [
+    {
+      "id": "bb1",
+      "question": "Waar snijden y = 2x + 3 en y = x + 7? Geef x.",
+      "type": "number-input",
+      "correctAnswer": 4,
+      "explanation": "2x + 3 = x + 7 → x = 4. Snijpunt (4, 11)."
+    },
+    {
+      "id": "bb2",
+      "question": "2³ × 2² = ?",
+      "type": "number-input",
+      "correctAnswer": 32,
+      "explanation": "2³ × 2² = 2⁵ = 32."
+    },
+    {
+      "id": "bb3",
+      "question": "Reeks 3, 7, 11, 15. Volgende getal?",
+      "type": "number-input",
+      "correctAnswer": 19,
+      "explanation": "Stap +4 → 19."
+    }
+  ],
+  "hint1": "Vraag 1: stel y gelijk. Vraag 2: exponenten optellen. Vraag 3: verschil +4.",
+  "hint2": "x = 4, 2⁵ = 32, volgende = 19.",
+  "optionalWorkedFirstStep": "Snijpunt: 2x + 3 = x + 7.",
+  "explanation": "De Maanpoot is vrij!\n\nSnijpunt x = 4\n2³ × 2² = 32\nVolgende getal = 19\n\n🌕 Het symbool gloeit — Part 2 voltooid!"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "zij-uilenproef",
+  "adventureId": "side",
+  "order": 203,
+  "areaName": "Zijmissie: Uilenproef",
+  "title": "Mix herhaling",
+  "emoji": "🦉",
+  "intro": "Optioneel zijpad — herhaal zwakke onderwerpen: algebra en formules.",
+  "color": "#5C4A6B",
+  "placements": [
+    {
+      "challengeId": "zij-up-1",
+      "xpReward": 15,
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "zij-up-2",
+      "xpReward": 15,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "zij-up-3",
+      "xpReward": 15,
+      "sortOrder": 2
+    }
+  ]
+}

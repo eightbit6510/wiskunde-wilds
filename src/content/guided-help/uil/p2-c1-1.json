@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c1-1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Dit pootafdruk herken je! We werken stap voor stap naar x.",
+    "steps": [
+      {
+        "explanation": "Er staat 2x + 6 = 16.\n\nDe +6 maakt het lastig om x alleen te krijgen.",
+        "question": "Wat doe je eerst?",
+        "options": [
+          {
+            "id": "min6",
+            "label": "Beide kanten −6"
+          },
+          {
+            "id": "plus6",
+            "label": "Beide kanten +6"
+          },
+          {
+            "id": "deel2",
+            "label": "Beide kanten ÷ 2"
+          }
+        ],
+        "correctAnswer": "min6",
+        "successFeedback": "Juist! Dan wordt het 2x = 10.",
+        "retryFeedback": "Haal de +6 weg met −6 aan beide kanten."
+      },
+      {
+        "explanation": "Nu staat er 2x = 10.\n\nx staat nog steeds vermenigvuldigd met 2.",
+        "question": "Hoe krijg je x alleen?",
+        "options": [
+          {
+            "id": "deel2",
+            "label": "Beide kanten ÷ 2"
+          },
+          {
+            "id": "min2",
+            "label": "Beide kanten − 2"
+          },
+          {
+            "id": "keer2",
+            "label": "Beide kanten × 2"
+          }
+        ],
+        "correctAnswer": "deel2",
+        "successFeedback": "Precies! x = 5.",
+        "retryFeedback": "Deel beide kanten door 2."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 5. Controle: 2·5 + 6 = 16."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c1-1-b1",
+      "type": "number-input",
+      "question": "Los op: 3x + 4 = 19",
+      "answer": 5,
+      "hint1": "Eerst −4 aan beide kanten.",
+      "hint2": "3x = 15 → x = 5.",
+      "explanation": "3x + 4 = 19 → 3x = 15 → x = 5."
+    },
+    {
+      "id": "p2c1-1-b2",
+      "type": "number-input",
+      "question": "Los op: 4x + 1 = 21",
+      "answer": 5,
+      "hint1": "Beide kanten −1.",
+      "hint2": "4x = 20 → x = 5.",
+      "explanation": "4x + 1 = 21 → 4x = 20 → x = 5."
+    }
+  ]
+}

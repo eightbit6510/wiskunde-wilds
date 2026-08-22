@@ -1,0 +1,100 @@
+{
+  "challengeId": "l7-c2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. +2 verschuift de hele grafiek.",
+    "steps": [
+      {
+        "explanation": "Bij x = 0: x² = 0, maar x² + 2 = 2.",
+        "question": "Wat gebeurt er met het laagste punt?",
+        "options": [
+          {
+            "id": "up",
+            "label": "Het schuift 2 omhoog"
+          },
+          {
+            "id": "right",
+            "label": "Het schuift 2 naar rechts"
+          },
+          {
+            "id": "down",
+            "label": "Het schuift 2 omlaag"
+          }
+        ],
+        "correctAnswer": "up",
+        "successFeedback": "Juist. Elke y krijgt +2.",
+        "retryFeedback": "Vergelijk y(0) voor beide formules."
+      },
+      {
+        "explanation": "De vorm blijft een U, alleen hoger.",
+        "question": "Wat gebeurt er bij y = x² + 2 t.o.v. y = x²?",
+        "options": [
+          {
+            "id": "a",
+            "label": "De grafiek schuift 2 omhoog"
+          },
+          {
+            "id": "b",
+            "label": "De grafiek wordt een rechte lijn"
+          },
+          {
+            "id": "c",
+            "label": "Alle y-waarden worden kleiner"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies: 2 omhoog.",
+        "retryFeedback": "+2 bij y = omhoog schuiven."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Schuif omhoog."
+  },
+  "bonusVariants": [
+    {
+      "id": "l7c2-b1",
+      "type": "multiple-choice",
+      "question": "Wat doet y = x² − 3 t.o.v. y = x²?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "3 omhoog"
+        },
+        {
+          "id": "b",
+          "label": "3 omlaag"
+        },
+        {
+          "id": "c",
+          "label": "3 naar links"
+        }
+      ],
+      "hint1": "Min 3 bij y.",
+      "hint2": "Omlaag.",
+      "explanation": "De grafiek schuift 3 omlaag."
+    },
+    {
+      "id": "l7c2-b2",
+      "type": "multiple-choice",
+      "question": "Bij y = x² + 5, wat is y als x = 0?",
+      "answer": "c",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
+      ],
+      "hint1": "0² + 5.",
+      "hint2": "5.",
+      "explanation": "y = 5."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "zij-up-3",
+  "type": "multiple-choice",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "v = s / t. Welke formule geeft t?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "t = v × s"
+    },
+    {
+      "id": "b",
+      "label": "t = s / v"
+    },
+    {
+      "id": "c",
+      "label": "t = v / s"
+    },
+    {
+      "id": "d",
+      "label": "t = s × v"
+    }
+  ],
+  "answer": "b",
+  "hint1": "Vermenigvuldig met t, deel door v.",
+  "hint2": "t = s / v.",
+  "explanation": "v = s/t → t = s/v."
+}

@@ -1,0 +1,100 @@
+{
+  "challengeId": "l4-c3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Reken beide machten gewoon uit.",
+    "steps": [
+      {
+        "explanation": "2⁵ = 2×2×2×2×2.",
+        "question": "Wat is 2⁵?",
+        "options": [
+          {
+            "id": "10",
+            "label": "10"
+          },
+          {
+            "id": "32",
+            "label": "32"
+          },
+          {
+            "id": "25",
+            "label": "25"
+          }
+        ],
+        "correctAnswer": "32",
+        "successFeedback": "Juist: 32.",
+        "retryFeedback": "Blijf verdubbelen: 2,4,8,16,32."
+      },
+      {
+        "explanation": "5² = 5×5 = 25.\nVergelijk 32 en 25.",
+        "question": "Wat is groter?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2⁵"
+          },
+          {
+            "id": "b",
+            "label": "5²"
+          },
+          {
+            "id": "eq",
+            "label": "Even groot"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies. 32 > 25.",
+        "retryFeedback": "32 versus 25."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 2⁵ is groter."
+  },
+  "bonusVariants": [
+    {
+      "id": "l4c3-b1",
+      "type": "multiple-choice",
+      "question": "Wat is groter: 3⁴ of 4³?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "3⁴"
+        },
+        {
+          "id": "b",
+          "label": "4³"
+        },
+        {
+          "id": "c",
+          "label": "Even groot"
+        }
+      ],
+      "hint1": "3⁴ = 81, 4³ = 64.",
+      "hint2": "3⁴ is groter.",
+      "explanation": "81 > 64."
+    },
+    {
+      "id": "l4c3-b2",
+      "type": "multiple-choice",
+      "question": "Wat is groter: 2⁶ of 6²?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "2⁶"
+        },
+        {
+          "id": "b",
+          "label": "6²"
+        },
+        {
+          "id": "c",
+          "label": "Even groot"
+        }
+      ],
+      "hint1": "2⁶ = 64, 6² = 36.",
+      "hint2": "2⁶ is groter.",
+      "explanation": "64 > 36."
+    }
+  ]
+}

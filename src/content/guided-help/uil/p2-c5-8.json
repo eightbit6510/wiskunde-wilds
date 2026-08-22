@@ -1,0 +1,86 @@
+{
+  "challengeId": "p2-c5-8",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Stijgend = vergelijk hellingsgetallen, niet startwaarden.",
+    "steps": [
+      {
+        "explanation": "y = x + 4 → helling 1\ny = 3x + 1 → helling 3\ny = 2x + 5 → helling 2",
+        "question": "Welk hellingsgetal is het grootst?",
+        "options": [
+          {
+            "id": "a",
+            "label": "3"
+          },
+          {
+            "id": "b",
+            "label": "1"
+          },
+          {
+            "id": "c",
+            "label": "2"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Helling 3 is het grootst.",
+        "retryFeedback": "Kijk naar het getal bij x."
+      },
+      {
+        "explanation": "Grootste helling = stijgst stijgende lijn.",
+        "question": "Welke lijn is het stijgst?",
+        "options": [
+          {
+            "id": "a",
+            "label": "y = x + 4"
+          },
+          {
+            "id": "b",
+            "label": "y = 3x + 1"
+          },
+          {
+            "id": "c",
+            "label": "y = 2x + 5"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "y = 3x + 1. Helling 3 wint!",
+        "retryFeedback": "Zoek helling 3."
+      }
+    ],
+    "conclusion": "y = 3x + 1 stijgt het snelst. Helling telt!"
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c5-8-b1",
+      "type": "multiple-choice",
+      "question": "Welke lijn daalt het snelst?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = −4x + 10"
+        },
+        {
+          "id": "b",
+          "label": "y = −x + 5"
+        },
+        {
+          "id": "c",
+          "label": "y = −2x + 8"
+        }
+      ],
+      "hint1": "Meest negatieve helling = snelst dalend.",
+      "hint2": "−4 < −2 < −1.",
+      "explanation": "Helling −4 is het meest negatief → snelst dalend."
+    },
+    {
+      "id": "p2c5-8-b2",
+      "type": "number-input",
+      "question": "y = 2x + 3 en y = x + 7. Wat is y op het snijpunt?",
+      "answer": 11,
+      "hint1": "x = 4.",
+      "hint2": "y = 2·4 + 3 = 11.",
+      "explanation": "Snijpunt (4, 11). y = 11."
+    }
+  ]
+}

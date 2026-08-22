@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c7-1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Lineaire reeks: verschil tussen opeenvolgende termen is constant.",
+    "steps": [
+      {
+        "explanation": "7 − 3 = 4 en 11 − 7 = 4.",
+        "question": "Wat is het stapverschil?",
+        "options": [
+          {
+            "id": "a",
+            "label": "+4"
+          },
+          {
+            "id": "b",
+            "label": "+3"
+          },
+          {
+            "id": "c",
+            "label": "×2"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Stap +4 elke keer.",
+        "retryFeedback": "Tel verschillen: 4, 4, 4."
+      },
+      {
+        "explanation": "15 + 4 = 19.",
+        "question": "Volgende getal?",
+        "options": [
+          {
+            "id": "a",
+            "label": "19"
+          },
+          {
+            "id": "b",
+            "label": "18"
+          },
+          {
+            "id": "c",
+            "label": "20"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "19. Patroon doorgezet!",
+        "retryFeedback": "15 + 4."
+      }
+    ],
+    "conclusion": "Volgende getal = 19. Constant verschil +4."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c7-1-b1",
+      "type": "number-input",
+      "question": "Reeks: 5, 9, 13, 17, … Volgende getal?",
+      "answer": 21,
+      "hint1": "Stap +4.",
+      "hint2": "17 + 4 = 21.",
+      "explanation": "Stap +4 → 21."
+    },
+    {
+      "id": "p2c7-1-b2",
+      "type": "number-input",
+      "question": "Reeks: 2, 6, 10, 14, … Volgende getal?",
+      "answer": 18,
+      "hint1": "Stap +4.",
+      "hint2": "14 + 4 = 18.",
+      "explanation": "14 + 4 = 18."
+    }
+  ]
+}

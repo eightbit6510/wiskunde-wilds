@@ -1,0 +1,13 @@
+{
+  "id": "p2-c6-8",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Bereken 2² × 2³ × 2¹. (geef het gewone getal)",
+  "answer": 64,
+  "hint1": "2² × 2³ × 2¹ = 2²⁺³⁺¹ = 2⁶.",
+  "hint2": "2⁶ = 64.",
+  "optionalWorkedFirstStep": "Exponenten: 2 + 3 + 1 = 6. 2⁶ = 64.",
+  "explanation": "64.\n\n2² × 2³ × 2¹ = 2⁶ = 64\n\nExponenten optellen: 2 + 3 + 1 = 6"
+}

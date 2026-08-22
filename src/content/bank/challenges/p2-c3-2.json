@@ -1,0 +1,13 @@
+{
+  "id": "p2-c3-2",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Het aantal vissen in de rivier groeide van 80 naar 92. Met hoeveel procent is dat toegenomen? (geheel getal)",
+  "answer": 15,
+  "hint1": "Toename = 92 − 80 = 12.",
+  "hint2": "Percentage = 12 / 80 × 100 = 15%.",
+  "optionalWorkedFirstStep": "Toename: 12. Percentage: 12/80 = 0,15 = 15%.",
+  "explanation": "15%.\n\nToename: 92 − 80 = 12\nPercentage: 12 / 80 × 100 = 15%\n\nControle: 80 × 1,15 = 92 ✓"
+}

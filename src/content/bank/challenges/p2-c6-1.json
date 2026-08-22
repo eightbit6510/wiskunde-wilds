@@ -1,0 +1,31 @@
+{
+  "id": "p2-c6-1",
+  "type": "multiple-choice",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Bereken 2³ × 2². Welk patroon zie je?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "2⁵ = 32 (exponenten optellen)"
+    },
+    {
+      "id": "b",
+      "label": "2⁶ = 64 (exponenten vermenigvuldigen)"
+    },
+    {
+      "id": "c",
+      "label": "4⁵ = 1024"
+    },
+    {
+      "id": "d",
+      "label": "2¹ = 2"
+    }
+  ],
+  "answer": "a",
+  "hint1": "2³ = 8 en 2² = 4.",
+  "hint2": "8 × 4 = 32 = 2⁵. Exponenten: 3 + 2 = 5.",
+  "optionalWorkedFirstStep": "2³ × 2² = 8 × 4 = 32. En 2⁵ = 32.",
+  "explanation": "2³ × 2² = 2⁵ = 32.\n\nZelfde grondtal → exponenten optellen:\n3 + 2 = 5\n\nControle: 8 × 4 = 32 ✓"
+}

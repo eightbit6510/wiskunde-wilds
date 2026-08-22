@@ -1,0 +1,66 @@
+{
+  "id": "schaduwgrot",
+  "adventureId": "part2",
+  "order": 101,
+  "areaName": "De Schaduwgrot",
+  "title": "Echo’s in het donker",
+  "emoji": "🌑",
+  "intro": "Diep in de Schaduwgrot flikkeren gloeiwormen boven vergelijkingen op de rotswand. x en y zijn hier geen letters meer — het zijn sporen in het donker. Los ze op voordat de grot je verder meeneemt.",
+  "color": "#3D4A6B",
+  "outroStory": "De grot opent aan de andere kant. Op een tak zit een raaf. Hij laat iets vallen — een stukje kaart.",
+  "mapTeaser": "Vergelijkingen fluisteren vanaf de grotwand…",
+  "placements": [
+    {
+      "challengeId": "p2-c1-1",
+      "optionalStory": "Op de rots zie je een oud pootafdruk — dit soort vergelijkingen ken je al uit het Vossenwoud.",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 14,
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "p2-c1-2",
+      "optionalStory": "Nog een spoor uit het Vossenwoud — haakjes wegwerken en dan verder.",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 13,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "p2-c1-3",
+      "optionalStory": "Twee x-termen in één vergelijking — de grot fluistert: breng alles met x naar één kant.",
+      "xpReward": 28,
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "p2-c1-4",
+      "optionalStory": "Een tweede haakjes-spoor gloeit dieper in de grot.",
+      "xpReward": 27,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "p2-c1-5",
+      "optionalStory": "Drie lagen in één spoor: haakjes, optellen, en dan x vrijmaken.",
+      "xpReward": 30,
+      "sortOrder": 4
+    },
+    {
+      "challengeId": "p2-c1-6",
+      "optionalStory": "De x staat achter een minteken — pas op met je tekens!",
+      "xpReward": 28,
+      "sortOrder": 5
+    },
+    {
+      "challengeId": "p2-c1-7",
+      "optionalStory": "Op de muur staat een oude algebra-regel. Is die altijd waar?",
+      "xpReward": 25,
+      "sortOrder": 6
+    },
+    {
+      "challengeId": "p2-c1-8",
+      "optionalStory": "Drie gloeisporen, drie antwoorden — wie heeft de grot door?",
+      "xpReward": 40,
+      "sortOrder": 7
+    }
+  ]
+}

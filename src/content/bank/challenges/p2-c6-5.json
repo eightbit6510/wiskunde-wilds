@@ -1,0 +1,13 @@
+{
+  "id": "p2-c6-5",
+  "type": "true-false",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Klopt dit? “5⁴ ÷ 5² = 5²”",
+  "answer": true,
+  "hint1": "5⁴ = 625 en 5² = 25.",
+  "hint2": "625 ÷ 25 = 25 = 5². Exponenten: 4 − 2 = 2.",
+  "optionalWorkedFirstStep": "5⁴ ÷ 5² = 5⁴⁻² = 5².",
+  "explanation": "Ja, dat klopt!\n\n5⁴ ÷ 5² = 5⁴⁻² = 5² = 25\n\nZelfde grondtal delen → exponenten aftrekken."
+}

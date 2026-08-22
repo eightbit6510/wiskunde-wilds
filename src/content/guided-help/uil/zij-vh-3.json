@@ -1,0 +1,42 @@
+{
+  "challengeId": "zij-vh-3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Twee stappen: constante weg, dan delen.",
+    "steps": [
+      {
+        "explanation": "2x + 3 = 13 → 2x = 10.",
+        "question": "Wat is x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "5"
+          },
+          {
+            "id": "b",
+            "label": "10"
+          },
+          {
+            "id": "c",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "x = 5.",
+        "retryFeedback": "10 ÷ 2."
+      }
+    ],
+    "conclusion": "x = 5."
+  },
+  "bonusVariants": [
+    {
+      "id": "zij-vh-3-b1",
+      "type": "number-input",
+      "question": "Los op: 3x + 2 = 14",
+      "answer": 4,
+      "hint1": "3x = 12.",
+      "hint2": "x = 4.",
+      "explanation": "3x = 12 → x = 4."
+    }
+  ]
+}

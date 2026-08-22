@@ -1307,26 +1307,31 @@ html[data-animations='false'] .badge-confetti {
   }
 }
 
-/* —— Uilenhulp —— */
+/* —— Uilenhulp / guided help (Fase 2) —— */
+.guided-help-row,
 .owl-help-row {
   margin-top: 0.85rem;
   display: flex;
   justify-content: flex-start;
 }
 
+.guided-help-btn,
 .owl-help-btn {
   font-weight: 700;
 }
 
+.guided-help-modal-backdrop,
 .owl-modal-backdrop {
   z-index: 60;
 }
 
+.guided-help-confirm-card,
 .owl-confirm-card {
   width: min(440px, 100%);
   text-align: center;
 }
 
+.guided-help-panel,
 .owl-help-panel {
   width: min(720px, 100%);
   max-height: min(90vh, 860px);
@@ -1340,6 +1345,18 @@ html[data-animations='false'] .badge-confetti {
   box-shadow: var(--shadow);
 }
 
+.persona-detective .guided-help-panel {
+  background:
+    radial-gradient(circle at 12% 0%, rgba(113, 128, 150, 0.28), transparent 42%),
+    var(--surface-solid);
+}
+
+.persona-detective .guided-help-speech {
+  background: rgba(203, 213, 224, 0.45);
+  border-left-color: #4a5568;
+}
+
+.guided-help-header,
 .owl-help-header {
   display: flex;
   justify-content: space-between;
@@ -1349,11 +1366,13 @@ html[data-animations='false'] .badge-confetti {
   margin-bottom: 1rem;
 }
 
+.guided-help-body,
 .owl-help-body {
   display: grid;
   gap: 0.85rem;
 }
 
+.guided-help-speech,
 .owl-speech {
   padding: 0.9rem 1rem;
   border-radius: var(--radius-sm);
@@ -1362,6 +1381,7 @@ html[data-animations='false'] .badge-confetti {
   white-space: pre-wrap;
 }
 
+.guided-help-modal-actions,
 .owl-modal-actions {
   display: flex;
   flex-wrap: wrap;
@@ -1370,23 +1390,30 @@ html[data-animations='false'] .badge-confetti {
   margin-top: 1.15rem;
 }
 
+.guided-help-cost-note,
 .owl-cost-note {
   font-weight: 700;
   color: var(--forest-deep);
 }
 
+.guided-help-divider,
 .owl-divider {
   border: none;
   border-top: 1px solid var(--border);
   margin: 1.1rem 0;
 }
 
+.guided-help-bonus-card,
 .owl-bonus-card {
   margin-top: 1rem;
   border: 2px solid rgba(184, 164, 212, 0.55);
 }
 
-@keyframes owlEnter {
+.persona-detective .guided-help-bonus-card {
+  border-color: rgba(113, 128, 150, 0.45);
+}
+
+@keyframes guidedHelpEnter {
   from {
     opacity: 0;
     transform: translateY(12px) scale(0.98);
@@ -1397,10 +1424,13 @@ html[data-animations='false'] .badge-confetti {
   }
 }
 
+.guided-help-enter,
 .owl-enter {
-  animation: owlEnter 380ms ease;
+  animation: guidedHelpEnter 380ms ease;
 }
 
+html[data-calm='true'] .guided-help-enter,
+html[data-animations='false'] .guided-help-enter,
 html[data-calm='true'] .owl-enter,
 html[data-animations='false'] .owl-enter {
   animation: none !important;

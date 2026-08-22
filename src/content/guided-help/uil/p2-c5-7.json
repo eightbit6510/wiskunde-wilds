@@ -1,0 +1,100 @@
+{
+  "challengeId": "p2-c5-7",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Lineair patroon: hellingsgetal + startwaarde.",
+    "steps": [
+      {
+        "explanation": "y stijgt steeds met 2 als x +1 wordt.",
+        "question": "Wat is het hellingsgetal?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2"
+          },
+          {
+            "id": "b",
+            "label": "3"
+          },
+          {
+            "id": "c",
+            "label": "1"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Stapgrootte = 2 = hellingsgetal.",
+        "retryFeedback": "5 − 3 = 2."
+      },
+      {
+        "explanation": "Bij x = 0 is y = 3. Formule: y = 2x + 3.",
+        "question": "Welke formule klopt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "y = x + 3"
+          },
+          {
+            "id": "b",
+            "label": "y = 2x + 3"
+          },
+          {
+            "id": "c",
+            "label": "y = 3x"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "y = 2x + 3. Pootafdruk!",
+        "retryFeedback": "Helling 2, start 3."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 y = 2x + 3."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c5-7-b1",
+      "type": "multiple-choice",
+      "question": "Tabel: (0,5)(1,8)(2,11). Welke formule?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 3x + 5"
+        },
+        {
+          "id": "b",
+          "label": "y = 5x + 3"
+        },
+        {
+          "id": "c",
+          "label": "y = 2x + 5"
+        }
+      ],
+      "hint1": "Stap +3, start 5.",
+      "hint2": "y = 3x + 5.",
+      "explanation": "Helling 3, start 5 → y = 3x + 5."
+    },
+    {
+      "id": "p2c5-7-b2",
+      "type": "multiple-choice",
+      "question": "Tabel: (0,4)(1,6)(2,8). Welke formule?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = x + 4"
+        },
+        {
+          "id": "b",
+          "label": "y = 2x + 4"
+        },
+        {
+          "id": "c",
+          "label": "y = 4x + 2"
+        }
+      ],
+      "hint1": "Stap +2, start 4.",
+      "hint2": "y = 2x + 4.",
+      "explanation": "y = 2x + 4."
+    }
+  ]
+}

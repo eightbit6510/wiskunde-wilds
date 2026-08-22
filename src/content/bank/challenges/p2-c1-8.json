@@ -1,0 +1,31 @@
+{
+  "id": "p2-c1-8",
+  "type": "multiple-choice",
+  "topic": "redeneren",
+  "difficulty": 3,
+  "starsAvailable": 3,
+  "question": "Drie leerlingen lossen 4x − 3 = 2x + 9 op. Wie heeft gelijk?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Amber: x = 6"
+    },
+    {
+      "id": "b",
+      "label": "Bram: x = 3"
+    },
+    {
+      "id": "c",
+      "label": "Cleo: x = 12"
+    },
+    {
+      "id": "d",
+      "label": "Niemand"
+    }
+  ],
+  "answer": "a",
+  "hint1": "Beide kanten − 2x: 2x − 3 = 9.",
+  "hint2": "2x = 12 → x = 6. Controle: 4·6 − 3 = 21 en 2·6 + 9 = 21.",
+  "optionalWorkedFirstStep": "4x − 3 = 2x + 9 → 2x − 3 = 9 → 2x = 12.",
+  "explanation": "Amber heeft gelijk: x = 6.\n\n4x − 3 = 2x + 9\n2x − 3 = 9\n2x = 12\nx = 6\n\nControle: 4·6 − 3 = 21 ✓ en 2·6 + 9 = 21 ✓"
+}

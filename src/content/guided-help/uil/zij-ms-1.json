@@ -1,0 +1,63 @@
+{
+  "challengeId": "zij-ms-1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "x aan beide kanten — eerst x-termen samen.",
+    "steps": [
+      {
+        "explanation": "4x − 3 = 2x + 9.",
+        "question": "Na − 2x aan beide kanten?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2x − 3 = 9"
+          },
+          {
+            "id": "b",
+            "label": "4x − 3 = 9"
+          },
+          {
+            "id": "c",
+            "label": "2x + 9 = 9"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "2x − 3 = 9.",
+        "retryFeedback": "4x − 2x = 2x."
+      },
+      {
+        "explanation": "2x = 12 → x = 6.",
+        "question": "x = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "6"
+          },
+          {
+            "id": "b",
+            "label": "12"
+          },
+          {
+            "id": "c",
+            "label": "3"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "x = 6.",
+        "retryFeedback": "+3, dan ÷ 2."
+      }
+    ],
+    "conclusion": "x = 6."
+  },
+  "bonusVariants": [
+    {
+      "id": "zij-ms-1-b1",
+      "type": "number-input",
+      "question": "Los op: 5x + 1 = 2x + 16",
+      "answer": 5,
+      "hint1": "3x + 1 = 16.",
+      "hint2": "x = 5.",
+      "explanation": "3x = 15 → x = 5."
+    }
+  ]
+}

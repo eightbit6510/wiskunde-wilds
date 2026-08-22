@@ -1,0 +1,86 @@
+{
+  "challengeId": "l4-c5",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Boss battle: drie korte stappen.",
+    "steps": [
+      {
+        "explanation": "Eerst: 2/5 × 1/2.\nTellers × tellers, noemers × noemers.",
+        "question": "Wat is 2/5 × 1/2 vereenvoudigd?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1/5"
+          },
+          {
+            "id": "b",
+            "label": "3/7"
+          },
+          {
+            "id": "c",
+            "label": "2/7"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Juist: 2/10 = 1/5.",
+        "retryFeedback": "2×1 / 5×2 = 2/10 = 1/5."
+      },
+      {
+        "explanation": "√64: welk getal × zichzelf is 64?",
+        "question": "√64 = ?",
+        "options": [
+          {
+            "id": "6",
+            "label": "6"
+          },
+          {
+            "id": "8",
+            "label": "8"
+          },
+          {
+            "id": "16",
+            "label": "16"
+          }
+        ],
+        "correctAnswer": "8",
+        "successFeedback": "Goed. En 3/7 ≈ 0,43 > 0,40 = 2/5.",
+        "retryFeedback": "8 × 8 = 64."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Boss verslagen."
+  },
+  "bonusVariants": [
+    {
+      "id": "l4c5-b1",
+      "type": "multiple-choice",
+      "question": "3/4 × 2/3 = ?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "1/2"
+        },
+        {
+          "id": "b",
+          "label": "5/7"
+        },
+        {
+          "id": "c",
+          "label": "6/12"
+        }
+      ],
+      "hint1": "3×2 / 4×3 = 6/12 = 1/2.",
+      "hint2": "Antwoord 1/2.",
+      "explanation": "3/4 × 2/3 = 1/2."
+    },
+    {
+      "id": "l4c5-b2",
+      "type": "number-input",
+      "question": "√100 = ?",
+      "answer": 10,
+      "hint1": "10 × 10 = 100.",
+      "hint2": "√100 = 10.",
+      "explanation": "√100 = 10."
+    }
+  ]
+}

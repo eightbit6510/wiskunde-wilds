@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c6-1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Zelfde grondtal vermenigvuldigen? Exponenten tellen op.",
+    "steps": [
+      {
+        "explanation": "2³ = 8 en 2² = 4.",
+        "question": "Wat is 8 × 4?",
+        "options": [
+          {
+            "id": "a",
+            "label": "32"
+          },
+          {
+            "id": "b",
+            "label": "64"
+          },
+          {
+            "id": "c",
+            "label": "16"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "8 × 4 = 32.",
+        "retryFeedback": "8 × 4."
+      },
+      {
+        "explanation": "32 = 2⁵. Exponenten 3 + 2 = 5.",
+        "question": "Welk patroon klopt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2³ × 2² = 2⁵ (exponenten optellen)"
+          },
+          {
+            "id": "b",
+            "label": "2³ × 2² = 2⁶"
+          },
+          {
+            "id": "c",
+            "label": "2³ × 2² = 4⁵"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "aᵐ × aⁿ = aᵐ⁺ⁿ. Runen-regel ontdekt!",
+        "retryFeedback": "3 + 2 = 5, niet 6."
+      }
+    ],
+    "conclusion": "2³ × 2² = 2⁵ = 32. Exponenten optellen!"
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c6-1-b1",
+      "type": "number-input",
+      "question": "Bereken 3² × 3³.",
+      "answer": 243,
+      "hint1": "3² × 3³ = 3⁵.",
+      "hint2": "3⁵ = 243.",
+      "explanation": "3² × 3³ = 3⁵ = 243."
+    },
+    {
+      "id": "p2c6-1-b2",
+      "type": "number-input",
+      "question": "2⁴ × 2² = 2?. Wat is het vraagteken?",
+      "answer": 6,
+      "hint1": "Exponenten optellen.",
+      "hint2": "4 + 2 = 6.",
+      "explanation": "2⁴ × 2² = 2⁶."
+    }
+  ]
+}

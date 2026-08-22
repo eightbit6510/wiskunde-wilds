@@ -1,0 +1,100 @@
+{
+  "challengeId": "l4-c1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We maken de noemers gelijk, of denken in decimalen.",
+    "steps": [
+      {
+        "explanation": "3/4 en 5/8.\nNoemers 4 en 8: 4 past in 8.",
+        "question": "Wat is 3/4 met noemer 8?",
+        "options": [
+          {
+            "id": "68",
+            "label": "6/8"
+          },
+          {
+            "id": "38",
+            "label": "3/8"
+          },
+          {
+            "id": "58",
+            "label": "5/8"
+          }
+        ],
+        "correctAnswer": "68",
+        "successFeedback": "Juist: 3/4 = 6/8.",
+        "retryFeedback": "Teller en noemer ×2."
+      },
+      {
+        "explanation": "Nu: 6/8 versus 5/8.",
+        "question": "Welke is groter?",
+        "options": [
+          {
+            "id": "a",
+            "label": "3/4 (=6/8)"
+          },
+          {
+            "id": "b",
+            "label": "5/8"
+          },
+          {
+            "id": "eq",
+            "label": "Even groot"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies. 6/8 > 5/8, dus 3/4 is groter.",
+        "retryFeedback": "Zelfde noemer: kijk naar de teller."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 3/4 is groter."
+  },
+  "bonusVariants": [
+    {
+      "id": "l4c1-b1",
+      "type": "multiple-choice",
+      "question": "Welke is groter: 2/3 of 3/5?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "2/3"
+        },
+        {
+          "id": "b",
+          "label": "3/5"
+        },
+        {
+          "id": "c",
+          "label": "Even groot"
+        }
+      ],
+      "hint1": "Maak noemer 15: 10/15 vs 9/15.",
+      "hint2": "2/3 is groter.",
+      "explanation": "2/3 = 10/15 > 9/15 = 3/5."
+    },
+    {
+      "id": "l4c1-b2",
+      "type": "multiple-choice",
+      "question": "Welke is groter: 5/6 of 7/9?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "5/6"
+        },
+        {
+          "id": "b",
+          "label": "7/9"
+        },
+        {
+          "id": "c",
+          "label": "Even groot"
+        }
+      ],
+      "hint1": "Noemer 18: 15/18 vs 14/18.",
+      "hint2": "5/6 is groter.",
+      "explanation": "5/6 = 15/18 > 14/18 = 7/9."
+    }
+  ]
+}

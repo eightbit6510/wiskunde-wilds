@@ -1,0 +1,34 @@
+{
+  "id": "l3-c4",
+  "type": "matching",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Match grafiek-idee, tabel-idee, formule en verhaal.",
+  "matchingPairs": [
+    {
+      "id": "1",
+      "left": "y = 3x",
+      "right": "Door 0, steil omhoog"
+    },
+    {
+      "id": "2",
+      "left": "y = x + 2",
+      "right": "Start bij 2, helling 1"
+    },
+    {
+      "id": "3",
+      "left": "Tabel: (0,5)(1,5)(2,5)",
+      "right": "Constant verband"
+    },
+    {
+      "id": "4",
+      "left": "Een vos rust 2 uur stil",
+      "right": "Horizontale grafiek"
+    }
+  ],
+  "hint1": "Constant = geen verandering. Stil = horizontaal. y=3x gaat door de oorsprong.",
+  "hint2": "y = x + 2 snijdt y-as bij 2. Tabel met steeds 5 is constant.",
+  "optionalWorkedFirstStep": "Begin met de makkelijkste: stil rusten → horizontale grafiek.",
+  "explanation": "Goed gematcht!\n\ny = 3x → door (0,0), steil\ny = x + 2 → start bij 2\nConstante y-waarden → constant verband\nStil rusten → horizontale lijn"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "l7-c1",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Bekijk y = x² voor x = −3…3. Wat valt je op?",
+  "interactiveParabola": {
+    "base": "x2",
+    "xValues": [
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Positieve en negatieve x kunnen dezelfde y geven"
+    },
+    {
+      "id": "b",
+      "label": "De grafiek is een rechte lijn"
+    },
+    {
+      "id": "c",
+      "label": "Alle uitkomsten zijn negatief"
+    },
+    {
+      "id": "d",
+      "label": "Alleen positieve x geven een y"
+    }
+  ],
+  "answers": [
+    "a"
+  ],
+  "answer": "a",
+  "hint1": "Vergelijk (−2)² en 2².",
+  "hint2": "Beide geven 4. De grafiek is symmetrisch in de y-as.",
+  "optionalWorkedFirstStep": "(−3)² = 9 en 3² = 9.",
+  "explanation": "Positieve en negatieve x kunnen dezelfde y geven — én de grafiek is symmetrisch.\n\n(−2)² = 2² = 4. Dat is nieuw vergeleken met rechte lijnen!"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "l6-c1",
+  "type": "number-input",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Runesteen Algebra: Los op: 3(x − 2) = 15. Wat is x?",
+  "answer": 7,
+  "hint1": "Eerst haakjes wegwerken, of beide kanten door 3 delen.",
+  "hint2": "x − 2 = 5 → x = 7.",
+  "optionalWorkedFirstStep": "Deel beide kanten door 3: x − 2 = 5.",
+  "explanation": "3(x − 2) = 15 → x − 2 = 5 → x = 7.\n\nOf: 3x − 6 = 15 → 3x = 21 → x = 7."
+}

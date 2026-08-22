@@ -1,0 +1,54 @@
+{
+  "id": "sterrentempel",
+  "adventureId": "part1",
+  "order": 8,
+  "areaName": "De Sterrentempel",
+  "title": "Final Challenge",
+  "emoji": "⭐",
+  "intro": "De tempel vraagt om alles wat je geleerd hebt. Elke oplossing onthult een deel van de eindcode.",
+  "color": "#8B7355",
+  "placements": [
+    {
+      "challengeId": "l8-c1",
+      "optionalStory": "Eerste stersteen: let op de volgorde van bewerkingen.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "l8-c2",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "l8-c3",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "l8-c4",
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "l8-c5",
+      "sortOrder": 4
+    },
+    {
+      "challengeId": "l8-c6",
+      "sortOrder": 5
+    },
+    {
+      "challengeId": "l8-c7",
+      "sortOrder": 6
+    },
+    {
+      "challengeId": "l8-c8",
+      "sortOrder": 7
+    },
+    {
+      "challengeId": "l8-c9",
+      "sortOrder": 8
+    },
+    {
+      "challengeId": "l8-c10",
+      "optionalStory": "De tempeldeur wacht op het woord…",
+      "sortOrder": 9
+    }
+  ]
+}

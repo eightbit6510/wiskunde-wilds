@@ -1,13 +1,17 @@
 import { useState } from 'react';
+import { CloudSavePanel } from '../components/CloudSavePanel';
+import type { PlayerAuthApi } from '../hooks/usePlayerAuth';
 import type { ProgressApi } from '../hooks/useProgress';
 import type { SettingsApi } from '../hooks/useSettings';
 
 export function SettingsPage({
   progressApi,
   settingsApi,
+  authApi,
 }: {
   progressApi: ProgressApi;
   settingsApi: SettingsApi;
+  authApi: PlayerAuthApi;
 }) {
   const { settings, update } = settingsApi;
   const { resetProgress } = progressApi;
@@ -19,6 +23,8 @@ export function SettingsPage({
       <p className="muted">Maak het bos rustiger of frisser — jij bepaalt.</p>
 
       <div className="settings-list" style={{ marginTop: '1rem' }}>
+        <CloudSavePanel authApi={authApi} progressApi={progressApi} settingsApi={settingsApi} />
+
         <div className="settings-row">
           <div>
             <strong>Geluid</strong>

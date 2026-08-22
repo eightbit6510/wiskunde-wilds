@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c8-3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Snijpunt: x oplossen, dan y invullen.",
+    "steps": [
+      {
+        "explanation": "2x + 1 = x + 6.",
+        "question": "Wat is x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x = 5"
+          },
+          {
+            "id": "b",
+            "label": "x = 7"
+          },
+          {
+            "id": "c",
+            "label": "x = 4"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Beide kanten − x, − 1: x = 5.",
+        "retryFeedback": "2x − x = 6 − 1."
+      },
+      {
+        "explanation": "y = 2·5 + 1 = 11.",
+        "question": "Wat is y?",
+        "options": [
+          {
+            "id": "a",
+            "label": "11"
+          },
+          {
+            "id": "b",
+            "label": "10"
+          },
+          {
+            "id": "c",
+            "label": "12"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "y = 11. Sterrenkamer open!",
+        "retryFeedback": "2 × 5 + 1."
+      }
+    ],
+    "conclusion": "Snijpunt y = 11. Derde deel Maanpoot."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c8-3-b1",
+      "type": "number-input",
+      "question": "y = 3x + 2 en y = x + 10. y op snijpunt?",
+      "answer": 14,
+      "hint1": "x = 4.",
+      "hint2": "y = 3·4 + 2 = 14.",
+      "explanation": "x = 4, y = 14."
+    },
+    {
+      "id": "p2c8-3-b2",
+      "type": "number-input",
+      "question": "y = x + 3. Snijpunt y-as?",
+      "answer": 3,
+      "hint1": "x = 0.",
+      "hint2": "y = 3.",
+      "explanation": "Bij x = 0: y = 3."
+    }
+  ]
+}

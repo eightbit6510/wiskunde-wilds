@@ -1,0 +1,108 @@
+{
+  "challengeId": "l2-c4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We willen n alleen overhouden. We doen het stap voor stap.",
+    "steps": [
+      {
+        "explanation": "We willen uiteindelijk alleen n overhouden.\n\nNu staat er:\nT = 5n + 20\n\nKijk eerst naar de kant met n.\nDaar staat 5n + 20.",
+        "question": "Welke van deze twee dingen zit het meest 'aan de buitenkant'?",
+        "options": [
+          {
+            "id": "plus20",
+            "label": "+20"
+          },
+          {
+            "id": "times5",
+            "label": "×5"
+          }
+        ],
+        "correctAnswer": "plus20",
+        "successFeedback": "Precies.\n\nDie +20 zit als het ware als laatste aan de berekening vast.\nOm hem weg te halen doen we het tegenovergestelde: 20 eraf.",
+        "retryFeedback": "Bijna. Kijk eens naar wat er aan de buitenkant van de berekening gebeurt."
+      },
+      {
+        "explanation": "We moeten dat wel aan BEIDE kanten doen.\n\nDus:\nT − 20 = 5n\n\nNu staat er nog:\n5 × n",
+        "question": "Wat moeten we doen om alleen n over te houden?",
+        "options": [
+          {
+            "id": "div5",
+            "label": "delen door 5"
+          },
+          {
+            "id": "mul5",
+            "label": "keer 5"
+          },
+          {
+            "id": "plus5",
+            "label": "plus 5"
+          }
+        ],
+        "correctAnswer": "div5",
+        "successFeedback": "Juist.\n\nWe delen beide kanten door 5.\nDan krijgen we:\nn = (T − 20) / 5",
+        "retryFeedback": "Probeer het tegenovergestelde van ×5 te vinden."
+      }
+    ],
+    "conclusion": "En daar is onze pootafdruk. 🐾\n\nn = (T − 20) / 5"
+  },
+  "bonusVariants": [
+    {
+      "id": "bv-k4m12",
+      "question": "Schrijf de formule om: K = 4m + 12. Geef m in termen van K.",
+      "optionalStory": "Zelfde truc, andere letters.",
+      "type": "text-input",
+      "answer": "m=(K-12)/4",
+      "acceptedAnswers": [
+        "m=(K-12)/4",
+        "m=K/4-3",
+        "m=(k-12)/4"
+      ],
+      "hint1": "Eerst 12 aftrekken van beide kanten, daarna delen door 4.",
+      "hint2": "K − 12 = 4m → m = (K − 12) / 4",
+      "explanation": "m = (K − 12) / 4"
+    },
+    {
+      "id": "bv-p3x15",
+      "question": "Schrijf de formule om: P = 3x + 15. Geef x in termen van P.",
+      "optionalStory": "Zelfde truc, andere som.",
+      "type": "text-input",
+      "answer": "x=(P-15)/3",
+      "acceptedAnswers": [
+        "x=(P-15)/3",
+        "x=P/3-5",
+        "x=(p-15)/3"
+      ],
+      "hint1": "Eerst 15 aftrekken van beide kanten, daarna delen door 3.",
+      "hint2": "P − 15 = 3x → x = (P − 15) / 3",
+      "explanation": "x = (P − 15) / 3"
+    },
+    {
+      "id": "bv-b7y14",
+      "question": "Schrijf de formule om: B = 7y + 14. Geef y in termen van B.",
+      "type": "text-input",
+      "answer": "y=(B-14)/7",
+      "acceptedAnswers": [
+        "y=(B-14)/7",
+        "y=B/7-2",
+        "y=(b-14)/7"
+      ],
+      "hint1": "Eerst 14 aftrekken, daarna delen door 7.",
+      "hint2": "B − 14 = 7y → y = (B − 14) / 7",
+      "explanation": "y = (B − 14) / 7"
+    },
+    {
+      "id": "bv-r6w18",
+      "question": "Schrijf de formule om: R = 6w + 18. Geef w in termen van R.",
+      "type": "text-input",
+      "answer": "w=(R-18)/6",
+      "acceptedAnswers": [
+        "w=(R-18)/6",
+        "w=R/6-3",
+        "w=(r-18)/6"
+      ],
+      "hint1": "Eerst 18 aftrekken, daarna delen door 6.",
+      "hint2": "w = (R − 18) / 6",
+      "explanation": "w = (R − 18) / 6"
+    }
+  ]
+}

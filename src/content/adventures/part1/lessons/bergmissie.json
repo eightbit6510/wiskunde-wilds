@@ -1,0 +1,29 @@
+{
+  "id": "bergmissie",
+  "adventureId": "part1",
+  "order": 6,
+  "areaName": "De Bergmissie",
+  "title": "De Grote Wiskundemissie",
+  "emoji": "⛰️",
+  "intro": "De doorgang naar de bergtop is afgesloten. Vier runestenen moeten geactiveerd worden.",
+  "color": "#4A5D4E",
+  "placements": [
+    {
+      "challengeId": "l6-c1",
+      "optionalStory": "De eerste steen gloeit zwak…",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "l6-c2",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "l6-c3",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "l6-c4",
+      "sortOrder": 3
+    }
+  ]
+}

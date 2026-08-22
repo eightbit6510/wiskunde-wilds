@@ -1,0 +1,32 @@
+{
+  "id": "wolvenkluis",
+  "adventureId": "part1",
+  "order": 2,
+  "areaName": "De Wolvenkluis",
+  "title": "De Formulekraker",
+  "emoji": "🐺",
+  "intro": "Een oude kluis wordt beschermd door formules. Elke juiste bewerking opent één slot.",
+  "color": "#5B6B7A",
+  "placements": [
+    {
+      "challengeId": "l2-c1",
+      "optionalStory": "Eerste slot: oppervlakte van een wolventerritorium-kaart.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "l2-c2",
+      "optionalStory": "Tweede slot: snelheid van een wolf over s meters in t seconden.",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "l2-c3",
+      "optionalStory": "Een dierenopvang betaalt €12 vaste kosten plus €4 per zak voer.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "l2-c4",
+      "optionalStory": "Derde slot: hoeveel nesten n bij temperatuur T?",
+      "sortOrder": 3
+    }
+  ]
+}

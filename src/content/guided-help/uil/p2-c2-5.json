@@ -1,0 +1,100 @@
+{
+  "challengeId": "p2-c2-5",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Verhaal → formule. Zoek startgetal en verandering per stap.",
+    "steps": [
+      {
+        "explanation": "Bij d = 0 (start) is er 15 kg voer.",
+        "question": "Wat is het startgetal in de formule?",
+        "options": [
+          {
+            "id": "a",
+            "label": "15"
+          },
+          {
+            "id": "b",
+            "label": "2"
+          },
+          {
+            "id": "c",
+            "label": "−2"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Start = 15. Dat is het getal zonder d.",
+        "retryFeedback": "Bij 0 dagen: nog 15 kg."
+      },
+      {
+        "explanation": "Elke dag −2 kg. Dat is −2 per dag.",
+        "question": "Welke formule klopt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "V = 15 − 2d"
+          },
+          {
+            "id": "b",
+            "label": "V = 15 + 2d"
+          },
+          {
+            "id": "c",
+            "label": "V = 2d − 15"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "15 start, daarna −2 per dag. Perfect!",
+        "retryFeedback": "Voer neemt af → minteken bij 2d."
+      }
+    ],
+    "conclusion": "V = 15 − 2d. Start + verandering per eenheid."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c2-5-b1",
+      "type": "multiple-choice",
+      "question": "Start €20, elke week −€3. Welke formule voor saldo S na w weken?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "S = 20 − 3w"
+        },
+        {
+          "id": "b",
+          "label": "S = 3w − 20"
+        },
+        {
+          "id": "c",
+          "label": "S = 20 + 3w"
+        }
+      ],
+      "hint1": "Start 20, daarna −3 per week.",
+      "hint2": "S = 20 − 3w.",
+      "explanation": "Start €20, weekly −€3 → S = 20 − 3w."
+    },
+    {
+      "id": "p2c2-5-b2",
+      "type": "multiple-choice",
+      "question": "Start 0 m, elke seconde +4 m. Formule voor afstand s na t seconden?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "s = 4 − t"
+        },
+        {
+          "id": "b",
+          "label": "s = 4t"
+        },
+        {
+          "id": "c",
+          "label": "s = 4 + t"
+        }
+      ],
+      "hint1": "Start 0, per seconde +4.",
+      "hint2": "s = 4t.",
+      "explanation": "Start 0, +4 per seconde → s = 4t."
+    }
+  ]
+}

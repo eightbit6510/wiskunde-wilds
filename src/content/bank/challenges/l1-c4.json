@@ -1,0 +1,61 @@
+{
+  "id": "l1-c4",
+  "type": "equation-steps",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los stap voor stap op: 2x + 5 = 17",
+  "equationSteps": [
+    {
+      "prompt": "Wat doe je eerst om dichter bij x te komen?",
+      "options": [
+        {
+          "id": "plus5",
+          "label": "Beide kanten +5"
+        },
+        {
+          "id": "min5",
+          "label": "Beide kanten −5"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten ×2"
+        },
+        {
+          "id": "alleen",
+          "label": "Alleen links −5"
+        }
+      ],
+      "correctId": "min5",
+      "resultDisplay": "2x = 12"
+    },
+    {
+      "prompt": "Nu staat er 2x = 12. Wat is de volgende stap?",
+      "options": [
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "min2",
+          "label": "Beide kanten − 2"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten × 2"
+        },
+        {
+          "id": "plus2",
+          "label": "Beide kanten + 2"
+        }
+      ],
+      "correctId": "deel2",
+      "resultDisplay": "x = 6"
+    }
+  ],
+  "answer": 6,
+  "hint1": "Je wilt de +5 wegwerken. Doe aan beide kanten het tegenovergestelde: −5.",
+  "hint2": "Na 2x = 12 deel je beide kanten door 2, zodat x alleen overblijft.",
+  "optionalWorkedFirstStep": "Beide kanten −5: 2x + 5 − 5 = 17 − 5 → 2x = 12.",
+  "explanation": "Goed gedaan!\n\n2x + 5 = 17\nBeide kanten −5 → 2x = 12\nBeide kanten ÷ 2 → x = 6\n\nControle: 2·6 + 5 = 17 ✓"
+}

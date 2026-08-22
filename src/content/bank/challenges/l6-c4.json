@@ -1,0 +1,31 @@
+{
+  "id": "l6-c4",
+  "type": "multiple-choice",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Runesteen Verbanden: Tabel x: 1,2,3,4 en y: 5,8,11,14. Welke formule?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "y = 3x + 2"
+    },
+    {
+      "id": "b",
+      "label": "y = 3x + 1"
+    },
+    {
+      "id": "c",
+      "label": "y = 2x + 3"
+    },
+    {
+      "id": "d",
+      "label": "y = 4x + 1"
+    }
+  ],
+  "answer": "a",
+  "hint1": "Verschil in y per stap is 3. Vul x=1 in om de constante te vinden.",
+  "hint2": "y = 3x + b → bij x=1: 5 = 3 + b → b = 2.",
+  "optionalWorkedFirstStep": "Hellingsgetal = 3.",
+  "explanation": "y = 3x + 2.\n\nStappen van +3, en 3·1+2=5 ✓"
+}

@@ -1,0 +1,96 @@
+{
+  "challengeId": "p2-c3-7",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Breuken vergelijken — ken je nog uit het Konijnenhol?",
+    "steps": [
+      {
+        "explanation": "3/4 en 5/8.\n\nGelijke noemer maken: 4 en 8 → noemer 8.",
+        "question": "Wat is 3/4 met noemer 8?",
+        "options": [
+          {
+            "id": "a",
+            "label": "6/8"
+          },
+          {
+            "id": "b",
+            "label": "5/8"
+          },
+          {
+            "id": "c",
+            "label": "3/8"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "3/4 = 6/8.",
+        "retryFeedback": "Vermenigvuldig boven en onder met 2."
+      },
+      {
+        "explanation": "6/8 vs 5/8.",
+        "question": "Welke is groter?",
+        "options": [
+          {
+            "id": "a",
+            "label": "3/4 (= 6/8)"
+          },
+          {
+            "id": "b",
+            "label": "5/8"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "6/8 > 5/8. Pootafdruk!",
+        "retryFeedback": "Zelfde noemer: grotere teller wint."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 3/4 is groter."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c3-7-b1",
+      "type": "multiple-choice",
+      "question": "Welke is groter?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "2/5"
+        },
+        {
+          "id": "b",
+          "label": "3/5"
+        },
+        {
+          "id": "c",
+          "label": "Gelijk"
+        }
+      ],
+      "hint1": "Zelfde noemer.",
+      "hint2": "3/5 > 2/5.",
+      "explanation": "Zelfde noemer: 3/5 > 2/5."
+    },
+    {
+      "id": "p2c3-7-b2",
+      "type": "multiple-choice",
+      "question": "Welke is groter?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "1/2"
+        },
+        {
+          "id": "b",
+          "label": "2/5"
+        },
+        {
+          "id": "c",
+          "label": "Gelijk"
+        }
+      ],
+      "hint1": "1/2 = 0,5. 2/5 = 0,4.",
+      "hint2": "1/2 is groter.",
+      "explanation": "1/2 = 0,5 > 0,4 = 2/5."
+    }
+  ]
+}

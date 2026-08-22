@@ -7,7 +7,9 @@ import { ForestMascot } from '../components/ForestMascot';
 import { Part2UnlockReveal } from '../components/Part2UnlockReveal';
 import { ProgressBar } from '../components/ProgressBar';
 import { StarCounter } from '../components/StarCounter';
-import { OwlHelpController } from '../components/owl/OwlHelpController';
+import { GuidedHelpController } from '../components/guided-help/GuidedHelpController';
+import { getHelpPersona } from '../content/personas';
+import { getHelpPersonaIdForLesson } from '../content/personaForLesson';
 import { badges } from '../data/badges';
 import { getLesson } from '../data/lessons';
 import type { ProgressApi } from '../hooks/useProgress';
@@ -118,6 +120,7 @@ export function LessonPage({
   const owlExternallySolved = owlSolvedIds.includes(challenge.id);
   const anim = settings.animationsEnabled && !settings.calmMode;
   const displayOrder = lesson.order > 100 ? lesson.order - 100 : lesson.order;
+  const helpPersona = getHelpPersona(getHelpPersonaIdForLesson(lesson.id));
 
   const badgesEarnedThisVisit = progress.unlockedBadges.filter(
     (id) => !badgesAtVisitStart.current.includes(id),
@@ -290,8 +293,9 @@ export function LessonPage({
           />
         )}
 
-        <OwlHelpController
-          key={`owl-${challenge.id}`}
+        <GuidedHelpController
+          key={`help-${challenge.id}`}
+          persona={helpPersona}
           challenge={challenge}
           totalStars={progress.totalStars}
           alreadySolved={
@@ -299,7 +303,7 @@ export function LessonPage({
           }
           animationsEnabled={anim}
           onConfirmSpend={confirmOwlHelp}
-          onOwlSolved={() => {
+          onHelpSolved={() => {
             completeChallenge({
               challengeId: challenge.id,
               lessonId: lesson.id,

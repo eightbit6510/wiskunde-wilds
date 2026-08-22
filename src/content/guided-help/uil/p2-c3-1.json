@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c3-1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Schaal 1 : 25 000 betekent: 1 cm op kaart = 25 000 cm in werkelijkheid.",
+    "steps": [
+      {
+        "explanation": "4 cm op de kaart.\n\nVermenigvuldig met 25 000.",
+        "question": "Hoeveel cm is dat in werkelijkheid?",
+        "options": [
+          {
+            "id": "a",
+            "label": "100 000 cm"
+          },
+          {
+            "id": "b",
+            "label": "29 000 cm"
+          },
+          {
+            "id": "c",
+            "label": "625 cm"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "4 × 25 000 = 100 000 cm.",
+        "retryFeedback": "Vermenigvuldig 4 met 25 000."
+      },
+      {
+        "explanation": "100 000 cm omzetten naar meters: ÷ 100.",
+        "question": "Hoeveel meter?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1000 m"
+          },
+          {
+            "id": "b",
+            "label": "100 m"
+          },
+          {
+            "id": "c",
+            "label": "10 000 m"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "100 000 ÷ 100 = 1000 m = 1 km.",
+        "retryFeedback": "100 cm = 1 m, dus ÷ 100."
+      }
+    ],
+    "conclusion": "1000 m. Schaal = vermenigvuldigen, daarna eenheden omzetten."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c3-1-b1",
+      "type": "number-input",
+      "question": "Schaal 1 : 10 000. 3 cm op kaart = ? meter in werkelijkheid",
+      "answer": 300,
+      "hint1": "3 × 10 000 = 30 000 cm.",
+      "hint2": "30 000 cm = 300 m.",
+      "explanation": "3 × 10 000 = 30 000 cm = 300 m."
+    },
+    {
+      "id": "p2c3-1-b2",
+      "type": "number-input",
+      "question": "Schaal 1 : 50 000. 2 cm op kaart = ? meter",
+      "answer": 1000,
+      "hint1": "2 × 50 000 = 100 000 cm.",
+      "hint2": "100 000 cm = 1000 m.",
+      "explanation": "2 × 50 000 = 100 000 cm = 1000 m."
+    }
+  ]
+}

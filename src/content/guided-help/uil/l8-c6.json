@@ -1,0 +1,51 @@
+{
+  "challengeId": "l8-c6",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. 3³ = 3×3×3.",
+    "steps": [
+      {
+        "explanation": "Eerst 3×3 = 9.",
+        "question": "Wat is 9 × 3?",
+        "options": [
+          {
+            "id": "12",
+            "label": "12"
+          },
+          {
+            "id": "27",
+            "label": "27"
+          },
+          {
+            "id": "81",
+            "label": "81"
+          }
+        ],
+        "correctAnswer": "27",
+        "successFeedback": "Juist: 3³ = 27.",
+        "retryFeedback": "9×3=27."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 27"
+  },
+  "bonusVariants": [
+    {
+      "id": "l8c6-b1",
+      "type": "number-input",
+      "question": "2⁴ = ?",
+      "answer": 16,
+      "hint1": "2×2×2×2.",
+      "hint2": "16.",
+      "explanation": "2⁴ = 16."
+    },
+    {
+      "id": "l8c6-b2",
+      "type": "number-input",
+      "question": "4³ = ?",
+      "answer": 64,
+      "hint1": "4×4×4.",
+      "hint2": "64.",
+      "explanation": "4³ = 64."
+    }
+  ]
+}

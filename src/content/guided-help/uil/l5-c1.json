@@ -1,0 +1,100 @@
+{
+  "challengeId": "l5-c1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Tabel → start + helling → formule.",
+    "steps": [
+      {
+        "explanation": "week 0 → gewicht 4. Dat is je start.",
+        "question": "Wat is het startgewicht?",
+        "options": [
+          {
+            "id": "0",
+            "label": "0"
+          },
+          {
+            "id": "4",
+            "label": "4"
+          },
+          {
+            "id": "6",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "4",
+        "successFeedback": "Juist: start = 4.",
+        "retryFeedback": "Kijk bij week 0."
+      },
+      {
+        "explanation": "Elke week +2 (4→6→8→10).",
+        "question": "Welke formule?",
+        "options": [
+          {
+            "id": "a",
+            "label": "g = 2w + 4"
+          },
+          {
+            "id": "b",
+            "label": "g = 4w + 2"
+          },
+          {
+            "id": "c",
+            "label": "g = w + 4"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies: g = 2w + 4.",
+        "retryFeedback": "Helling 2, start 4."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 g = 2w + 4"
+  },
+  "bonusVariants": [
+    {
+      "id": "l5c1-b1",
+      "type": "multiple-choice",
+      "question": "Tabel week 0,1,2,3 en lengte 5,8,11,14. Welke formule?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "L = 3w + 5"
+        },
+        {
+          "id": "b",
+          "label": "L = 5w + 3"
+        },
+        {
+          "id": "c",
+          "label": "L = w + 5"
+        }
+      ],
+      "hint1": "Start 5, stappen +3.",
+      "hint2": "L = 3w + 5.",
+      "explanation": "L = 3w + 5."
+    },
+    {
+      "id": "l5c1-b2",
+      "type": "multiple-choice",
+      "question": "Tabel x:0,1,2 y:2,5,8. Welke formule?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 2x + 1"
+        },
+        {
+          "id": "b",
+          "label": "y = 3x + 2"
+        },
+        {
+          "id": "c",
+          "label": "y = x + 2"
+        }
+      ],
+      "hint1": "Start 2, stappen +3.",
+      "hint2": "y = 3x + 2.",
+      "explanation": "y = 3x + 2."
+    }
+  ]
+}

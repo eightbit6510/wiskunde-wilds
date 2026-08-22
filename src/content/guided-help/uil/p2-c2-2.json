@@ -1,0 +1,80 @@
+{
+  "challengeId": "p2-c2-2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "t staat in de noemer. Dat maakt omdraaien iets lastiger.",
+    "steps": [
+      {
+        "explanation": "v = s / t.\n\nVermenigvuldig beide kanten met t.",
+        "question": "Wat krijg je?",
+        "options": [
+          {
+            "id": "a",
+            "label": "v · t = s"
+          },
+          {
+            "id": "b",
+            "label": "v / t = s"
+          },
+          {
+            "id": "c",
+            "label": "v · t = s / t"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Links: v · t. Rechts: s. Perfect!",
+        "retryFeedback": "Vermenigvuldig beide kanten met t."
+      },
+      {
+        "explanation": "v · t = s.\n\nNu t alleen: deel door v.",
+        "question": "Wat is t?",
+        "options": [
+          {
+            "id": "a",
+            "label": "t = s / v"
+          },
+          {
+            "id": "b",
+            "label": "t = v / s"
+          },
+          {
+            "id": "c",
+            "label": "t = s · v"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "t = s / v. Formule omgedraaid!",
+        "retryFeedback": "Deel beide kanten door v."
+      }
+    ],
+    "conclusion": "t = s / v. Noemer vrijmaken = vermenigvuldigen, dan delen."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c2-2-b1",
+      "type": "text-input",
+      "question": "v = s / t. Maak s vrij. (bijv. s = ...)",
+      "answer": "s=v*t",
+      "acceptedAnswers": [
+        "s=v*t",
+        "s = v*t",
+        "s=v×t",
+        "s = v × t",
+        "s=vt",
+        "s = vt"
+      ],
+      "hint1": "Vermenigvuldig beide kanten met t.",
+      "hint2": "s = v · t.",
+      "explanation": "v = s/t → s = v · t."
+    },
+    {
+      "id": "p2c2-2-b2",
+      "type": "number-input",
+      "question": "v = s / t. v = 15 m/s, s = 60 m. Wat is t? (in seconden)",
+      "answer": 4,
+      "hint1": "t = s / v.",
+      "hint2": "60 ÷ 15 = 4.",
+      "explanation": "t = 60 / 15 = 4 seconden."
+    }
+  ]
+}

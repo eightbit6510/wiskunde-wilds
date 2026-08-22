@@ -1,0 +1,31 @@
+{
+  "id": "l1-c2",
+  "type": "spot-error",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Een leerling heeft dit zo uitgewerkt. Waar gaat het mis?",
+  "answerOptions": [
+    {
+      "id": "bij3",
+      "label": "Bij de 3"
+    },
+    {
+      "id": "bijx",
+      "label": "Bij de x"
+    },
+    {
+      "id": "bij4",
+      "label": "Bij de +4"
+    },
+    {
+      "id": "geen",
+      "label": "Er is geen fout"
+    }
+  ],
+  "answer": "bij4",
+  "hint1": "Bij haakjes wegwerken moet de factor buiten de haakjes met élke term vermenigvuldigd worden.",
+  "hint2": "De 3 is vermenigvuldigd met x, maar… wat gebeurde er met de 4?",
+  "optionalWorkedFirstStep": "Correct is: 3(x + 4) = 3·x + 3·4 = 3x + 12.",
+  "explanation": "Precies! 🎉\n\nBij 3(x + 4) moet de 3 met alles tussen de haakjes vermenigvuldigd worden:\n\n3 × x = 3x\n3 × 4 = 12\n\nDus: 3(x + 4) = 3x + 12\n\nDe fout zat bij de +4: die werd vergeten mee te vermenigvuldigen."
+}

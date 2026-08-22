@@ -1,0 +1,27 @@
+{
+  "id": "p2-c6-7",
+  "type": "multiple-choice",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Wat is groter?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "2⁵"
+    },
+    {
+      "id": "b",
+      "label": "5²"
+    },
+    {
+      "id": "gelijk",
+      "label": "Even groot"
+    }
+  ],
+  "answer": "a",
+  "hint1": "Reken beide uit: 2⁵ = 2·2·2·2·2 en 5² = 5·5.",
+  "hint2": "2⁵ = 32 en 5² = 25.",
+  "optionalWorkedFirstStep": "5² = 25. Nu 2⁵ = 32.",
+  "explanation": "2⁵ = 32 > 5² = 25.\n\nEen grotere exponent wint hier van het grotere grondtal."
+}

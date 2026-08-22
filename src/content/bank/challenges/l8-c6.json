@@ -1,0 +1,13 @@
+{
+  "id": "l8-c6",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Code-deel 6: 3³ = ?",
+  "answer": 27,
+  "hint1": "3 × 3 × 3.",
+  "hint2": "9 × 3 = 27.",
+  "optionalWorkedFirstStep": "3² = 9.",
+  "explanation": "3³ = 27."
+}

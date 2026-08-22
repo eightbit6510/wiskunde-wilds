@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c3-5",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "25% = een kwart = ÷ 4.",
+    "steps": [
+      {
+        "explanation": "25% betekent 25 van elke 100.\n\nDat is hetzelfde als 1/4.",
+        "question": "25% van 160 = 160 ÷ ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "÷ 4"
+          },
+          {
+            "id": "b",
+            "label": "÷ 25"
+          },
+          {
+            "id": "c",
+            "label": "× 25"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "25% = 1/4, dus ÷ 4.",
+        "retryFeedback": "25% is een kwart."
+      },
+      {
+        "explanation": "160 ÷ 4.",
+        "question": "Hoeveel liter?",
+        "options": [
+          {
+            "id": "a",
+            "label": "40"
+          },
+          {
+            "id": "b",
+            "label": "25"
+          },
+          {
+            "id": "c",
+            "label": "64"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "160 ÷ 4 = 40 liter.",
+        "retryFeedback": "160 gedeeld door 4."
+      }
+    ],
+    "conclusion": "40 liter. Percentage → breuk → rekenen."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c3-5-b1",
+      "type": "number-input",
+      "question": "50% van 86 = ?",
+      "answer": 43,
+      "hint1": "50% = de helft.",
+      "hint2": "86 ÷ 2 = 43.",
+      "explanation": "50% van 86 = 43."
+    },
+    {
+      "id": "p2c3-5-b2",
+      "type": "number-input",
+      "question": "10% van 250 = ?",
+      "answer": 25,
+      "hint1": "10% = ÷ 10.",
+      "hint2": "250 ÷ 10 = 25.",
+      "explanation": "10% van 250 = 25."
+    }
+  ]
+}

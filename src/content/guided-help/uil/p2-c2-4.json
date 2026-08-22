@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c2-4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Lineaire formule — eerst de vaste kosten weg.",
+    "steps": [
+      {
+        "explanation": "C = 3p + 8 en C = 23.\n\nHaal 8 weg.",
+        "question": "Wat staat er na − 8 aan beide kanten?",
+        "options": [
+          {
+            "id": "a",
+            "label": "3p = 15"
+          },
+          {
+            "id": "b",
+            "label": "3p = 23"
+          },
+          {
+            "id": "c",
+            "label": "3p = 31"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "23 − 8 = 15. Goed!",
+        "retryFeedback": "23 − 8 = 15."
+      },
+      {
+        "explanation": "3p = 15.",
+        "question": "Wat is p?",
+        "options": [
+          {
+            "id": "a",
+            "label": "p = 5"
+          },
+          {
+            "id": "b",
+            "label": "p = 3"
+          },
+          {
+            "id": "c",
+            "label": "p = 15"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "15 ÷ 3 = 5. Prijs per veren: €5.",
+        "retryFeedback": "Deel 15 door 3."
+      }
+    ],
+    "conclusion": "p = 5. Vaste kosten eerst, dan delen."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c2-4-b1",
+      "type": "number-input",
+      "question": "C = 4p + 6. C = 30. Wat is p?",
+      "answer": 6,
+      "hint1": "4p = 24.",
+      "hint2": "p = 6.",
+      "explanation": "30 = 4p + 6 → 4p = 24 → p = 6."
+    },
+    {
+      "id": "p2c2-4-b2",
+      "type": "number-input",
+      "question": "C = 5p + 12. C = 47. Wat is p?",
+      "answer": 7,
+      "hint1": "5p = 35.",
+      "hint2": "p = 7.",
+      "explanation": "47 = 5p + 12 → 5p = 35 → p = 7."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "zij-ms-1",
+  "type": "equation-steps",
+  "topic": "vergelijkingen",
+  "difficulty": 3,
+  "starsAvailable": 3,
+  "question": "Los op: 4x − 3 = 2x + 9",
+  "equationSteps": [
+    {
+      "prompt": "Eerste stap?",
+      "options": [
+        {
+          "id": "min2x",
+          "label": "Beide kanten − 2x"
+        },
+        {
+          "id": "plus2x",
+          "label": "Beide kanten + 2x"
+        },
+        {
+          "id": "plus3",
+          "label": "Beide kanten + 3"
+        },
+        {
+          "id": "deel4",
+          "label": "Beide kanten ÷ 4"
+        }
+      ],
+      "correctId": "min2x",
+      "resultDisplay": "2x − 3 = 9"
+    },
+    {
+      "prompt": "2x − 3 = 9",
+      "options": [
+        {
+          "id": "plus3",
+          "label": "Beide kanten + 3"
+        },
+        {
+          "id": "min3",
+          "label": "Beide kanten − 3"
+        },
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "min2",
+          "label": "Beide kanten − 2"
+        }
+      ],
+      "correctId": "plus3",
+      "resultDisplay": "2x = 12"
+    },
+    {
+      "prompt": "2x = 12",
+      "options": [
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten × 2"
+        },
+        {
+          "id": "min2",
+          "label": "Beide kanten − 2"
+        },
+        {
+          "id": "plus2",
+          "label": "Beide kanten + 2"
+        }
+      ],
+      "correctId": "deel2",
+      "resultDisplay": "x = 6"
+    }
+  ],
+  "answer": 6,
+  "hint1": "Beide kanten − 2x.",
+  "hint2": "2x − 3 = 9 → 2x = 12 → x = 6.",
+  "explanation": "x = 6.\n\n4x − 3 = 2x + 9\n2x − 3 = 9\n2x = 12\nx = 6"
+}

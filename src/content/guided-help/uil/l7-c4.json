@@ -1,0 +1,67 @@
+{
+  "challengeId": "l7-c4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Symmetrie = spiegelbeeld.",
+    "steps": [
+      {
+        "explanation": "Omdat (−x)² = x², is links het spiegelbeeld van rechts.",
+        "question": "Is de grafiek van y = x² symmetrisch?",
+        "options": [
+          {
+            "id": "ja",
+            "label": "Ja"
+          },
+          {
+            "id": "nee",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "ja",
+        "successFeedback": "Juist. Spiegel in de y-as.",
+        "retryFeedback": "Vergelijk x=2 en x=−2."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Ja, symmetrisch."
+  },
+  "bonusVariants": [
+    {
+      "id": "l7c4-b1",
+      "type": "multiple-choice",
+      "question": "Klopt dit? “y = x² + 1 is ook spiegelsymmetrisch.”",
+      "answer": "ja",
+      "answerOptions": [
+        {
+          "id": "ja",
+          "label": "Ja"
+        },
+        {
+          "id": "nee",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "De +1 verschuift alleen omhoog.",
+      "hint2": "Ja, nog steeds symmetrisch.",
+      "explanation": "Ja, de vorm blijft symmetrisch."
+    },
+    {
+      "id": "l7c4-b2",
+      "type": "multiple-choice",
+      "question": "Klopt dit? “y = 2x is een parabool.”",
+      "answer": "nee",
+      "answerOptions": [
+        {
+          "id": "ja",
+          "label": "Ja"
+        },
+        {
+          "id": "nee",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "2x is een rechte lijn.",
+      "hint2": "Niet waar.",
+      "explanation": "y = 2x is lineair, geen parabool."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c3-6",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Schaal 1 : 500 — vermenigvuldig kaartlengte met 500.",
+    "steps": [
+      {
+        "explanation": "3 meter op de kaart.\n\nSchaal 1 : 500.",
+        "question": "Werkelijke lengte = 3 × ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "500"
+          },
+          {
+            "id": "b",
+            "label": "503"
+          },
+          {
+            "id": "c",
+            "label": "497"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "3 × 500 = 1500 m.",
+        "retryFeedback": "Vermenigvuldig met de schaalfactor 500."
+      },
+      {
+        "explanation": "1500 m = 1,5 km.",
+        "question": "Welk antwoord klopt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "150 m"
+          },
+          {
+            "id": "b",
+            "label": "1500 m"
+          },
+          {
+            "id": "c",
+            "label": "15 m"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "1500 meter — een flink riviermonster!",
+        "retryFeedback": "3 × 500 = 1500."
+      }
+    ],
+    "conclusion": "1500 m. Schaal = vermenigvuldigen met de noemer."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c3-6-b1",
+      "type": "number-input",
+      "question": "Schaal 1 : 200. 5 cm op kaart = ? meter",
+      "answer": 10,
+      "hint1": "5 × 200 = 1000 cm.",
+      "hint2": "1000 cm = 10 m.",
+      "explanation": "5 × 200 = 1000 cm = 10 m."
+    },
+    {
+      "id": "p2c3-6-b2",
+      "type": "number-input",
+      "question": "Schaal 1 : 1000. 2 cm op kaart = ? meter",
+      "answer": 20,
+      "hint1": "2 × 1000 = 2000 cm.",
+      "hint2": "2000 cm = 20 m.",
+      "explanation": "2 × 1000 = 2000 cm = 20 m."
+    }
+  ]
+}

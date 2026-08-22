@@ -1,0 +1,31 @@
+{
+  "id": "l8-c7",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Code-deel 7: Bij y = 0,5x − 1, waar snijdt de grafiek de y-as?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "y = 0,5"
+    },
+    {
+      "id": "b",
+      "label": "y = −1"
+    },
+    {
+      "id": "c",
+      "label": "y = 1"
+    },
+    {
+      "id": "d",
+      "label": "y = 0"
+    }
+  ],
+  "answer": "b",
+  "hint1": "Vul x = 0 in.",
+  "hint2": "y = 0,5·0 − 1 = −1.",
+  "optionalWorkedFirstStep": "y-as ⇒ x = 0.",
+  "explanation": "Snijpunt y-as: y = −1."
+}

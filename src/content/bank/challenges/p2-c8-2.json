@@ -1,0 +1,13 @@
+{
+  "id": "p2-c8-2",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Kamer II — Sap en water in verhouding 3 : 5. Totaal 32 liter. Hoeveel liter sap?",
+  "answer": 12,
+  "hint1": "3 + 5 = 8 delen. 32 / 8 = 4 liter per deel.",
+  "hint2": "Sap = 3 delen = 3 × 4 = 12 liter.",
+  "optionalWorkedFirstStep": "32 ÷ 8 = 4. Sap: 3 × 4 = 12.",
+  "explanation": "12 liter sap.\n\nVerhouding 3 : 5 → 8 delen\n32 / 8 = 4 liter per deel\nSap: 3 × 4 = 12\nWater: 5 × 4 = 20\n\nControle: 12 : 20 = 3 : 5 ✓"
+}

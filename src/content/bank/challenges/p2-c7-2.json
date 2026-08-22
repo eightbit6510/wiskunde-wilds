@@ -1,0 +1,20 @@
+{
+  "id": "p2-c7-2",
+  "type": "text-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Reeks: 3, 7, 11, 15 (positie 1, 2, 3, 4). Geef de formule: aₙ = … (gebruik n)",
+  "answer": "4n-1",
+  "acceptedAnswers": [
+    "4n-1",
+    "4n - 1",
+    "a=4n-1",
+    "aₙ=4n-1",
+    "4*n-1"
+  ],
+  "hint1": "Stap +4, eerste term 3.",
+  "hint2": "aₙ = 3 + 4(n − 1) = 4n − 1. Controle n=2: 4·2−1=7 ✓",
+  "optionalWorkedFirstStep": "3 + 4(n−1) = 4n − 4 + 3 = 4n − 1.",
+  "explanation": "aₙ = 4n − 1.\n\nControle:\nn=1: 4−1=3 ✓\nn=2: 8−1=7 ✓\nn=4: 16−1=15 ✓"
+}

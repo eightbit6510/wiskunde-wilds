@@ -1,0 +1,55 @@
+{
+  "id": "l3-c2",
+  "type": "multiple-choice",
+  "topic": "verbanden",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Welk patroon zie je? Welke formule past erbij?",
+  "tableData": {
+    "headers": [
+      "x",
+      "y"
+    ],
+    "rows": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        9
+      ]
+    ]
+  },
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "y = x + 3"
+    },
+    {
+      "id": "b",
+      "label": "y = 2x + 3"
+    },
+    {
+      "id": "c",
+      "label": "y = 3x"
+    },
+    {
+      "id": "d",
+      "label": "y = 2x − 3"
+    }
+  ],
+  "answer": "b",
+  "hint1": "Kijk hoeveel y stijgt als x met 1 toeneemt.",
+  "hint2": "Bij elke stap +2 in y. Start bij x=0 met y=3 → y = 2x + 3.",
+  "optionalWorkedFirstStep": "Verschillen in y: 5−3=2, 7−5=2, 9−7=2. Hellingsgetal = 2.",
+  "explanation": "y = 2x + 3.\n\nElke stap in x: y + 2\nBij x = 0: y = 3 (snijpunt y-as)\nControle x=2: 2·2+3=7 ✓"
+}

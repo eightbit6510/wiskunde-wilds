@@ -1,0 +1,42 @@
+{
+  "challengeId": "zij-ms-3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Exponenten optellen: 4 + 3 = 7.",
+    "steps": [
+      {
+        "explanation": "2⁴ × 2³ = 2⁷.",
+        "question": "2⁷ = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "128"
+          },
+          {
+            "id": "b",
+            "label": "64"
+          },
+          {
+            "id": "c",
+            "label": "256"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "128.",
+        "retryFeedback": "2⁷ = 128."
+      }
+    ],
+    "conclusion": "128."
+  },
+  "bonusVariants": [
+    {
+      "id": "zij-ms-3-b1",
+      "type": "number-input",
+      "question": "√144 = ?",
+      "answer": 12,
+      "hint1": "12² = 144.",
+      "hint2": "12.",
+      "explanation": "√144 = 12."
+    }
+  ]
+}

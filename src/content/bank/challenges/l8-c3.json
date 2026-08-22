@@ -1,0 +1,13 @@
+{
+  "id": "l8-c3",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Code-deel 3: Los op: 4x − 7 = 9. Wat is x?",
+  "answer": 4,
+  "hint1": "Eerst +7 aan beide kanten.",
+  "hint2": "4x = 16 → x = 4.",
+  "optionalWorkedFirstStep": "4x = 16.",
+  "explanation": "4x − 7 = 9 → 4x = 16 → x = 4."
+}

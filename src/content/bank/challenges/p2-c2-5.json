@@ -1,0 +1,31 @@
+{
+  "id": "p2-c2-5",
+  "type": "multiple-choice",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Welke formule past bij dit verhaal?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "V = 15 − 2d"
+    },
+    {
+      "id": "b",
+      "label": "V = 2d − 15"
+    },
+    {
+      "id": "c",
+      "label": "V = 15 + 2d"
+    },
+    {
+      "id": "d",
+      "label": "V = 2d + 15"
+    }
+  ],
+  "answer": "a",
+  "hint1": "Start: 15 kg. Elke dag gaat er 2 kg af.",
+  "hint2": "Na d dagen: 15 − 2·d.",
+  "optionalWorkedFirstStep": "Bij d = 0: V = 15. Bij d = 1: V = 13.",
+  "explanation": "V = 15 − 2d.\n\nStart: 15 kg\nPer dag −2 kg\nNa d dagen: V = 15 − 2d\n\nControle d=5: 15 − 10 = 5 kg ✓"
+}

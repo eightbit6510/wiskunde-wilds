@@ -1,0 +1,33 @@
+{
+  "id": "l1-c1",
+  "type": "multi-select",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Welke berekeningen kloppen? Kies alle juiste antwoorden.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "A. −4 + 7 = −11"
+    },
+    {
+      "id": "b",
+      "label": "B. 5 − (−3) = 2"
+    },
+    {
+      "id": "c",
+      "label": "C. −3 × −4 = 12"
+    },
+    {
+      "id": "d",
+      "label": "D. 18 ÷ −3 = 6"
+    }
+  ],
+  "answers": [
+    "c"
+  ],
+  "hint1": "Denk na over tekens: negatief × negatief, en min een negatief getal.",
+  "hint2": "Controleer A: −4 + 7 is juist +3. Bij B: 5 − (−3) = 5 + 3. Bij D: 18 ÷ −3 is −6.",
+  "optionalWorkedFirstStep": "Begin met C: twee mintekens bij vermenigvuldigen geven een plus → 12. Dat klopt alvast.",
+  "explanation": "Alleen C klopt.\n\nA: −4 + 7 = 3 (niet −11)\nB: 5 − (−3) = 5 + 3 = 8 (niet 2)\nC: −3 × −4 = 12 ✓\nD: 18 ÷ −3 = −6 (niet 6)\n\nTip: twee mintekens bij × of ÷ → positief. Min een negatief → optellen."
+}

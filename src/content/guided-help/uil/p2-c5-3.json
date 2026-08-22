@@ -1,0 +1,76 @@
+{
+  "challengeId": "p2-c5-3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "De startwaarde lees je af waar de lijn de y-as raakt.",
+    "steps": [
+      {
+        "explanation": "Snijpunt y-as: x = 0.",
+        "question": "Wat vul je in bij y = −x + 8?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x = 0"
+          },
+          {
+            "id": "b",
+            "label": "y = 0"
+          },
+          {
+            "id": "c",
+            "label": "x = 8"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Op de y-as is x altijd 0.",
+        "retryFeedback": "y-as ⇒ x = 0."
+      },
+      {
+        "explanation": "y = −0 + 8 = 8.",
+        "question": "Wat is de startwaarde?",
+        "options": [
+          {
+            "id": "a",
+            "label": "8"
+          },
+          {
+            "id": "b",
+            "label": "−8"
+          },
+          {
+            "id": "c",
+            "label": "0"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Startwaarde = 8. Dat is de constante term!",
+        "retryFeedback": "Het losse getal in de formule."
+      }
+    ],
+    "conclusion": "Startwaarde = 8. Constante term = snijpunt y-as."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c5-3-b1",
+      "type": "number-input",
+      "question": "y = 5x − 2. Snijpunt y-as?",
+      "answer": -2,
+      "acceptedAnswers": [
+        -2,
+        "-2"
+      ],
+      "hint1": "x = 0.",
+      "hint2": "y = −2.",
+      "explanation": "Bij x = 0: y = −2."
+    },
+    {
+      "id": "p2c5-3-b2",
+      "type": "number-input",
+      "question": "y = 0,5x + 6. Startwaarde?",
+      "answer": 6,
+      "hint1": "Constante term.",
+      "hint2": "y(0) = 6.",
+      "explanation": "Startwaarde = 6."
+    }
+  ]
+}

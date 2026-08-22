@@ -1,0 +1,65 @@
+{
+  "id": "runenruines",
+  "adventureId": "part2",
+  "order": 106,
+  "areaName": "De Runenruïnes",
+  "title": "Machten in steen",
+  "emoji": "🔮",
+  "intro": "Oude runen gloeien op de muren: machten stapelen zich op, wortels graven diep. Ontdek de regels — en pas op voor de valkuil 2⁵ versus 5².",
+  "color": "#4A3558",
+  "mapTeaser": "Oude runen pulseren zacht in het steen…",
+  "placements": [
+    {
+      "challengeId": "p2-c6-1",
+      "optionalStory": "Twee runen vermenigvuldigd — wat gebeurt er met de exponenten?",
+      "xpReward": 28,
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "p2-c6-2",
+      "optionalStory": "Een rune vraagt om de wortel van 81.",
+      "xpReward": 24,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "p2-c6-3",
+      "optionalStory": "De runen vragen om het kwadraat van 12.",
+      "xpReward": 24,
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "p2-c6-4",
+      "optionalStory": "De runen fluisteren: 50 is geen perfect kwadraat — schat slim.",
+      "xpReward": 27,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "p2-c6-5",
+      "optionalStory": "Een rune-regel op de muur — ontdek of delen ook een patroon heeft.",
+      "xpReward": 28,
+      "sortOrder": 4
+    },
+    {
+      "challengeId": "p2-c6-6",
+      "optionalStory": "Een spoor uit het Konijnenhol — ken je dit nog?",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 14,
+      "sortOrder": 5
+    },
+    {
+      "challengeId": "p2-c6-7",
+      "optionalStory": "De gemene valkuil uit het Konijnenhol — pas op!",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 15,
+      "sortOrder": 6
+    },
+    {
+      "challengeId": "p2-c6-8",
+      "optionalStory": "Drie runen in één rij — pas de regel toe.",
+      "xpReward": 29,
+      "sortOrder": 7
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "challengeId": "l1-c1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We checken de sommen één voor één. Let op de mintekens.",
+    "steps": [
+      {
+        "explanation": "Kijk eerst naar C: −3 × −4.\n\nNegatief × negatief geeft…",
+        "question": "Wat wordt −3 × −4?",
+        "options": [
+          {
+            "id": "neg",
+            "label": "−12"
+          },
+          {
+            "id": "pos",
+            "label": "12"
+          },
+          {
+            "id": "zero",
+            "label": "0"
+          }
+        ],
+        "correctAnswer": "pos",
+        "successFeedback": "Juist. Twee mintekens bij vermenigvuldigen → positief. C klopt.",
+        "retryFeedback": "Denk aan de regel: min × min = plus."
+      },
+      {
+        "explanation": "Nu A: −4 + 7.\n\nVan −4 naar rechts over de nullijn.",
+        "question": "Wat is −4 + 7?",
+        "options": [
+          {
+            "id": "m11",
+            "label": "−11"
+          },
+          {
+            "id": "p3",
+            "label": "3"
+          },
+          {
+            "id": "m3",
+            "label": "−3"
+          }
+        ],
+        "correctAnswer": "p3",
+        "successFeedback": "Precies: −4 + 7 = 3. Dus A klopt niet.",
+        "retryFeedback": "Tel 7 bij −4 op. Je komt boven nul."
+      },
+      {
+        "explanation": "B: 5 − (−3) betekent 5 min een negatief getal.\nD: 18 ÷ −3.",
+        "question": "Welke berekeningen kloppen echt?",
+        "options": [
+          {
+            "id": "onlyC",
+            "label": "Alleen C"
+          },
+          {
+            "id": "bAndC",
+            "label": "B en C"
+          },
+          {
+            "id": "all",
+            "label": "Allemaal"
+          }
+        ],
+        "correctAnswer": "onlyC",
+        "successFeedback": "Goed gezien.\nB: 5 − (−3) = 8 (niet 2)\nD: 18 ÷ −3 = −6 (niet 6)\nAlleen C klopt.",
+        "retryFeedback": "Check B en D nog eens: min een min, en delen door een negatief."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Alleen C is juist."
+  },
+  "bonusVariants": [
+    {
+      "id": "l1c1-b1",
+      "type": "multiple-choice",
+      "question": "Welke berekening klopt?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "−2 + 5 = −7"
+        },
+        {
+          "id": "b",
+          "label": "−2 × −5 = 10"
+        },
+        {
+          "id": "c",
+          "label": "8 ÷ −2 = 4"
+        }
+      ],
+      "hint1": "Min × min = plus. Delen door een min geeft een min.",
+      "hint2": "−2 × −5 = 10.",
+      "explanation": "Alleen −2 × −5 = 10 klopt."
+    },
+    {
+      "id": "l1c1-b2",
+      "type": "multiple-choice",
+      "question": "Welke berekening klopt?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "6 − (−2) = 8"
+        },
+        {
+          "id": "b",
+          "label": "−3 + 1 = −4"
+        },
+        {
+          "id": "c",
+          "label": "−4 × 2 = 8"
+        }
+      ],
+      "hint1": "Min een negatief = optellen.",
+      "hint2": "6 − (−2) = 6 + 2 = 8.",
+      "explanation": "6 − (−2) = 8."
+    }
+  ]
+}

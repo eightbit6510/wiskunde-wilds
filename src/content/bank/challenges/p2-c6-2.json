@@ -1,0 +1,13 @@
+{
+  "id": "p2-c6-2",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "√81 = ?",
+  "answer": 9,
+  "hint1": "Welk positief getal × zichzelf geeft 81?",
+  "hint2": "9 × 9 = 81.",
+  "optionalWorkedFirstStep": "Probeer 9: 9² = 81.",
+  "explanation": "√81 = 9, want 9² = 81."
+}

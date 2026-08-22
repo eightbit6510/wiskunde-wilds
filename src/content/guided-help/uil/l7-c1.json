@@ -1,0 +1,100 @@
+{
+  "challengeId": "l7-c1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We ontdekken wat x² doet.",
+    "steps": [
+      {
+        "explanation": "Bereken (−2)² en 2².",
+        "question": "Wat is (−2)²?",
+        "options": [
+          {
+            "id": "m4",
+            "label": "−4"
+          },
+          {
+            "id": "4",
+            "label": "4"
+          },
+          {
+            "id": "2",
+            "label": "2"
+          }
+        ],
+        "correctAnswer": "4",
+        "successFeedback": "Juist: (−2)×(−2)=4. En 2² is ook 4.",
+        "retryFeedback": "Min × min = plus."
+      },
+      {
+        "explanation": "Positieve en negatieve x kunnen dezelfde y geven.",
+        "question": "Wat valt je op bij y = x²?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Positieve en negatieve x kunnen dezelfde y geven"
+          },
+          {
+            "id": "b",
+            "label": "De grafiek is een rechte lijn"
+          },
+          {
+            "id": "c",
+            "label": "Alle uitkomsten zijn negatief"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies. Dat hoort bij een parabool.",
+        "retryFeedback": "Vergelijk links en rechts van de y-as."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Spiegelbeeld links/rechts."
+  },
+  "bonusVariants": [
+    {
+      "id": "l7c1-b1",
+      "type": "multiple-choice",
+      "question": "Wat is (−5)²?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "25"
+        },
+        {
+          "id": "b",
+          "label": "−25"
+        },
+        {
+          "id": "c",
+          "label": "10"
+        }
+      ],
+      "hint1": "Min × min = plus.",
+      "hint2": "25.",
+      "explanation": "(−5)² = 25."
+    },
+    {
+      "id": "l7c1-b2",
+      "type": "multiple-choice",
+      "question": "Welke twee x-waarden geven dezelfde y bij y = x²?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "1 en 2"
+        },
+        {
+          "id": "b",
+          "label": "−3 en 3"
+        },
+        {
+          "id": "c",
+          "label": "0 en 1"
+        }
+      ],
+      "hint1": "Spiegelbeelden.",
+      "hint2": "(−3)² = 3².",
+      "explanation": "−3 en 3 geven beide 9."
+    }
+  ]
+}

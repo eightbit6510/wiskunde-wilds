@@ -1,0 +1,100 @@
+{
+  "challengeId": "l8-c2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. De 2 moet bij beide termen.",
+    "steps": [
+      {
+        "explanation": "2(3x − 1) = 2·3x + 2·(−1).",
+        "question": "Wat is 2 × 3x?",
+        "options": [
+          {
+            "id": "5x",
+            "label": "5x"
+          },
+          {
+            "id": "6x",
+            "label": "6x"
+          },
+          {
+            "id": "3x",
+            "label": "3x"
+          }
+        ],
+        "correctAnswer": "6x",
+        "successFeedback": "Juist. En 2 × (−1) = −2.",
+        "retryFeedback": "2 × 3 = 6, dus 6x."
+      },
+      {
+        "explanation": "Dus 6x − 2.",
+        "question": "Wat is 2(3x − 1) uitgewerkt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "6x − 1"
+          },
+          {
+            "id": "b",
+            "label": "6x − 2"
+          },
+          {
+            "id": "c",
+            "label": "5x − 2"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Precies: 6x − 2.",
+        "retryFeedback": "Vergeet de −1 niet mee te vermenigvuldigen."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 6x − 2"
+  },
+  "bonusVariants": [
+    {
+      "id": "l8c2-b1",
+      "type": "multiple-choice",
+      "question": "Wat is 3(2x − 4) uitgewerkt?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "6x − 12"
+        },
+        {
+          "id": "b",
+          "label": "6x − 4"
+        },
+        {
+          "id": "c",
+          "label": "5x − 12"
+        }
+      ],
+      "hint1": "3×2x en 3×(−4).",
+      "hint2": "6x − 12.",
+      "explanation": "6x − 12."
+    },
+    {
+      "id": "l8c2-b2",
+      "type": "multiple-choice",
+      "question": "Wat is 4(x + 5) uitgewerkt?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "4x + 5"
+        },
+        {
+          "id": "b",
+          "label": "4x + 20"
+        },
+        {
+          "id": "c",
+          "label": "x + 20"
+        }
+      ],
+      "hint1": "4×x en 4×5.",
+      "hint2": "4x + 20.",
+      "explanation": "4x + 20."
+    }
+  ]
+}

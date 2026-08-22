@@ -1,0 +1,31 @@
+{
+  "id": "p2-c5-2",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat betekent het hellingsgetal 2 in y = 2x + 3?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Als x met 1 toeneemt, stijgt y met 2"
+    },
+    {
+      "id": "b",
+      "label": "De grafiek start bij y = 2"
+    },
+    {
+      "id": "c",
+      "label": "De grafiek snijdt de x-as bij 2"
+    },
+    {
+      "id": "d",
+      "label": "y is altijd 2 groter dan x"
+    }
+  ],
+  "answer": "a",
+  "hint1": "Het getal bij x heet het hellingsgetal.",
+  "hint2": "Helling 2: elke stap naar rechts (+1 in x) → +2 in y.",
+  "optionalWorkedFirstStep": "x=0→y=3, x=1→y=5, x=2→y=7. y stijgt steeds met 2.",
+  "explanation": "Helling 2 betekent: x +1 → y +2.\n\nBij x = 0: y = 3\nBij x = 1: y = 5 (+2)\nBij x = 2: y = 7 (+2)\n\nDe +3 is de startwaarde, niet de helling."
+}

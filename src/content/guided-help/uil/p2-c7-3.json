@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c7-3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Figuurpatroon: vind stapgrootte, maak formule, vul n in.",
+    "steps": [
+      {
+        "explanation": "4 → 7 → 10. Verschil steeds 3.",
+        "question": "Wat is het stapverschil?",
+        "options": [
+          {
+            "id": "a",
+            "label": "+3"
+          },
+          {
+            "id": "b",
+            "label": "+4"
+          },
+          {
+            "id": "c",
+            "label": "×2"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Elke figuur +3 stenen.",
+        "retryFeedback": "7−4=3, 10−7=3."
+      },
+      {
+        "explanation": "Formule: aₙ = 3n + 1.\nFiguur 10: 3·10 + 1.",
+        "question": "Hoeveel stenen?",
+        "options": [
+          {
+            "id": "a",
+            "label": "31"
+          },
+          {
+            "id": "b",
+            "label": "30"
+          },
+          {
+            "id": "c",
+            "label": "34"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "3·10 + 1 = 31. Doolhof door!",
+        "retryFeedback": "30 + 1 = 31."
+      }
+    ],
+    "conclusion": "Figuur 10 = 31 stenen. Formule 3n + 1."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c7-3-b1",
+      "type": "number-input",
+      "question": "Figuur 1=5, 2=9, 3=13. Hoeveel stenen in figuur 8?",
+      "answer": 33,
+      "hint1": "Stap +4, formule 4n + 1.",
+      "hint2": "4·8 + 1 = 33.",
+      "explanation": "aₙ = 4n + 1 → figuur 8 = 33."
+    },
+    {
+      "id": "p2c7-3-b2",
+      "type": "number-input",
+      "question": "aₙ = 3n + 1. Hoeveel stenen in figuur 5?",
+      "answer": 16,
+      "hint1": "3·5 + 1.",
+      "hint2": "16.",
+      "explanation": "3·5 + 1 = 16."
+    }
+  ]
+}

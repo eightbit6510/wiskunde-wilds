@@ -1,0 +1,72 @@
+{
+  "challengeId": "l3-c3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. De y-as is waar x = 0.",
+    "steps": [
+      {
+        "explanation": "y = 2x + 3.\nOp de y-as is x altijd 0.",
+        "question": "Welke x vul je in voor het snijpunt met de y-as?",
+        "options": [
+          {
+            "id": "0",
+            "label": "x = 0"
+          },
+          {
+            "id": "1",
+            "label": "x = 1"
+          },
+          {
+            "id": "3",
+            "label": "x = 3"
+          }
+        ],
+        "correctAnswer": "0",
+        "successFeedback": "Precies. x = 0.",
+        "retryFeedback": "Y-as = verticale as = x is nul."
+      },
+      {
+        "explanation": "Vul in: y = 2·0 + 3.",
+        "question": "Wat is y?",
+        "options": [
+          {
+            "id": "0",
+            "label": "0"
+          },
+          {
+            "id": "2",
+            "label": "2"
+          },
+          {
+            "id": "3",
+            "label": "3"
+          }
+        ],
+        "correctAnswer": "3",
+        "successFeedback": "Juist. Het snijpunt is y = 3.",
+        "retryFeedback": "2 keer 0 is 0, plus 3 is 3."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 y = 3"
+  },
+  "bonusVariants": [
+    {
+      "id": "l3c3-b1",
+      "type": "number-input",
+      "question": "y = 4x − 1. Waar raakt de grafiek de y-as?",
+      "answer": -1,
+      "hint1": "Vul x = 0 in.",
+      "hint2": "y = −1.",
+      "explanation": "Bij x = 0 is y = −1."
+    },
+    {
+      "id": "l3c3-b2",
+      "type": "number-input",
+      "question": "y = −3x + 8. Waar raakt de grafiek de y-as?",
+      "answer": 8,
+      "hint1": "Vul x = 0 in.",
+      "hint2": "y = 8.",
+      "explanation": "Bij x = 0 is y = 8."
+    }
+  ]
+}

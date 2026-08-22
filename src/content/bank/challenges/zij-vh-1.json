@@ -1,0 +1,12 @@
+{
+  "id": "zij-vh-1",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 8 = 15",
+  "answer": 7,
+  "hint1": "Beide kanten − 8.",
+  "hint2": "x = 7.",
+  "explanation": "x + 8 = 15 → x = 7."
+}

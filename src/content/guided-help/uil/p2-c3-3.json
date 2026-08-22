@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c3-3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Verhouding 2 : 3 — tel delen op voor het totaal.",
+    "steps": [
+      {
+        "explanation": "Sap : water = 2 : 3.\n\nHoeveel delen in totaal?",
+        "question": "Totaal aantal delen?",
+        "options": [
+          {
+            "id": "a",
+            "label": "5 delen"
+          },
+          {
+            "id": "b",
+            "label": "6 delen"
+          },
+          {
+            "id": "c",
+            "label": "25 delen"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "2 + 3 = 5 delen.",
+        "retryFeedback": "Tel de delen van sap en water op."
+      },
+      {
+        "explanation": "25 liter verdeeld over 5 delen = 5 liter per deel.",
+        "question": "Hoeveel liter sap (2 delen)?",
+        "options": [
+          {
+            "id": "a",
+            "label": "10 liter"
+          },
+          {
+            "id": "b",
+            "label": "15 liter"
+          },
+          {
+            "id": "c",
+            "label": "5 liter"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "2 × 5 = 10 liter sap.",
+        "retryFeedback": "Sap is 2 delen: 2 × 5 = 10."
+      }
+    ],
+    "conclusion": "10 liter sap, 15 liter water. Verhouding behouden!"
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c3-3-b1",
+      "type": "number-input",
+      "question": "Verhouding 3 : 5, totaal 40 liter. Hoeveel liter van het eerste deel?",
+      "answer": 15,
+      "hint1": "8 delen totaal. 40/8 = 5 per deel.",
+      "hint2": "3 × 5 = 15.",
+      "explanation": "40/8 = 5 per deel. Eerste deel: 3×5 = 15."
+    },
+    {
+      "id": "p2c3-3-b2",
+      "type": "number-input",
+      "question": "Verhouding 1 : 4, totaal 30 liter. Hoeveel liter van het tweede deel?",
+      "answer": 24,
+      "hint1": "5 delen. 30/5 = 6 per deel.",
+      "hint2": "4 × 6 = 24.",
+      "explanation": "Tweede deel: 4 × 6 = 24 liter."
+    }
+  ]
+}

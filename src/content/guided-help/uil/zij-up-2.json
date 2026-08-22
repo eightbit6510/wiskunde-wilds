@@ -1,0 +1,42 @@
+{
+  "challengeId": "zij-up-2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Formule omdraaien: h = A / b.",
+    "steps": [
+      {
+        "explanation": "h = 56 / 7.",
+        "question": "h = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "8"
+          },
+          {
+            "id": "b",
+            "label": "49"
+          },
+          {
+            "id": "c",
+            "label": "7"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "h = 8.",
+        "retryFeedback": "56 ÷ 7."
+      }
+    ],
+    "conclusion": "h = 8."
+  },
+  "bonusVariants": [
+    {
+      "id": "zij-up-2-b1",
+      "type": "number-input",
+      "question": "A = 45, h = 5. Wat is b?",
+      "answer": 9,
+      "hint1": "b = A / h.",
+      "hint2": "9.",
+      "explanation": "b = 9."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "challengeId": "l6-c4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Zoek helling, daarna de constante.",
+    "steps": [
+      {
+        "explanation": "y: 5, 8, 11, 14. Verschillen?",
+        "question": "Hoeveel komt y erbij per stap?",
+        "options": [
+          {
+            "id": "2",
+            "label": "+2"
+          },
+          {
+            "id": "3",
+            "label": "+3"
+          },
+          {
+            "id": "4",
+            "label": "+4"
+          }
+        ],
+        "correctAnswer": "3",
+        "successFeedback": "Juist. Helling = 3.",
+        "retryFeedback": "8−5 = 3."
+      },
+      {
+        "explanation": "y = 3x + b. Bij x = 1 is y = 5 → 3 + b = 5.",
+        "question": "Welke formule?",
+        "options": [
+          {
+            "id": "a",
+            "label": "y = 3x + 2"
+          },
+          {
+            "id": "b",
+            "label": "y = 3x + 1"
+          },
+          {
+            "id": "c",
+            "label": "y = 2x + 3"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies: y = 3x + 2.",
+        "retryFeedback": "b = 2."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 y = 3x + 2"
+  },
+  "bonusVariants": [
+    {
+      "id": "l6c4-b1",
+      "type": "multiple-choice",
+      "question": "Tabel x:1,2,3 y:4,7,10. Welke formule?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 3x + 1"
+        },
+        {
+          "id": "b",
+          "label": "y = 2x + 2"
+        },
+        {
+          "id": "c",
+          "label": "y = 4x"
+        }
+      ],
+      "hint1": "Stappen +3. Bij x=1: 4 = 3+b.",
+      "hint2": "y = 3x + 1.",
+      "explanation": "y = 3x + 1."
+    },
+    {
+      "id": "l6c4-b2",
+      "type": "multiple-choice",
+      "question": "Tabel x:1,2,3 y:6,10,14. Welke formule?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 4x"
+        },
+        {
+          "id": "b",
+          "label": "y = 4x + 2"
+        },
+        {
+          "id": "c",
+          "label": "y = 2x + 4"
+        }
+      ],
+      "hint1": "Stappen +4. Bij x=1: 6 = 4+b.",
+      "hint2": "y = 4x + 2.",
+      "explanation": "y = 4x + 2."
+    }
+  ]
+}

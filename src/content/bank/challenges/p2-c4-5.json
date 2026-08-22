@@ -1,0 +1,13 @@
+{
+  "id": "p2-c4-5",
+  "type": "number-input",
+  "topic": "kwadratisch",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "y = x² − 4. Wat is y als x = 3?",
+  "answer": 5,
+  "hint1": "3² − 4.",
+  "hint2": "9 − 4 = 5.",
+  "optionalWorkedFirstStep": "3² = 9. 9 − 4 = 5.",
+  "explanation": "y = 5.\n\ny = x² − 4\nx = 3: y = 9 − 4 = 5\n\nControle: 3² = 9 ✓"
+}

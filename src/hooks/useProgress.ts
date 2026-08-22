@@ -90,6 +90,9 @@ export function useProgress() {
         owlStarsSpent: result.next.owlStarsSpent,
         owlHelpUsedCount: result.next.owlHelpUsedCount,
         owlHelpChallenges: result.next.owlHelpChallenges,
+        guidedStarsSpent: result.next.owlStarsSpent,
+        guidedHelpUsedCount: result.next.owlHelpUsedCount,
+        guidedHelpChallenges: result.next.owlHelpChallenges,
         preferSuccessMoment: true,
         lastPlayedAt: new Date().toISOString(),
       };
@@ -268,6 +271,7 @@ export function useProgress() {
     setProgress((p) => ({
       ...p,
       owlBonusTried: p.owlBonusTried + 1,
+      guidedBonusTried: p.guidedBonusTried + 1,
       lastPlayedAt: new Date().toISOString(),
     }));
   }, []);
@@ -277,6 +281,7 @@ export function useProgress() {
       const next: ProgressState = {
         ...p,
         owlBonusSolved: p.owlBonusSolved + 1,
+        guidedBonusSolved: p.guidedBonusSolved + 1,
         totalXp: p.totalXp + OWL_BONUS_XP,
         totalStars: p.totalStars + XP.bonusSolveStars,
         lastPlayedAt: new Date().toISOString(),
@@ -299,6 +304,11 @@ export function useProgress() {
     resetProgressStorage();
     owlSpendLock.current = false;
     setProgress(createEmptyProgress());
+  }, []);
+
+  const applyProgress = useCallback((next: ProgressState) => {
+    owlSpendLock.current = false;
+    setProgress(unlockBadges(reconcileLessonCompletion(migrateProgress(next))));
   }, []);
 
   const lessonProgress = useMemo(() => {
@@ -334,6 +344,7 @@ export function useProgress() {
     unlockPart2,
     completeTrainingSession,
     resetProgress,
+    applyProgress,
     lessonProgress,
   };
 }

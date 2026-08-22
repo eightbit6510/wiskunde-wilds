@@ -1,0 +1,13 @@
+{
+  "id": "l2-c1",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "A = ℓ × b. Als A = 42 en ℓ = 7, wat is b?",
+  "answer": 6,
+  "hint1": "Deel beide kanten door ℓ: b = A ÷ ℓ.",
+  "hint2": "b = 42 ÷ 7.",
+  "optionalWorkedFirstStep": "b = A / ℓ = 42 / 7.",
+  "explanation": "b = A ÷ ℓ = 42 ÷ 7 = 6.\n\nControle: 7 × 6 = 42 ✓"
+}

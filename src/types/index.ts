@@ -1,3 +1,38 @@
+export type {
+  AdventureContentBundle,
+  AdventureId,
+  AdventureManifest,
+  AdventureThemeId,
+  ChallengeBankEntry,
+  ChallengeDefinition,
+  ChallengePlacement,
+  ChallengeTypeId,
+  ClassLevel,
+  ClassLevelProfile,
+  ContentSourceRef,
+  ContentValidationIssue,
+  ContentValidationResult,
+  GuidedHelpPack,
+  HelpPersona,
+  HelpPersonaId,
+  LessonShell,
+  ResolvedChallenge,
+  ResolvedLesson,
+} from './content';
+export { CONTENT_LAYER } from './content';
+
+export type {
+  AuthSession,
+  NameAvailabilityResult,
+  PlayerAccount,
+  PlayerLoginInput,
+  PlayerPrefs,
+  PlayerProgressSnapshot,
+  PlayerRecord,
+  PlayerRegisterInput,
+} from './player';
+export { PIN_RULES, PLAYER_DATA_POLICY } from './player';
+
 export type Topic =
   | 'algebra'
   | 'vergelijkingen'
@@ -132,6 +167,10 @@ export interface OwlHelp {
   conclusion: string;
 }
 
+/** Fase 2 alias — zelfde structuur als OwlHelp */
+export type GuidedHelp = OwlHelp;
+export type GuidedHelpStep = OwlHelpStep;
+
 /** A same-skill practice variant with different numbers/variables. */
 export interface BonusVariant {
   id: string;
@@ -203,6 +242,12 @@ export interface ProgressState {
   owlStarsSpent: number;
   owlBonusTried: number;
   owlBonusSolved: number;
+  /** Fase 2 — generieke hulp-stats (gespiegeld met owl* velden) */
+  guidedHelpUsedCount: number;
+  guidedHelpChallenges: string[];
+  guidedStarsSpent: number;
+  guidedBonusTried: number;
+  guidedBonusSolved: number;
   /** Schema version for migrations */
   progressVersion: number;
   /** Part 2 permanently unlocked */

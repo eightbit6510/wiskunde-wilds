@@ -1,0 +1,119 @@
+{
+  "id": "l3-c1",
+  "type": "graph-choice",
+  "topic": "grafieken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Welke grafiek past bij een fietser die eerst stilstaat, daarna steeds sneller fietst en vervolgens weer stopt?",
+  "graphOptions": [
+    {
+      "id": "a",
+      "label": "A: constant stijgend",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 4,
+          "y": 8
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "label": "B: plat, dan steiler, dan plat",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 4
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "label": "C: dalend",
+      "points": [
+        {
+          "x": 0,
+          "y": 8
+        },
+        {
+          "x": 1,
+          "y": 6
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 2
+        },
+        {
+          "x": 4,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "label": "D: zigzag",
+      "points": [
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 5
+        },
+        {
+          "x": 4,
+          "y": 2
+        }
+      ]
+    }
+  ],
+  "answer": "b",
+  "hint1": "Stilstand = horizontale lijn. Steeds sneller = steilere helling. Weer stoppen = opnieuw horizontaal.",
+  "hint2": "Zoek de grafiek die plat begint, dan omhoog kromt/steiler wordt, en weer plat eindigt.",
+  "optionalWorkedFirstStep": "Eerste stuk y constant → stilstand. Dat elimineert A en C.",
+  "explanation": "Grafiek B.\n\nStilstand → horizontale start\nSteeds sneller → helling wordt steiler\nWeer stoppen → horizontaal einde"
+}

@@ -1,0 +1,100 @@
+{
+  "challengeId": "p2-c7-6",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Elimineer opties door in te vullen — welke faalt?",
+    "steps": [
+      {
+        "explanation": "Reeks begint bij 4 (n=1).",
+        "question": "aₙ = 4n. Wat is a₂?",
+        "options": [
+          {
+            "id": "a",
+            "label": "8"
+          },
+          {
+            "id": "b",
+            "label": "7"
+          },
+          {
+            "id": "c",
+            "label": "10"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "4·2 = 8, maar term 2 is 7. Fout!",
+        "retryFeedback": "4 × 2 = 8."
+      },
+      {
+        "explanation": "aₙ = 4n geeft 4, 8, 12, 16 — niet 4, 7, 10, 13.",
+        "question": "Welke formule past NIET?",
+        "options": [
+          {
+            "id": "a",
+            "label": "aₙ = 3n + 1"
+          },
+          {
+            "id": "b",
+            "label": "aₙ = 4n"
+          },
+          {
+            "id": "c",
+            "label": "aₙ = 1 + 3(n − 1)"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "aₙ = 4n elimineren! De andere twee zijn hetzelfde: 3n+1.",
+        "retryFeedback": "4n geeft stap +4, niet +3."
+      }
+    ],
+    "conclusion": "aₙ = 4n past niet. Invullen = elimineren."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c7-6-b1",
+      "type": "multiple-choice",
+      "question": "Welke formule past NIET bij 2, 5, 8, 11?",
+      "answer": "c",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "aₙ = 3n − 1"
+        },
+        {
+          "id": "b",
+          "label": "aₙ = 2 + 3(n − 1)"
+        },
+        {
+          "id": "c",
+          "label": "aₙ = 2n + 1"
+        }
+      ],
+      "hint1": "Stap +3, start 2.",
+      "hint2": "2n + 1: bij n = 1 geeft dat 3, niet 2.",
+      "explanation": "aₙ = 2n + 1 geeft 3, 5, 7, 9 — start al fout."
+    },
+    {
+      "id": "p2c7-6-b2",
+      "type": "multiple-choice",
+      "question": "Welke formule past WEL bij 4, 7, 10, 13?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "aₙ = 3n + 1"
+        },
+        {
+          "id": "b",
+          "label": "aₙ = 4n"
+        },
+        {
+          "id": "c",
+          "label": "aₙ = n + 4"
+        }
+      ],
+      "hint1": "Stap +3.",
+      "hint2": "3n + 1.",
+      "explanation": "aₙ = 3n + 1. Controle: 4, 7, 10, 13 ✓"
+    }
+  ]
+}

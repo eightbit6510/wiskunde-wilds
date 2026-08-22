@@ -1,0 +1,100 @@
+{
+  "challengeId": "l3-c1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We vertalen het verhaal naar de vorm van de grafiek.",
+    "steps": [
+      {
+        "explanation": "Eerst stilstand.\nStilstand betekent: de afstand verandert niet.",
+        "question": "Hoe ziet stilstand eruit in een grafiek?",
+        "options": [
+          {
+            "id": "horiz",
+            "label": "Horizontaal stuk"
+          },
+          {
+            "id": "steil",
+            "label": "Steil omhoog"
+          },
+          {
+            "id": "dalend",
+            "label": "Dalend"
+          }
+        ],
+        "correctAnswer": "horiz",
+        "successFeedback": "Juist. Horizontaal = geen verandering.",
+        "retryFeedback": "Geen beweging → y blijft gelijk → plat."
+      },
+      {
+        "explanation": "Daarna steeds sneller → de helling wordt steiler.\nTot slot weer stoppen → weer horizontaal.",
+        "question": "Welke grafiek past?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Constant stijgend (rechte lijn omhoog)"
+          },
+          {
+            "id": "b",
+            "label": "Plat, dan steiler, dan plat"
+          },
+          {
+            "id": "c",
+            "label": "Alleen dalend"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Precies: plat → steiler → plat. Dat is grafiek B.",
+        "retryFeedback": "Zoek begin én eind horizontaal, midden steiler."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Grafiek B."
+  },
+  "bonusVariants": [
+    {
+      "id": "l3c1-b1",
+      "type": "multiple-choice",
+      "question": "Welke beschrijving past bij: eerst hard lopen, daarna langzaam, daarna stil?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Steil, dan steiler, dan steilst"
+        },
+        {
+          "id": "b",
+          "label": "Steil, dan minder steil, dan horizontaal"
+        },
+        {
+          "id": "c",
+          "label": "Alleen horizontaal"
+        }
+      ],
+      "hint1": "Stil = horizontaal. Sneller = steiler.",
+      "hint2": "Eindigt horizontaal.",
+      "explanation": "Steil → minder steil → horizontaal."
+    },
+    {
+      "id": "l3c1-b2",
+      "type": "multiple-choice",
+      "question": "Een vos rust 3 uur stil. Hoe ziet de grafiek van afstand-tijd eruit?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Horizontale lijn"
+        },
+        {
+          "id": "b",
+          "label": "Steile stijgende lijn"
+        },
+        {
+          "id": "c",
+          "label": "Parabool"
+        }
+      ],
+      "hint1": "Stil = geen verandering in afstand.",
+      "hint2": "Horizontaal.",
+      "explanation": "Horizontale lijn."
+    }
+  ]
+}

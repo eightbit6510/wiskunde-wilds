@@ -1,0 +1,13 @@
+{
+  "id": "p2-c6-4",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "√50 ligt tussen twee hele getallen. Welk getal ligt het dichtst bij? (antwoord: 7 of 8)",
+  "answer": 7,
+  "hint1": "7² = 49 en 8² = 64.",
+  "hint2": "|50 − 49| = 1 en |64 − 50| = 14. Dus het dichtst bij 7.",
+  "optionalWorkedFirstStep": "7² = 49 (verschil 1). 8² = 64 (verschil 14).",
+  "explanation": "7 ligt het dichtst bij √50.\n\n7² = 49 → verschil 1\n8² = 64 → verschil 14\n\n√50 ≈ 7,07, dus dichter bij 7."
+}

@@ -1,0 +1,76 @@
+{
+  "challengeId": "p2-c4-5",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Eerst kwadraat, dan − 4.",
+    "steps": [
+      {
+        "explanation": "x = 3.\n\nEerst 3².",
+        "question": "Wat is 3²?",
+        "options": [
+          {
+            "id": "a",
+            "label": "9"
+          },
+          {
+            "id": "b",
+            "label": "6"
+          },
+          {
+            "id": "c",
+            "label": "−9"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "3² = 9.",
+        "retryFeedback": "3 × 3 = 9."
+      },
+      {
+        "explanation": "y = 9 − 4.",
+        "question": "Wat is y?",
+        "options": [
+          {
+            "id": "a",
+            "label": "5"
+          },
+          {
+            "id": "b",
+            "label": "13"
+          },
+          {
+            "id": "c",
+            "label": "−5"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "9 − 4 = 5.",
+        "retryFeedback": "9 min 4."
+      }
+    ],
+    "conclusion": "y = 5. x² eerst, daarna de constante."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c4-5-b1",
+      "type": "number-input",
+      "question": "y = x² − 4. Wat is y als x = 0?",
+      "answer": -4,
+      "acceptedAnswers": [
+        -4,
+        "-4"
+      ],
+      "hint1": "0² = 0.",
+      "hint2": "0 − 4 = −4.",
+      "explanation": "y = 0 − 4 = −4."
+    },
+    {
+      "id": "p2c4-5-b2",
+      "type": "number-input",
+      "question": "y = x² − 4. Voor welke x is y = 0? (positieve oplossing)",
+      "answer": 2,
+      "hint1": "x² = 4.",
+      "hint2": "x = 2 (of −2).",
+      "explanation": "x² − 4 = 0 → x² = 4 → x = 2 of −2."
+    }
+  ]
+}

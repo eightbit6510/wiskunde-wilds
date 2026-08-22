@@ -1,0 +1,14 @@
+{
+  "id": "side",
+  "title": "Zijpaden",
+  "subtitle": "Optionele mini-missies",
+  "theme": "night",
+  "helpPersonaId": "uil",
+  "lessonIds": [
+    "zij-vossenhol",
+    "zij-maansteen",
+    "zij-uilenproef",
+    "zij-konijnenpad"
+  ],
+  "unlockRuleId": "part1-complete"
+}

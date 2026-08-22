@@ -1,0 +1,72 @@
+{
+  "challengeId": "l8-c3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Eerst de constante weg, dan delen.",
+    "steps": [
+      {
+        "explanation": "4x − 7 = 9. Haal −7 weg met +7.",
+        "question": "Wat krijg je?",
+        "options": [
+          {
+            "id": "a",
+            "label": "4x = 16"
+          },
+          {
+            "id": "b",
+            "label": "4x = 2"
+          },
+          {
+            "id": "c",
+            "label": "4x = 9"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Juist: 4x = 16.",
+        "retryFeedback": "9 + 7 = 16."
+      },
+      {
+        "explanation": "Deel beide kanten door 4.",
+        "question": "Wat is x?",
+        "options": [
+          {
+            "id": "4",
+            "label": "4"
+          },
+          {
+            "id": "3",
+            "label": "3"
+          },
+          {
+            "id": "12",
+            "label": "12"
+          }
+        ],
+        "correctAnswer": "4",
+        "successFeedback": "Precies: x = 4.",
+        "retryFeedback": "16 ÷ 4 = 4."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 4"
+  },
+  "bonusVariants": [
+    {
+      "id": "l8c3-b1",
+      "type": "number-input",
+      "question": "Los op: 5x − 3 = 17. Wat is x?",
+      "answer": 4,
+      "hint1": "Eerst +3, dan ÷5.",
+      "hint2": "5x = 20 → x = 4.",
+      "explanation": "x = 4."
+    },
+    {
+      "id": "l8c3-b2",
+      "type": "number-input",
+      "question": "Los op: 3x + 2 = 14. Wat is x?",
+      "answer": 4,
+      "hint1": "Eerst −2, dan ÷3.",
+      "hint2": "3x = 12 → x = 4.",
+      "explanation": "x = 4."
+    }
+  ]
+}

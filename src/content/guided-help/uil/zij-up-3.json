@@ -1,0 +1,42 @@
+{
+  "challengeId": "zij-up-3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "t in noemer — vermenigvuldig, dan deel.",
+    "steps": [
+      {
+        "explanation": "v · t = s → t = s / v.",
+        "question": "Welke formule?",
+        "options": [
+          {
+            "id": "a",
+            "label": "t = v × s"
+          },
+          {
+            "id": "b",
+            "label": "t = s / v"
+          },
+          {
+            "id": "c",
+            "label": "t = v / s"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "t = s / v.",
+        "retryFeedback": "Deel door v."
+      }
+    ],
+    "conclusion": "t = s / v."
+  },
+  "bonusVariants": [
+    {
+      "id": "zij-up-3-b1",
+      "type": "number-input",
+      "question": "v = 10 m/s, s = 50 m. t = ? (seconden)",
+      "answer": 5,
+      "hint1": "t = s / v.",
+      "hint2": "5.",
+      "explanation": "50 / 10 = 5 s."
+    }
+  ]
+}

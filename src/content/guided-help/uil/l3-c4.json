@@ -1,0 +1,100 @@
+{
+  "challengeId": "l3-c4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We matchen op betekenis, niet op raden.",
+    "steps": [
+      {
+        "explanation": "y = 3x gaat door (0,0) en stijgt steil.",
+        "question": "Wat past bij y = 3x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Door 0, steil omhoog"
+          },
+          {
+            "id": "b",
+            "label": "Constant verband"
+          },
+          {
+            "id": "c",
+            "label": "Horizontale grafiek"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Juist.",
+        "retryFeedback": "Geen +getal → door de oorsprong."
+      },
+      {
+        "explanation": "Een vos die stil rust → afstand verandert niet.",
+        "question": "Welke grafiek past bij stil rusten?",
+        "options": [
+          {
+            "id": "h",
+            "label": "Horizontale grafiek"
+          },
+          {
+            "id": "s",
+            "label": "Steil omhoog"
+          },
+          {
+            "id": "d",
+            "label": "Dalend"
+          }
+        ],
+        "correctAnswer": "h",
+        "successFeedback": "Precies. En een tabel met steeds dezelfde y is constant.",
+        "retryFeedback": "Stil = geen verandering = horizontaal."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Alles matcht."
+  },
+  "bonusVariants": [
+    {
+      "id": "l3c4-b1",
+      "type": "multiple-choice",
+      "question": "Wat past bij y = 5 (constant)?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Steile stijgende lijn"
+        },
+        {
+          "id": "b",
+          "label": "Horizontale lijn"
+        },
+        {
+          "id": "c",
+          "label": "Parabool"
+        }
+      ],
+      "hint1": "y verandert niet.",
+      "hint2": "Horizontaal.",
+      "explanation": "Constant → horizontale lijn."
+    },
+    {
+      "id": "l3c4-b2",
+      "type": "multiple-choice",
+      "question": "Wat past bij “start bij 4, helling 1”?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = x + 4"
+        },
+        {
+          "id": "b",
+          "label": "y = 4x"
+        },
+        {
+          "id": "c",
+          "label": "y = 4"
+        }
+      ],
+      "hint1": "Start = snijpunt y-as.",
+      "hint2": "y = x + 4.",
+      "explanation": "y = x + 4."
+    }
+  ]
+}

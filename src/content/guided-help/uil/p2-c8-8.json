@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c8-8",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Finale boss: grafiek, machten en patroon — één voor één.",
+    "steps": [
+      {
+        "explanation": "2x + 3 = x + 7.",
+        "question": "Wat is x op het snijpunt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "4"
+          },
+          {
+            "id": "b",
+            "label": "7"
+          },
+          {
+            "id": "c",
+            "label": "11"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "x = 4. Eerste boss-vraag!",
+        "retryFeedback": "Beide kanten − x, − 3."
+      },
+      {
+        "explanation": "2³ × 2² = 2⁵ = 32. Reeks +4 → 19.",
+        "question": "2³ × 2² = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "32"
+          },
+          {
+            "id": "b",
+            "label": "64"
+          },
+          {
+            "id": "c",
+            "label": "16"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "32! Boss bijna verslagen — volgende = 19.",
+        "retryFeedback": "Exponenten: 3 + 2 = 5."
+      }
+    ],
+    "conclusion": "🌕 Maanpoot onthuld! Part 2 held."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c8-8-b1",
+      "type": "number-input",
+      "question": "y = 2x + 3 en y = x + 7. y op snijpunt?",
+      "answer": 11,
+      "hint1": "x = 4.",
+      "hint2": "y = 11.",
+      "explanation": "Snijpunt (4, 11)."
+    },
+    {
+      "id": "p2c8-8-b2",
+      "type": "number-input",
+      "question": "aₙ = 4n − 1. Wat is a₆?",
+      "answer": 23,
+      "hint1": "4·6 − 1.",
+      "hint2": "23.",
+      "explanation": "4·6 − 1 = 23."
+    }
+  ]
+}

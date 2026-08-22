@@ -1,0 +1,86 @@
+{
+  "challengeId": "p2-c2-8",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Formule omdraaien — t staat in de noemer.",
+    "steps": [
+      {
+        "explanation": "v = s / t.\n\nVermenigvuldig beide kanten met t.",
+        "question": "Wat krijg je links?",
+        "options": [
+          {
+            "id": "a",
+            "label": "v · t"
+          },
+          {
+            "id": "b",
+            "label": "v / t"
+          },
+          {
+            "id": "c",
+            "label": "v + t"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Links: v · t. Rechts: s.",
+        "retryFeedback": "Beide kanten × t."
+      },
+      {
+        "explanation": "v · t = s.",
+        "question": "Welke formule geeft s?",
+        "options": [
+          {
+            "id": "a",
+            "label": "s = v / t"
+          },
+          {
+            "id": "b",
+            "label": "s = v × t"
+          },
+          {
+            "id": "c",
+            "label": "s = t / v"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "s = v × t. Pootafdruk!",
+        "retryFeedback": "s staat alleen rechts: s = v · t."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 s = v × t."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c2-8-b1",
+      "type": "multiple-choice",
+      "question": "v = s / t. Welke formule geeft t?",
+      "answer": "c",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "t = v × s"
+        },
+        {
+          "id": "b",
+          "label": "t = s × v"
+        },
+        {
+          "id": "c",
+          "label": "t = s / v"
+        }
+      ],
+      "hint1": "Deel beide kanten door v.",
+      "hint2": "t = s / v.",
+      "explanation": "v = s/t → t = s/v."
+    },
+    {
+      "id": "p2c2-8-b2",
+      "type": "number-input",
+      "question": "v = s / t. v = 8 m/s, t = 5 s. Wat is s? (in meters)",
+      "answer": 40,
+      "hint1": "s = v × t.",
+      "hint2": "8 × 5 = 40.",
+      "explanation": "s = 8 × 5 = 40 meter."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c6-8",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Meerdere machten met zelfde grondtal? Alle exponenten optellen.",
+    "steps": [
+      {
+        "explanation": "2² × 2³ × 2¹.\n\nExponenten: 2, 3, 1.",
+        "question": "Wat is 2 + 3 + 1?",
+        "options": [
+          {
+            "id": "a",
+            "label": "6"
+          },
+          {
+            "id": "b",
+            "label": "5"
+          },
+          {
+            "id": "c",
+            "label": "7"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "2 + 3 + 1 = 6. Dus 2⁶.",
+        "retryFeedback": "Tel de exponenten op."
+      },
+      {
+        "explanation": "2⁶ = 64.",
+        "question": "Wat is het antwoord?",
+        "options": [
+          {
+            "id": "a",
+            "label": "64"
+          },
+          {
+            "id": "b",
+            "label": "32"
+          },
+          {
+            "id": "c",
+            "label": "128"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "2⁶ = 64. Runen-meester!",
+        "retryFeedback": "2 × 2 × 2 × 2 × 2 × 2 = 64."
+      }
+    ],
+    "conclusion": "2² × 2³ × 2¹ = 2⁶ = 64."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c6-8-b1",
+      "type": "number-input",
+      "question": "3¹ × 3² × 3² = ?",
+      "answer": 243,
+      "hint1": "3⁵ = 243.",
+      "hint2": "1 + 2 + 2 = 5.",
+      "explanation": "3¹ × 3² × 3² = 3⁵ = 243."
+    },
+    {
+      "id": "p2c6-8-b2",
+      "type": "number-input",
+      "question": "10³ ÷ 10¹ = ?",
+      "answer": 100,
+      "hint1": "10² = 100.",
+      "hint2": "3 − 1 = 2.",
+      "explanation": "10³ ÷ 10¹ = 10² = 100."
+    }
+  ]
+}

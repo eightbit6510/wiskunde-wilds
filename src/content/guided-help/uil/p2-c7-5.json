@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c7-5",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Tegenvoorbeeld = één geval waarin de stelling níet klopt.",
+    "steps": [
+      {
+        "explanation": "Stelling: constant verschil → lineair.",
+        "question": "Heeft 3, 7, 11, 15 constant verschil?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ja (+4 elke stap)"
+          },
+          {
+            "id": "b",
+            "label": "Nee"
+          },
+          {
+            "id": "c",
+            "label": "Alleen soms"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Verschil steeds 4 — dat ís lineair!",
+        "retryFeedback": "7−3=4, 11−7=4."
+      },
+      {
+        "explanation": "Dat is geen tegenvoorbeeld — het bevestigt de stelling.",
+        "question": "Ontkracht iemand de stelling?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nee, geen geldig tegenvoorbeeld"
+          },
+          {
+            "id": "b",
+            "label": "Ja, reeks 3,7,11,15"
+          },
+          {
+            "id": "c",
+            "label": "Ja, reeks 1,2,4,8"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "De stelling klopt. 1,2,4,8 heeft geen constant verschil.",
+        "retryFeedback": "Zoek een reeks mét constant verschil die niet-lineair is — bestaat niet."
+      }
+    ],
+    "conclusion": "De stelling klopt. Constant verschil = lineair."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c7-5-b1",
+      "type": "true-false",
+      "question": "Klopt dit? “Reeks 2, 4, 6, 8 is lineair.”",
+      "answer": true,
+      "hint1": "Verschil steeds +2.",
+      "hint2": "Constant verschil → lineair. Ja!",
+      "explanation": "Verschil +2 elke stap → lineair verband."
+    },
+    {
+      "id": "p2c7-5-b2",
+      "type": "true-false",
+      "question": "Klopt dit? “Reeks 1, 2, 4, 8 is lineair.”",
+      "answer": false,
+      "hint1": "Verschillen: +1, +2, +4.",
+      "hint2": "Niet constant → niet lineair.",
+      "explanation": "Verschillen 1, 2, 4 — niet constant, dus niet lineair."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "challengeId": "zij-kp-3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "y-as: x = 0.",
+    "steps": [
+      {
+        "explanation": "y = 2·0 + 3 = 3.",
+        "question": "Snijpunt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "3"
+          },
+          {
+            "id": "b",
+            "label": "2"
+          },
+          {
+            "id": "c",
+            "label": "0"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "y = 3.",
+        "retryFeedback": "Constante term."
+      }
+    ],
+    "conclusion": "Snijpunt y = 3."
+  },
+  "bonusVariants": [
+    {
+      "id": "zij-kp-3-b1",
+      "type": "number-input",
+      "question": "y = x + 5. Snijpunt y-as?",
+      "answer": 5,
+      "hint1": "x = 0.",
+      "hint2": "5.",
+      "explanation": "y = 5."
+    }
+  ]
+}

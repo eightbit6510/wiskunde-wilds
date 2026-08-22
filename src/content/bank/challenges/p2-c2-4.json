@@ -1,0 +1,13 @@
+{
+  "id": "p2-c2-4",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "De kosten zijn C = 3p + 8. Als C = 23 euro, wat is p?",
+  "answer": 5,
+  "hint1": "23 = 3p + 8 → 3p = 15.",
+  "hint2": "p = 5.",
+  "optionalWorkedFirstStep": "Beide kanten − 8: 3p = 15.",
+  "explanation": "p = 5.\n\nC = 3p + 8\n23 = 3p + 8\n3p = 15\np = 5\n\nControle: 3·5 + 8 = 23 ✓"
+}

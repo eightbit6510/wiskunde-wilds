@@ -1,0 +1,86 @@
+{
+  "challengeId": "p2-c4-4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een factor voor x² verandert de “breedte” van de parabool.",
+    "steps": [
+      {
+        "explanation": "Bij x = 2:\ny = x² → y = 4\ny = 2x² → y = ?",
+        "question": "Wat is y bij y = 2x² en x = 2?",
+        "options": [
+          {
+            "id": "a",
+            "label": "8"
+          },
+          {
+            "id": "b",
+            "label": "4"
+          },
+          {
+            "id": "c",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "2 × 4 = 8. Veel hoger dan 4!",
+        "retryFeedback": "2 × 2² = 2 × 4 = 8."
+      },
+      {
+        "explanation": "Sneller stijgende y = smaller/steilere parabool.",
+        "question": "Wat gebeurt er?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Smaller (steiler)"
+          },
+          {
+            "id": "b",
+            "label": "Breder ( platter)"
+          },
+          {
+            "id": "c",
+            "label": "Schuift omhoog"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Factor > 1 → smaller parabool.",
+        "retryFeedback": "y groeit sneller → steiler."
+      }
+    ],
+    "conclusion": "2x² = smaller parabool. Factor vóór x² telt!"
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c4-4-b1",
+      "type": "number-input",
+      "question": "y = 2x². Wat is y als x = 4?",
+      "answer": 32,
+      "hint1": "2 × 4².",
+      "hint2": "2 × 16 = 32.",
+      "explanation": "2 × 16 = 32."
+    },
+    {
+      "id": "p2c4-4-b2",
+      "type": "multiple-choice",
+      "question": "y = 0,5x² t.o.v. y = x² is…",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Smaller"
+        },
+        {
+          "id": "b",
+          "label": "Breder ( platter)"
+        },
+        {
+          "id": "c",
+          "label": "Hetzelfde"
+        }
+      ],
+      "hint1": "Factor kleiner dan 1.",
+      "hint2": "Breder/platter parabool.",
+      "explanation": "Factor 0,5 < 1 → bredere parabool."
+    }
+  ]
+}

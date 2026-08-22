@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c6-2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Wortel = welk getal kwadraat geeft dit?",
+    "steps": [
+      {
+        "explanation": "√81 = ? betekent: ?² = 81.",
+        "question": "Welk getal kwadraat geeft 81?",
+        "options": [
+          {
+            "id": "a",
+            "label": "9"
+          },
+          {
+            "id": "b",
+            "label": "8"
+          },
+          {
+            "id": "c",
+            "label": "81"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "9² = 81. Klopt!",
+        "retryFeedback": "9 × 9 = 81."
+      },
+      {
+        "explanation": "Dus √81 = 9.",
+        "question": "Wat is het antwoord?",
+        "options": [
+          {
+            "id": "a",
+            "label": "9"
+          },
+          {
+            "id": "b",
+            "label": "−9"
+          },
+          {
+            "id": "c",
+            "label": "40,5"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "√81 = 9.",
+        "retryFeedback": "Positieve wortel: 9."
+      }
+    ],
+    "conclusion": "√81 = 9."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c6-2-b1",
+      "type": "number-input",
+      "question": "√64 = ?",
+      "answer": 8,
+      "hint1": "8 × 8 = 64.",
+      "hint2": "8.",
+      "explanation": "√64 = 8."
+    },
+    {
+      "id": "p2c6-2-b2",
+      "type": "number-input",
+      "question": "√100 = ?",
+      "answer": 10,
+      "hint1": "10² = 100.",
+      "hint2": "10.",
+      "explanation": "√100 = 10."
+    }
+  ]
+}

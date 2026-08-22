@@ -1,0 +1,31 @@
+{
+  "id": "l2-c2",
+  "type": "multiple-choice",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "v = s / t. Welke formule geeft s?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "s = v / t"
+    },
+    {
+      "id": "b",
+      "label": "s = v × t"
+    },
+    {
+      "id": "c",
+      "label": "s = t / v"
+    },
+    {
+      "id": "d",
+      "label": "s = v + t"
+    }
+  ],
+  "answer": "b",
+  "hint1": "Vermenigvuldig beide kanten van v = s/t met t.",
+  "hint2": "v · t = s.",
+  "optionalWorkedFirstStep": "v = s/t → v · t = s.",
+  "explanation": "s = v × t.\n\nVan v = s/t vermenigvuldig je beide kanten met t:\nv · t = s."
+}

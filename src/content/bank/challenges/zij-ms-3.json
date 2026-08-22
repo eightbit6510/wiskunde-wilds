@@ -1,0 +1,12 @@
+{
+  "id": "zij-ms-3",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "2⁴ × 2³ = ?",
+  "answer": 128,
+  "hint1": "2⁷.",
+  "hint2": "128.",
+  "explanation": "2⁴ × 2³ = 2⁷ = 128."
+}

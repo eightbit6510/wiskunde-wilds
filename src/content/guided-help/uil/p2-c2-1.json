@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c2-1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Je zoekt h. De formule A = b × h moet je omdraaien.",
+    "steps": [
+      {
+        "explanation": "A = b × h betekent: oppervlakte = breedte × hoogte.",
+        "question": "Hoe maak je h vrij als je A en b weet?",
+        "options": [
+          {
+            "id": "a",
+            "label": "h = A ÷ b"
+          },
+          {
+            "id": "b",
+            "label": "h = A × b"
+          },
+          {
+            "id": "c",
+            "label": "h = b ÷ A"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Deel beide kanten door b: h = A ÷ b.",
+        "retryFeedback": "Als A = b × h, dan h = A gedeeld door b."
+      },
+      {
+        "explanation": "h = 48 ÷ 6.",
+        "question": "Wat is h?",
+        "options": [
+          {
+            "id": "a",
+            "label": "8 m"
+          },
+          {
+            "id": "b",
+            "label": "6 m"
+          },
+          {
+            "id": "c",
+            "label": "42 m"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "48 ÷ 6 = 8. Klopt!",
+        "retryFeedback": "48 gedeeld door 6."
+      }
+    ],
+    "conclusion": "h = 8 m. Formule omdraaien = onbekende vrijmaken."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c2-1-b1",
+      "type": "number-input",
+      "question": "A = ℓ × b. A = 35, ℓ = 7. Wat is b?",
+      "answer": 5,
+      "hint1": "b = A ÷ ℓ.",
+      "hint2": "35 ÷ 7 = 5.",
+      "explanation": "b = 35 ÷ 7 = 5."
+    },
+    {
+      "id": "p2c2-1-b2",
+      "type": "number-input",
+      "question": "A = b × h. A = 72, h = 9. Wat is b?",
+      "answer": 8,
+      "hint1": "b = A ÷ h.",
+      "hint2": "72 ÷ 9 = 8.",
+      "explanation": "b = 72 ÷ 9 = 8."
+    }
+  ]
+}

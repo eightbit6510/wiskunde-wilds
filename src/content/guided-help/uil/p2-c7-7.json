@@ -1,0 +1,86 @@
+{
+  "challengeId": "p2-c7-7",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Lineair patroon uit Part 1 — start + helling.",
+    "steps": [
+      {
+        "explanation": "Bij week 0: gewicht 4. Elke week +2.",
+        "question": "Wat is het hellingsgetal?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2"
+          },
+          {
+            "id": "b",
+            "label": "4"
+          },
+          {
+            "id": "c",
+            "label": "1"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "6 − 4 = 2 per week.",
+        "retryFeedback": "Verschil per week = 2."
+      },
+      {
+        "explanation": "g = 2w + 4.",
+        "question": "Welke formule?",
+        "options": [
+          {
+            "id": "a",
+            "label": "g = 2w + 4"
+          },
+          {
+            "id": "b",
+            "label": "g = 4w + 2"
+          },
+          {
+            "id": "c",
+            "label": "g = w + 4"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "g = 2w + 4. Pootafdruk!",
+        "retryFeedback": "Helling 2, start 4."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 g = 2w + 4."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c7-7-b1",
+      "type": "multiple-choice",
+      "question": "Tabel (0,5)(1,8)(2,11). Formule?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 3x + 5"
+        },
+        {
+          "id": "b",
+          "label": "y = 5x + 3"
+        },
+        {
+          "id": "c",
+          "label": "y = 2x + 5"
+        }
+      ],
+      "hint1": "Stap +3, start 5.",
+      "hint2": "y = 3x + 5.",
+      "explanation": "Helling 3, start 5."
+    },
+    {
+      "id": "p2c7-7-b2",
+      "type": "number-input",
+      "question": "g = 2w + 4. Gewicht na 5 weken?",
+      "answer": 14,
+      "hint1": "2·5 + 4.",
+      "hint2": "14.",
+      "explanation": "2·5 + 4 = 14."
+    }
+  ]
+}

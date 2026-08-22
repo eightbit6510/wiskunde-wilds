@@ -1,0 +1,12 @@
+{
+  "id": "zij-ms-2",
+  "type": "number-input",
+  "topic": "grafieken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "y = 3x − 2 en y = x + 6. Wat is x op het snijpunt?",
+  "answer": 4,
+  "hint1": "3x − 2 = x + 6.",
+  "hint2": "2x = 8 → x = 4.",
+  "explanation": "3x − 2 = x + 6 → 2x = 8 → x = 4."
+}

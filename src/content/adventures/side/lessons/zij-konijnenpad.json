@@ -1,0 +1,27 @@
+{
+  "id": "zij-konijnenpad",
+  "adventureId": "side",
+  "order": 204,
+  "areaName": "Zijmissie: Konijnenpad",
+  "title": "Snelle review",
+  "emoji": "🐇",
+  "intro": "Optioneel zijpad — drie snelle reviews uit Part 1.",
+  "color": "#6B5A4A",
+  "placements": [
+    {
+      "challengeId": "zij-kp-1",
+      "xpReward": 10,
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "zij-kp-2",
+      "xpReward": 10,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "zij-kp-3",
+      "xpReward": 10,
+      "sortOrder": 2
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "p2-c3-7",
+  "type": "multiple-choice",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Welke breuk is groter?",
+  "showVisualCompare": true,
+  "visualBars": [
+    {
+      "label": "3/4",
+      "value": 0.75
+    },
+    {
+      "label": "5/8",
+      "value": 0.625
+    }
+  ],
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "3/4"
+    },
+    {
+      "id": "b",
+      "label": "5/8"
+    },
+    {
+      "id": "gelijk",
+      "label": "Ze zijn even groot"
+    }
+  ],
+  "answer": "a",
+  "hint1": "Maak gelijke noemers, of vergelijk met decimalen.",
+  "hint2": "3/4 = 6/8 > 5/8.",
+  "optionalWorkedFirstStep": "3/4 = 0,75 en 5/8 = 0,625.",
+  "explanation": "3/4 is groter.\n\n3/4 = 6/8 > 5/8\nof: 0,75 > 0,625"
+}

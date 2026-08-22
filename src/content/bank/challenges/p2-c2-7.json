@@ -1,0 +1,13 @@
+{
+  "id": "p2-c2-7",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "A = ℓ × b. Als A = 42 en ℓ = 7, wat is b?",
+  "answer": 6,
+  "hint1": "b = A ÷ ℓ.",
+  "hint2": "b = 42 ÷ 7 = 6.",
+  "optionalWorkedFirstStep": "b = 42 / 7.",
+  "explanation": "b = 42 ÷ 7 = 6.\n\nControle: 7 × 6 = 42 ✓"
+}

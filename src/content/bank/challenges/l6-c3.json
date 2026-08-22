@@ -1,0 +1,13 @@
+{
+  "id": "l6-c3",
+  "type": "text-input",
+  "topic": "breuken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Runesteen Breuken: Vereenvoudig 8/12 tot een breuk in eenvoudigste vorm.",
+  "answer": "2/3",
+  "hint1": "Deel teller en noemer door hun grootste gemene deler.",
+  "hint2": "GCD van 8 en 12 is 4 → 8÷4 / 12÷4.",
+  "optionalWorkedFirstStep": "8÷4 = 2, 12÷4 = 3.",
+  "explanation": "8/12 = 2/3."
+}

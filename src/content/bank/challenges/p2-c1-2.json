@@ -1,0 +1,13 @@
+{
+  "id": "p2-c1-2",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: 3(x + 2) = 15. Wat is x?",
+  "answer": 3,
+  "hint1": "Werk eerst de haakjes weg: 3(x + 2) = 3x + 6.",
+  "hint2": "3x + 6 = 15 → 3x = 9 → x = 3.",
+  "optionalWorkedFirstStep": "3(x + 2) = 3x + 6 = 15.",
+  "explanation": "x = 3.\n\n3(x + 2) = 15\n3x + 6 = 15\n3x = 9\nx = 3\n\nControle: 3(3 + 2) = 3·5 = 15 ✓"
+}

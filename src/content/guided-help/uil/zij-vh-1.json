@@ -1,0 +1,42 @@
+{
+  "challengeId": "zij-vh-1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Haal 8 naar rechts.",
+    "steps": [
+      {
+        "explanation": "x + 8 = 15.",
+        "question": "Wat is x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "7"
+          },
+          {
+            "id": "b",
+            "label": "23"
+          },
+          {
+            "id": "c",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "15 − 8 = 7.",
+        "retryFeedback": "Beide kanten − 8."
+      }
+    ],
+    "conclusion": "x = 7."
+  },
+  "bonusVariants": [
+    {
+      "id": "zij-vh-1-b1",
+      "type": "number-input",
+      "question": "Los op: x + 5 = 12",
+      "answer": 7,
+      "hint1": "− 5.",
+      "hint2": "7.",
+      "explanation": "x = 7."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "challengeId": "l8-c8",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Check of de stappen gelijk zijn.",
+    "steps": [
+      {
+        "explanation": "y-waarden: 2, 5, 8, 11.",
+        "question": "Wat is het verschil tussen opeenvolgende y-waarden?",
+        "options": [
+          {
+            "id": "2",
+            "label": "+2"
+          },
+          {
+            "id": "3",
+            "label": "+3"
+          },
+          {
+            "id": "wissel",
+            "label": "Wisselend"
+          }
+        ],
+        "correctAnswer": "3",
+        "successFeedback": "Juist: steeds +3 → lineair.",
+        "retryFeedback": "5−2, 8−5, 11−8."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Ja, lineair."
+  },
+  "bonusVariants": [
+    {
+      "id": "l8c8-b1",
+      "type": "multiple-choice",
+      "question": "Tabel (0,1)(1,4)(2,7)(3,10) is lineair.",
+      "answer": "ja",
+      "answerOptions": [
+        {
+          "id": "ja",
+          "label": "Ja"
+        },
+        {
+          "id": "nee",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Stappen +3.",
+      "hint2": "Ja.",
+      "explanation": "Ja, lineair."
+    },
+    {
+      "id": "l8c8-b2",
+      "type": "multiple-choice",
+      "question": "Tabel (0,1)(1,2)(2,4)(3,8) is lineair.",
+      "answer": "nee",
+      "answerOptions": [
+        {
+          "id": "ja",
+          "label": "Ja"
+        },
+        {
+          "id": "nee",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "De stappen verdubbelen.",
+      "hint2": "Nee.",
+      "explanation": "Nee, niet lineair."
+    }
+  ]
+}

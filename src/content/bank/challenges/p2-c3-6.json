@@ -1,0 +1,31 @@
+{
+  "id": "p2-c3-6",
+  "type": "multiple-choice",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Een riviermonster is 3 meter lang op de kaart (schaal 1 : 500). Hoe lang is het in werkelijkheid?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "150 m"
+    },
+    {
+      "id": "b",
+      "label": "1500 m"
+    },
+    {
+      "id": "c",
+      "label": "15 m"
+    },
+    {
+      "id": "d",
+      "label": "503 m"
+    }
+  ],
+  "answer": "b",
+  "hint1": "3 m op kaart… wacht, lees goed: 3 cm of 3 m?",
+  "hint2": "Als 3 cm: 3 × 500 = 1500 cm = 15 m. Als 3 m op kaart bij 1:500 → 1500 m.",
+  "optionalWorkedFirstStep": "3 m kaartlengte × 500 = 1500 m werkelijk.",
+  "explanation": "1500 m.\n\nBij schaal 1 : 500 is 1 eenheid op kaart = 500 eenheden werkelijk.\n3 m × 500 = 1500 m\n\nControle: 1500 / 500 = 3 m ✓"
+}

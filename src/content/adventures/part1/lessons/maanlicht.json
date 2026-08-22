@@ -1,0 +1,28 @@
+{
+  "id": "maanlicht",
+  "adventureId": "part1",
+  "order": 7,
+  "areaName": "Maanlichtvallei",
+  "title": "Een blik op VWO 3",
+  "emoji": "🌙",
+  "intro": "Je hebt het bos bijna doorkruist. Vanaf hier kun je alvast zien wat er achter de volgende heuvel ligt.",
+  "color": "#6B5B8A",
+  "placements": [
+    {
+      "challengeId": "l7-c1",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "l7-c2",
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "l7-c3",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "l7-c4",
+      "sortOrder": 3
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "l2-c3",
+  "type": "multiple-choice",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Welke formule past bij de totale kosten K bij z zakken voer?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "K = 12z + 4"
+    },
+    {
+      "id": "b",
+      "label": "K = 4z + 12"
+    },
+    {
+      "id": "c",
+      "label": "K = 12 × 4 × z"
+    },
+    {
+      "id": "d",
+      "label": "K = 4 + 12 + z"
+    }
+  ],
+  "answer": "b",
+  "hint1": "Vaste kosten blijven gelijk. Per zak komt er €4 bij.",
+  "hint2": "Startbedrag 12, daarna +4 voor elke zak → K = 4z + 12.",
+  "optionalWorkedFirstStep": "Bij z = 0 is K = 12. Bij z = 1 is K = 16.",
+  "explanation": "K = 4z + 12.\n\nVaste kosten: 12\nVariabele kosten: 4 per zak\nDus: K = 4 · z + 12"
+}

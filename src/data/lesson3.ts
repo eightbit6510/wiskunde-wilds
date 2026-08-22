@@ -1,5 +1,6 @@
 import type { Lesson } from '../types';
 
+/** @deprecated Content gemigreerd naar src/content/ — zie docs/FASE-1.md */
 export const lesson3: Lesson = {
   id: 'lynx',
   order: 3,

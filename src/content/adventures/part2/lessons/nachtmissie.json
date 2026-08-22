@@ -1,0 +1,71 @@
+{
+  "id": "nachtmissie",
+  "adventureId": "part2",
+  "order": 108,
+  "areaName": "De Nachtelijke Eindmissie",
+  "title": "De Maanpoot",
+  "emoji": "🌕",
+  "intro": "Diep in de nachttempel wachten vijf kamers — algebra, rivier, sterren, runen en parabool. Daarna drie laatste poorten met alles wat je geleerd hebt. Los elke kamer op en onthul het symbool van de Maanpoot.",
+  "color": "#1E2A40",
+  "outroStory": "De maanpoot brandt. Het Verborgen Gebied is ontdekt — en jij bent Nachtwoud-verkenner.",
+  "mapTeaser": "Vijf kamers. Eén maanpoot. Durf je binnen?",
+  "placements": [
+    {
+      "challengeId": "p2-c8-1",
+      "optionalStory": "De eerste kamer: een slot met x aan beide kanten. Breng alle x naar één kant.",
+      "title": "🌙 Kamer I: Algebra-slot",
+      "xpReward": 32,
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "p2-c8-2",
+      "optionalStory": "Een nachtelijke rivier stroomt door kamer II — verdeel het mengsel.",
+      "title": "🌙 Kamer II: Rivierpoort",
+      "xpReward": 30,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "p2-c8-3",
+      "optionalStory": "Twee sterrenlijnen kruisen elkaar — geef de y van het kruispunt.",
+      "title": "🌙 Kamer III: Sterrengrafiek",
+      "xpReward": 31,
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "p2-c8-4",
+      "optionalStory": "Runen op de poort: zelfde grondtal, exponenten optellen.",
+      "title": "🌙 Kamer IV: Runenpoort",
+      "xpReward": 30,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "p2-c8-5",
+      "optionalStory": "De paraboolpoort toont y = x² — kies de juiste inzicht.",
+      "title": "🌙 Kamer V: Paraboolpoort",
+      "xpReward": 30,
+      "sortOrder": 4
+    },
+    {
+      "challengeId": "p2-c8-6",
+      "optionalStory": "Na de vijf kamers: drie poorten met gemengde wiskunde.",
+      "title": "🌕 Synthesepoort I",
+      "xpReward": 35,
+      "sortOrder": 5
+    },
+    {
+      "challengeId": "p2-c8-7",
+      "optionalStory": "Een spoor uit het Vossenwoud — herken je dit nog?",
+      "title": "🌕 Synthesepoort II",
+      "reviewOfPart1": true,
+      "xpReward": 16,
+      "sortOrder": 6
+    },
+    {
+      "challengeId": "p2-c8-8",
+      "optionalStory": "De tempel trilt. Alles wat je geleerd hebt, in één laatste strijd.",
+      "title": "🌕 De Maanpoot onthuld",
+      "xpReward": 45,
+      "sortOrder": 7
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c6-3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Kwadraat = getal × zichzelf.",
+    "steps": [
+      {
+        "explanation": "12² = 12 × 12.",
+        "question": "Wat is 10 × 12?",
+        "options": [
+          {
+            "id": "a",
+            "label": "120"
+          },
+          {
+            "id": "b",
+            "label": "24"
+          },
+          {
+            "id": "c",
+            "label": "122"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "120. Nu nog + 2×12.",
+        "retryFeedback": "10 × 12 = 120."
+      },
+      {
+        "explanation": "12 × 12 = 120 + 24 = 144.",
+        "question": "Wat is 12²?",
+        "options": [
+          {
+            "id": "a",
+            "label": "144"
+          },
+          {
+            "id": "b",
+            "label": "124"
+          },
+          {
+            "id": "c",
+            "label": "24"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "12² = 144.",
+        "retryFeedback": "12 × 12 = 144."
+      }
+    ],
+    "conclusion": "12² = 144."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c6-3-b1",
+      "type": "number-input",
+      "question": "11² = ?",
+      "answer": 121,
+      "hint1": "11 × 11.",
+      "hint2": "121.",
+      "explanation": "11² = 121."
+    },
+    {
+      "id": "p2c6-3-b2",
+      "type": "number-input",
+      "question": "15² = ?",
+      "answer": 225,
+      "hint1": "15 × 15.",
+      "hint2": "225.",
+      "explanation": "15² = 225."
+    }
+  ]
+}

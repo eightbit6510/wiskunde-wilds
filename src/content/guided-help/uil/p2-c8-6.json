@@ -1,0 +1,86 @@
+{
+  "challengeId": "p2-c8-6",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Tabel → helling + start → formule.",
+    "steps": [
+      {
+        "explanation": "y stijgt steeds met 3.",
+        "question": "Hellingsgetal?",
+        "options": [
+          {
+            "id": "a",
+            "label": "3"
+          },
+          {
+            "id": "b",
+            "label": "2"
+          },
+          {
+            "id": "c",
+            "label": "1"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Stap +3.",
+        "retryFeedback": "5 − 2 = 3."
+      },
+      {
+        "explanation": "Start bij x = 0: y = 2.",
+        "question": "Formule?",
+        "options": [
+          {
+            "id": "a",
+            "label": "y = 3x + 2"
+          },
+          {
+            "id": "b",
+            "label": "y = 2x + 3"
+          },
+          {
+            "id": "c",
+            "label": "y = x + 3"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "y = 3x + 2. Eerste synthesepoort!",
+        "retryFeedback": "Helling 3, start 2."
+      }
+    ],
+    "conclusion": "Synthese I gelukt! y = 3x + 2."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c8-6-b1",
+      "type": "multiple-choice",
+      "question": "Tabel (0,1)(1,4)(2,7). Formule?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = x + 1"
+        },
+        {
+          "id": "b",
+          "label": "y = 3x + 1"
+        },
+        {
+          "id": "c",
+          "label": "y = 2x + 1"
+        }
+      ],
+      "hint1": "Stap +3.",
+      "hint2": "y = 3x + 1.",
+      "explanation": "Helling 3, start 1."
+    },
+    {
+      "id": "p2c8-6-b2",
+      "type": "number-input",
+      "question": "y = 3x + 2. y als x = 7?",
+      "answer": 23,
+      "hint1": "3·7 + 2.",
+      "hint2": "23.",
+      "explanation": "21 + 2 = 23."
+    }
+  ]
+}

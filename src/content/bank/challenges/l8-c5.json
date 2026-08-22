@@ -1,0 +1,31 @@
+{
+  "id": "l8-c5",
+  "type": "multiple-choice",
+  "topic": "breuken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Code-deel 5: Wat is 3/4 − 1/6?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "2/2"
+    },
+    {
+      "id": "b",
+      "label": "7/12"
+    },
+    {
+      "id": "c",
+      "label": "1/2"
+    },
+    {
+      "id": "d",
+      "label": "5/12"
+    }
+  ],
+  "answer": "b",
+  "hint1": "Gemeenschappelijke noemer van 4 en 6 is 12.",
+  "hint2": "9/12 − 2/12 = 7/12.",
+  "optionalWorkedFirstStep": "3/4 = 9/12, 1/6 = 2/12.",
+  "explanation": "3/4 − 1/6 = 9/12 − 2/12 = 7/12."
+}

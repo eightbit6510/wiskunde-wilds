@@ -1,0 +1,31 @@
+{
+  "id": "p2-c7-5",
+  "type": "multiple-choice",
+  "topic": "redeneren",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Stelling: “Elke getallenreeks met constant verschil is lineair.” Welk tegenvoorbeeld ontkracht dit het best?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Reeks 3, 7, 11, 15 (verschil +4) — dit ís lineair, geen tegenvoorbeeld"
+    },
+    {
+      "id": "b",
+      "label": "Reeks 1, 2, 4, 8 (verschil niet constant) — stelling gaat over constant verschil"
+    },
+    {
+      "id": "c",
+      "label": "Reeks 5, 5, 5, 5 (verschil 0) — dit ís ook lineair (constant)"
+    },
+    {
+      "id": "d",
+      "label": "Geen van bovenstaande ontkracht de stelling"
+    }
+  ],
+  "answer": "d",
+  "hint1": "Constant verschil betekent: elke stap hetzelfde verschil.",
+  "hint2": "3,7,11,15 en 5,5,5,5 hebben constant verschil en zijn lineair. De stelling klopt!",
+  "optionalWorkedFirstStep": "Constant verschil ⇒ lineair verband. Geen geldig tegenvoorbeeld hier.",
+  "explanation": "Geen tegenvoorbeeld — de stelling klopt.\n\nConstant verschil ⇒ lineair:\n• 3, 7, 11, 15 (+4)\n• 5, 5, 5, 5 (+0)\n\n1, 2, 4, 8 heeft géén constant verschil."
+}

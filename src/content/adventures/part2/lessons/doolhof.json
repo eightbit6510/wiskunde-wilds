@@ -1,0 +1,65 @@
+{
+  "id": "doolhof",
+  "adventureId": "part2",
+  "order": 107,
+  "areaName": "Het Doolhof van Patronen",
+  "title": "Puzzelsporen",
+  "emoji": "🧩",
+  "intro": "Elke gang in het doolhof verandert het patroon. Getallenreeksen, figuren van stenen, ontbrekende waarden — en soms is één tegenvoorbeeld genoeg om een stelling te ontkrachten.",
+  "color": "#3F4A3A",
+  "mapTeaser": "Elke bocht verandert het patroon…",
+  "placements": [
+    {
+      "challengeId": "p2-c7-1",
+      "optionalStory": "Stenen in de gang vormen een rij — welk getal komt hierna?",
+      "xpReward": 25,
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "p2-c7-2",
+      "optionalStory": "De muur vraagt om de formule achter het patroon.",
+      "xpReward": 28,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "p2-c7-3",
+      "optionalStory": "Elke figuur groeit met een laag stenen — tel door naar figuur 10.",
+      "xpReward": 28,
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "p2-c7-4",
+      "optionalStory": "Eén steen ontbreekt in de rij — welke past?",
+      "xpReward": 27,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "p2-c7-5",
+      "optionalStory": "Eén verkeerd spoor kan de hele stelling tenietdoen.",
+      "xpReward": 28,
+      "sortOrder": 4
+    },
+    {
+      "challengeId": "p2-c7-6",
+      "optionalStory": "Drie sporen lijken op elkaar — één past niet.",
+      "xpReward": 27,
+      "sortOrder": 5
+    },
+    {
+      "challengeId": "p2-c7-7",
+      "optionalStory": "Een tabel uit het Uilenlab — ken je dit patroon nog?",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 13,
+      "sortOrder": 6
+    },
+    {
+      "challengeId": "p2-c7-8",
+      "optionalStory": "Een gemene vraag uit het Uilenlab — verdubbeling of lineair?",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 14,
+      "sortOrder": 7
+    }
+  ]
+}

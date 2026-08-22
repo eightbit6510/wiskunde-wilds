@@ -1,0 +1,13 @@
+{
+  "id": "p2-c6-3",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "12² = ?",
+  "answer": 144,
+  "hint1": "12 × 12.",
+  "hint2": "10² = 100, 12² = 144.",
+  "optionalWorkedFirstStep": "12 × 12 = 144.",
+  "explanation": "12² = 12 × 12 = 144."
+}

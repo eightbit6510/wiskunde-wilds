@@ -1,0 +1,13 @@
+{
+  "id": "p2-c3-3",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Je mengt sap en water in de verhouding 2 : 3. In totaal gebruik je 25 liter. Hoeveel liter sap? (geheel getal)",
+  "answer": 10,
+  "hint1": "2 + 3 = 5 delen totaal. 25 / 5 = 5 liter per deel.",
+  "hint2": "Sap = 2 delen = 2 × 5 = 10 liter.",
+  "optionalWorkedFirstStep": "25 liter ÷ 5 delen = 5 liter per deel. Sap: 2 × 5 = 10.",
+  "explanation": "10 liter sap.\n\nVerhouding 2 : 3 → 5 delen totaal\n25 / 5 = 5 liter per deel\nSap: 2 × 5 = 10 liter\nWater: 3 × 5 = 15 liter\n\nControle: 10 : 15 = 2 : 3 ✓"
+}

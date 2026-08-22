@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c8-1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Algebra-slot: x aan beide kanten, dan gewoon oplossen.",
+    "steps": [
+      {
+        "explanation": "5x + 2 = 2x + 14.\n\nHaal 2x naar links.",
+        "question": "Wat krijg je?",
+        "options": [
+          {
+            "id": "a",
+            "label": "3x + 2 = 14"
+          },
+          {
+            "id": "b",
+            "label": "5x + 2 = 14"
+          },
+          {
+            "id": "c",
+            "label": "7x + 2 = 14"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "5x − 2x = 3x. Goed!",
+        "retryFeedback": "Beide kanten − 2x."
+      },
+      {
+        "explanation": "3x + 2 = 14 → 3x = 12 → x = 4.",
+        "question": "Wat is x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x = 4"
+          },
+          {
+            "id": "b",
+            "label": "x = 6"
+          },
+          {
+            "id": "c",
+            "label": "x = 12"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "x = 4. Kamer I ontgrendeld!",
+        "retryFeedback": "−2, dan ÷ 3."
+      }
+    ],
+    "conclusion": "Kamer I open! x = 4. Eerste deel Maanpoot zichtbaar."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c8-1-b1",
+      "type": "number-input",
+      "question": "Los op: 4x + 5 = x + 17",
+      "answer": 4,
+      "hint1": "Beide kanten − x.",
+      "hint2": "3x + 5 = 17 → x = 4.",
+      "explanation": "4x + 5 = x + 17 → 3x = 12 → x = 4."
+    },
+    {
+      "id": "p2c8-1-b2",
+      "type": "number-input",
+      "question": "Los op: 6x − 3 = 2x + 13",
+      "answer": 4,
+      "hint1": "4x − 3 = 13.",
+      "hint2": "4x = 16 → x = 4.",
+      "explanation": "6x − 3 = 2x + 13 → 4x = 16 → x = 4."
+    }
+  ]
+}

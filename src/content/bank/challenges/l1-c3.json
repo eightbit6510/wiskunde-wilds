@@ -1,0 +1,35 @@
+{
+  "id": "l1-c3",
+  "type": "code-crack",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Kraak de kluis! Los de sommen op. De antwoorden vormen letters van een geheim woord.",
+  "secretWord": "PAWS",
+  "codeItems": [
+    {
+      "expression": "−2 + 9",
+      "answer": 7,
+      "letter": "P"
+    },
+    {
+      "expression": "3 × (−1) + 5",
+      "answer": 2,
+      "letter": "A"
+    },
+    {
+      "expression": "16 ÷ (−4) + 8",
+      "answer": 4,
+      "letter": "W"
+    },
+    {
+      "expression": "−5 − (−8)",
+      "answer": 3,
+      "letter": "S"
+    }
+  ],
+  "hint1": "Werk van links naar rechts, let op mintekens. −5 − (−8) = −5 + 8.",
+  "hint2": "Antwoorden in volgorde: 7, 2, 4, 3 → letters P, A, W, S.",
+  "optionalWorkedFirstStep": "Eerste som: −2 + 9 = 7 → letter P.",
+  "explanation": "De code is PAWS!\n\n−2 + 9 = 7 → P\n3 × (−1) + 5 = −3 + 5 = 2 → A\n16 ÷ (−4) + 8 = −4 + 8 = 4 → W\n−5 − (−8) = 3 → S"
+}

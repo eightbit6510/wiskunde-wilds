@@ -1,0 +1,88 @@
+{
+  "challengeId": "p2-c1-7",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een ontdekkingsvraag over wat je wel en niet mag doen.",
+    "steps": [
+      {
+        "explanation": "Stel: 2x = 4, dus x = 2.\n\nVermenigvuldig beide kanten met 3.",
+        "question": "Wat is de oplossing van 6x = 12?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x = 2 (zelfde als eerst)"
+          },
+          {
+            "id": "b",
+            "label": "x = 6"
+          },
+          {
+            "id": "c",
+            "label": "x = 4"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "6x = 12 → x = 2. Dezelfde oplossing!",
+        "retryFeedback": "Deel 6x = 12 door 6."
+      },
+      {
+        "explanation": "Hetzelfde geldt voor +, −, ÷ — zolang je beide kanten doet.",
+        "question": "Is de stelling waar?",
+        "options": [
+          {
+            "id": "ja",
+            "label": "Ja, dat klopt"
+          },
+          {
+            "id": "nee",
+            "label": "Nee, dat klopt niet"
+          }
+        ],
+        "correctAnswer": "ja",
+        "successFeedback": "Precies! Gelijkwaardige bewerkingen behouden de oplossing.",
+        "retryFeedback": "Beide kanten even behandelen = balans houden."
+      }
+    ],
+    "conclusion": "Ontdekt! Gelijkwaardige bewerkingen zijn je gereedschap."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c1-7-b1",
+      "type": "multiple-choice",
+      "question": "Klopt dit? “Je mag alleen de linkerkant van een vergelijking bewerken.”",
+      "answer": "nee",
+      "answerOptions": [
+        {
+          "id": "ja",
+          "label": "Ja, dat klopt"
+        },
+        {
+          "id": "nee",
+          "label": "Nee, dat klopt niet"
+        }
+      ],
+      "hint1": "Denk aan een balans.",
+      "hint2": "Beide kanten moeten gelijk blijven.",
+      "explanation": "Nee — altijd beide kanten dezelfde bewerking geven."
+    },
+    {
+      "id": "p2c1-7-b2",
+      "type": "multiple-choice",
+      "question": "Klopt dit? “Als 2x = 10, dan is x = 5.”",
+      "answer": "ja",
+      "answerOptions": [
+        {
+          "id": "ja",
+          "label": "Ja, dat klopt"
+        },
+        {
+          "id": "nee",
+          "label": "Nee, dat klopt niet"
+        }
+      ],
+      "hint1": "Deel beide kanten door 2.",
+      "hint2": "10 ÷ 2 = 5.",
+      "explanation": "Ja! Beide kanten ÷ 2 geeft x = 5."
+    }
+  ]
+}

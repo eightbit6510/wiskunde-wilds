@@ -1,0 +1,66 @@
+{
+  "id": "ravenpad",
+  "adventureId": "part2",
+  "order": 102,
+  "areaName": "Het Ravenpad",
+  "title": "Veren & formules",
+  "emoji": "🪶",
+  "intro": "Raven cirkelen boven het pad. Onder je voeten liggen formules als veren in de modder — sommige moet je omdraaien, andere moet je uit een verhaal halen. Maak de onbekende vrij.",
+  "color": "#4A3F5C",
+  "outroStory": "De raaf wijst met zijn snavel naar de rivier. Verhoudingen glinsteren op het wateroppervlak.",
+  "mapTeaser": "Een raaf laat een stukje formule vallen…",
+  "placements": [
+    {
+      "challengeId": "p2-c2-1",
+      "optionalStory": "Een ravennest op een rechthoekig platform — je kent de oppervlakte en de breedte.",
+      "xpReward": 27,
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "p2-c2-2",
+      "optionalStory": "Een raaf vliegt s meters in t seconden met snelheid v.",
+      "xpReward": 28,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "p2-c2-3",
+      "optionalStory": "Om het ravennest heen loopt een touw — je kent de omtrek en de breedte.",
+      "xpReward": 28,
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "p2-c2-4",
+      "optionalStory": "Drie veren kosten p euro per stuk, plus €8 verzendkosten.",
+      "xpReward": 27,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "p2-c2-5",
+      "optionalStory": "Een ravenverzorger start met 15 kg voer. Elke dag gebruikt hij 2 kg. Hoeveel voer V (kg) is er na d dagen?",
+      "xpReward": 28,
+      "sortOrder": 4
+    },
+    {
+      "challengeId": "p2-c2-6",
+      "optionalStory": "De raven houden het nest warm — elke raaf telt mee.",
+      "xpReward": 27,
+      "sortOrder": 5
+    },
+    {
+      "challengeId": "p2-c2-7",
+      "optionalStory": "Herken je dit nog? Een formule uit de Wolvenkluis.",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 14,
+      "sortOrder": 6
+    },
+    {
+      "challengeId": "p2-c2-8",
+      "optionalStory": "Nog een spoor uit de Wolvenkluis — snelheid, afstand, tijd.",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 12,
+      "sortOrder": 7
+    }
+  ]
+}

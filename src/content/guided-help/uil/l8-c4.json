@@ -1,0 +1,82 @@
+{
+  "challengeId": "l8-c4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We isoleren ℓ uit P = 2ℓ + 2b.",
+    "steps": [
+      {
+        "explanation": "P = 2ℓ + 2b. Haal eerst 2b weg.",
+        "question": "Wat blijft er over?",
+        "options": [
+          {
+            "id": "a",
+            "label": "P − 2b = 2ℓ"
+          },
+          {
+            "id": "b",
+            "label": "P + 2b = 2ℓ"
+          },
+          {
+            "id": "c",
+            "label": "P = 2ℓ"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Juist: P − 2b = 2ℓ.",
+        "retryFeedback": "Trek 2b van beide kanten af."
+      },
+      {
+        "explanation": "Deel beide kanten door 2.",
+        "question": "Welke formule voor ℓ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "ℓ = (P − 2b) / 2"
+          },
+          {
+            "id": "b",
+            "label": "ℓ = P − 2b"
+          },
+          {
+            "id": "c",
+            "label": "ℓ = 2P − b"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies: ℓ = (P − 2b) / 2.",
+        "retryFeedback": "Deel alles door 2."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 ℓ = (P − 2b) / 2"
+  },
+  "bonusVariants": [
+    {
+      "id": "l8c4-b1",
+      "type": "text-input",
+      "question": "O = 2a + 2c. Geef a (a = …). Gebruik O en c.",
+      "answer": "a=(O-2c)/2",
+      "acceptedAnswers": [
+        "a=(O-2c)/2",
+        "a=O/2-c",
+        "a=(o-2c)/2"
+      ],
+      "hint1": "Eerst −2c, dan ÷2.",
+      "hint2": "a = (O − 2c) / 2",
+      "explanation": "a = (O − 2c) / 2"
+    },
+    {
+      "id": "l8c4-b2",
+      "type": "text-input",
+      "question": "S = 2p + 2q. Geef p (p = …).",
+      "answer": "p=(S-2q)/2",
+      "acceptedAnswers": [
+        "p=(S-2q)/2",
+        "p=S/2-q",
+        "p=(s-2q)/2"
+      ],
+      "hint1": "Eerst −2q, dan ÷2.",
+      "hint2": "p = (S − 2q) / 2",
+      "explanation": "p = (S − 2q) / 2"
+    }
+  ]
+}

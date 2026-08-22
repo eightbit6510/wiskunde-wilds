@@ -1,0 +1,88 @@
+{
+  "challengeId": "l1-c5",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We testen de claims met een snelle check.",
+    "steps": [
+      {
+        "explanation": "Sam zegt: bij x + 8 = 3 is x = −5.\nCheck: −5 + 8 = ?",
+        "question": "Klopt Sams antwoord?",
+        "options": [
+          {
+            "id": "ja",
+            "label": "Ja"
+          },
+          {
+            "id": "nee",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "ja",
+        "successFeedback": "Klopt: −5 + 8 = 3.",
+        "retryFeedback": "Vul −5 in bij x + 8."
+      },
+      {
+        "explanation": "Finn zegt: bij −x = 4 is x = 4.\nAls −x = 4, wat is x dan?",
+        "question": "Wat is x als −x = 4?",
+        "options": [
+          {
+            "id": "p4",
+            "label": "x = 4"
+          },
+          {
+            "id": "m4",
+            "label": "x = −4"
+          },
+          {
+            "id": "0",
+            "label": "x = 0"
+          }
+        ],
+        "correctAnswer": "m4",
+        "successFeedback": "Juist. Vermenigvuldig beide kanten met −1: x = −4.\nFinn zit ernaast — die oplossing kan niet.",
+        "retryFeedback": "Draai het teken om: −x = 4 → x = −4."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Antwoord C kan niet."
+  },
+  "bonusVariants": [
+    {
+      "id": "l1c5-b1",
+      "type": "multiple-choice",
+      "question": "Welke oplossing kan niet? −2x = 8",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Iemand zegt x = −4"
+        },
+        {
+          "id": "b",
+          "label": "Iemand zegt x = 4"
+        }
+      ],
+      "hint1": "Deel beide kanten door −2.",
+      "hint2": "x = −4.",
+      "explanation": "−2x = 8 → x = −4. Dus x = 4 kan niet."
+    },
+    {
+      "id": "l1c5-b2",
+      "type": "multiple-choice",
+      "question": "Welke oplossing kan niet? x − 6 = −1",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Iemand zegt x = −7"
+        },
+        {
+          "id": "b",
+          "label": "Iemand zegt x = 5"
+        }
+      ],
+      "hint1": "Tel 6 bij beide kanten op.",
+      "hint2": "x = 5.",
+      "explanation": "x − 6 = −1 → x = 5. −7 kan niet."
+    }
+  ]
+}

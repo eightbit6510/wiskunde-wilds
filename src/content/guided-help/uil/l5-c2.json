@@ -1,0 +1,84 @@
+{
+  "challengeId": "l5-c2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Lineair = gelijke stappen.",
+    "steps": [
+      {
+        "explanation": "hoogte: 1, 2, 4, 8.\nBereken de verschillen.",
+        "question": "Zijn de stappen even groot?",
+        "options": [
+          {
+            "id": "ja",
+            "label": "Ja, steeds +1"
+          },
+          {
+            "id": "nee",
+            "label": "Nee, ze verdubbelen"
+          }
+        ],
+        "correctAnswer": "nee",
+        "successFeedback": "Precies. +1, +2, +4 — niet lineair.",
+        "retryFeedback": "Vergelijk 2−1, 4−2, 8−4."
+      },
+      {
+        "explanation": "Bij lineair zou elke stap hetzelfde zijn.",
+        "question": "Is dit verband lineair?",
+        "options": [
+          {
+            "id": "true",
+            "label": "Ja"
+          },
+          {
+            "id": "false",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "false",
+        "successFeedback": "Juist: niet lineair.",
+        "retryFeedback": "Ongelijke stappen → niet lineair."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Niet lineair."
+  },
+  "bonusVariants": [
+    {
+      "id": "l5c2-b1",
+      "type": "multiple-choice",
+      "question": "Is dit lineair? y: 3, 5, 7, 9",
+      "answer": "ja",
+      "answerOptions": [
+        {
+          "id": "ja",
+          "label": "Ja"
+        },
+        {
+          "id": "nee",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Stappen: +2, +2, +2.",
+      "hint2": "Ja, lineair.",
+      "explanation": "Gelijke stappen → lineair."
+    },
+    {
+      "id": "l5c2-b2",
+      "type": "multiple-choice",
+      "question": "Is dit lineair? y: 2, 4, 8, 16",
+      "answer": "nee",
+      "answerOptions": [
+        {
+          "id": "ja",
+          "label": "Ja"
+        },
+        {
+          "id": "nee",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "De waarden verdubbelen.",
+      "hint2": "Niet lineair.",
+      "explanation": "Verdubbelen ≠ gelijke stappen."
+    }
+  ]
+}

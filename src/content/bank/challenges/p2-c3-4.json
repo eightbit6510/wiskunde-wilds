@@ -1,0 +1,59 @@
+{
+  "id": "p2-c3-4",
+  "type": "multiple-choice",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Welke tabel hoort bij de verhouding 4 : 6 (vereenvoudigd 2 : 3)?",
+  "tableData": {
+    "headers": [
+      "Optie",
+      "A",
+      "B",
+      "C"
+    ],
+    "rows": [
+      [
+        "Rij 1",
+        "2 — 3",
+        "4 — 6",
+        "8 — 10"
+      ],
+      [
+        "Rij 2",
+        "4 — 6",
+        "8 — 12",
+        "6 — 9"
+      ],
+      [
+        "Rij 3",
+        "6 — 9",
+        "12 — 18",
+        "10 — 12"
+      ]
+    ]
+  },
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Alleen rij 2: 4 — 6, 8 — 12, 12 — 18"
+    },
+    {
+      "id": "b",
+      "label": "Rij 1: 2 — 3, 4 — 6, 8 — 10"
+    },
+    {
+      "id": "c",
+      "label": "Rij 3: 6 — 9, 10 — 12, 12 — 18"
+    },
+    {
+      "id": "d",
+      "label": "Alle rijen kloppen"
+    }
+  ],
+  "answer": "a",
+  "hint1": "4 : 6 = 2 : 3. Elke kolom moet die verhouding hebben.",
+  "hint2": "8 : 12 = 2 : 3 en 12 : 18 = 2 : 3. Rij 2 klopt volledig.",
+  "optionalWorkedFirstStep": "4/6 = 2/3. Check elke kolom: teller/noemer = 2/3?",
+  "explanation": "Rij 2 klopt.\n\n4 : 6 = 2 : 3 ✓\n8 : 12 = 2 : 3 ✓\n12 : 18 = 2 : 3 ✓\n\nRij 1: 8 : 10 ≠ 2 : 3. Rij 3: 10 : 12 ≠ 2 : 3."
+}

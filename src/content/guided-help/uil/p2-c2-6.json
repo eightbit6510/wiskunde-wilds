@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c2-6",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Formule invullen en omdraaien — je kent T, zoek n.",
+    "steps": [
+      {
+        "explanation": "28 = 0,5n + 18.\n\nEerst 18 weg.",
+        "question": "Wat is 0,5n?",
+        "options": [
+          {
+            "id": "a",
+            "label": "0,5n = 10"
+          },
+          {
+            "id": "b",
+            "label": "0,5n = 28"
+          },
+          {
+            "id": "c",
+            "label": "0,5n = 46"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "28 − 18 = 10.",
+        "retryFeedback": "Beide kanten − 18."
+      },
+      {
+        "explanation": "0,5n = 10.\n\nDeel door 0,5 (= × 2).",
+        "question": "Hoeveel raven?",
+        "options": [
+          {
+            "id": "a",
+            "label": "20"
+          },
+          {
+            "id": "b",
+            "label": "5"
+          },
+          {
+            "id": "c",
+            "label": "10"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "10 ÷ 0,5 = 20 raven!",
+        "retryFeedback": "Deel 10 door 0,5 (of vermenigvuldig met 2)."
+      }
+    ],
+    "conclusion": "20 raven. Invullen én terugrekenen — beide kanten op!"
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c2-6-b1",
+      "type": "number-input",
+      "question": "T = 2n + 5. T = 25. Wat is n?",
+      "answer": 10,
+      "hint1": "2n = 20.",
+      "hint2": "n = 10.",
+      "explanation": "25 = 2n + 5 → 2n = 20 → n = 10."
+    },
+    {
+      "id": "p2c2-6-b2",
+      "type": "number-input",
+      "question": "K = 3z + 12. K = 36. Wat is z?",
+      "answer": 8,
+      "hint1": "3z = 24.",
+      "hint2": "z = 8.",
+      "explanation": "36 = 3z + 12 → 3z = 24 → z = 8."
+    }
+  ]
+}

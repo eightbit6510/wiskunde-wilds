@@ -1,0 +1,13 @@
+{
+  "id": "l8-c1",
+  "type": "number-input",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Code-deel 1: Bereken −6 + (−3) × 2",
+  "answer": -12,
+  "hint1": "Eerst vermenigvuldigen, daarna optellen.",
+  "hint2": "(−3)×2 = −6, daarna −6 + (−6) = −12.",
+  "optionalWorkedFirstStep": "−3 × 2 = −6.",
+  "explanation": "−6 + (−3)×2 = −6 + (−6) = −12."
+}

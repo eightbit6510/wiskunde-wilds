@@ -1,0 +1,13 @@
+{
+  "id": "p2-c4-6",
+  "type": "number-input",
+  "topic": "kwadratisch",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is (−6)²?",
+  "answer": 36,
+  "hint1": "Negatief × negatief = positief.",
+  "hint2": "(−6) × (−6) = 36.",
+  "optionalWorkedFirstStep": "Haakjes: (−6)² = 36. Zonder haakjes: −6² = −36.",
+  "explanation": "(−6)² = 36.\n\nLet op: −6² = −(6²) = −36. Haakjes maken het verschil!"
+}

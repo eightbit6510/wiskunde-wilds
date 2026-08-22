@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c8-2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Verhouding: tel delen, deel totaal, vermenigvuldig.",
+    "steps": [
+      {
+        "explanation": "Sap : water = 3 : 5 → 8 delen totaal.",
+        "question": "Hoeveel liter per deel bij 32 liter?",
+        "options": [
+          {
+            "id": "a",
+            "label": "4 liter"
+          },
+          {
+            "id": "b",
+            "label": "8 liter"
+          },
+          {
+            "id": "c",
+            "label": "3 liter"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "32 ÷ 8 = 4 liter per deel.",
+        "retryFeedback": "32 gedeeld door 8 delen."
+      },
+      {
+        "explanation": "Sap = 3 delen = 3 × 4.",
+        "question": "Hoeveel liter sap?",
+        "options": [
+          {
+            "id": "a",
+            "label": "12 liter"
+          },
+          {
+            "id": "b",
+            "label": "20 liter"
+          },
+          {
+            "id": "c",
+            "label": "8 liter"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "12 liter sap. Rivierpoort open!",
+        "retryFeedback": "3 × 4 = 12."
+      }
+    ],
+    "conclusion": "Kamer II open! 12 liter sap. Tweede maansteen gloeit."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c8-2-b1",
+      "type": "number-input",
+      "question": "Verhouding 2 : 3, totaal 30 liter. Eerste deel?",
+      "answer": 12,
+      "hint1": "5 delen, 6 liter per deel.",
+      "hint2": "2 × 6 = 12.",
+      "explanation": "30/5 = 6. 2 × 6 = 12."
+    },
+    {
+      "id": "p2c8-2-b2",
+      "type": "number-input",
+      "question": "Verhouding 1 : 4, totaal 25 liter. Tweede deel?",
+      "answer": 20,
+      "hint1": "5 delen, 5 liter per deel.",
+      "hint2": "4 × 5 = 20.",
+      "explanation": "25/5 = 5. 4 × 5 = 20."
+    }
+  ]
+}

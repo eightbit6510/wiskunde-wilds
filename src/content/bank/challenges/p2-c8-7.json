@@ -1,0 +1,13 @@
+{
+  "id": "p2-c8-7",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Synthese — Los op: 2x + 6 = 16",
+  "answer": 5,
+  "hint1": "Beide kanten − 6: 2x = 10.",
+  "hint2": "x = 5.",
+  "optionalWorkedFirstStep": "2x + 6 = 16 → 2x = 10.",
+  "explanation": "x = 5.\n\n2x + 6 = 16\n2x = 10\nx = 5\n\nControle: 2·5 + 6 = 16 ✓"
+}

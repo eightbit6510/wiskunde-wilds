@@ -1,0 +1,72 @@
+{
+  "challengeId": "l2-c1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We zoeken b in A = ℓ × b.",
+    "steps": [
+      {
+        "explanation": "A = ℓ × b.\nWe kennen A = 42 en ℓ = 7.\nWe willen b alleen.",
+        "question": "Welke bewerking haalt ℓ weg?",
+        "options": [
+          {
+            "id": "div",
+            "label": "Delen door ℓ"
+          },
+          {
+            "id": "mul",
+            "label": "Keer ℓ"
+          },
+          {
+            "id": "add",
+            "label": "Plus ℓ"
+          }
+        ],
+        "correctAnswer": "div",
+        "successFeedback": "Precies. b = A ÷ ℓ.",
+        "retryFeedback": "Het tegenovergestelde van vermenigvuldigen is delen."
+      },
+      {
+        "explanation": "Dus b = 42 ÷ 7.",
+        "question": "Wat is 42 ÷ 7?",
+        "options": [
+          {
+            "id": "6",
+            "label": "6"
+          },
+          {
+            "id": "7",
+            "label": "7"
+          },
+          {
+            "id": "35",
+            "label": "35"
+          }
+        ],
+        "correctAnswer": "6",
+        "successFeedback": "Juist. b = 6. Controle: 7 × 6 = 42.",
+        "retryFeedback": "Hoeveel keer past 7 in 42?"
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 b = 6"
+  },
+  "bonusVariants": [
+    {
+      "id": "l2c1-b1",
+      "type": "number-input",
+      "question": "A = ℓ × b. Als A = 56 en ℓ = 8, wat is b?",
+      "answer": 7,
+      "hint1": "b = A ÷ ℓ.",
+      "hint2": "56 ÷ 8 = 7.",
+      "explanation": "b = 56 ÷ 8 = 7."
+    },
+    {
+      "id": "l2c1-b2",
+      "type": "number-input",
+      "question": "A = ℓ × b. Als A = 45 en ℓ = 9, wat is b?",
+      "answer": 5,
+      "hint1": "b = 45 ÷ 9.",
+      "hint2": "b = 5.",
+      "explanation": "b = 5."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "p2-c7-3",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Figuurstenen: figuur 1 = 4 stenen, figuur 2 = 7, figuur 3 = 10. Hoeveel stenen heeft figuur 10?",
+  "answer": 31,
+  "hint1": "Verschil: +3 per figuur. Formule: 3n + 1.",
+  "hint2": "Figuur 10: 3·10 + 1 = 31.",
+  "optionalWorkedFirstStep": "4, 7, 10 → stap +3. aₙ = 3n + 1.",
+  "explanation": "31 stenen.\n\nPatroon: +3 per figuur\nFormule: aₙ = 3n + 1\nFiguur 10: 3·10 + 1 = 31\n\nControle figuur 3: 3·3+1=10 ✓"
+}

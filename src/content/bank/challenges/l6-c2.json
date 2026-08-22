@@ -1,0 +1,31 @@
+{
+  "id": "l6-c2",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Runesteen Grafieken: Welke grafiek hoort bij y = −x + 4?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Stijgend, snijdt y-as bij 4"
+    },
+    {
+      "id": "b",
+      "label": "Dalend, snijdt y-as bij 4"
+    },
+    {
+      "id": "c",
+      "label": "Horizontaal op y = 4"
+    },
+    {
+      "id": "d",
+      "label": "Door de oorsprong, steil omhoog"
+    }
+  ],
+  "answer": "b",
+  "hint1": "Het hellingsgetal is −1 → dalend. Het +4 is het snijpunt met de y-as.",
+  "hint2": "Bij x=0 is y=4. Bij grotere x wordt y kleiner.",
+  "optionalWorkedFirstStep": "Hellingsgetal −1 ⇒ dalend.",
+  "explanation": "Dalend (helling −1), y-as snijpunt 4."
+}

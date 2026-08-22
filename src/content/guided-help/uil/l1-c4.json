@@ -1,0 +1,72 @@
+{
+  "challengeId": "l1-c4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We willen x alleen overhouden.",
+    "steps": [
+      {
+        "explanation": "Er staat: 2x + 5 = 17.\n\nDe +5 zit “aan de buitenkant” bij de x-kant.",
+        "question": "Wat doe je eerst om dichter bij x te komen?",
+        "options": [
+          {
+            "id": "min5",
+            "label": "Beide kanten −5"
+          },
+          {
+            "id": "plus5",
+            "label": "Beide kanten +5"
+          },
+          {
+            "id": "div2",
+            "label": "Beide kanten ÷ 2"
+          }
+        ],
+        "correctAnswer": "min5",
+        "successFeedback": "Precies. Tegenovergestelde van +5 is −5.\nDan: 2x = 12.",
+        "retryFeedback": "Haal eerst de +5 weg met de tegenovergestelde bewerking."
+      },
+      {
+        "explanation": "Nu: 2x = 12.\nDat betekent 2 × x = 12.",
+        "question": "Hoe krijg je x alleen?",
+        "options": [
+          {
+            "id": "div2",
+            "label": "Beide kanten ÷ 2"
+          },
+          {
+            "id": "min2",
+            "label": "Beide kanten − 2"
+          },
+          {
+            "id": "mul2",
+            "label": "Beide kanten × 2"
+          }
+        ],
+        "correctAnswer": "div2",
+        "successFeedback": "Juist. x = 6.",
+        "retryFeedback": "Het tegenovergestelde van ×2 is delen door 2."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 6"
+  },
+  "bonusVariants": [
+    {
+      "id": "l1c4-b1",
+      "type": "number-input",
+      "question": "Los op: 3x + 4 = 19. Wat is x?",
+      "answer": 5,
+      "hint1": "Eerst −4, daarna ÷ 3.",
+      "hint2": "3x = 15 → x = 5.",
+      "explanation": "3x + 4 = 19 → 3x = 15 → x = 5."
+    },
+    {
+      "id": "l1c4-b2",
+      "type": "number-input",
+      "question": "Los op: 2x − 3 = 11. Wat is x?",
+      "answer": 7,
+      "hint1": "Eerst +3, daarna ÷ 2.",
+      "hint2": "2x = 14 → x = 7.",
+      "explanation": "2x − 3 = 11 → 2x = 14 → x = 7."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "challengeId": "l6-c1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Eerst de haakjes of eerst delen — beide kan.",
+    "steps": [
+      {
+        "explanation": "3(x − 2) = 15.\nDeel beide kanten door 3.",
+        "question": "Wat blijft er over?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x − 2 = 5"
+          },
+          {
+            "id": "b",
+            "label": "x − 2 = 15"
+          },
+          {
+            "id": "c",
+            "label": "x − 2 = 45"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Juist: x − 2 = 5.",
+        "retryFeedback": "15 ÷ 3 = 5."
+      },
+      {
+        "explanation": "x − 2 = 5. Tel 2 bij beide kanten op.",
+        "question": "Wat is x?",
+        "options": [
+          {
+            "id": "5",
+            "label": "5"
+          },
+          {
+            "id": "7",
+            "label": "7"
+          },
+          {
+            "id": "3",
+            "label": "3"
+          }
+        ],
+        "correctAnswer": "7",
+        "successFeedback": "Precies: x = 7.",
+        "retryFeedback": "5 + 2 = 7."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 7"
+  },
+  "bonusVariants": [
+    {
+      "id": "l6c1-b1",
+      "type": "number-input",
+      "question": "Los op: 4(x − 1) = 20. Wat is x?",
+      "answer": 6,
+      "hint1": "Deel door 4: x − 1 = 5.",
+      "hint2": "x = 6.",
+      "explanation": "x = 6."
+    },
+    {
+      "id": "l6c1-b2",
+      "type": "number-input",
+      "question": "Los op: 2(x + 3) = 14. Wat is x?",
+      "answer": 4,
+      "hint1": "Deel door 2: x + 3 = 7.",
+      "hint2": "x = 4.",
+      "explanation": "x = 4."
+    }
+  ]
+}

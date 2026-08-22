@@ -1,0 +1,86 @@
+{
+  "challengeId": "p2-c5-2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Het hellingsgetal vertelt hoe snel y verandert als x groeit.",
+    "steps": [
+      {
+        "explanation": "y = 2x + 3.\n\nVul x = 0 en x = 1 in.",
+        "question": "Hoeveel stijgt y als x van 0 naar 1 gaat?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2"
+          },
+          {
+            "id": "b",
+            "label": "3"
+          },
+          {
+            "id": "c",
+            "label": "5"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "y gaat van 3 naar 5: verschil = 2. Dat is de helling!",
+        "retryFeedback": "y(0)=3, y(1)=5. Verschil = 2."
+      },
+      {
+        "explanation": "Dat verschil per stap in x is precies het hellingsgetal.",
+        "question": "Wat betekent helling 2?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x +1 → y +2"
+          },
+          {
+            "id": "b",
+            "label": "Start bij y = 2"
+          },
+          {
+            "id": "c",
+            "label": "Snijpunt x-as bij 2"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Helling = toename in y per stap in x.",
+        "retryFeedback": "Kijk naar het getal vóór x."
+      }
+    ],
+    "conclusion": "Helling 2 = y stijgt 2 per stap in x."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c5-2-b1",
+      "type": "multiple-choice",
+      "question": "Wat betekent helling −3 in y = −3x + 10?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y stijgt 3 per stap in x"
+        },
+        {
+          "id": "b",
+          "label": "y daalt 3 per stap in x"
+        },
+        {
+          "id": "c",
+          "label": "Start bij y = −3"
+        }
+      ],
+      "hint1": "Negatieve helling = dalend.",
+      "hint2": "x +1 → y −3.",
+      "explanation": "Helling −3: y daalt met 3 als x met 1 toeneemt."
+    },
+    {
+      "id": "p2c5-2-b2",
+      "type": "number-input",
+      "question": "y = 4x + 1. Hoeveel stijgt y als x van 2 naar 3 gaat?",
+      "answer": 4,
+      "hint1": "Helling = getal bij x.",
+      "hint2": "Helling 4 → y stijgt 4 per stap.",
+      "explanation": "Helling 4: elke stap in x geeft +4 in y."
+    }
+  ]
+}

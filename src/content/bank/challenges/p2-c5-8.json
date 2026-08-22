@@ -1,0 +1,31 @@
+{
+  "id": "p2-c5-8",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Welke lijn is het stijgst: y = x + 4, y = 3x + 1 of y = 2x + 5?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "y = x + 4"
+    },
+    {
+      "id": "b",
+      "label": "y = 3x + 1"
+    },
+    {
+      "id": "c",
+      "label": "y = 2x + 5"
+    },
+    {
+      "id": "d",
+      "label": "Ze zijn even stijl"
+    }
+  ],
+  "answer": "b",
+  "hint1": "Vergelijk de hellingsgetallen: 1, 3 en 2.",
+  "hint2": "Helling 3 is het grootst → y = 3x + 1 stijgt het snelst.",
+  "optionalWorkedFirstStep": "Hellingsgetallen: 1, 3, 2. Grootste = stijgst.",
+  "explanation": "y = 3x + 1 is het stijgst.\n\nHellingsgetallen: 1, 3, 2\nGrootste helling = sterkst stijgend\n\nDe startwaarde (+4, +1, +5) bepaalt alleen waar de lijn begint."
+}

@@ -1,0 +1,68 @@
+{
+  "challengeId": "p2-c7-4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Ontbrekende waarde: vind het patroon en vul in.",
+    "steps": [
+      {
+        "explanation": "2, 5, 8, … Verschil = 3.",
+        "question": "Wat komt na 8?",
+        "options": [
+          {
+            "id": "a",
+            "label": "11"
+          },
+          {
+            "id": "b",
+            "label": "10"
+          },
+          {
+            "id": "c",
+            "label": "12"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "8 + 3 = 11.",
+        "retryFeedback": "Stap +3."
+      },
+      {
+        "explanation": "Controle: 11 + 3 = 14. Past bij de reeks!",
+        "question": "Klopt 11?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ja"
+          },
+          {
+            "id": "b",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "11 past perfect. Ontbrekende steen gevonden!",
+        "retryFeedback": "11 + 3 = 14 ✓"
+      }
+    ],
+    "conclusion": "Ontbrekende waarde = 11."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c7-4-b1",
+      "type": "number-input",
+      "question": "Reeks: 4, 9, 14, ?, 24. Ontbrekend getal?",
+      "answer": 19,
+      "hint1": "Stap +5.",
+      "hint2": "14 + 5 = 19.",
+      "explanation": "14 + 5 = 19."
+    },
+    {
+      "id": "p2c7-4-b2",
+      "type": "number-input",
+      "question": "Reeks: 10, 7, 4, ?, −2. Ontbrekend getal?",
+      "answer": 1,
+      "hint1": "Stap −3.",
+      "hint2": "4 − 3 = 1.",
+      "explanation": "4 − 3 = 1. Controle: 1 − 3 = −2 ✓"
+    }
+  ]
+}

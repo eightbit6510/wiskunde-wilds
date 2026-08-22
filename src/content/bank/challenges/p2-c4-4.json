@@ -1,0 +1,31 @@
+{
+  "id": "p2-c4-4",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Wat doet y = 2x² t.o.v. y = x²?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "De parabool wordt smaller (steiler)"
+    },
+    {
+      "id": "b",
+      "label": "De parabool wordt breder ( platter)"
+    },
+    {
+      "id": "c",
+      "label": "De parabool schuift 2 omhoog"
+    },
+    {
+      "id": "d",
+      "label": "De parabool wordt een rechte lijn"
+    }
+  ],
+  "answer": "a",
+  "hint1": "Vergelijk bij x = 2: x² = 4, maar 2x² = 8.",
+  "hint2": "De y-waarden groeien sneller → steiler/smaller.",
+  "optionalWorkedFirstStep": "Bij x = 3: x² = 9, 2x² = 18.",
+  "explanation": "y = 2x² wordt smaller (steiler).\n\nDe factor 2 voor x² maakt y sneller groter.\nBij x = 2: 2·4 = 8 vs 4."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "p2-c3-1",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Op een kaart met schaal 1 : 25 000 staat een brug 4 cm lang. Hoe lang is de brug in werkelijkheid? (antwoord in meters)",
+  "answer": 1000,
+  "hint1": "Werkelijke lengte = 4 × 25 000 cm.",
+  "hint2": "4 × 25 000 = 100 000 cm = 1000 m.",
+  "optionalWorkedFirstStep": "4 cm × 25 000 = 100 000 cm = 1000 m.",
+  "explanation": "1000 m (= 1 km).\n\n4 cm op kaart × 25 000 = 100 000 cm\n100 000 cm = 1000 m\n\nControle: 1000 m ÷ 25 000 = 0,04 m = 4 cm ✓"
+}

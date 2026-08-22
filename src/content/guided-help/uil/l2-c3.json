@@ -1,0 +1,100 @@
+{
+  "challengeId": "l2-c3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We maken een formule uit het verhaal.",
+    "steps": [
+      {
+        "explanation": "Vaste kosten: €12 (altijd).\nPer zak: €4 erbij.",
+        "question": "Welk deel verandert als z groter wordt?",
+        "options": [
+          {
+            "id": "vast",
+            "label": "Alleen de 12"
+          },
+          {
+            "id": "var",
+            "label": "Het deel met z"
+          },
+          {
+            "id": "niets",
+            "label": "Niets"
+          }
+        ],
+        "correctAnswer": "var",
+        "successFeedback": "Juist. Per zak komt er 4 bij → 4z.",
+        "retryFeedback": "Meer zakken = meer van die €4."
+      },
+      {
+        "explanation": "Totale kosten = variabel + vast.",
+        "question": "Welke formule past?",
+        "options": [
+          {
+            "id": "a",
+            "label": "K = 12z + 4"
+          },
+          {
+            "id": "b",
+            "label": "K = 4z + 12"
+          },
+          {
+            "id": "c",
+            "label": "K = 12 × 4 × z"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Precies: K = 4z + 12.",
+        "retryFeedback": "Start met 12, daarna +4 per zak."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 K = 4z + 12"
+  },
+  "bonusVariants": [
+    {
+      "id": "l2c3-b1",
+      "type": "multiple-choice",
+      "question": "Een opvang betaalt €10 vast + €3 per knaagdier. Welke formule voor totale kosten C bij k knaagdieren?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "C = 10k + 3"
+        },
+        {
+          "id": "b",
+          "label": "C = 3k + 10"
+        },
+        {
+          "id": "c",
+          "label": "C = 13k"
+        }
+      ],
+      "hint1": "Vast = 10, per dier = 3.",
+      "hint2": "C = 3k + 10.",
+      "explanation": "C = 3k + 10."
+    },
+    {
+      "id": "l2c3-b2",
+      "type": "multiple-choice",
+      "question": "Een taxi vraagt €5 instap + €2 per km. Welke formule voor prijs P bij k kilometers?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "P = 2k + 5"
+        },
+        {
+          "id": "b",
+          "label": "P = 5k + 2"
+        },
+        {
+          "id": "c",
+          "label": "P = 2 + 5 + k"
+        }
+      ],
+      "hint1": "Instap is vast, km is variabel.",
+      "hint2": "P = 2k + 5.",
+      "explanation": "P = 2k + 5."
+    }
+  ]
+}

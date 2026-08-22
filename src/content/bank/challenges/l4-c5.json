@@ -1,0 +1,49 @@
+{
+  "id": "l4-c5",
+  "type": "boss-battle",
+  "topic": "breuken",
+  "difficulty": 3,
+  "starsAvailable": 3,
+  "question": "Boss battle! Drie snelle vragen achter elkaar.",
+  "bossQuestions": [
+    {
+      "id": "b1",
+      "question": "2/5 × 1/2 = ?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "label": "1/5"
+        },
+        {
+          "id": "b",
+          "label": "2/10"
+        },
+        {
+          "id": "c",
+          "label": "3/7"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "2/5 × 1/2 = 2/10 = 1/5"
+    },
+    {
+      "id": "b2",
+      "question": "Is 3/7 groter dan 2/5?",
+      "type": "true-false",
+      "correctAnswer": true,
+      "explanation": "3/7 ≈ 0,43 en 2/5 = 0,40 → 3/7 is groter."
+    },
+    {
+      "id": "b3",
+      "question": "√64 = ?",
+      "type": "number-input",
+      "correctAnswer": 8,
+      "explanation": "8 × 8 = 64"
+    }
+  ],
+  "hint1": "Bij vermenigvuldigen van breuken: tellers × tellers, noemers × noemers.",
+  "hint2": "Vergelijk 3/7 en 2/5 via kruisproduct of decimalen.",
+  "optionalWorkedFirstStep": "Vraag 1: 2/5 × 1/2 = 2/10 = 1/5.",
+  "explanation": "Boss verslagen! Je hebt breuken, vergelijken én wortels gecombineerd."
+}

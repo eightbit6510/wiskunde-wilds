@@ -1,0 +1,42 @@
+{
+  "challengeId": "zij-ms-2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Snijpunt: y gelijkstellen.",
+    "steps": [
+      {
+        "explanation": "3x − 2 = x + 6.",
+        "question": "x = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "4"
+          },
+          {
+            "id": "b",
+            "label": "8"
+          },
+          {
+            "id": "c",
+            "label": "2"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "x = 4.",
+        "retryFeedback": "2x = 8."
+      }
+    ],
+    "conclusion": "x = 4."
+  },
+  "bonusVariants": [
+    {
+      "id": "zij-ms-2-b1",
+      "type": "number-input",
+      "question": "Snijpunt y-waarde?",
+      "answer": 10,
+      "hint1": "x = 4.",
+      "hint2": "y = 4 + 6 = 10.",
+      "explanation": "y = 10."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "challengeId": "p2-c4-1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "y = x² maakt een parabool. Kijk naar de tabel.",
+    "steps": [
+      {
+        "explanation": "Bereken (−2)² en 2².",
+        "question": "Wat is (−2)²?",
+        "options": [
+          {
+            "id": "a",
+            "label": "4"
+          },
+          {
+            "id": "b",
+            "label": "−4"
+          },
+          {
+            "id": "c",
+            "label": "2"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "(−2) × (−2) = 4. Zelfde als 2²!",
+        "retryFeedback": "Min × min = plus."
+      },
+      {
+        "explanation": "Links en rechts van x = 0 dezelfde y-waarden.",
+        "question": "Wat valt op?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Positieve en negatieve x kunnen dezelfde y geven"
+          },
+          {
+            "id": "b",
+            "label": "De grafiek is een rechte lijn"
+          },
+          {
+            "id": "c",
+            "label": "Alle y is negatief"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Symmetrie! (−x)² = x².",
+        "retryFeedback": "Vergelijk (−3)² en 3²."
+      }
+    ],
+    "conclusion": "Parabool ontdekt! Symmetrisch in de y-as."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c4-1-b1",
+      "type": "number-input",
+      "question": "y = x². Wat is y als x = −5?",
+      "answer": 25,
+      "hint1": "(−5)² = ?",
+      "hint2": "25.",
+      "explanation": "(−5)² = 25."
+    },
+    {
+      "id": "p2c4-1-b2",
+      "type": "multiple-choice",
+      "question": "y = x². Welke x geeft y = 9?",
+      "answer": "c",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Alleen x = 3"
+        },
+        {
+          "id": "b",
+          "label": "Alleen x = −3"
+        },
+        {
+          "id": "c",
+          "label": "x = 3 of x = −3"
+        }
+      ],
+      "hint1": "3² = 9 en (−3)² = 9.",
+      "hint2": "Twee oplossingen door symmetrie.",
+      "explanation": "x = 3 of x = −3, beide geven y = 9."
+    }
+  ]
+}

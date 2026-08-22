@@ -1,0 +1,43 @@
+{
+  "id": "p2-c8-5",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Kamer V — y = x². Welke uitspraak klopt?",
+  "interactiveParabola": {
+    "base": "x2",
+    "xValues": [
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Bij x = −3 en x = 3 is y gelijk (symmetrie)"
+    },
+    {
+      "id": "b",
+      "label": "De grafiek is een rechte lijn"
+    },
+    {
+      "id": "c",
+      "label": "Alle y-waarden zijn negatief"
+    },
+    {
+      "id": "d",
+      "label": "y = x² gaat nooit door (0, 0)"
+    }
+  ],
+  "answer": "a",
+  "hint1": "(−3)² = 9 en 3² = 9.",
+  "hint2": "Symmetrie in de y-as: (−x)² = x².",
+  "optionalWorkedFirstStep": "(−3)² = 9 = 3².",
+  "explanation": "Bij x = −3 en x = 3 is y = 9 — symmetrisch!\n\n(−x)² = x²\n\n🌙 Vijfde kamer open. Maanpoot bijna compleet."
+}

@@ -1,0 +1,82 @@
+{
+  "challengeId": "p2-c7-8",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Lineair = constant verschil. Verdubbelen = niet lineair.",
+    "steps": [
+      {
+        "explanation": "Verschillen: 2−1=1, 4−2=2, 8−4=4.",
+        "question": "Is het verschil constant?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nee (1, 2, 4)"
+          },
+          {
+            "id": "b",
+            "label": "Ja (+1 elke keer)"
+          },
+          {
+            "id": "c",
+            "label": "Ja (+2 elke keer)"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Verschil niet constant — verdubbeling!",
+        "retryFeedback": "1, 2, 4 — niet gelijk."
+      },
+      {
+        "explanation": "Verdubbelen is exponentieel, niet lineair.",
+        "question": "Lineair verband?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nee"
+          },
+          {
+            "id": "b",
+            "label": "Ja"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Niet lineair. Pootafdruk — check het verschil!",
+        "retryFeedback": "Constant verschil nodig voor lineair."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Verdubbelen ≠ lineair."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c7-8-b1",
+      "type": "true-false",
+      "question": "Lineair? x: 0,1,2,3 — y: 5,8,11,14",
+      "answer": true,
+      "hint1": "Verschil steeds +3.",
+      "hint2": "Constant → lineair.",
+      "explanation": "Stap +3 elke keer → lineair."
+    },
+    {
+      "id": "p2c7-8-b2",
+      "type": "multiple-choice",
+      "question": "Welke situatie past bij y = −2x + 10?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Start 10, daarna −2 per stap"
+        },
+        {
+          "id": "b",
+          "label": "Start 10, daarna +2 per stap"
+        },
+        {
+          "id": "c",
+          "label": "Altijd y = 10"
+        }
+      ],
+      "hint1": "Helling −2.",
+      "hint2": "Dalend, start 10.",
+      "explanation": "y = −2x + 10: start 10, elke stap −2."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "p2-c2-3",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "De omtrek van een rechthoek is P = 2ℓ + 2b. Als P = 30 cm en b = 5 cm, wat is ℓ? (in cm)",
+  "answer": 10,
+  "hint1": "Vul in: 30 = 2ℓ + 2·5 = 2ℓ + 10.",
+  "hint2": "2ℓ = 20 → ℓ = 10.",
+  "optionalWorkedFirstStep": "30 = 2ℓ + 10 → 2ℓ = 20.",
+  "explanation": "ℓ = 10 cm.\n\nP = 2ℓ + 2b\n30 = 2ℓ + 2·5\n30 = 2ℓ + 10\n2ℓ = 20\nℓ = 10\n\nControle: 2·10 + 2·5 = 30 ✓"
+}

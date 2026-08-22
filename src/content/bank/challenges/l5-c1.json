@@ -1,0 +1,55 @@
+{
+  "id": "l5-c1",
+  "type": "multiple-choice",
+  "topic": "verbanden",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Een dier groeit volgens onderstaande tabel. Welke formule beschrijft dit?",
+  "tableData": {
+    "headers": [
+      "week",
+      "gewicht"
+    ],
+    "rows": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        10
+      ]
+    ]
+  },
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "g = 2w + 4"
+    },
+    {
+      "id": "b",
+      "label": "g = 4w + 2"
+    },
+    {
+      "id": "c",
+      "label": "g = w + 4"
+    },
+    {
+      "id": "d",
+      "label": "g = 2w"
+    }
+  ],
+  "answer": "a",
+  "hint1": "Startgewicht bij week 0? Toename per week?",
+  "hint2": "Start = 4, per week +2 → g = 2w + 4.",
+  "optionalWorkedFirstStep": "Bij w=0 is g=4. Hellingsgetal = 2.",
+  "explanation": "g = 2w + 4.\n\nStart 4, elke week +2. Controle week 3: 2·3+4=10 ✓"
+}

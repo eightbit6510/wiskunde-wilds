@@ -1,0 +1,13 @@
+{
+  "id": "l8-c8",
+  "type": "true-false",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Code-deel 8: Tabel (0,2)(1,5)(2,8)(3,11) is lineair.",
+  "answer": true,
+  "hint1": "Check of de toename in y constant is.",
+  "hint2": "Verschillen: +3, +3, +3 → lineair, y = 3x + 2.",
+  "optionalWorkedFirstStep": "5−2=3, 8−5=3, 11−8=3.",
+  "explanation": "Ja, lineair met hellingsgetal 3: y = 3x + 2."
+}

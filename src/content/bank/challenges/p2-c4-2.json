@@ -1,0 +1,13 @@
+{
+  "id": "p2-c4-2",
+  "type": "true-false",
+  "topic": "kwadratisch",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Klopt dit? “De grafiek van y = x² is symmetrisch in de y-as.”",
+  "answer": true,
+  "hint1": "Symmetrisch in de y-as: spiegelbeeld links/rechts.",
+  "hint2": "Omdat (−x)² = x².",
+  "optionalWorkedFirstStep": "Spiegel x = 2 en x = −2: beide y = 4.",
+  "explanation": "Ja! De parabool is spiegelsymmetrisch in de y-as.\n\n(−x)² = x² voor elk x."
+}

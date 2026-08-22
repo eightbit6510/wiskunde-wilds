@@ -1,0 +1,13 @@
+{
+  "id": "p2-c1-7",
+  "type": "true-false",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Klopt dit? “Als je beide kanten van een vergelijking met hetzelfde getal vermenigvuldigt, blijft de oplossing gelijk.”",
+  "answer": true,
+  "hint1": "Denk aan een balans: beide schalen even zwaar houden.",
+  "hint2": "×3 aan beide kanten verandert de verhouding niet — behalve bij ×0.",
+  "optionalWorkedFirstStep": "Probeer x = 2 bij 2x = 4. Beide ×3: 6x = 12, x = 2 nog steeds.",
+  "explanation": "Ja, dat klopt!\n\nAls je beide kanten met hetzelfde getal (≠ 0) vermenigvuldigt of deelt, blijft de oplossing hetzelfde.\n\nDat heet een gelijkwaardige bewerking — de kern van vergelijkingen oplossen."
+}

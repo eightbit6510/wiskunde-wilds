@@ -1,0 +1,35 @@
+{
+  "id": "l8-c10",
+  "type": "code-crack",
+  "topic": "redeneren",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Laatste steen: kraak het woord. Antwoorden → letters.",
+  "secretWord": "WILD",
+  "codeItems": [
+    {
+      "expression": "√36 − 1",
+      "answer": 5,
+      "letter": "W"
+    },
+    {
+      "expression": "2² + 3",
+      "answer": 7,
+      "letter": "I"
+    },
+    {
+      "expression": "15 ÷ 5 + 1",
+      "answer": 4,
+      "letter": "L"
+    },
+    {
+      "expression": "−2 + 8 − 3",
+      "answer": 3,
+      "letter": "D"
+    }
+  ],
+  "hint1": "√36 = 6, dus eerste antwoord is 5.",
+  "hint2": "Antwoorden: 5, 7, 4, 3 → W, I, L, D.",
+  "optionalWorkedFirstStep": "√36 − 1 = 5 → W.",
+  "explanation": "Het woord is WILD!\n\nWelkom in het wilde wiskundebos — je hebt de tempel geopend."
+}

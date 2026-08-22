@@ -1,0 +1,100 @@
+{
+  "challengeId": "p2-c5-4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Formule ↔ grafiek: startwaarde + helling.",
+    "steps": [
+      {
+        "explanation": "Door (0, 1): bij x = 0 is y = 1.",
+        "question": "Welke constante term hoort daarbij?",
+        "options": [
+          {
+            "id": "a",
+            "label": "+1"
+          },
+          {
+            "id": "b",
+            "label": "+3"
+          },
+          {
+            "id": "c",
+            "label": "0"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Startwaarde 1 → +1 in de formule.",
+        "retryFeedback": "y bij x = 0 is de constante term."
+      },
+      {
+        "explanation": "Stijging 3 per stap → hellingsgetal 3.",
+        "question": "Welke formule klopt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "y = 3x + 1"
+          },
+          {
+            "id": "b",
+            "label": "y = x + 3"
+          },
+          {
+            "id": "c",
+            "label": "y = 3x"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "y = 3x + 1. Helling én start kloppen!",
+        "retryFeedback": "Helling 3, start 1."
+      }
+    ],
+    "conclusion": "y = 3x + 1. Start + helling = lineaire formule."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c5-4-b1",
+      "type": "multiple-choice",
+      "question": "Welke formule hoort bij start 5 en helling −2?",
+      "answer": "c",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 2x + 5"
+        },
+        {
+          "id": "b",
+          "label": "y = −2x − 5"
+        },
+        {
+          "id": "c",
+          "label": "y = −2x + 5"
+        }
+      ],
+      "hint1": "Dalend → negatieve helling.",
+      "hint2": "y = −2x + 5.",
+      "explanation": "Start 5, helling −2 → y = −2x + 5."
+    },
+    {
+      "id": "p2c5-4-b2",
+      "type": "multiple-choice",
+      "question": "y = 2x − 4. Welk snijpunt met de y-as hoort erbij?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "(0, 2)"
+        },
+        {
+          "id": "b",
+          "label": "(0, −4)"
+        },
+        {
+          "id": "c",
+          "label": "(−4, 0)"
+        }
+      ],
+      "hint1": "x = 0.",
+      "hint2": "y = −4.",
+      "explanation": "Bij x = 0: y = −4. Snijpunt (0, −4)."
+    }
+  ]
+}

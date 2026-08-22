@@ -1,0 +1,13 @@
+{
+  "id": "p2-c5-3",
+  "type": "number-input",
+  "topic": "grafieken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "y = −x + 8. Wat is de startwaarde (snijpunt met de y-as)?",
+  "answer": 8,
+  "hint1": "Startwaarde = y als x = 0.",
+  "hint2": "y = −0 + 8 = 8.",
+  "optionalWorkedFirstStep": "Op de y-as is x = 0.",
+  "explanation": "Startwaarde = 8.\n\nBij x = 0: y = −0 + 8 = 8\n\nHet getal +8 in y = −x + 8 is het snijpunt met de y-as."
+}

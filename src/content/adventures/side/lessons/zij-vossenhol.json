@@ -1,0 +1,27 @@
+{
+  "id": "zij-vossenhol",
+  "adventureId": "side",
+  "order": 201,
+  "areaName": "Zijmissie: Vossenhol",
+  "title": "Algebra-oefening",
+  "emoji": "🦊",
+  "intro": "Optioneel zijpad — korte algebra-herhaling in het Vossenhol.",
+  "color": "#4A5568",
+  "placements": [
+    {
+      "challengeId": "zij-vh-1",
+      "xpReward": 12,
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "zij-vh-2",
+      "xpReward": 14,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "zij-vh-3",
+      "xpReward": 16,
+      "sortOrder": 2
+    }
+  ]
+}

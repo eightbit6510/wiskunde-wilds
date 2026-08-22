@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c8-5",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "y = x²: parabool, symmetrisch in y-as.",
+    "steps": [
+      {
+        "explanation": "Bereken y bij x = −3 en x = 3.",
+        "question": "Wat is (−3)²?",
+        "options": [
+          {
+            "id": "a",
+            "label": "9"
+          },
+          {
+            "id": "b",
+            "label": "−9"
+          },
+          {
+            "id": "c",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "(−3)² = 9 = 3². Symmetrie!",
+        "retryFeedback": "Min × min = plus."
+      },
+      {
+        "explanation": "Gelijke y bij x en −x.",
+        "question": "Welke uitspraak klopt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x = −3 en x = 3 geven dezelfde y"
+          },
+          {
+            "id": "b",
+            "label": "Het is een rechte lijn"
+          },
+          {
+            "id": "c",
+            "label": "Alle y is negatief"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Symmetrie! Paraboolpoort open.",
+        "retryFeedback": "Beide geven y = 9."
+      }
+    ],
+    "conclusion": "Parabool-inzicht: symmetrie. Vijf kamers vol!"
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c8-5-b1",
+      "type": "number-input",
+      "question": "y = x². Wat is y als x = 4?",
+      "answer": 16,
+      "hint1": "4².",
+      "hint2": "16.",
+      "explanation": "4² = 16."
+    },
+    {
+      "id": "p2c8-5-b2",
+      "type": "number-input",
+      "question": "y = x². Wat is y als x = −4?",
+      "answer": 16,
+      "hint1": "(−4)².",
+      "hint2": "16.",
+      "explanation": "(−4)² = 16."
+    }
+  ]
+}

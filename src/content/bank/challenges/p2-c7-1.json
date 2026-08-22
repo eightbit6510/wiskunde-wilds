@@ -1,0 +1,13 @@
+{
+  "id": "p2-c7-1",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Reeks: 3, 7, 11, 15, … Wat is het volgende getal?",
+  "answer": 19,
+  "hint1": "Bereken de verschillen tussen opeenvolgende getallen.",
+  "hint2": "Elke stap +4: 15 + 4 = 19.",
+  "optionalWorkedFirstStep": "7−3=4, 11−7=4, 15−11=4. Stap +4.",
+  "explanation": "19.\n\nVerschil steeds +4\n15 + 4 = 19\n\nReeks: 3, 7, 11, 15, 19, …"
+}

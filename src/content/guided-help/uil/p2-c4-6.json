@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c4-6",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Kwadraat van een negatief getal is altijd positief.",
+    "steps": [
+      {
+        "explanation": "(−6)² = (−6) × (−6).",
+        "question": "Min × min = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Plus (positief)"
+          },
+          {
+            "id": "b",
+            "label": "Min (negatief)"
+          },
+          {
+            "id": "c",
+            "label": "Nul"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Min × min = plus!",
+        "retryFeedback": "Twee mintekens → positief."
+      },
+      {
+        "explanation": "6 × 6 = 36.",
+        "question": "Wat is (−6)²?",
+        "options": [
+          {
+            "id": "a",
+            "label": "36"
+          },
+          {
+            "id": "b",
+            "label": "−36"
+          },
+          {
+            "id": "c",
+            "label": "12"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "(−6)² = 36.",
+        "retryFeedback": "6 × 6 = 36."
+      }
+    ],
+    "conclusion": "(−6)² = 36. Haakjes = het hele getal kwadrateren."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c4-6-b1",
+      "type": "number-input",
+      "question": "Wat is (−4)²?",
+      "answer": 16,
+      "hint1": "Min × min.",
+      "hint2": "16.",
+      "explanation": "(−4)² = 16."
+    },
+    {
+      "id": "p2c4-6-b2",
+      "type": "number-input",
+      "question": "Wat is (−1)²?",
+      "answer": 1,
+      "hint1": "(−1) × (−1).",
+      "hint2": "1.",
+      "explanation": "(−1)² = 1."
+    }
+  ]
+}

@@ -58,7 +58,7 @@ describe('progress migration', () => {
     expect(migrated.completedLessons).toEqual(['vossenpad', 'wolvenkluis']);
     expect(migrated.completedChallenges).toEqual(['l1-c1']);
     expect(migrated.totalStars).toBe(12);
-    expect(migrated.progressVersion).toBe(2);
+    expect(migrated.progressVersion).toBe(3);
     expect(migrated.part2Unlocked).toBe(false);
     expect(migrated.reviewSolvedCount).toBe(0);
   });

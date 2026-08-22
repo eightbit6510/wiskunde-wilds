@@ -1,0 +1,100 @@
+{
+  "challengeId": "l2-c2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We schrijven v = s / t om naar s.",
+    "steps": [
+      {
+        "explanation": "v = s / t betekent: v is s gedeeld door t.",
+        "question": "Wat doe je met beide kanten om s vrij te maken?",
+        "options": [
+          {
+            "id": "mulT",
+            "label": "Beide kanten × t"
+          },
+          {
+            "id": "divT",
+            "label": "Beide kanten ÷ t"
+          },
+          {
+            "id": "addT",
+            "label": "Beide kanten + t"
+          }
+        ],
+        "correctAnswer": "mulT",
+        "successFeedback": "Juist. Dan: v × t = s.",
+        "retryFeedback": "Haal de deling door t weg met vermenigvuldigen."
+      },
+      {
+        "explanation": "Dus s = v × t.",
+        "question": "Welke formule geeft s?",
+        "options": [
+          {
+            "id": "a",
+            "label": "s = v / t"
+          },
+          {
+            "id": "b",
+            "label": "s = v × t"
+          },
+          {
+            "id": "c",
+            "label": "s = t / v"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Precies: s = v × t.",
+        "retryFeedback": "s is snelheid × tijd."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 s = v × t"
+  },
+  "bonusVariants": [
+    {
+      "id": "l2c2-b1",
+      "type": "multiple-choice",
+      "question": "a = F / m. Welke formule geeft F?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "F = a / m"
+        },
+        {
+          "id": "b",
+          "label": "F = a × m"
+        },
+        {
+          "id": "c",
+          "label": "F = m / a"
+        }
+      ],
+      "hint1": "Vermenigvuldig beide kanten met m.",
+      "hint2": "F = a × m.",
+      "explanation": "F = a × m."
+    },
+    {
+      "id": "l2c2-b2",
+      "type": "multiple-choice",
+      "question": "d = W / F. Welke formule geeft W?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "W = d × F"
+        },
+        {
+          "id": "b",
+          "label": "W = d / F"
+        },
+        {
+          "id": "c",
+          "label": "W = F / d"
+        }
+      ],
+      "hint1": "Vermenigvuldig beide kanten met F.",
+      "hint2": "W = d × F.",
+      "explanation": "W = d × F."
+    }
+  ]
+}

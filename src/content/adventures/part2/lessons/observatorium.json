@@ -1,0 +1,65 @@
+{
+  "id": "observatorium",
+  "adventureId": "part2",
+  "order": 105,
+  "areaName": "Het Wolvenobservatorium",
+  "title": "Sterrenpaden",
+  "emoji": "🐺",
+  "intro": "Boven op het observatorium tekenen wolven sporen als lijnen tegen de nachthemel. Twee lijnen kruisen elkaar — waar snijden ze? Lees helling, startwaarde en voorspel wat komen gaat.",
+  "color": "#2A3F4A",
+  "mapTeaser": "Twee paden kruisen onder de sterren — waar?",
+  "placements": [
+    {
+      "challengeId": "p2-c5-1",
+      "optionalStory": "Twee lichtlijnen kruisen boven het dak — het snijpunt onthult het geheim.",
+      "xpReward": 30,
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "p2-c5-2",
+      "optionalStory": "De wolven lezen de steilheid van elke lijn als een spoor in de sneeuw.",
+      "xpReward": 25,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "p2-c5-3",
+      "optionalStory": "Waar begint het spoor als x nog 0 is?",
+      "xpReward": 26,
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "p2-c5-4",
+      "optionalStory": "Drie grafiek-sporen hangen aan het observatorium — één past precies.",
+      "xpReward": 28,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "p2-c5-5",
+      "optionalStory": "De wolven kijken vooruit — welke y-waarde ligt op het spoor?",
+      "xpReward": 26,
+      "sortOrder": 4
+    },
+    {
+      "challengeId": "p2-c5-6",
+      "optionalStory": "Een spoor uit het Lynx-uitzichtpunt — ken je dit nog?",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 14,
+      "sortOrder": 5
+    },
+    {
+      "challengeId": "p2-c5-7",
+      "optionalStory": "Een tabel uit het Uilenlab drijft langs het observatorium.",
+      "title": "🐾 Vertrouwde pootafdruk",
+      "reviewOfPart1": true,
+      "xpReward": 13,
+      "sortOrder": 6
+    },
+    {
+      "challengeId": "p2-c5-8",
+      "optionalStory": "Drie wolvensporen — welke klimt het snelst omhoog?",
+      "xpReward": 29,
+      "sortOrder": 7
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "challengeId": "l4-c2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Optellen van breuken: eerst gelijke noemers.",
+    "steps": [
+      {
+        "explanation": "1/2 + 1/3.\nNoemers 2 en 3. Kleinste gemeenschappelijke: 6.",
+        "question": "Wat is 1/2 als zesde?",
+        "options": [
+          {
+            "id": "36",
+            "label": "3/6"
+          },
+          {
+            "id": "26",
+            "label": "2/6"
+          },
+          {
+            "id": "16",
+            "label": "1/6"
+          }
+        ],
+        "correctAnswer": "36",
+        "successFeedback": "Juist. En 1/3 = 2/6.",
+        "retryFeedback": "Teller en noemer ×3."
+      },
+      {
+        "explanation": "3/6 + 2/6 = ?",
+        "question": "Wat is de som?",
+        "options": [
+          {
+            "id": "56",
+            "label": "5/6"
+          },
+          {
+            "id": "16",
+            "label": "1/6"
+          },
+          {
+            "id": "12",
+            "label": "1/2"
+          }
+        ],
+        "correctAnswer": "56",
+        "successFeedback": "Precies: 5/6.",
+        "retryFeedback": "Telliers optellen, noemer blijft 6."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 5/6"
+  },
+  "bonusVariants": [
+    {
+      "id": "l4c2-b1",
+      "type": "text-input",
+      "question": "Bereken 1/4 + 1/2. Geef als breuk.",
+      "answer": "3/4",
+      "acceptedAnswers": [
+        "3/4",
+        "6/8"
+      ],
+      "hint1": "1/2 = 2/4.",
+      "hint2": "1/4 + 2/4 = 3/4.",
+      "explanation": "1/4 + 1/2 = 3/4."
+    },
+    {
+      "id": "l4c2-b2",
+      "type": "text-input",
+      "question": "Bereken 2/5 + 1/10. Geef als breuk.",
+      "answer": "1/2",
+      "acceptedAnswers": [
+        "1/2",
+        "5/10"
+      ],
+      "hint1": "2/5 = 4/10.",
+      "hint2": "4/10 + 1/10 = 5/10 = 1/2.",
+      "explanation": "2/5 + 1/10 = 1/2."
+    }
+  ]
+}

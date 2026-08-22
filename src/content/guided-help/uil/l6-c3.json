@@ -1,0 +1,78 @@
+{
+  "challengeId": "l6-c3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Vereenvoudigen = delen door de grootste gemene deler.",
+    "steps": [
+      {
+        "explanation": "8/12. Welke getallen delen zowel 8 als 12?",
+        "question": "Wat is de grootste gemene deler van 8 en 12?",
+        "options": [
+          {
+            "id": "2",
+            "label": "2"
+          },
+          {
+            "id": "4",
+            "label": "4"
+          },
+          {
+            "id": "8",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "4",
+        "successFeedback": "Juist: 4.",
+        "retryFeedback": "4 deelt 8 én 12."
+      },
+      {
+        "explanation": "8÷4 = 2 en 12÷4 = 3.",
+        "question": "Wat is de vereenvoudigde breuk?",
+        "options": [
+          {
+            "id": "23",
+            "label": "2/3"
+          },
+          {
+            "id": "46",
+            "label": "4/6"
+          },
+          {
+            "id": "14",
+            "label": "1/4"
+          }
+        ],
+        "correctAnswer": "23",
+        "successFeedback": "Precies: 2/3.",
+        "retryFeedback": "Teller 2, noemer 3."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 2/3"
+  },
+  "bonusVariants": [
+    {
+      "id": "l6c3-b1",
+      "type": "text-input",
+      "question": "Vereenvoudig 9/12.",
+      "answer": "3/4",
+      "acceptedAnswers": [
+        "3/4"
+      ],
+      "hint1": "Deel door 3.",
+      "hint2": "9÷3 / 12÷3 = 3/4.",
+      "explanation": "9/12 = 3/4."
+    },
+    {
+      "id": "l6c3-b2",
+      "type": "text-input",
+      "question": "Vereenvoudig 10/15.",
+      "answer": "2/3",
+      "acceptedAnswers": [
+        "2/3"
+      ],
+      "hint1": "Deel door 5.",
+      "hint2": "10÷5 / 15÷5 = 2/3.",
+      "explanation": "10/15 = 2/3."
+    }
+  ]
+}

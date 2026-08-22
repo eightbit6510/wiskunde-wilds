@@ -1,0 +1,31 @@
+{
+  "id": "l8-c9",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Code-deel 9: Welke grafiek hoort bij y = x²?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Een rechte lijn door de oorsprong"
+    },
+    {
+      "id": "b",
+      "label": "Een U-vormige parabool"
+    },
+    {
+      "id": "c",
+      "label": "Een horizontale lijn"
+    },
+    {
+      "id": "d",
+      "label": "Een dalende rechte lijn"
+    }
+  ],
+  "answer": "b",
+  "hint1": "Kwadratische verbanden maken bochten, geen rechte lijnen.",
+  "hint2": "y = x² is de klassieke parabool (U-vorm).",
+  "optionalWorkedFirstStep": "Punten: (−2,4), (0,0), (2,4) — dat is geen rechte lijn.",
+  "explanation": "y = x² is een U-vormige parabool."
+}

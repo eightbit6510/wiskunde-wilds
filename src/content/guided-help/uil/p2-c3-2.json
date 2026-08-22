@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c3-2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Procentuele groei = (nieuw − oud) / oud × 100%.",
+    "steps": [
+      {
+        "explanation": "Van 80 naar 92.\n\nEerst het verschil.",
+        "question": "Hoeveel is de toename?",
+        "options": [
+          {
+            "id": "a",
+            "label": "12"
+          },
+          {
+            "id": "b",
+            "label": "172"
+          },
+          {
+            "id": "c",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "92 − 80 = 12.",
+        "retryFeedback": "Nieuw − oud = 92 − 80."
+      },
+      {
+        "explanation": "12 toename t.o.v. 80 (het oude getal).",
+        "question": "Hoeveel procent is 12 van 80?",
+        "options": [
+          {
+            "id": "a",
+            "label": "15%"
+          },
+          {
+            "id": "b",
+            "label": "12%"
+          },
+          {
+            "id": "c",
+            "label": "115%"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "12/80 = 0,15 = 15%.",
+        "retryFeedback": "12 ÷ 80 × 100 = 15%."
+      }
+    ],
+    "conclusion": "15% groei. Altijd delen door het oude getal!"
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c3-2-b1",
+      "type": "number-input",
+      "question": "Van 50 naar 60. Procentuele toename?",
+      "answer": 20,
+      "hint1": "Toename = 10.",
+      "hint2": "10/50 × 100 = 20%.",
+      "explanation": "10/50 = 20%."
+    },
+    {
+      "id": "p2c3-2-b2",
+      "type": "number-input",
+      "question": "Van 200 naar 250. Procentuele toename?",
+      "answer": 25,
+      "hint1": "Toename = 50.",
+      "hint2": "50/200 × 100 = 25%.",
+      "explanation": "50/200 = 25%."
+    }
+  ]
+}

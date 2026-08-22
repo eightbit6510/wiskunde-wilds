@@ -1,0 +1,13 @@
+{
+  "id": "p2-c3-5",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "25% van 160 liter rivierwater wordt gefilterd. Hoeveel liter is dat?",
+  "answer": 40,
+  "hint1": "25% = 1/4.",
+  "hint2": "160 ÷ 4 = 40.",
+  "optionalWorkedFirstStep": "25% van 160 = 0,25 × 160 = 40.",
+  "explanation": "40 liter.\n\n25% = 1/4\n160 ÷ 4 = 40\n\nControle: 40/160 = 0,25 = 25% ✓"
+}

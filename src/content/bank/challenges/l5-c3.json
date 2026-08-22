@@ -1,0 +1,31 @@
+{
+  "id": "l5-c3",
+  "type": "multiple-choice",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Welke situatie past bij y = −2x + 10?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "Een vos start met 10 stukken voedsel en eet er 2 per uur"
+    },
+    {
+      "id": "b",
+      "label": "Een vos vindt elk uur 2 stukken voedsel, start bij 10"
+    },
+    {
+      "id": "c",
+      "label": "Een vos heeft altijd 10 stukken voedsel"
+    },
+    {
+      "id": "d",
+      "label": "Een vos verdubbelt zijn voedsel elke 2 uur"
+    }
+  ],
+  "answer": "a",
+  "hint1": "Het minteken betekent: y neemt af als x toeneemt.",
+  "hint2": "Start (x=0) is 10, daarna −2 per stap.",
+  "optionalWorkedFirstStep": "Bij x=0: y=10. Bij x=1: y=8.",
+  "explanation": "A past.\n\ny = −2x + 10: start 10, elke stap −2 → voedsel dat opraakt."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "p2-c7-4",
+  "type": "number-input",
+  "topic": "redeneren",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Reeks: 2, 5, 8, ?, 14. Wat hoort op de plaats van het vraagteken?",
+  "answer": 11,
+  "hint1": "Verschil steeds +3.",
+  "hint2": "8 + 3 = 11. Controle: 11 + 3 = 14 ✓",
+  "optionalWorkedFirstStep": "5−2=3, 8−5=3. 8+3=11.",
+  "explanation": "11.\n\nStap +3\n8 + 3 = 11\nControle: 11 + 3 = 14 ✓"
+}

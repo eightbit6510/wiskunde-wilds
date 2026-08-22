@@ -1,0 +1,51 @@
+{
+  "challengeId": "l4-c4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Wortel = “welk getal × zichzelf?”",
+    "steps": [
+      {
+        "explanation": "√49 zoekt een getal dat met zichzelf 49 geeft.",
+        "question": "Welk positief getal × zichzelf is 49?",
+        "options": [
+          {
+            "id": "6",
+            "label": "6"
+          },
+          {
+            "id": "7",
+            "label": "7"
+          },
+          {
+            "id": "8",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "7",
+        "successFeedback": "Juist: 7 × 7 = 49.",
+        "retryFeedback": "Probeer 7."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 √49 = 7"
+  },
+  "bonusVariants": [
+    {
+      "id": "l4c4-b1",
+      "type": "number-input",
+      "question": "√81 = ?",
+      "answer": 9,
+      "hint1": "9 × 9 = 81.",
+      "hint2": "√81 = 9.",
+      "explanation": "√81 = 9."
+    },
+    {
+      "id": "l4c4-b2",
+      "type": "number-input",
+      "question": "√36 = ?",
+      "answer": 6,
+      "hint1": "6 × 6 = 36.",
+      "hint2": "√36 = 6.",
+      "explanation": "√36 = 6."
+    }
+  ]
+}

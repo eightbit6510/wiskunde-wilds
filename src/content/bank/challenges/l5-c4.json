@@ -1,0 +1,24 @@
+{
+  "id": "l5-c4",
+  "type": "sorting",
+  "topic": "redeneren",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Sorteer van “sterkst dalend” naar “sterkst stijgend”.",
+  "sortItems": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
+  ],
+  "correctOrder": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
+  ],
+  "hint1": "Kijk naar het hellingsgetal (het getal bij x).",
+  "hint2": "Hellingsgetallen: −3, −1, 0,5, 2.",
+  "optionalWorkedFirstStep": "Meest negatieve helling eerst: −3.",
+  "explanation": "Volgorde op hellingsgetal: −3 → −1 → 0,5 → 2.\n\nLager hellingsgetal = sterker dalend (of minder stijgend)."
+}

@@ -1,0 +1,86 @@
+{
+  "challengeId": "p2-c4-3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "+ 2 achter x² verschuift de hele grafiek omhoog.",
+    "steps": [
+      {
+        "explanation": "y = x²: bij x = 0 is y = 0.\ny = x² + 2: bij x = 0 is y = ?",
+        "question": "Wat is y(0) bij y = x² + 2?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2"
+          },
+          {
+            "id": "b",
+            "label": "0"
+          },
+          {
+            "id": "c",
+            "label": "−2"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "0² + 2 = 2. Snijpunt y-as verschoven!",
+        "retryFeedback": "0 + 2 = 2."
+      },
+      {
+        "explanation": "Elke y-waarde is 2 hoger dan bij y = x².",
+        "question": "Wat gebeurt er met de grafiek?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Schuift 2 omhoog"
+          },
+          {
+            "id": "b",
+            "label": "Schuift 2 naar rechts"
+          },
+          {
+            "id": "c",
+            "label": "Wordt een rechte lijn"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "+2 = omhoog verschuiven.",
+        "retryFeedback": "Constante erbij = verticale verschuiving."
+      }
+    ],
+    "conclusion": "y = x² + 2: dezelfde parabool, 2 omhoog."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c4-3-b1",
+      "type": "number-input",
+      "question": "y = x² + 5. Wat is y als x = 3?",
+      "answer": 14,
+      "hint1": "3² + 5.",
+      "hint2": "9 + 5 = 14.",
+      "explanation": "3² + 5 = 9 + 5 = 14."
+    },
+    {
+      "id": "p2c4-3-b2",
+      "type": "multiple-choice",
+      "question": "y = x² − 3. Wat gebeurt er t.o.v. y = x²?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Schuift 3 omhoog"
+        },
+        {
+          "id": "b",
+          "label": "Schuift 3 omlaag"
+        },
+        {
+          "id": "c",
+          "label": "Schuift 3 naar links"
+        }
+      ],
+      "hint1": "−3 achter x².",
+      "hint2": "Omlaag verschuiven.",
+      "explanation": "y = x² − 3 schuift 3 omlaag."
+    }
+  ]
+}

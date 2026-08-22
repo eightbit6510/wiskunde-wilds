@@ -1,0 +1,12 @@
+{
+  "id": "zij-kp-1",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "√49 = ?",
+  "answer": 7,
+  "hint1": "7 × 7 = 49.",
+  "hint2": "7.",
+  "explanation": "√49 = 7."
+}

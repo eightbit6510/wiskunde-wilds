@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c8-4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Runen-regel: aᵐ × aⁿ = aᵐ⁺ⁿ.",
+    "steps": [
+      {
+        "explanation": "2⁴ × 2². Zelfde grondtal 2.",
+        "question": "Welke exponent?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2⁶"
+          },
+          {
+            "id": "b",
+            "label": "2⁸"
+          },
+          {
+            "id": "c",
+            "label": "4⁶"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "4 + 2 = 6.",
+        "retryFeedback": "Exponenten optellen."
+      },
+      {
+        "explanation": "2⁶ = 64.",
+        "question": "Antwoord?",
+        "options": [
+          {
+            "id": "a",
+            "label": "64"
+          },
+          {
+            "id": "b",
+            "label": "32"
+          },
+          {
+            "id": "c",
+            "label": "128"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "64. Runenpoort open!",
+        "retryFeedback": "2 × 2 × 2 × 2 × 2 × 2 = 64."
+      }
+    ],
+    "conclusion": "2⁴ × 2² = 64. Vierde maansteen."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c8-4-b1",
+      "type": "number-input",
+      "question": "3³ × 3² = ?",
+      "answer": 243,
+      "hint1": "3⁵.",
+      "hint2": "243.",
+      "explanation": "3³ × 3² = 3⁵ = 243."
+    },
+    {
+      "id": "p2c8-4-b2",
+      "type": "number-input",
+      "question": "5³ ÷ 5¹ = ?",
+      "answer": 25,
+      "hint1": "5².",
+      "hint2": "25.",
+      "explanation": "5³ ÷ 5¹ = 5² = 25."
+    }
+  ]
+}

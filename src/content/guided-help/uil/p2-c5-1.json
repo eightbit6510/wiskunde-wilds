@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c5-1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Twee lijnen snijden waar hun y-waarden gelijk zijn.",
+    "steps": [
+      {
+        "explanation": "y = 2x + 3 en y = x + 7.\n\nOp het snijpunt geldt: 2x + 3 = x + 7.",
+        "question": "Wat is de eerste stap?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Stel 2x + 3 = x + 7"
+          },
+          {
+            "id": "b",
+            "label": "Tel de formules bij elkaar op"
+          },
+          {
+            "id": "c",
+            "label": "Vul x = 0 in"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Beide y gelijkstellen — zo vind je x.",
+        "retryFeedback": "Snijpunt = zelfde y voor beide lijnen."
+      },
+      {
+        "explanation": "2x + 3 = x + 7.\n\nBeide kanten − x geeft x + 3 = 7.",
+        "question": "Wat is x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x = 4"
+          },
+          {
+            "id": "b",
+            "label": "x = 10"
+          },
+          {
+            "id": "c",
+            "label": "x = 7"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "x = 4. y = 2·4 + 3 = 11. Snijpunt (4, 11)!",
+        "retryFeedback": "x + 3 = 7 → x = 4."
+      }
+    ],
+    "conclusion": "Snijpunt (4, 11). Eerst x, dan y invullen."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c5-1-b1",
+      "type": "number-input",
+      "question": "Waar snijden y = 3x + 1 en y = x + 9? Geef x.",
+      "answer": 4,
+      "hint1": "3x + 1 = x + 9.",
+      "hint2": "2x = 8 → x = 4.",
+      "explanation": "3x + 1 = x + 9 → 2x = 8 → x = 4."
+    },
+    {
+      "id": "p2c5-1-b2",
+      "type": "number-input",
+      "question": "y = 2x + 3 en y = x + 7. Wat is y op het snijpunt?",
+      "answer": 11,
+      "hint1": "x = 4.",
+      "hint2": "y = 2·4 + 3 = 11.",
+      "explanation": "Bij x = 4: y = 11."
+    }
+  ]
+}

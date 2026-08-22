@@ -1,0 +1,100 @@
+{
+  "challengeId": "l5-c4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Sorteer op hellingsgetal.",
+    "steps": [
+      {
+        "explanation": "Hellingsgetallen: −3, −1, 0,5, 2.",
+        "question": "Welk hellingsgetal is het kleinst (meest dalend)?",
+        "options": [
+          {
+            "id": "m3",
+            "label": "−3"
+          },
+          {
+            "id": "m1",
+            "label": "−1"
+          },
+          {
+            "id": "2",
+            "label": "2"
+          }
+        ],
+        "correctAnswer": "m3",
+        "successFeedback": "Juist. −3 is sterkst dalend.",
+        "retryFeedback": "Op een getallenlijn ligt −3 links van −1."
+      },
+      {
+        "explanation": "Volgorde van klein naar groot hellingsgetal.",
+        "question": "Wat komt als laatste (sterkst stijgend)?",
+        "options": [
+          {
+            "id": "half",
+            "label": "y = 0,5x"
+          },
+          {
+            "id": "two",
+            "label": "y = 2x − 1"
+          },
+          {
+            "id": "min1",
+            "label": "y = −x + 4"
+          }
+        ],
+        "correctAnswer": "two",
+        "successFeedback": "Precies: helling 2 is het grootst.",
+        "retryFeedback": "Grootste hellingsgetal = sterkst stijgend."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 −3 → −1 → 0,5 → 2"
+  },
+  "bonusVariants": [
+    {
+      "id": "l5c4-b1",
+      "type": "multiple-choice",
+      "question": "Welke is sterkst dalend?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = −5x + 1"
+        },
+        {
+          "id": "b",
+          "label": "y = −x + 9"
+        },
+        {
+          "id": "c",
+          "label": "y = 2x"
+        }
+      ],
+      "hint1": "Kijk naar het hellingsgetal.",
+      "hint2": "−5 is het kleinst.",
+      "explanation": "−5 is sterkst dalend."
+    },
+    {
+      "id": "l5c4-b2",
+      "type": "multiple-choice",
+      "question": "Welke is sterkst stijgend?",
+      "answer": "c",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 0,2x"
+        },
+        {
+          "id": "b",
+          "label": "y = x − 3"
+        },
+        {
+          "id": "c",
+          "label": "y = 4x + 1"
+        }
+      ],
+      "hint1": "Grootste hellingsgetal.",
+      "hint2": "4 is het grootst.",
+      "explanation": "y = 4x + 1."
+    }
+  ]
+}

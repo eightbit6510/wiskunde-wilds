@@ -1,0 +1,79 @@
+{
+  "challengeId": "l8-c7",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. Y-as → x = 0.",
+    "steps": [
+      {
+        "explanation": "y = 0,5x − 1. Vul x = 0 in.",
+        "question": "Wat is y?",
+        "options": [
+          {
+            "id": "a",
+            "label": "0,5"
+          },
+          {
+            "id": "b",
+            "label": "−1"
+          },
+          {
+            "id": "c",
+            "label": "0"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Precies: y = −1.",
+        "retryFeedback": "0,5×0 − 1 = −1."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 y = −1"
+  },
+  "bonusVariants": [
+    {
+      "id": "l8c7-b1",
+      "type": "multiple-choice",
+      "question": "Bij y = 2x + 5, waar snijdt de grafiek de y-as?",
+      "answer": "c",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 2"
+        },
+        {
+          "id": "b",
+          "label": "y = 0"
+        },
+        {
+          "id": "c",
+          "label": "y = 5"
+        }
+      ],
+      "hint1": "Vul x=0 in.",
+      "hint2": "y=5.",
+      "explanation": "y = 5."
+    },
+    {
+      "id": "l8c7-b2",
+      "type": "multiple-choice",
+      "question": "Bij y = −x + 3, waar snijdt de grafiek de y-as?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 3"
+        },
+        {
+          "id": "b",
+          "label": "y = −1"
+        },
+        {
+          "id": "c",
+          "label": "y = 0"
+        }
+      ],
+      "hint1": "Vul x=0 in.",
+      "hint2": "y=3.",
+      "explanation": "y = 3."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "challengeId": "p2-c1-6",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "x staat met een minteken ervoor. Wees extra voorzichtig met tekens.",
+    "steps": [
+      {
+        "explanation": "5 − 2x = 13.\n\nHaal de 5 naar rechts: beide kanten − 5.",
+        "question": "Wat staat er links na − 5?",
+        "options": [
+          {
+            "id": "a",
+            "label": "−2x = 8"
+          },
+          {
+            "id": "b",
+            "label": "−2x = 18"
+          },
+          {
+            "id": "c",
+            "label": "2x = 8"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "13 − 5 = 8. Links blijft −2x.",
+        "retryFeedback": "Rechts: 13 − 5 = 8."
+      },
+      {
+        "explanation": "−2x = 8.\n\nDeel beide kanten door −2 (niet door 2!).",
+        "question": "Wat is x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x = −4"
+          },
+          {
+            "id": "b",
+            "label": "x = 4"
+          },
+          {
+            "id": "c",
+            "label": "x = −8"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "8 ÷ (−2) = −4. Teken omdraaien!",
+        "retryFeedback": "Deel door −2, dan wordt +8 negatief."
+      }
+    ],
+    "conclusion": "x = −4. Min een min wordt plus bij controle."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c1-6-b1",
+      "type": "number-input",
+      "question": "Los op: 7 − 3x = 1",
+      "answer": 2,
+      "hint1": "−3x = −6.",
+      "hint2": "x = 2.",
+      "explanation": "7 − 3x = 1 → −3x = −6 → x = 2."
+    },
+    {
+      "id": "p2c1-6-b2",
+      "type": "number-input",
+      "question": "Los op: 4 − 5x = 19",
+      "answer": -3,
+      "acceptedAnswers": [
+        -3,
+        "-3"
+      ],
+      "hint1": "−5x = 15.",
+      "hint2": "x = −3.",
+      "explanation": "4 − 5x = 19 → −5x = 15 → x = −3."
+    }
+  ]
+}

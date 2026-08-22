@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c1-8",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Meerdere x-termen — wie redeneert het best?",
+    "steps": [
+      {
+        "explanation": "4x − 3 = 2x + 9.\n\nHaal 2x naar links.",
+        "question": "Wat staat er na beide kanten − 2x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2x − 3 = 9"
+          },
+          {
+            "id": "b",
+            "label": "4x − 3 = 9"
+          },
+          {
+            "id": "c",
+            "label": "2x − 3 = 2x + 9"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "4x − 2x = 2x. Goed!",
+        "retryFeedback": "Links: 4x − 2x = 2x."
+      },
+      {
+        "explanation": "2x − 3 = 9 → 2x = 12 → x = 6.",
+        "question": "Wie heeft gelijk?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Amber (x = 6)"
+          },
+          {
+            "id": "b",
+            "label": "Bram (x = 3)"
+          },
+          {
+            "id": "c",
+            "label": "Cleo (x = 12)"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Amber! x = 6 klopt bij controle.",
+        "retryFeedback": "+3 aan beide kanten, dan ÷ 2."
+      }
+    ],
+    "conclusion": "Amber wint! Controleer altijd door terug te substitueren."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c1-8-b1",
+      "type": "number-input",
+      "question": "Los op: 6x + 2 = 2x + 18",
+      "answer": 4,
+      "hint1": "Beide kanten − 2x.",
+      "hint2": "4x + 2 = 18 → 4x = 16 → x = 4.",
+      "explanation": "6x + 2 = 2x + 18 → 4x = 16 → x = 4."
+    },
+    {
+      "id": "p2c1-8-b2",
+      "type": "number-input",
+      "question": "Los op: 7x − 5 = 3x + 11",
+      "answer": 4,
+      "hint1": "4x − 5 = 11.",
+      "hint2": "4x = 16 → x = 4.",
+      "explanation": "7x − 5 = 3x + 11 → 4x = 16 → x = 4."
+    }
+  ]
+}

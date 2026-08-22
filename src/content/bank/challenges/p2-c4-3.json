@@ -1,0 +1,43 @@
+{
+  "id": "p2-c4-3",
+  "type": "multiple-choice",
+  "topic": "kwadratisch",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Vergelijk y = x² met y = x² + 2. Wat gebeurt er?",
+  "interactiveParabola": {
+    "base": "x2+2",
+    "xValues": [
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "De grafiek schuift 2 omhoog"
+    },
+    {
+      "id": "b",
+      "label": "De grafiek schuift 2 naar rechts"
+    },
+    {
+      "id": "c",
+      "label": "De grafiek wordt een rechte lijn"
+    },
+    {
+      "id": "d",
+      "label": "Alle y-waarden worden 2 kleiner"
+    }
+  ],
+  "answer": "a",
+  "hint1": "Kijk naar het snijpunt met de y-as: bij x = 0.",
+  "hint2": "Bij y = x² + 2 is y(0) = 2 in plaats van 0.",
+  "optionalWorkedFirstStep": "Bij x = 0: x² = 0, maar x² + 2 = 2.",
+  "explanation": "De grafiek schuift 2 omhoog.\n\nElke y-waarde krijgt +2. De vorm (parabool) blijft hetzelfde."
+}

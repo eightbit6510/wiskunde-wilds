@@ -1,0 +1,20 @@
+{
+  "id": "l8-c4",
+  "type": "text-input",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Code-deel 4: P = 2ℓ + 2b. Geef ℓ als formule (ℓ = …). Gebruik P en b.",
+  "answer": "l=(P-2b)/2",
+  "acceptedAnswers": [
+    "l=(P-2b)/2",
+    "ℓ=(P-2b)/2",
+    "l=P/2-b",
+    "ℓ=P/2-b",
+    "l=(P-2*b)/2"
+  ],
+  "hint1": "Isoleren: eerst 2b aftrekken, daarna delen door 2.",
+  "hint2": "P − 2b = 2ℓ → ℓ = (P − 2b)/2",
+  "optionalWorkedFirstStep": "P − 2b = 2ℓ",
+  "explanation": "ℓ = (P − 2b) / 2\n\n(Je mag ook ℓ = P/2 − b schrijven — dat is hetzelfde.)"
+}

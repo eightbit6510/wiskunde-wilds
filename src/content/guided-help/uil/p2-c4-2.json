@@ -1,0 +1,88 @@
+{
+  "challengeId": "p2-c4-2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Symmetrie = spiegelbeeld links en rechts van de y-as.",
+    "steps": [
+      {
+        "explanation": "Bij x = 2: y = 4.\nBij x = −2: y = ?",
+        "question": "Wat is y bij x = −2?",
+        "options": [
+          {
+            "id": "a",
+            "label": "4"
+          },
+          {
+            "id": "b",
+            "label": "−4"
+          },
+          {
+            "id": "c",
+            "label": "2"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "(−2)² = 4. Zelfde als bij x = 2!",
+        "retryFeedback": "(−2)² = 4."
+      },
+      {
+        "explanation": "Gelijke y bij x en −x = symmetrie in y-as.",
+        "question": "Is de stelling waar?",
+        "options": [
+          {
+            "id": "ja",
+            "label": "Ja"
+          },
+          {
+            "id": "nee",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "ja",
+        "successFeedback": "Ja! Spiegelsymmetrisch in de y-as.",
+        "retryFeedback": "Links en rechts dezelfde y → symmetrisch."
+      }
+    ],
+    "conclusion": "Symmetrie bevestigd! y = x² spiegelt in de y-as."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c4-2-b1",
+      "type": "multiple-choice",
+      "question": "Klopt dit? “(−3)² = −9”",
+      "answer": "nee",
+      "answerOptions": [
+        {
+          "id": "ja",
+          "label": "Ja, dat klopt"
+        },
+        {
+          "id": "nee",
+          "label": "Nee, dat klopt niet"
+        }
+      ],
+      "hint1": "Min × min = plus.",
+      "hint2": "(−3)² = 9.",
+      "explanation": "(−3)² = 9, niet −9."
+    },
+    {
+      "id": "p2c4-2-b2",
+      "type": "multiple-choice",
+      "question": "Klopt dit? “y = x² gaat door (0, 0).”",
+      "answer": "ja",
+      "answerOptions": [
+        {
+          "id": "ja",
+          "label": "Ja, dat klopt"
+        },
+        {
+          "id": "nee",
+          "label": "Nee, dat klopt niet"
+        }
+      ],
+      "hint1": "Vul x = 0 in.",
+      "hint2": "0² = 0.",
+      "explanation": "Bij x = 0: y = 0. De top ligt in de oorsprong."
+    }
+  ]
+}

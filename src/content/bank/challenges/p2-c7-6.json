@@ -1,0 +1,31 @@
+{
+  "id": "p2-c7-6",
+  "type": "multiple-choice",
+  "topic": "redeneren",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Welke formule kan NIET bij reeks 4, 7, 10, 13 horen?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "aₙ = 3n + 1"
+    },
+    {
+      "id": "b",
+      "label": "aₙ = 3(n + 1)"
+    },
+    {
+      "id": "c",
+      "label": "aₙ = 4n"
+    },
+    {
+      "id": "d",
+      "label": "aₙ = 1 + 3(n − 1)"
+    }
+  ],
+  "answer": "c",
+  "hint1": "Controleer n = 1: welke formule geeft 4?",
+  "hint2": "4n bij n=1 geeft 4 ✓, maar n=2: 4·2=8 ≠ 7. Dus aₙ=4n past niet.",
+  "optionalWorkedFirstStep": "aₙ=3n+1: n=1→4, n=2→7 ✓. aₙ=4n: n=2→8 ✗",
+  "explanation": "aₙ = 4n past niet.\n\nReeks: 4, 7, 10, 13 (stap +3)\n\naₙ = 3n + 1 ✓\naₙ = 4n: n=2 geeft 8, niet 7 ✗"
+}

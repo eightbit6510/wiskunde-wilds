@@ -1,0 +1,26 @@
+{
+  "id": "zij-kp-2",
+  "type": "multiple-choice",
+  "topic": "machten",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is groter?",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "2⁵"
+    },
+    {
+      "id": "b",
+      "label": "5²"
+    },
+    {
+      "id": "gelijk",
+      "label": "Even groot"
+    }
+  ],
+  "answer": "a",
+  "hint1": "2⁵ = 32, 5² = 25.",
+  "hint2": "32 > 25.",
+  "explanation": "2⁵ = 32 > 5² = 25."
+}

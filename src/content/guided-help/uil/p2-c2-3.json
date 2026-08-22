@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c2-3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Eerst invullen, dan ℓ vrijmaken.",
+    "steps": [
+      {
+        "explanation": "P = 30, b = 5.\n\n2b = 2·5 = 10.",
+        "question": "Welke vergelijking krijg je?",
+        "options": [
+          {
+            "id": "a",
+            "label": "30 = 2ℓ + 10"
+          },
+          {
+            "id": "b",
+            "label": "30 = 2ℓ + 5"
+          },
+          {
+            "id": "c",
+            "label": "30 = ℓ + 10"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "2·5 = 10. Dus 30 = 2ℓ + 10.",
+        "retryFeedback": "2b = 2 × 5 = 10."
+      },
+      {
+        "explanation": "30 = 2ℓ + 10 → 2ℓ = 20.",
+        "question": "Wat is ℓ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "10 cm"
+          },
+          {
+            "id": "b",
+            "label": "15 cm"
+          },
+          {
+            "id": "c",
+            "label": "20 cm"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "ℓ = 10 cm. Omtrek klopt!",
+        "retryFeedback": "20 ÷ 2 = 10."
+      }
+    ],
+    "conclusion": "ℓ = 10 cm. Invullen én omdraaien — beide skills!"
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c2-3-b1",
+      "type": "number-input",
+      "question": "P = 2ℓ + 2b. P = 24, ℓ = 7. Wat is b?",
+      "answer": 5,
+      "hint1": "24 = 14 + 2b.",
+      "hint2": "2b = 10 → b = 5.",
+      "explanation": "24 = 2·7 + 2b → 2b = 10 → b = 5."
+    },
+    {
+      "id": "p2c2-3-b2",
+      "type": "number-input",
+      "question": "P = 2ℓ + 2b. P = 40, b = 8. Wat is ℓ?",
+      "answer": 12,
+      "hint1": "40 = 2ℓ + 16.",
+      "hint2": "2ℓ = 24 → ℓ = 12.",
+      "explanation": "40 = 2ℓ + 16 → ℓ = 12."
+    }
+  ]
+}

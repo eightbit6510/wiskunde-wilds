@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c8-7",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Pootafdruk uit Part 1 — stap voor stap.",
+    "steps": [
+      {
+        "explanation": "2x + 6 = 16. Haal +6 weg.",
+        "question": "Eerste stap?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Beide kanten − 6"
+          },
+          {
+            "id": "b",
+            "label": "Beide kanten + 6"
+          },
+          {
+            "id": "c",
+            "label": "Beide kanten ÷ 2"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "2x = 10.",
+        "retryFeedback": "Tegenovergestelde van +6."
+      },
+      {
+        "explanation": "2x = 10 → x = 5.",
+        "question": "Wat is x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "5"
+          },
+          {
+            "id": "b",
+            "label": "10"
+          },
+          {
+            "id": "c",
+            "label": "4"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "x = 5. Pootafdruk in de nacht!",
+        "retryFeedback": "Deel door 2."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 5. Tweede synthesepoort open."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c8-7-b1",
+      "type": "number-input",
+      "question": "Los op: 3x + 4 = 19",
+      "answer": 5,
+      "hint1": "3x = 15.",
+      "hint2": "x = 5.",
+      "explanation": "3x + 4 = 19 → x = 5."
+    },
+    {
+      "id": "p2c8-7-b2",
+      "type": "number-input",
+      "question": "Los op: 4x − 3 = 13",
+      "answer": 4,
+      "hint1": "4x = 16.",
+      "hint2": "x = 4.",
+      "explanation": "4x = 16 → x = 4."
+    }
+  ]
+}

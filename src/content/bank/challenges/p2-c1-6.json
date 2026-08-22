@@ -1,0 +1,17 @@
+{
+  "id": "p2-c1-6",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: 5 − 2x = 13. Wat is x?",
+  "answer": -4,
+  "acceptedAnswers": [
+    -4,
+    "-4"
+  ],
+  "hint1": "Beide kanten − 5: −2x = 8.",
+  "hint2": "Deel door −2: x = −4.",
+  "optionalWorkedFirstStep": "5 − 2x = 13 → −2x = 13 − 5 = 8.",
+  "explanation": "x = −4.\n\n5 − 2x = 13\nBeide kanten − 5 → −2x = 8\nBeide kanten ÷ (−2) → x = −4\n\nControle: 5 − 2·(−4) = 5 + 8 = 13 ✓"
+}

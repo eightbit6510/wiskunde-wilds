@@ -1,0 +1,93 @@
+{
+  "challengeId": "l1-c3",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We kraken de kluis som voor som.",
+    "steps": [
+      {
+        "explanation": "Eerste som: −2 + 9.",
+        "question": "Wat is −2 + 9?",
+        "options": [
+          {
+            "id": "7",
+            "label": "7"
+          },
+          {
+            "id": "11",
+            "label": "−11"
+          },
+          {
+            "id": "m7",
+            "label": "−7"
+          }
+        ],
+        "correctAnswer": "7",
+        "successFeedback": "Goed. −2 + 9 = 7 → letter P.",
+        "retryFeedback": "Start bij −2 en tel 9 erbij."
+      },
+      {
+        "explanation": "Tweede: 3 × (−1) + 5.\nEerst vermenigvuldigen.",
+        "question": "Wat is 3 × (−1) + 5?",
+        "options": [
+          {
+            "id": "2",
+            "label": "2"
+          },
+          {
+            "id": "8",
+            "label": "8"
+          },
+          {
+            "id": "m2",
+            "label": "−2"
+          }
+        ],
+        "correctAnswer": "2",
+        "successFeedback": "Juist: −3 + 5 = 2 → letter A.",
+        "retryFeedback": "Eerst 3 × (−1) = −3, daarna +5."
+      },
+      {
+        "explanation": "Derde: 16 ÷ (−4) + 8 = −4 + 8 = 4 → W\nVierde: −5 − (−8) = −5 + 8 = 3 → S",
+        "question": "Welk geheime woord vormen P, A, W, S?",
+        "options": [
+          {
+            "id": "paws",
+            "label": "PAWS"
+          },
+          {
+            "id": "swap",
+            "label": "SWAP"
+          },
+          {
+            "id": "wasp",
+            "label": "WASP"
+          }
+        ],
+        "correctAnswer": "paws",
+        "successFeedback": "De kluis opent: PAWS!",
+        "retryFeedback": "Lees de letters in volgorde van de sommen."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Het woord is PAWS."
+  },
+  "bonusVariants": [
+    {
+      "id": "l1c3-b1",
+      "type": "number-input",
+      "question": "Bereken: −3 + 10",
+      "answer": 7,
+      "hint1": "Tel 10 bij −3 op.",
+      "hint2": "−3 + 10 = 7.",
+      "explanation": "−3 + 10 = 7."
+    },
+    {
+      "id": "l1c3-b2",
+      "type": "number-input",
+      "question": "Bereken: −4 − (−6)",
+      "answer": 2,
+      "hint1": "Min een negatief = plus.",
+      "hint2": "−4 + 6 = 2.",
+      "explanation": "−4 − (−6) = 2."
+    }
+  ]
+}

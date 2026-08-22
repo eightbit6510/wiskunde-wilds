@@ -65,19 +65,19 @@ export function SkillsPage({ progressApi }: { progressApi: ProgressApi }) {
         })}
       </div>
 
-      {(progress.owlHelpUsedCount > 0 || progress.owlBonusSolved > 0) && (
+      {(progress.guidedHelpUsedCount > 0 || progress.guidedBonusSolved > 0) && (
         <div className="card" style={{ marginTop: '1rem' }}>
-          <h2 style={{ marginTop: 0, fontSize: '1.2rem' }}>🦉 Samen leren</h2>
+          <h2 style={{ marginTop: 0, fontSize: '1.2rem' }}>Samen leren</h2>
           <p className="muted" style={{ marginTop: 0 }}>
             Hulp vragen is slim — daarna zelf oefenen maakt je sterker.
           </p>
           <p style={{ marginBottom: '0.35rem' }}>
-            🦉 Samen met de Uil geleerd: {progress.owlHelpUsedCount}
+            Met hulp geleerd: {progress.guidedHelpUsedCount}
           </p>
           <p style={{ margin: 0 }}>
-            🐾 Daarna zelf opgelost: {progress.owlBonusSolved}
-            {progress.owlBonusTried > 0
-              ? ` (van ${progress.owlBonusTried} bonuspogingen)`
+            Daarna zelf opgelost: {progress.guidedBonusSolved}
+            {progress.guidedBonusTried > 0
+              ? ` (van ${progress.guidedBonusTried} bonuspogingen)`
               : ''}
           </p>
         </div>

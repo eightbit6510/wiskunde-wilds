@@ -1,0 +1,42 @@
+{
+  "challengeId": "zij-kp-2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Beide uitrekenen.",
+    "steps": [
+      {
+        "explanation": "2⁵ = 32, 5² = 25.",
+        "question": "Groter?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2⁵"
+          },
+          {
+            "id": "b",
+            "label": "5²"
+          },
+          {
+            "id": "c",
+            "label": "Gelijk"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "2⁵ wint.",
+        "retryFeedback": "32 > 25."
+      }
+    ],
+    "conclusion": "2⁵ is groter."
+  },
+  "bonusVariants": [
+    {
+      "id": "zij-kp-2-b1",
+      "type": "number-input",
+      "question": "2⁵ = ?",
+      "answer": 32,
+      "hint1": "2×2×2×2×2.",
+      "hint2": "32.",
+      "explanation": "2⁵ = 32."
+    }
+  ]
+}

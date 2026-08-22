@@ -1,0 +1,42 @@
+{
+  "challengeId": "zij-up-1",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Haakjes uit, dan oplossen.",
+    "steps": [
+      {
+        "explanation": "3(x + 2) = 3x + 6 = 18.",
+        "question": "x = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "4"
+          },
+          {
+            "id": "b",
+            "label": "6"
+          },
+          {
+            "id": "c",
+            "label": "3"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "x = 4.",
+        "retryFeedback": "3x = 12."
+      }
+    ],
+    "conclusion": "x = 4."
+  },
+  "bonusVariants": [
+    {
+      "id": "zij-up-1-b1",
+      "type": "number-input",
+      "question": "Los op: 2(x − 1) = 10",
+      "answer": 6,
+      "hint1": "2x − 2 = 10.",
+      "hint2": "x = 6.",
+      "explanation": "2x = 12 → x = 6."
+    }
+  ]
+}

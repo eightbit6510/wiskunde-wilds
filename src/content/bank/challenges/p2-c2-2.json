@@ -1,0 +1,19 @@
+{
+  "id": "p2-c2-2",
+  "type": "text-input",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "v = s / t. Maak t vrij in termen van v en s. (bijv. t = ...)",
+  "answer": "t=s/v",
+  "acceptedAnswers": [
+    "t=s/v",
+    "t = s/v",
+    "t=s÷v",
+    "t = s ÷ v"
+  ],
+  "hint1": "Vermenigvuldig beide kanten met t: v · t = s.",
+  "hint2": "Deel daarna beide kanten door v: t = s / v.",
+  "optionalWorkedFirstStep": "v = s/t → v · t = s → t = s/v.",
+  "explanation": "t = s / v.\n\nv = s / t\nv · t = s\n t = s / v\n\nControle: v · (s/v) = s ✓"
+}

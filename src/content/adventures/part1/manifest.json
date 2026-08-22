@@ -1,0 +1,18 @@
+{
+  "id": "part1",
+  "title": "Wiskunde Wilds",
+  "subtitle": "Het Ontwaakte Bos",
+  "theme": "day",
+  "helpPersonaId": "uil",
+  "lessonIds": [
+    "vossenpad",
+    "wolvenkluis",
+    "lynx",
+    "konijnenhol",
+    "uilenlab",
+    "bergmissie",
+    "maanlicht",
+    "sterrentempel"
+  ],
+  "unlockRuleId": "always"
+}

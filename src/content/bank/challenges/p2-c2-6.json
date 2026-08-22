@@ -1,0 +1,13 @@
+{
+  "id": "p2-c2-6",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "De temperatuur in het nest is T = 0,5n + 18, waarbij n het aantal raven is. Hoeveel raven zitten er in het nest als T = 28 °C?",
+  "answer": 20,
+  "hint1": "28 = 0,5n + 18 → 0,5n = 10.",
+  "hint2": "n = 20.",
+  "optionalWorkedFirstStep": "Beide kanten − 18: 0,5n = 10.",
+  "explanation": "n = 20.\n\nT = 0,5n + 18\n28 = 0,5n + 18\n0,5n = 10\nn = 20\n\nControle: 0,5·20 + 18 = 28 ✓"
+}

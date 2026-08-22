@@ -1,0 +1,84 @@
+{
+  "id": "p2-c1-3",
+  "type": "equation-steps",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: 3x + 7 = x + 17",
+  "equationSteps": [
+    {
+      "prompt": "Er staan x-termen aan beide kanten. Wat is een slimme eerste stap?",
+      "options": [
+        {
+          "id": "minx",
+          "label": "Beide kanten − x"
+        },
+        {
+          "id": "plusx",
+          "label": "Beide kanten + x"
+        },
+        {
+          "id": "min7",
+          "label": "Beide kanten − 7"
+        },
+        {
+          "id": "deel3",
+          "label": "Beide kanten ÷ 3"
+        }
+      ],
+      "correctId": "minx",
+      "resultDisplay": "2x + 7 = 17"
+    },
+    {
+      "prompt": "Nu staat er 2x + 7 = 17. Wat doe je?",
+      "options": [
+        {
+          "id": "min7",
+          "label": "Beide kanten − 7"
+        },
+        {
+          "id": "plus7",
+          "label": "Beide kanten + 7"
+        },
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "min2",
+          "label": "Beide kanten − 2"
+        }
+      ],
+      "correctId": "min7",
+      "resultDisplay": "2x = 10"
+    },
+    {
+      "prompt": "Laatste stap: 2x = 10",
+      "options": [
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten × 2"
+        },
+        {
+          "id": "min2",
+          "label": "Beide kanten − 2"
+        },
+        {
+          "id": "plus2",
+          "label": "Beide kanten + 2"
+        }
+      ],
+      "correctId": "deel2",
+      "resultDisplay": "x = 5"
+    }
+  ],
+  "answer": 5,
+  "hint1": "Haal x aan de rechterkant weg: beide kanten − x.",
+  "hint2": "2x + 7 = 17 → 2x = 10 → x = 5.",
+  "optionalWorkedFirstStep": "Beide kanten − x: 2x + 7 = 17.",
+  "explanation": "x = 5.\n\n3x + 7 = x + 17\nBeide kanten − x → 2x + 7 = 17\nBeide kanten − 7 → 2x = 10\nBeide kanten ÷ 2 → x = 5\n\nControle: 3·5 + 7 = 22 en 5 + 17 = 22 ✓"
+}

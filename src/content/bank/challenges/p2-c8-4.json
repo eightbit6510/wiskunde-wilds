@@ -1,0 +1,13 @@
+{
+  "id": "p2-c8-4",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Kamer IV — Bereken 2⁴ × 2².",
+  "answer": 64,
+  "hint1": "2⁴ × 2² = 2⁶.",
+  "hint2": "2⁶ = 64.",
+  "optionalWorkedFirstStep": "4 + 2 = 6. 2⁶ = 64.",
+  "explanation": "64.\n\n2⁴ × 2² = 2⁶ = 64\n\nExponenten: 4 + 2 = 6"
+}

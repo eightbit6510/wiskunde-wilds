@@ -1,0 +1,104 @@
+{
+  "challengeId": "l1-c2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. We kijken wat er tussen de haakjes gebeurt.",
+    "steps": [
+      {
+        "explanation": "Er staat: 3(x + 4).\n\nDe 3 staat buiten de haakjes.\nDie hoort bij élke term ertussen.",
+        "question": "Met hoeveel termen moet de 3 vermenigvuldigd worden?",
+        "options": [
+          {
+            "id": "one",
+            "label": "Alleen met x"
+          },
+          {
+            "id": "both",
+            "label": "Met x én met 4"
+          },
+          {
+            "id": "none",
+            "label": "Met geen van beide"
+          }
+        ],
+        "correctAnswer": "both",
+        "successFeedback": "Precies. 3 × x én 3 × 4.",
+        "retryFeedback": "Alles tussen de haakjes krijgt de 3."
+      },
+      {
+        "explanation": "3 × x = 3x.\nEn 3 × 4 = ?",
+        "question": "Wat is 3 × 4?",
+        "options": [
+          {
+            "id": "4",
+            "label": "4"
+          },
+          {
+            "id": "7",
+            "label": "7"
+          },
+          {
+            "id": "12",
+            "label": "12"
+          }
+        ],
+        "correctAnswer": "12",
+        "successFeedback": "Juist. Dus 3(x + 4) = 3x + 12.\nIn de som stond 3x + 4 — daar ging het mis bij de +4.",
+        "retryFeedback": "3 keer 4 is 12."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 De fout zat bij de +4."
+  },
+  "bonusVariants": [
+    {
+      "id": "l1c2-b1",
+      "type": "multiple-choice",
+      "question": "Waar gaat het mis? Iemand schreef: 4(x + 2) = 4x + 2",
+      "answer": "c",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Bij de 4"
+        },
+        {
+          "id": "b",
+          "label": "Bij de x"
+        },
+        {
+          "id": "c",
+          "label": "Bij de +2"
+        },
+        {
+          "id": "d",
+          "label": "Er is geen fout"
+        }
+      ],
+      "hint1": "De 4 moet ook met de 2 vermenigvuldigd worden.",
+      "hint2": "Correct is 4x + 8.",
+      "explanation": "4(x + 2) = 4x + 8. De fout zit bij de +2."
+    },
+    {
+      "id": "l1c2-b2",
+      "type": "multiple-choice",
+      "question": "Wat is 5(y − 3) uitgewerkt?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "5y − 3"
+        },
+        {
+          "id": "b",
+          "label": "5y − 15"
+        },
+        {
+          "id": "c",
+          "label": "5y + 15"
+        }
+      ],
+      "hint1": "Vermenigvuldig 5 met beide termen.",
+      "hint2": "5 × (−3) = −15.",
+      "explanation": "5(y − 3) = 5y − 15."
+    }
+  ]
+}

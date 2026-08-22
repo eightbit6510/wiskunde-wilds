@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c6-6",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Wortel herkennen — pootafdruk uit Part 1.",
+    "steps": [
+      {
+        "explanation": "√49 = ? betekent ?² = 49.",
+        "question": "7² = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "49"
+          },
+          {
+            "id": "b",
+            "label": "14"
+          },
+          {
+            "id": "c",
+            "label": "42"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "7² = 49.",
+        "retryFeedback": "7 × 7 = 49."
+      },
+      {
+        "explanation": "Dus √49 = 7.",
+        "question": "Antwoord?",
+        "options": [
+          {
+            "id": "a",
+            "label": "7"
+          },
+          {
+            "id": "b",
+            "label": "−7"
+          },
+          {
+            "id": "c",
+            "label": "24,5"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "√49 = 7. Pootafdruk!",
+        "retryFeedback": "Positieve wortel: 7."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 √49 = 7."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c6-6-b1",
+      "type": "number-input",
+      "question": "√36 = ?",
+      "answer": 6,
+      "hint1": "6 × 6 = 36.",
+      "hint2": "6.",
+      "explanation": "√36 = 6."
+    },
+    {
+      "id": "p2c6-6-b2",
+      "type": "number-input",
+      "question": "√25 = ?",
+      "answer": 5,
+      "hint1": "5² = 25.",
+      "hint2": "5.",
+      "explanation": "√25 = 5."
+    }
+  ]
+}

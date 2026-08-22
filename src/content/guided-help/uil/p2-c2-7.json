@@ -1,0 +1,72 @@
+{
+  "challengeId": "p2-c2-7",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Oppervlakte-formule — je kent deze al!",
+    "steps": [
+      {
+        "explanation": "A = ℓ × b. Je zoekt b.",
+        "question": "Hoe bereken je b?",
+        "options": [
+          {
+            "id": "a",
+            "label": "b = A ÷ ℓ"
+          },
+          {
+            "id": "b",
+            "label": "b = A × ℓ"
+          },
+          {
+            "id": "c",
+            "label": "b = ℓ ÷ A"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Deel oppervlakte door lengte.",
+        "retryFeedback": "b = A gedeeld door ℓ."
+      },
+      {
+        "explanation": "b = 42 ÷ 7.",
+        "question": "Wat is b?",
+        "options": [
+          {
+            "id": "a",
+            "label": "6"
+          },
+          {
+            "id": "b",
+            "label": "7"
+          },
+          {
+            "id": "c",
+            "label": "35"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "42 ÷ 7 = 6. Pootafdruk!",
+        "retryFeedback": "42 gedeeld door 7."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 b = 6."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c2-7-b1",
+      "type": "number-input",
+      "question": "A = ℓ × b. A = 56, b = 8. Wat is ℓ?",
+      "answer": 7,
+      "hint1": "ℓ = A ÷ b.",
+      "hint2": "56 ÷ 8 = 7.",
+      "explanation": "ℓ = 56 ÷ 8 = 7."
+    },
+    {
+      "id": "p2c2-7-b2",
+      "type": "number-input",
+      "question": "A = ℓ × b. A = 45, ℓ = 9. Wat is b?",
+      "answer": 5,
+      "hint1": "b = A ÷ ℓ.",
+      "hint2": "45 ÷ 9 = 5.",
+      "explanation": "b = 45 ÷ 9 = 5."
+    }
+  ]
+}

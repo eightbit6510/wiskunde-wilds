@@ -1,0 +1,86 @@
+{
+  "challengeId": "p2-c3-4",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij een verhoudingstabel moet elke kolom dezelfde verhouding hebben.",
+    "steps": [
+      {
+        "explanation": "4 : 6 vereenvoudigd = 2 : 3.\n\nDeel beide door 2.",
+        "question": "Wat is 8 : 12 vereenvoudigd?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2 : 3"
+          },
+          {
+            "id": "b",
+            "label": "4 : 6"
+          },
+          {
+            "id": "c",
+            "label": "3 : 2"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "8/12 = 2/3. Zelfde verhouding!",
+        "retryFeedback": "Deel 8 en 12 door 4."
+      },
+      {
+        "explanation": "Check rij 2: 4:6, 8:12, 12:18 — allemaal 2:3.",
+        "question": "Welke rij klopt volledig?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rij 2"
+          },
+          {
+            "id": "b",
+            "label": "Rij 1"
+          },
+          {
+            "id": "c",
+            "label": "Rij 3"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Rij 2: elke kolom is 2 : 3.",
+        "retryFeedback": "8:10 en 10:12 zijn geen 2:3."
+      }
+    ],
+    "conclusion": "Verhoudingstabellen: elke kolom, dezelfde verhouding."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c3-4-b1",
+      "type": "multiple-choice",
+      "question": "Welk paar heeft verhouding 3 : 4?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "6 en 10"
+        },
+        {
+          "id": "b",
+          "label": "9 en 12"
+        },
+        {
+          "id": "c",
+          "label": "12 en 15"
+        }
+      ],
+      "hint1": "3/4 = ?",
+      "hint2": "9/12 = 3/4.",
+      "explanation": "9 : 12 = 3 : 4."
+    },
+    {
+      "id": "p2c3-4-b2",
+      "type": "number-input",
+      "question": "Verhouding 2 : 5. Het eerste getal is 14. Wat is het tweede?",
+      "answer": 35,
+      "hint1": "14/2 = 7 per deel.",
+      "hint2": "5 × 7 = 35.",
+      "explanation": "14 = 2 delen → 7 per deel. Tweede: 5×7 = 35."
+    }
+  ]
+}

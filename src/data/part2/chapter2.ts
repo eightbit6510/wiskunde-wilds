@@ -1,5 +1,6 @@
 import type { Lesson } from '../../types';
 
+/** @deprecated Content gemigreerd naar src/content/ — zie docs/FASE-1.md */
 export const chapter2: Lesson = {
   id: 'ravenpad',
   order: 102,

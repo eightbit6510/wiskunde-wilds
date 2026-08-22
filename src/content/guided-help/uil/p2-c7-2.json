@@ -1,0 +1,77 @@
+{
+  "challengeId": "p2-c7-2",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Formule = start + stap × (n − 1), of herschrijven naar an + b.",
+    "steps": [
+      {
+        "explanation": "Start 3, stap +4.\n\naₙ = 3 + 4(n − 1).",
+        "question": "Vereenvoudig 3 + 4(n − 1):",
+        "options": [
+          {
+            "id": "a",
+            "label": "4n − 1"
+          },
+          {
+            "id": "b",
+            "label": "4n + 1"
+          },
+          {
+            "id": "c",
+            "label": "4n + 3"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "3 + 4n − 4 = 4n − 1.",
+        "retryFeedback": "Werk haakjes uit: 4n − 4 + 3."
+      },
+      {
+        "explanation": "Controle n = 3: 4·3 − 1 = 11 ✓",
+        "question": "Welke formule klopt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "aₙ = 4n − 1"
+          },
+          {
+            "id": "b",
+            "label": "aₙ = 3n + 4"
+          },
+          {
+            "id": "c",
+            "label": "aₙ = n + 4"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "aₙ = 4n − 1. Formule gevonden!",
+        "retryFeedback": "Stap 4, start 3 → 4n − 1."
+      }
+    ],
+    "conclusion": "aₙ = 4n − 1. Patroon in formule gevangen."
+  },
+  "bonusVariants": [
+    {
+      "id": "p2c7-2-b1",
+      "type": "text-input",
+      "question": "Reeks 5, 8, 11, 14. Formule aₙ = ?",
+      "answer": "3n+2",
+      "acceptedAnswers": [
+        "3n+2",
+        "3n + 2",
+        "3*n+2"
+      ],
+      "hint1": "Stap +3, start 5.",
+      "hint2": "aₙ = 3n + 2.",
+      "explanation": "Start 5, stap 3 → aₙ = 3n + 2."
+    },
+    {
+      "id": "p2c7-2-b2",
+      "type": "number-input",
+      "question": "aₙ = 4n − 1. Wat is a₅?",
+      "answer": 19,
+      "hint1": "4·5 − 1.",
+      "hint2": "20 − 1 = 19.",
+      "explanation": "a₅ = 4·5 − 1 = 19."
+    }
+  ]
+}

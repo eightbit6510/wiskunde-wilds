@@ -1,0 +1,79 @@
+{
+  "challengeId": "l8-c9",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Geen stress. x² maakt een bocht, geen rechte lijn.",
+    "steps": [
+      {
+        "explanation": "Punten zoals (−2,4), (0,0), (2,4) liggen niet op één rechte lijn.",
+        "question": "Welke vorm hoort bij y = x²?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rechte lijn"
+          },
+          {
+            "id": "b",
+            "label": "U-vormige parabool"
+          },
+          {
+            "id": "c",
+            "label": "Horizontale lijn"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Precies: een U-vormige parabool.",
+        "retryFeedback": "Kwadratisch → parabool."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Parabool."
+  },
+  "bonusVariants": [
+    {
+      "id": "l8c9-b1",
+      "type": "multiple-choice",
+      "question": "Welke grafiek hoort bij y = x² + 1?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Rechte lijn door (0,1)"
+        },
+        {
+          "id": "b",
+          "label": "Parabool met laagste punt op (0,1)"
+        },
+        {
+          "id": "c",
+          "label": "Horizontale lijn y=1"
+        }
+      ],
+      "hint1": "Nog steeds x²-vorm.",
+      "hint2": "Parabool, 1 omhoog.",
+      "explanation": "Parabool met top/dal op (0,1)."
+    },
+    {
+      "id": "l8c9-b2",
+      "type": "multiple-choice",
+      "question": "Welke formule hoort bij een rechte lijn?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 2x + 1"
+        },
+        {
+          "id": "b",
+          "label": "y = x²"
+        },
+        {
+          "id": "c",
+          "label": "y = x² − 3"
+        }
+      ],
+      "hint1": "Geen kwadraat → recht.",
+      "hint2": "y = 2x + 1.",
+      "explanation": "y = 2x + 1 is lineair."
+    }
+  ]
+}

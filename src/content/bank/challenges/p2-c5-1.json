@@ -1,0 +1,84 @@
+{
+  "id": "p2-c5-1",
+  "type": "equation-steps",
+  "topic": "grafieken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Waar snijden y = 2x + 3 en y = x + 7 elkaar? Los eerst x op.",
+  "equationSteps": [
+    {
+      "prompt": "Beide formules zijn gelijk aan y. Wat is een goede eerste stap?",
+      "options": [
+        {
+          "id": "gelijk",
+          "label": "Stel 2x + 3 gelijk aan x + 7"
+        },
+        {
+          "id": "min3",
+          "label": "Beide kanten − 3"
+        },
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "plusx",
+          "label": "Beide kanten + x"
+        }
+      ],
+      "correctId": "gelijk",
+      "resultDisplay": "2x + 3 = x + 7"
+    },
+    {
+      "prompt": "Nu staat er 2x + 3 = x + 7. Haal x naar links.",
+      "options": [
+        {
+          "id": "minx",
+          "label": "Beide kanten − x"
+        },
+        {
+          "id": "plusx",
+          "label": "Beide kanten + x"
+        },
+        {
+          "id": "min7",
+          "label": "Beide kanten − 7"
+        },
+        {
+          "id": "min3",
+          "label": "Beide kanten − 3"
+        }
+      ],
+      "correctId": "minx",
+      "resultDisplay": "x + 3 = 7"
+    },
+    {
+      "prompt": "Laatste stap: x + 3 = 7",
+      "options": [
+        {
+          "id": "min3",
+          "label": "Beide kanten − 3"
+        },
+        {
+          "id": "plus3",
+          "label": "Beide kanten + 3"
+        },
+        {
+          "id": "deel2",
+          "label": "Beide kanten ÷ 2"
+        },
+        {
+          "id": "keer2",
+          "label": "Beide kanten × 2"
+        }
+      ],
+      "correctId": "min3",
+      "resultDisplay": "x = 4"
+    }
+  ],
+  "answer": 4,
+  "hint1": "Snijpunt: beide y gelijk → 2x + 3 = x + 7.",
+  "hint2": "Beide kanten − x: x + 3 = 7 → x = 4. Vul in: y = 2·4 + 3 = 11.",
+  "optionalWorkedFirstStep": "2x + 3 = x + 7 → x + 3 = 7 → x = 4.",
+  "explanation": "x = 4, y = 11.\n\n2x + 3 = x + 7\nx + 3 = 7\nx = 4\n\ny = 2·4 + 3 = 11\nControle: 4 + 7 = 11 ✓\n\nSnijpunt: (4, 11)"
+}
