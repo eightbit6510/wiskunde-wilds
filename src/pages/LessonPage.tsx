@@ -3,7 +3,8 @@ import { Link, Navigate, useNavigate, useParams } from 'react-router-dom';
 import { BadgeUnlockModal } from '../components/BadgeUnlockModal';
 import { ChallengeCard } from '../components/ChallengeCard';
 import { CompletionModal } from '../components/CompletionModal';
-import { ForestMascot } from '../components/ForestMascot';
+import type { MascotMood } from '../components/ForestMascot';
+import { LessonMascotScene } from '../components/LessonMascotScene';
 import { Part2UnlockReveal } from '../components/Part2UnlockReveal';
 import { ProgressBar } from '../components/ProgressBar';
 import { StarCounter } from '../components/StarCounter';
@@ -12,14 +13,38 @@ import { getHelpPersona } from '../content/personas';
 import { getHelpPersonaIdForLesson } from '../content/personaForLesson';
 import { useActiveClassLevel } from '../context/ActiveClassLevelContext';
 import { badges } from '../data/badges';
-import { getLesson } from '../data/lessons';
+import {
+  getLesson,
+  getLessonsForClassLevel,
+  getPart2LessonsForClassLevel,
+  getSideMissionsForClassLevel,
+} from '../data/lessons';
 import type { ProgressApi } from '../hooks/useProgress';
 import type { SettingsApi } from '../hooks/useSettings';
+import type { Lesson } from '../types';
 import { getAdventureForLesson, isAdventureUnlocked } from '../utils/adventureUnlock';
 import { isChallengeComplete, isLessonChallengesComplete } from '../utils/progressSync';
 import { TOPIC_LABELS } from '../utils/storage';
 import { STREAK_MESSAGES, pickMessage } from '../utils/answers';
 import { XP } from '../utils/xpConfig';
+
+function lessonsInSameArc(lesson: Lesson, classLevel: ReturnType<typeof useActiveClassLevel>): Lesson[] {
+  if (!classLevel) return [];
+  const adventure = getAdventureForLesson(lesson.id);
+  if (adventure === 'part2' || lesson.adventureId === 'part2') {
+    return getPart2LessonsForClassLevel(classLevel);
+  }
+  if (adventure === 'side' || lesson.adventureId === 'side') {
+    return getSideMissionsForClassLevel(classLevel);
+  }
+  return getLessonsForClassLevel(classLevel);
+}
+
+function nextLessonInArc(lesson: Lesson, classLevel: ReturnType<typeof useActiveClassLevel>): Lesson | undefined {
+  const list = [...lessonsInSameArc(lesson, classLevel)].sort((a, b) => a.order - b.order);
+  const i = list.findIndex((l) => l.id === lesson.id);
+  return i >= 0 ? list[i + 1] : undefined;
+}
 
 export function LessonPage({
   progressApi,
@@ -60,8 +85,9 @@ export function LessonPage({
   const [bonusActive, setBonusActive] = useState(false);
   const [pendingCompletedIds, setPendingCompletedIds] = useState<string[]>([]);
   const [badgeQueue, setBadgeQueue] = useState<string[]>([]);
-  const [pendingNavigate, setPendingNavigate] = useState(false);
   const [finishHint, setFinishHint] = useState<string | null>(null);
+  const [mascotMood, setMascotMood] = useState<MascotMood>('normal');
+  const [pendingDestination, setPendingDestination] = useState<'home' | 'next' | null>(null);
   const badgesAtVisitStart = useRef(progress.unlockedBadges);
 
   useEffect(() => {
@@ -69,6 +95,31 @@ export function LessonPage({
       prev.filter((id) => !progress.completedChallenges.includes(id)),
     );
   }, [progress.completedChallenges]);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, [index, lessonId]);
+
+  useEffect(() => {
+    if (!lesson) return;
+    const firstOpen = lesson.challenges.findIndex(
+      (c) => !progress.completedChallenges.includes(c.id),
+    );
+    setIndex(firstOpen >= 0 ? firstOpen : 0);
+    setShowComplete(false);
+    setShowPart2Reveal(false);
+    setStreakNote(null);
+    setOwlSolvedIds([]);
+    setRevealHintFor(null);
+    setBonusActive(false);
+    setPendingCompletedIds([]);
+    setFinishHint(null);
+    setBadgeQueue([]);
+    setPendingDestination(null);
+    badgesAtVisitStart.current = progress.unlockedBadges;
+    // Only reset when switching lesson route — not on every progress tick
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- intentional lessonId gate
+  }, [lessonId]);
 
   const pendingCompletionIds = useMemo(
     () => [...new Set([...pendingCompletedIds, ...owlSolvedIds])],
@@ -112,6 +163,15 @@ export function LessonPage({
     // First 5 rooms light the moon-paw symbol
     return lesson.challenges.slice(0, 5).map((c) => isDone(c.id));
   }, [lesson, progress.completedChallenges, pendingCompletionIds, storyId]);
+
+  useEffect(() => {
+    if (!challenge) {
+      setMascotMood('normal');
+      return;
+    }
+    const done = isChallengeComplete(progress, challenge.id, pendingCompletionIds);
+    setMascotMood(done ? 'happy' : 'normal');
+  }, [challenge?.id, index, lessonId]);
 
   const topicInsight = useMemo(() => {
     const entries = Object.entries(progress.topicStats).map(([topic, stats]) => {
@@ -166,7 +226,9 @@ export function LessonPage({
   const currentBadge =
     badgeQueue.length > 0 ? (badges.find((b) => b.id === badgeQueue[0]) ?? null) : null;
 
-  const finishAfterCelebration = (shouldNavigate: boolean) => {
+  const nextLesson = nextLessonInArc(lesson, classLevel);
+
+  const finishAfterCelebration = (destination: 'home' | 'next' | null) => {
     if (
       storyId === 'sterrentempel' &&
       progress.part2Unlocked &&
@@ -175,28 +237,32 @@ export function LessonPage({
       setShowPart2Reveal(true);
       return;
     }
-    if (shouldNavigate) {
+    if (destination === 'next' && nextLesson) {
+      navigate(`/les/${nextLesson.id}`);
+      return;
+    }
+    if (destination === 'home' || destination === 'next') {
       navigate('/');
     }
   };
 
-  const beginBadgeCelebration = (shouldNavigate: boolean) => {
+  const beginBadgeCelebration = (destination: 'home' | 'next') => {
     setShowComplete(false);
     if (badgesEarnedThisVisit.length > 0) {
       setBadgeQueue(badgesEarnedThisVisit);
-      setPendingNavigate(shouldNavigate);
+      setPendingDestination(destination);
       // Prevent re-showing the same badges if they finish another flow later
       badgesAtVisitStart.current = [...progress.unlockedBadges];
       return;
     }
-    finishAfterCelebration(shouldNavigate);
+    finishAfterCelebration(destination);
   };
 
   const advanceBadgeQueue = () => {
     setBadgeQueue((queue) => {
       const rest = queue.slice(1);
       if (rest.length === 0) {
-        queueMicrotask(() => finishAfterCelebration(pendingNavigate));
+        queueMicrotask(() => finishAfterCelebration(pendingDestination));
       }
       return rest;
     });
@@ -296,7 +362,17 @@ export function LessonPage({
 
       {streakNote && <div className="streak-banner">{streakNote}</div>}
 
-      <div style={{ marginTop: '1rem' }}>
+      <LessonMascotScene
+        storyLessonId={storyId}
+        areaName={lesson.areaName}
+        emoji={lesson.emoji}
+        color={lesson.color}
+        mood={mascotMood}
+        size={56}
+        animationsEnabled={anim}
+      />
+
+      <div style={{ marginTop: '0.35rem' }}>
         {!bonusActive && (
           <ChallengeCard
             key={challenge.id}
@@ -306,8 +382,13 @@ export function LessonPage({
             externallySolved={owlExternallySolved}
             revealFirstHint={revealHintFor === challenge.id}
             animationsEnabled={anim}
-            onWrong={() => recordWrongAttempt(challenge.topic)}
+            onWrong={() => {
+              recordWrongAttempt(challenge.topic);
+              setMascotMood('thinking');
+            }}
+            onRetry={() => setMascotMood('normal')}
             onCorrect={({ attempts, usedHint, usedFirstStep }) => {
+              setMascotMood('happy');
               registerChallengeComplete({
                 challengeId: challenge.id,
                 lessonId: lesson.id,
@@ -339,6 +420,7 @@ export function LessonPage({
           animationsEnabled={anim}
           onConfirmSpend={confirmOwlHelp}
           onHelpSolved={() => {
+            setMascotMood('happy');
             registerChallengeComplete({
               challengeId: challenge.id,
               lessonId: lesson.id,
@@ -416,13 +498,6 @@ export function LessonPage({
         </p>
       )}
 
-      <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'center' }}>
-        <ForestMascot
-          mood={isDone(challenge.id) ? 'happy' : 'thinking'}
-          size={88}
-        />
-      </div>
-
       <CompletionModal
         open={showComplete && !showPart2Reveal && badgeQueue.length === 0}
         title={completionTitle}
@@ -431,8 +506,9 @@ export function LessonPage({
         challengesSolved={progress.challengesSolved}
         strongTopics={topicInsight.strong}
         trainTopics={topicInsight.train}
-        onClose={() => beginBadgeCelebration(false)}
-        onContinue={() => beginBadgeCelebration(true)}
+        hasNextChapter={Boolean(nextLesson)}
+        onClose={() => beginBadgeCelebration('home')}
+        onContinue={() => beginBadgeCelebration('next')}
       />
 
       <BadgeUnlockModal

@@ -575,6 +575,96 @@ button {
   margin: 0 auto;
 }
 
+.lesson-mascot-scene {
+  display: flex;
+  justify-content: center;
+  margin: 0.35rem 0 0.85rem;
+  overflow: visible;
+}
+
+.chapter-prent-frame {
+  position: relative;
+  width: min(100%, 21rem);
+  margin-top: 1.1rem;
+  margin-right: 1.65rem;
+}
+
+.chapter-prent-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius-sm) + 2px);
+  border: var(--sketch-outline);
+  box-shadow: 2px 3px 0 rgba(63, 70, 54, 0.12);
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.chapter-prent {
+  --prent-color: var(--sage);
+  width: 100%;
+  aspect-ratio: 1.05;
+  border-radius: calc(var(--radius-sm) + 2px);
+  border: var(--sketch-outline);
+  background-color: color-mix(in srgb, var(--prent-color) 32%, var(--surface-solid));
+  background-image:
+    radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.55), transparent 55%),
+    var(--pencil-hatch);
+  box-shadow: 2px 3px 0 rgba(63, 70, 54, 0.12);
+  display: grid;
+  place-items: center;
+  gap: 0.2rem;
+  padding: 0.55rem 0.45rem 0.45rem;
+  text-align: center;
+}
+
+.chapter-prent-emoji {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.chapter-prent-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  line-height: 1.2;
+  max-width: 8.5rem;
+}
+
+.lesson-mascot-fox {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  z-index: 2;
+  transform: translateX(50%);
+  filter: drop-shadow(0 3px 4px rgba(40, 48, 36, 0.18));
+  pointer-events: none;
+}
+
+.lesson-mascot-fox.mascot-float {
+  animation: mascotBob 3.5s ease-in-out infinite;
+}
+
+@keyframes mascotBob {
+  0%,
+  100% {
+    transform: translateX(50%) translateY(0);
+  }
+  50% {
+    transform: translateX(50%) translateY(-7px);
+  }
+}
+
+html[data-calm='true'] .lesson-mascot-fox.mascot-float {
+  animation: none;
+}
+
+.completion-mascot {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 0.35rem;
+}
+
 .challenge-card {
   padding: 1.4rem 1.35rem 1.5rem;
 }

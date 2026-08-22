@@ -10,7 +10,6 @@ import {
 } from '../utils/answers';
 import { FeedbackCard } from './FeedbackCard';
 import { HintBox } from './HintBox';
-import { ForestMascot } from './ForestMascot';
 import { BossBattleChallenge } from './challenges/BossBattleChallenge';
 import { CodeCrackChallenge } from './challenges/CodeCrackChallenge';
 import { EquationStepChallenge } from './challenges/EquationStepChallenge';
@@ -41,6 +40,8 @@ interface ChallengeCardProps {
     stars: number;
     usedOwlHelp?: boolean;
   }) => void;
+  /** Called when the learner retries for more stars */
+  onRetry?: () => void;
   animationsEnabled: boolean;
 }
 
@@ -52,8 +53,10 @@ export function ChallengeCard({
   revealFirstHint = false,
   onWrong,
   onCorrect,
-  animationsEnabled,
+  onRetry,
+  animationsEnabled: _animationsEnabled,
 }: ChallengeCardProps) {
+  void _animationsEnabled;
   const previouslyDone = alreadyCompleted || alreadyStars > 0 || externallySolved;
   const [attempts, setAttempts] = useState(revealFirstHint ? 1 : 0);
   const [usedHint, setUsedHint] = useState(revealFirstHint);
@@ -139,6 +142,7 @@ export function ChallengeCard({
     setMatchSel({});
     setSortItems([...(challenge.sortItems ?? [])]);
     setShowVisual(false);
+    onRetry?.();
   };
 
   const canImproveStars = Math.max(alreadyStars, previouslyDone ? 1 : 0) < 3;
@@ -428,11 +432,6 @@ export function ChallengeCard({
             >
               🐾 Opnieuw voor meer sterren
             </button>
-          )}
-          {animationsEnabled && (
-            <div style={{ marginTop: '0.75rem' }}>
-              <ForestMascot mood="celebrating" size={100} className="float" />
-            </div>
           )}
         </>
       )}

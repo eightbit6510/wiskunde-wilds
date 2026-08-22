@@ -1,3 +1,6 @@
+import type { MascotMood } from './ForestMascot';
+import { ForestMascot } from './ForestMascot';
+
 interface CompletionModalProps {
   open: boolean;
   title: string;
@@ -6,8 +9,14 @@ interface CompletionModalProps {
   challengesSolved: number;
   strongTopics: string[];
   trainTopics: string[];
+  /** Go home / leave lesson */
   onClose: () => void;
+  /** Continue to next chapter when available */
   onContinue?: () => void;
+  /** Label for continue — default Doorgaan */
+  continueLabel?: string;
+  /** Whether a next chapter exists */
+  hasNextChapter?: boolean;
 }
 
 export function CompletionModal({
@@ -20,14 +29,16 @@ export function CompletionModal({
   trainTopics,
   onClose,
   onContinue,
+  continueLabel = 'Doorgaan',
+  hasNextChapter = true,
 }: CompletionModalProps) {
   if (!open) return null;
 
   return (
     <div className="completion-modal" role="dialog" aria-modal="true" aria-labelledby="completion-title">
       <div className="completion-card">
-        <div style={{ fontSize: '2rem' }} aria-hidden="true">
-          ⭐🦊🌙
+        <div className="completion-mascot" aria-hidden="true">
+          <ForestMascot mood={'celebrating' satisfies MascotMood} size={96} className="float" />
         </div>
         <h2 id="completion-title">{title}</h2>
         <p className="muted">{subtitle}</p>
@@ -52,11 +63,13 @@ export function CompletionModal({
           </p>
         )}
         <div style={{ display: 'flex', gap: '0.65rem', justifyContent: 'center', marginTop: '1.2rem', flexWrap: 'wrap' }}>
-          <button type="button" className="btn" onClick={onContinue ?? onClose}>
-            Verder
-          </button>
+          {hasNextChapter && onContinue && (
+            <button type="button" className="btn" onClick={onContinue}>
+              {continueLabel}
+            </button>
+          )}
           <button type="button" className="btn btn-secondary" onClick={onClose}>
-            Sluiten
+            Afsluiten
           </button>
         </div>
       </div>
