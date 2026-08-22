@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Omtrek = som zijden. Oppervlakte = l×b.",
-        "question": "Vierkant zijde 3: omtrek=4×3. Klopt A?",
+        "explanation": "Deelbaar = exact delen zonder rest.",
+        "question": "Is 12 deelbaar door 3?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 12"
+            "label": "Ja, 12÷3=4"
           },
           {
             "id": "no",
@@ -35,12 +35,12 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "A klopt.",
-        "retryFeedback": "4×3=12."
+        "successFeedback": "A is waar.",
+        "retryFeedback": "12÷3=4."
       },
       {
-        "explanation": "B zegt omtrek=9. Dat is 3×3 = oppervlakte.",
-        "question": "Klopt B?",
+        "explanation": "Check B: 12÷5.",
+        "question": "12÷5 = 2 rest 2. Klopt B?",
         "options": [
           {
             "id": "yes",
@@ -53,15 +53,15 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "9 is oppervlakte, geen omtrek."
+        "retryFeedback": "Geen rest = deelbaar."
       },
       {
-        "explanation": "C: oppervlakte 4×5.",
-        "question": "Is oppervlakte 4×5 = 20?",
+        "explanation": "Check C: 15÷3.",
+        "question": "Is 15 deelbaar door 3?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, 15÷3=5"
           },
           {
             "id": "no",
@@ -69,12 +69,12 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "C klopt.",
-        "retryFeedback": "4×5=20."
+        "successFeedback": "C is waar.",
+        "retryFeedback": "15÷3=5."
       },
       {
-        "explanation": "Welke uitspraken zijn waar?",
-        "question": "Kies de juiste.",
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles wat klopt.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "bc",
-            "label": "B en C"
+            "id": "bd",
+            "label": "B en D"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B verwart omtrek/oppervlakte."
+        "retryFeedback": "Alleen A en C."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,40 +100,40 @@
     {
       "id": "groep-8-c05-b1",
       "type": "multiple-choice",
-      "question": "Oppervlakte 6×4?",
+      "question": "Is 18 deelbaar door 3?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "24"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "20"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "6×4=24.",
-      "explanation": "6×4=24."
+      "hint2": "18÷3=6.",
+      "explanation": "18÷3=6."
     },
     {
       "id": "groep-8-c05-b2",
       "type": "multiple-choice",
-      "question": "Omtrek vierkant zijde 5?",
-      "answer": "a",
+      "question": "Is 14 deelbaar door 4?",
+      "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "20"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "25"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "4×5=20.",
-      "explanation": "4×5=20."
+      "hint2": "14÷4=3 rest 2.",
+      "explanation": "14÷4=3 rest 2."
     }
   ]
 }

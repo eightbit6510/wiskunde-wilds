@@ -4,12 +4,12 @@
   "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 8 = 17. Wat is x?",
-  "answer": 9,
-  "hint1": "Haal 8 naar de andere kant: x = 17 − 8.",
-  "hint2": "x = 17 − 8",
-  "optionalWorkedFirstStep": "x + 8 = 17 → x = 17 − 8",
-  "explanation": "x + 8 = 17\nx = 17 − 8 = 9",
+  "question": "Los op: x + 15 = 22. Wat is x?",
+  "answer": 7,
+  "hint1": "Haal 15 naar de andere kant: x = 22 − 15.",
+  "hint2": "x = 22 − 15",
+  "optionalWorkedFirstStep": "x + 15 = 22 → x = 22 − 15",
+  "explanation": "x + 15 = 22\nx = 22 − 15 = 7",
   "classLevels": [
     "havo-3"
   ]

@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c22",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij snoepjes geldt: voor elke 4 horen 4. Zoek eerst hoe vaak 4 in 16 past.",
+    "intro": "Bij kaarten geldt: voor elke 4 horen 4. Zoek eerst hoe vaak 4 in 16 past.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Bij snoepjes: 4 horen bij 4, nu 16 gegeven"
+            "label": "Bij kaarten: 4 horen bij 4, nu 16 gegeven"
           },
           {
             "id": "wrong",
@@ -79,7 +79,7 @@
     {
       "id": "groep-7-c22-b1",
       "type": "number-input",
-      "question": "snoepjes: 4:4, eerste = 20. Tweede?",
+      "question": "kaarten: 4:4, eerste = 20. Tweede?",
       "answer": 20,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde stap: delen en vermenigvuldigen.",
@@ -88,7 +88,7 @@
     {
       "id": "groep-7-c22-b2",
       "type": "number-input",
-      "question": "snoepjes: eerste = 16. Tweede?",
+      "question": "kaarten: eerste = 16. Tweede?",
       "answer": 16,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "16 ÷ 4 × 4.",

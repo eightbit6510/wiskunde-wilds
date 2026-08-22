@@ -4,25 +4,25 @@
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 6/8 + 1/8? Kies het juiste antwoord.",
+  "question": "Wat is 2/6 + 4/6? Kies het juiste antwoord.",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "7/8"
+      "label": "1"
     },
     {
       "id": "b",
-      "label": "7/16"
+      "label": "1/2"
     },
     {
       "id": "c",
-      "label": "1"
+      "label": "7/6"
     }
   ],
   "hint1": "Hebben beide breuken dezelfde noemer? Tel dan de tellers op.",
-  "hint2": "6 + 1 = 7, noemer blijft 8.",
-  "explanation": "6/8 + 1/8 = 7/8",
+  "hint2": "2 + 4 = 6, noemer blijft 6.",
+  "explanation": "2/6 + 4/6 = 1",
   "classLevels": [
     "groep-6"
   ]

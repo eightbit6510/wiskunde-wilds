@@ -8,29 +8,28 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "50% van 20 is 10"
+      "label": "De omtrek van een vierkant met zijde 3 is 12"
     },
     {
       "id": "b",
-      "label": "50% van 20 is 5"
+      "label": "De omtrek van een vierkant met zijde 3 is 9"
     },
     {
       "id": "c",
-      "label": "25% van 20 is 5"
+      "label": "De oppervlakte van een rechthoek 4×5 is 20"
     },
     {
       "id": "d",
-      "label": "10% van 100 is 10"
+      "label": "De oppervlakte van 4×5 is 9"
     }
   ],
   "answers": [
     "a",
-    "c",
-    "d"
+    "c"
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: 50% van 20=10. C: 25% van 20=5. D: 10% van 100=10.",
+  "explanation": "A: omtrek 4×3=12. C: oppervlakte 4×5=20.",
   "classLevels": [
     "groep-8"
   ]

@@ -4,12 +4,12 @@
   "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 5 = 13. Wat is x?",
-  "answer": 8,
-  "hint1": "Haal 5 naar de andere kant: x = 13 − 5.",
-  "hint2": "x = 13 − 5",
-  "optionalWorkedFirstStep": "x + 5 = 13 → x = 13 − 5",
-  "explanation": "x + 5 = 13\nx = 13 − 5 = 8",
+  "question": "Los op: x + 12 = 21. Wat is x?",
+  "answer": 9,
+  "hint1": "Haal 12 naar de andere kant: x = 21 − 12.",
+  "hint2": "x = 21 − 12",
+  "optionalWorkedFirstStep": "x + 12 = 21 → x = 21 − 12",
+  "explanation": "x + 12 = 21\nx = 21 − 12 = 9",
   "classLevels": [
     "vwo-4"
   ]

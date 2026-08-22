@@ -10,27 +10,27 @@
   "placements": [
     {
       "challengeId": "havo-3-c26",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
       "sortOrder": 0
     },
     {
       "challengeId": "havo-3-c27",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "Nog één stap — jij kunt dit.",
       "sortOrder": 1
     },
     {
       "challengeId": "havo-3-c28",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
       "sortOrder": 2
     },
     {
       "challengeId": "havo-3-c29",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Welke strategie past hier?",
       "sortOrder": 3
     },
     {
       "challengeId": "havo-3-c30",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
       "sortOrder": 4
     }
   ]

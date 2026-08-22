@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "In een parallellogram zijn tegenoverliggende zijden even lang"
+      "label": "−3 + 5 = 2"
     },
     {
       "id": "b",
-      "label": "In een parallellogram zijn alle zijden even lang"
+      "label": "−3 + 5 = −8"
     },
     {
       "id": "c",
-      "label": "Een ruit heeft vier gelijke zijden"
+      "label": "4 − 7 = −3"
     },
     {
       "id": "d",
-      "label": "Een ruit heeft altijd rechte hoeken"
+      "label": "4 − 7 = 3"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A en C kloppen. B geldt alleen voor ruit/vierkant. D: ruit hoeft geen rechte hoeken.",
+  "explanation": "A: −3+5=2. C: 4−7=−3.",
   "classLevels": [
     "vwo-6"
   ]

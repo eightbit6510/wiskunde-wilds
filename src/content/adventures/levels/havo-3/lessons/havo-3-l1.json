@@ -15,22 +15,22 @@
     },
     {
       "challengeId": "havo-3-c02",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "Nog één stap — jij kunt dit.",
       "sortOrder": 1
     },
     {
       "challengeId": "havo-3-c03",
-      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
       "sortOrder": 2
     },
     {
       "challengeId": "havo-3-c04",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
       "sortOrder": 3
     },
     {
       "challengeId": "havo-3-c05",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Welke strategie past hier?",
       "sortOrder": 4
     }
   ]

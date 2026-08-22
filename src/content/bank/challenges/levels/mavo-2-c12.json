@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "Een vierkant heeft vier gelijke zijden"
+      "label": "−3 + 5 = 2"
     },
     {
       "id": "b",
-      "label": "Elke rechthoek is een vierkant"
+      "label": "−3 + 5 = −8"
     },
     {
       "id": "c",
-      "label": "De som van hoeken in een driehoek is 180°"
+      "label": "4 − 7 = −3"
     },
     {
       "id": "d",
-      "label": "Een cirkel heeft vier hoeken"
+      "label": "4 − 7 = 3"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A en C kloppen.\nB: niet elke rechthoek is vierkant.\nD: cirkel heeft geen hoeken.",
+  "explanation": "A: −3+5=2. C: 4−7=−3.",
   "classLevels": [
     "mavo-2"
   ]

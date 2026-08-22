@@ -4,11 +4,11 @@
   "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 49, lengte = 7. Wat is de breedte?",
-  "answer": 7,
+  "question": "Oppervlakte A = lengte × breedte. A = 18, lengte = 6. Wat is de breedte?",
+  "answer": 3,
   "hint1": "Deel A door lengte.",
-  "hint2": "b = 49 ÷ 7",
-  "explanation": "b = A ÷ l = 49 ÷ 7 = 7",
+  "hint2": "b = 18 ÷ 6",
+  "explanation": "b = A ÷ l = 18 ÷ 6 = 3",
   "classLevels": [
     "mavo-2"
   ]

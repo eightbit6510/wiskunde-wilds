@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "3^4 uitrekenen"
+            "label": "7^4 uitrekenen"
           },
           {
             "id": "wrong",
-            "label": "3 × 4 uitrekenen (dat is fout!)"
+            "label": "7 × 4 uitrekenen (dat is fout!)"
           }
         ],
         "correctAnswer": "task",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 3^4 = 3 vermenigvuldigd 4 keer.\n\nDe exponent 4 telt hoe vaak je vermenigvuldigt.",
+        "explanation": "Stap 2: 7^4 = 7 vermenigvuldigd 4 keer.\n\nDe exponent 4 telt hoe vaak je vermenigvuldigt.",
         "question": "Wat betekent de exponent?",
         "options": [
           {
             "id": "repeat",
-            "label": "3 4 keer vermenigvuldigen"
+            "label": "7 4 keer vermenigvuldigen"
           },
           {
             "id": "times",
-            "label": "3 × 4"
+            "label": "7 × 4"
           }
         ],
         "correctAnswer": "repeat",
@@ -39,60 +39,60 @@
         "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
       },
       {
-        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 3 × 3, vermenigvuldig daarna verder tot je 4 keer hebt.",
-        "question": "Wat is 3^4?",
+        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 7 × 7, vermenigvuldig daarna verder tot je 4 keer hebt.",
+        "question": "Wat is 7^4?",
         "options": [
           {
             "id": "a",
-            "label": "81"
+            "label": "2401"
           },
           {
             "id": "b",
-            "label": "12"
+            "label": "28"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Goed: 3^4 = 81.",
-        "retryFeedback": "Niet 3×4, maar herhaald vermenigvuldigen."
+        "successFeedback": "Goed: 7^4 = 2401.",
+        "retryFeedback": "Niet 7×4, maar herhaald vermenigvuldigen."
       },
       {
         "explanation": "Stap 4: antwoord invullen.",
-        "question": "3^4 = ?",
+        "question": "7^4 = ?",
         "options": [
           {
             "id": "a",
-            "label": "81"
+            "label": "2401"
           },
           {
             "id": "b",
-            "label": "84"
+            "label": "2408"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Super! Antwoord = 81.",
-        "retryFeedback": "Reken 3 vermenigvuldigd 4 keer uit."
+        "successFeedback": "Super! Antwoord = 2401.",
+        "retryFeedback": "Reken 7 vermenigvuldigd 4 keer uit."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3^4 = 81"
+    "conclusion": "Pootafdruk! 🐾 7^4 = 2401"
   },
   "bonusVariants": [
     {
       "id": "havo-3-c24-b1",
       "type": "number-input",
-      "question": "Bereken: 3^5",
-      "answer": 243,
+      "question": "Bereken: 7^5",
+      "answer": 16807,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog ×3.",
-      "explanation": "Nog ×3."
+      "hint2": "Nog ×7.",
+      "explanation": "Nog ×7."
     },
     {
       "id": "havo-3-c24-b2",
       "type": "number-input",
-      "question": "Bereken: 3^4",
-      "answer": 81,
+      "question": "Bereken: 7^4",
+      "answer": 2401,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "3^4 = 81.",
-      "explanation": "3^4 = 81."
+      "hint2": "7^4 = 2401.",
+      "explanation": "7^4 = 2401."
     }
   ]
 }

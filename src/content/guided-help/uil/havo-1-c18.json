@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Breedte vinden (A=12, lengte=4)"
+            "label": "Breedte vinden (A=35, lengte=7)"
           },
           {
             "id": "wrong",
@@ -22,7 +22,7 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=12, lengte=4.",
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=35, lengte=7.",
         "question": "Welke grootte zoek je?",
         "options": [
           {
@@ -40,24 +40,24 @@
       },
       {
         "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
-        "question": "12 ÷ 4 = ?",
+        "question": "35 ÷ 7 = ?",
         "options": [
           {
             "id": "b",
-            "label": "3"
+            "label": "5"
           },
           {
             "id": "w",
-            "label": "4"
+            "label": "6"
           }
         ],
         "correctAnswer": "b",
-        "successFeedback": "Breedte = 3.",
-        "retryFeedback": "Deel 12 door 4."
+        "successFeedback": "Breedte = 5.",
+        "retryFeedback": "Deel 35 door 7."
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "Vermenigvuldig lengte 4 met je breedte-antwoord. Is het 12?",
+        "question": "Vermenigvuldig lengte 7 met je breedte-antwoord. Is het 35?",
         "options": [
           {
             "id": "yes",
@@ -69,18 +69,18 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed! Breedte = 3.",
-        "retryFeedback": "4 × 3 moet 12 zijn."
+        "successFeedback": "Goed! Breedte = 5.",
+        "retryFeedback": "7 × 5 moet 35 zijn."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 b = 3"
+    "conclusion": "Pootafdruk! 🐾 b = 5"
   },
   "bonusVariants": [
     {
       "id": "havo-1-c18-b1",
       "type": "number-input",
-      "question": "A = 16, l = 4. b = ?",
-      "answer": 4,
+      "question": "A = 42, l = 7. b = ?",
+      "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Deel oppervlakte door lengte.",
       "explanation": "Deel oppervlakte door lengte."
@@ -88,11 +88,11 @@
     {
       "id": "havo-1-c18-b2",
       "type": "number-input",
-      "question": "A = 12, l = 4. b = ?",
-      "answer": 3,
+      "question": "A = 35, l = 7. b = ?",
+      "answer": 5,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "b = 12 ÷ 4.",
-      "explanation": "b = 12 ÷ 4."
+      "hint2": "b = 35 ÷ 7.",
+      "explanation": "b = 35 ÷ 7."
     }
   ]
 }

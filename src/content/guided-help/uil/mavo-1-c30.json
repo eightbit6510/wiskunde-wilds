@@ -22,24 +22,24 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Bij optellen: van −3 naar rechts.",
-        "question": "Wat is −3 + 5?",
+        "explanation": "Even = deelbaar door 2.",
+        "question": "Is 0 deelbaar door 2?",
         "options": [
           {
-            "id": "2",
-            "label": "2"
+            "id": "yes",
+            "label": "Ja, 0÷2=0"
           },
           {
-            "id": "m8",
-            "label": "−8"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "2",
+        "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "−3+5=2."
+        "retryFeedback": "0 is even."
       },
       {
-        "explanation": "B zegt −3+5=−8.",
+        "explanation": "B: 0 oneven?",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,40 +53,40 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Je gaat omhoog, niet verder omlaag."
+        "retryFeedback": "0 is even, niet oneven."
       },
       {
-        "explanation": "C: 4 − 7. Onder nul.",
-        "question": "Wat is 4 − 7?",
+        "explanation": "C: oneven+oneven. Bijv. 3+5=8.",
+        "question": "Is som van twee oneven getallen even?",
         "options": [
           {
-            "id": "m3",
-            "label": "−3"
+            "id": "yes",
+            "label": "Ja"
           },
           {
-            "id": "3",
-            "label": "3"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "m3",
+        "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "4−7=−3."
+        "retryFeedback": "Oneven+oneven=even."
       },
       {
         "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
+        "question": "Kies de juiste.",
         "options": [
           {
             "id": "ac",
             "label": "A en C"
           },
           {
-            "id": "ab",
-            "label": "A en B"
+            "id": "bd",
+            "label": "B en D"
           },
           {
-            "id": "cd",
-            "label": "C en D"
+            "id": "ad",
+            "label": "A en D"
           }
         ],
         "correctAnswer": "ac",
@@ -100,40 +100,40 @@
     {
       "id": "mavo-1-c30-b1",
       "type": "multiple-choice",
-      "question": "−5 + 8 = ?",
+      "question": "Is 7 oneven?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "3"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "−3"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "−5+8=3.",
-      "explanation": "−5+8=3."
+      "hint2": "7 niet deelbaar door 2.",
+      "explanation": "7 niet deelbaar door 2."
     },
     {
       "id": "mavo-1-c30-b2",
       "type": "multiple-choice",
-      "question": "2 − 6 = ?",
-      "answer": "b",
+      "question": "Is 4+6 even of oneven?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "4"
+          "label": "Even"
         },
         {
           "id": "b",
-          "label": "−4"
+          "label": "Oneven"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2−6=−4.",
-      "explanation": "2−6=−4."
+      "hint2": "4+6=10, even.",
+      "explanation": "4+6=10, even."
     }
   ]
 }

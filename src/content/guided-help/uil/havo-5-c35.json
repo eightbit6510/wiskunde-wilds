@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "2^6 uitrekenen"
+            "label": "3^3 uitrekenen"
           },
           {
             "id": "wrong",
-            "label": "2 × 6 uitrekenen (dat is fout!)"
+            "label": "3 × 3 uitrekenen (dat is fout!)"
           }
         ],
         "correctAnswer": "task",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 2^6 = 2 vermenigvuldigd 6 keer.\n\nDe exponent 6 telt hoe vaak je vermenigvuldigt.",
+        "explanation": "Stap 2: 3^3 = 3 × 3 × 3.\n\nDe exponent 3 telt hoe vaak je vermenigvuldigt.",
         "question": "Wat betekent de exponent?",
         "options": [
           {
             "id": "repeat",
-            "label": "2 6 keer vermenigvuldigen"
+            "label": "3 3 keer vermenigvuldigen"
           },
           {
             "id": "times",
-            "label": "2 × 6"
+            "label": "3 × 3"
           }
         ],
         "correctAnswer": "repeat",
@@ -39,60 +39,60 @@
         "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
       },
       {
-        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 2 × 2, vermenigvuldig daarna verder tot je 6 keer hebt.",
-        "question": "Wat is 2^6?",
+        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 3 × 3, vermenigvuldig daarna verder tot je 3 keer hebt.",
+        "question": "Wat is 3^3?",
         "options": [
           {
             "id": "a",
-            "label": "64"
+            "label": "27"
           },
           {
             "id": "b",
-            "label": "12"
+            "label": "9"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Goed: 2^6 = 64.",
-        "retryFeedback": "Niet 2×6, maar herhaald vermenigvuldigen."
+        "successFeedback": "Goed: 3^3 = 27.",
+        "retryFeedback": "Niet 3×3, maar herhaald vermenigvuldigen."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. 2^6 = 2 vermenigvuldigd 6 keer\n2. Niet 2×6\n3. Antwoord: 64",
-        "question": "Bevestig: 2^6 = ?",
+        "explanation": "Stappenplan voor dit type som:\n1. 3^3 = 3 × 3 × 3\n2. Niet 3×3\n3. Antwoord: 27",
+        "question": "Bevestig: 3^3 = ?",
         "options": [
           {
             "id": "a",
-            "label": "64"
+            "label": "27"
           },
           {
             "id": "b",
-            "label": "66"
+            "label": "30"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! 2^6 = 64.",
+        "successFeedback": "Klopt! 3^3 = 27.",
         "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2^6 = 64"
+    "conclusion": "Pootafdruk! 🐾 3^3 = 27"
   },
   "bonusVariants": [
     {
       "id": "havo-5-c35-b1",
       "type": "number-input",
-      "question": "Bereken: 2^7",
-      "answer": 128,
+      "question": "Bereken: 3^4",
+      "answer": 81,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog ×2.",
-      "explanation": "Nog ×2."
+      "hint2": "Nog ×3.",
+      "explanation": "Nog ×3."
     },
     {
       "id": "havo-5-c35-b2",
       "type": "number-input",
-      "question": "Bereken: 2^6",
-      "answer": 64,
+      "question": "Bereken: 3^3",
+      "answer": 27,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "2^6 = 64.",
-      "explanation": "2^6 = 64."
+      "hint2": "3^3 = 27.",
+      "explanation": "3^3 = 27."
     }
   ]
 }

@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Veelvoud = keer tafel.",
-        "question": "Is 6 = 2 × 3?",
+        "explanation": "Parallellogram: tegenover elkaar.",
+        "question": "Tegenoverliggende zijden even lang?",
         "options": [
           {
             "id": "yes",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "6 is veelvoud van 3."
+        "retryFeedback": "Eigenschap parallellogram."
       },
       {
-        "explanation": "B: 6 veelvoud van 4?",
-        "question": "6÷4 exact?",
+        "explanation": "B: alle zijden even lang?",
+        "question": "Geldt dat voor elk parallellogram?",
         "options": [
           {
             "id": "yes",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "6÷4 gaat niet exact."
+        "retryFeedback": "Alleen ruit/vierkant."
       },
       {
-        "explanation": "C: 15 veelvoud van 5?",
-        "question": "15÷5 = 3?",
+        "explanation": "C: ruit.",
+        "question": "Heeft een ruit vier gelijke zijden?",
         "options": [
           {
             "id": "yes",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "15=3×5."
+        "retryFeedback": "Ruit = 4 gelijke zijden."
       },
       {
         "explanation": "Welke zijn waar?",
@@ -100,7 +100,7 @@
     {
       "id": "groep-8-c11-b1",
       "type": "multiple-choice",
-      "question": "8 veelvoud van 2?",
+      "question": "Vierkant is een ruit?",
       "answer": "a",
       "answerOptions": [
         {
@@ -113,13 +113,13 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "8=4×2.",
-      "explanation": "8=4×2."
+      "hint2": "Vierkant is speciale ruit.",
+      "explanation": "Vierkant is speciale ruit."
     },
     {
       "id": "groep-8-c11-b2",
       "type": "multiple-choice",
-      "question": "10 veelvoud van 3?",
+      "question": "Ruit altijd rechte hoeken?",
       "answer": "b",
       "answerOptions": [
         {
@@ -132,8 +132,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "10÷3 niet exact.",
-      "explanation": "10÷3 niet exact."
+      "hint2": "Alleen vierkant heeft rechte hoeken.",
+      "explanation": "Alleen vierkant heeft rechte hoeken."
     }
   ]
 }

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 3 = 12"
+            "label": "x zoeken in x + 16 = 28"
           },
           {
             "id": "wrong",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +3 weg is.\n\nWat doe je met +3?",
-        "question": "Hoe haal je +3 weg?",
+        "explanation": "Stap 2: x staat alleen links als +16 weg is.\n\nWat doe je met +16?",
+        "question": "Hoe haal je +16 weg?",
         "options": [
           {
             "id": "sub",
-            "label": "3 aftrekken aan beide kanten"
+            "label": "16 aftrekken aan beide kanten"
           },
           {
             "id": "add",
-            "label": "3 optellen"
+            "label": "16 optellen"
           }
         ],
         "correctAnswer": "sub",
@@ -39,25 +39,25 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 3 = 12. Haal +3 weg → x = 12 − 3.",
-        "question": "Wat is 12 − 3?",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 16 = 28. Haal +16 weg → x = 28 − 16.",
+        "question": "Wat is 28 − 16?",
         "options": [
           {
             "id": "x",
-            "label": "9"
+            "label": "12"
           },
           {
             "id": "wrong",
-            "label": "11"
+            "label": "14"
           }
         ],
         "correctAnswer": "x",
-        "successFeedback": "Goed: x = 9.",
-        "retryFeedback": "Reken uit: 12 − 3."
+        "successFeedback": "Goed: x = 12.",
+        "retryFeedback": "Reken uit: 28 − 16."
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 3 = 12?",
+        "question": "Past je x-waarde in x + 16 = 28?",
         "options": [
           {
             "id": "yes",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. x = 9!",
-        "retryFeedback": "Reken na: x + 3 moet 12 zijn."
+        "successFeedback": "Perfect. x = 12!",
+        "retryFeedback": "Reken na: x + 16 moet 28 zijn."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 9"
+    "conclusion": "Pootafdruk! 🐾 x = 12"
   },
   "bonusVariants": [
     {
       "id": "mavo-2-c26-b1",
       "type": "number-input",
-      "question": "Los op: x + 5 = 14.",
-      "answer": 9,
+      "question": "Los op: x + 18 = 30.",
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 14 − 5 = 9.",
-      "explanation": "x = 14 − 5 = 9."
+      "hint2": "x = 30 − 18 = 12.",
+      "explanation": "x = 30 − 18 = 12."
     },
     {
       "id": "mavo-2-c26-b2",
       "type": "number-input",
-      "question": "Los op: x + 3 = 17.",
-      "answer": 14,
+      "question": "Los op: x + 16 = 33.",
+      "answer": 17,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 17 − 3.",
-      "explanation": "x = 17 − 3."
+      "hint2": "x = 33 − 16.",
+      "explanation": "x = 33 − 16."
     }
   ]
 }

@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "5^4 uitrekenen"
+            "label": "7^4 uitrekenen"
           },
           {
             "id": "wrong",
-            "label": "5 × 4 uitrekenen (dat is fout!)"
+            "label": "7 × 4 uitrekenen (dat is fout!)"
           }
         ],
         "correctAnswer": "task",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 5^4 = 5 vermenigvuldigd 4 keer.\n\nDe exponent 4 telt hoe vaak je vermenigvuldigt.",
+        "explanation": "Stap 2: 7^4 = 7 vermenigvuldigd 4 keer.\n\nDe exponent 4 telt hoe vaak je vermenigvuldigt.",
         "question": "Wat betekent de exponent?",
         "options": [
           {
             "id": "repeat",
-            "label": "5 4 keer vermenigvuldigen"
+            "label": "7 4 keer vermenigvuldigen"
           },
           {
             "id": "times",
-            "label": "5 × 4"
+            "label": "7 × 4"
           }
         ],
         "correctAnswer": "repeat",
@@ -39,60 +39,60 @@
         "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
       },
       {
-        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 5 × 5, vermenigvuldig daarna verder tot je 4 keer hebt.",
-        "question": "Wat is 5^4?",
+        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 7 × 7, vermenigvuldig daarna verder tot je 4 keer hebt.",
+        "question": "Wat is 7^4?",
         "options": [
           {
             "id": "a",
-            "label": "625"
+            "label": "2401"
           },
           {
             "id": "b",
-            "label": "20"
+            "label": "28"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Goed: 5^4 = 625.",
-        "retryFeedback": "Niet 5×4, maar herhaald vermenigvuldigen."
+        "successFeedback": "Goed: 7^4 = 2401.",
+        "retryFeedback": "Niet 7×4, maar herhaald vermenigvuldigen."
       },
       {
         "explanation": "Stap 4: antwoord invullen.",
-        "question": "5^4 = ?",
+        "question": "7^4 = ?",
         "options": [
           {
             "id": "a",
-            "label": "625"
+            "label": "2401"
           },
           {
             "id": "b",
-            "label": "630"
+            "label": "2408"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Super! Antwoord = 625.",
-        "retryFeedback": "Reken 5 vermenigvuldigd 4 keer uit."
+        "successFeedback": "Super! Antwoord = 2401.",
+        "retryFeedback": "Reken 7 vermenigvuldigd 4 keer uit."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5^4 = 625"
+    "conclusion": "Pootafdruk! 🐾 7^4 = 2401"
   },
   "bonusVariants": [
     {
       "id": "havo-5-c05-b1",
       "type": "number-input",
-      "question": "Bereken: 5^5",
-      "answer": 3125,
+      "question": "Bereken: 7^5",
+      "answer": 16807,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog ×5.",
-      "explanation": "Nog ×5."
+      "hint2": "Nog ×7.",
+      "explanation": "Nog ×7."
     },
     {
       "id": "havo-5-c05-b2",
       "type": "number-input",
-      "question": "Bereken: 5^4",
-      "answer": 625,
+      "question": "Bereken: 7^4",
+      "answer": 2401,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "5^4 = 625.",
-      "explanation": "5^4 = 625."
+      "hint2": "7^4 = 2401.",
+      "explanation": "7^4 = 2401."
     }
   ]
 }

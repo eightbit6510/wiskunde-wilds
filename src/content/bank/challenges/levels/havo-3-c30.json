@@ -4,11 +4,11 @@
   "topic": "machten",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 3^4",
-  "answer": 81,
+  "question": "Bereken: 3^5",
+  "answer": 243,
   "hint1": "3 × 3 × …",
-  "hint2": "Vermenigvuldig 3 4 keer met zichzelf.",
-  "explanation": "3^4 = 81",
+  "hint2": "Vermenigvuldig 3 5 keer met zichzelf.",
+  "explanation": "3^5 = 243",
   "classLevels": [
     "havo-3"
   ]

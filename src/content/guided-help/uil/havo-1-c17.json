@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 3:5"
+            "label": "Tweede deel vinden bij verhouding 4:4"
           },
           {
             "id": "wrong",
-            "label": "De getallen 3 en 5 direct optellen"
+            "label": "De getallen 4 en 4 direct optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,29 +22,29 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 3:5 betekent steeds dezelfde factor.\n\nEerste deel = 9.",
-        "question": "Hoeveel keer past 3 in 9? (schaalfactor)",
+        "explanation": "Stap 2: verhouding 4:4 betekent steeds dezelfde factor.\n\nEerste deel = 16.",
+        "question": "Hoeveel keer past 4 in 16? (schaalfactor)",
         "options": [
           {
             "id": "f",
-            "label": "3"
+            "label": "4"
           },
           {
             "id": "w",
-            "label": "4"
+            "label": "5"
           }
         ],
         "correctAnswer": "f",
-        "successFeedback": "Goed — schaalfactor = 3.",
-        "retryFeedback": "Deel 9 door 3."
+        "successFeedback": "Goed — schaalfactor = 4.",
+        "retryFeedback": "Deel 16 door 4."
       },
       {
         "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
-        "question": "Tweede deel = 3 × 5 = ?",
+        "question": "Tweede deel = 4 × 4 = ?",
         "options": [
           {
             "id": "o",
-            "label": "15"
+            "label": "16"
           },
           {
             "id": "w",
@@ -52,12 +52,12 @@
           }
         ],
         "correctAnswer": "o",
-        "successFeedback": "Klopt: 15.",
-        "retryFeedback": "Vermenigvuldig je schaalfactor met 5."
+        "successFeedback": "Klopt: 16.",
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 4."
       },
       {
         "explanation": "Stap 4: controleer de verhouding.",
-        "question": "Klopt 9:15 = 3:5?",
+        "question": "Klopt 16:16 = 4:4?",
         "options": [
           {
             "id": "yes",
@@ -69,17 +69,17 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. Antwoord = 15.",
-        "retryFeedback": "Deel 9 door 3, vermenigvuldig met 5."
+        "successFeedback": "Perfect. Antwoord = 16.",
+        "retryFeedback": "Deel 16 door 4, vermenigvuldig met 4."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 15."
+    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 16."
   },
   "bonusVariants": [
     {
       "id": "havo-1-c17-b1",
       "type": "number-input",
-      "question": "Verhouding 3:5, eerste = 12. Tweede?",
+      "question": "Verhouding 4:4, eerste = 20. Tweede?",
       "answer": 20,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde schaalfactor.",
@@ -88,11 +88,11 @@
     {
       "id": "havo-1-c17-b2",
       "type": "number-input",
-      "question": "Verhouding 3:5, eerste = 9. Tweede?",
-      "answer": 15,
+      "question": "Verhouding 4:4, eerste = 16. Tweede?",
+      "answer": 16,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "9 ÷ 3 × 5.",
-      "explanation": "9 ÷ 3 × 5."
+      "hint2": "16 ÷ 4 × 4.",
+      "explanation": "16 ÷ 4 × 4."
     }
   ]
 }

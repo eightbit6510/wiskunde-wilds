@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 5 = 14"
+            "label": "x zoeken in x + 10 = 16"
           },
           {
             "id": "wrong",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +5 weg is.\n\nWat doe je met +5?",
-        "question": "Hoe haal je +5 weg?",
+        "explanation": "Stap 2: x staat alleen links als +10 weg is.\n\nWat doe je met +10?",
+        "question": "Hoe haal je +10 weg?",
         "options": [
           {
             "id": "sub",
-            "label": "5 aftrekken aan beide kanten"
+            "label": "10 aftrekken aan beide kanten"
           },
           {
             "id": "add",
-            "label": "5 optellen"
+            "label": "10 optellen"
           }
         ],
         "correctAnswer": "sub",
@@ -39,25 +39,25 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 5 = 14. Haal +5 weg → x = 14 − 5.",
-        "question": "Wat is 14 − 5?",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 10 = 16. Haal +10 weg → x = 16 − 10.",
+        "question": "Wat is 16 − 10?",
         "options": [
           {
             "id": "x",
-            "label": "9"
+            "label": "6"
           },
           {
             "id": "wrong",
-            "label": "11"
+            "label": "8"
           }
         ],
         "correctAnswer": "x",
-        "successFeedback": "Goed: x = 9.",
-        "retryFeedback": "Reken uit: 14 − 5."
+        "successFeedback": "Goed: x = 6.",
+        "retryFeedback": "Reken uit: 16 − 10."
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 5 = 14?",
+        "question": "Past je x-waarde in x + 10 = 16?",
         "options": [
           {
             "id": "yes",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. x = 9!",
-        "retryFeedback": "Reken na: x + 5 moet 14 zijn."
+        "successFeedback": "Perfect. x = 6!",
+        "retryFeedback": "Reken na: x + 10 moet 16 zijn."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 9"
+    "conclusion": "Pootafdruk! 🐾 x = 6"
   },
   "bonusVariants": [
     {
       "id": "havo-4-c14-b1",
       "type": "number-input",
-      "question": "Los op: x + 7 = 16.",
-      "answer": 9,
+      "question": "Los op: x + 12 = 18.",
+      "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 16 − 7 = 9.",
-      "explanation": "x = 16 − 7 = 9."
+      "hint2": "x = 18 − 12 = 6.",
+      "explanation": "x = 18 − 12 = 6."
     },
     {
       "id": "havo-4-c14-b2",
       "type": "number-input",
-      "question": "Los op: x + 5 = 19.",
-      "answer": 14,
+      "question": "Los op: x + 10 = 21.",
+      "answer": 11,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 19 − 5.",
-      "explanation": "x = 19 − 5."
+      "hint2": "x = 21 − 10.",
+      "explanation": "x = 21 − 10."
     }
   ]
 }

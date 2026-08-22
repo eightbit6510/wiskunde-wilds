@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c22",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij kaarten geldt: voor elke 2 horen 2. Zoek eerst hoe vaak 2 in 4 past.",
+    "intro": "Bij plakkers geldt: voor elke 2 horen 2. Zoek eerst hoe vaak 2 in 4 past.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Bij kaarten: 2 horen bij 2, nu 4 gegeven"
+            "label": "Bij plakkers: 2 horen bij 2, nu 4 gegeven"
           },
           {
             "id": "wrong",
@@ -79,7 +79,7 @@
     {
       "id": "groep-6-c22-b1",
       "type": "number-input",
-      "question": "kaarten: 2:2, eerste = 6. Tweede?",
+      "question": "plakkers: 2:2, eerste = 6. Tweede?",
       "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde stap: delen en vermenigvuldigen.",
@@ -88,7 +88,7 @@
     {
       "id": "groep-6-c22-b2",
       "type": "number-input",
-      "question": "kaarten: eerste = 4. Tweede?",
+      "question": "plakkers: eerste = 4. Tweede?",
       "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "4 ÷ 2 × 2.",

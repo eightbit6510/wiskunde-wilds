@@ -4,11 +4,11 @@
   "topic": "machten",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Bereken: 2^4",
-  "answer": 16,
+  "question": "Bereken: 2^3",
+  "answer": 8,
   "hint1": "2 × 2 × …",
-  "hint2": "Vermenigvuldig 2 4 keer met zichzelf.",
-  "explanation": "2^4 = 16",
+  "hint2": "Vermenigvuldig 2 3 keer met zichzelf.",
+  "explanation": "2^3 = 8",
   "classLevels": [
     "vwo-3"
   ]

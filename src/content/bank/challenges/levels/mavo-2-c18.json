@@ -8,29 +8,28 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "50% van 20 is 10"
+      "label": "Een rechte hoek is 90°"
     },
     {
       "id": "b",
-      "label": "50% van 20 is 5"
+      "label": "Een rechte hoek is 180°"
     },
     {
       "id": "c",
-      "label": "25% van 20 is 5"
+      "label": "Een gestrekte hoek is 180°"
     },
     {
       "id": "d",
-      "label": "10% van 100 is 10"
+      "label": "Drie rechte hoeken passen in een driehoek"
     }
   ],
   "answers": [
     "a",
-    "c",
-    "d"
+    "c"
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: 50% van 20=10. C: 25% van 20=5. D: 10% van 100=10.",
+  "explanation": "A: 90°. C: 180°. D klopt niet.",
   "classLevels": [
     "mavo-2"
   ]

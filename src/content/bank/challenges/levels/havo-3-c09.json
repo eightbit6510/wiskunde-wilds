@@ -4,11 +4,11 @@
   "topic": "formules",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 28, lengte = 7. Wat is de breedte?",
+  "question": "Oppervlakte A = lengte × breedte. A = 24, lengte = 6. Wat is de breedte?",
   "answer": 4,
   "hint1": "Deel A door lengte.",
-  "hint2": "b = 28 ÷ 7",
-  "explanation": "b = A ÷ l = 28 ÷ 7 = 4",
+  "hint2": "b = 24 ÷ 6",
+  "explanation": "b = A ÷ l = 24 ÷ 6 = 4",
   "classLevels": [
     "havo-3"
   ]

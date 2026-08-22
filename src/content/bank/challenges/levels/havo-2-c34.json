@@ -21,8 +21,8 @@
     }
   ],
   "hint1": "Vermenigvuldig elke x met 3.",
-  "hint2": "Bij x = 3 hoort y = 9.",
-  "explanation": "y = 3x betekent: y is steeds 3 keer x.\nBij x = 3: y = 9.",
+  "hint2": "Bij x = 6 hoort y = 18.",
+  "explanation": "y = 3x betekent: y is steeds 3 keer x.\nBij x = 6: y = 18.",
   "classLevels": [
     "havo-2"
   ]

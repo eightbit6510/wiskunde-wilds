@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c10",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij ballonnen geldt: voor elke 4 horen 4. Zoek eerst hoe vaak 4 in 16 past.",
+    "intro": "Bij snoepjes geldt: voor elke 4 horen 4. Zoek eerst hoe vaak 4 in 8 past.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Bij ballonnen: 4 horen bij 4, nu 16 gegeven"
+            "label": "Bij snoepjes: 4 horen bij 4, nu 8 gegeven"
           },
           {
             "id": "wrong",
@@ -22,42 +22,42 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 4:4 betekent steeds dezelfde verhouding.\n\nEerst deel je 16 door 4.",
-        "question": "Hoeveel keer past 4 in 16?",
+        "explanation": "Stap 2: verhouding 4:4 betekent steeds dezelfde verhouding.\n\nEerst deel je 8 door 4.",
+        "question": "Hoeveel keer past 4 in 8?",
         "options": [
           {
             "id": "f",
-            "label": "4"
+            "label": "2"
           },
           {
             "id": "w",
-            "label": "5"
+            "label": "3"
           }
         ],
         "correctAnswer": "f",
-        "successFeedback": "Goed — dat is 4 keer.",
-        "retryFeedback": "Deel 16 door 4."
+        "successFeedback": "Goed — dat is 2 keer.",
+        "retryFeedback": "Deel 8 door 4."
       },
       {
         "explanation": "Stap 3: vermenigvuldig met 4.",
-        "question": "4 × 4 = ?",
+        "question": "2 × 4 = ?",
         "options": [
           {
             "id": "o",
-            "label": "16"
+            "label": "8"
           },
           {
             "id": "w",
-            "label": "20"
+            "label": "12"
           }
         ],
         "correctAnswer": "o",
-        "successFeedback": "Klopt: 16.",
+        "successFeedback": "Klopt: 8.",
         "retryFeedback": "Vermenigvuldig je schaalfactor met 4."
       },
       {
         "explanation": "Stap 4: controle.",
-        "question": "Klopt 16:16 = 4:4?",
+        "question": "Klopt 8:8 = 4:4?",
         "options": [
           {
             "id": "yes",
@@ -69,18 +69,18 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Super! Antwoord = 16.",
+        "successFeedback": "Super! Antwoord = 8.",
         "retryFeedback": "Deel eerst, dan vermenigvuldig."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Het antwoord is 16."
+    "conclusion": "Pootafdruk! 🐾 Het antwoord is 8."
   },
   "bonusVariants": [
     {
       "id": "groep-7-c10-b1",
       "type": "number-input",
-      "question": "ballonnen: 4:4, eerste = 20. Tweede?",
-      "answer": 20,
+      "question": "snoepjes: 4:4, eerste = 12. Tweede?",
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde stap: delen en vermenigvuldigen.",
       "explanation": "Zelfde stap: delen en vermenigvuldigen."
@@ -88,11 +88,11 @@
     {
       "id": "groep-7-c10-b2",
       "type": "number-input",
-      "question": "ballonnen: eerste = 16. Tweede?",
-      "answer": 16,
+      "question": "snoepjes: eerste = 8. Tweede?",
+      "answer": 8,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "16 ÷ 4 × 4.",
-      "explanation": "16 ÷ 4 × 4."
+      "hint2": "8 ÷ 4 × 4.",
+      "explanation": "8 ÷ 4 × 4."
     }
   ]
 }

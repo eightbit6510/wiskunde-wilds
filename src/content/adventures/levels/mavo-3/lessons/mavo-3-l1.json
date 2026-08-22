@@ -10,27 +10,27 @@
   "placements": [
     {
       "challengeId": "mavo-3-c01",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
       "sortOrder": 0
     },
     {
       "challengeId": "mavo-3-c02",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Welke strategie past hier?",
       "sortOrder": 1
     },
     {
       "challengeId": "mavo-3-c03",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
       "sortOrder": 2
     },
     {
       "challengeId": "mavo-3-c04",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
       "sortOrder": 3
     },
     {
       "challengeId": "mavo-3-c05",
-      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "optionalStory": "Nog één stap — jij kunt dit.",
       "sortOrder": 4
     }
   ]

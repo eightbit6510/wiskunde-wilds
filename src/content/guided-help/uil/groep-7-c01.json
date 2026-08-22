@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c01",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij 1/2 + 1/4 maken we eerst de noemers gelijk. Daarna tel je de tellers op.",
+    "intro": "Bij 2/5 + 1/2 maken we eerst de noemers gelijk. Daarna tel je de tellers op.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "1/2 + 1/4 uitrekenen (antwoord als breuk)"
+            "label": "2/5 + 1/2 uitrekenen (antwoord als breuk)"
           },
           {
             "id": "wrong",
@@ -22,37 +22,37 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: eerst gelijknamig maken.\n\nZoek een noemer die bij beide breuken past. Hier: 8.",
+        "explanation": "Stap 2: eerst gelijknamig maken.\n\nZoek een noemer die bij beide breuken past. Hier: 10.",
         "question": "Welke noemer gebruiken we?",
         "options": [
           {
             "id": "yes",
-            "label": "8"
+            "label": "10"
           },
           {
             "id": "no",
-            "label": "9"
+            "label": "11"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — beide breuken krijgen noemer 8.",
+        "successFeedback": "Goed — beide breuken krijgen noemer 10.",
         "retryFeedback": "Vermenigvuldig boven en onder zodat de noemers gelijk worden."
       },
       {
         "explanation": "Stap 3: tel de tellers op.\n\nNoemers zijn gelijk → alleen bovenste getallen optellen.",
-        "question": "Wat is 1/2 + 1/4 als breuk?",
+        "question": "Wat is 2/5 + 1/2 als breuk?",
         "options": [
           {
             "id": "right",
-            "label": "3/4"
+            "label": "9/10"
           },
           {
             "id": "wrong",
-            "label": "7/8"
+            "label": "1"
           }
         ],
         "correctAnswer": "right",
-        "successFeedback": "Klopt: 3/4.",
+        "successFeedback": "Klopt: 9/10.",
         "retryFeedback": "Tel alleen de tellers op als de noemers al gelijk zijn."
       },
       {
@@ -61,19 +61,19 @@
         "options": [
           {
             "id": "right",
-            "label": "3/4"
+            "label": "9/10"
           },
           {
             "id": "wrong",
-            "label": "7/8"
+            "label": "1"
           }
         ],
         "correctAnswer": "right",
-        "successFeedback": "Helemaal goed! Antwoord = 3/4.",
+        "successFeedback": "Helemaal goed! Antwoord = 9/10.",
         "retryFeedback": "Eerst gelijknamig, dan tellers optellen."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 1/2 + 1/4 = 3/4"
+    "conclusion": "Pootafdruk! 🐾 2/5 + 1/2 = 9/10"
   },
   "bonusVariants": [
     {

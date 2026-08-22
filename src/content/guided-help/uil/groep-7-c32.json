@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Het ontbrekende getal zoeken in 2 + ? = 5"
+            "label": "Het ontbrekende getal zoeken in ? + 5 = 11"
           },
           {
             "id": "wrong",
@@ -22,42 +22,42 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: wat weten we?\n\n2 + ? moet samen 5 worden.",
-        "question": "Moet het ontbrekende getal kleiner zijn dan 5?",
+        "explanation": "Stap 2: wat weten we?\n\n? + 5 moet samen 11 worden.",
+        "question": "Moet het ontbrekende getal kleiner zijn dan 11?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, het is een stukje van 5"
+            "label": "Ja, het is een stukje van 11"
           },
           {
             "id": "no",
-            "label": "Nee, groter dan 5"
+            "label": "Nee, groter dan 11"
           }
         ],
         "correctAnswer": "yes",
         "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
-        "retryFeedback": "Samen moet het 5 worden."
+        "retryFeedback": "Samen moet het 11 worden."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\nTrek 2 af van 5.",
-        "question": "Wat is 5 − 2?",
+        "explanation": "Stap 3: reken terug.\n\nTrek 5 af van 11.",
+        "question": "Wat is 11 − 5?",
         "options": [
           {
             "id": "m",
-            "label": "3"
+            "label": "6"
           },
           {
             "id": "w",
-            "label": "5"
+            "label": "8"
           }
         ],
         "correctAnswer": "m",
-        "successFeedback": "Juist! Het ontbrekende getal is 3.",
-        "retryFeedback": "Trek 2 af van 5."
+        "successFeedback": "Juist! Het ontbrekende getal is 6.",
+        "retryFeedback": "Trek 5 af van 11."
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "Tel je antwoord op bij 2. Kom je op 5?",
+        "question": "Tel je antwoord op bij 5. Kom je op 11?",
         "options": [
           {
             "id": "yes",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het ontbrekende getal is 3.",
-        "retryFeedback": "Reken na: antwoord + 2 = 5."
+        "successFeedback": "Perfect! Het ontbrekende getal is 6.",
+        "retryFeedback": "Reken na: antwoord + 5 = 11."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 3."
+    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 6."
   },
   "bonusVariants": [
     {
       "id": "groep-7-c32-b1",
       "type": "number-input",
-      "question": "4 + 2 = ?",
-      "answer": 6,
+      "question": "7 + 5 = ?",
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4 + 2 = 6.",
-      "explanation": "4 + 2 = 6."
+      "hint2": "7 + 5 = 12.",
+      "explanation": "7 + 5 = 12."
     },
     {
       "id": "groep-7-c32-b2",
       "type": "number-input",
-      "question": "? + 2 = 5",
-      "answer": 3,
+      "question": "? + 5 = 11",
+      "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "5 − 2 = 3.",
-      "explanation": "5 − 2 = 3."
+      "hint2": "11 − 5 = 6.",
+      "explanation": "11 − 5 = 6."
     }
   ]
 }

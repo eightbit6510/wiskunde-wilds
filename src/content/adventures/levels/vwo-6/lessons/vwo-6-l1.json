@@ -10,22 +10,22 @@
   "placements": [
     {
       "challengeId": "vwo-6-c01",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Welke strategie past hier?",
       "sortOrder": 0
     },
     {
       "challengeId": "vwo-6-c02",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
       "sortOrder": 1
     },
     {
       "challengeId": "vwo-6-c03",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "Nog één stap — jij kunt dit.",
       "sortOrder": 2
     },
     {
       "challengeId": "vwo-6-c04",
-      "optionalStory": "Welke strategie past hier?",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
       "sortOrder": 3
     },
     {

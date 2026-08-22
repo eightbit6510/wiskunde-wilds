@@ -22,24 +22,24 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Omtrek = som zijden. Oppervlakte = l×b.",
-        "question": "Vierkant zijde 3: omtrek=4×3. Klopt A?",
+        "explanation": "Rechte hoek = hoek van een vierkant.",
+        "question": "Hoeveel graden?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja, 12"
+            "id": "90",
+            "label": "90°"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "180",
+            "label": "180°"
           }
         ],
-        "correctAnswer": "yes",
-        "successFeedback": "A klopt.",
-        "retryFeedback": "4×3=12."
+        "correctAnswer": "90",
+        "successFeedback": "A is waar.",
+        "retryFeedback": "Rechte hoek = 90°."
       },
       {
-        "explanation": "B zegt omtrek=9. Dat is 3×3 = oppervlakte.",
+        "explanation": "B zegt rechte hoek = 180°.",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,28 +53,28 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "9 is oppervlakte, geen omtrek."
+        "retryFeedback": "180° = gestrekte hoek."
       },
       {
-        "explanation": "C: oppervlakte 4×5.",
-        "question": "Is oppervlakte 4×5 = 20?",
+        "explanation": "C: gestrekte hoek.",
+        "question": "Hoeveel graden?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "90",
+            "label": "90°"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "180",
+            "label": "180°"
           }
         ],
-        "correctAnswer": "yes",
-        "successFeedback": "C klopt.",
-        "retryFeedback": "4×5=20."
+        "correctAnswer": "180",
+        "successFeedback": "C is waar.",
+        "retryFeedback": "Gestrekte hoek = 180°."
       },
       {
-        "explanation": "Welke uitspraken zijn waar?",
-        "question": "Kies de juiste.",
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "bc",
-            "label": "B en C"
+            "id": "bd",
+            "label": "B en D"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B verwart omtrek/oppervlakte."
+        "retryFeedback": "B verwart hoeken."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,40 +100,40 @@
     {
       "id": "mavo-1-c06-b1",
       "type": "multiple-choice",
-      "question": "Oppervlakte 6×4?",
+      "question": "Rechte hoek in graden?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "24"
+          "label": "90°"
         },
         {
           "id": "b",
-          "label": "20"
+          "label": "45°"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "6×4=24.",
-      "explanation": "6×4=24."
+      "hint2": "90°.",
+      "explanation": "90°."
     },
     {
       "id": "mavo-1-c06-b2",
       "type": "multiple-choice",
-      "question": "Omtrek vierkant zijde 5?",
-      "answer": "a",
+      "question": "Gestrekte hoek?",
+      "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "20"
+          "label": "90°"
         },
         {
           "id": "b",
-          "label": "25"
+          "label": "180°"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "4×5=20.",
-      "explanation": "4×5=20."
+      "hint2": "180°.",
+      "explanation": "180°."
     }
   ]
 }

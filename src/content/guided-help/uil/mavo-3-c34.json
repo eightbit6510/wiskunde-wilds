@@ -2,7 +2,7 @@
   "challengeId": "mavo-3-c34",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij y = 3x vermenigvuldig je x steeds met 3. Zo herken je de juiste tabel.",
+    "intro": "Bij y = 2x vermenigvuldig je x steeds met 2. Zo herken je de juiste tabel.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "De juiste tabel bij y = 3x kiezen"
+            "label": "De juiste tabel bij y = 2x kiezen"
           },
           {
             "id": "wrong",
@@ -22,29 +22,29 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: y = 3x betekent y = 3 × x.\n\nProbeer x = 1.",
+        "explanation": "Stap 2: y = 2x betekent y = 2 × x.\n\nProbeer x = 1.",
         "question": "Wat is y als x = 1?",
         "options": [
           {
             "id": "k",
-            "label": "3"
+            "label": "2"
           },
           {
             "id": "k1",
-            "label": "4"
+            "label": "3"
           }
         ],
         "correctAnswer": "k",
-        "successFeedback": "Goed: y = 3 × 1 = 3.",
-        "retryFeedback": "Vermenigvuldig: 3 × 1."
+        "successFeedback": "Goed: y = 2 × 1 = 2.",
+        "retryFeedback": "Vermenigvuldig: 2 × 1."
       },
       {
         "explanation": "Stap 3: vul nog een paar waarden in.\n\nBereken y voor x = 2 en x = 3.",
-        "question": "Welk patroon past bij y = 3x?",
+        "question": "Welk patroon past bij y = 2x?",
         "options": [
           {
             "id": "a",
-            "label": "y: 3, 6, 9…"
+            "label": "y: 2, 4, 6…"
           },
           {
             "id": "b",
@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "a",
         "successFeedback": "Precies — elke y is k keer x.",
-        "retryFeedback": "Tel niet +1, maar ×3."
+        "retryFeedback": "Tel niet +1, maar ×2."
       },
       {
         "explanation": "Stap 4: kies de tabel die klopt.",
@@ -61,7 +61,7 @@
         "options": [
           {
             "id": "a",
-            "label": "Elke y is 3× de x-waarde"
+            "label": "Elke y is 2× de x-waarde"
           },
           {
             "id": "b",
@@ -69,11 +69,11 @@
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Goed! y = 3x → tabel A.",
-        "retryFeedback": "Check: bij x=2 moet y=6."
+        "successFeedback": "Goed! y = 2x → tabel A.",
+        "retryFeedback": "Check: bij x=2 moet y=4."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 y = 3x → tabel A klopt."
+    "conclusion": "Pootafdruk! 🐾 y = 2x → tabel A klopt."
   },
   "bonusVariants": [
     {
@@ -98,21 +98,21 @@
     {
       "id": "mavo-3-c34-b2",
       "type": "multiple-choice",
-      "question": "Bij y = 3x, wat is y als x = 4?",
+      "question": "Bij y = 2x, wat is y als x = 4?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "12"
+          "label": "8"
         },
         {
           "id": "b",
-          "label": "7"
+          "label": "6"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 3 × 4 = 12.",
-      "explanation": "y = 3 × 4 = 12."
+      "hint2": "y = 2 × 4 = 8.",
+      "explanation": "y = 2 × 4 = 8."
     }
   ]
 }

@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "3x + 5x vereenvoudigen"
+            "label": "5x + 3x vereenvoudigen"
           },
           {
             "id": "wrong",
-            "label": "De getallen 3 en 5 vermenigvuldigen"
+            "label": "De getallen 5 en 3 vermenigvuldigen"
           }
         ],
         "correctAnswer": "task",
@@ -23,7 +23,7 @@
       },
       {
         "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
-        "question": "Kun je 3x en 5x optellen?",
+        "question": "Kun je 5x en 3x optellen?",
         "options": [
           {
             "id": "yes",
@@ -39,8 +39,8 @@
         "retryFeedback": "Kijk naar de letter: beide hebben x."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 3 + 5.",
-        "question": "Wat is 3x + 5x?",
+        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 5 + 3.",
+        "question": "Wat is 5x + 3x?",
         "options": [
           {
             "id": "a",
@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "a",
         "successFeedback": "Juist: 8x.",
-        "retryFeedback": "Tel 3 en 5 op; x blijft staan."
+        "retryFeedback": "Tel 5 en 3 op; x blijft staan."
       },
       {
         "explanation": "Stap 4: kies het juiste antwoord in de som.",
@@ -70,16 +70,16 @@
         ],
         "correctAnswer": "a",
         "successFeedback": "Precies — antwoord A: 8x.",
-        "retryFeedback": "3x + 5x = (3+5)x."
+        "retryFeedback": "5x + 3x = (5+3)x."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3x + 5x = 8x"
+    "conclusion": "Pootafdruk! 🐾 5x + 3x = 8x"
   },
   "bonusVariants": [
     {
       "id": "vwo-1-c13-b1",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 4x + 5x",
+      "question": "Vereenvoudig: 6x + 3x",
       "answer": "a",
       "answerOptions": [
         {
@@ -92,13 +92,13 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 4 + 5.",
-      "explanation": "Tel 4 + 5."
+      "hint2": "Tel 6 + 3.",
+      "explanation": "Tel 6 + 3."
     },
     {
       "id": "vwo-1-c13-b2",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 3x + 6x",
+      "question": "Vereenvoudig: 5x + 4x",
       "answer": "a",
       "answerOptions": [
         {
@@ -111,8 +111,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 3 + 6.",
-      "explanation": "Tel 3 + 6."
+      "hint2": "Tel 5 + 4.",
+      "explanation": "Tel 5 + 4."
     }
   ]
 }

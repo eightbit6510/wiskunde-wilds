@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 2:5"
+            "label": "Tweede deel vinden bij verhouding 4:2"
           },
           {
             "id": "wrong",
-            "label": "De getallen 2 en 5 direct optellen"
+            "label": "De getallen 4 en 2 direct optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,25 +22,25 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 2:5 betekent steeds dezelfde factor.\n\nEerste deel = 4.",
-        "question": "Hoeveel keer past 2 in 4? (schaalfactor)",
+        "explanation": "Stap 2: verhouding 4:2 betekent steeds dezelfde factor.\n\nEerste deel = 20.",
+        "question": "Hoeveel keer past 4 in 20? (schaalfactor)",
         "options": [
           {
             "id": "f",
-            "label": "2"
+            "label": "5"
           },
           {
             "id": "w",
-            "label": "3"
+            "label": "6"
           }
         ],
         "correctAnswer": "f",
-        "successFeedback": "Goed — schaalfactor = 2.",
-        "retryFeedback": "Deel 4 door 2."
+        "successFeedback": "Goed — schaalfactor = 5.",
+        "retryFeedback": "Deel 20 door 4."
       },
       {
         "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
-        "question": "Tweede deel = 2 × 5 = ?",
+        "question": "Tweede deel = 5 × 2 = ?",
         "options": [
           {
             "id": "o",
@@ -48,15 +48,15 @@
           },
           {
             "id": "w",
-            "label": "15"
+            "label": "12"
           }
         ],
         "correctAnswer": "o",
         "successFeedback": "Klopt: 10.",
-        "retryFeedback": "Vermenigvuldig je schaalfactor met 5."
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 2."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. Deel gegeven deel door verhoudingsdeel (4 ÷ 2 = 2)\n2. Vermenigvuldig met ander deel (2 × 5)\n3. Controle: 4:10 = 2:5",
+        "explanation": "Stappenplan voor dit type som:\n1. Deel gegeven deel door verhoudingsdeel (20 ÷ 4 = 5)\n2. Vermenigvuldig met ander deel (5 × 2)\n3. Controle: 20:10 = 4:2",
         "question": "Is het antwoord 10?",
         "options": [
           {
@@ -79,8 +79,8 @@
     {
       "id": "vwo-4-c36-b1",
       "type": "number-input",
-      "question": "Verhouding 2:5, eerste = 6. Tweede?",
-      "answer": 15,
+      "question": "Verhouding 4:2, eerste = 24. Tweede?",
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde schaalfactor.",
       "explanation": "Zelfde schaalfactor."
@@ -88,11 +88,11 @@
     {
       "id": "vwo-4-c36-b2",
       "type": "number-input",
-      "question": "Verhouding 2:5, eerste = 4. Tweede?",
+      "question": "Verhouding 4:2, eerste = 20. Tweede?",
       "answer": 10,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4 ÷ 2 × 5.",
-      "explanation": "4 ÷ 2 × 5."
+      "hint2": "20 ÷ 4 × 2.",
+      "explanation": "20 ÷ 4 × 2."
     }
   ]
 }

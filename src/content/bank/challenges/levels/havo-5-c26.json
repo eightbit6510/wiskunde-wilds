@@ -4,12 +4,12 @@
   "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 6 = 11. Wat is x?",
-  "answer": 5,
-  "hint1": "Haal 6 naar de andere kant: x = 11 − 6.",
-  "hint2": "x = 11 − 6",
-  "optionalWorkedFirstStep": "x + 6 = 11 → x = 11 − 6",
-  "explanation": "x + 6 = 11\nx = 11 − 6 = 5",
+  "question": "Los op: x + 15 = 24. Wat is x?",
+  "answer": 9,
+  "hint1": "Haal 15 naar de andere kant: x = 24 − 15.",
+  "hint2": "x = 24 − 15",
+  "optionalWorkedFirstStep": "x + 15 = 24 → x = 24 − 15",
+  "explanation": "x + 15 = 24\nx = 24 − 15 = 9",
   "classLevels": [
     "havo-5"
   ]

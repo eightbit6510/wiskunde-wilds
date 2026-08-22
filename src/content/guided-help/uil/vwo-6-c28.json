@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "2^4 uitrekenen"
+            "label": "7^5 uitrekenen"
           },
           {
             "id": "wrong",
-            "label": "2 × 4 uitrekenen (dat is fout!)"
+            "label": "7 × 5 uitrekenen (dat is fout!)"
           }
         ],
         "correctAnswer": "task",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 2^4 = 2 vermenigvuldigd 4 keer.\n\nDe exponent 4 telt hoe vaak je vermenigvuldigt.",
+        "explanation": "Stap 2: 7^5 = 7 vermenigvuldigd 5 keer.\n\nDe exponent 5 telt hoe vaak je vermenigvuldigt.",
         "question": "Wat betekent de exponent?",
         "options": [
           {
             "id": "repeat",
-            "label": "2 4 keer vermenigvuldigen"
+            "label": "7 5 keer vermenigvuldigen"
           },
           {
             "id": "times",
-            "label": "2 × 4"
+            "label": "7 × 5"
           }
         ],
         "correctAnswer": "repeat",
@@ -39,60 +39,60 @@
         "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
       },
       {
-        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 2 × 2, vermenigvuldig daarna verder tot je 4 keer hebt.",
-        "question": "Wat is 2^4?",
+        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 7 × 7, vermenigvuldig daarna verder tot je 5 keer hebt.",
+        "question": "Wat is 7^5?",
         "options": [
           {
             "id": "a",
-            "label": "16"
+            "label": "16807"
           },
           {
             "id": "b",
-            "label": "8"
+            "label": "35"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Goed: 2^4 = 16.",
-        "retryFeedback": "Niet 2×4, maar herhaald vermenigvuldigen."
+        "successFeedback": "Goed: 7^5 = 16807.",
+        "retryFeedback": "Niet 7×5, maar herhaald vermenigvuldigen."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. 2^4 = 2 vermenigvuldigd 4 keer\n2. Niet 2×4\n3. Antwoord: 16",
-        "question": "Bevestig: 2^4 = ?",
+        "explanation": "Stappenplan voor dit type som:\n1. 7^5 = 7 vermenigvuldigd 5 keer\n2. Niet 7×5\n3. Antwoord: 16807",
+        "question": "Bevestig: 7^5 = ?",
         "options": [
           {
             "id": "a",
-            "label": "16"
+            "label": "16807"
           },
           {
             "id": "b",
-            "label": "18"
+            "label": "16814"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! 2^4 = 16.",
+        "successFeedback": "Klopt! 7^5 = 16807.",
         "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2^4 = 16"
+    "conclusion": "Pootafdruk! 🐾 7^5 = 16807"
   },
   "bonusVariants": [
     {
       "id": "vwo-6-c28-b1",
       "type": "number-input",
-      "question": "Bereken: 2^5",
-      "answer": 32,
+      "question": "Bereken: 7^6",
+      "answer": 117649,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog ×2.",
-      "explanation": "Nog ×2."
+      "hint2": "Nog ×7.",
+      "explanation": "Nog ×7."
     },
     {
       "id": "vwo-6-c28-b2",
       "type": "number-input",
-      "question": "Bereken: 2^4",
-      "answer": 16,
+      "question": "Bereken: 7^5",
+      "answer": 16807,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "2^4 = 16.",
-      "explanation": "2^4 = 16."
+      "hint2": "7^5 = 16807.",
+      "explanation": "7^5 = 16807."
     }
   ]
 }

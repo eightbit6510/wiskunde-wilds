@@ -4,11 +4,11 @@
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 5 + 5 + 5 + 5 (4 keer 5). Wat is het antwoord?",
-  "answer": 20,
-  "hint1": "4 keer 5 is hetzelfde als 4 × 5.",
-  "hint2": "4 × 5 = 20",
-  "explanation": "4 × 5 = 20",
+  "question": "Reken uit: 3 + 3 + 3 (3 keer 3). Wat is het antwoord?",
+  "answer": 9,
+  "hint1": "3 keer 3 is hetzelfde als 3 × 3.",
+  "hint2": "3 × 3 = 9",
+  "explanation": "3 × 3 = 9",
   "classLevels": [
     "groep-7"
   ]

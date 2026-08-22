@@ -22,24 +22,24 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Rechte hoek = hoek van een vierkant.",
-        "question": "Hoeveel graden?",
+        "explanation": "50% = de helft.",
+        "question": "Is 50% van 20 gelijk aan 10?",
         "options": [
           {
-            "id": "90",
-            "label": "90°"
+            "id": "yes",
+            "label": "Ja, 20÷2=10"
           },
           {
-            "id": "180",
-            "label": "180°"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "90",
+        "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "Rechte hoek = 90°."
+        "retryFeedback": "50% = halveren."
       },
       {
-        "explanation": "B zegt rechte hoek = 180°.",
+        "explanation": "B: 50% van 20 = 5?",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,87 +53,87 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "180° = gestrekte hoek."
+        "retryFeedback": "50% van 20 is 10."
       },
       {
-        "explanation": "C: gestrekte hoek.",
-        "question": "Hoeveel graden?",
+        "explanation": "C: 25% van 20. 25% = 1/4.",
+        "question": "Is 25% van 20 = 5?",
         "options": [
           {
-            "id": "90",
-            "label": "90°"
+            "id": "yes",
+            "label": "Ja"
           },
           {
-            "id": "180",
-            "label": "180°"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "180",
+        "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Gestrekte hoek = 180°."
+        "retryFeedback": "20÷4=5."
       },
       {
         "explanation": "Welke zijn waar?",
         "question": "Kies alles.",
         "options": [
           {
+            "id": "acd",
+            "label": "A, C en D"
+          },
+          {
             "id": "ac",
-            "label": "A en C"
+            "label": "Alleen A en C"
           },
           {
             "id": "ab",
             "label": "A en B"
-          },
-          {
-            "id": "bd",
-            "label": "B en D"
           }
         ],
-        "correctAnswer": "ac",
-        "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B verwart hoeken."
+        "correctAnswer": "acd",
+        "successFeedback": "A, C en D kloppen.",
+        "retryFeedback": "B klopt niet."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+    "conclusion": "Pootafdruk! 🐾 A, C, D zijn waar."
   },
   "bonusVariants": [
     {
       "id": "vwo-6-c18-b1",
       "type": "multiple-choice",
-      "question": "Rechte hoek in graden?",
+      "question": "50% van 30?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "90°"
+          "label": "15"
         },
         {
           "id": "b",
-          "label": "45°"
+          "label": "10"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "90°.",
-      "explanation": "90°."
+      "hint2": "30÷2=15.",
+      "explanation": "30÷2=15."
     },
     {
       "id": "vwo-6-c18-b2",
       "type": "multiple-choice",
-      "question": "Gestrekte hoek?",
-      "answer": "b",
+      "question": "10% van 50?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "90°"
+          "label": "5"
         },
         {
           "id": "b",
-          "label": "180°"
+          "label": "10"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "180°.",
-      "explanation": "180°."
+      "hint2": "50÷10=5.",
+      "explanation": "50÷10=5."
     }
   ]
 }

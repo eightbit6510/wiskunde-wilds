@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "x vinden in x² = 36 (x positief)"
+            "label": "x vinden in x² = 144 (x positief)"
           },
           {
             "id": "wrong",
-            "label": "x = 36 ÷ 2"
+            "label": "x = 144 ÷ 2"
           }
         ],
         "correctAnswer": "task",
@@ -22,7 +22,7 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x² betekent x × x.\n\nWe zoeken: welk getal × zichzelf = 36?",
+        "explanation": "Stap 2: x² betekent x × x.\n\nWe zoeken: welk getal × zichzelf = 144?",
         "question": "x² = x × x. Klopt dat?",
         "options": [
           {
@@ -39,25 +39,25 @@
         "retryFeedback": "x² is niet x×2."
       },
       {
-        "explanation": "Stap 3: welk getal keer zichzelf geeft 36?\n\nReken een paar getallen keer zichzelf.",
-        "question": "6 × 6 = ?",
+        "explanation": "Stap 3: welk getal keer zichzelf geeft 144?\n\nReken een paar getallen keer zichzelf.",
+        "question": "12 × 12 = ?",
         "options": [
           {
             "id": "sq",
-            "label": "36"
+            "label": "144"
           },
           {
             "id": "wrong",
-            "label": "37"
+            "label": "145"
           }
         ],
         "correctAnswer": "sq",
-        "successFeedback": "Juist: x = 6.",
-        "retryFeedback": "Probeer 6 × 6."
+        "successFeedback": "Juist: x = 12.",
+        "retryFeedback": "Probeer 12 × 12."
       },
       {
         "explanation": "Stap 4: controle.",
-        "question": "x = 6 positief en 6²=36?",
+        "question": "x = 12 positief en 12²=144?",
         "options": [
           {
             "id": "yes",
@@ -69,18 +69,18 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed! x = 6.",
-        "retryFeedback": "6 is positief en 6²=36."
+        "successFeedback": "Goed! x = 12.",
+        "retryFeedback": "12 is positief en 12²=144."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 6"
+    "conclusion": "Pootafdruk! 🐾 x = 12"
   },
   "bonusVariants": [
     {
       "id": "vwo-5-c21-b1",
       "type": "number-input",
-      "question": "x² = 49 (x positief)",
-      "answer": 7,
+      "question": "x² = 169 (x positief)",
+      "answer": 13,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde methode.",
       "explanation": "Zelfde methode."
@@ -88,11 +88,11 @@
     {
       "id": "vwo-5-c21-b2",
       "type": "number-input",
-      "question": "x² = 36 (x positief)",
-      "answer": 6,
+      "question": "x² = 144 (x positief)",
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "6² = 36.",
-      "explanation": "6² = 36."
+      "hint2": "12² = 144.",
+      "explanation": "12² = 144."
     }
   ]
 }

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Breedte vinden (A=21, lengte=7)"
+            "label": "Breedte vinden (A=42, lengte=14)"
           },
           {
             "id": "wrong",
@@ -22,7 +22,7 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=21, lengte=7.",
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=42, lengte=14.",
         "question": "Welke grootte zoek je?",
         "options": [
           {
@@ -40,7 +40,7 @@
       },
       {
         "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
-        "question": "21 ÷ 7 = ?",
+        "question": "42 ÷ 14 = ?",
         "options": [
           {
             "id": "b",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "b",
         "successFeedback": "Breedte = 3.",
-        "retryFeedback": "Deel 21 door 7."
+        "retryFeedback": "Deel 42 door 14."
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "Vermenigvuldig lengte 7 met je breedte-antwoord. Is het 21?",
+        "question": "Vermenigvuldig lengte 14 met je breedte-antwoord. Is het 42?",
         "options": [
           {
             "id": "yes",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Goed! Breedte = 3.",
-        "retryFeedback": "7 × 3 moet 21 zijn."
+        "retryFeedback": "14 × 3 moet 42 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 b = 3"
@@ -79,7 +79,7 @@
     {
       "id": "mavo-4-c36-b1",
       "type": "number-input",
-      "question": "A = 28, l = 7. b = ?",
+      "question": "A = 56, l = 14. b = ?",
       "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Deel oppervlakte door lengte.",
@@ -88,11 +88,11 @@
     {
       "id": "mavo-4-c36-b2",
       "type": "number-input",
-      "question": "A = 21, l = 7. b = ?",
+      "question": "A = 42, l = 14. b = ?",
       "answer": 3,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "b = 21 ÷ 7.",
-      "explanation": "b = 21 ÷ 7."
+      "hint2": "b = 42 ÷ 14.",
+      "explanation": "b = 42 ÷ 14."
     }
   ]
 }

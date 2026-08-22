@@ -8,29 +8,28 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "50% van 20 is 10"
+      "label": "In een parallellogram zijn tegenoverliggende zijden even lang"
     },
     {
       "id": "b",
-      "label": "50% van 20 is 5"
+      "label": "In een parallellogram zijn alle zijden even lang"
     },
     {
       "id": "c",
-      "label": "25% van 20 is 5"
+      "label": "Een ruit heeft vier gelijke zijden"
     },
     {
       "id": "d",
-      "label": "10% van 100 is 10"
+      "label": "Een ruit heeft altijd rechte hoeken"
     }
   ],
   "answers": [
     "a",
-    "c",
-    "d"
+    "c"
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: 50% van 20=10. C: 25% van 20=5. D: 10% van 100=10.",
+  "explanation": "A en C kloppen. B geldt alleen voor ruit/vierkant. D: ruit hoeft geen rechte hoeken.",
   "classLevels": [
     "mavo-2"
   ]

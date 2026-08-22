@@ -4,11 +4,11 @@
   "topic": "kwadratisch",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x² = 36 (x positief). Wat is x?",
-  "answer": 6,
-  "hint1": "Welk positief getal keer zichzelf geeft 36?",
-  "hint2": "6 × 6 = 36",
-  "explanation": "x² = 36 → x = 6 (positief).",
+  "question": "Los op: x² = 64 (x positief). Wat is x?",
+  "answer": 8,
+  "hint1": "Welk positief getal keer zichzelf geeft 64?",
+  "hint2": "8 × 8 = 64",
+  "explanation": "x² = 64 → x = 8 (positief).",
   "classLevels": [
     "vwo-5"
   ]

@@ -2,7 +2,7 @@
   "challengeId": "havo-4-c34",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij y = 5x vermenigvuldig je x steeds met 5. Zo herken je de juiste tabel.",
+    "intro": "Bij y = 9x vermenigvuldig je x steeds met 9. Zo herken je de juiste tabel.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "De juiste tabel bij y = 5x kiezen"
+            "label": "De juiste tabel bij y = 9x kiezen"
           },
           {
             "id": "wrong",
@@ -22,29 +22,29 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: y = 5x betekent y = 5 × x.\n\nProbeer x = 1.",
+        "explanation": "Stap 2: y = 9x betekent y = 9 × x.\n\nProbeer x = 1.",
         "question": "Wat is y als x = 1?",
         "options": [
           {
             "id": "k",
-            "label": "5"
+            "label": "9"
           },
           {
             "id": "k1",
-            "label": "6"
+            "label": "10"
           }
         ],
         "correctAnswer": "k",
-        "successFeedback": "Goed: y = 5 × 1 = 5.",
-        "retryFeedback": "Vermenigvuldig: 5 × 1."
+        "successFeedback": "Goed: y = 9 × 1 = 9.",
+        "retryFeedback": "Vermenigvuldig: 9 × 1."
       },
       {
         "explanation": "Stap 3: vul nog een paar waarden in.\n\nBereken y voor x = 2 en x = 3.",
-        "question": "Welk patroon past bij y = 5x?",
+        "question": "Welk patroon past bij y = 9x?",
         "options": [
           {
             "id": "a",
-            "label": "y: 5, 10, 15…"
+            "label": "y: 9, 18, 27…"
           },
           {
             "id": "b",
@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "a",
         "successFeedback": "Precies — elke y is k keer x.",
-        "retryFeedback": "Tel niet +1, maar ×5."
+        "retryFeedback": "Tel niet +1, maar ×9."
       },
       {
         "explanation": "Stap 4: kies de tabel die klopt.",
@@ -61,7 +61,7 @@
         "options": [
           {
             "id": "a",
-            "label": "Elke y is 5× de x-waarde"
+            "label": "Elke y is 9× de x-waarde"
           },
           {
             "id": "b",
@@ -69,11 +69,11 @@
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Goed! y = 5x → tabel A.",
-        "retryFeedback": "Check: bij x=2 moet y=10."
+        "successFeedback": "Goed! y = 9x → tabel A.",
+        "retryFeedback": "Check: bij x=2 moet y=18."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 y = 5x → tabel A klopt."
+    "conclusion": "Pootafdruk! 🐾 y = 9x → tabel A klopt."
   },
   "bonusVariants": [
     {
@@ -98,21 +98,21 @@
     {
       "id": "havo-4-c34-b2",
       "type": "multiple-choice",
-      "question": "Bij y = 5x, wat is y als x = 4?",
+      "question": "Bij y = 9x, wat is y als x = 4?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "20"
+          "label": "36"
         },
         {
           "id": "b",
-          "label": "9"
+          "label": "13"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 5 × 4 = 20.",
-      "explanation": "y = 5 × 4 = 20."
+      "hint2": "y = 9 × 4 = 36.",
+      "explanation": "y = 9 × 4 = 36."
     }
   ]
 }

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Het ontbrekende getal zoeken in ? + 5 = 8"
+            "label": "Het ontbrekende getal zoeken in 6 + ? = 8"
           },
           {
             "id": "wrong",
@@ -22,7 +22,7 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: wat weten we?\n\n? + 5 moet samen 8 worden.",
+        "explanation": "Stap 2: wat weten we?\n\n6 + ? moet samen 8 worden.",
         "question": "Moet het ontbrekende getal kleiner zijn dan 8?",
         "options": [
           {
@@ -39,25 +39,25 @@
         "retryFeedback": "Samen moet het 8 worden."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\nTrek 5 af van 8.",
-        "question": "Wat is 8 − 5?",
+        "explanation": "Stap 3: reken terug.\n\nTrek 6 af van 8.",
+        "question": "Wat is 8 − 6?",
         "options": [
           {
             "id": "m",
-            "label": "3"
+            "label": "2"
           },
           {
             "id": "w",
-            "label": "5"
+            "label": "4"
           }
         ],
         "correctAnswer": "m",
-        "successFeedback": "Juist! Het ontbrekende getal is 3.",
-        "retryFeedback": "Trek 5 af van 8."
+        "successFeedback": "Juist! Het ontbrekende getal is 2.",
+        "retryFeedback": "Trek 6 af van 8."
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "Tel je antwoord op bij 5. Kom je op 8?",
+        "question": "Tel je antwoord op bij 6. Kom je op 8?",
         "options": [
           {
             "id": "yes",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het ontbrekende getal is 3.",
-        "retryFeedback": "Reken na: antwoord + 5 = 8."
+        "successFeedback": "Perfect! Het ontbrekende getal is 2.",
+        "retryFeedback": "Reken na: antwoord + 6 = 8."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 3."
+    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 2."
   },
   "bonusVariants": [
     {
       "id": "groep-6-c14-b1",
       "type": "number-input",
-      "question": "4 + 5 = ?",
+      "question": "3 + 6 = ?",
       "answer": 9,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4 + 5 = 9.",
-      "explanation": "4 + 5 = 9."
+      "hint2": "3 + 6 = 9.",
+      "explanation": "3 + 6 = 9."
     },
     {
       "id": "groep-6-c14-b2",
       "type": "number-input",
-      "question": "? + 5 = 8",
-      "answer": 3,
+      "question": "? + 6 = 8",
+      "answer": 2,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "8 − 5 = 3.",
-      "explanation": "8 − 5 = 3."
+      "hint2": "8 − 6 = 2.",
+      "explanation": "8 − 6 = 2."
     }
   ]
 }

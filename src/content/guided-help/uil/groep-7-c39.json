@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c39",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We lezen een tabel: 1 potlode = 4 euro. Hoeveel kosten 4?",
+    "intro": "We lezen een tabel: 1 appel = 2 euro. Hoeveel kosten 5?",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Uitrekenen wat 4 potloden kosten"
+            "label": "Uitrekenen wat 5 appels kosten"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 1 potlode kost 4 euro.\n\nElke extra potlode kost weer 4 euro.",
-        "question": "Kost elke potlode evenveel?",
+        "explanation": "Stap 2: 1 appel kost 2 euro.\n\nElke extra appel kost weer 2 euro.",
+        "question": "Kost elke appel evenveel?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, steeds 4 euro"
+            "label": "Ja, steeds 2 euro"
           },
           {
             "id": "no",
@@ -36,63 +36,63 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Goed — je mag vermenigvuldigen.",
-        "retryFeedback": "1 stuk = 4 euro."
+        "retryFeedback": "1 stuk = 2 euro."
       },
       {
-        "explanation": "Stap 3: vermenigvuldig.\n\n4 keer 4 euro.",
-        "question": "Wat kosten 4 potloden?",
+        "explanation": "Stap 3: vermenigvuldig.\n\n5 keer 2 euro.",
+        "question": "Wat kosten 5 appels?",
         "options": [
           {
             "id": "t",
-            "label": "16 euro"
+            "label": "10 euro"
           },
           {
             "id": "w",
-            "label": "20 euro"
+            "label": "12 euro"
           }
         ],
         "correctAnswer": "t",
-        "successFeedback": "Klopt: 16 euro.",
-        "retryFeedback": "Reken: 4 keer 4."
+        "successFeedback": "Klopt: 10 euro.",
+        "retryFeedback": "Reken: 5 keer 2."
       },
       {
         "explanation": "Stap 4: welke tabel klopt?",
-        "question": "Bij 4 potloden betaal je…",
+        "question": "Bij 5 appels betaal je…",
         "options": [
           {
             "id": "a",
-            "label": "16 euro"
+            "label": "10 euro"
           },
           {
             "id": "b",
-            "label": "18 euro"
+            "label": "12 euro"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Precies — 4 × 4 = 16 euro.",
-        "retryFeedback": "4 keer 4 euro."
+        "successFeedback": "Precies — 5 × 2 = 10 euro.",
+        "retryFeedback": "5 keer 2 euro."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4 potloden = 16 euro"
+    "conclusion": "Pootafdruk! 🐾 5 appels = 10 euro"
   },
   "bonusVariants": [
     {
       "id": "groep-7-c39-b1",
       "type": "number-input",
-      "question": "1 potlode = 4 euro. 5 stuks?",
-      "answer": 20,
+      "question": "1 appel = 2 euro. 6 stuks?",
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog 4 euro erbij.",
-      "explanation": "Nog 4 euro erbij."
+      "hint2": "Nog 2 euro erbij.",
+      "explanation": "Nog 2 euro erbij."
     },
     {
       "id": "groep-7-c39-b2",
       "type": "number-input",
-      "question": "4 × 4 = ?",
-      "answer": 16,
+      "question": "5 × 2 = ?",
+      "answer": 10,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4 keer 4.",
-      "explanation": "4 keer 4."
+      "hint2": "5 keer 2.",
+      "explanation": "5 keer 2."
     }
   ]
 }

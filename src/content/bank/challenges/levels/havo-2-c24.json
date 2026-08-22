@@ -4,11 +4,11 @@
   "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 15, lengte = 3. Wat is de breedte?",
-  "answer": 5,
+  "question": "Oppervlakte A = lengte × breedte. A = 48, lengte = 12. Wat is de breedte?",
+  "answer": 4,
   "hint1": "Deel A door lengte.",
-  "hint2": "b = 15 ÷ 3",
-  "explanation": "b = A ÷ l = 15 ÷ 3 = 5",
+  "hint2": "b = 48 ÷ 12",
+  "explanation": "b = A ÷ l = 48 ÷ 12 = 4",
   "classLevels": [
     "havo-2"
   ]

@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "6 is een veelvoud van 3"
+      "label": "Een vierkant heeft vier gelijke zijden"
     },
     {
       "id": "b",
-      "label": "6 is een veelvoud van 4"
+      "label": "Elke rechthoek is een vierkant"
     },
     {
       "id": "c",
-      "label": "15 is een veelvoud van 5"
+      "label": "De som van hoeken in een driehoek is 180°"
     },
     {
       "id": "d",
-      "label": "15 is een veelvoud van 6"
+      "label": "Een cirkel heeft vier hoeken"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A: 6=2×3. C: 15=3×5.",
+  "explanation": "A en C kloppen.\nB: niet elke rechthoek is vierkant.\nD: cirkel heeft geen hoeken.",
   "classLevels": [
     "groep-7"
   ]

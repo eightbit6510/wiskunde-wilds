@@ -4,25 +4,25 @@
   "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "1 snoepje kost 5 euro. Wat kosten 5 snoepjes?",
+  "question": "1 appel kost 2 euro. Wat kosten 5 appels?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "25 euro"
+      "label": "10 euro"
     },
     {
       "id": "b",
-      "label": "30 euro"
+      "label": "12 euro"
     },
     {
       "id": "c",
-      "label": "24 euro"
+      "label": "9 euro"
     }
   ],
-  "hint1": "Elke snoepje kost 5 euro — tel dat 5 keer op.",
-  "hint2": "5 × 5 = 25",
-  "explanation": "5 × 5 euro = 25 euro",
+  "hint1": "Elke appel kost 2 euro — tel dat 5 keer op.",
+  "hint2": "5 × 2 = 10",
+  "explanation": "5 × 2 euro = 10 euro",
   "classLevels": [
     "groep-6"
   ]

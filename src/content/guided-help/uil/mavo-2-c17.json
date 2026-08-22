@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Breedte vinden (A=54, lengte=9)"
+            "label": "Breedte vinden (A=30, lengte=10)"
           },
           {
             "id": "wrong",
@@ -22,7 +22,7 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=54, lengte=9.",
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=30, lengte=10.",
         "question": "Welke grootte zoek je?",
         "options": [
           {
@@ -40,24 +40,24 @@
       },
       {
         "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
-        "question": "54 ÷ 9 = ?",
+        "question": "30 ÷ 10 = ?",
         "options": [
           {
             "id": "b",
-            "label": "6"
+            "label": "3"
           },
           {
             "id": "w",
-            "label": "7"
+            "label": "4"
           }
         ],
         "correctAnswer": "b",
-        "successFeedback": "Breedte = 6.",
-        "retryFeedback": "Deel 54 door 9."
+        "successFeedback": "Breedte = 3.",
+        "retryFeedback": "Deel 30 door 10."
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "Vermenigvuldig lengte 9 met je breedte-antwoord. Is het 54?",
+        "question": "Vermenigvuldig lengte 10 met je breedte-antwoord. Is het 30?",
         "options": [
           {
             "id": "yes",
@@ -69,18 +69,18 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed! Breedte = 6.",
-        "retryFeedback": "9 × 6 moet 54 zijn."
+        "successFeedback": "Goed! Breedte = 3.",
+        "retryFeedback": "10 × 3 moet 30 zijn."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 b = 6"
+    "conclusion": "Pootafdruk! 🐾 b = 3"
   },
   "bonusVariants": [
     {
       "id": "mavo-2-c17-b1",
       "type": "number-input",
-      "question": "A = 63, l = 9. b = ?",
-      "answer": 7,
+      "question": "A = 40, l = 10. b = ?",
+      "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Deel oppervlakte door lengte.",
       "explanation": "Deel oppervlakte door lengte."
@@ -88,11 +88,11 @@
     {
       "id": "mavo-2-c17-b2",
       "type": "number-input",
-      "question": "A = 54, l = 9. b = ?",
-      "answer": 6,
+      "question": "A = 30, l = 10. b = ?",
+      "answer": 3,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "b = 54 ÷ 9.",
-      "explanation": "b = 54 ÷ 9."
+      "hint2": "b = 30 ÷ 10.",
+      "explanation": "b = 30 ÷ 10."
     }
   ]
 }

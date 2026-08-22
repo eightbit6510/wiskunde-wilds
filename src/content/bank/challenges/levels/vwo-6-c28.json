@@ -4,11 +4,11 @@
   "topic": "machten",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Bereken: 2^4",
-  "answer": 16,
-  "hint1": "2 × 2 × …",
-  "hint2": "Vermenigvuldig 2 4 keer met zichzelf.",
-  "explanation": "2^4 = 16",
+  "question": "Bereken: 7^5",
+  "answer": 16807,
+  "hint1": "7 × 7 × …",
+  "hint2": "Vermenigvuldig 7 5 keer met zichzelf.",
+  "explanation": "7^5 = 16807",
   "classLevels": [
     "vwo-6"
   ]

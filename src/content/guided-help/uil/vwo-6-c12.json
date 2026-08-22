@@ -22,25 +22,25 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Parallellogram: tegenover elkaar.",
-        "question": "Tegenoverliggende zijden even lang?",
+        "explanation": "Bij optellen: van −3 naar rechts.",
+        "question": "Wat is −3 + 5?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "2",
+            "label": "2"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "m8",
+            "label": "−8"
           }
         ],
-        "correctAnswer": "yes",
+        "correctAnswer": "2",
         "successFeedback": "A is waar.",
-        "retryFeedback": "Eigenschap parallellogram."
+        "retryFeedback": "−3+5=2."
       },
       {
-        "explanation": "B: alle zijden even lang?",
-        "question": "Geldt dat voor elk parallellogram?",
+        "explanation": "B zegt −3+5=−8.",
+        "question": "Klopt B?",
         "options": [
           {
             "id": "yes",
@@ -53,24 +53,24 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Alleen ruit/vierkant."
+        "retryFeedback": "Je gaat omhoog, niet verder omlaag."
       },
       {
-        "explanation": "C: ruit.",
-        "question": "Heeft een ruit vier gelijke zijden?",
+        "explanation": "C: 4 − 7. Onder nul.",
+        "question": "Wat is 4 − 7?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "m3",
+            "label": "−3"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "3",
+            "label": "3"
           }
         ],
-        "correctAnswer": "yes",
+        "correctAnswer": "m3",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Ruit = 4 gelijke zijden."
+        "retryFeedback": "4−7=−3."
       },
       {
         "explanation": "Welke zijn waar?",
@@ -100,40 +100,40 @@
     {
       "id": "vwo-6-c12-b1",
       "type": "multiple-choice",
-      "question": "Vierkant is een ruit?",
+      "question": "−5 + 8 = ?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "3"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "−3"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Vierkant is speciale ruit.",
-      "explanation": "Vierkant is speciale ruit."
+      "hint2": "−5+8=3.",
+      "explanation": "−5+8=3."
     },
     {
       "id": "vwo-6-c12-b2",
       "type": "multiple-choice",
-      "question": "Ruit altijd rechte hoeken?",
+      "question": "2 − 6 = ?",
       "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "4"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "−4"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Alleen vierkant heeft rechte hoeken.",
-      "explanation": "Alleen vierkant heeft rechte hoeken."
+      "hint2": "2−6=−4.",
+      "explanation": "2−6=−4."
     }
   ]
 }

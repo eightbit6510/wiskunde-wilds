@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Kilometer en meter.",
-        "question": "1 km = 1000 m?",
+        "explanation": "Omtrek = som zijden. Oppervlakte = l×b.",
+        "question": "Vierkant zijde 3: omtrek=4×3. Klopt A?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, 12"
           },
           {
             "id": "no",
@@ -35,11 +35,11 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "A is waar.",
-        "retryFeedback": "kilo = duizend."
+        "successFeedback": "A klopt.",
+        "retryFeedback": "4×3=12."
       },
       {
-        "explanation": "B: 1 km = 100 m?",
+        "explanation": "B zegt omtrek=9. Dat is 3×3 = oppervlakte.",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "1 km = 1000 m."
+        "retryFeedback": "9 is oppervlakte, geen omtrek."
       },
       {
-        "explanation": "Tijd: uur en minuten.",
-        "question": "1 uur = 60 min?",
+        "explanation": "C: oppervlakte 4×5.",
+        "question": "Is oppervlakte 4×5 = 20?",
         "options": [
           {
             "id": "yes",
@@ -69,12 +69,12 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "C is waar.",
-        "retryFeedback": "1 uur = 60 minuten."
+        "successFeedback": "C klopt.",
+        "retryFeedback": "4×5=20."
       },
       {
-        "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
+        "explanation": "Welke uitspraken zijn waar?",
+        "question": "Kies de juiste.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "cd",
-            "label": "C en D"
+            "id": "bc",
+            "label": "B en C"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "retryFeedback": "B verwart omtrek/oppervlakte."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,40 +100,40 @@
     {
       "id": "mavo-1-c24-b1",
       "type": "multiple-choice",
-      "question": "2 km = ? meter",
+      "question": "Oppervlakte 6×4?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2000"
+          "label": "24"
         },
         {
           "id": "b",
-          "label": "200"
+          "label": "20"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2×1000=2000.",
-      "explanation": "2×1000=2000."
+      "hint2": "6×4=24.",
+      "explanation": "6×4=24."
     },
     {
       "id": "mavo-1-c24-b2",
       "type": "multiple-choice",
-      "question": "30 min = ? uur",
-      "answer": "b",
+      "question": "Omtrek vierkant zijde 5?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1 uur"
+          "label": "20"
         },
         {
           "id": "b",
-          "label": "0,5 uur"
+          "label": "25"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "30 min = halve uur.",
-      "explanation": "30 min = halve uur."
+      "hint2": "4×5=20.",
+      "explanation": "4×5=20."
     }
   ]
 }

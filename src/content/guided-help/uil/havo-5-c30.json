@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 4:2"
+            "label": "Tweede deel vinden bij verhouding 2:2"
           },
           {
             "id": "wrong",
-            "label": "De getallen 4 en 2 direct optellen"
+            "label": "De getallen 2 en 2 direct optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,42 +22,42 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 4:2 betekent steeds dezelfde factor.\n\nEerste deel = 16.",
-        "question": "Hoeveel keer past 4 in 16? (schaalfactor)",
+        "explanation": "Stap 2: verhouding 2:2 betekent steeds dezelfde factor.\n\nEerste deel = 10.",
+        "question": "Hoeveel keer past 2 in 10? (schaalfactor)",
         "options": [
           {
             "id": "f",
-            "label": "4"
+            "label": "5"
           },
           {
             "id": "w",
-            "label": "5"
+            "label": "6"
           }
         ],
         "correctAnswer": "f",
-        "successFeedback": "Goed — schaalfactor = 4.",
-        "retryFeedback": "Deel 16 door 4."
+        "successFeedback": "Goed — schaalfactor = 5.",
+        "retryFeedback": "Deel 10 door 2."
       },
       {
         "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
-        "question": "Tweede deel = 4 × 2 = ?",
+        "question": "Tweede deel = 5 × 2 = ?",
         "options": [
           {
             "id": "o",
-            "label": "8"
+            "label": "10"
           },
           {
             "id": "w",
-            "label": "10"
+            "label": "12"
           }
         ],
         "correctAnswer": "o",
-        "successFeedback": "Klopt: 8.",
+        "successFeedback": "Klopt: 10.",
         "retryFeedback": "Vermenigvuldig je schaalfactor met 2."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. Deel gegeven deel door verhoudingsdeel (16 ÷ 4 = 4)\n2. Vermenigvuldig met ander deel (4 × 2)\n3. Controle: 16:8 = 4:2",
-        "question": "Is het antwoord 8?",
+        "explanation": "Stappenplan voor dit type som:\n1. Deel gegeven deel door verhoudingsdeel (10 ÷ 2 = 5)\n2. Vermenigvuldig met ander deel (5 × 2)\n3. Controle: 10:10 = 2:2",
+        "question": "Is het antwoord 10?",
         "options": [
           {
             "id": "yes",
@@ -69,18 +69,18 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Super! De tweede groep is 8.",
+        "successFeedback": "Super! De tweede groep is 10.",
         "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 8."
+    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 10."
   },
   "bonusVariants": [
     {
       "id": "havo-5-c30-b1",
       "type": "number-input",
-      "question": "Verhouding 4:2, eerste = 20. Tweede?",
-      "answer": 10,
+      "question": "Verhouding 2:2, eerste = 12. Tweede?",
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde schaalfactor.",
       "explanation": "Zelfde schaalfactor."
@@ -88,11 +88,11 @@
     {
       "id": "havo-5-c30-b2",
       "type": "number-input",
-      "question": "Verhouding 4:2, eerste = 16. Tweede?",
-      "answer": 8,
+      "question": "Verhouding 2:2, eerste = 10. Tweede?",
+      "answer": 10,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "16 ÷ 4 × 2.",
-      "explanation": "16 ÷ 4 × 2."
+      "hint2": "10 ÷ 2 × 2.",
+      "explanation": "10 ÷ 2 × 2."
     }
   ]
 }

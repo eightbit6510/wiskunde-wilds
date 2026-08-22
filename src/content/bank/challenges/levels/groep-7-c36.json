@@ -4,11 +4,11 @@
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 5 + 5 + 5 (3 keer 5). Wat is het antwoord?",
-  "answer": 15,
-  "hint1": "3 keer 5 is hetzelfde als 3 × 5.",
-  "hint2": "3 × 5 = 15",
-  "explanation": "3 × 5 = 15",
+  "question": "Reken uit: 3 + 3 (2 keer 3). Wat is het antwoord?",
+  "answer": 6,
+  "hint1": "2 keer 3 is hetzelfde als 2 × 3.",
+  "hint2": "2 × 3 = 6",
+  "explanation": "2 × 3 = 6",
   "classLevels": [
     "groep-7"
   ]

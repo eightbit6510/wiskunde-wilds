@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 2:5"
+            "label": "Tweede deel vinden bij verhouding 4:5"
           },
           {
             "id": "wrong",
-            "label": "De getallen 2 en 5 direct optellen"
+            "label": "De getallen 4 en 5 direct optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 2:5 betekent steeds dezelfde factor.\n\nEerste deel = 4.",
-        "question": "Hoeveel keer past 2 in 4? (schaalfactor)",
+        "explanation": "Stap 2: verhouding 4:5 betekent steeds dezelfde factor.\n\nEerste deel = 8.",
+        "question": "Hoeveel keer past 4 in 8? (schaalfactor)",
         "options": [
           {
             "id": "f",
@@ -36,7 +36,7 @@
         ],
         "correctAnswer": "f",
         "successFeedback": "Goed — schaalfactor = 2.",
-        "retryFeedback": "Deel 4 door 2."
+        "retryFeedback": "Deel 8 door 4."
       },
       {
         "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controleer de verhouding.",
-        "question": "Klopt 4:10 = 2:5?",
+        "question": "Klopt 8:10 = 4:5?",
         "options": [
           {
             "id": "yes",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. Antwoord = 10.",
-        "retryFeedback": "Deel 4 door 2, vermenigvuldig met 5."
+        "retryFeedback": "Deel 8 door 4, vermenigvuldig met 5."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 10."
@@ -79,7 +79,7 @@
     {
       "id": "mavo-3-c29-b1",
       "type": "number-input",
-      "question": "Verhouding 2:5, eerste = 6. Tweede?",
+      "question": "Verhouding 4:5, eerste = 12. Tweede?",
       "answer": 15,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde schaalfactor.",
@@ -88,11 +88,11 @@
     {
       "id": "mavo-3-c29-b2",
       "type": "number-input",
-      "question": "Verhouding 2:5, eerste = 4. Tweede?",
+      "question": "Verhouding 4:5, eerste = 8. Tweede?",
       "answer": 10,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4 ÷ 2 × 5.",
-      "explanation": "4 ÷ 2 × 5."
+      "hint2": "8 ÷ 4 × 5.",
+      "explanation": "8 ÷ 4 × 5."
     }
   ]
 }

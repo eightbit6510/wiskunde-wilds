@@ -22,24 +22,24 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Uitspraak A: vierkant.",
-        "question": "Heeft een vierkant vier gelijke zijden?",
+        "explanation": "Bij optellen: van −3 naar rechts.",
+        "question": "Wat is −3 + 5?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "2",
+            "label": "2"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "m8",
+            "label": "−8"
           }
         ],
-        "correctAnswer": "yes",
+        "correctAnswer": "2",
         "successFeedback": "A is waar.",
-        "retryFeedback": "Alle zijden even lang."
+        "retryFeedback": "−3+5=2."
       },
       {
-        "explanation": "Uitspraak B: elke rechthoek is vierkant.",
+        "explanation": "B zegt −3+5=−8.",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,28 +53,28 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Rechthoek hoeft geen vierkant."
+        "retryFeedback": "Je gaat omhoog, niet verder omlaag."
       },
       {
-        "explanation": "Uitspraak C: hoekensom driehoek.",
-        "question": "Is de som van hoeken in een driehoek 180°?",
+        "explanation": "C: 4 − 7. Onder nul.",
+        "question": "Wat is 4 − 7?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "m3",
+            "label": "−3"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "3",
+            "label": "3"
           }
         ],
-        "correctAnswer": "yes",
+        "correctAnswer": "m3",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Driehoek = altijd 180°."
+        "retryFeedback": "4−7=−3."
       },
       {
-        "explanation": "Welke uitspraken zijn waar?",
-        "question": "Kies alles wat klopt.",
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "all",
-            "label": "Allemaal"
+            "id": "cd",
+            "label": "C en D"
           }
         ],
         "correctAnswer": "ac",
-        "successFeedback": "Precies: A en C.",
-        "retryFeedback": "B en D kloppen niet."
+        "successFeedback": "A en C kloppen.",
+        "retryFeedback": "B en D niet."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,44 +100,40 @@
     {
       "id": "mavo-2-c12-b1",
       "type": "multiple-choice",
-      "question": "Welke uitspraak is waar?",
-      "answer": "b",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Alle driehoeken zijn gelijk"
-        },
-        {
-          "id": "b",
-          "label": "Een driehoek heeft drie hoeken"
-        },
-        {
-          "id": "c",
-          "label": "Een cirkel is een veelhoek"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Driehoek heeft drie hoeken.",
-      "explanation": "Driehoek heeft drie hoeken."
-    },
-    {
-      "id": "mavo-2-c12-b2",
-      "type": "multiple-choice",
-      "question": "Is een vierkant een rechthoek?",
+      "question": "−5 + 8 = ?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "3"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "−3"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Vierkant is een rechthoek met 4 gelijke zijden.",
-      "explanation": "Vierkant is een rechthoek met 4 gelijke zijden."
+      "hint2": "−5+8=3.",
+      "explanation": "−5+8=3."
+    },
+    {
+      "id": "mavo-2-c12-b2",
+      "type": "multiple-choice",
+      "question": "2 − 6 = ?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "−4"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "2−6=−4.",
+      "explanation": "2−6=−4."
     }
   ]
 }

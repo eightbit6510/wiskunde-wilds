@@ -4,25 +4,25 @@
   "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 4x",
+  "question": "Vereenvoudig: 4x + 6x",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "9x"
+      "label": "10x"
     },
     {
       "id": "b",
-      "label": "20x"
+      "label": "24x"
     },
     {
       "id": "c",
-      "label": "9"
+      "label": "10"
     }
   ],
   "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 4x = (5+4)x",
-  "explanation": "5x + 4x = 9x",
+  "hint2": "4x + 6x = (4+6)x",
+  "explanation": "4x + 6x = 10x",
   "classLevels": [
     "groep-8"
   ]

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 11 = 17"
+            "label": "x zoeken in x + 16 = 26"
           },
           {
             "id": "wrong",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +11 weg is.\n\nWat doe je met +11?",
-        "question": "Hoe haal je +11 weg?",
+        "explanation": "Stap 2: x staat alleen links als +16 weg is.\n\nWat doe je met +16?",
+        "question": "Hoe haal je +16 weg?",
         "options": [
           {
             "id": "sub",
-            "label": "11 aftrekken aan beide kanten"
+            "label": "16 aftrekken aan beide kanten"
           },
           {
             "id": "add",
-            "label": "11 optellen"
+            "label": "16 optellen"
           }
         ],
         "correctAnswer": "sub",
@@ -39,29 +39,29 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 11 = 17. Haal +11 weg → x = 17 − 11.",
-        "question": "Wat is 17 − 11?",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 16 = 26. Haal +16 weg → x = 26 − 16.",
+        "question": "Wat is 26 − 16?",
         "options": [
           {
             "id": "x",
-            "label": "6"
+            "label": "10"
           },
           {
             "id": "wrong",
-            "label": "8"
+            "label": "12"
           }
         ],
         "correctAnswer": "x",
-        "successFeedback": "Goed: x = 6.",
-        "retryFeedback": "Reken uit: 17 − 11."
+        "successFeedback": "Goed: x = 10.",
+        "retryFeedback": "Reken uit: 26 − 16."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. Constante (+11) naar de andere kant\n2. x = 17 − 11 = 6\n3. Controle: 6 + 11 = 17",
-        "question": "Controle: klopt x = 6?",
+        "explanation": "Stappenplan voor dit type som:\n1. Constante (+16) naar de andere kant\n2. x = 26 − 16 = 10\n3. Controle: 10 + 16 = 26",
+        "question": "Controle: klopt x = 10?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 6 + 11 = 17"
+            "label": "Ja, 10 + 16 = 26"
           },
           {
             "id": "no",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! x = 6 is het antwoord.",
+        "successFeedback": "Perfect! x = 10 is het antwoord.",
         "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 6"
+    "conclusion": "Pootafdruk! 🐾 x = 10"
   },
   "bonusVariants": [
     {
       "id": "vwo-6-c32-b1",
       "type": "number-input",
-      "question": "Los op: x + 13 = 19.",
-      "answer": 6,
+      "question": "Los op: x + 18 = 28.",
+      "answer": 10,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 19 − 13 = 6.",
-      "explanation": "x = 19 − 13 = 6."
+      "hint2": "x = 28 − 18 = 10.",
+      "explanation": "x = 28 − 18 = 10."
     },
     {
       "id": "vwo-6-c32-b2",
       "type": "number-input",
-      "question": "Los op: x + 11 = 22.",
-      "answer": 11,
+      "question": "Los op: x + 16 = 31.",
+      "answer": 15,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 22 − 11.",
-      "explanation": "x = 22 − 11."
+      "hint2": "x = 31 − 16.",
+      "explanation": "x = 31 − 16."
     }
   ]
 }

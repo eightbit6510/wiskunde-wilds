@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "2x + 5x vereenvoudigen"
+            "label": "5x + 2x vereenvoudigen"
           },
           {
             "id": "wrong",
-            "label": "De getallen 2 en 5 vermenigvuldigen"
+            "label": "De getallen 5 en 2 vermenigvuldigen"
           }
         ],
         "correctAnswer": "task",
@@ -23,7 +23,7 @@
       },
       {
         "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
-        "question": "Kun je 2x en 5x optellen?",
+        "question": "Kun je 5x en 2x optellen?",
         "options": [
           {
             "id": "yes",
@@ -39,8 +39,8 @@
         "retryFeedback": "Kijk naar de letter: beide hebben x."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 2 + 5.",
-        "question": "Wat is 2x + 5x?",
+        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 5 + 2.",
+        "question": "Wat is 5x + 2x?",
         "options": [
           {
             "id": "a",
@@ -53,7 +53,7 @@
         ],
         "correctAnswer": "a",
         "successFeedback": "Juist: 7x.",
-        "retryFeedback": "Tel 2 en 5 op; x blijft staan."
+        "retryFeedback": "Tel 5 en 2 op; x blijft staan."
       },
       {
         "explanation": "Stap 4: kies het juiste antwoord in de som.",
@@ -70,16 +70,16 @@
         ],
         "correctAnswer": "a",
         "successFeedback": "Precies — antwoord A: 7x.",
-        "retryFeedback": "2x + 5x = (2+5)x."
+        "retryFeedback": "5x + 2x = (5+2)x."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2x + 5x = 7x"
+    "conclusion": "Pootafdruk! 🐾 5x + 2x = 7x"
   },
   "bonusVariants": [
     {
       "id": "groep-8-c12-b1",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 3x + 5x",
+      "question": "Vereenvoudig: 6x + 2x",
       "answer": "a",
       "answerOptions": [
         {
@@ -92,13 +92,13 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 3 + 5.",
-      "explanation": "Tel 3 + 5."
+      "hint2": "Tel 6 + 2.",
+      "explanation": "Tel 6 + 2."
     },
     {
       "id": "groep-8-c12-b2",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 2x + 6x",
+      "question": "Vereenvoudig: 5x + 3x",
       "answer": "a",
       "answerOptions": [
         {
@@ -111,8 +111,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 2 + 6.",
-      "explanation": "Tel 2 + 6."
+      "hint2": "Tel 5 + 3.",
+      "explanation": "Tel 5 + 3."
     }
   ]
 }

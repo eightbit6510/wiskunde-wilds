@@ -4,11 +4,11 @@
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 2 + 2 + 2 + 2 (4 keer 2). Wat is het antwoord?",
-  "answer": 8,
-  "hint1": "4 keer 2 is hetzelfde als 4 × 2.",
-  "hint2": "4 × 2 = 8",
-  "explanation": "4 × 2 = 8",
+  "question": "Reken uit: 2 + 2 + 2 + 2 + … (5 keer 2). Wat is het antwoord?",
+  "answer": 10,
+  "hint1": "5 keer 2 is hetzelfde als 5 × 2.",
+  "hint2": "5 × 2 = 10",
+  "explanation": "5 × 2 = 10",
   "classLevels": [
     "groep-6"
   ]

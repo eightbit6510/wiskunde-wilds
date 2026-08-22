@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "x vinden in x² = 49 (x positief)"
+            "label": "x vinden in x² = 16 (x positief)"
           },
           {
             "id": "wrong",
-            "label": "x = 49 ÷ 2"
+            "label": "x = 16 ÷ 2"
           }
         ],
         "correctAnswer": "task",
@@ -22,7 +22,7 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x² betekent x × x.\n\nWe zoeken: welk getal × zichzelf = 49?",
+        "explanation": "Stap 2: x² betekent x × x.\n\nWe zoeken: welk getal × zichzelf = 16?",
         "question": "x² = x × x. Klopt dat?",
         "options": [
           {
@@ -39,25 +39,25 @@
         "retryFeedback": "x² is niet x×2."
       },
       {
-        "explanation": "Stap 3: welk getal keer zichzelf geeft 49?\n\nReken een paar getallen keer zichzelf.",
-        "question": "7 × 7 = ?",
+        "explanation": "Stap 3: welk getal keer zichzelf geeft 16?\n\nReken een paar getallen keer zichzelf.",
+        "question": "4 × 4 = ?",
         "options": [
           {
             "id": "sq",
-            "label": "49"
+            "label": "16"
           },
           {
             "id": "wrong",
-            "label": "50"
+            "label": "17"
           }
         ],
         "correctAnswer": "sq",
-        "successFeedback": "Juist: x = 7.",
-        "retryFeedback": "Probeer 7 × 7."
+        "successFeedback": "Juist: x = 4.",
+        "retryFeedback": "Probeer 4 × 4."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal dat × zichzelf 49 geeft\n3. Controleer door te vermenigvuldigen",
-        "question": "Is x = 7 het antwoord?",
+        "explanation": "Stappenplan voor dit type som:\n1. x² = x × x\n2. Zoek positief getal dat × zichzelf 16 geeft\n3. Controleer door te vermenigvuldigen",
+        "question": "Is x = 4 het antwoord?",
         "options": [
           {
             "id": "yes",
@@ -69,18 +69,18 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! x = 7.",
+        "successFeedback": "Perfect! x = 4.",
         "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 7"
+    "conclusion": "Pootafdruk! 🐾 x = 4"
   },
   "bonusVariants": [
     {
       "id": "vwo-6-c27-b1",
       "type": "number-input",
-      "question": "x² = 64 (x positief)",
-      "answer": 8,
+      "question": "x² = 25 (x positief)",
+      "answer": 5,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde methode.",
       "explanation": "Zelfde methode."
@@ -88,11 +88,11 @@
     {
       "id": "vwo-6-c27-b2",
       "type": "number-input",
-      "question": "x² = 49 (x positief)",
-      "answer": 7,
+      "question": "x² = 16 (x positief)",
+      "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "7² = 49.",
-      "explanation": "7² = 49."
+      "hint2": "4² = 16.",
+      "explanation": "4² = 16."
     }
   ]
 }

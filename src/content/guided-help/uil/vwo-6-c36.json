@@ -22,25 +22,25 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Rechte hoek = hoek van een vierkant.",
-        "question": "Hoeveel graden?",
+        "explanation": "Veelvoud = keer tafel.",
+        "question": "Is 6 = 2 × 3?",
         "options": [
           {
-            "id": "90",
-            "label": "90°"
+            "id": "yes",
+            "label": "Ja"
           },
           {
-            "id": "180",
-            "label": "180°"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "90",
+        "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "Rechte hoek = 90°."
+        "retryFeedback": "6 is veelvoud van 3."
       },
       {
-        "explanation": "B zegt rechte hoek = 180°.",
-        "question": "Klopt B?",
+        "explanation": "B: 6 veelvoud van 4?",
+        "question": "6÷4 exact?",
         "options": [
           {
             "id": "yes",
@@ -53,24 +53,24 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "180° = gestrekte hoek."
+        "retryFeedback": "6÷4 gaat niet exact."
       },
       {
-        "explanation": "C: gestrekte hoek.",
-        "question": "Hoeveel graden?",
+        "explanation": "C: 15 veelvoud van 5?",
+        "question": "15÷5 = 3?",
         "options": [
           {
-            "id": "90",
-            "label": "90°"
+            "id": "yes",
+            "label": "Ja"
           },
           {
-            "id": "180",
-            "label": "180°"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "180",
+        "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Gestrekte hoek = 180°."
+        "retryFeedback": "15=3×5."
       },
       {
         "explanation": "Welke zijn waar?",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "bd",
-            "label": "B en D"
+            "id": "cd",
+            "label": "C en D"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B verwart hoeken."
+        "retryFeedback": "B en D niet."
       },
       {
         "explanation": "Stappenplan voor dit type som:\n1. Lees uitspraak A, B, C en D\n2. Zet bij elke: waar of onwaar?\n3. Kies alles wat waar is",
@@ -117,40 +117,40 @@
     {
       "id": "vwo-6-c36-b1",
       "type": "multiple-choice",
-      "question": "Rechte hoek in graden?",
+      "question": "8 veelvoud van 2?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "90°"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "45°"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "90°.",
-      "explanation": "90°."
+      "hint2": "8=4×2.",
+      "explanation": "8=4×2."
     },
     {
       "id": "vwo-6-c36-b2",
       "type": "multiple-choice",
-      "question": "Gestrekte hoek?",
+      "question": "10 veelvoud van 3?",
       "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "90°"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "180°"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "180°.",
-      "explanation": "180°."
+      "hint2": "10÷3 niet exact.",
+      "explanation": "10÷3 niet exact."
     }
   ]
 }

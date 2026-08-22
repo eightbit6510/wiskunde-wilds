@@ -2,7 +2,7 @@
   "challengeId": "groep-8-c19",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We gaan 2/3 + 1/3 uitrekenen. Ik leg elke stap uit — jij hoeft alleen mee te denken.",
+    "intro": "We gaan 5/2 + 4/3 uitrekenen. Ik leg elke stap uit — jij hoeft alleen mee te denken.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "2/3 en 1/3 optellen (als kommagetal)"
+            "label": "5/2 en 4/3 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -22,65 +22,65 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: maak de noemers gelijk.\n\n2/3 en 1/3 hebben verschillende noemers.",
+        "explanation": "Stap 2: maak de noemers gelijk.\n\n5/2 en 4/3 hebben verschillende noemers.",
         "question": "Welke gemeenschappelijke noemer gebruiken we?",
         "options": [
           {
             "id": "yes",
-            "label": "9"
+            "label": "6"
           },
           {
             "id": "no",
-            "label": "10"
+            "label": "7"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed. Beide breuken krijgen noemer 9.",
+        "successFeedback": "Goed. Beide breuken krijgen noemer 6.",
         "retryFeedback": "Vermenigvuldig beide noemers — dat geeft een gemeenschappelijke noemer."
       },
       {
         "explanation": "Stap 3: tel de tellers op.\n\nNoemers zijn gelijk → alleen tellers optellen.",
-        "question": "Wat is 2/3 + 1/3 als breuk?",
+        "question": "Wat is 5/2 + 4/3 als breuk?",
         "options": [
           {
             "id": "right",
-            "label": "1/1"
+            "label": "23/6"
           },
           {
             "id": "wrong",
-            "label": "1/2"
+            "label": "23/7"
           }
         ],
         "correctAnswer": "right",
-        "successFeedback": "Precies: 1/1.",
+        "successFeedback": "Precies: 23/6.",
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 1/1 als kommagetal.\n\nDeel teller door noemer (1 ÷ 1).",
-        "question": "Wat is 1 ÷ 1?",
+        "explanation": "Stap 4: schrijf 23/6 als kommagetal.\n\nDeel teller door noemer (23 ÷ 6).",
+        "question": "Wat is 23 ÷ 6?",
         "options": [
           {
             "id": "a",
-            "label": "1"
+            "label": "3.83"
           },
           {
             "id": "b",
-            "label": "1.5"
+            "label": "4.33"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 1.",
-        "retryFeedback": "Reken: 1 ÷ 1."
+        "successFeedback": "Klopt! Het antwoord is 3.83.",
+        "retryFeedback": "Reken: 23 ÷ 6."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2/3 + 1/3 = 1"
+    "conclusion": "Pootafdruk! 🐾 5/2 + 4/3 = 3.83"
   },
   "bonusVariants": [
     {
       "id": "groep-8-c19-b1",
       "type": "number-input",
-      "question": "Wat is 2/3 + 1/3? (kommagetal)",
-      "answer": 1,
+      "question": "Wat is 5/2 + 4/3? (kommagetal)",
+      "answer": 3.83,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

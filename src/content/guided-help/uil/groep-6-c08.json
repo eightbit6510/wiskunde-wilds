@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Het ontbrekende getal zoeken in 4 + ? = 7"
+            "label": "Het ontbrekende getal zoeken in ? + 7 = 10"
           },
           {
             "id": "wrong",
@@ -22,25 +22,25 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: wat weten we?\n\n4 + ? moet samen 7 worden.",
-        "question": "Moet het ontbrekende getal kleiner zijn dan 7?",
+        "explanation": "Stap 2: wat weten we?\n\n? + 7 moet samen 10 worden.",
+        "question": "Moet het ontbrekende getal kleiner zijn dan 10?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, het is een stukje van 7"
+            "label": "Ja, het is een stukje van 10"
           },
           {
             "id": "no",
-            "label": "Nee, groter dan 7"
+            "label": "Nee, groter dan 10"
           }
         ],
         "correctAnswer": "yes",
         "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
-        "retryFeedback": "Samen moet het 7 worden."
+        "retryFeedback": "Samen moet het 10 worden."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\nTrek 4 af van 7.",
-        "question": "Wat is 7 − 4?",
+        "explanation": "Stap 3: reken terug.\n\nTrek 7 af van 10.",
+        "question": "Wat is 10 − 7?",
         "options": [
           {
             "id": "m",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "m",
         "successFeedback": "Juist! Het ontbrekende getal is 3.",
-        "retryFeedback": "Trek 4 af van 7."
+        "retryFeedback": "Trek 7 af van 10."
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "Tel je antwoord op bij 4. Kom je op 7?",
+        "question": "Tel je antwoord op bij 7. Kom je op 10?",
         "options": [
           {
             "id": "yes",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect! Het ontbrekende getal is 3.",
-        "retryFeedback": "Reken na: antwoord + 4 = 7."
+        "retryFeedback": "Reken na: antwoord + 7 = 10."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 3."
@@ -79,20 +79,20 @@
     {
       "id": "groep-6-c08-b1",
       "type": "number-input",
-      "question": "4 + 4 = ?",
-      "answer": 8,
+      "question": "4 + 7 = ?",
+      "answer": 11,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4 + 4 = 8.",
-      "explanation": "4 + 4 = 8."
+      "hint2": "4 + 7 = 11.",
+      "explanation": "4 + 7 = 11."
     },
     {
       "id": "groep-6-c08-b2",
       "type": "number-input",
-      "question": "? + 4 = 7",
+      "question": "? + 7 = 10",
       "answer": 3,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "7 − 4 = 3.",
-      "explanation": "7 − 4 = 3."
+      "hint2": "10 − 7 = 3.",
+      "explanation": "10 − 7 = 3."
     }
   ]
 }

@@ -22,24 +22,24 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Gemiddelde = som ÷ aantal.",
-        "question": "(2+4+6)÷3 = ?",
+        "explanation": "Rechte hoek = hoek van een vierkant.",
+        "question": "Hoeveel graden?",
         "options": [
           {
-            "id": "4",
-            "label": "4"
+            "id": "90",
+            "label": "90°"
           },
           {
-            "id": "6",
-            "label": "6"
+            "id": "180",
+            "label": "180°"
           }
         ],
-        "correctAnswer": "4",
+        "correctAnswer": "90",
         "successFeedback": "A is waar.",
-        "retryFeedback": "12÷3=4."
+        "retryFeedback": "Rechte hoek = 90°."
       },
       {
-        "explanation": "B zegt gemiddelde=6.",
+        "explanation": "B zegt rechte hoek = 180°.",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,24 +53,24 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Gemiddelde is 4."
+        "retryFeedback": "180° = gestrekte hoek."
       },
       {
-        "explanation": "Mediaan = middelste getal (gesorteerd).",
-        "question": "Mediaan van 1,3,9?",
+        "explanation": "C: gestrekte hoek.",
+        "question": "Hoeveel graden?",
         "options": [
           {
-            "id": "3",
-            "label": "3"
+            "id": "90",
+            "label": "90°"
           },
           {
-            "id": "9",
-            "label": "9"
+            "id": "180",
+            "label": "180°"
           }
         ],
-        "correctAnswer": "3",
+        "correctAnswer": "180",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Middelste = 3."
+        "retryFeedback": "Gestrekte hoek = 180°."
       },
       {
         "explanation": "Welke zijn waar?",
@@ -91,7 +91,7 @@
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "retryFeedback": "B verwart hoeken."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,40 +100,40 @@
     {
       "id": "vwo-6-c06-b1",
       "type": "multiple-choice",
-      "question": "Gemiddelde van 5 en 15?",
+      "question": "Rechte hoek in graden?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "10"
+          "label": "90°"
         },
         {
           "id": "b",
-          "label": "20"
+          "label": "45°"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "(5+15)÷2=10.",
-      "explanation": "(5+15)÷2=10."
+      "hint2": "90°.",
+      "explanation": "90°."
     },
     {
       "id": "vwo-6-c06-b2",
       "type": "multiple-choice",
-      "question": "Mediaan van 2, 5, 8?",
+      "question": "Gestrekte hoek?",
       "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2"
+          "label": "90°"
         },
         {
           "id": "b",
-          "label": "5"
+          "label": "180°"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Middelste = 5.",
-      "explanation": "Middelste = 5."
+      "hint2": "180°.",
+      "explanation": "180°."
     }
   ]
 }

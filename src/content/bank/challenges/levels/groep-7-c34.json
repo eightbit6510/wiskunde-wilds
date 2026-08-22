@@ -4,11 +4,11 @@
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 4 rode kaarten horen 4 blauwe. Je hebt 16 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 16,
-  "hint1": "Deel 16 door 4.",
-  "hint2": "Dat getal × 4 = 16.",
-  "explanation": "16 ÷ 4 = 4.\n4 × 4 = 16.",
+  "question": "Voor elke 4 rode plakkers horen 3 blauwe. Je hebt 12 rode. Hoeveel blauwe horen daarbij?",
+  "answer": 9,
+  "hint1": "Deel 12 door 4.",
+  "hint2": "Dat getal × 3 = 9.",
+  "explanation": "12 ÷ 4 = 3.\n3 × 3 = 9.",
   "classLevels": [
     "groep-7"
   ]

@@ -10,27 +10,27 @@
   "placements": [
     {
       "challengeId": "groep-7-c06",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
       "sortOrder": 0
     },
     {
       "challengeId": "groep-7-c07",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Op het pad ligt een raadsel te wachten.",
       "sortOrder": 1
     },
     {
       "challengeId": "groep-7-c08",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Nog één stap — jij kunt dit.",
       "sortOrder": 2
     },
     {
       "challengeId": "groep-7-c09",
-      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
       "sortOrder": 3
     },
     {
       "challengeId": "groep-7-c10",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "De Uil fluistert: “Neem je tijd, denk hardop.”",
       "sortOrder": 4
     }
   ]

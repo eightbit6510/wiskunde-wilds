@@ -2,7 +2,7 @@
   "challengeId": "vwo-1-c15",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We gaan 4/5 + 4/3 uitrekenen. Ik leg elke stap uit — jij hoeft alleen mee te denken.",
+    "intro": "We gaan 5/4 + 1/1 uitrekenen. Ik leg elke stap uit — jij hoeft alleen mee te denken.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "4/5 en 4/3 optellen (als kommagetal)"
+            "label": "5/4 en 1/1 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -22,65 +22,65 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: maak de noemers gelijk.\n\n4/5 en 4/3 hebben verschillende noemers.",
+        "explanation": "Stap 2: maak de noemers gelijk.\n\n5/4 en 1/1 hebben verschillende noemers.",
         "question": "Welke gemeenschappelijke noemer gebruiken we?",
         "options": [
           {
             "id": "yes",
-            "label": "15"
+            "label": "12"
           },
           {
             "id": "no",
-            "label": "16"
+            "label": "13"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed. Beide breuken krijgen noemer 15.",
+        "successFeedback": "Goed. Beide breuken krijgen noemer 12.",
         "retryFeedback": "Vermenigvuldig beide noemers — dat geeft een gemeenschappelijke noemer."
       },
       {
         "explanation": "Stap 3: tel de tellers op.\n\nNoemers zijn gelijk → alleen tellers optellen.",
-        "question": "Wat is 4/5 + 4/3 als breuk?",
+        "question": "Wat is 5/4 + 1/1 als breuk?",
         "options": [
           {
             "id": "right",
-            "label": "32/15"
+            "label": "9/4"
           },
           {
             "id": "wrong",
-            "label": "32/16"
+            "label": "9/5"
           }
         ],
         "correctAnswer": "right",
-        "successFeedback": "Precies: 32/15.",
+        "successFeedback": "Precies: 9/4.",
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 32/15 als kommagetal.\n\nDeel teller door noemer (32 ÷ 15).",
-        "question": "Wat is 32 ÷ 15?",
+        "explanation": "Stap 4: schrijf 9/4 als kommagetal.\n\nDeel teller door noemer (9 ÷ 4).",
+        "question": "Wat is 9 ÷ 4?",
         "options": [
           {
             "id": "a",
-            "label": "2.13"
+            "label": "2.25"
           },
           {
             "id": "b",
-            "label": "2.63"
+            "label": "2.75"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 2.13.",
-        "retryFeedback": "Reken: 32 ÷ 15."
+        "successFeedback": "Klopt! Het antwoord is 2.25.",
+        "retryFeedback": "Reken: 9 ÷ 4."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4/5 + 4/3 = 2.13"
+    "conclusion": "Pootafdruk! 🐾 5/4 + 1/1 = 2.25"
   },
   "bonusVariants": [
     {
       "id": "vwo-1-c15-b1",
       "type": "number-input",
-      "question": "Wat is 4/5 + 4/3? (kommagetal)",
-      "answer": 2.13,
+      "question": "Wat is 5/4 + 1/1? (kommagetal)",
+      "answer": 2.25,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

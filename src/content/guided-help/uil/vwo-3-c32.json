@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 4 = 13"
+            "label": "x zoeken in x + 17 = 26"
           },
           {
             "id": "wrong",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +4 weg is.\n\nWat doe je met +4?",
-        "question": "Hoe haal je +4 weg?",
+        "explanation": "Stap 2: x staat alleen links als +17 weg is.\n\nWat doe je met +17?",
+        "question": "Hoe haal je +17 weg?",
         "options": [
           {
             "id": "sub",
-            "label": "4 aftrekken aan beide kanten"
+            "label": "17 aftrekken aan beide kanten"
           },
           {
             "id": "add",
-            "label": "4 optellen"
+            "label": "17 optellen"
           }
         ],
         "correctAnswer": "sub",
@@ -39,8 +39,8 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 4 = 13. Haal +4 weg → x = 13 − 4.",
-        "question": "Wat is 13 − 4?",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 17 = 26. Haal +17 weg → x = 26 − 17.",
+        "question": "Wat is 26 − 17?",
         "options": [
           {
             "id": "x",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "x",
         "successFeedback": "Goed: x = 9.",
-        "retryFeedback": "Reken uit: 13 − 4."
+        "retryFeedback": "Reken uit: 26 − 17."
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 4 = 13?",
+        "question": "Past je x-waarde in x + 17 = 26?",
         "options": [
           {
             "id": "yes",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 9!",
-        "retryFeedback": "Reken na: x + 4 moet 13 zijn."
+        "retryFeedback": "Reken na: x + 17 moet 26 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 9"
@@ -79,20 +79,20 @@
     {
       "id": "vwo-3-c32-b1",
       "type": "number-input",
-      "question": "Los op: x + 6 = 15.",
+      "question": "Los op: x + 19 = 28.",
       "answer": 9,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 15 − 6 = 9.",
-      "explanation": "x = 15 − 6 = 9."
+      "hint2": "x = 28 − 19 = 9.",
+      "explanation": "x = 28 − 19 = 9."
     },
     {
       "id": "vwo-3-c32-b2",
       "type": "number-input",
-      "question": "Los op: x + 4 = 18.",
+      "question": "Los op: x + 17 = 31.",
       "answer": 14,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 18 − 4.",
-      "explanation": "x = 18 − 4."
+      "hint2": "x = 31 − 17.",
+      "explanation": "x = 31 − 17."
     }
   ]
 }

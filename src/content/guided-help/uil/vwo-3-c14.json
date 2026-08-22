@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 8 = 13"
+            "label": "x zoeken in x + 15 = 20"
           },
           {
             "id": "wrong",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +8 weg is.\n\nWat doe je met +8?",
-        "question": "Hoe haal je +8 weg?",
+        "explanation": "Stap 2: x staat alleen links als +15 weg is.\n\nWat doe je met +15?",
+        "question": "Hoe haal je +15 weg?",
         "options": [
           {
             "id": "sub",
-            "label": "8 aftrekken aan beide kanten"
+            "label": "15 aftrekken aan beide kanten"
           },
           {
             "id": "add",
-            "label": "8 optellen"
+            "label": "15 optellen"
           }
         ],
         "correctAnswer": "sub",
@@ -39,8 +39,8 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 8 = 13. Haal +8 weg → x = 13 − 8.",
-        "question": "Wat is 13 − 8?",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 15 = 20. Haal +15 weg → x = 20 − 15.",
+        "question": "Wat is 20 − 15?",
         "options": [
           {
             "id": "x",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "x",
         "successFeedback": "Goed: x = 5.",
-        "retryFeedback": "Reken uit: 13 − 8."
+        "retryFeedback": "Reken uit: 20 − 15."
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 8 = 13?",
+        "question": "Past je x-waarde in x + 15 = 20?",
         "options": [
           {
             "id": "yes",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 5!",
-        "retryFeedback": "Reken na: x + 8 moet 13 zijn."
+        "retryFeedback": "Reken na: x + 15 moet 20 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 5"
@@ -79,20 +79,20 @@
     {
       "id": "vwo-3-c14-b1",
       "type": "number-input",
-      "question": "Los op: x + 10 = 15.",
+      "question": "Los op: x + 17 = 22.",
       "answer": 5,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 15 − 10 = 5.",
-      "explanation": "x = 15 − 10 = 5."
+      "hint2": "x = 22 − 17 = 5.",
+      "explanation": "x = 22 − 17 = 5."
     },
     {
       "id": "vwo-3-c14-b2",
       "type": "number-input",
-      "question": "Los op: x + 8 = 18.",
+      "question": "Los op: x + 15 = 25.",
       "answer": 10,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 18 − 8.",
-      "explanation": "x = 18 − 8."
+      "hint2": "x = 25 − 15.",
+      "explanation": "x = 25 − 15."
     }
   ]
 }

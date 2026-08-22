@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Breedte vinden (A=24, lengte=8)"
+            "label": "Breedte vinden (A=51, lengte=17)"
           },
           {
             "id": "wrong",
@@ -22,7 +22,7 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=24, lengte=8.",
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=51, lengte=17.",
         "question": "Welke grootte zoek je?",
         "options": [
           {
@@ -40,7 +40,7 @@
       },
       {
         "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
-        "question": "24 ÷ 8 = ?",
+        "question": "51 ÷ 17 = ?",
         "options": [
           {
             "id": "b",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "b",
         "successFeedback": "Breedte = 3.",
-        "retryFeedback": "Deel 24 door 8."
+        "retryFeedback": "Deel 51 door 17."
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "Vermenigvuldig lengte 8 met je breedte-antwoord. Is het 24?",
+        "question": "Vermenigvuldig lengte 17 met je breedte-antwoord. Is het 51?",
         "options": [
           {
             "id": "yes",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Goed! Breedte = 3.",
-        "retryFeedback": "8 × 3 moet 24 zijn."
+        "retryFeedback": "17 × 3 moet 51 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 b = 3"
@@ -79,7 +79,7 @@
     {
       "id": "havo-1-c36-b1",
       "type": "number-input",
-      "question": "A = 32, l = 8. b = ?",
+      "question": "A = 68, l = 17. b = ?",
       "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Deel oppervlakte door lengte.",
@@ -88,11 +88,11 @@
     {
       "id": "havo-1-c36-b2",
       "type": "number-input",
-      "question": "A = 24, l = 8. b = ?",
+      "question": "A = 51, l = 17. b = ?",
       "answer": 3,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "b = 24 ÷ 8.",
-      "explanation": "b = 24 ÷ 8."
+      "hint2": "b = 51 ÷ 17.",
+      "explanation": "b = 51 ÷ 17."
     }
   ]
 }

@@ -4,11 +4,11 @@
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 6 + 6 (2 keer 6). Wat is het antwoord?",
-  "answer": 12,
-  "hint1": "2 keer 6 is hetzelfde als 2 × 6.",
-  "hint2": "2 × 6 = 12",
-  "explanation": "2 × 6 = 12",
+  "question": "Reken uit: 5 + 5 + 5 (3 keer 5). Wat is het antwoord?",
+  "answer": 15,
+  "hint1": "3 keer 5 is hetzelfde als 3 × 5.",
+  "hint2": "3 × 5 = 15",
+  "explanation": "3 × 5 = 15",
   "classLevels": [
     "groep-6"
   ]

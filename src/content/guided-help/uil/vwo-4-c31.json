@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "4x + 3x vereenvoudigen"
+            "label": "6x + 4x vereenvoudigen"
           },
           {
             "id": "wrong",
-            "label": "De getallen 4 en 3 vermenigvuldigen"
+            "label": "De getallen 6 en 4 vermenigvuldigen"
           }
         ],
         "correctAnswer": "task",
@@ -23,7 +23,7 @@
       },
       {
         "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
-        "question": "Kun je 4x en 3x optellen?",
+        "question": "Kun je 6x en 4x optellen?",
         "options": [
           {
             "id": "yes",
@@ -39,80 +39,80 @@
         "retryFeedback": "Kijk naar de letter: beide hebben x."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 4 + 3.",
-        "question": "Wat is 4x + 3x?",
+        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 6 + 4.",
+        "question": "Wat is 6x + 4x?",
         "options": [
           {
             "id": "a",
-            "label": "7x"
+            "label": "10x"
           },
           {
             "id": "b",
-            "label": "12x"
+            "label": "24x"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Juist: 7x.",
-        "retryFeedback": "Tel 4 en 3 op; x blijft staan."
+        "successFeedback": "Juist: 10x.",
+        "retryFeedback": "Tel 6 en 4 op; x blijft staan."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. Check: zelfde letter? (x)\n2. Tel getallen ervoor op: 4+3=7\n3. Antwoord: 7x",
+        "explanation": "Stappenplan voor dit type som:\n1. Check: zelfde letter? (x)\n2. Tel getallen ervoor op: 6+4=10\n3. Antwoord: 10x",
         "question": "Welk antwoord hoort bij de som?",
         "options": [
           {
             "id": "a",
-            "label": "7x"
+            "label": "10x"
           },
           {
             "id": "c",
-            "label": "7"
+            "label": "10"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Top! 4x + 3x = 7x.",
+        "successFeedback": "Top! 6x + 4x = 10x.",
         "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4x + 3x = 7x"
+    "conclusion": "Pootafdruk! 🐾 6x + 4x = 10x"
   },
   "bonusVariants": [
     {
       "id": "vwo-4-c31-b1",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 5x + 3x",
+      "question": "Vereenvoudig: 7x + 4x",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "8x"
+          "label": "11x"
         },
         {
           "id": "b",
-          "label": "8"
+          "label": "11"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 5 + 3.",
-      "explanation": "Tel 5 + 3."
+      "hint2": "Tel 7 + 4.",
+      "explanation": "Tel 7 + 4."
     },
     {
       "id": "vwo-4-c31-b2",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 4x + 4x",
+      "question": "Vereenvoudig: 6x + 5x",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "8x"
+          "label": "11x"
         },
         {
           "id": "b",
-          "label": "8x"
+          "label": "11x"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 4 + 4.",
-      "explanation": "Tel 4 + 4."
+      "hint2": "Tel 6 + 5.",
+      "explanation": "Tel 6 + 5."
     }
   ]
 }

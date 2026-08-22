@@ -4,12 +4,12 @@
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 1/4 + 1/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 1.25,
+  "question": "Wat is 1/1 + 3/4? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 1.75,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "1/4 + 1/1 = 5/4",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 16.",
-  "explanation": "1/4 + 1/1 = 5/4 = 1.25",
+  "hint2": "1/1 + 3/4 = 7/4",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 20.",
+  "explanation": "1/1 + 3/4 = 7/4 = 1.75",
   "classLevels": [
     "vwo-1"
   ]

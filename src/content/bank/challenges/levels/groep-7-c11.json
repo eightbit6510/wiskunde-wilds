@@ -8,28 +8,28 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "1 km = 1000 m"
+      "label": "1/2 is groter dan 1/4"
     },
     {
       "id": "b",
-      "label": "1 km = 100 m"
+      "label": "1/4 is groter dan 1/2"
     },
     {
       "id": "c",
-      "label": "1 uur = 60 minuten"
+      "label": "2/3 is kleiner dan 1/2"
     },
     {
       "id": "d",
-      "label": "1 uur = 100 minuten"
+      "label": "3/4 is groter dan 1/2"
     }
   ],
   "answers": [
     "a",
-    "c"
+    "d"
   ],
   "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A en C zijn standaard eenheden.",
+  "explanation": "A en D kloppen. 1/2>1/4 en 3/4>1/2.",
   "classLevels": [
     "groep-7"
   ]

@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "6 is een veelvoud van 3"
+      "label": "In een parallellogram zijn tegenoverliggende zijden even lang"
     },
     {
       "id": "b",
-      "label": "6 is een veelvoud van 4"
+      "label": "In een parallellogram zijn alle zijden even lang"
     },
     {
       "id": "c",
-      "label": "15 is een veelvoud van 5"
+      "label": "Een ruit heeft vier gelijke zijden"
     },
     {
       "id": "d",
-      "label": "15 is een veelvoud van 6"
+      "label": "Een ruit heeft altijd rechte hoeken"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: 6=2×3. C: 15=3×5.",
+  "explanation": "A en C kloppen. B geldt alleen voor ruit/vierkant. D: ruit hoeft geen rechte hoeken.",
   "classLevels": [
     "groep-8"
   ]

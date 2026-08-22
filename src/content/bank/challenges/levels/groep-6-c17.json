@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "Een rechte hoek is 90°"
+      "label": "De omtrek van een vierkant met zijde 3 is 12"
     },
     {
       "id": "b",
-      "label": "Een rechte hoek is 180°"
+      "label": "De omtrek van een vierkant met zijde 3 is 9"
     },
     {
       "id": "c",
-      "label": "Een gestrekte hoek is 180°"
+      "label": "De oppervlakte van een rechthoek 4×5 is 20"
     },
     {
       "id": "d",
-      "label": "Drie rechte hoeken passen in een driehoek"
+      "label": "De oppervlakte van 4×5 is 9"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A: 90°. C: 180°. D klopt niet.",
+  "explanation": "A: omtrek 4×3=12. C: oppervlakte 4×5=20.",
   "classLevels": [
     "groep-6"
   ]

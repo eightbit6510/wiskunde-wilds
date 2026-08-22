@@ -4,12 +4,12 @@
   "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 3 = 8. Wat is x?",
-  "answer": 5,
-  "hint1": "Haal 3 naar de andere kant: x = 8 − 3.",
-  "hint2": "x = 8 − 3",
-  "optionalWorkedFirstStep": "x + 3 = 8 → x = 8 − 3",
-  "explanation": "x + 3 = 8\nx = 8 − 3 = 5",
+  "question": "Los op: x + 12 = 18. Wat is x?",
+  "answer": 6,
+  "hint1": "Haal 12 naar de andere kant: x = 18 − 12.",
+  "hint2": "x = 18 − 12",
+  "optionalWorkedFirstStep": "x + 12 = 18 → x = 18 − 12",
+  "explanation": "x + 12 = 18\nx = 18 − 12 = 6",
   "classLevels": [
     "vwo-2"
   ]

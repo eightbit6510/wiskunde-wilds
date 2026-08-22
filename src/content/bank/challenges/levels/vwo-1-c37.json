@@ -4,7 +4,7 @@
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 5x",
+  "question": "Vereenvoudig: 4x + 6x",
   "answer": "a",
   "answerOptions": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "id": "b",
-      "label": "25x"
+      "label": "24x"
     },
     {
       "id": "c",
@@ -21,8 +21,8 @@
     }
   ],
   "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 5x = (5+5)x",
-  "explanation": "5x + 5x = 10x",
+  "hint2": "4x + 6x = (4+6)x",
+  "explanation": "4x + 6x = 10x",
   "classLevels": [
     "vwo-1"
   ]

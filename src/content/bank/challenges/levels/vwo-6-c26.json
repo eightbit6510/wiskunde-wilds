@@ -4,12 +4,12 @@
   "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 8 = 15. Wat is x?",
-  "answer": 7,
-  "hint1": "Haal 8 naar de andere kant: x = 15 − 8.",
-  "hint2": "x = 15 − 8",
-  "optionalWorkedFirstStep": "x + 8 = 15 → x = 15 − 8",
-  "explanation": "x + 8 = 15\nx = 15 − 8 = 7",
+  "question": "Los op: x + 19 = 30. Wat is x?",
+  "answer": 11,
+  "hint1": "Haal 19 naar de andere kant: x = 30 − 19.",
+  "hint2": "x = 30 − 19",
+  "optionalWorkedFirstStep": "x + 19 = 30 → x = 30 − 19",
+  "explanation": "x + 19 = 30\nx = 30 − 19 = 11",
   "classLevels": [
     "vwo-6"
   ]

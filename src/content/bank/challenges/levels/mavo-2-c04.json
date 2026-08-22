@@ -4,11 +4,11 @@
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 3:3. De eerste deelgroep is 9. Hoe groot is de tweede?",
-  "answer": 9,
-  "hint1": "Deel 9 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 3 = 9.",
-  "explanation": "9 ÷ 3 = 3.\n3 × 3 = 9.",
+  "question": "Verhouding 3:5. De eerste deelgroep is 6. Hoe groot is de tweede?",
+  "answer": 10,
+  "hint1": "Deel 6 door 3 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 5 = 10.",
+  "explanation": "6 ÷ 3 = 2.\n2 × 5 = 10.",
   "classLevels": [
     "mavo-2"
   ]

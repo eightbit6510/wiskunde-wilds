@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "3^5 uitrekenen"
+            "label": "7^3 uitrekenen"
           },
           {
             "id": "wrong",
-            "label": "3 × 5 uitrekenen (dat is fout!)"
+            "label": "7 × 3 uitrekenen (dat is fout!)"
           }
         ],
         "correctAnswer": "task",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 3^5 = 3 vermenigvuldigd 5 keer.\n\nDe exponent 5 telt hoe vaak je vermenigvuldigt.",
+        "explanation": "Stap 2: 7^3 = 7 × 7 × 7.\n\nDe exponent 3 telt hoe vaak je vermenigvuldigt.",
         "question": "Wat betekent de exponent?",
         "options": [
           {
             "id": "repeat",
-            "label": "3 5 keer vermenigvuldigen"
+            "label": "7 3 keer vermenigvuldigen"
           },
           {
             "id": "times",
-            "label": "3 × 5"
+            "label": "7 × 3"
           }
         ],
         "correctAnswer": "repeat",
@@ -39,60 +39,60 @@
         "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
       },
       {
-        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 3 × 3, vermenigvuldig daarna verder tot je 5 keer hebt.",
-        "question": "Wat is 3^5?",
+        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 7 × 7, vermenigvuldig daarna verder tot je 3 keer hebt.",
+        "question": "Wat is 7^3?",
         "options": [
           {
             "id": "a",
-            "label": "243"
+            "label": "343"
           },
           {
             "id": "b",
-            "label": "15"
+            "label": "21"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Goed: 3^5 = 243.",
-        "retryFeedback": "Niet 3×5, maar herhaald vermenigvuldigen."
+        "successFeedback": "Goed: 7^3 = 343.",
+        "retryFeedback": "Niet 7×3, maar herhaald vermenigvuldigen."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. 3^5 = 3 vermenigvuldigd 5 keer\n2. Niet 3×5\n3. Antwoord: 243",
-        "question": "Bevestig: 3^5 = ?",
+        "explanation": "Stappenplan voor dit type som:\n1. 7^3 = 7 × 7 × 7\n2. Niet 7×3\n3. Antwoord: 343",
+        "question": "Bevestig: 7^3 = ?",
         "options": [
           {
             "id": "a",
-            "label": "243"
+            "label": "343"
           },
           {
             "id": "b",
-            "label": "246"
+            "label": "350"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! 3^5 = 243.",
+        "successFeedback": "Klopt! 7^3 = 343.",
         "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3^5 = 243"
+    "conclusion": "Pootafdruk! 🐾 7^3 = 343"
   },
   "bonusVariants": [
     {
       "id": "vwo-4-c28-b1",
       "type": "number-input",
-      "question": "Bereken: 3^6",
-      "answer": 729,
+      "question": "Bereken: 7^4",
+      "answer": 2401,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog ×3.",
-      "explanation": "Nog ×3."
+      "hint2": "Nog ×7.",
+      "explanation": "Nog ×7."
     },
     {
       "id": "vwo-4-c28-b2",
       "type": "number-input",
-      "question": "Bereken: 3^5",
-      "answer": 243,
+      "question": "Bereken: 7^3",
+      "answer": 343,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "3^5 = 243.",
-      "explanation": "3^5 = 243."
+      "hint2": "7^3 = 343.",
+      "explanation": "7^3 = 343."
     }
   ]
 }

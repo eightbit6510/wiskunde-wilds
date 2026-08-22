@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 2 = 6"
+            "label": "x zoeken in x + 19 = 30"
           },
           {
             "id": "wrong",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +2 weg is.\n\nWat doe je met +2?",
-        "question": "Hoe haal je +2 weg?",
+        "explanation": "Stap 2: x staat alleen links als +19 weg is.\n\nWat doe je met +19?",
+        "question": "Hoe haal je +19 weg?",
         "options": [
           {
             "id": "sub",
-            "label": "2 aftrekken aan beide kanten"
+            "label": "19 aftrekken aan beide kanten"
           },
           {
             "id": "add",
-            "label": "2 optellen"
+            "label": "19 optellen"
           }
         ],
         "correctAnswer": "sub",
@@ -39,25 +39,25 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 2 = 6. Haal +2 weg → x = 6 − 2.",
-        "question": "Wat is 6 − 2?",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 19 = 30. Haal +19 weg → x = 30 − 19.",
+        "question": "Wat is 30 − 19?",
         "options": [
           {
             "id": "x",
-            "label": "4"
+            "label": "11"
           },
           {
             "id": "wrong",
-            "label": "6"
+            "label": "13"
           }
         ],
         "correctAnswer": "x",
-        "successFeedback": "Goed: x = 4.",
-        "retryFeedback": "Reken uit: 6 − 2."
+        "successFeedback": "Goed: x = 11.",
+        "retryFeedback": "Reken uit: 30 − 19."
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 2 = 6?",
+        "question": "Past je x-waarde in x + 19 = 30?",
         "options": [
           {
             "id": "yes",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. x = 4!",
-        "retryFeedback": "Reken na: x + 2 moet 6 zijn."
+        "successFeedback": "Perfect. x = 11!",
+        "retryFeedback": "Reken na: x + 19 moet 30 zijn."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 4"
+    "conclusion": "Pootafdruk! 🐾 x = 11"
   },
   "bonusVariants": [
     {
       "id": "mavo-2-c38-b1",
       "type": "number-input",
-      "question": "Los op: x + 4 = 8.",
-      "answer": 4,
+      "question": "Los op: x + 21 = 32.",
+      "answer": 11,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 8 − 4 = 4.",
-      "explanation": "x = 8 − 4 = 4."
+      "hint2": "x = 32 − 21 = 11.",
+      "explanation": "x = 32 − 21 = 11."
     },
     {
       "id": "mavo-2-c38-b2",
       "type": "number-input",
-      "question": "Los op: x + 2 = 11.",
-      "answer": 9,
+      "question": "Los op: x + 19 = 35.",
+      "answer": 16,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 11 − 2.",
-      "explanation": "x = 11 − 2."
+      "hint2": "x = 35 − 19.",
+      "explanation": "x = 35 − 19."
     }
   ]
 }

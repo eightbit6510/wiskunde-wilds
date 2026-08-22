@@ -39,13 +39,24 @@ export interface LevelBundle {
   helpPacks: GuidedHelpPack[];
 }
 
-function seed(level: ClassLevel, index: number): number {
+function seed(level: ClassLevel, index: number, salt = 0): number {
   let h = 0;
-  const s = `${level}-${index}`;
+  const s = `${level}-${index}-${salt}`;
   for (let i = 0; i < s.length; i += 1) {
     h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
   }
   return Math.abs(h);
+}
+
+function challengeQuestionKey(challenge: ChallengeDefinition): string {
+  const optionsKey = challenge.answerOptions?.map((option) => option.label).join('|') ?? '';
+  if (challenge.type === 'multi-select') {
+    return `${challenge.topic}|${challenge.question}|${(challenge.answers ?? []).join(',')}|${optionsKey}`;
+  }
+  if (challenge.type === 'multiple-choice') {
+    return `${challenge.topic}|${challenge.question}|${challenge.answer}|${optionsKey}`;
+  }
+  return `${challenge.topic}|${challenge.question}|${JSON.stringify(challenge.answer)}`;
 }
 
 function pick<T>(arr: T[], n: number): T {
@@ -180,25 +191,27 @@ function generateForTopic(
   challengeIndex: number,
   topic: Topic,
   difficulty: 1 | 2 | 3,
+  topicOccurrence: number,
+  salt = 0,
 ): { challenge: ChallengeDefinition; help: GuidedHelpPack } {
   const id = challengeIdForLevel(level, challengeIndex);
-  const s = seed(level, challengeIndex);
+  const s = seed(level, challengeIndex, salt);
   const yr = yearNum(level);
   const band = bandFor(level);
   const scale = band === 'basis' ? 1 : band === 'mavo' ? 1.5 : band === 'havo' ? 2 : 2.5;
-  const base = Math.max(2, Math.floor((s % 8) + 2 + yr * scale * 0.3));
+  const base = Math.max(2, Math.floor((s % 8) + 2 + yr * scale * 0.3 + topicOccurrence));
   const grade = basisGrade(level);
 
   if (grade === 6 || grade === 7) {
-    return generateBasisForTopic(level, grade, challengeIndex, topic, difficulty, s);
+    return generateBasisForTopic(level, grade, challengeIndex, topic, difficulty, s, topicOccurrence);
   }
 
   switch (topic) {
     case 'breuken': {
-      const n1 = (s % 5) + 1;
-      const d1 = (s % 4) + 2;
-      const n2 = ((s >> 3) % 4) + 1;
-      const d2 = ((s >> 5) % 3) + 2;
+      const n1 = ((s + topicOccurrence * 3 + salt) % 5) + 1;
+      const d1 = ((s + topicOccurrence * 2 + salt) % 4) + 2;
+      const n2 = ((s >> 3) + topicOccurrence + salt) % 4 + 1;
+      const d2 = ((s >> 5) + topicOccurrence + salt) % 3 + 2;
       const num = n1 * d2 + n2 * d1;
       const den = d1 * d2;
       const g = gcd(num, den);
@@ -237,8 +250,8 @@ function generateForTopic(
       return { challenge, help };
     }
     case 'vergelijkingen': {
-      const a = base;
-      const b = base + (s % 7) + 3;
+      const a = base + topicOccurrence + salt;
+      const b = a + (s % 7) + 3 + topicOccurrence;
       const x = b - a;
       const challenge: ChallengeDefinition = {
         id,
@@ -258,8 +271,8 @@ function generateForTopic(
       return { challenge, help };
     }
     case 'grafieken': {
-      const k = (s % 4) + 2;
-      const x = (s % 3) + 2;
+      const k = ((topicOccurrence * 5 + s + salt) % 9) + 2;
+      const x = ((topicOccurrence + s + salt) % 5) + 2;
       const y = k * x;
       const challenge: ChallengeDefinition = {
         id,
@@ -283,9 +296,9 @@ function generateForTopic(
       return { challenge, help };
     }
     case 'verbanden': {
-      const p1 = (s % 3) + 2;
-      const p2 = (s % 4) + 2;
-      const given = p1 * ((s % 3) + 2);
+      const p1 = ((topicOccurrence + s + salt) % 3) + 2;
+      const p2 = ((topicOccurrence + (s >> 2) + salt) % 4) + 2;
+      const given = p1 * (((topicOccurrence + s + salt) % 4) + 2);
       const other = (given / p1) * p2;
       const challenge: ChallengeDefinition = {
         id,
@@ -305,7 +318,11 @@ function generateForTopic(
       return { challenge, help };
     }
     case 'redeneren': {
-      const { challenge: redParts, help } = helpForRedeneren(id, difficulty, s);
+      const { challenge: redParts, help } = helpForRedeneren(
+        id,
+        difficulty,
+        topicOccurrence * 5 + s + salt,
+      );
       const challenge: ChallengeDefinition = {
         id,
         type: 'multi-select',
@@ -323,8 +340,8 @@ function generateForTopic(
       return { challenge, help };
     }
     case 'algebra': {
-      const c1 = (s % 4) + 2;
-      const c2 = ((s >> 2) % 4) + 2;
+      const c1 = ((topicOccurrence + s + salt) % 5) + 2;
+      const c2 = ((topicOccurrence + (s >> 2) + salt) % 5) + 2;
       const sum = c1 + c2;
       const challenge: ChallengeDefinition = {
         id,
@@ -348,8 +365,8 @@ function generateForTopic(
       return { challenge, help };
     }
     case 'formules': {
-      const l = base;
-      const b = (s % 5) + 3;
+      const l = base + topicOccurrence + salt;
+      const b = ((topicOccurrence + s + salt) % 5) + 3;
       const area = l * b;
       const challenge: ChallengeDefinition = {
         id,
@@ -368,8 +385,13 @@ function generateForTopic(
       return { challenge, help };
     }
     case 'machten': {
-      const exp = Math.min(4 + (yr % 3), 2 + difficulty + 1);
-      const baseNum = pick([2, 3, 5], s);
+      const bases = [2, 3, 5, 7];
+      const exponents = [2, 3, 4, 5];
+      const baseNum = bases[(topicOccurrence + s + salt) % bases.length];
+      const exp = Math.min(
+        exponents[(topicOccurrence + (s >> 2) + salt) % exponents.length],
+        2 + difficulty + 1,
+      );
       const answer = baseNum ** exp;
       const challenge: ChallengeDefinition = {
         id,
@@ -388,7 +410,8 @@ function generateForTopic(
       return { challenge, help };
     }
     case 'kwadratisch': {
-      const root = (s % 6) + 2;
+      const roots = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+      const root = roots[(topicOccurrence * 3 + s + salt) % roots.length];
       const sq = root * root;
       const challenge: ChallengeDefinition = {
         id,
@@ -407,7 +430,7 @@ function generateForTopic(
       return { challenge, help };
     }
     default: {
-      return generateForTopic(level, challengeIndex, 'algebra', difficulty);
+      return generateForTopic(level, challengeIndex, 'algebra', difficulty, topicOccurrence, salt);
     }
   }
 }
@@ -433,6 +456,8 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
   const helpPacks: GuidedHelpPack[] = [];
   const lessons: LessonShell[] = [];
   const lessonIds: string[] = [];
+  const usedQuestions = new Set<string>();
+  const topicOccurrence = new Map<Topic, number>();
 
   for (let li = 1; li <= LEVEL_LESSON_COUNT; li += 1) {
     const lessonId = lessonIdForLevel(level, li);
@@ -443,8 +468,33 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
     for (let slot = 0; slot < CHALLENGES_PER_LESSON; slot += 1) {
       const challengeIndex = (li - 1) * CHALLENGES_PER_LESSON + slot + 1;
       const topic = profile.topicsUnlocked[(challengeIndex - 1) % profile.topicsUnlocked.length];
+      const occurrence = topicOccurrence.get(topic) ?? 0;
+      topicOccurrence.set(topic, occurrence + 1);
       const difficulty = difficultyFor(level, li, slot);
-      const { challenge, help } = generateForTopic(level, challengeIndex, topic, difficulty);
+
+      let challenge: ChallengeDefinition | undefined;
+      let help: GuidedHelpPack | undefined;
+      for (let salt = 0; salt < 64; salt += 1) {
+        const generated = generateForTopic(
+          level,
+          challengeIndex,
+          topic,
+          difficulty,
+          occurrence,
+          salt,
+        );
+        const key = challengeQuestionKey(generated.challenge);
+        if (!usedQuestions.has(key)) {
+          usedQuestions.add(key);
+          challenge = generated.challenge;
+          help = generated.help;
+          break;
+        }
+      }
+      if (!challenge || !help) {
+        throw new Error(`Could not generate unique question for ${level} #${challengeIndex} (${topic})`);
+      }
+
       const helpIssues = validateHelpPack(help, difficulty);
       if (helpIssues.length) {
         throw new Error(`Help validation failed for ${challenge.id}: ${helpIssues.join('; ')}`);

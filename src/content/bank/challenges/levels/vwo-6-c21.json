@@ -4,11 +4,11 @@
   "topic": "kwadratisch",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x² = 49 (x positief). Wat is x?",
-  "answer": 7,
-  "hint1": "Welk positief getal keer zichzelf geeft 49?",
-  "hint2": "7 × 7 = 49",
-  "explanation": "x² = 49 → x = 7 (positief).",
+  "question": "Los op: x² = 81 (x positief). Wat is x?",
+  "answer": 9,
+  "hint1": "Welk positief getal keer zichzelf geeft 81?",
+  "hint2": "9 × 9 = 81",
+  "explanation": "x² = 81 → x = 9 (positief).",
   "classLevels": [
     "vwo-6"
   ]

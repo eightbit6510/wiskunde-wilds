@@ -4,12 +4,12 @@
   "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "1 potlood kost 4 euro. Wat kosten 4 potloden?",
+  "question": "1 snoepje kost 5 euro. Wat kosten 3 snoepjes?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "16 euro"
+      "label": "15 euro"
     },
     {
       "id": "b",
@@ -17,12 +17,12 @@
     },
     {
       "id": "c",
-      "label": "15 euro"
+      "label": "14 euro"
     }
   ],
-  "hint1": "Elke potlood kost 4 euro — tel dat 4 keer op.",
-  "hint2": "4 × 4 = 16",
-  "explanation": "4 × 4 euro = 16 euro",
+  "hint1": "Elke snoepje kost 5 euro — tel dat 3 keer op.",
+  "hint2": "3 × 5 = 15",
+  "explanation": "3 × 5 euro = 15 euro",
   "classLevels": [
     "groep-6"
   ]

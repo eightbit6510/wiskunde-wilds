@@ -4,11 +4,11 @@
   "topic": "machten",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Bereken: 5^4",
-  "answer": 625,
-  "hint1": "5 × 5 × …",
-  "hint2": "Vermenigvuldig 5 4 keer met zichzelf.",
-  "explanation": "5^4 = 625",
+  "question": "Bereken: 2^2",
+  "answer": 4,
+  "hint1": "2 × 2",
+  "hint2": "Vermenigvuldig 2 2 keer met zichzelf.",
+  "explanation": "2^2 = 4",
   "classLevels": [
     "vwo-5"
   ]

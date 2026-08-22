@@ -4,12 +4,12 @@
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 4/5 + 1/4? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 1.05,
+  "question": "Wat is 5/2 + 3/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 4,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "4/5 + 1/4 = 21/20",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 20.",
-  "explanation": "4/5 + 1/4 = 21/20 = 1.05",
+  "hint2": "5/2 + 3/2 = 4/1",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 4.",
+  "explanation": "5/2 + 3/2 = 4/1 = 4",
   "classLevels": [
     "mavo-4"
   ]

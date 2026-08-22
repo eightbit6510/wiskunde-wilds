@@ -4,12 +4,12 @@
   "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 4 = 13. Wat is x?",
+  "question": "Los op: x + 17 = 26. Wat is x?",
   "answer": 9,
-  "hint1": "Haal 4 naar de andere kant: x = 13 − 4.",
-  "hint2": "x = 13 − 4",
-  "optionalWorkedFirstStep": "x + 4 = 13 → x = 13 − 4",
-  "explanation": "x + 4 = 13\nx = 13 − 4 = 9",
+  "hint1": "Haal 17 naar de andere kant: x = 26 − 17.",
+  "hint2": "x = 26 − 17",
+  "optionalWorkedFirstStep": "x + 17 = 26 → x = 26 − 17",
+  "explanation": "x + 17 = 26\nx = 26 − 17 = 9",
   "classLevels": [
     "vwo-3"
   ]

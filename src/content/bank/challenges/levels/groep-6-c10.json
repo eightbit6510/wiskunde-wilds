@@ -4,11 +4,11 @@
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 2 rode snoepjes horen 2 blauwe. Je hebt 4 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 4,
-  "hint1": "Deel 4 door 2.",
-  "hint2": "Dat getal × 2 = 4.",
-  "explanation": "4 ÷ 2 = 2.\n2 × 2 = 4.",
+  "question": "Voor elke 2 rode kaarten horen 3 blauwe. Je hebt 6 rode. Hoeveel blauwe horen daarbij?",
+  "answer": 9,
+  "hint1": "Deel 6 door 2.",
+  "hint2": "Dat getal × 3 = 9.",
+  "explanation": "6 ÷ 2 = 3.\n3 × 3 = 9.",
   "classLevels": [
     "groep-6"
   ]

@@ -22,25 +22,25 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Bij optellen: van −3 naar rechts.",
-        "question": "Wat is −3 + 5?",
+        "explanation": "Deelbaar = exact delen zonder rest.",
+        "question": "Is 12 deelbaar door 3?",
         "options": [
           {
-            "id": "2",
-            "label": "2"
+            "id": "yes",
+            "label": "Ja, 12÷3=4"
           },
           {
-            "id": "m8",
-            "label": "−8"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "2",
+        "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "−3+5=2."
+        "retryFeedback": "12÷3=4."
       },
       {
-        "explanation": "B zegt −3+5=−8.",
-        "question": "Klopt B?",
+        "explanation": "Check B: 12÷5.",
+        "question": "12÷5 = 2 rest 2. Klopt B?",
         "options": [
           {
             "id": "yes",
@@ -53,28 +53,28 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Je gaat omhoog, niet verder omlaag."
+        "retryFeedback": "Geen rest = deelbaar."
       },
       {
-        "explanation": "C: 4 − 7. Onder nul.",
-        "question": "Wat is 4 − 7?",
+        "explanation": "Check C: 15÷3.",
+        "question": "Is 15 deelbaar door 3?",
         "options": [
           {
-            "id": "m3",
-            "label": "−3"
+            "id": "yes",
+            "label": "Ja, 15÷3=5"
           },
           {
-            "id": "3",
-            "label": "3"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "m3",
+        "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "4−7=−3."
+        "retryFeedback": "15÷3=5."
       },
       {
         "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
+        "question": "Kies alles wat klopt.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "cd",
-            "label": "C en D"
+            "id": "bd",
+            "label": "B en D"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "retryFeedback": "Alleen A en C."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,40 +100,40 @@
     {
       "id": "mavo-1-c12-b1",
       "type": "multiple-choice",
-      "question": "−5 + 8 = ?",
+      "question": "Is 18 deelbaar door 3?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "3"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "−3"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "−5+8=3.",
-      "explanation": "−5+8=3."
+      "hint2": "18÷3=6.",
+      "explanation": "18÷3=6."
     },
     {
       "id": "mavo-1-c12-b2",
       "type": "multiple-choice",
-      "question": "2 − 6 = ?",
+      "question": "Is 14 deelbaar door 4?",
       "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "4"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "−4"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2−6=−4.",
-      "explanation": "2−6=−4."
+      "hint2": "14÷4=3 rest 2.",
+      "explanation": "14÷4=3 rest 2."
     }
   ]
 }

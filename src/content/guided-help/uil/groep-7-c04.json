@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c04",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij snoepjes geldt: voor elke 3 horen 3. Zoek eerst hoe vaak 3 in 9 past.",
+    "intro": "Bij kaarten geldt: voor elke 4 horen 4. Zoek eerst hoe vaak 4 in 12 past.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Bij snoepjes: 3 horen bij 3, nu 9 gegeven"
+            "label": "Bij kaarten: 4 horen bij 4, nu 12 gegeven"
           },
           {
             "id": "wrong",
-            "label": "3 en 3 gewoon bij elkaar optellen"
+            "label": "4 en 4 gewoon bij elkaar optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 3:3 betekent steeds dezelfde verhouding.\n\nEerst deel je 9 door 3.",
-        "question": "Hoeveel keer past 3 in 9?",
+        "explanation": "Stap 2: verhouding 4:4 betekent steeds dezelfde verhouding.\n\nEerst deel je 12 door 4.",
+        "question": "Hoeveel keer past 4 in 12?",
         "options": [
           {
             "id": "f",
@@ -36,28 +36,28 @@
         ],
         "correctAnswer": "f",
         "successFeedback": "Goed — dat is 3 keer.",
-        "retryFeedback": "Deel 9 door 3."
+        "retryFeedback": "Deel 12 door 4."
       },
       {
-        "explanation": "Stap 3: vermenigvuldig met 3.",
-        "question": "3 × 3 = ?",
+        "explanation": "Stap 3: vermenigvuldig met 4.",
+        "question": "3 × 4 = ?",
         "options": [
           {
             "id": "o",
-            "label": "9"
+            "label": "12"
           },
           {
             "id": "w",
-            "label": "12"
+            "label": "16"
           }
         ],
         "correctAnswer": "o",
-        "successFeedback": "Klopt: 9.",
-        "retryFeedback": "Vermenigvuldig je schaalfactor met 3."
+        "successFeedback": "Klopt: 12.",
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 4."
       },
       {
         "explanation": "Stap 4: controle.",
-        "question": "Klopt 9:9 = 3:3?",
+        "question": "Klopt 12:12 = 4:4?",
         "options": [
           {
             "id": "yes",
@@ -69,18 +69,18 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Super! Antwoord = 9.",
+        "successFeedback": "Super! Antwoord = 12.",
         "retryFeedback": "Deel eerst, dan vermenigvuldig."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Het antwoord is 9."
+    "conclusion": "Pootafdruk! 🐾 Het antwoord is 12."
   },
   "bonusVariants": [
     {
       "id": "groep-7-c04-b1",
       "type": "number-input",
-      "question": "snoepjes: 3:3, eerste = 12. Tweede?",
-      "answer": 12,
+      "question": "kaarten: 4:4, eerste = 16. Tweede?",
+      "answer": 16,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde stap: delen en vermenigvuldigen.",
       "explanation": "Zelfde stap: delen en vermenigvuldigen."
@@ -88,11 +88,11 @@
     {
       "id": "groep-7-c04-b2",
       "type": "number-input",
-      "question": "snoepjes: eerste = 9. Tweede?",
-      "answer": 9,
+      "question": "kaarten: eerste = 12. Tweede?",
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "9 ÷ 3 × 3.",
-      "explanation": "9 ÷ 3 × 3."
+      "hint2": "12 ÷ 4 × 4.",
+      "explanation": "12 ÷ 4 × 4."
     }
   ]
 }

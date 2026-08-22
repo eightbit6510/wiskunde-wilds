@@ -4,12 +4,12 @@
   "topic": "vergelijkingen",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Los op: x + 4 = 7. Wat is x?",
-  "answer": 3,
-  "hint1": "Haal 4 naar de andere kant: x = 7 − 4.",
-  "hint2": "x = 7 − 4",
-  "optionalWorkedFirstStep": "x + 4 = 7 → x = 7 − 4",
-  "explanation": "x + 4 = 7\nx = 7 − 4 = 3",
+  "question": "Los op: x + 15 = 21. Wat is x?",
+  "answer": 6,
+  "hint1": "Haal 15 naar de andere kant: x = 21 − 15.",
+  "hint2": "x = 21 − 15",
+  "optionalWorkedFirstStep": "x + 15 = 21 → x = 21 − 15",
+  "explanation": "x + 15 = 21\nx = 21 − 15 = 6",
   "classLevels": [
     "mavo-4"
   ]

@@ -4,11 +4,11 @@
   "topic": "machten",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Bereken: 2^6",
-  "answer": 64,
-  "hint1": "2 × 2 × …",
-  "hint2": "Vermenigvuldig 2 6 keer met zichzelf.",
-  "explanation": "2^6 = 64",
+  "question": "Bereken: 3^3",
+  "answer": 27,
+  "hint1": "3 × 3 × …",
+  "hint2": "Vermenigvuldig 3 3 keer met zichzelf.",
+  "explanation": "3^3 = 27",
   "classLevels": [
     "havo-5"
   ]

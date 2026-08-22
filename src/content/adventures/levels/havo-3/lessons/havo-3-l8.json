@@ -10,17 +10,17 @@
   "placements": [
     {
       "challengeId": "havo-3-c36",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "Nog één stap — jij kunt dit.",
       "sortOrder": 0
     },
     {
       "challengeId": "havo-3-c37",
-      "optionalStory": "Nog één stap — jij kunt dit.",
+      "optionalStory": "Kijk goed naar wat gegeven is.",
       "sortOrder": 1
     },
     {
       "challengeId": "havo-3-c38",
-      "optionalStory": "Op het pad ligt een raadsel te wachten.",
+      "optionalStory": "Welke strategie past hier?",
       "sortOrder": 2
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "challengeId": "havo-3-c40",
-      "optionalStory": "Kijk goed naar wat gegeven is.",
+      "optionalStory": "Nog één stap — jij kunt dit.",
       "sortOrder": 4
     }
   ]

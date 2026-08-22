@@ -4,11 +4,11 @@
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Reken uit: 6 + 6 + 6 + 6 + … (5 keer 6). Wat is het antwoord?",
-  "answer": 30,
-  "hint1": "5 keer 6 is hetzelfde als 5 × 6.",
-  "hint2": "5 × 6 = 30",
-  "explanation": "5 × 6 = 30",
+  "question": "Reken uit: 3 + 3 (2 keer 3). Wat is het antwoord?",
+  "answer": 6,
+  "hint1": "2 keer 3 is hetzelfde als 2 × 3.",
+  "hint2": "2 × 3 = 6",
+  "explanation": "2 × 3 = 6",
   "classLevels": [
     "groep-6"
   ]

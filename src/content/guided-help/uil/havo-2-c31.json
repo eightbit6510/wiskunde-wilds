@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "2x + 5x vereenvoudigen"
+            "label": "3x + 4x vereenvoudigen"
           },
           {
             "id": "wrong",
-            "label": "De getallen 2 en 5 vermenigvuldigen"
+            "label": "De getallen 3 en 4 vermenigvuldigen"
           }
         ],
         "correctAnswer": "task",
@@ -23,7 +23,7 @@
       },
       {
         "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
-        "question": "Kun je 2x en 5x optellen?",
+        "question": "Kun je 3x en 4x optellen?",
         "options": [
           {
             "id": "yes",
@@ -39,8 +39,8 @@
         "retryFeedback": "Kijk naar de letter: beide hebben x."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 2 + 5.",
-        "question": "Wat is 2x + 5x?",
+        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 3 + 4.",
+        "question": "Wat is 3x + 4x?",
         "options": [
           {
             "id": "a",
@@ -48,12 +48,12 @@
           },
           {
             "id": "b",
-            "label": "10x"
+            "label": "12x"
           }
         ],
         "correctAnswer": "a",
         "successFeedback": "Juist: 7x.",
-        "retryFeedback": "Tel 2 en 5 op; x blijft staan."
+        "retryFeedback": "Tel 3 en 4 op; x blijft staan."
       },
       {
         "explanation": "Stap 4: kies het juiste antwoord in de som.",
@@ -70,16 +70,16 @@
         ],
         "correctAnswer": "a",
         "successFeedback": "Precies — antwoord A: 7x.",
-        "retryFeedback": "2x + 5x = (2+5)x."
+        "retryFeedback": "3x + 4x = (3+4)x."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2x + 5x = 7x"
+    "conclusion": "Pootafdruk! 🐾 3x + 4x = 7x"
   },
   "bonusVariants": [
     {
       "id": "havo-2-c31-b1",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 3x + 5x",
+      "question": "Vereenvoudig: 4x + 4x",
       "answer": "a",
       "answerOptions": [
         {
@@ -92,13 +92,13 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 3 + 5.",
-      "explanation": "Tel 3 + 5."
+      "hint2": "Tel 4 + 4.",
+      "explanation": "Tel 4 + 4."
     },
     {
       "id": "havo-2-c31-b2",
       "type": "multiple-choice",
-      "question": "Vereenvoudig: 2x + 6x",
+      "question": "Vereenvoudig: 3x + 5x",
       "answer": "a",
       "answerOptions": [
         {
@@ -111,8 +111,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 2 + 6.",
-      "explanation": "Tel 2 + 6."
+      "hint2": "Tel 3 + 5.",
+      "explanation": "Tel 3 + 5."
     }
   ]
 }

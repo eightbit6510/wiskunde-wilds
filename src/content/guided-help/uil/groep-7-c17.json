@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Deelbaar = exact delen zonder rest.",
-        "question": "Is 12 deelbaar door 3?",
+        "explanation": "Parallellogram: tegenover elkaar.",
+        "question": "Tegenoverliggende zijden even lang?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 12÷3=4"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "12÷3=4."
+        "retryFeedback": "Eigenschap parallellogram."
       },
       {
-        "explanation": "Check B: 12÷5.",
-        "question": "12÷5 = 2 rest 2. Klopt B?",
+        "explanation": "B: alle zijden even lang?",
+        "question": "Geldt dat voor elk parallellogram?",
         "options": [
           {
             "id": "yes",
@@ -53,15 +53,15 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Geen rest = deelbaar."
+        "retryFeedback": "Alleen ruit/vierkant."
       },
       {
-        "explanation": "Check C: 15÷3.",
-        "question": "Is 15 deelbaar door 3?",
+        "explanation": "C: ruit.",
+        "question": "Heeft een ruit vier gelijke zijden?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 15÷3=5"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -70,11 +70,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "15÷3=5."
+        "retryFeedback": "Ruit = 4 gelijke zijden."
       },
       {
         "explanation": "Welke zijn waar?",
-        "question": "Kies alles wat klopt.",
+        "question": "Kies alles.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "bd",
-            "label": "B en D"
+            "id": "cd",
+            "label": "C en D"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "Alleen A en C."
+        "retryFeedback": "B en D niet."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,7 +100,7 @@
     {
       "id": "groep-7-c17-b1",
       "type": "multiple-choice",
-      "question": "Is 18 deelbaar door 3?",
+      "question": "Vierkant is een ruit?",
       "answer": "a",
       "answerOptions": [
         {
@@ -113,13 +113,13 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "18÷3=6.",
-      "explanation": "18÷3=6."
+      "hint2": "Vierkant is speciale ruit.",
+      "explanation": "Vierkant is speciale ruit."
     },
     {
       "id": "groep-7-c17-b2",
       "type": "multiple-choice",
-      "question": "Is 14 deelbaar door 4?",
+      "question": "Ruit altijd rechte hoeken?",
       "answer": "b",
       "answerOptions": [
         {
@@ -132,8 +132,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "14÷4=3 rest 2.",
-      "explanation": "14÷4=3 rest 2."
+      "hint2": "Alleen vierkant heeft rechte hoeken.",
+      "explanation": "Alleen vierkant heeft rechte hoeken."
     }
   ]
 }

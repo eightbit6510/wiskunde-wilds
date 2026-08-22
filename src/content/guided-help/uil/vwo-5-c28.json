@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "5^6 uitrekenen"
+            "label": "5^3 uitrekenen"
           },
           {
             "id": "wrong",
-            "label": "5 × 6 uitrekenen (dat is fout!)"
+            "label": "5 × 3 uitrekenen (dat is fout!)"
           }
         ],
         "correctAnswer": "task",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 5^6 = 5 vermenigvuldigd 6 keer.\n\nDe exponent 6 telt hoe vaak je vermenigvuldigt.",
+        "explanation": "Stap 2: 5^3 = 5 × 5 × 5.\n\nDe exponent 3 telt hoe vaak je vermenigvuldigt.",
         "question": "Wat betekent de exponent?",
         "options": [
           {
             "id": "repeat",
-            "label": "5 6 keer vermenigvuldigen"
+            "label": "5 3 keer vermenigvuldigen"
           },
           {
             "id": "times",
-            "label": "5 × 6"
+            "label": "5 × 3"
           }
         ],
         "correctAnswer": "repeat",
@@ -39,48 +39,48 @@
         "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
       },
       {
-        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 5 × 5, vermenigvuldig daarna verder tot je 6 keer hebt.",
-        "question": "Wat is 5^6?",
+        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 5 × 5, vermenigvuldig daarna verder tot je 3 keer hebt.",
+        "question": "Wat is 5^3?",
         "options": [
           {
             "id": "a",
-            "label": "15625"
+            "label": "125"
           },
           {
             "id": "b",
-            "label": "30"
+            "label": "15"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Goed: 5^6 = 15625.",
-        "retryFeedback": "Niet 5×6, maar herhaald vermenigvuldigen."
+        "successFeedback": "Goed: 5^3 = 125.",
+        "retryFeedback": "Niet 5×3, maar herhaald vermenigvuldigen."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. 5^6 = 5 vermenigvuldigd 6 keer\n2. Niet 5×6\n3. Antwoord: 15625",
-        "question": "Bevestig: 5^6 = ?",
+        "explanation": "Stappenplan voor dit type som:\n1. 5^3 = 5 × 5 × 5\n2. Niet 5×3\n3. Antwoord: 125",
+        "question": "Bevestig: 5^3 = ?",
         "options": [
           {
             "id": "a",
-            "label": "15625"
+            "label": "125"
           },
           {
             "id": "b",
-            "label": "15630"
+            "label": "130"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! 5^6 = 15625.",
+        "successFeedback": "Klopt! 5^3 = 125.",
         "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5^6 = 15625"
+    "conclusion": "Pootafdruk! 🐾 5^3 = 125"
   },
   "bonusVariants": [
     {
       "id": "vwo-5-c28-b1",
       "type": "number-input",
-      "question": "Bereken: 5^7",
-      "answer": 78125,
+      "question": "Bereken: 5^4",
+      "answer": 625,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Nog ×5.",
       "explanation": "Nog ×5."
@@ -88,11 +88,11 @@
     {
       "id": "vwo-5-c28-b2",
       "type": "number-input",
-      "question": "Bereken: 5^6",
-      "answer": 15625,
+      "question": "Bereken: 5^3",
+      "answer": 125,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "5^6 = 15625.",
-      "explanation": "5^6 = 15625."
+      "hint2": "5^3 = 125.",
+      "explanation": "5^3 = 125."
     }
   ]
 }

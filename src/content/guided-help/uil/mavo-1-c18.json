@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Deelbaar = exact delen zonder rest.",
-        "question": "Is 12 deelbaar door 3?",
+        "explanation": "Uitspraak A: vierkant.",
+        "question": "Heeft een vierkant vier gelijke zijden?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 12÷3=4"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "12÷3=4."
+        "retryFeedback": "Alle zijden even lang."
       },
       {
-        "explanation": "Check B: 12÷5.",
-        "question": "12÷5 = 2 rest 2. Klopt B?",
+        "explanation": "Uitspraak B: elke rechthoek is vierkant.",
+        "question": "Klopt B?",
         "options": [
           {
             "id": "yes",
@@ -53,15 +53,15 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Geen rest = deelbaar."
+        "retryFeedback": "Rechthoek hoeft geen vierkant."
       },
       {
-        "explanation": "Check C: 15÷3.",
-        "question": "Is 15 deelbaar door 3?",
+        "explanation": "Uitspraak C: hoekensom driehoek.",
+        "question": "Is de som van hoeken in een driehoek 180°?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 15÷3=5"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -70,10 +70,10 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "15÷3=5."
+        "retryFeedback": "Driehoek = altijd 180°."
       },
       {
-        "explanation": "Welke zijn waar?",
+        "explanation": "Welke uitspraken zijn waar?",
         "question": "Kies alles wat klopt.",
         "options": [
           {
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "bd",
-            "label": "B en D"
+            "id": "all",
+            "label": "Allemaal"
           }
         ],
         "correctAnswer": "ac",
-        "successFeedback": "A en C kloppen.",
-        "retryFeedback": "Alleen A en C."
+        "successFeedback": "Precies: A en C.",
+        "retryFeedback": "B en D kloppen niet."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,7 +100,30 @@
     {
       "id": "mavo-1-c18-b1",
       "type": "multiple-choice",
-      "question": "Is 18 deelbaar door 3?",
+      "question": "Welke uitspraak is waar?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Alle driehoeken zijn gelijk"
+        },
+        {
+          "id": "b",
+          "label": "Een driehoek heeft drie hoeken"
+        },
+        {
+          "id": "c",
+          "label": "Een cirkel is een veelhoek"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Driehoek heeft drie hoeken.",
+      "explanation": "Driehoek heeft drie hoeken."
+    },
+    {
+      "id": "mavo-1-c18-b2",
+      "type": "multiple-choice",
+      "question": "Is een vierkant een rechthoek?",
       "answer": "a",
       "answerOptions": [
         {
@@ -113,27 +136,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "18÷3=6.",
-      "explanation": "18÷3=6."
-    },
-    {
-      "id": "mavo-1-c18-b2",
-      "type": "multiple-choice",
-      "question": "Is 14 deelbaar door 4?",
-      "answer": "b",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Ja"
-        },
-        {
-          "id": "b",
-          "label": "Nee"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "14÷4=3 rest 2.",
-      "explanation": "14÷4=3 rest 2."
+      "hint2": "Vierkant is een rechthoek met 4 gelijke zijden.",
+      "explanation": "Vierkant is een rechthoek met 4 gelijke zijden."
     }
   ]
 }

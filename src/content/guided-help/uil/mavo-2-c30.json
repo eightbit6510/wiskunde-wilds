@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Uitspraak A: vierkant.",
-        "question": "Heeft een vierkant vier gelijke zijden?",
+        "explanation": "Veelvoud = keer tafel.",
+        "question": "Is 6 = 2 × 3?",
         "options": [
           {
             "id": "yes",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "Alle zijden even lang."
+        "retryFeedback": "6 is veelvoud van 3."
       },
       {
-        "explanation": "Uitspraak B: elke rechthoek is vierkant.",
-        "question": "Klopt B?",
+        "explanation": "B: 6 veelvoud van 4?",
+        "question": "6÷4 exact?",
         "options": [
           {
             "id": "yes",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Rechthoek hoeft geen vierkant."
+        "retryFeedback": "6÷4 gaat niet exact."
       },
       {
-        "explanation": "Uitspraak C: hoekensom driehoek.",
-        "question": "Is de som van hoeken in een driehoek 180°?",
+        "explanation": "C: 15 veelvoud van 5?",
+        "question": "15÷5 = 3?",
         "options": [
           {
             "id": "yes",
@@ -70,11 +70,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Driehoek = altijd 180°."
+        "retryFeedback": "15=3×5."
       },
       {
-        "explanation": "Welke uitspraken zijn waar?",
-        "question": "Kies alles wat klopt.",
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "all",
-            "label": "Allemaal"
+            "id": "cd",
+            "label": "C en D"
           }
         ],
         "correctAnswer": "ac",
-        "successFeedback": "Precies: A en C.",
-        "retryFeedback": "B en D kloppen niet."
+        "successFeedback": "A en C kloppen.",
+        "retryFeedback": "B en D niet."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,30 +100,7 @@
     {
       "id": "mavo-2-c30-b1",
       "type": "multiple-choice",
-      "question": "Welke uitspraak is waar?",
-      "answer": "b",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Alle driehoeken zijn gelijk"
-        },
-        {
-          "id": "b",
-          "label": "Een driehoek heeft drie hoeken"
-        },
-        {
-          "id": "c",
-          "label": "Een cirkel is een veelhoek"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Driehoek heeft drie hoeken.",
-      "explanation": "Driehoek heeft drie hoeken."
-    },
-    {
-      "id": "mavo-2-c30-b2",
-      "type": "multiple-choice",
-      "question": "Is een vierkant een rechthoek?",
+      "question": "8 veelvoud van 2?",
       "answer": "a",
       "answerOptions": [
         {
@@ -136,8 +113,27 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Vierkant is een rechthoek met 4 gelijke zijden.",
-      "explanation": "Vierkant is een rechthoek met 4 gelijke zijden."
+      "hint2": "8=4×2.",
+      "explanation": "8=4×2."
+    },
+    {
+      "id": "mavo-2-c30-b2",
+      "type": "multiple-choice",
+      "question": "10 veelvoud van 3?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "10÷3 niet exact.",
+      "explanation": "10÷3 niet exact."
     }
   ]
 }

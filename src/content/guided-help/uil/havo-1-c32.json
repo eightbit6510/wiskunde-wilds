@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 4 = 13"
+            "label": "x zoeken in x + 13 = 22"
           },
           {
             "id": "wrong",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +4 weg is.\n\nWat doe je met +4?",
-        "question": "Hoe haal je +4 weg?",
+        "explanation": "Stap 2: x staat alleen links als +13 weg is.\n\nWat doe je met +13?",
+        "question": "Hoe haal je +13 weg?",
         "options": [
           {
             "id": "sub",
-            "label": "4 aftrekken aan beide kanten"
+            "label": "13 aftrekken aan beide kanten"
           },
           {
             "id": "add",
-            "label": "4 optellen"
+            "label": "13 optellen"
           }
         ],
         "correctAnswer": "sub",
@@ -39,8 +39,8 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 4 = 13. Haal +4 weg → x = 13 − 4.",
-        "question": "Wat is 13 − 4?",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 13 = 22. Haal +13 weg → x = 22 − 13.",
+        "question": "Wat is 22 − 13?",
         "options": [
           {
             "id": "x",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "x",
         "successFeedback": "Goed: x = 9.",
-        "retryFeedback": "Reken uit: 13 − 4."
+        "retryFeedback": "Reken uit: 22 − 13."
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 4 = 13?",
+        "question": "Past je x-waarde in x + 13 = 22?",
         "options": [
           {
             "id": "yes",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 9!",
-        "retryFeedback": "Reken na: x + 4 moet 13 zijn."
+        "retryFeedback": "Reken na: x + 13 moet 22 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 9"
@@ -79,20 +79,20 @@
     {
       "id": "havo-1-c32-b1",
       "type": "number-input",
-      "question": "Los op: x + 6 = 15.",
+      "question": "Los op: x + 15 = 24.",
       "answer": 9,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 15 − 6 = 9.",
-      "explanation": "x = 15 − 6 = 9."
+      "hint2": "x = 24 − 15 = 9.",
+      "explanation": "x = 24 − 15 = 9."
     },
     {
       "id": "havo-1-c32-b2",
       "type": "number-input",
-      "question": "Los op: x + 4 = 18.",
+      "question": "Los op: x + 13 = 27.",
       "answer": 14,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 18 − 4.",
-      "explanation": "x = 18 − 4."
+      "hint2": "x = 27 − 13.",
+      "explanation": "x = 27 − 13."
     }
   ]
 }

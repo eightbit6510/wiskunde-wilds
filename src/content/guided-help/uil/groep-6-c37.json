@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c37",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We tellen 2/8 en 4/8 op. Beide stukken hebben dezelfde noemer — dat maakt het makkelijker.",
+    "intro": "We tellen 2/8 en 5/8 op. Beide stukken hebben dezelfde noemer — dat maakt het makkelijker.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "2/8 + 4/8 uitrekenen"
+            "label": "2/8 + 5/8 uitrekenen"
           },
           {
             "id": "wrong",
@@ -22,7 +22,7 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: kijk naar de noemer (onderste getal).\n\nBij 2/8 en 4/8 is die overal 8.",
+        "explanation": "Stap 2: kijk naar de noemer (onderste getal).\n\nBij 2/8 en 5/8 is die overal 8.",
         "question": "Hebben beide breuken dezelfde noemer?",
         "options": [
           {
@@ -39,41 +39,41 @@
         "retryFeedback": "Kijk onderaan de breuk: het getal onder de streep."
       },
       {
-        "explanation": "Stap 3: tel alleen de tellers op.\n\nTel 2 + 4. De noemer 8 blijft staan.",
-        "question": "Wat is 2/8 + 4/8?",
+        "explanation": "Stap 3: tel alleen de tellers op.\n\nTel 2 + 5. De noemer 8 blijft staan.",
+        "question": "Wat is 2/8 + 5/8?",
         "options": [
           {
             "id": "right",
-            "label": "3/4"
+            "label": "7/8"
           },
           {
             "id": "wrong",
-            "label": "3/8"
+            "label": "7/16"
           }
         ],
         "correctAnswer": "right",
-        "successFeedback": "Precies! Het antwoord is 3/4.",
-        "retryFeedback": "Tel 2 + 4 = 6. Noemer blijft 8."
+        "successFeedback": "Precies! Het antwoord is 7/8.",
+        "retryFeedback": "Tel 2 + 5 = 7. Noemer blijft 8."
       },
       {
         "explanation": "Stap 4: kies je antwoord in de som.",
-        "question": "Welke breuk is 2/8 + 4/8?",
+        "question": "Welke breuk is 2/8 + 5/8?",
         "options": [
           {
             "id": "right",
-            "label": "3/4"
+            "label": "7/8"
           },
           {
             "id": "wrong",
-            "label": "3/8"
+            "label": "7/16"
           }
         ],
         "correctAnswer": "right",
-        "successFeedback": "Super! 2/8 + 4/8 = 3/4.",
-        "retryFeedback": "Tel de bovenste getallen: 2 + 4."
+        "successFeedback": "Super! 2/8 + 5/8 = 7/8.",
+        "retryFeedback": "Tel de bovenste getallen: 2 + 5."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2/8 + 4/8 = 3/4"
+    "conclusion": "Pootafdruk! 🐾 2/8 + 5/8 = 7/8"
   },
   "bonusVariants": [
     {

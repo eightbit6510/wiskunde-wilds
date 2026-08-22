@@ -4,12 +4,12 @@
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 5/4 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 1.75,
+  "question": "Wat is 1/3 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 0.83,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "5/4 + 1/2 = 7/4",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
-  "explanation": "5/4 + 1/2 = 7/4 = 1.75",
+  "hint2": "1/3 + 1/2 = 5/6",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 6.",
+  "explanation": "1/3 + 1/2 = 5/6 = 0.83",
   "classLevels": [
     "havo-1"
   ]

@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "De omtrek van een vierkant met zijde 3 is 12"
+      "label": "12 is deelbaar door 3"
     },
     {
       "id": "b",
-      "label": "De omtrek van een vierkant met zijde 3 is 9"
+      "label": "12 is deelbaar door 5"
     },
     {
       "id": "c",
-      "label": "De oppervlakte van een rechthoek 4×5 is 20"
+      "label": "15 is deelbaar door 3"
     },
     {
       "id": "d",
-      "label": "De oppervlakte van 4×5 is 9"
+      "label": "10 is deelbaar door 4"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: omtrek 4×3=12. C: oppervlakte 4×5=20.",
+  "explanation": "A: 12÷3=4. C: 15÷3=5. B en D kloppen niet.",
   "classLevels": [
     "groep-8"
   ]

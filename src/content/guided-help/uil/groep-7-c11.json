@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Kilometer en meter.",
-        "question": "1 km = 1000 m?",
+        "explanation": "Vergelijk breuken.",
+        "question": "Is 1/2 groter dan 1/4?",
         "options": [
           {
             "id": "yes",
@@ -36,10 +36,10 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "kilo = duizend."
+        "retryFeedback": "Half > kwart."
       },
       {
-        "explanation": "B: 1 km = 100 m?",
+        "explanation": "B zegt 1/4 > 1/2.",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "1 km = 1000 m."
+        "retryFeedback": "Kwart < half."
       },
       {
-        "explanation": "Tijd: uur en minuten.",
-        "question": "1 uur = 60 min?",
+        "explanation": "D: is 3/4 > 1/2?",
+        "question": "Is 3/4 groter dan 1/2?",
         "options": [
           {
             "id": "yes",
@@ -69,16 +69,16 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "C is waar.",
-        "retryFeedback": "1 uur = 60 minuten."
+        "successFeedback": "D is waar.",
+        "retryFeedback": "3/4 = 0,75 > 0,5."
       },
       {
         "explanation": "Welke zijn waar?",
         "question": "Kies alles.",
         "options": [
           {
-            "id": "ac",
-            "label": "A en C"
+            "id": "ad",
+            "label": "A en D"
           },
           {
             "id": "ab",
@@ -89,51 +89,51 @@
             "label": "C en D"
           }
         ],
-        "correctAnswer": "ac",
-        "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "correctAnswer": "ad",
+        "successFeedback": "A en D kloppen.",
+        "retryFeedback": "B en C zijn omgekeerd."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+    "conclusion": "Pootafdruk! 🐾 A, D zijn waar."
   },
   "bonusVariants": [
     {
       "id": "groep-7-c11-b1",
       "type": "multiple-choice",
-      "question": "2 km = ? meter",
+      "question": "Groter: 2/3 of 1/2?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2000"
+          "label": "2/3"
         },
         {
           "id": "b",
-          "label": "200"
+          "label": "1/2"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2×1000=2000.",
-      "explanation": "2×1000=2000."
+      "hint2": "2/3 > 1/2.",
+      "explanation": "2/3 > 1/2."
     },
     {
       "id": "groep-7-c11-b2",
       "type": "multiple-choice",
-      "question": "30 min = ? uur",
-      "answer": "b",
+      "question": "Groter: 1/3 of 1/4?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1 uur"
+          "label": "1/3"
         },
         {
           "id": "b",
-          "label": "0,5 uur"
+          "label": "1/4"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "30 min = halve uur.",
-      "explanation": "30 min = halve uur."
+      "hint2": "1/3 > 1/4.",
+      "explanation": "1/3 > 1/4."
     }
   ]
 }

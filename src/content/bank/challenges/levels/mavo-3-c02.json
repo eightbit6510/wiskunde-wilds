@@ -4,12 +4,12 @@
   "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 3 = 6. Wat is x?",
-  "answer": 3,
-  "hint1": "Haal 3 naar de andere kant: x = 6 − 3.",
-  "hint2": "x = 6 − 3",
-  "optionalWorkedFirstStep": "x + 3 = 6 → x = 6 − 3",
-  "explanation": "x + 3 = 6\nx = 6 − 3 = 3",
+  "question": "Los op: x + 6 = 15. Wat is x?",
+  "answer": 9,
+  "hint1": "Haal 6 naar de andere kant: x = 15 − 6.",
+  "hint2": "x = 15 − 6",
+  "optionalWorkedFirstStep": "x + 6 = 15 → x = 15 − 6",
+  "explanation": "x + 6 = 15\nx = 15 − 6 = 9",
   "classLevels": [
     "mavo-3"
   ]

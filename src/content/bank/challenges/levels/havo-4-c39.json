@@ -4,11 +4,11 @@
   "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 70, lengte = 10. Wat is de breedte?",
-  "answer": 7,
+  "question": "Oppervlakte A = lengte × breedte. A = 105, lengte = 21. Wat is de breedte?",
+  "answer": 5,
   "hint1": "Deel A door lengte.",
-  "hint2": "b = 70 ÷ 10",
-  "explanation": "b = A ÷ l = 70 ÷ 10 = 7",
+  "hint2": "b = 105 ÷ 21",
+  "explanation": "b = A ÷ l = 105 ÷ 21 = 5",
   "classLevels": [
     "havo-4"
   ]

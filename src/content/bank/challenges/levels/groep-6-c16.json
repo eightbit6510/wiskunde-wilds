@@ -4,11 +4,11 @@
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 2 rode plakkers horen 2 blauwe. Je hebt 4 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 4,
+  "question": "Voor elke 2 rode kaarten horen 4 blauwe. Je hebt 4 rode. Hoeveel blauwe horen daarbij?",
+  "answer": 8,
   "hint1": "Deel 4 door 2.",
-  "hint2": "Dat getal × 2 = 4.",
-  "explanation": "4 ÷ 2 = 2.\n2 × 2 = 4.",
+  "hint2": "Dat getal × 4 = 8.",
+  "explanation": "4 ÷ 2 = 2.\n2 × 4 = 8.",
   "classLevels": [
     "groep-6"
   ]

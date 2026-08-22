@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 2:3"
+            "label": "Tweede deel vinden bij verhouding 3:3"
           },
           {
             "id": "wrong",
-            "label": "De getallen 2 en 3 direct optellen"
+            "label": "De getallen 3 en 3 direct optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 2:3 betekent steeds dezelfde factor.\n\nEerste deel = 4.",
-        "question": "Hoeveel keer past 2 in 4? (schaalfactor)",
+        "explanation": "Stap 2: verhouding 3:3 betekent steeds dezelfde factor.\n\nEerste deel = 6.",
+        "question": "Hoeveel keer past 3 in 6? (schaalfactor)",
         "options": [
           {
             "id": "f",
@@ -36,7 +36,7 @@
         ],
         "correctAnswer": "f",
         "successFeedback": "Goed — schaalfactor = 2.",
-        "retryFeedback": "Deel 4 door 2."
+        "retryFeedback": "Deel 6 door 3."
       },
       {
         "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controleer de verhouding.",
-        "question": "Klopt 4:6 = 2:3?",
+        "question": "Klopt 6:6 = 3:3?",
         "options": [
           {
             "id": "yes",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. Antwoord = 6.",
-        "retryFeedback": "Deel 4 door 2, vermenigvuldig met 3."
+        "retryFeedback": "Deel 6 door 3, vermenigvuldig met 3."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 6."
@@ -79,7 +79,7 @@
     {
       "id": "vwo-2-c29-b1",
       "type": "number-input",
-      "question": "Verhouding 2:3, eerste = 6. Tweede?",
+      "question": "Verhouding 3:3, eerste = 9. Tweede?",
       "answer": 9,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde schaalfactor.",
@@ -88,11 +88,11 @@
     {
       "id": "vwo-2-c29-b2",
       "type": "number-input",
-      "question": "Verhouding 2:3, eerste = 4. Tweede?",
+      "question": "Verhouding 3:3, eerste = 6. Tweede?",
       "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4 ÷ 2 × 3.",
-      "explanation": "4 ÷ 2 × 3."
+      "hint2": "6 ÷ 3 × 3.",
+      "explanation": "6 ÷ 3 × 3."
     }
   ]
 }

@@ -4,11 +4,11 @@
   "topic": "verbanden",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Verhouding 4:2. De eerste deelgroep is 16. Hoe groot is de tweede?",
-  "answer": 8,
-  "hint1": "Deel 16 door 4 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 2 = 8.",
-  "explanation": "16 ÷ 4 = 4.\n4 × 2 = 8.",
+  "question": "Verhouding 3:2. De eerste deelgroep is 6. Hoe groot is de tweede?",
+  "answer": 4,
+  "hint1": "Deel 6 door 3 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 2 = 4.",
+  "explanation": "6 ÷ 3 = 2.\n2 × 2 = 4.",
   "classLevels": [
     "vwo-3"
   ]

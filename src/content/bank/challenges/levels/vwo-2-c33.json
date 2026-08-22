@@ -4,11 +4,11 @@
   "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 35, lengte = 5. Wat is de breedte?",
+  "question": "Oppervlakte A = lengte × breedte. A = 126, lengte = 18. Wat is de breedte?",
   "answer": 7,
   "hint1": "Deel A door lengte.",
-  "hint2": "b = 35 ÷ 5",
-  "explanation": "b = A ÷ l = 35 ÷ 5 = 7",
+  "hint2": "b = 126 ÷ 18",
+  "explanation": "b = A ÷ l = 126 ÷ 18 = 7",
   "classLevels": [
     "vwo-2"
   ]

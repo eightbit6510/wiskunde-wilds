@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Kilometer en meter.",
-        "question": "1 km = 1000 m?",
+        "explanation": "Parallellogram: tegenover elkaar.",
+        "question": "Tegenoverliggende zijden even lang?",
         "options": [
           {
             "id": "yes",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "kilo = duizend."
+        "retryFeedback": "Eigenschap parallellogram."
       },
       {
-        "explanation": "B: 1 km = 100 m?",
-        "question": "Klopt B?",
+        "explanation": "B: alle zijden even lang?",
+        "question": "Geldt dat voor elk parallellogram?",
         "options": [
           {
             "id": "yes",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "1 km = 1000 m."
+        "retryFeedback": "Alleen ruit/vierkant."
       },
       {
-        "explanation": "Tijd: uur en minuten.",
-        "question": "1 uur = 60 min?",
+        "explanation": "C: ruit.",
+        "question": "Heeft een ruit vier gelijke zijden?",
         "options": [
           {
             "id": "yes",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "1 uur = 60 minuten."
+        "retryFeedback": "Ruit = 4 gelijke zijden."
       },
       {
         "explanation": "Welke zijn waar?",
@@ -100,40 +100,40 @@
     {
       "id": "vwo-5-c18-b1",
       "type": "multiple-choice",
-      "question": "2 km = ? meter",
+      "question": "Vierkant is een ruit?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2000"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "200"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2×1000=2000.",
-      "explanation": "2×1000=2000."
+      "hint2": "Vierkant is speciale ruit.",
+      "explanation": "Vierkant is speciale ruit."
     },
     {
       "id": "vwo-5-c18-b2",
       "type": "multiple-choice",
-      "question": "30 min = ? uur",
+      "question": "Ruit altijd rechte hoeken?",
       "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1 uur"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "0,5 uur"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "30 min = halve uur.",
-      "explanation": "30 min = halve uur."
+      "hint2": "Alleen vierkant heeft rechte hoeken.",
+      "explanation": "Alleen vierkant heeft rechte hoeken."
     }
   ]
 }

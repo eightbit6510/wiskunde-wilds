@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Breedte vinden (A=70, lengte=10)"
+            "label": "Breedte vinden (A=105, lengte=21)"
           },
           {
             "id": "wrong",
@@ -22,7 +22,7 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=70, lengte=10.",
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=105, lengte=21.",
         "question": "Welke grootte zoek je?",
         "options": [
           {
@@ -40,24 +40,24 @@
       },
       {
         "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
-        "question": "70 ÷ 10 = ?",
+        "question": "105 ÷ 21 = ?",
         "options": [
           {
             "id": "b",
-            "label": "7"
+            "label": "5"
           },
           {
             "id": "w",
-            "label": "8"
+            "label": "6"
           }
         ],
         "correctAnswer": "b",
-        "successFeedback": "Breedte = 7.",
-        "retryFeedback": "Deel 70 door 10."
+        "successFeedback": "Breedte = 5.",
+        "retryFeedback": "Deel 105 door 21."
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "Vermenigvuldig lengte 10 met je breedte-antwoord. Is het 70?",
+        "question": "Vermenigvuldig lengte 21 met je breedte-antwoord. Is het 105?",
         "options": [
           {
             "id": "yes",
@@ -69,18 +69,18 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed! Breedte = 7.",
-        "retryFeedback": "10 × 7 moet 70 zijn."
+        "successFeedback": "Goed! Breedte = 5.",
+        "retryFeedback": "21 × 5 moet 105 zijn."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 b = 7"
+    "conclusion": "Pootafdruk! 🐾 b = 5"
   },
   "bonusVariants": [
     {
       "id": "havo-4-c39-b1",
       "type": "number-input",
-      "question": "A = 80, l = 10. b = ?",
-      "answer": 8,
+      "question": "A = 126, l = 21. b = ?",
+      "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Deel oppervlakte door lengte.",
       "explanation": "Deel oppervlakte door lengte."
@@ -88,11 +88,11 @@
     {
       "id": "havo-4-c39-b2",
       "type": "number-input",
-      "question": "A = 70, l = 10. b = ?",
-      "answer": 7,
+      "question": "A = 105, l = 21. b = ?",
+      "answer": 5,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "b = 70 ÷ 10.",
-      "explanation": "b = 70 ÷ 10."
+      "hint2": "b = 105 ÷ 21.",
+      "explanation": "b = 105 ÷ 21."
     }
   ]
 }

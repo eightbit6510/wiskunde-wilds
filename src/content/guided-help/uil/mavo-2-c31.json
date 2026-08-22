@@ -2,7 +2,7 @@
   "challengeId": "mavo-2-c31",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We gaan 3/5 + 1/4 uitrekenen. Ik leg elke stap uit — jij hoeft alleen mee te denken.",
+    "intro": "We gaan 3/4 + 1/1 uitrekenen. Ik leg elke stap uit — jij hoeft alleen mee te denken.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "3/5 en 1/4 optellen (als kommagetal)"
+            "label": "3/4 en 1/1 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -22,65 +22,65 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: maak de noemers gelijk.\n\n3/5 en 1/4 hebben verschillende noemers.",
+        "explanation": "Stap 2: maak de noemers gelijk.\n\n3/4 en 1/1 hebben verschillende noemers.",
         "question": "Welke gemeenschappelijke noemer gebruiken we?",
         "options": [
           {
             "id": "yes",
-            "label": "20"
+            "label": "8"
           },
           {
             "id": "no",
-            "label": "21"
+            "label": "9"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed. Beide breuken krijgen noemer 20.",
+        "successFeedback": "Goed. Beide breuken krijgen noemer 8.",
         "retryFeedback": "Vermenigvuldig beide noemers — dat geeft een gemeenschappelijke noemer."
       },
       {
         "explanation": "Stap 3: tel de tellers op.\n\nNoemers zijn gelijk → alleen tellers optellen.",
-        "question": "Wat is 3/5 + 1/4 als breuk?",
+        "question": "Wat is 3/4 + 1/1 als breuk?",
         "options": [
           {
             "id": "right",
-            "label": "17/20"
+            "label": "7/4"
           },
           {
             "id": "wrong",
-            "label": "17/21"
+            "label": "7/5"
           }
         ],
         "correctAnswer": "right",
-        "successFeedback": "Precies: 17/20.",
+        "successFeedback": "Precies: 7/4.",
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 17/20 als kommagetal.\n\nDeel teller door noemer (17 ÷ 20).",
-        "question": "Wat is 17 ÷ 20?",
+        "explanation": "Stap 4: schrijf 7/4 als kommagetal.\n\nDeel teller door noemer (7 ÷ 4).",
+        "question": "Wat is 7 ÷ 4?",
         "options": [
           {
             "id": "a",
-            "label": "0.85"
+            "label": "1.75"
           },
           {
             "id": "b",
-            "label": "1.35"
+            "label": "2.25"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 0.85.",
-        "retryFeedback": "Reken: 17 ÷ 20."
+        "successFeedback": "Klopt! Het antwoord is 1.75.",
+        "retryFeedback": "Reken: 7 ÷ 4."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3/5 + 1/4 = 0.85"
+    "conclusion": "Pootafdruk! 🐾 3/4 + 1/1 = 1.75"
   },
   "bonusVariants": [
     {
       "id": "mavo-2-c31-b1",
       "type": "number-input",
-      "question": "Wat is 3/5 + 1/4? (kommagetal)",
-      "answer": 0.85,
+      "question": "Wat is 3/4 + 1/1? (kommagetal)",
+      "answer": 1.75,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

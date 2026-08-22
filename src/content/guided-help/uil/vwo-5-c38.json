@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 9 = 15"
+            "label": "x zoeken in x + 24 = 35"
           },
           {
             "id": "wrong",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +9 weg is.\n\nWat doe je met +9?",
-        "question": "Hoe haal je +9 weg?",
+        "explanation": "Stap 2: x staat alleen links als +24 weg is.\n\nWat doe je met +24?",
+        "question": "Hoe haal je +24 weg?",
         "options": [
           {
             "id": "sub",
-            "label": "9 aftrekken aan beide kanten"
+            "label": "24 aftrekken aan beide kanten"
           },
           {
             "id": "add",
-            "label": "9 optellen"
+            "label": "24 optellen"
           }
         ],
         "correctAnswer": "sub",
@@ -39,29 +39,29 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 9 = 15. Haal +9 weg → x = 15 − 9.",
-        "question": "Wat is 15 − 9?",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 24 = 35. Haal +24 weg → x = 35 − 24.",
+        "question": "Wat is 35 − 24?",
         "options": [
           {
             "id": "x",
-            "label": "6"
+            "label": "11"
           },
           {
             "id": "wrong",
-            "label": "8"
+            "label": "13"
           }
         ],
         "correctAnswer": "x",
-        "successFeedback": "Goed: x = 6.",
-        "retryFeedback": "Reken uit: 15 − 9."
+        "successFeedback": "Goed: x = 11.",
+        "retryFeedback": "Reken uit: 35 − 24."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. Constante (+9) naar de andere kant\n2. x = 15 − 9 = 6\n3. Controle: 6 + 9 = 15",
-        "question": "Controle: klopt x = 6?",
+        "explanation": "Stappenplan voor dit type som:\n1. Constante (+24) naar de andere kant\n2. x = 35 − 24 = 11\n3. Controle: 11 + 24 = 35",
+        "question": "Controle: klopt x = 11?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 6 + 9 = 15"
+            "label": "Ja, 11 + 24 = 35"
           },
           {
             "id": "no",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! x = 6 is het antwoord.",
+        "successFeedback": "Perfect! x = 11 is het antwoord.",
         "retryFeedback": "Volg het stappenplan stap voor stap."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 6"
+    "conclusion": "Pootafdruk! 🐾 x = 11"
   },
   "bonusVariants": [
     {
       "id": "vwo-5-c38-b1",
       "type": "number-input",
-      "question": "Los op: x + 11 = 17.",
-      "answer": 6,
+      "question": "Los op: x + 26 = 37.",
+      "answer": 11,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 17 − 11 = 6.",
-      "explanation": "x = 17 − 11 = 6."
+      "hint2": "x = 37 − 26 = 11.",
+      "explanation": "x = 37 − 26 = 11."
     },
     {
       "id": "vwo-5-c38-b2",
       "type": "number-input",
-      "question": "Los op: x + 9 = 20.",
-      "answer": 11,
+      "question": "Los op: x + 24 = 40.",
+      "answer": 16,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 20 − 9.",
-      "explanation": "x = 20 − 9."
+      "hint2": "x = 40 − 24.",
+      "explanation": "x = 40 − 24."
     }
   ]
 }

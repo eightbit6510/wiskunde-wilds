@@ -4,11 +4,11 @@
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 4 rode ballonnen horen 4 blauwe. Je hebt 16 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 16,
-  "hint1": "Deel 16 door 4.",
-  "hint2": "Dat getal × 4 = 16.",
-  "explanation": "16 ÷ 4 = 4.\n4 × 4 = 16.",
+  "question": "Voor elke 4 rode snoepjes horen 4 blauwe. Je hebt 8 rode. Hoeveel blauwe horen daarbij?",
+  "answer": 8,
+  "hint1": "Deel 8 door 4.",
+  "hint2": "Dat getal × 4 = 8.",
+  "explanation": "8 ÷ 4 = 2.\n2 × 4 = 8.",
   "classLevels": [
     "groep-7"
   ]

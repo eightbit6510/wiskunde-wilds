@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Even = deelbaar door 2.",
-        "question": "Is 0 deelbaar door 2?",
+        "explanation": "Veelvoud = keer tafel.",
+        "question": "Is 6 = 2 × 3?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 0÷2=0"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "0 is even."
+        "retryFeedback": "6 is veelvoud van 3."
       },
       {
-        "explanation": "B: 0 oneven?",
-        "question": "Klopt B?",
+        "explanation": "B: 6 veelvoud van 4?",
+        "question": "6÷4 exact?",
         "options": [
           {
             "id": "yes",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "0 is even, niet oneven."
+        "retryFeedback": "6÷4 gaat niet exact."
       },
       {
-        "explanation": "C: oneven+oneven. Bijv. 3+5=8.",
-        "question": "Is som van twee oneven getallen even?",
+        "explanation": "C: 15 veelvoud van 5?",
+        "question": "15÷5 = 3?",
         "options": [
           {
             "id": "yes",
@@ -70,23 +70,23 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Oneven+oneven=even."
+        "retryFeedback": "15=3×5."
       },
       {
         "explanation": "Welke zijn waar?",
-        "question": "Kies de juiste.",
+        "question": "Kies alles.",
         "options": [
           {
             "id": "ac",
             "label": "A en C"
           },
           {
-            "id": "bd",
-            "label": "B en D"
+            "id": "ab",
+            "label": "A en B"
           },
           {
-            "id": "ad",
-            "label": "A en D"
+            "id": "cd",
+            "label": "C en D"
           }
         ],
         "correctAnswer": "ac",
@@ -100,7 +100,7 @@
     {
       "id": "groep-7-c29-b1",
       "type": "multiple-choice",
-      "question": "Is 7 oneven?",
+      "question": "8 veelvoud van 2?",
       "answer": "a",
       "answerOptions": [
         {
@@ -113,27 +113,27 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "7 niet deelbaar door 2.",
-      "explanation": "7 niet deelbaar door 2."
+      "hint2": "8=4×2.",
+      "explanation": "8=4×2."
     },
     {
       "id": "groep-7-c29-b2",
       "type": "multiple-choice",
-      "question": "Is 4+6 even of oneven?",
-      "answer": "a",
+      "question": "10 veelvoud van 3?",
+      "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Even"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "Oneven"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "4+6=10, even.",
-      "explanation": "4+6=10, even."
+      "hint2": "10÷3 niet exact.",
+      "explanation": "10÷3 niet exact."
     }
   ]
 }

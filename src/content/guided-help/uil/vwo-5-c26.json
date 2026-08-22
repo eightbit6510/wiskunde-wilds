@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 8 = 16"
+            "label": "x zoeken in x + 19 = 32"
           },
           {
             "id": "wrong",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +8 weg is.\n\nWat doe je met +8?",
-        "question": "Hoe haal je +8 weg?",
+        "explanation": "Stap 2: x staat alleen links als +19 weg is.\n\nWat doe je met +19?",
+        "question": "Hoe haal je +19 weg?",
         "options": [
           {
             "id": "sub",
-            "label": "8 aftrekken aan beide kanten"
+            "label": "19 aftrekken aan beide kanten"
           },
           {
             "id": "add",
-            "label": "8 optellen"
+            "label": "19 optellen"
           }
         ],
         "correctAnswer": "sub",
@@ -39,25 +39,25 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 8 = 16. Haal +8 weg → x = 16 − 8.",
-        "question": "Wat is 16 − 8?",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 19 = 32. Haal +19 weg → x = 32 − 19.",
+        "question": "Wat is 32 − 19?",
         "options": [
           {
             "id": "x",
-            "label": "8"
+            "label": "13"
           },
           {
             "id": "wrong",
-            "label": "10"
+            "label": "15"
           }
         ],
         "correctAnswer": "x",
-        "successFeedback": "Goed: x = 8.",
-        "retryFeedback": "Reken uit: 16 − 8."
+        "successFeedback": "Goed: x = 13.",
+        "retryFeedback": "Reken uit: 32 − 19."
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 8 = 16?",
+        "question": "Past je x-waarde in x + 19 = 32?",
         "options": [
           {
             "id": "yes",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. x = 8!",
-        "retryFeedback": "Reken na: x + 8 moet 16 zijn."
+        "successFeedback": "Perfect. x = 13!",
+        "retryFeedback": "Reken na: x + 19 moet 32 zijn."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 8"
+    "conclusion": "Pootafdruk! 🐾 x = 13"
   },
   "bonusVariants": [
     {
       "id": "vwo-5-c26-b1",
       "type": "number-input",
-      "question": "Los op: x + 10 = 18.",
-      "answer": 8,
+      "question": "Los op: x + 21 = 34.",
+      "answer": 13,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 18 − 10 = 8.",
-      "explanation": "x = 18 − 10 = 8."
+      "hint2": "x = 34 − 21 = 13.",
+      "explanation": "x = 34 − 21 = 13."
     },
     {
       "id": "vwo-5-c26-b2",
       "type": "number-input",
-      "question": "Los op: x + 8 = 21.",
-      "answer": 13,
+      "question": "Los op: x + 19 = 37.",
+      "answer": 18,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 21 − 8.",
-      "explanation": "x = 21 − 8."
+      "hint2": "x = 37 − 19.",
+      "explanation": "x = 37 − 19."
     }
   ]
 }

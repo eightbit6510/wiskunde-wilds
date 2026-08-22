@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 6 = 14"
+            "label": "x zoeken in x + 7 = 15"
           },
           {
             "id": "wrong",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +6 weg is.\n\nWat doe je met +6?",
-        "question": "Hoe haal je +6 weg?",
+        "explanation": "Stap 2: x staat alleen links als +7 weg is.\n\nWat doe je met +7?",
+        "question": "Hoe haal je +7 weg?",
         "options": [
           {
             "id": "sub",
-            "label": "6 aftrekken aan beide kanten"
+            "label": "7 aftrekken aan beide kanten"
           },
           {
             "id": "add",
-            "label": "6 optellen"
+            "label": "7 optellen"
           }
         ],
         "correctAnswer": "sub",
@@ -39,8 +39,8 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 6 = 14. Haal +6 weg → x = 14 − 6.",
-        "question": "Wat is 14 − 6?",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 7 = 15. Haal +7 weg → x = 15 − 7.",
+        "question": "Wat is 15 − 7?",
         "options": [
           {
             "id": "x",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "x",
         "successFeedback": "Goed: x = 8.",
-        "retryFeedback": "Reken uit: 14 − 6."
+        "retryFeedback": "Reken uit: 15 − 7."
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 6 = 14?",
+        "question": "Past je x-waarde in x + 7 = 15?",
         "options": [
           {
             "id": "yes",
@@ -70,7 +70,7 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Perfect. x = 8!",
-        "retryFeedback": "Reken na: x + 6 moet 14 zijn."
+        "retryFeedback": "Reken na: x + 7 moet 15 zijn."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 x = 8"
@@ -79,20 +79,20 @@
     {
       "id": "mavo-3-c14-b1",
       "type": "number-input",
-      "question": "Los op: x + 8 = 16.",
+      "question": "Los op: x + 9 = 17.",
       "answer": 8,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 16 − 8 = 8.",
-      "explanation": "x = 16 − 8 = 8."
+      "hint2": "x = 17 − 9 = 8.",
+      "explanation": "x = 17 − 9 = 8."
     },
     {
       "id": "mavo-3-c14-b2",
       "type": "number-input",
-      "question": "Los op: x + 6 = 19.",
+      "question": "Los op: x + 7 = 20.",
       "answer": 13,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 19 − 6.",
-      "explanation": "x = 19 − 6."
+      "hint2": "x = 20 − 7.",
+      "explanation": "x = 20 − 7."
     }
   ]
 }

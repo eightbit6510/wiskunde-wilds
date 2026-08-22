@@ -4,25 +4,25 @@
   "topic": "algebra",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 5x",
+  "question": "Vereenvoudig: 6x + 3x",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "10x"
+      "label": "9x"
     },
     {
       "id": "b",
-      "label": "25x"
+      "label": "18x"
     },
     {
       "id": "c",
-      "label": "10"
+      "label": "9"
     }
   ],
   "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 5x = (5+5)x",
-  "explanation": "5x + 5x = 10x",
+  "hint2": "6x + 3x = (6+3)x",
+  "explanation": "6x + 3x = 9x",
   "classLevels": [
     "havo-5"
   ]

@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c27",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We lezen een tabel: 1 potlode = 4 euro. Hoeveel kosten 4?",
+    "intro": "We lezen een tabel: 1 snoepje = 5 euro. Hoeveel kosten 3?",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Uitrekenen wat 4 potloden kosten"
+            "label": "Uitrekenen wat 3 snoepjes kosten"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 1 potlode kost 4 euro.\n\nElke extra potlode kost weer 4 euro.",
-        "question": "Kost elke potlode evenveel?",
+        "explanation": "Stap 2: 1 snoepje kost 5 euro.\n\nElke extra snoepje kost weer 5 euro.",
+        "question": "Kost elke snoepje evenveel?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, steeds 4 euro"
+            "label": "Ja, steeds 5 euro"
           },
           {
             "id": "no",
@@ -36,15 +36,15 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Goed — je mag vermenigvuldigen.",
-        "retryFeedback": "1 stuk = 4 euro."
+        "retryFeedback": "1 stuk = 5 euro."
       },
       {
-        "explanation": "Stap 3: vermenigvuldig.\n\n4 keer 4 euro.",
-        "question": "Wat kosten 4 potloden?",
+        "explanation": "Stap 3: vermenigvuldig.\n\n3 keer 5 euro.",
+        "question": "Wat kosten 3 snoepjes?",
         "options": [
           {
             "id": "t",
-            "label": "16 euro"
+            "label": "15 euro"
           },
           {
             "id": "w",
@@ -52,47 +52,47 @@
           }
         ],
         "correctAnswer": "t",
-        "successFeedback": "Klopt: 16 euro.",
-        "retryFeedback": "Reken: 4 keer 4."
+        "successFeedback": "Klopt: 15 euro.",
+        "retryFeedback": "Reken: 3 keer 5."
       },
       {
         "explanation": "Stap 4: welke tabel klopt?",
-        "question": "Bij 4 potloden betaal je…",
+        "question": "Bij 3 snoepjes betaal je…",
         "options": [
           {
             "id": "a",
-            "label": "16 euro"
+            "label": "15 euro"
           },
           {
             "id": "b",
-            "label": "18 euro"
+            "label": "17 euro"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Precies — 4 × 4 = 16 euro.",
-        "retryFeedback": "4 keer 4 euro."
+        "successFeedback": "Precies — 3 × 5 = 15 euro.",
+        "retryFeedback": "3 keer 5 euro."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4 potloden = 16 euro"
+    "conclusion": "Pootafdruk! 🐾 3 snoepjes = 15 euro"
   },
   "bonusVariants": [
     {
       "id": "groep-6-c27-b1",
       "type": "number-input",
-      "question": "1 potlode = 4 euro. 5 stuks?",
+      "question": "1 snoepje = 5 euro. 4 stuks?",
       "answer": 20,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog 4 euro erbij.",
-      "explanation": "Nog 4 euro erbij."
+      "hint2": "Nog 5 euro erbij.",
+      "explanation": "Nog 5 euro erbij."
     },
     {
       "id": "groep-6-c27-b2",
       "type": "number-input",
-      "question": "4 × 4 = ?",
-      "answer": 16,
+      "question": "3 × 5 = ?",
+      "answer": 15,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4 keer 4.",
-      "explanation": "4 keer 4."
+      "hint2": "3 keer 5.",
+      "explanation": "3 keer 5."
     }
   ]
 }

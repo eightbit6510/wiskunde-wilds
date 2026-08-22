@@ -4,25 +4,25 @@
   "topic": "grafieken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Een formule is y = 5x. Welke tabel hoort daarbij?",
+  "question": "Een formule is y = 6x. Welke tabel hoort daarbij?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→5, 2→10, 3→15"
+      "label": "x: 1→6, 2→12, 3→18"
     },
     {
       "id": "b",
-      "label": "x: 1→6, 2→7, 3→8"
+      "label": "x: 1→7, 2→8, 3→9"
     },
     {
       "id": "c",
       "label": "x: 1→1, 2→2, 3→3"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 5.",
-  "hint2": "Bij x = 2 hoort y = 10.",
-  "explanation": "y = 5x betekent: y is steeds 5 keer x.\nBij x = 2: y = 10.",
+  "hint1": "Vermenigvuldig elke x met 6.",
+  "hint2": "Bij x = 5 hoort y = 30.",
+  "explanation": "y = 6x betekent: y is steeds 6 keer x.\nBij x = 5: y = 30.",
   "classLevels": [
     "havo-3"
   ]

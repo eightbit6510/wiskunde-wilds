@@ -4,12 +4,12 @@
   "topic": "vergelijkingen",
   "difficulty": 3,
   "starsAvailable": 3,
-  "question": "Los op: x + 9 = 14. Wat is x?",
-  "answer": 5,
-  "hint1": "Haal 9 naar de andere kant: x = 14 − 9.",
-  "hint2": "x = 14 − 9",
-  "optionalWorkedFirstStep": "x + 9 = 14 → x = 14 − 9",
-  "explanation": "x + 9 = 14\nx = 14 − 9 = 5",
+  "question": "Los op: x + 24 = 33. Wat is x?",
+  "answer": 9,
+  "hint1": "Haal 24 naar de andere kant: x = 33 − 24.",
+  "hint2": "x = 33 − 24",
+  "optionalWorkedFirstStep": "x + 24 = 33 → x = 33 − 24",
+  "explanation": "x + 24 = 33\nx = 33 − 24 = 9",
   "classLevels": [
     "vwo-6"
   ]

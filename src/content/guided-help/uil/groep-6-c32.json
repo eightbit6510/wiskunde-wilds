@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Het ontbrekende getal zoeken in ? + 8 = 15"
+            "label": "Het ontbrekende getal zoeken in 3 + ? = 7"
           },
           {
             "id": "wrong",
@@ -22,42 +22,42 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: wat weten we?\n\n? + 8 moet samen 15 worden.",
-        "question": "Moet het ontbrekende getal kleiner zijn dan 15?",
+        "explanation": "Stap 2: wat weten we?\n\n3 + ? moet samen 7 worden.",
+        "question": "Moet het ontbrekende getal kleiner zijn dan 7?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, het is een stukje van 15"
+            "label": "Ja, het is een stukje van 7"
           },
           {
             "id": "no",
-            "label": "Nee, groter dan 15"
+            "label": "Nee, groter dan 7"
           }
         ],
         "correctAnswer": "yes",
         "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
-        "retryFeedback": "Samen moet het 15 worden."
+        "retryFeedback": "Samen moet het 7 worden."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\nTrek 8 af van 15.",
-        "question": "Wat is 15 − 8?",
+        "explanation": "Stap 3: reken terug.\n\nTrek 3 af van 7.",
+        "question": "Wat is 7 − 3?",
         "options": [
           {
             "id": "m",
-            "label": "7"
+            "label": "4"
           },
           {
             "id": "w",
-            "label": "9"
+            "label": "6"
           }
         ],
         "correctAnswer": "m",
-        "successFeedback": "Juist! Het ontbrekende getal is 7.",
-        "retryFeedback": "Trek 8 af van 15."
+        "successFeedback": "Juist! Het ontbrekende getal is 4.",
+        "retryFeedback": "Trek 3 af van 7."
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "Tel je antwoord op bij 8. Kom je op 15?",
+        "question": "Tel je antwoord op bij 3. Kom je op 7?",
         "options": [
           {
             "id": "yes",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het ontbrekende getal is 7.",
-        "retryFeedback": "Reken na: antwoord + 8 = 15."
+        "successFeedback": "Perfect! Het ontbrekende getal is 4.",
+        "retryFeedback": "Reken na: antwoord + 3 = 7."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 7."
+    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 4."
   },
   "bonusVariants": [
     {
       "id": "groep-6-c32-b1",
       "type": "number-input",
-      "question": "8 + 8 = ?",
-      "answer": 16,
+      "question": "5 + 3 = ?",
+      "answer": 8,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "8 + 8 = 16.",
-      "explanation": "8 + 8 = 16."
+      "hint2": "5 + 3 = 8.",
+      "explanation": "5 + 3 = 8."
     },
     {
       "id": "groep-6-c32-b2",
       "type": "number-input",
-      "question": "? + 8 = 15",
-      "answer": 7,
+      "question": "? + 3 = 7",
+      "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "15 − 8 = 7.",
-      "explanation": "15 − 8 = 7."
+      "hint2": "7 − 3 = 4.",
+      "explanation": "7 − 3 = 4."
     }
   ]
 }

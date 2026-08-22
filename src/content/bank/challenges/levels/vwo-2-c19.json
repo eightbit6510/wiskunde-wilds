@@ -4,7 +4,7 @@
   "topic": "algebra",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 4x + 2x",
+  "question": "Vereenvoudig: 3x + 3x",
   "answer": "a",
   "answerOptions": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "id": "b",
-      "label": "8x"
+      "label": "9x"
     },
     {
       "id": "c",
@@ -21,8 +21,8 @@
     }
   ],
   "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "4x + 2x = (4+2)x",
-  "explanation": "4x + 2x = 6x",
+  "hint2": "3x + 3x = (3+3)x",
+  "explanation": "3x + 3x = 6x",
   "classLevels": [
     "vwo-2"
   ]

@@ -4,11 +4,11 @@
   "topic": "formules",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Oppervlakte A = lengte × breedte. A = 50, lengte = 10. Wat is de breedte?",
-  "answer": 5,
+  "question": "Oppervlakte A = lengte × breedte. A = 52, lengte = 13. Wat is de breedte?",
+  "answer": 4,
   "hint1": "Deel A door lengte.",
-  "hint2": "b = 50 ÷ 10",
-  "explanation": "b = A ÷ l = 50 ÷ 10 = 5",
+  "hint2": "b = 52 ÷ 13",
+  "explanation": "b = A ÷ l = 52 ÷ 13 = 4",
   "classLevels": [
     "vwo-2"
   ]

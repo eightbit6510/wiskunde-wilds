@@ -4,12 +4,12 @@
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 4/5 + 2/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 2.8,
+  "question": "Wat is 2/1 + 1/4? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 2.25,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "4/5 + 2/1 = 14/5",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 10.",
-  "explanation": "4/5 + 2/1 = 14/5 = 2.8",
+  "hint2": "2/1 + 1/4 = 9/4",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
+  "explanation": "2/1 + 1/4 = 9/4 = 2.25",
   "classLevels": [
     "vwo-1"
   ]

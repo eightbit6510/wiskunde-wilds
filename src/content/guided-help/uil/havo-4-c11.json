@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 3:2"
+            "label": "Tweede deel vinden bij verhouding 3:4"
           },
           {
             "id": "wrong",
-            "label": "De getallen 3 en 2 direct optellen"
+            "label": "De getallen 3 en 4 direct optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,42 +22,42 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 3:2 betekent steeds dezelfde factor.\n\nEerste deel = 9.",
-        "question": "Hoeveel keer past 3 in 9? (schaalfactor)",
+        "explanation": "Stap 2: verhouding 3:4 betekent steeds dezelfde factor.\n\nEerste deel = 6.",
+        "question": "Hoeveel keer past 3 in 6? (schaalfactor)",
         "options": [
           {
             "id": "f",
-            "label": "3"
+            "label": "2"
           },
           {
             "id": "w",
-            "label": "4"
+            "label": "3"
           }
         ],
         "correctAnswer": "f",
-        "successFeedback": "Goed — schaalfactor = 3.",
-        "retryFeedback": "Deel 9 door 3."
+        "successFeedback": "Goed — schaalfactor = 2.",
+        "retryFeedback": "Deel 6 door 3."
       },
       {
         "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
-        "question": "Tweede deel = 3 × 2 = ?",
+        "question": "Tweede deel = 2 × 4 = ?",
         "options": [
           {
             "id": "o",
-            "label": "6"
+            "label": "8"
           },
           {
             "id": "w",
-            "label": "8"
+            "label": "12"
           }
         ],
         "correctAnswer": "o",
-        "successFeedback": "Klopt: 6.",
-        "retryFeedback": "Vermenigvuldig je schaalfactor met 2."
+        "successFeedback": "Klopt: 8.",
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 4."
       },
       {
         "explanation": "Stap 4: controleer de verhouding.",
-        "question": "Klopt 9:6 = 3:2?",
+        "question": "Klopt 6:8 = 3:4?",
         "options": [
           {
             "id": "yes",
@@ -69,18 +69,18 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. Antwoord = 6.",
-        "retryFeedback": "Deel 9 door 3, vermenigvuldig met 2."
+        "successFeedback": "Perfect. Antwoord = 8.",
+        "retryFeedback": "Deel 6 door 3, vermenigvuldig met 4."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 6."
+    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 8."
   },
   "bonusVariants": [
     {
       "id": "havo-4-c11-b1",
       "type": "number-input",
-      "question": "Verhouding 3:2, eerste = 12. Tweede?",
-      "answer": 8,
+      "question": "Verhouding 3:4, eerste = 9. Tweede?",
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde schaalfactor.",
       "explanation": "Zelfde schaalfactor."
@@ -88,11 +88,11 @@
     {
       "id": "havo-4-c11-b2",
       "type": "number-input",
-      "question": "Verhouding 3:2, eerste = 9. Tweede?",
-      "answer": 6,
+      "question": "Verhouding 3:4, eerste = 6. Tweede?",
+      "answer": 8,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "9 ÷ 3 × 2.",
-      "explanation": "9 ÷ 3 × 2."
+      "hint2": "6 ÷ 3 × 4.",
+      "explanation": "6 ÷ 3 × 4."
     }
   ]
 }

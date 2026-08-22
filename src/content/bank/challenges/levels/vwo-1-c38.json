@@ -4,12 +4,12 @@
   "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 2 = 5. Wat is x?",
-  "answer": 3,
-  "hint1": "Haal 2 naar de andere kant: x = 5 − 2.",
-  "hint2": "x = 5 − 2",
-  "optionalWorkedFirstStep": "x + 2 = 5 → x = 5 − 2",
-  "explanation": "x + 2 = 5\nx = 5 − 2 = 3",
+  "question": "Los op: x + 17 = 29. Wat is x?",
+  "answer": 12,
+  "hint1": "Haal 17 naar de andere kant: x = 29 − 17.",
+  "hint2": "x = 29 − 17",
+  "optionalWorkedFirstStep": "x + 17 = 29 → x = 29 − 17",
+  "explanation": "x + 17 = 29\nx = 29 − 17 = 12",
   "classLevels": [
     "vwo-1"
   ]

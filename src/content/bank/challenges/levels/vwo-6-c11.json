@@ -21,8 +21,8 @@
     }
   ],
   "hint1": "Vermenigvuldig elke x met 4.",
-  "hint2": "Bij x = 3 hoort y = 12.",
-  "explanation": "y = 4x betekent: y is steeds 4 keer x.\nBij x = 3: y = 12.",
+  "hint2": "Bij x = 4 hoort y = 16.",
+  "explanation": "y = 4x betekent: y is steeds 4 keer x.\nBij x = 4: y = 16.",
   "classLevels": [
     "vwo-6"
   ]

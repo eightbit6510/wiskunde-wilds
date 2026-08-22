@@ -22,24 +22,24 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Bij optellen: van −3 naar rechts.",
-        "question": "Wat is −3 + 5?",
+        "explanation": "50% = de helft.",
+        "question": "Is 50% van 20 gelijk aan 10?",
         "options": [
           {
-            "id": "2",
-            "label": "2"
+            "id": "yes",
+            "label": "Ja, 20÷2=10"
           },
           {
-            "id": "m8",
-            "label": "−8"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "2",
+        "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "−3+5=2."
+        "retryFeedback": "50% = halveren."
       },
       {
-        "explanation": "B zegt −3+5=−8.",
+        "explanation": "B: 50% van 20 = 5?",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,87 +53,87 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Je gaat omhoog, niet verder omlaag."
+        "retryFeedback": "50% van 20 is 10."
       },
       {
-        "explanation": "C: 4 − 7. Onder nul.",
-        "question": "Wat is 4 − 7?",
+        "explanation": "C: 25% van 20. 25% = 1/4.",
+        "question": "Is 25% van 20 = 5?",
         "options": [
           {
-            "id": "m3",
-            "label": "−3"
+            "id": "yes",
+            "label": "Ja"
           },
           {
-            "id": "3",
-            "label": "3"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "m3",
+        "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "4−7=−3."
+        "retryFeedback": "20÷4=5."
       },
       {
         "explanation": "Welke zijn waar?",
         "question": "Kies alles.",
         "options": [
           {
+            "id": "acd",
+            "label": "A, C en D"
+          },
+          {
             "id": "ac",
-            "label": "A en C"
+            "label": "Alleen A en C"
           },
           {
             "id": "ab",
             "label": "A en B"
-          },
-          {
-            "id": "cd",
-            "label": "C en D"
           }
         ],
-        "correctAnswer": "ac",
-        "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "correctAnswer": "acd",
+        "successFeedback": "A, C en D kloppen.",
+        "retryFeedback": "B klopt niet."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+    "conclusion": "Pootafdruk! 🐾 A, C, D zijn waar."
   },
   "bonusVariants": [
     {
       "id": "vwo-5-c06-b1",
       "type": "multiple-choice",
-      "question": "−5 + 8 = ?",
+      "question": "50% van 30?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "3"
+          "label": "15"
         },
         {
           "id": "b",
-          "label": "−3"
+          "label": "10"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "−5+8=3.",
-      "explanation": "−5+8=3."
+      "hint2": "30÷2=15.",
+      "explanation": "30÷2=15."
     },
     {
       "id": "vwo-5-c06-b2",
       "type": "multiple-choice",
-      "question": "2 − 6 = ?",
-      "answer": "b",
+      "question": "10% van 50?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "4"
+          "label": "5"
         },
         {
           "id": "b",
-          "label": "−4"
+          "label": "10"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2−6=−4.",
-      "explanation": "2−6=−4."
+      "hint2": "50÷10=5.",
+      "explanation": "50÷10=5."
     }
   ]
 }

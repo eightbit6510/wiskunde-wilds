@@ -4,7 +4,7 @@
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 3x + 5x",
+  "question": "Vereenvoudig: 5x + 3x",
   "answer": "a",
   "answerOptions": [
     {
@@ -21,8 +21,8 @@
     }
   ],
   "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "3x + 5x = (3+5)x",
-  "explanation": "3x + 5x = 8x",
+  "hint2": "5x + 3x = (5+3)x",
+  "explanation": "5x + 3x = 8x",
   "classLevels": [
     "vwo-1"
   ]

@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c21",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We lezen een tabel: 1 sticke = 3 euro. Hoeveel kosten 3?",
+    "intro": "We lezen een tabel: 1 appel = 2 euro. Hoeveel kosten 4?",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Uitrekenen wat 3 sticker kosten"
+            "label": "Uitrekenen wat 4 appels kosten"
           },
           {
             "id": "wrong",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 1 sticke kost 3 euro.\n\nElke extra sticke kost weer 3 euro.",
-        "question": "Kost elke sticke evenveel?",
+        "explanation": "Stap 2: 1 appel kost 2 euro.\n\nElke extra appel kost weer 2 euro.",
+        "question": "Kost elke appel evenveel?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, steeds 3 euro"
+            "label": "Ja, steeds 2 euro"
           },
           {
             "id": "no",
@@ -36,63 +36,63 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Goed — je mag vermenigvuldigen.",
-        "retryFeedback": "1 stuk = 3 euro."
+        "retryFeedback": "1 stuk = 2 euro."
       },
       {
-        "explanation": "Stap 3: vermenigvuldig.\n\n3 keer 3 euro.",
-        "question": "Wat kosten 3 sticker?",
+        "explanation": "Stap 3: vermenigvuldig.\n\n4 keer 2 euro.",
+        "question": "Wat kosten 4 appels?",
         "options": [
           {
             "id": "t",
-            "label": "9 euro"
+            "label": "8 euro"
           },
           {
             "id": "w",
-            "label": "12 euro"
+            "label": "10 euro"
           }
         ],
         "correctAnswer": "t",
-        "successFeedback": "Klopt: 9 euro.",
-        "retryFeedback": "Reken: 3 keer 3."
+        "successFeedback": "Klopt: 8 euro.",
+        "retryFeedback": "Reken: 4 keer 2."
       },
       {
         "explanation": "Stap 4: welke tabel klopt?",
-        "question": "Bij 3 sticker betaal je…",
+        "question": "Bij 4 appels betaal je…",
         "options": [
           {
             "id": "a",
-            "label": "9 euro"
+            "label": "8 euro"
           },
           {
             "id": "b",
-            "label": "11 euro"
+            "label": "10 euro"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Precies — 3 × 3 = 9 euro.",
-        "retryFeedback": "3 keer 3 euro."
+        "successFeedback": "Precies — 4 × 2 = 8 euro.",
+        "retryFeedback": "4 keer 2 euro."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3 sticker = 9 euro"
+    "conclusion": "Pootafdruk! 🐾 4 appels = 8 euro"
   },
   "bonusVariants": [
     {
       "id": "groep-7-c21-b1",
       "type": "number-input",
-      "question": "1 sticke = 3 euro. 4 stuks?",
-      "answer": 12,
+      "question": "1 appel = 2 euro. 5 stuks?",
+      "answer": 10,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog 3 euro erbij.",
-      "explanation": "Nog 3 euro erbij."
+      "hint2": "Nog 2 euro erbij.",
+      "explanation": "Nog 2 euro erbij."
     },
     {
       "id": "groep-7-c21-b2",
       "type": "number-input",
-      "question": "3 × 3 = ?",
-      "answer": 9,
+      "question": "4 × 2 = ?",
+      "answer": 8,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "3 keer 3.",
-      "explanation": "3 keer 3."
+      "hint2": "4 keer 2.",
+      "explanation": "4 keer 2."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "topic": "breuken",
   "difficulty": 2,
   "starsAvailable": 3,
-  "question": "Wat is 1/4 + 1/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 0.58,
+  "question": "Wat is 3/5 + 2/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 2.6,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "1/4 + 1/3 = 7/12",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 12.",
-  "explanation": "1/4 + 1/3 = 7/12 = 0.58",
+  "hint2": "3/5 + 2/1 = 13/5",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 10.",
+  "explanation": "3/5 + 2/1 = 13/5 = 2.6",
   "classLevels": [
     "mavo-4"
   ]

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 11 = 15"
+            "label": "x zoeken in x + 12 = 23"
           },
           {
             "id": "wrong",
@@ -22,16 +22,16 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +11 weg is.\n\nWat doe je met +11?",
-        "question": "Hoe haal je +11 weg?",
+        "explanation": "Stap 2: x staat alleen links als +12 weg is.\n\nWat doe je met +12?",
+        "question": "Hoe haal je +12 weg?",
         "options": [
           {
             "id": "sub",
-            "label": "11 aftrekken aan beide kanten"
+            "label": "12 aftrekken aan beide kanten"
           },
           {
             "id": "add",
-            "label": "11 optellen"
+            "label": "12 optellen"
           }
         ],
         "correctAnswer": "sub",
@@ -39,25 +39,25 @@
         "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
       },
       {
-        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 11 = 15. Haal +11 weg → x = 15 − 11.",
-        "question": "Wat is 15 − 11?",
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 12 = 23. Haal +12 weg → x = 23 − 12.",
+        "question": "Wat is 23 − 12?",
         "options": [
           {
             "id": "x",
-            "label": "4"
+            "label": "11"
           },
           {
             "id": "wrong",
-            "label": "6"
+            "label": "13"
           }
         ],
         "correctAnswer": "x",
-        "successFeedback": "Goed: x = 4.",
-        "retryFeedback": "Reken uit: 15 − 11."
+        "successFeedback": "Goed: x = 11.",
+        "retryFeedback": "Reken uit: 23 − 12."
       },
       {
         "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Past je x-waarde in x + 11 = 15?",
+        "question": "Past je x-waarde in x + 12 = 23?",
         "options": [
           {
             "id": "yes",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. x = 4!",
-        "retryFeedback": "Reken na: x + 11 moet 15 zijn."
+        "successFeedback": "Perfect. x = 11!",
+        "retryFeedback": "Reken na: x + 12 moet 23 zijn."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 4"
+    "conclusion": "Pootafdruk! 🐾 x = 11"
   },
   "bonusVariants": [
     {
       "id": "vwo-3-c20-b1",
       "type": "number-input",
-      "question": "Los op: x + 13 = 17.",
-      "answer": 4,
+      "question": "Los op: x + 14 = 25.",
+      "answer": 11,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 17 − 13 = 4.",
-      "explanation": "x = 17 − 13 = 4."
+      "hint2": "x = 25 − 14 = 11.",
+      "explanation": "x = 25 − 14 = 11."
     },
     {
       "id": "vwo-3-c20-b2",
       "type": "number-input",
-      "question": "Los op: x + 11 = 20.",
-      "answer": 9,
+      "question": "Los op: x + 12 = 28.",
+      "answer": 16,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 20 − 11.",
-      "explanation": "x = 20 − 11."
+      "hint2": "x = 28 − 12.",
+      "explanation": "x = 28 − 12."
     }
   ]
 }

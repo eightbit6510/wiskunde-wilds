@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "12 is deelbaar door 3"
+      "label": "Een vierkant heeft vier gelijke zijden"
     },
     {
       "id": "b",
-      "label": "12 is deelbaar door 5"
+      "label": "Elke rechthoek is een vierkant"
     },
     {
       "id": "c",
-      "label": "15 is deelbaar door 3"
+      "label": "De som van hoeken in een driehoek is 180°"
     },
     {
       "id": "d",
-      "label": "10 is deelbaar door 4"
+      "label": "Een cirkel heeft vier hoeken"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: 12÷3=4. C: 15÷3=5. B en D kloppen niet.",
+  "explanation": "A en C kloppen.\nB: niet elke rechthoek is vierkant.\nD: cirkel heeft geen hoeken.",
   "classLevels": [
     "mavo-1"
   ]

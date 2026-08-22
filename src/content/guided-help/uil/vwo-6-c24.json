@@ -22,24 +22,24 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Gemiddelde = som ÷ aantal.",
-        "question": "(2+4+6)÷3 = ?",
+        "explanation": "Omtrek = som zijden. Oppervlakte = l×b.",
+        "question": "Vierkant zijde 3: omtrek=4×3. Klopt A?",
         "options": [
           {
-            "id": "4",
-            "label": "4"
+            "id": "yes",
+            "label": "Ja, 12"
           },
           {
-            "id": "6",
-            "label": "6"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "4",
-        "successFeedback": "A is waar.",
-        "retryFeedback": "12÷3=4."
+        "correctAnswer": "yes",
+        "successFeedback": "A klopt.",
+        "retryFeedback": "4×3=12."
       },
       {
-        "explanation": "B zegt gemiddelde=6.",
+        "explanation": "B zegt omtrek=9. Dat is 3×3 = oppervlakte.",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,28 +53,28 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Gemiddelde is 4."
+        "retryFeedback": "9 is oppervlakte, geen omtrek."
       },
       {
-        "explanation": "Mediaan = middelste getal (gesorteerd).",
-        "question": "Mediaan van 1,3,9?",
+        "explanation": "C: oppervlakte 4×5.",
+        "question": "Is oppervlakte 4×5 = 20?",
         "options": [
           {
-            "id": "3",
-            "label": "3"
+            "id": "yes",
+            "label": "Ja"
           },
           {
-            "id": "9",
-            "label": "9"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "3",
-        "successFeedback": "C is waar.",
-        "retryFeedback": "Middelste = 3."
+        "correctAnswer": "yes",
+        "successFeedback": "C klopt.",
+        "retryFeedback": "4×5=20."
       },
       {
-        "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
+        "explanation": "Welke uitspraken zijn waar?",
+        "question": "Kies de juiste.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "bd",
-            "label": "B en D"
+            "id": "bc",
+            "label": "B en C"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "retryFeedback": "B verwart omtrek/oppervlakte."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,12 +100,12 @@
     {
       "id": "vwo-6-c24-b1",
       "type": "multiple-choice",
-      "question": "Gemiddelde van 5 en 15?",
+      "question": "Oppervlakte 6×4?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "10"
+          "label": "24"
         },
         {
           "id": "b",
@@ -113,27 +113,27 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "(5+15)÷2=10.",
-      "explanation": "(5+15)÷2=10."
+      "hint2": "6×4=24.",
+      "explanation": "6×4=24."
     },
     {
       "id": "vwo-6-c24-b2",
       "type": "multiple-choice",
-      "question": "Mediaan van 2, 5, 8?",
-      "answer": "b",
+      "question": "Omtrek vierkant zijde 5?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2"
+          "label": "20"
         },
         {
           "id": "b",
-          "label": "5"
+          "label": "25"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Middelste = 5.",
-      "explanation": "Middelste = 5."
+      "hint2": "4×5=20.",
+      "explanation": "4×5=20."
     }
   ]
 }
