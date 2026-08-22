@@ -1,0 +1,16 @@
+{
+  "id": "havo-1-p2-c16",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 99 = 149. Wat is x?",
+  "answer": 50,
+  "hint1": "Haal 99 naar de andere kant: x = 149 − 99.",
+  "hint2": "x = 149 − 99",
+  "optionalWorkedFirstStep": "x + 99 = 149 → x = 149 − 99",
+  "explanation": "x + 99 = 149\nx = 149 − 99 = 50",
+  "classLevels": [
+    "havo-1"
+  ]
+}

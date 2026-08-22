@@ -4,7 +4,7 @@
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 1/2 + 1/2? Kies het juiste antwoord.",
+  "question": "Wat is 7/8 + 1/8? Kies het juiste antwoord.",
   "answer": "a",
   "answerOptions": [
     {
@@ -17,12 +17,12 @@
     },
     {
       "id": "c",
-      "label": "3/2"
+      "label": "9/8"
     }
   ],
   "hint1": "Hebben beide breuken dezelfde noemer? Tel dan de tellers op.",
-  "hint2": "1 + 1 = 2, noemer blijft 2.",
-  "explanation": "1/2 + 1/2 = 1",
+  "hint2": "7 + 1 = 8, noemer blijft 8.",
+  "explanation": "7/8 + 1/8 = 1",
   "classLevels": [
     "groep-6"
   ]

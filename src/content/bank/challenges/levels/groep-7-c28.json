@@ -4,11 +4,11 @@
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 3 rode plakkers horen 4 blauwe. Je hebt 9 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 12,
-  "hint1": "Deel 9 door 3.",
-  "hint2": "Dat getal × 4 = 12.",
-  "explanation": "9 ÷ 3 = 3.\n3 × 4 = 12.",
+  "question": "Voor elke 4 rode plakkers horen 2 blauwe. Je hebt 12 rode. Hoeveel blauwe horen daarbij?",
+  "answer": 6,
+  "hint1": "Deel 12 door 4.",
+  "hint2": "Dat getal × 2 = 6.",
+  "explanation": "12 ÷ 4 = 3.\n3 × 2 = 6.",
   "classLevels": [
     "groep-7"
   ]

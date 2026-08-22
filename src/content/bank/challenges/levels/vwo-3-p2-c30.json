@@ -1,0 +1,16 @@
+{
+  "id": "vwo-3-p2-c30",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 12 = 22. Wat is x?",
+  "answer": 10,
+  "hint1": "Haal 12 naar de andere kant: x = 22 − 12.",
+  "hint2": "x = 22 − 12",
+  "optionalWorkedFirstStep": "x + 12 = 22 → x = 22 − 12",
+  "explanation": "x + 12 = 22\nx = 22 − 12 = 10",
+  "classLevels": [
+    "vwo-3"
+  ]
+}

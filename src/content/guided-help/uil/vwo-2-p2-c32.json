@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-2-p2-c32",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 17 = 28"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +17 weg is.\n\nWat doe je met +17?",
+        "question": "Hoe haal je +17 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "17 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "17 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 17 = 28. Haal +17 weg → x = 28 − 17.",
+        "question": "Wat is 28 − 17?",
+        "options": [
+          {
+            "id": "x",
+            "label": "11"
+          },
+          {
+            "id": "wrong",
+            "label": "13"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 11.",
+        "retryFeedback": "Reken uit: 28 − 17."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Past je x-waarde in x + 17 = 28?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, dat klopt"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 11!",
+        "retryFeedback": "Reken na: x + 17 moet 28 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 11"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-2-c32-b1",
+      "type": "number-input",
+      "question": "Los op: x + 19 = 30.",
+      "answer": 11,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 30 − 19 = 11.",
+      "explanation": "x = 30 − 19 = 11."
+    },
+    {
+      "id": "vwo-2-c32-b2",
+      "type": "number-input",
+      "question": "Los op: x + 17 = 33.",
+      "answer": 16,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 33 − 17.",
+      "explanation": "x = 33 − 17."
+    }
+  ]
+}

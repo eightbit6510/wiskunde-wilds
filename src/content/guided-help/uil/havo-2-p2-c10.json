@@ -1,0 +1,98 @@
+{
+  "challengeId": "havo-2-p2-c10",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Zoek wat onbekend is — draai de formule om.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Breedte vinden (A=56, lengte=8)"
+          },
+          {
+            "id": "wrong",
+            "label": "Lengte en breedte optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=56, lengte=8.",
+        "question": "Welke grootte zoek je?",
+        "options": [
+          {
+            "id": "b",
+            "label": "Breedte"
+          },
+          {
+            "id": "a",
+            "label": "Oppervlakte"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Goed — breedte is onbekend.",
+        "retryFeedback": "Oppervlakte en lengte zijn gegeven."
+      },
+      {
+        "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
+        "question": "56 ÷ 8 = ?",
+        "options": [
+          {
+            "id": "b",
+            "label": "7"
+          },
+          {
+            "id": "w",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Breedte = 7.",
+        "retryFeedback": "Deel 56 door 8."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "Vermenigvuldig lengte 8 met je breedte-antwoord. Is het 56?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! Breedte = 7.",
+        "retryFeedback": "8 × 7 moet 56 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 b = 7"
+  },
+  "bonusVariants": [
+    {
+      "id": "havo-2-c06-b1",
+      "type": "number-input",
+      "question": "A = 64, l = 8. b = ?",
+      "answer": 8,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Deel oppervlakte door lengte.",
+      "explanation": "Deel oppervlakte door lengte."
+    },
+    {
+      "id": "havo-2-c06-b2",
+      "type": "number-input",
+      "question": "A = 56, l = 8. b = ?",
+      "answer": 7,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "b = 56 ÷ 8.",
+      "explanation": "b = 56 ÷ 8."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mavo-4-p2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 18 = 30. Wat is x?",
+  "answer": 12,
+  "hint1": "Haal 18 naar de andere kant: x = 30 − 18.",
+  "hint2": "x = 30 − 18",
+  "optionalWorkedFirstStep": "x + 18 = 30 → x = 30 − 18",
+  "explanation": "x + 18 = 30\nx = 30 − 18 = 12",
+  "classLevels": [
+    "mavo-4"
+  ]
+}

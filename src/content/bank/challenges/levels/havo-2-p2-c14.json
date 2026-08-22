@@ -1,0 +1,16 @@
+{
+  "id": "havo-2-p2-c14",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 11 = 21. Wat is x?",
+  "answer": 10,
+  "hint1": "Haal 11 naar de andere kant: x = 21 − 11.",
+  "hint2": "x = 21 − 11",
+  "optionalWorkedFirstStep": "x + 11 = 21 → x = 21 − 11",
+  "explanation": "x + 11 = 21\nx = 21 − 11 = 10",
+  "classLevels": [
+    "havo-2"
+  ]
+}

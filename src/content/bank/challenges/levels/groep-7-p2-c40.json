@@ -1,0 +1,15 @@
+{
+  "id": "groep-7-p2-c40",
+  "type": "number-input",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Reken uit: 4 + 4 (2 keer 4). Wat is het antwoord?",
+  "answer": 8,
+  "hint1": "2 keer 4 is hetzelfde als 2 × 4.",
+  "hint2": "2 × 4 = 8",
+  "explanation": "2 × 4 = 8",
+  "classLevels": [
+    "groep-7"
+  ]
+}

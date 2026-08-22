@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-6-p2-c06",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij plakkers geldt: voor elke 3 horen 4. Zoek eerst hoe vaak 3 in 9 past.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Bij plakkers: 4 horen bij 3, nu 9 gegeven"
+          },
+          {
+            "id": "wrong",
+            "label": "3 en 4 gewoon bij elkaar optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: verhouding 3:4 betekent steeds dezelfde verhouding.\n\nEerst deel je 9 door 3.",
+        "question": "Hoeveel keer past 3 in 9?",
+        "options": [
+          {
+            "id": "f",
+            "label": "3"
+          },
+          {
+            "id": "w",
+            "label": "4"
+          }
+        ],
+        "correctAnswer": "f",
+        "successFeedback": "Goed — dat is 3 keer.",
+        "retryFeedback": "Deel 9 door 3."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig met 4.",
+        "question": "3 × 4 = ?",
+        "options": [
+          {
+            "id": "o",
+            "label": "12"
+          },
+          {
+            "id": "w",
+            "label": "16"
+          }
+        ],
+        "correctAnswer": "o",
+        "successFeedback": "Klopt: 12.",
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 4."
+      },
+      {
+        "explanation": "Stap 4: controle.",
+        "question": "Klopt 9:12 = 3:4?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Super! Antwoord = 12.",
+        "retryFeedback": "Deel eerst, dan vermenigvuldig."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Het antwoord is 12."
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c46-b1",
+      "type": "number-input",
+      "question": "plakkers: 3:4, eerste = 12. Tweede?",
+      "answer": 16,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde stap: delen en vermenigvuldigen.",
+      "explanation": "Zelfde stap: delen en vermenigvuldigen."
+    },
+    {
+      "id": "groep-6-c46-b2",
+      "type": "number-input",
+      "question": "plakkers: eerste = 9. Tweede?",
+      "answer": 12,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "9 ÷ 3 × 4.",
+      "explanation": "9 ÷ 3 × 4."
+    }
+  ]
+}

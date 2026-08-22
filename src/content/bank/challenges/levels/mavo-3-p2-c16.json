@@ -1,0 +1,16 @@
+{
+  "id": "mavo-3-p2-c16",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 99 = 152. Wat is x?",
+  "answer": 53,
+  "hint1": "Haal 99 naar de andere kant: x = 152 − 99.",
+  "hint2": "x = 152 − 99",
+  "optionalWorkedFirstStep": "x + 99 = 152 → x = 152 − 99",
+  "explanation": "x + 99 = 152\nx = 152 − 99 = 53",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

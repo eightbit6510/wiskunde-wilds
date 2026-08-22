@@ -1,0 +1,15 @@
+{
+  "id": "groep-7-p2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Er ontbreekt een getal: ? + 2 = 8. Wat is het ontbrekende getal?",
+  "answer": 6,
+  "hint1": "Tel terug: trek het bekende getal af van het totaal.",
+  "hint2": "8 − 2 = 6",
+  "explanation": "8 − 2 = 6",
+  "classLevels": [
+    "groep-7"
+  ]
+}

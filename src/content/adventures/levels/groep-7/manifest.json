@@ -14,5 +14,15 @@
     "groep-7-l7",
     "groep-7-l8"
   ],
+  "part2LessonIds": [
+    "groep-7-p2-l1",
+    "groep-7-p2-l2",
+    "groep-7-p2-l3",
+    "groep-7-p2-l4",
+    "groep-7-p2-l5",
+    "groep-7-p2-l6",
+    "groep-7-p2-l7",
+    "groep-7-p2-l8"
+  ],
   "unlockRuleId": "always"
 }

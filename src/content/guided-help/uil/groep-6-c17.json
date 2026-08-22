@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Omtrek = som zijden. Oppervlakte = l×b.",
-        "question": "Vierkant zijde 3: omtrek=4×3. Klopt A?",
+        "explanation": "Parallellogram: tegenover elkaar.",
+        "question": "Tegenoverliggende zijden even lang?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 12"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -35,12 +35,12 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "A klopt.",
-        "retryFeedback": "4×3=12."
+        "successFeedback": "A is waar.",
+        "retryFeedback": "Eigenschap parallellogram."
       },
       {
-        "explanation": "B zegt omtrek=9. Dat is 3×3 = oppervlakte.",
-        "question": "Klopt B?",
+        "explanation": "B: alle zijden even lang?",
+        "question": "Geldt dat voor elk parallellogram?",
         "options": [
           {
             "id": "yes",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "9 is oppervlakte, geen omtrek."
+        "retryFeedback": "Alleen ruit/vierkant."
       },
       {
-        "explanation": "C: oppervlakte 4×5.",
-        "question": "Is oppervlakte 4×5 = 20?",
+        "explanation": "C: ruit.",
+        "question": "Heeft een ruit vier gelijke zijden?",
         "options": [
           {
             "id": "yes",
@@ -69,12 +69,12 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "C klopt.",
-        "retryFeedback": "4×5=20."
+        "successFeedback": "C is waar.",
+        "retryFeedback": "Ruit = 4 gelijke zijden."
       },
       {
-        "explanation": "Welke uitspraken zijn waar?",
-        "question": "Kies de juiste.",
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "bc",
-            "label": "B en C"
+            "id": "cd",
+            "label": "C en D"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B verwart omtrek/oppervlakte."
+        "retryFeedback": "B en D niet."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,40 +100,40 @@
     {
       "id": "groep-6-c17-b1",
       "type": "multiple-choice",
-      "question": "Oppervlakte 6×4?",
+      "question": "Vierkant is een ruit?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "24"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "20"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "6×4=24.",
-      "explanation": "6×4=24."
+      "hint2": "Vierkant is speciale ruit.",
+      "explanation": "Vierkant is speciale ruit."
     },
     {
       "id": "groep-6-c17-b2",
       "type": "multiple-choice",
-      "question": "Omtrek vierkant zijde 5?",
-      "answer": "a",
+      "question": "Ruit altijd rechte hoeken?",
+      "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "20"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "25"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "4×5=20.",
-      "explanation": "4×5=20."
+      "hint2": "Alleen vierkant heeft rechte hoeken.",
+      "explanation": "Alleen vierkant heeft rechte hoeken."
     }
   ]
 }

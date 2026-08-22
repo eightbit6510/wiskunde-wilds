@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-8-p2-c16",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 99 = 149"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +99 weg is.\n\nWat doe je met +99?",
+        "question": "Hoe haal je +99 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "99 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "99 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 99 = 149. Haal +99 weg → x = 149 − 99.",
+        "question": "Wat is 149 − 99?",
+        "options": [
+          {
+            "id": "x",
+            "label": "50"
+          },
+          {
+            "id": "wrong",
+            "label": "52"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 50.",
+        "retryFeedback": "Reken uit: 149 − 99."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Past je x-waarde in x + 99 = 149?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, dat klopt"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 50!",
+        "retryFeedback": "Reken na: x + 99 moet 149 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 50"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-8-c56-b1",
+      "type": "number-input",
+      "question": "Los op: x + 101 = 151.",
+      "answer": 50,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 151 − 101 = 50.",
+      "explanation": "x = 151 − 101 = 50."
+    },
+    {
+      "id": "groep-8-c56-b2",
+      "type": "number-input",
+      "question": "Los op: x + 99 = 154.",
+      "answer": 55,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 154 − 99.",
+      "explanation": "x = 154 − 99."
+    }
+  ]
+}

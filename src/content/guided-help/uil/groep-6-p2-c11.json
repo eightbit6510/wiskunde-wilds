@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-6-p2-c11",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "We lezen een tabel: 1 sticke = 3 euro. Hoeveel kosten 5?",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Uitrekenen wat 5 sticker kosten"
+          },
+          {
+            "id": "wrong",
+            "label": "Het aantal en de prijs bij elkaar optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: 1 sticke kost 3 euro.\n\nElke extra sticke kost weer 3 euro.",
+        "question": "Kost elke sticke evenveel?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, steeds 3 euro"
+          },
+          {
+            "id": "no",
+            "label": "Nee, elke keer anders"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — je mag vermenigvuldigen.",
+        "retryFeedback": "1 stuk = 3 euro."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig.\n\n5 keer 3 euro.",
+        "question": "Wat kosten 5 sticker?",
+        "options": [
+          {
+            "id": "t",
+            "label": "15 euro"
+          },
+          {
+            "id": "w",
+            "label": "18 euro"
+          }
+        ],
+        "correctAnswer": "t",
+        "successFeedback": "Klopt: 15 euro.",
+        "retryFeedback": "Reken: 5 keer 3."
+      },
+      {
+        "explanation": "Stap 4: welke tabel klopt?",
+        "question": "Bij 5 sticker betaal je…",
+        "options": [
+          {
+            "id": "a",
+            "label": "15 euro"
+          },
+          {
+            "id": "b",
+            "label": "17 euro"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies — 5 × 3 = 15 euro.",
+        "retryFeedback": "5 keer 3 euro."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 5 sticker = 15 euro"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c51-b1",
+      "type": "number-input",
+      "question": "1 sticke = 3 euro. 6 stuks?",
+      "answer": 18,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog 3 euro erbij.",
+      "explanation": "Nog 3 euro erbij."
+    },
+    {
+      "id": "groep-6-c51-b2",
+      "type": "number-input",
+      "question": "5 × 3 = ?",
+      "answer": 15,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "5 keer 3.",
+      "explanation": "5 keer 3."
+    }
+  ]
+}

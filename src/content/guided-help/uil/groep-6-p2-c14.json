@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-6-p2-c14",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Er ontbreekt een getal. Tel terug: van het totaal haal je het bekende deel af.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Het ontbrekende getal zoeken in 6 + ? = 8"
+          },
+          {
+            "id": "wrong",
+            "label": "Alle getallen bij elkaar optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: wat weten we?\n\n6 + ? moet samen 8 worden.",
+        "question": "Moet het ontbrekende getal kleiner zijn dan 8?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, het is een stukje van 8"
+          },
+          {
+            "id": "no",
+            "label": "Nee, groter dan 8"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
+        "retryFeedback": "Samen moet het 8 worden."
+      },
+      {
+        "explanation": "Stap 3: reken terug.\n\nTrek 6 af van 8.",
+        "question": "Wat is 8 − 6?",
+        "options": [
+          {
+            "id": "m",
+            "label": "2"
+          },
+          {
+            "id": "w",
+            "label": "4"
+          }
+        ],
+        "correctAnswer": "m",
+        "successFeedback": "Juist! Het ontbrekende getal is 2.",
+        "retryFeedback": "Trek 6 af van 8."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "Tel je antwoord op bij 6. Kom je op 8?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, dat klopt"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect! Het ontbrekende getal is 2.",
+        "retryFeedback": "Reken na: antwoord + 6 = 8."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 2."
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c14-b1",
+      "type": "number-input",
+      "question": "3 + 6 = ?",
+      "answer": 9,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "3 + 6 = 9.",
+      "explanation": "3 + 6 = 9."
+    },
+    {
+      "id": "groep-6-c14-b2",
+      "type": "number-input",
+      "question": "? + 6 = 8",
+      "answer": 2,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "8 − 6 = 2.",
+      "explanation": "8 − 6 = 2."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "mavo-3-p2-c35",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 3x + 2x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "5x"
+    },
+    {
+      "id": "b",
+      "label": "6x"
+    },
+    {
+      "id": "c",
+      "label": "5"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "3x + 2x = (3+2)x",
+  "explanation": "3x + 2x = 5x",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

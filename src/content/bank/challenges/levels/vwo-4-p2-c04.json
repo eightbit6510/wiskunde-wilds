@@ -1,0 +1,15 @@
+{
+  "id": "vwo-4-p2-c04",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Bereken: 3^2",
+  "answer": 9,
+  "hint1": "3 × 3",
+  "hint2": "Vermenigvuldig 3 2 keer met zichzelf.",
+  "explanation": "3^2 = 9",
+  "classLevels": [
+    "vwo-4"
+  ]
+}

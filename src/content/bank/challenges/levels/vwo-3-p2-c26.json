@@ -1,0 +1,15 @@
+{
+  "id": "vwo-3-p2-c26",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Verhouding 3:4. De eerste deelgroep is 15. Hoe groot is de tweede?",
+  "answer": 20,
+  "hint1": "Deel 15 door 3 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 4 = 20.",
+  "explanation": "15 ÷ 3 = 5.\n5 × 4 = 20.",
+  "classLevels": [
+    "vwo-3"
+  ]
+}

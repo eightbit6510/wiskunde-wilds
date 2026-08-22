@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "12 is deelbaar door 3"
+      "label": "1 km = 1000 m"
     },
     {
       "id": "b",
-      "label": "12 is deelbaar door 5"
+      "label": "1 km = 100 m"
     },
     {
       "id": "c",
-      "label": "15 is deelbaar door 3"
+      "label": "1 uur = 60 minuten"
     },
     {
       "id": "d",
-      "label": "10 is deelbaar door 4"
+      "label": "1 uur = 100 minuten"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A: 12÷3=4. C: 15÷3=5. B en D kloppen niet.",
+  "explanation": "A en C zijn standaard eenheden.",
   "classLevels": [
     "groep-6"
   ]

@@ -5,7 +5,7 @@ export const lesson7: Lesson = {
   id: 'maanlicht',
   order: 7,
   areaName: 'Maanlichtvallei',
-  title: 'Een blik op VWO 3',
+  title: 'Patronen in maanlicht',
   emoji: '🌙',
   color: '#6B5B8A',
   intro:

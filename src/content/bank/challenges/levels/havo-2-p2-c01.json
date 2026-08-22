@@ -1,0 +1,15 @@
+{
+  "id": "havo-2-p2-c01",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Verhouding 4:5. De eerste deelgroep is 8. Hoe groot is de tweede?",
+  "answer": 10,
+  "hint1": "Deel 8 door 4 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 5 = 10.",
+  "explanation": "8 ÷ 4 = 2.\n2 × 5 = 10.",
+  "classLevels": [
+    "havo-2"
+  ]
+}

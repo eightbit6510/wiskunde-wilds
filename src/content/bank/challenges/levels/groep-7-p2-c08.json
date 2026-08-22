@@ -1,0 +1,15 @@
+{
+  "id": "groep-7-p2-c08",
+  "type": "number-input",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Reken uit: 3 + 3 + 3 (3 keer 3). Wat is het antwoord?",
+  "answer": 9,
+  "hint1": "3 keer 3 is hetzelfde als 3 × 3.",
+  "hint2": "3 × 3 = 9",
+  "explanation": "3 × 3 = 9",
+  "classLevels": [
+    "groep-7"
+  ]
+}

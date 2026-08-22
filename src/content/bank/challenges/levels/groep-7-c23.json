@@ -8,28 +8,28 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "12 is deelbaar door 3"
+      "label": "1/2 is groter dan 1/4"
     },
     {
       "id": "b",
-      "label": "12 is deelbaar door 5"
+      "label": "1/4 is groter dan 1/2"
     },
     {
       "id": "c",
-      "label": "15 is deelbaar door 3"
+      "label": "2/3 is kleiner dan 1/2"
     },
     {
       "id": "d",
-      "label": "10 is deelbaar door 4"
+      "label": "3/4 is groter dan 1/2"
     }
   ],
   "answers": [
     "a",
-    "c"
+    "d"
   ],
   "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A: 12÷3=4. C: 15÷3=5. B en D kloppen niet.",
+  "explanation": "A en D kloppen. 1/2>1/4 en 3/4>1/2.",
   "classLevels": [
     "groep-7"
   ]

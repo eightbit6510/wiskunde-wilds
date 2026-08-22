@@ -1,0 +1,29 @@
+{
+  "id": "mavo-4-p2-c37",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 2x + 5x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "7x"
+    },
+    {
+      "id": "b",
+      "label": "10x"
+    },
+    {
+      "id": "c",
+      "label": "7"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "2x + 5x = (2+5)x",
+  "explanation": "2x + 5x = 7x",
+  "classLevels": [
+    "mavo-4"
+  ]
+}

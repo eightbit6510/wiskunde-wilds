@@ -1,0 +1,41 @@
+{
+  "id": "groep-6-p2-l5",
+  "adventureId": "groep-6-part2",
+  "order": 5,
+  "areaName": "Het Wolvenobservatorium",
+  "title": "Sterrenpaden",
+  "emoji": "🐺",
+  "intro": "Boven op het observatorium tekenen wolven sporen als lijnen tegen de nachthemel. Twee lijnen kruisen elkaar — waar snijden ze? Lees helling, startwaarde en voorspel wat komen gaat.",
+  "color": "#2A3F4A",
+  "mapTeaser": "Twee paden kruisen onder de sterren — waar?",
+  "placements": [
+    {
+      "challengeId": "groep-6-p2-c21",
+      "optionalStory": "Twee lichtlijnen kruisen boven het dak — het snijpunt onthult het geheim.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "groep-6-p2-c22",
+      "optionalStory": "De wolven lezen de steilheid van elke lijn als een spoor in de sneeuw.",
+      "reviewOfPart1": true,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "groep-6-p2-c23",
+      "optionalStory": "Waar begint het spoor als x nog 0 is?",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "groep-6-p2-c24",
+      "optionalStory": "Drie grafiek-sporen hangen aan het observatorium — één past precies.",
+      "reviewOfPart1": true,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "groep-6-p2-c25",
+      "optionalStory": "De wolven kijken vooruit — welke y-waarde ligt op het spoor?",
+      "reviewOfPart1": true,
+      "sortOrder": 4
+    }
+  ]
+}

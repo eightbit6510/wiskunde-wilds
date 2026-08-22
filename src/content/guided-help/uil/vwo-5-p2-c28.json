@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-5-p2-c28",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 105 = 162"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +105 weg is.\n\nWat doe je met +105?",
+        "question": "Hoe haal je +105 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "105 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "105 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 105 = 162. Haal +105 weg → x = 162 − 105.",
+        "question": "Wat is 162 − 105?",
+        "options": [
+          {
+            "id": "x",
+            "label": "57"
+          },
+          {
+            "id": "wrong",
+            "label": "59"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 57.",
+        "retryFeedback": "Reken uit: 162 − 105."
+      },
+      {
+        "explanation": "Stappenplan voor dit type som:\n1. Constante (+105) naar de andere kant\n2. x = 162 − 105 = 57\n3. Controle: 57 + 105 = 162",
+        "question": "Controle: klopt x = 57?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 57 + 105 = 162"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect! x = 57 is het antwoord.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 57"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-5-c68-b1",
+      "type": "number-input",
+      "question": "Los op: x + 107 = 164.",
+      "answer": 57,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 164 − 107 = 57.",
+      "explanation": "x = 164 − 107 = 57."
+    },
+    {
+      "id": "vwo-5-c68-b2",
+      "type": "number-input",
+      "question": "Los op: x + 105 = 167.",
+      "answer": 62,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 167 − 105.",
+      "explanation": "x = 167 − 105."
+    }
+  ]
+}

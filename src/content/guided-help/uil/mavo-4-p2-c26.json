@@ -1,0 +1,98 @@
+{
+  "challengeId": "mavo-4-p2-c26",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Zoek wat onbekend is — draai de formule om.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Breedte vinden (A=707, lengte=101)"
+          },
+          {
+            "id": "wrong",
+            "label": "Lengte en breedte optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=707, lengte=101.",
+        "question": "Welke grootte zoek je?",
+        "options": [
+          {
+            "id": "b",
+            "label": "Breedte"
+          },
+          {
+            "id": "a",
+            "label": "Oppervlakte"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Goed — breedte is onbekend.",
+        "retryFeedback": "Oppervlakte en lengte zijn gegeven."
+      },
+      {
+        "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
+        "question": "707 ÷ 101 = ?",
+        "options": [
+          {
+            "id": "b",
+            "label": "7"
+          },
+          {
+            "id": "w",
+            "label": "8"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Breedte = 7.",
+        "retryFeedback": "Deel 707 door 101."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "Vermenigvuldig lengte 101 met je breedte-antwoord. Is het 707?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! Breedte = 7.",
+        "retryFeedback": "101 × 7 moet 707 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 b = 7"
+  },
+  "bonusVariants": [
+    {
+      "id": "mavo-4-c66-b1",
+      "type": "number-input",
+      "question": "A = 808, l = 101. b = ?",
+      "answer": 8,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Deel oppervlakte door lengte.",
+      "explanation": "Deel oppervlakte door lengte."
+    },
+    {
+      "id": "mavo-4-c66-b2",
+      "type": "number-input",
+      "question": "A = 707, l = 101. b = ?",
+      "answer": 7,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "b = 707 ÷ 101.",
+      "explanation": "b = 707 ÷ 101."
+    }
+  ]
+}

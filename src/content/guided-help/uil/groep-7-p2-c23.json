@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-7-p2-c23",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "We lezen een tabel: 1 snoepje = 5 euro. Hoeveel kosten 4?",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Uitrekenen wat 4 snoepjes kosten"
+          },
+          {
+            "id": "wrong",
+            "label": "Het aantal en de prijs bij elkaar optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: 1 snoepje kost 5 euro.\n\nElke extra snoepje kost weer 5 euro.",
+        "question": "Kost elke snoepje evenveel?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, steeds 5 euro"
+          },
+          {
+            "id": "no",
+            "label": "Nee, elke keer anders"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — je mag vermenigvuldigen.",
+        "retryFeedback": "1 stuk = 5 euro."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig.\n\n4 keer 5 euro.",
+        "question": "Wat kosten 4 snoepjes?",
+        "options": [
+          {
+            "id": "t",
+            "label": "20 euro"
+          },
+          {
+            "id": "w",
+            "label": "25 euro"
+          }
+        ],
+        "correctAnswer": "t",
+        "successFeedback": "Klopt: 20 euro.",
+        "retryFeedback": "Reken: 4 keer 5."
+      },
+      {
+        "explanation": "Stap 4: welke tabel klopt?",
+        "question": "Bij 4 snoepjes betaal je…",
+        "options": [
+          {
+            "id": "a",
+            "label": "20 euro"
+          },
+          {
+            "id": "b",
+            "label": "22 euro"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies — 4 × 5 = 20 euro.",
+        "retryFeedback": "4 keer 5 euro."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 4 snoepjes = 20 euro"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-7-c63-b1",
+      "type": "number-input",
+      "question": "1 snoepje = 5 euro. 5 stuks?",
+      "answer": 25,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog 5 euro erbij.",
+      "explanation": "Nog 5 euro erbij."
+    },
+    {
+      "id": "groep-7-c63-b2",
+      "type": "number-input",
+      "question": "4 × 5 = ?",
+      "answer": 20,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "4 keer 5.",
+      "explanation": "4 keer 5."
+    }
+  ]
+}

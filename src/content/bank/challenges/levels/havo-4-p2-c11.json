@@ -1,0 +1,15 @@
+{
+  "id": "havo-4-p2-c11",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Oppervlakte A = lengte × breedte. A = 505, lengte = 101. Wat is de breedte?",
+  "answer": 5,
+  "hint1": "Deel A door lengte.",
+  "hint2": "b = 505 ÷ 101",
+  "explanation": "b = A ÷ l = 505 ÷ 101 = 5",
+  "classLevels": [
+    "havo-4"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "groep-7-p2-c12",
+  "type": "number-input",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Reken uit: 6 + 6 + 6 + 6 (4 keer 6). Wat is het antwoord?",
+  "answer": 24,
+  "hint1": "4 keer 6 is hetzelfde als 4 × 6.",
+  "hint2": "4 × 6 = 24",
+  "explanation": "4 × 6 = 24",
+  "classLevels": [
+    "groep-7"
+  ]
+}

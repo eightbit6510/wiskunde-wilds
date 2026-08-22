@@ -1,0 +1,98 @@
+{
+  "challengeId": "havo-3-p2-c01",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Tweede deel vinden bij verhouding 3:3"
+          },
+          {
+            "id": "wrong",
+            "label": "De getallen 3 en 3 direct optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: verhouding 3:3 betekent steeds dezelfde factor.\n\nEerste deel = 15.",
+        "question": "Hoeveel keer past 3 in 15? (schaalfactor)",
+        "options": [
+          {
+            "id": "f",
+            "label": "5"
+          },
+          {
+            "id": "w",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "f",
+        "successFeedback": "Goed — schaalfactor = 5.",
+        "retryFeedback": "Deel 15 door 3."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
+        "question": "Tweede deel = 5 × 3 = ?",
+        "options": [
+          {
+            "id": "o",
+            "label": "15"
+          },
+          {
+            "id": "w",
+            "label": "18"
+          }
+        ],
+        "correctAnswer": "o",
+        "successFeedback": "Klopt: 15.",
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 3."
+      },
+      {
+        "explanation": "Stap 4: controleer de verhouding.",
+        "question": "Klopt 15:15 = 3:3?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. Antwoord = 15.",
+        "retryFeedback": "Deel 15 door 3, vermenigvuldig met 3."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 15."
+  },
+  "bonusVariants": [
+    {
+      "id": "havo-3-c42-b1",
+      "type": "number-input",
+      "question": "Verhouding 3:3, eerste = 18. Tweede?",
+      "answer": 18,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde schaalfactor.",
+      "explanation": "Zelfde schaalfactor."
+    },
+    {
+      "id": "havo-3-c42-b2",
+      "type": "number-input",
+      "question": "Verhouding 3:3, eerste = 15. Tweede?",
+      "answer": 15,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "15 ÷ 3 × 3.",
+      "explanation": "15 ÷ 3 × 3."
+    }
+  ]
+}

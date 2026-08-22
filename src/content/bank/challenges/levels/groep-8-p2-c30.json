@@ -1,0 +1,16 @@
+{
+  "id": "groep-8-p2-c30",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 18 = 29. Wat is x?",
+  "answer": 11,
+  "hint1": "Haal 18 naar de andere kant: x = 29 − 18.",
+  "hint2": "x = 29 − 18",
+  "optionalWorkedFirstStep": "x + 18 = 29 → x = 29 − 18",
+  "explanation": "x + 18 = 29\nx = 29 − 18 = 11",
+  "classLevels": [
+    "groep-8"
+  ]
+}

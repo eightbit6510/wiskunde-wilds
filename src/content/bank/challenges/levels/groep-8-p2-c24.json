@@ -1,0 +1,26 @@
+{
+  "id": "groep-8-p2-c24",
+  "type": "sorting",
+  "topic": "redeneren",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Sorteer de breuken van groot naar klein.",
+  "sortItems": [
+    "1/2",
+    "1/4",
+    "3/4",
+    "1/8"
+  ],
+  "correctOrder": [
+    "3/4",
+    "1/2",
+    "1/4",
+    "1/8"
+  ],
+  "hint1": "Vergelijk de breuken — maak ze gelijknamig of gebruik een getal-lijn.",
+  "hint2": "Sleep de items in de juiste volgorde.",
+  "explanation": "Goed gesorteerd!",
+  "classLevels": [
+    "groep-8"
+  ]
+}

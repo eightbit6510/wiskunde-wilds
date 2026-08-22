@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c06",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Je telt 3 een paar keer op. Dat mag ook als vermenigvuldiging: 3 × 3.",
+    "intro": "Je telt 4 een paar keer op. Dat mag ook als vermenigvuldiging: 5 × 4.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "3 keer 3 optellen"
+            "label": "5 keer 4 optellen"
           },
           {
             "id": "wrong",
-            "label": "3 en 3 vermenigvuldigen zonder reden"
+            "label": "5 en 4 vermenigvuldigen zonder reden"
           }
         ],
         "correctAnswer": "task",
@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 3 groepjes van elk 3.\n\nDat is: 3 + 3 + 3.",
-        "question": "Is dit hetzelfde als 3 × 3?",
+        "explanation": "Stap 2: 5 groepjes van elk 4.\n\nDat is: 4 + 4 + 4 + 4 + 4.",
+        "question": "Is dit hetzelfde als 5 × 4?",
         "options": [
           {
             "id": "yes",
@@ -36,63 +36,63 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Goed — herhaald optellen = vermenigvuldigen.",
-        "retryFeedback": "3 keer hetzelfde getal."
+        "retryFeedback": "5 keer hetzelfde getal."
       },
       {
-        "explanation": "Stap 3: tel op (of gebruik de tafel van 3).",
-        "question": "Wat is 3 × 3?",
+        "explanation": "Stap 3: tel op (of gebruik de tafel van 4).",
+        "question": "Wat is 5 × 4?",
         "options": [
           {
             "id": "t",
-            "label": "9"
+            "label": "20"
           },
           {
             "id": "w",
-            "label": "12"
+            "label": "24"
           }
         ],
         "correctAnswer": "t",
-        "successFeedback": "Juist: 9.",
-        "retryFeedback": "3 + 3 + 3 = 9."
+        "successFeedback": "Juist: 20.",
+        "retryFeedback": "4 + 4 + 4 + 4 + 4 = 20."
       },
       {
         "explanation": "Stap 4: kies het antwoord.",
-        "question": "3 + 3 + 3 = ?",
+        "question": "4 + 4 + 4 + 4 + 4 = ?",
         "options": [
           {
             "id": "t",
-            "label": "9"
+            "label": "20"
           },
           {
             "id": "w",
-            "label": "8"
+            "label": "19"
           }
         ],
         "correctAnswer": "t",
-        "successFeedback": "Top! Antwoord = 9.",
-        "retryFeedback": "Reken 3 × 3."
+        "successFeedback": "Top! Antwoord = 20.",
+        "retryFeedback": "Reken 5 × 4."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3 × 3 = 9"
+    "conclusion": "Pootafdruk! 🐾 5 × 4 = 20"
   },
   "bonusVariants": [
     {
       "id": "groep-7-c06-b1",
       "type": "number-input",
-      "question": "4 × 3 = ?",
-      "answer": 12,
+      "question": "6 × 4 = ?",
+      "answer": 24,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog één groepje van 3.",
-      "explanation": "Nog één groepje van 3."
+      "hint2": "Nog één groepje van 4.",
+      "explanation": "Nog één groepje van 4."
     },
     {
       "id": "groep-7-c06-b2",
       "type": "number-input",
-      "question": "3 × 3 = ?",
-      "answer": 9,
+      "question": "5 × 4 = ?",
+      "answer": 20,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "3 keer 3.",
-      "explanation": "3 keer 3."
+      "hint2": "5 keer 4.",
+      "explanation": "5 keer 4."
     }
   ]
 }

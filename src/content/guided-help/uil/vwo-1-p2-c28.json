@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-1-p2-c28",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 98 = 149"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +98 weg is.\n\nWat doe je met +98?",
+        "question": "Hoe haal je +98 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "98 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "98 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 98 = 149. Haal +98 weg → x = 149 − 98.",
+        "question": "Wat is 149 − 98?",
+        "options": [
+          {
+            "id": "x",
+            "label": "51"
+          },
+          {
+            "id": "wrong",
+            "label": "53"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 51.",
+        "retryFeedback": "Reken uit: 149 − 98."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Past je x-waarde in x + 98 = 149?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, dat klopt"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 51!",
+        "retryFeedback": "Reken na: x + 98 moet 149 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 51"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-1-c68-b1",
+      "type": "number-input",
+      "question": "Los op: x + 100 = 151.",
+      "answer": 51,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 151 − 100 = 51.",
+      "explanation": "x = 151 − 100 = 51."
+    },
+    {
+      "id": "vwo-1-c68-b2",
+      "type": "number-input",
+      "question": "Los op: x + 98 = 154.",
+      "answer": 56,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 154 − 98.",
+      "explanation": "x = 154 − 98."
+    }
+  ]
+}

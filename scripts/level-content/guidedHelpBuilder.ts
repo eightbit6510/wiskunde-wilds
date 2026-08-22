@@ -1033,8 +1033,8 @@ export const REDENEREN_VARIANTS: RedenerenSpec[] = [
 ];
 
 /** Redeneren-varianten passend per basisschooljaar */
-export const REDENEREN_GROEP6 = [0, 1, 2, 3, 4, 5, 9, 10];
-export const REDENEREN_GROEP7 = [0, 1, 2, 3, 4, 5, 9, 10, 11];
+export const REDENEREN_GROEP6 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+export const REDENEREN_GROEP7 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
 /** Groep 6: breuken met gelijke noemer → antwoord als breuk */
 export function helpForBreukenGelijknamig(

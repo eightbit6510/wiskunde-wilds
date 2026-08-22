@@ -1,0 +1,16 @@
+{
+  "id": "vwo-1-p2-c16",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 103 = 157. Wat is x?",
+  "answer": 54,
+  "hint1": "Haal 103 naar de andere kant: x = 157 − 103.",
+  "hint2": "x = 157 − 103",
+  "optionalWorkedFirstStep": "x + 103 = 157 → x = 157 − 103",
+  "explanation": "x + 103 = 157\nx = 157 − 103 = 54",
+  "classLevels": [
+    "vwo-1"
+  ]
+}

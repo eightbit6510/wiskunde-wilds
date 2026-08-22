@@ -1,0 +1,15 @@
+{
+  "id": "havo-5-p2-c40",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Verhouding 3:5. De eerste deelgroep is 12. Hoe groot is de tweede?",
+  "answer": 20,
+  "hint1": "Deel 12 door 3 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 5 = 20.",
+  "explanation": "12 ÷ 3 = 4.\n4 × 5 = 20.",
+  "classLevels": [
+    "havo-5"
+  ]
+}

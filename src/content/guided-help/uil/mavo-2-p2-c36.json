@@ -1,0 +1,98 @@
+{
+  "challengeId": "mavo-2-p2-c36",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Tweede deel vinden bij verhouding 3:4"
+          },
+          {
+            "id": "wrong",
+            "label": "De getallen 3 en 4 direct optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: verhouding 3:4 betekent steeds dezelfde factor.\n\nEerste deel = 6.",
+        "question": "Hoeveel keer past 3 in 6? (schaalfactor)",
+        "options": [
+          {
+            "id": "f",
+            "label": "2"
+          },
+          {
+            "id": "w",
+            "label": "3"
+          }
+        ],
+        "correctAnswer": "f",
+        "successFeedback": "Goed — schaalfactor = 2.",
+        "retryFeedback": "Deel 6 door 3."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
+        "question": "Tweede deel = 2 × 4 = ?",
+        "options": [
+          {
+            "id": "o",
+            "label": "8"
+          },
+          {
+            "id": "w",
+            "label": "12"
+          }
+        ],
+        "correctAnswer": "o",
+        "successFeedback": "Klopt: 8.",
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 4."
+      },
+      {
+        "explanation": "Stap 4: controleer de verhouding.",
+        "question": "Klopt 6:8 = 3:4?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. Antwoord = 8.",
+        "retryFeedback": "Deel 6 door 3, vermenigvuldig met 4."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 8."
+  },
+  "bonusVariants": [
+    {
+      "id": "mavo-2-c79-b1",
+      "type": "number-input",
+      "question": "Verhouding 3:4, eerste = 9. Tweede?",
+      "answer": 12,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde schaalfactor.",
+      "explanation": "Zelfde schaalfactor."
+    },
+    {
+      "id": "mavo-2-c79-b2",
+      "type": "number-input",
+      "question": "Verhouding 3:4, eerste = 6. Tweede?",
+      "answer": 8,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "6 ÷ 3 × 4.",
+      "explanation": "6 ÷ 3 × 4."
+    }
+  ]
+}

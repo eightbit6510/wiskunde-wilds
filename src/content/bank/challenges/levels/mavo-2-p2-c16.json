@@ -1,0 +1,16 @@
+{
+  "id": "mavo-2-p2-c16",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 97 = 148. Wat is x?",
+  "answer": 51,
+  "hint1": "Haal 97 naar de andere kant: x = 148 − 97.",
+  "hint2": "x = 148 − 97",
+  "optionalWorkedFirstStep": "x + 97 = 148 → x = 148 − 97",
+  "explanation": "x + 97 = 148\nx = 148 − 97 = 51",
+  "classLevels": [
+    "mavo-2"
+  ]
+}

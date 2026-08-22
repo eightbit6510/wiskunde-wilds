@@ -1,0 +1,118 @@
+{
+  "challengeId": "groep-6-p2-c21",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "We tellen 4/8 en 3/8 op. Beide stukken hebben dezelfde noemer — dat maakt het makkelijker.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "4/8 + 3/8 uitrekenen"
+          },
+          {
+            "id": "wrong",
+            "label": "Teller en noemer van beide breuken bij elkaar optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: kijk naar de noemer (onderste getal).\n\nBij 4/8 en 3/8 is die overal 8.",
+        "question": "Hebben beide breuken dezelfde noemer?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, beide hebben noemer 8"
+          },
+          {
+            "id": "no",
+            "label": "Nee, de noemers zijn verschillend"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! Dan hoef je de noemer niet te veranderen.",
+        "retryFeedback": "Kijk onderaan de breuk: het getal onder de streep."
+      },
+      {
+        "explanation": "Stap 3: tel alleen de tellers op.\n\nTel 4 + 3. De noemer 8 blijft staan.",
+        "question": "Wat is 4/8 + 3/8?",
+        "options": [
+          {
+            "id": "right",
+            "label": "7/8"
+          },
+          {
+            "id": "wrong",
+            "label": "7/16"
+          }
+        ],
+        "correctAnswer": "right",
+        "successFeedback": "Precies! Het antwoord is 7/8.",
+        "retryFeedback": "Tel 4 + 3 = 7. Noemer blijft 8."
+      },
+      {
+        "explanation": "Stap 4: kies je antwoord in de som.",
+        "question": "Welke breuk is 4/8 + 3/8?",
+        "options": [
+          {
+            "id": "right",
+            "label": "7/8"
+          },
+          {
+            "id": "wrong",
+            "label": "7/16"
+          }
+        ],
+        "correctAnswer": "right",
+        "successFeedback": "Super! 4/8 + 3/8 = 7/8.",
+        "retryFeedback": "Tel de bovenste getallen: 4 + 3."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 4/8 + 3/8 = 7/8"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c62-b1",
+      "type": "multiple-choice",
+      "question": "Wat is 1/8 + 2/8?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "3/8"
+        },
+        {
+          "id": "b",
+          "label": "3/16"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Tel tellers: 1+2=3, noemer blijft 8.",
+      "explanation": "Tel tellers: 1+2=3, noemer blijft 8."
+    },
+    {
+      "id": "groep-6-c62-b2",
+      "type": "multiple-choice",
+      "question": "Welke is groter: 1/2 of 1/4?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "1/2"
+        },
+        {
+          "id": "b",
+          "label": "1/4"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Half is groter dan kwart.",
+      "explanation": "Half is groter dan kwart."
+    }
+  ]
+}

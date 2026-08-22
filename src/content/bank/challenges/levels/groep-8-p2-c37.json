@@ -1,0 +1,16 @@
+{
+  "id": "groep-8-p2-c37",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 1/1 + 3/4? Geef je antwoord als kommagetal (max. 2 cijfers achter de komma).",
+  "answer": 1.75,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "1/1 + 3/4 = 7/4",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 16.",
+  "explanation": "1/1 + 3/4 = 7/4 = 1.75",
+  "classLevels": [
+    "groep-8"
+  ]
+}

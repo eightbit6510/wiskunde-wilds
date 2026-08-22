@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Het ontbrekende getal zoeken in 6 + ? = 13"
+            "label": "Het ontbrekende getal zoeken in 4 + ? = 10"
           },
           {
             "id": "wrong",
@@ -22,42 +22,42 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: wat weten we?\n\n6 + ? moet samen 13 worden.",
-        "question": "Moet het ontbrekende getal kleiner zijn dan 13?",
+        "explanation": "Stap 2: wat weten we?\n\n4 + ? moet samen 10 worden.",
+        "question": "Moet het ontbrekende getal kleiner zijn dan 10?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, het is een stukje van 13"
+            "label": "Ja, het is een stukje van 10"
           },
           {
             "id": "no",
-            "label": "Nee, groter dan 13"
+            "label": "Nee, groter dan 10"
           }
         ],
         "correctAnswer": "yes",
         "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
-        "retryFeedback": "Samen moet het 13 worden."
+        "retryFeedback": "Samen moet het 10 worden."
       },
       {
-        "explanation": "Stap 3: reken terug.\n\nTrek 6 af van 13.",
-        "question": "Wat is 13 − 6?",
+        "explanation": "Stap 3: reken terug.\n\nTrek 4 af van 10.",
+        "question": "Wat is 10 − 4?",
         "options": [
           {
             "id": "m",
-            "label": "7"
+            "label": "6"
           },
           {
             "id": "w",
-            "label": "9"
+            "label": "8"
           }
         ],
         "correctAnswer": "m",
-        "successFeedback": "Juist! Het ontbrekende getal is 7.",
-        "retryFeedback": "Trek 6 af van 13."
+        "successFeedback": "Juist! Het ontbrekende getal is 6.",
+        "retryFeedback": "Trek 4 af van 10."
       },
       {
         "explanation": "Stap 4: controleer.",
-        "question": "Tel je antwoord op bij 6. Kom je op 13?",
+        "question": "Tel je antwoord op bij 4. Kom je op 10?",
         "options": [
           {
             "id": "yes",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect! Het ontbrekende getal is 7.",
-        "retryFeedback": "Reken na: antwoord + 6 = 13."
+        "successFeedback": "Perfect! Het ontbrekende getal is 6.",
+        "retryFeedback": "Reken na: antwoord + 4 = 10."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 7."
+    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 6."
   },
   "bonusVariants": [
     {
       "id": "groep-7-c26-b1",
       "type": "number-input",
-      "question": "8 + 6 = ?",
-      "answer": 14,
+      "question": "7 + 4 = ?",
+      "answer": 11,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "8 + 6 = 14.",
-      "explanation": "8 + 6 = 14."
+      "hint2": "7 + 4 = 11.",
+      "explanation": "7 + 4 = 11."
     },
     {
       "id": "groep-7-c26-b2",
       "type": "number-input",
-      "question": "? + 6 = 13",
-      "answer": 7,
+      "question": "? + 4 = 10",
+      "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "13 − 6 = 7.",
-      "explanation": "13 − 6 = 7."
+      "hint2": "10 − 4 = 6.",
+      "explanation": "10 − 4 = 6."
     }
   ]
 }

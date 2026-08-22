@@ -1,0 +1,16 @@
+{
+  "id": "havo-2-p2-c30",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 16 = 24. Wat is x?",
+  "answer": 8,
+  "hint1": "Haal 16 naar de andere kant: x = 24 − 16.",
+  "hint2": "x = 24 − 16",
+  "optionalWorkedFirstStep": "x + 16 = 24 → x = 24 − 16",
+  "explanation": "x + 16 = 24\nx = 24 − 16 = 8",
+  "classLevels": [
+    "havo-2"
+  ]
+}

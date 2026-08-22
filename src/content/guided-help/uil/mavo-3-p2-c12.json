@@ -1,0 +1,98 @@
+{
+  "challengeId": "mavo-3-p2-c12",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Zoek wat onbekend is — draai de formule om.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Breedte vinden (A=42, lengte=7)"
+          },
+          {
+            "id": "wrong",
+            "label": "Lengte en breedte optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=42, lengte=7.",
+        "question": "Welke grootte zoek je?",
+        "options": [
+          {
+            "id": "b",
+            "label": "Breedte"
+          },
+          {
+            "id": "a",
+            "label": "Oppervlakte"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Goed — breedte is onbekend.",
+        "retryFeedback": "Oppervlakte en lengte zijn gegeven."
+      },
+      {
+        "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
+        "question": "42 ÷ 7 = ?",
+        "options": [
+          {
+            "id": "b",
+            "label": "6"
+          },
+          {
+            "id": "w",
+            "label": "7"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Breedte = 6.",
+        "retryFeedback": "Deel 42 door 7."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "Vermenigvuldig lengte 7 met je breedte-antwoord. Is het 42?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! Breedte = 6.",
+        "retryFeedback": "7 × 6 moet 42 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 b = 6"
+  },
+  "bonusVariants": [
+    {
+      "id": "mavo-3-c12-b1",
+      "type": "number-input",
+      "question": "A = 49, l = 7. b = ?",
+      "answer": 7,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Deel oppervlakte door lengte.",
+      "explanation": "Deel oppervlakte door lengte."
+    },
+    {
+      "id": "mavo-3-c12-b2",
+      "type": "number-input",
+      "question": "A = 42, l = 7. b = ?",
+      "answer": 6,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "b = 42 ÷ 7.",
+      "explanation": "b = 42 ÷ 7."
+    }
+  ]
+}

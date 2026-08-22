@@ -1,0 +1,29 @@
+{
+  "id": "vwo-6-p2-c07",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 6x + 6x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "12x"
+    },
+    {
+      "id": "b",
+      "label": "36x"
+    },
+    {
+      "id": "c",
+      "label": "12"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "6x + 6x = (6+6)x",
+  "explanation": "6x + 6x = 12x",
+  "classLevels": [
+    "vwo-6"
+  ]
+}

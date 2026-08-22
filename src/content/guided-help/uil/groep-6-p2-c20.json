@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-6-p2-c20",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij kaarten geldt: voor elke 3 horen 3. Zoek eerst hoe vaak 3 in 6 past.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Bij kaarten: 3 horen bij 3, nu 6 gegeven"
+          },
+          {
+            "id": "wrong",
+            "label": "3 en 3 gewoon bij elkaar optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: verhouding 3:3 betekent steeds dezelfde verhouding.\n\nEerst deel je 6 door 3.",
+        "question": "Hoeveel keer past 3 in 6?",
+        "options": [
+          {
+            "id": "f",
+            "label": "2"
+          },
+          {
+            "id": "w",
+            "label": "3"
+          }
+        ],
+        "correctAnswer": "f",
+        "successFeedback": "Goed — dat is 2 keer.",
+        "retryFeedback": "Deel 6 door 3."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig met 3.",
+        "question": "2 × 3 = ?",
+        "options": [
+          {
+            "id": "o",
+            "label": "6"
+          },
+          {
+            "id": "w",
+            "label": "9"
+          }
+        ],
+        "correctAnswer": "o",
+        "successFeedback": "Klopt: 6.",
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 3."
+      },
+      {
+        "explanation": "Stap 4: controle.",
+        "question": "Klopt 6:6 = 3:3?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Super! Antwoord = 6.",
+        "retryFeedback": "Deel eerst, dan vermenigvuldig."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Het antwoord is 6."
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c16-b1",
+      "type": "number-input",
+      "question": "kaarten: 3:3, eerste = 9. Tweede?",
+      "answer": 9,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde stap: delen en vermenigvuldigen.",
+      "explanation": "Zelfde stap: delen en vermenigvuldigen."
+    },
+    {
+      "id": "groep-6-c16-b2",
+      "type": "number-input",
+      "question": "kaarten: eerste = 6. Tweede?",
+      "answer": 6,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "6 ÷ 3 × 3.",
+      "explanation": "6 ÷ 3 × 3."
+    }
+  ]
+}

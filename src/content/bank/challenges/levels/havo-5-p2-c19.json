@@ -1,0 +1,29 @@
+{
+  "id": "havo-5-p2-c19",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 5x + 2x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "7x"
+    },
+    {
+      "id": "b",
+      "label": "10x"
+    },
+    {
+      "id": "c",
+      "label": "7"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "5x + 2x = (5+2)x",
+  "explanation": "5x + 2x = 7x",
+  "classLevels": [
+    "havo-5"
+  ]
+}

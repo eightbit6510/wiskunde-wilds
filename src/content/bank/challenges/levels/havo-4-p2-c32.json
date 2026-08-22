@@ -1,0 +1,16 @@
+{
+  "id": "havo-4-p2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 20 = 30. Wat is x?",
+  "answer": 10,
+  "hint1": "Haal 20 naar de andere kant: x = 30 − 20.",
+  "hint2": "x = 30 − 20",
+  "optionalWorkedFirstStep": "x + 20 = 30 → x = 30 − 20",
+  "explanation": "x + 20 = 30\nx = 30 − 20 = 10",
+  "classLevels": [
+    "havo-4"
+  ]
+}

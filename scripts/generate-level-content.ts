@@ -1,5 +1,5 @@
 /**
- * Genereer jaargroep-content: 18 levels × 40 sommen + uil-hulp + 8 lessen.
+ * Genereer jaargroep-content: 18 levels × 80 sommen (Deel I + Deel II) + uil-hulp + 16 lessen.
  * Run: npm run content:generate-levels
  */
 import { mkdirSync, writeFileSync } from 'node:fs';
@@ -37,6 +37,10 @@ for (const bundle of bundles) {
     writeJson(join(levelDir, 'lessons', `${lesson.id}.json`), lesson);
   }
 
+  for (const lesson of bundle.part2Lessons) {
+    writeJson(join(levelDir, 'lessons', `${lesson.id}.json`), lesson);
+  }
+
   for (const challenge of bundle.challenges) {
     writeJson(join(bankRoot, `${challenge.id}.json`), challenge);
     challengeCount += 1;
@@ -57,7 +61,7 @@ writeJson(join(curriculumRoot, 'profiles.json'), profiles);
 const matrix = bundles
   .map(
     (b) =>
-      `| ${b.level} | ${b.manifest.subtitle} | ${b.challenges.length} sommen | ${b.lessons.length} lessen |`,
+      `| ${b.level} | ${b.manifest.subtitle} | ${b.challenges.length} sommen | ${b.lessons.length + b.part2Lessons.length} lessen |`,
   )
   .join('\n');
 

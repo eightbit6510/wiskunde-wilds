@@ -1,0 +1,15 @@
+{
+  "id": "vwo-2-p2-c29",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Verhouding 3:3. De eerste deelgroep is 6. Hoe groot is de tweede?",
+  "answer": 6,
+  "hint1": "Deel 6 door 3 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 3 = 6.",
+  "explanation": "6 ÷ 3 = 2.\n2 × 3 = 6.",
+  "classLevels": [
+    "vwo-2"
+  ]
+}

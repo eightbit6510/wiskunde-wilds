@@ -1,0 +1,29 @@
+{
+  "id": "groep-6-p2-c25",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "1 appel kost 2 euro. Wat kosten 3 appels?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "6 euro"
+    },
+    {
+      "id": "b",
+      "label": "8 euro"
+    },
+    {
+      "id": "c",
+      "label": "5 euro"
+    }
+  ],
+  "hint1": "Elke appel kost 2 euro — tel dat 3 keer op.",
+  "hint2": "3 × 2 = 6",
+  "explanation": "3 × 2 euro = 6 euro",
+  "classLevels": [
+    "groep-6"
+  ]
+}

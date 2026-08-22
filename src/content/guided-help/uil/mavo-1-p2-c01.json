@@ -1,0 +1,98 @@
+{
+  "challengeId": "mavo-1-p2-c01",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Zoek wat onbekend is — draai de formule om.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Breedte vinden (A=588, lengte=98)"
+          },
+          {
+            "id": "wrong",
+            "label": "Lengte en breedte optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: formule A = lengte × breedte.\n\nGegeven: A=588, lengte=98.",
+        "question": "Welke grootte zoek je?",
+        "options": [
+          {
+            "id": "b",
+            "label": "Breedte"
+          },
+          {
+            "id": "a",
+            "label": "Oppervlakte"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Goed — breedte is onbekend.",
+        "retryFeedback": "Oppervlakte en lengte zijn gegeven."
+      },
+      {
+        "explanation": "Stap 3: draai de formule om.\n\nBreedte = oppervlakte ÷ lengte.",
+        "question": "588 ÷ 98 = ?",
+        "options": [
+          {
+            "id": "b",
+            "label": "6"
+          },
+          {
+            "id": "w",
+            "label": "7"
+          }
+        ],
+        "correctAnswer": "b",
+        "successFeedback": "Breedte = 6.",
+        "retryFeedback": "Deel 588 door 98."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "Vermenigvuldig lengte 98 met je breedte-antwoord. Is het 588?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! Breedte = 6.",
+        "retryFeedback": "98 × 6 moet 588 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 b = 6"
+  },
+  "bonusVariants": [
+    {
+      "id": "mavo-1-c41-b1",
+      "type": "number-input",
+      "question": "A = 686, l = 98. b = ?",
+      "answer": 7,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Deel oppervlakte door lengte.",
+      "explanation": "Deel oppervlakte door lengte."
+    },
+    {
+      "id": "mavo-1-c41-b2",
+      "type": "number-input",
+      "question": "A = 588, l = 98. b = ?",
+      "answer": 6,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "b = 588 ÷ 98.",
+      "explanation": "b = 588 ÷ 98."
+    }
+  ]
+}

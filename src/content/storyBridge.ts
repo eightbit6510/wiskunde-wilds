@@ -5,8 +5,11 @@
  */
 import type { ClassLevel, LessonShell } from '../types/content';
 import type { Challenge, Lesson } from '../types';
-import { CHALLENGES_PER_LESSON } from './classLevels';
-import { loadLessonsForClassLevel, loadLevelLessonFromContent } from './levelLoader';
+import {
+  loadLessonsForClassLevel,
+  loadLevelLessonFromContent,
+  loadPart2LessonsForClassLevel as loadPart2FromContent,
+} from './levelLoader';
 import {
   getStoryLessonShell,
   PART1_STORY_IDS,
@@ -80,40 +83,18 @@ export function loadPart1LessonsForClassLevel(level: ClassLevel): Lesson[] {
   return loadLessonsForClassLevel(level).map((lesson) => enrichPart1Lesson(lesson, level));
 }
 
+export function enrichPart2Lesson(lesson: Lesson, _level: ClassLevel): Lesson {
+  const storyLessonId = PART2_STORY_IDS[lesson.order - 1] ?? PART2_STORY_IDS[0];
+  return {
+    ...lesson,
+    adventureId: 'part2',
+    storyLessonId,
+    storyArc: 'part2',
+  };
+}
+
 export function loadPart2LessonsForClassLevel(level: ClassLevel): Lesson[] {
-  const pool = part1ChallengePool(level);
-  if (pool.length === 0) return [];
-
-  return PART2_STORY_IDS.map((storyId, lessonIndex) => {
-    const storyShell = getStoryLessonShell('part2', storyId);
-    if (!storyShell) {
-      throw new Error(`Missing part2 story shell "${storyId}"`);
-    }
-
-    const lessonId = `${level}-p2-l${lessonIndex + 1}`;
-    const challenges = Array.from({ length: CHALLENGES_PER_LESSON }, (_, slot) => {
-      const poolIndex = (lessonIndex * CHALLENGES_PER_LESSON + slot + 20) % pool.length;
-      const source = pool[poolIndex];
-      const challengeId = `${level}-p2-c${String(lessonIndex * CHALLENGES_PER_LESSON + slot + 1).padStart(2, '0')}`;
-      return cloneChallengeForArc(
-        source,
-        challengeId,
-        storyOptionalStoryFromShell(storyShell, slot),
-        true,
-      );
-    });
-
-    return buildBridgedLesson({
-      level,
-      lessonId,
-      storyShell,
-      order: lessonIndex + 1,
-      adventureId: 'part2',
-      storyLessonId: storyId,
-      storyArc: 'part2',
-      challenges,
-    });
-  });
+  return loadPart2FromContent(level).map((lesson) => enrichPart2Lesson(lesson, level));
 }
 
 export function loadSideMissionsForClassLevel(level: ClassLevel): Lesson[] {

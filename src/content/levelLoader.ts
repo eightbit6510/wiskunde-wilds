@@ -73,17 +73,42 @@ export function getLevelLessonIds(level: ClassLevel): string[] {
   return LEVEL_MANIFESTS.get(level)?.lessonIds ?? [];
 }
 
+export function getPart2LessonIds(level: ClassLevel): string[] {
+  return LEVEL_MANIFESTS.get(level)?.part2LessonIds ?? [];
+}
+
+export function loadPart2LessonsForClassLevel(level: ClassLevel): Lesson[] {
+  const manifest = LEVEL_MANIFESTS.get(level);
+  if (!manifest?.part2LessonIds?.length) {
+    throw new Error(`No Deel II lesson ids in manifest for "${level}"`);
+  }
+  return manifest.part2LessonIds.map((id) => {
+    const lesson = loadLevelLessonFromContent(id);
+    if (!lesson) {
+      throw new Error(`Level content failed to load Deel II lesson "${id}" for ${level}`);
+    }
+    return { ...lesson, adventureId: `${level}-part2` };
+  });
+}
+
 export function validateLevelBundle(level: ClassLevel) {
   const manifest = LEVEL_MANIFESTS.get(level);
   if (!manifest) {
     return { ok: false, issues: [{ severity: 'error' as const, code: 'NO_MANIFEST', message: `Missing manifest for ${level}` }] };
   }
 
-  const shells = manifest.lessonIds.map((id) => {
-    const shell = LEVEL_SHELLS[id];
-    if (!shell) throw new Error(`Missing shell ${id}`);
-    return shell;
-  });
+  const shells = [
+    ...manifest.lessonIds.map((id) => {
+      const shell = LEVEL_SHELLS[id];
+      if (!shell) throw new Error(`Missing shell ${id}`);
+      return shell;
+    }),
+    ...(manifest.part2LessonIds ?? []).map((id) => {
+      const shell = LEVEL_SHELLS[id];
+      if (!shell) throw new Error(`Missing Deel II shell ${id}`);
+      return shell;
+    }),
+  ];
 
   const helpByChallenge = new Map(
     shells.flatMap((shell) =>

@@ -1,0 +1,118 @@
+{
+  "challengeId": "vwo-6-p2-c33",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij gelijke letters tel je alleen de getallen ervoor op.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "2x + 2x vereenvoudigen"
+          },
+          {
+            "id": "wrong",
+            "label": "De getallen 2 en 2 vermenigvuldigen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
+        "question": "Kun je 2x en 2x optellen?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, beide hebben x"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — tel de getallen vóór x op.",
+        "retryFeedback": "Kijk naar de letter: beide hebben x."
+      },
+      {
+        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 2 + 2.",
+        "question": "Wat is 2x + 2x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "4x"
+          },
+          {
+            "id": "b",
+            "label": "4x"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Juist: 4x.",
+        "retryFeedback": "Tel 2 en 2 op; x blijft staan."
+      },
+      {
+        "explanation": "Stappenplan voor dit type som:\n1. Check: zelfde letter? (x)\n2. Tel getallen ervoor op: 2+2=4\n3. Antwoord: 4x",
+        "question": "Welk antwoord hoort bij de som?",
+        "options": [
+          {
+            "id": "a",
+            "label": "4x"
+          },
+          {
+            "id": "c",
+            "label": "4"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Top! 2x + 2x = 4x.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 2x + 2x = 4x"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-6-c74-b1",
+      "type": "multiple-choice",
+      "question": "Vereenvoudig: 3x + 2x",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "5x"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Tel 3 + 2.",
+      "explanation": "Tel 3 + 2."
+    },
+    {
+      "id": "vwo-6-c74-b2",
+      "type": "multiple-choice",
+      "question": "Vereenvoudig: 2x + 3x",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "5x"
+        },
+        {
+          "id": "b",
+          "label": "5x"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Tel 2 + 3.",
+      "explanation": "Tel 2 + 3."
+    }
+  ]
+}

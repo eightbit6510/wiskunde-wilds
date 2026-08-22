@@ -1,0 +1,16 @@
+{
+  "id": "havo-3-p2-c28",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 101 = 158. Wat is x?",
+  "answer": 57,
+  "hint1": "Haal 101 naar de andere kant: x = 158 − 101.",
+  "hint2": "x = 158 − 101",
+  "optionalWorkedFirstStep": "x + 101 = 158 → x = 158 − 101",
+  "explanation": "x + 101 = 158\nx = 158 − 101 = 57",
+  "classLevels": [
+    "havo-3"
+  ]
+}

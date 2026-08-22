@@ -1,0 +1,29 @@
+{
+  "id": "groep-8-p2-c08",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 6x + 2x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "8x"
+    },
+    {
+      "id": "b",
+      "label": "12x"
+    },
+    {
+      "id": "c",
+      "label": "8"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "6x + 2x = (6+2)x",
+  "explanation": "6x + 2x = 8x",
+  "classLevels": [
+    "groep-8"
+  ]
+}

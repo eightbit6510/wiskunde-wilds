@@ -1,0 +1,15 @@
+{
+  "id": "groep-6-p2-c12",
+  "type": "number-input",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Reken uit: 4 + 4 + 4 (3 keer 4). Wat is het antwoord?",
+  "answer": 12,
+  "hint1": "3 keer 4 is hetzelfde als 3 × 4.",
+  "hint2": "3 × 4 = 12",
+  "explanation": "3 × 4 = 12",
+  "classLevels": [
+    "groep-6"
+  ]
+}

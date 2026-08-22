@@ -1,0 +1,16 @@
+{
+  "id": "havo-3-p2-c30",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 15 = 28. Wat is x?",
+  "answer": 13,
+  "hint1": "Haal 15 naar de andere kant: x = 28 − 15.",
+  "hint2": "x = 28 − 15",
+  "optionalWorkedFirstStep": "x + 15 = 28 → x = 28 − 15",
+  "explanation": "x + 15 = 28\nx = 28 − 15 = 13",
+  "classLevels": [
+    "havo-3"
+  ]
+}

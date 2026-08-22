@@ -1,0 +1,29 @@
+{
+  "id": "groep-7-p2-c25",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "1 sticker kost 3 euro. Wat kosten 3 sticker?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "9 euro"
+    },
+    {
+      "id": "b",
+      "label": "12 euro"
+    },
+    {
+      "id": "c",
+      "label": "8 euro"
+    }
+  ],
+  "hint1": "Elke sticker kost 3 euro — tel dat 3 keer op.",
+  "hint2": "3 × 3 = 9",
+  "explanation": "3 × 3 euro = 9 euro",
+  "classLevels": [
+    "groep-7"
+  ]
+}

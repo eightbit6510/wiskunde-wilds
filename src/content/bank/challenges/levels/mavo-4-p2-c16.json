@@ -1,0 +1,16 @@
+{
+  "id": "mavo-4-p2-c16",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 100 = 155. Wat is x?",
+  "answer": 55,
+  "hint1": "Haal 100 naar de andere kant: x = 155 − 100.",
+  "hint2": "x = 155 − 100",
+  "optionalWorkedFirstStep": "x + 100 = 155 → x = 155 − 100",
+  "explanation": "x + 100 = 155\nx = 155 − 100 = 55",
+  "classLevels": [
+    "mavo-4"
+  ]
+}

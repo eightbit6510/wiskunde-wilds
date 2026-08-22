@@ -1,0 +1,29 @@
+{
+  "id": "groep-6-p2-c11",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "1 sticker kost 3 euro. Wat kosten 5 sticker?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "15 euro"
+    },
+    {
+      "id": "b",
+      "label": "18 euro"
+    },
+    {
+      "id": "c",
+      "label": "14 euro"
+    }
+  ],
+  "hint1": "Elke sticker kost 3 euro — tel dat 5 keer op.",
+  "hint2": "5 × 3 = 15",
+  "explanation": "5 × 3 euro = 15 euro",
+  "classLevels": [
+    "groep-6"
+  ]
+}

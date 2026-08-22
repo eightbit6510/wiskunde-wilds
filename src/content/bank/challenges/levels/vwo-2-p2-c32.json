@@ -1,0 +1,16 @@
+{
+  "id": "vwo-2-p2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 17 = 28. Wat is x?",
+  "answer": 11,
+  "hint1": "Haal 17 naar de andere kant: x = 28 − 17.",
+  "hint2": "x = 28 − 17",
+  "optionalWorkedFirstStep": "x + 17 = 28 → x = 28 − 17",
+  "explanation": "x + 17 = 28\nx = 28 − 17 = 11",
+  "classLevels": [
+    "vwo-2"
+  ]
+}

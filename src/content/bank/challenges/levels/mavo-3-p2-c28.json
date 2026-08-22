@@ -1,0 +1,16 @@
+{
+  "id": "mavo-3-p2-c28",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 100 = 151. Wat is x?",
+  "answer": 51,
+  "hint1": "Haal 100 naar de andere kant: x = 151 − 100.",
+  "hint2": "x = 151 − 100",
+  "optionalWorkedFirstStep": "x + 100 = 151 → x = 151 − 100",
+  "explanation": "x + 100 = 151\nx = 151 − 100 = 51",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

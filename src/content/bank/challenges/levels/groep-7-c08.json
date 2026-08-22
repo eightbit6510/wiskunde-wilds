@@ -4,11 +4,11 @@
   "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Er ontbreekt een getal: 4 + ? = 8. Wat is het ontbrekende getal?",
+  "question": "Er ontbreekt een getal: 5 + ? = 9. Wat is het ontbrekende getal?",
   "answer": 4,
   "hint1": "Tel terug: trek het bekende getal af van het totaal.",
-  "hint2": "8 − 4 = 4",
-  "explanation": "8 − 4 = 4",
+  "hint2": "9 − 5 = 4",
+  "explanation": "9 − 5 = 4",
   "classLevels": [
     "groep-7"
   ]

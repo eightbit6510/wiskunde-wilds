@@ -1,0 +1,156 @@
+{
+  "challengeId": "vwo-5-p2-c26",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Alle juiste uitspraken kiezen"
+          },
+          {
+            "id": "wrong",
+            "label": "Slechts één antwoord kiezen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Rechte hoek = hoek van een vierkant.",
+        "question": "Hoeveel graden?",
+        "options": [
+          {
+            "id": "90",
+            "label": "90°"
+          },
+          {
+            "id": "180",
+            "label": "180°"
+          }
+        ],
+        "correctAnswer": "90",
+        "successFeedback": "A is waar.",
+        "retryFeedback": "Rechte hoek = 90°."
+      },
+      {
+        "explanation": "B zegt rechte hoek = 180°.",
+        "question": "Klopt B?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "no",
+        "successFeedback": "B is onwaar.",
+        "retryFeedback": "180° = gestrekte hoek."
+      },
+      {
+        "explanation": "C: gestrekte hoek.",
+        "question": "Hoeveel graden?",
+        "options": [
+          {
+            "id": "90",
+            "label": "90°"
+          },
+          {
+            "id": "180",
+            "label": "180°"
+          }
+        ],
+        "correctAnswer": "180",
+        "successFeedback": "C is waar.",
+        "retryFeedback": "Gestrekte hoek = 180°."
+      },
+      {
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
+        "options": [
+          {
+            "id": "ac",
+            "label": "A en C"
+          },
+          {
+            "id": "ab",
+            "label": "A en B"
+          },
+          {
+            "id": "bd",
+            "label": "B en D"
+          }
+        ],
+        "correctAnswer": "ac",
+        "successFeedback": "A en C kloppen.",
+        "retryFeedback": "B verwart hoeken."
+      },
+      {
+        "explanation": "Stappenplan voor dit type som:\n1. Lees uitspraak A, B, C en D\n2. Zet bij elke: waar of onwaar?\n3. Kies alles wat waar is",
+        "question": "Welke letters kloppen?",
+        "options": [
+          {
+            "id": "ans",
+            "label": "A en C"
+          },
+          {
+            "id": "wrong",
+            "label": "Alleen de eerste"
+          }
+        ],
+        "correctAnswer": "ans",
+        "successFeedback": "Helemaal goed! A en C zijn waar.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-5-c66-b1",
+      "type": "multiple-choice",
+      "question": "Rechte hoek in graden?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "90°"
+        },
+        {
+          "id": "b",
+          "label": "45°"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "90°.",
+      "explanation": "90°."
+    },
+    {
+      "id": "vwo-5-c66-b2",
+      "type": "multiple-choice",
+      "question": "Gestrekte hoek?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "90°"
+        },
+        {
+          "id": "b",
+          "label": "180°"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "180°.",
+      "explanation": "180°."
+    }
+  ]
+}

@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Deelbaar = exact delen zonder rest.",
-        "question": "Is 12 deelbaar door 3?",
+        "explanation": "Kilometer en meter.",
+        "question": "1 km = 1000 m?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 12÷3=4"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "12÷3=4."
+        "retryFeedback": "kilo = duizend."
       },
       {
-        "explanation": "Check B: 12÷5.",
-        "question": "12÷5 = 2 rest 2. Klopt B?",
+        "explanation": "B: 1 km = 100 m?",
+        "question": "Klopt B?",
         "options": [
           {
             "id": "yes",
@@ -53,15 +53,15 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Geen rest = deelbaar."
+        "retryFeedback": "1 km = 1000 m."
       },
       {
-        "explanation": "Check C: 15÷3.",
-        "question": "Is 15 deelbaar door 3?",
+        "explanation": "Tijd: uur en minuten.",
+        "question": "1 uur = 60 min?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 15÷3=5"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -70,11 +70,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "15÷3=5."
+        "retryFeedback": "1 uur = 60 minuten."
       },
       {
         "explanation": "Welke zijn waar?",
-        "question": "Kies alles wat klopt.",
+        "question": "Kies alles.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "bd",
-            "label": "B en D"
+            "id": "cd",
+            "label": "C en D"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "Alleen A en C."
+        "retryFeedback": "B en D niet."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,40 +100,40 @@
     {
       "id": "groep-6-c23-b1",
       "type": "multiple-choice",
-      "question": "Is 18 deelbaar door 3?",
+      "question": "2 km = ? meter",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "2000"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "200"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "18÷3=6.",
-      "explanation": "18÷3=6."
+      "hint2": "2×1000=2000.",
+      "explanation": "2×1000=2000."
     },
     {
       "id": "groep-6-c23-b2",
       "type": "multiple-choice",
-      "question": "Is 14 deelbaar door 4?",
+      "question": "30 min = ? uur",
       "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "1 uur"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "0,5 uur"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "14÷4=3 rest 2.",
-      "explanation": "14÷4=3 rest 2."
+      "hint2": "30 min = halve uur.",
+      "explanation": "30 min = halve uur."
     }
   ]
 }

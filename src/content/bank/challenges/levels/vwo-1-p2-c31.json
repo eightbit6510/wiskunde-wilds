@@ -1,0 +1,15 @@
+{
+  "id": "vwo-1-p2-c31",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Verhouding 4:4. De eerste deelgroep is 8. Hoe groot is de tweede?",
+  "answer": 8,
+  "hint1": "Deel 8 door 4 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 4 = 8.",
+  "explanation": "8 ÷ 4 = 2.\n2 × 4 = 8.",
+  "classLevels": [
+    "vwo-1"
+  ]
+}

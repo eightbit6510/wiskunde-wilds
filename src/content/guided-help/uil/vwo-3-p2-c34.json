@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-3-p2-c34",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Macht = hetzelfde getal steeds opnieuw vermenigvuldigen.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "5^4 uitrekenen"
+          },
+          {
+            "id": "wrong",
+            "label": "5 × 4 uitrekenen (dat is fout!)"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: 5^4 = 5 vermenigvuldigd 4 keer.\n\nDe exponent 4 telt hoe vaak je vermenigvuldigt.",
+        "question": "Wat betekent de exponent?",
+        "options": [
+          {
+            "id": "repeat",
+            "label": "5 4 keer vermenigvuldigen"
+          },
+          {
+            "id": "times",
+            "label": "5 × 4"
+          }
+        ],
+        "correctAnswer": "repeat",
+        "successFeedback": "Juist — herhalen, niet × de exponent.",
+        "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
+      },
+      {
+        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 5 × 5, vermenigvuldig daarna verder tot je 4 keer hebt.",
+        "question": "Wat is 5^4?",
+        "options": [
+          {
+            "id": "a",
+            "label": "625"
+          },
+          {
+            "id": "b",
+            "label": "20"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Goed: 5^4 = 625.",
+        "retryFeedback": "Niet 5×4, maar herhaald vermenigvuldigen."
+      },
+      {
+        "explanation": "Stap 4: antwoord invullen.",
+        "question": "5^4 = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "625"
+          },
+          {
+            "id": "b",
+            "label": "630"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Super! Antwoord = 625.",
+        "retryFeedback": "Reken 5 vermenigvuldigd 4 keer uit."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 5^4 = 625"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-3-c34-b1",
+      "type": "number-input",
+      "question": "Bereken: 5^5",
+      "answer": 3125,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog ×5.",
+      "explanation": "Nog ×5."
+    },
+    {
+      "id": "vwo-3-c34-b2",
+      "type": "number-input",
+      "question": "Bereken: 5^4",
+      "answer": 625,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "5^4 = 625.",
+      "explanation": "5^4 = 625."
+    }
+  ]
+}

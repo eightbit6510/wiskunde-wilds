@@ -1,0 +1,118 @@
+{
+  "challengeId": "havo-5-p2-c34",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij y = 6x vermenigvuldig je x steeds met 6. Zo herken je de juiste tabel.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "De juiste tabel bij y = 6x kiezen"
+          },
+          {
+            "id": "wrong",
+            "label": "Bij elke x steeds 1 optellen bij y"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: y = 6x betekent y = 6 × x.\n\nProbeer x = 1.",
+        "question": "Wat is y als x = 1?",
+        "options": [
+          {
+            "id": "k",
+            "label": "6"
+          },
+          {
+            "id": "k1",
+            "label": "7"
+          }
+        ],
+        "correctAnswer": "k",
+        "successFeedback": "Goed: y = 6 × 1 = 6.",
+        "retryFeedback": "Vermenigvuldig: 6 × 1."
+      },
+      {
+        "explanation": "Stap 3: vul nog een paar waarden in.\n\nBereken y voor x = 2 en x = 3.",
+        "question": "Welk patroon past bij y = 6x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "y: 6, 12, 18…"
+          },
+          {
+            "id": "b",
+            "label": "y stijgt steeds +1"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies — elke y is k keer x.",
+        "retryFeedback": "Tel niet +1, maar ×6."
+      },
+      {
+        "explanation": "Stappenplan voor dit type som:\n1. Formule: y = 6 × x\n2. Vul x in (1, 2, 3…)\n3. Kies tabel waar y steeds ×6 is",
+        "question": "Welke tabel hoort bij y = 6x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "x: 1→6, 2→12, 3→18"
+          },
+          {
+            "id": "b",
+            "label": "x: 1→7, 2→8…"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Klopt! Antwoord A.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 y = 6x → tabel A klopt."
+  },
+  "bonusVariants": [
+    {
+      "id": "havo-5-c34-b1",
+      "type": "multiple-choice",
+      "question": "Welke formule hoort bij y = 3, 6, 9?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "y = 3x"
+        },
+        {
+          "id": "b",
+          "label": "y = x + 3"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "y = 3x: elke y is 3× de x.",
+      "explanation": "y = 3x: elke y is 3× de x."
+    },
+    {
+      "id": "havo-5-c34-b2",
+      "type": "multiple-choice",
+      "question": "Bij y = 6x, wat is y als x = 4?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "24"
+        },
+        {
+          "id": "b",
+          "label": "10"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "y = 6 × 4 = 24.",
+      "explanation": "y = 6 × 4 = 24."
+    }
+  ]
+}

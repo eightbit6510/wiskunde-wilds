@@ -1,0 +1,16 @@
+{
+  "id": "vwo-2-p2-c30",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 12 = 24. Wat is x?",
+  "answer": 12,
+  "hint1": "Haal 12 naar de andere kant: x = 24 − 12.",
+  "hint2": "x = 24 − 12",
+  "optionalWorkedFirstStep": "x + 12 = 24 → x = 24 − 12",
+  "explanation": "x + 12 = 24\nx = 24 − 12 = 12",
+  "classLevels": [
+    "vwo-2"
+  ]
+}

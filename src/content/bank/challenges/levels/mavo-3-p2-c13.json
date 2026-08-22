@@ -1,0 +1,15 @@
+{
+  "id": "mavo-3-p2-c13",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Verhouding 2:2. De eerste deelgroep is 4. Hoe groot is de tweede?",
+  "answer": 4,
+  "hint1": "Deel 4 door 2 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 2 = 4.",
+  "explanation": "4 ÷ 2 = 2.\n2 × 2 = 4.",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

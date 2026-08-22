@@ -1,0 +1,16 @@
+{
+  "id": "vwo-6-p2-c30",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 19 = 30. Wat is x?",
+  "answer": 11,
+  "hint1": "Haal 19 naar de andere kant: x = 30 − 19.",
+  "hint2": "x = 30 − 19",
+  "optionalWorkedFirstStep": "x + 19 = 30 → x = 30 − 19",
+  "explanation": "x + 19 = 30\nx = 30 − 19 = 11",
+  "classLevels": [
+    "vwo-6"
+  ]
+}

@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Uitspraak A: vierkant.",
-        "question": "Heeft een vierkant vier gelijke zijden?",
+        "explanation": "50% = de helft.",
+        "question": "Is 50% van 20 gelijk aan 10?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, 20÷2=10"
           },
           {
             "id": "no",
@@ -36,10 +36,10 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "Alle zijden even lang."
+        "retryFeedback": "50% = halveren."
       },
       {
-        "explanation": "Uitspraak B: elke rechthoek is vierkant.",
+        "explanation": "B: 50% van 20 = 5?",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Rechthoek hoeft geen vierkant."
+        "retryFeedback": "50% van 20 is 10."
       },
       {
-        "explanation": "Uitspraak C: hoekensom driehoek.",
-        "question": "Is de som van hoeken in een driehoek 180°?",
+        "explanation": "C: 25% van 20. 25% = 1/4.",
+        "question": "Is 25% van 20 = 5?",
         "options": [
           {
             "id": "yes",
@@ -70,74 +70,70 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Driehoek = altijd 180°."
+        "retryFeedback": "20÷4=5."
       },
       {
-        "explanation": "Welke uitspraken zijn waar?",
-        "question": "Kies alles wat klopt.",
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
         "options": [
           {
+            "id": "acd",
+            "label": "A, C en D"
+          },
+          {
             "id": "ac",
-            "label": "A en C"
+            "label": "Alleen A en C"
           },
           {
             "id": "ab",
             "label": "A en B"
-          },
-          {
-            "id": "all",
-            "label": "Allemaal"
           }
         ],
-        "correctAnswer": "ac",
-        "successFeedback": "Precies: A en C.",
-        "retryFeedback": "B en D kloppen niet."
+        "correctAnswer": "acd",
+        "successFeedback": "A, C en D kloppen.",
+        "retryFeedback": "B klopt niet."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+    "conclusion": "Pootafdruk! 🐾 A, C, D zijn waar."
   },
   "bonusVariants": [
     {
       "id": "groep-6-c29-b1",
       "type": "multiple-choice",
-      "question": "Welke uitspraak is waar?",
-      "answer": "b",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Alle driehoeken zijn gelijk"
-        },
-        {
-          "id": "b",
-          "label": "Een driehoek heeft drie hoeken"
-        },
-        {
-          "id": "c",
-          "label": "Een cirkel is een veelhoek"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Driehoek heeft drie hoeken.",
-      "explanation": "Driehoek heeft drie hoeken."
-    },
-    {
-      "id": "groep-6-c29-b2",
-      "type": "multiple-choice",
-      "question": "Is een vierkant een rechthoek?",
+      "question": "50% van 30?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "15"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "10"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Vierkant is een rechthoek met 4 gelijke zijden.",
-      "explanation": "Vierkant is een rechthoek met 4 gelijke zijden."
+      "hint2": "30÷2=15.",
+      "explanation": "30÷2=15."
+    },
+    {
+      "id": "groep-6-c29-b2",
+      "type": "multiple-choice",
+      "question": "10% van 50?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "10"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "50÷10=5.",
+      "explanation": "50÷10=5."
     }
   ]
 }

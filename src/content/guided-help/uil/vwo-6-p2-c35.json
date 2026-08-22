@@ -1,0 +1,118 @@
+{
+  "challengeId": "vwo-6-p2-c35",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij gelijke letters tel je alleen de getallen ervoor op.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "3x + 4x vereenvoudigen"
+          },
+          {
+            "id": "wrong",
+            "label": "De getallen 3 en 4 vermenigvuldigen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
+        "question": "Kun je 3x en 4x optellen?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, beide hebben x"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — tel de getallen vóór x op.",
+        "retryFeedback": "Kijk naar de letter: beide hebben x."
+      },
+      {
+        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 3 + 4.",
+        "question": "Wat is 3x + 4x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "7x"
+          },
+          {
+            "id": "b",
+            "label": "12x"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Juist: 7x.",
+        "retryFeedback": "Tel 3 en 4 op; x blijft staan."
+      },
+      {
+        "explanation": "Stappenplan voor dit type som:\n1. Check: zelfde letter? (x)\n2. Tel getallen ervoor op: 3+4=7\n3. Antwoord: 7x",
+        "question": "Welk antwoord hoort bij de som?",
+        "options": [
+          {
+            "id": "a",
+            "label": "7x"
+          },
+          {
+            "id": "c",
+            "label": "7"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Top! 3x + 4x = 7x.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 3x + 4x = 7x"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-6-c31-b1",
+      "type": "multiple-choice",
+      "question": "Vereenvoudig: 4x + 4x",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "8x"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Tel 4 + 4.",
+      "explanation": "Tel 4 + 4."
+    },
+    {
+      "id": "vwo-6-c31-b2",
+      "type": "multiple-choice",
+      "question": "Vereenvoudig: 3x + 5x",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "8x"
+        },
+        {
+          "id": "b",
+          "label": "8x"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Tel 3 + 5.",
+      "explanation": "Tel 3 + 5."
+    }
+  ]
+}

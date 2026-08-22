@@ -140,6 +140,19 @@ export function challengeIdForLevel(level: ClassLevel, index: number): string {
   return `${level}-c${String(index).padStart(2, '0')}`;
 }
 
+export function part2LessonIdForLevel(level: ClassLevel, lessonIndex: number): string {
+  return `${level}-p2-l${lessonIndex}`;
+}
+
+export function part2ChallengeIdForLevel(level: ClassLevel, index: number): string {
+  return `${level}-p2-c${String(index).padStart(2, '0')}`;
+}
+
 export const LEVEL_LESSON_COUNT = 8;
 export const CHALLENGES_PER_LESSON = 5;
+/** Deel I: 8 × 5 */
 export const CHALLENGES_PER_LEVEL = LEVEL_LESSON_COUNT * CHALLENGES_PER_LESSON;
+/** Deel II: zelfde omvang */
+export const CHALLENGES_PER_PART2 = CHALLENGES_PER_LEVEL;
+/** Deel I + Deel II */
+export const TOTAL_CHALLENGES_PER_LEVEL = CHALLENGES_PER_LEVEL + CHALLENGES_PER_PART2;

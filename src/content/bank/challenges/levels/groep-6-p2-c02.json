@@ -1,0 +1,29 @@
+{
+  "id": "groep-6-p2-c02",
+  "type": "spot-error",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Op een boomstam staat een uitwerking. Waar gaat het mis?",
+  "answer": "bij3",
+  "answerOptions": [
+    {
+      "id": "bijx",
+      "label": "Bij de x"
+    },
+    {
+      "id": "bij3",
+      "label": "Bij de +3"
+    },
+    {
+      "id": "geen",
+      "label": "Er is geen fout"
+    }
+  ],
+  "hint1": "Bij haakjes wegwerken moet de factor buiten de haakjes met élke term vermenigvuldigd worden.",
+  "hint2": "Kijk naar: 2(x + 3) = 2x + 3",
+  "explanation": "De fout zat bij de +3 — de factor moet met alle termen vermenigvuldigd worden.",
+  "classLevels": [
+    "groep-6"
+  ]
+}

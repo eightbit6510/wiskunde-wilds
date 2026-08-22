@@ -1,0 +1,16 @@
+{
+  "id": "groep-8-p2-c19",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 5/2 + 4/3? Geef je antwoord als kommagetal (max. 2 cijfers achter de komma).",
+  "answer": 3.83,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "5/2 + 4/3 = 23/6",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 6.",
+  "explanation": "5/2 + 4/3 = 23/6 = 3.83",
+  "classLevels": [
+    "groep-8"
+  ]
+}

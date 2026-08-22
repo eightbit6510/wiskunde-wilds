@@ -1,0 +1,101 @@
+{
+  "challengeId": "havo-2-p2-c24",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Kijk goed naar wat je vergelijkt.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Lees de opdracht rustig"
+          },
+          {
+            "id": "wrong",
+            "label": "Wat moet je doen?"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Neem de tijd. Geen haast.",
+        "question": "Snap je wat je moet doen?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, ik ga rekenen"
+          },
+          {
+            "id": "no",
+            "label": "Nog niet"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Mooi — probeer het zelf.",
+        "retryFeedback": "Lees de vraag nog eens rustig."
+      },
+      {
+        "explanation": "Je kunt het.",
+        "question": "Klaar voor je antwoord?",
+        "options": [
+          {
+            "id": "go",
+            "label": "Ja!"
+          },
+          {
+            "id": "wait",
+            "label": "Nog even nadenken"
+          }
+        ],
+        "correctAnswer": "go",
+        "successFeedback": "Succes!",
+        "retryFeedback": "Adem in — dan probeer je het nog eens."
+      }
+    ],
+    "conclusion": "Kijk goed naar wat je vergelijkt."
+  },
+  "bonusVariants": [
+    {
+      "id": "b1",
+      "type": "multiple-choice",
+      "question": "Even oefenen?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Goed bezig!",
+      "explanation": "Goed bezig!"
+    },
+    {
+      "id": "b2",
+      "type": "multiple-choice",
+      "question": "Nog één tip?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Dank je"
+        },
+        {
+          "id": "b",
+          "label": "Later"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "De Uil knipoogt.",
+      "explanation": "De Uil knipoogt."
+    }
+  ]
+}

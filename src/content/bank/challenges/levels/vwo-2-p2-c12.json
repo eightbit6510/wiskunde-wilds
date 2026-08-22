@@ -1,0 +1,15 @@
+{
+  "id": "vwo-2-p2-c12",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Bereken: 7^2",
+  "answer": 49,
+  "hint1": "7 × 7",
+  "hint2": "Vermenigvuldig 7 2 keer met zichzelf.",
+  "explanation": "7^2 = 49",
+  "classLevels": [
+    "vwo-2"
+  ]
+}

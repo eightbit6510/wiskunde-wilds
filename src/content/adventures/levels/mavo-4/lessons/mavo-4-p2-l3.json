@@ -1,0 +1,42 @@
+{
+  "id": "mavo-4-p2-l3",
+  "adventureId": "mavo-4-part2",
+  "order": 3,
+  "areaName": "De Rivier van Verhoudingen",
+  "title": "Stromende verhoudingen",
+  "emoji": "🌊",
+  "intro": "Langs de rivier stromen verhoudingen als water. Schaal, procenten en mengsels — alles hangt samen. Pak je rekenkracht en duik erin.",
+  "color": "#2F5A6B",
+  "outroStory": "De mist trekt op. In de vallei verderop buigen lijnen als bogen — parabolen in het maanlicht.",
+  "mapTeaser": "Schaal en procenten glinsteren op het water…",
+  "placements": [
+    {
+      "challengeId": "mavo-4-p2-c11",
+      "optionalStory": "De rivierkaart glinstert — elke centimeter is 25 000 cm in het echt.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "mavo-4-p2-c12",
+      "optionalStory": "De visstand floreert — maar met hoeveel procent?",
+      "reviewOfPart1": true,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "mavo-4-p2-c13",
+      "optionalStory": "Twee delen sap, drie delen water — de riviercocktail.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "mavo-4-p2-c14",
+      "optionalStory": "Drie verhoudingstabellen drijven voorbij op het water.",
+      "reviewOfPart1": true,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "mavo-4-p2-c15",
+      "optionalStory": "Een filter pakt een kwart van het water.",
+      "reviewOfPart1": true,
+      "sortOrder": 4
+    }
+  ]
+}

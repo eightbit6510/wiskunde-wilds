@@ -1,0 +1,15 @@
+{
+  "id": "groep-6-p2-c26",
+  "type": "number-input",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Reken uit: 5 + 5 (2 keer 5). Wat is het antwoord?",
+  "answer": 10,
+  "hint1": "2 keer 5 is hetzelfde als 2 × 5.",
+  "hint2": "2 × 5 = 10",
+  "explanation": "2 × 5 = 10",
+  "classLevels": [
+    "groep-6"
+  ]
+}

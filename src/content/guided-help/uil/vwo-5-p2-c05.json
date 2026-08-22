@@ -1,0 +1,118 @@
+{
+  "challengeId": "vwo-5-p2-c05",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij gelijke letters tel je alleen de getallen ervoor op.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "2x + 5x vereenvoudigen"
+          },
+          {
+            "id": "wrong",
+            "label": "De getallen 2 en 5 vermenigvuldigen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
+        "question": "Kun je 2x en 5x optellen?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, beide hebben x"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — tel de getallen vóór x op.",
+        "retryFeedback": "Kijk naar de letter: beide hebben x."
+      },
+      {
+        "explanation": "Stap 3: tel coëfficiënten op.\n\nTel de getallen vóór x: 2 + 5.",
+        "question": "Wat is 2x + 5x?",
+        "options": [
+          {
+            "id": "a",
+            "label": "7x"
+          },
+          {
+            "id": "b",
+            "label": "10x"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Juist: 7x.",
+        "retryFeedback": "Tel 2 en 5 op; x blijft staan."
+      },
+      {
+        "explanation": "Stap 4: kies het juiste antwoord in de som.",
+        "question": "Welke optie klopt?",
+        "options": [
+          {
+            "id": "a",
+            "label": "7x"
+          },
+          {
+            "id": "c",
+            "label": "7"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies — antwoord A: 7x.",
+        "retryFeedback": "2x + 5x = (2+5)x."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 2x + 5x = 7x"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-5-c01-b1",
+      "type": "multiple-choice",
+      "question": "Vereenvoudig: 3x + 5x",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "8x"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Tel 3 + 5.",
+      "explanation": "Tel 3 + 5."
+    },
+    {
+      "id": "vwo-5-c01-b2",
+      "type": "multiple-choice",
+      "question": "Vereenvoudig: 2x + 6x",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "8x"
+        },
+        {
+          "id": "b",
+          "label": "8x"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Tel 2 + 6.",
+      "explanation": "Tel 2 + 6."
+    }
+  ]
+}

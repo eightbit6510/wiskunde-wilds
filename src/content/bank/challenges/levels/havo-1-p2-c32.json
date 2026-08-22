@@ -1,0 +1,16 @@
+{
+  "id": "havo-1-p2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 13 = 22. Wat is x?",
+  "answer": 9,
+  "hint1": "Haal 13 naar de andere kant: x = 22 − 13.",
+  "hint2": "x = 22 − 13",
+  "optionalWorkedFirstStep": "x + 13 = 22 → x = 22 − 13",
+  "explanation": "x + 13 = 22\nx = 22 − 13 = 9",
+  "classLevels": [
+    "havo-1"
+  ]
+}

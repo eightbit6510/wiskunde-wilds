@@ -1,0 +1,15 @@
+{
+  "id": "vwo-4-p2-c22",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Bereken: 5^3",
+  "answer": 125,
+  "hint1": "5 × 5 × …",
+  "hint2": "Vermenigvuldig 5 3 keer met zichzelf.",
+  "explanation": "5^3 = 125",
+  "classLevels": [
+    "vwo-4"
+  ]
+}

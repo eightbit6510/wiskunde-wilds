@@ -1,0 +1,42 @@
+{
+  "id": "vwo-4-p2-l8",
+  "adventureId": "vwo-4-part2",
+  "order": 8,
+  "areaName": "De Nachtelijke Eindmissie",
+  "title": "De Maanpoot",
+  "emoji": "🌕",
+  "intro": "Diep in de nachttempel wachten vijf kamers — algebra, rivier, sterren, runen en parabool. Daarna drie laatste poorten met alles wat je geleerd hebt. Los elke kamer op en onthul het symbool van de Maanpoot.",
+  "color": "#1E2A40",
+  "outroStory": "De maanpoot brandt. Het Verborgen Gebied is ontdekt — en jij bent Nachtwoud-verkenner.",
+  "mapTeaser": "Vijf kamers. Eén maanpoot. Durf je binnen?",
+  "placements": [
+    {
+      "challengeId": "vwo-4-p2-c36",
+      "optionalStory": "De eerste kamer: een slot met x aan beide kanten. Breng alle x naar één kant.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "vwo-4-p2-c37",
+      "optionalStory": "Een nachtelijke rivier stroomt door kamer II — verdeel het mengsel.",
+      "reviewOfPart1": true,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "vwo-4-p2-c38",
+      "optionalStory": "Twee sterrenlijnen kruisen elkaar — geef de y van het kruispunt.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "vwo-4-p2-c39",
+      "optionalStory": "Runen op de poort: zelfde grondtal, exponenten optellen.",
+      "reviewOfPart1": true,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "vwo-4-p2-c40",
+      "optionalStory": "De paraboolpoort toont y = x² — kies de juiste inzicht.",
+      "reviewOfPart1": true,
+      "sortOrder": 4
+    }
+  ]
+}

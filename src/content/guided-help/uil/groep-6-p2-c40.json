@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-6-p2-c40",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Je telt 6 een paar keer op. Dat mag ook als vermenigvuldiging: 5 × 6.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "5 keer 6 optellen"
+          },
+          {
+            "id": "wrong",
+            "label": "5 en 6 vermenigvuldigen zonder reden"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: 5 groepjes van elk 6.\n\nDat is: 6 + 6 + 6 + 6 + 6.",
+        "question": "Is dit hetzelfde als 5 × 6?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — herhaald optellen = vermenigvuldigen.",
+        "retryFeedback": "5 keer hetzelfde getal."
+      },
+      {
+        "explanation": "Stap 3: tel op (of gebruik de tafel van 6).",
+        "question": "Wat is 5 × 6?",
+        "options": [
+          {
+            "id": "t",
+            "label": "30"
+          },
+          {
+            "id": "w",
+            "label": "36"
+          }
+        ],
+        "correctAnswer": "t",
+        "successFeedback": "Juist: 30.",
+        "retryFeedback": "6 + 6 + 6 + 6 + 6 = 30."
+      },
+      {
+        "explanation": "Stap 4: kies het antwoord.",
+        "question": "6 + 6 + 6 + 6 + 6 = ?",
+        "options": [
+          {
+            "id": "t",
+            "label": "30"
+          },
+          {
+            "id": "w",
+            "label": "29"
+          }
+        ],
+        "correctAnswer": "t",
+        "successFeedback": "Top! Antwoord = 30.",
+        "retryFeedback": "Reken 5 × 6."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 5 × 6 = 30"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c36-b1",
+      "type": "number-input",
+      "question": "6 × 6 = ?",
+      "answer": 36,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog één groepje van 6.",
+      "explanation": "Nog één groepje van 6."
+    },
+    {
+      "id": "groep-6-c36-b2",
+      "type": "number-input",
+      "question": "5 × 6 = ?",
+      "answer": 30,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "5 keer 6.",
+      "explanation": "5 keer 6."
+    }
+  ]
+}

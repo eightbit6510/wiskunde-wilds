@@ -1,0 +1,29 @@
+{
+  "id": "havo-5-p2-c02",
+  "type": "spot-error",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Op een boomstam staat een uitwerking. Waar gaat het mis?",
+  "answer": "bij4",
+  "answerOptions": [
+    {
+      "id": "bijx",
+      "label": "Bij de x"
+    },
+    {
+      "id": "bij4",
+      "label": "Bij de +4"
+    },
+    {
+      "id": "geen",
+      "label": "Er is geen fout"
+    }
+  ],
+  "hint1": "Bij haakjes wegwerken moet de factor buiten de haakjes met élke term vermenigvuldigd worden.",
+  "hint2": "Kijk naar: 3(x + 4) = 3x + 4",
+  "explanation": "De fout zat bij de +4 — de factor moet met alle termen vermenigvuldigd worden.",
+  "classLevels": [
+    "havo-5"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "groep-6-p2-c30",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Er ontbreekt een getal: ? + 2 = 6. Wat is het ontbrekende getal?",
+  "answer": 4,
+  "hint1": "Tel terug: trek het bekende getal af van het totaal.",
+  "hint2": "6 − 2 = 4",
+  "explanation": "6 − 2 = 4",
+  "classLevels": [
+    "groep-6"
+  ]
+}

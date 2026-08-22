@@ -1,0 +1,118 @@
+{
+  "challengeId": "groep-7-p2-c05",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij 3/4 + 1/8 maken we eerst de noemers gelijk. Daarna tel je de tellers op.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "3/4 + 1/8 uitrekenen (antwoord als breuk)"
+          },
+          {
+            "id": "wrong",
+            "label": "Tellers en noemers direct optellen zonder gelijknamig maken"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: eerst gelijknamig maken.\n\nZoek een noemer die bij beide breuken past. Hier: 32.",
+        "question": "Welke noemer gebruiken we?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "32"
+          },
+          {
+            "id": "no",
+            "label": "33"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — beide breuken krijgen noemer 32.",
+        "retryFeedback": "Vermenigvuldig boven en onder zodat de noemers gelijk worden."
+      },
+      {
+        "explanation": "Stap 3: tel de tellers op.\n\nNoemers zijn gelijk → alleen bovenste getallen optellen.",
+        "question": "Wat is 3/4 + 1/8 als breuk?",
+        "options": [
+          {
+            "id": "right",
+            "label": "7/8"
+          },
+          {
+            "id": "wrong",
+            "label": "29/32"
+          }
+        ],
+        "correctAnswer": "right",
+        "successFeedback": "Klopt: 7/8.",
+        "retryFeedback": "Tel alleen de tellers op als de noemers al gelijk zijn."
+      },
+      {
+        "explanation": "Stap 4: kies het goede antwoord.",
+        "question": "Welke breuk hoort bij de som?",
+        "options": [
+          {
+            "id": "right",
+            "label": "7/8"
+          },
+          {
+            "id": "wrong",
+            "label": "29/32"
+          }
+        ],
+        "correctAnswer": "right",
+        "successFeedback": "Helemaal goed! Antwoord = 7/8.",
+        "retryFeedback": "Eerst gelijknamig, dan tellers optellen."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 3/4 + 1/8 = 7/8"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-7-c01-b1",
+      "type": "multiple-choice",
+      "question": "Wat is 1/2 + 1/4?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "3/4"
+        },
+        {
+          "id": "b",
+          "label": "2/6"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Gelijknamig: 2/4 + 1/4 = 3/4.",
+      "explanation": "Gelijknamig: 2/4 + 1/4 = 3/4."
+    },
+    {
+      "id": "groep-7-c01-b2",
+      "type": "multiple-choice",
+      "question": "Welke breuk is het grootst?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "1/4"
+        },
+        {
+          "id": "b",
+          "label": "3/4"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "3/4 is het grootst.",
+      "explanation": "3/4 is het grootst."
+    }
+  ]
+}

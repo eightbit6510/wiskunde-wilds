@@ -1,0 +1,29 @@
+{
+  "id": "groep-8-p2-c10",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 3x + 3x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "6x"
+    },
+    {
+      "id": "b",
+      "label": "9x"
+    },
+    {
+      "id": "c",
+      "label": "6"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "3x + 3x = (3+3)x",
+  "explanation": "3x + 3x = 6x",
+  "classLevels": [
+    "groep-8"
+  ]
+}

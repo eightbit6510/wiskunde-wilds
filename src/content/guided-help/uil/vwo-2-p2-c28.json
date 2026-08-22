@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-2-p2-c28",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 106 = 162"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +106 weg is.\n\nWat doe je met +106?",
+        "question": "Hoe haal je +106 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "106 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "106 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 106 = 162. Haal +106 weg → x = 162 − 106.",
+        "question": "Wat is 162 − 106?",
+        "options": [
+          {
+            "id": "x",
+            "label": "56"
+          },
+          {
+            "id": "wrong",
+            "label": "58"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 56.",
+        "retryFeedback": "Reken uit: 162 − 106."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Past je x-waarde in x + 106 = 162?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, dat klopt"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 56!",
+        "retryFeedback": "Reken na: x + 106 moet 162 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 56"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-2-c68-b1",
+      "type": "number-input",
+      "question": "Los op: x + 108 = 164.",
+      "answer": 56,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 164 − 108 = 56.",
+      "explanation": "x = 164 − 108 = 56."
+    },
+    {
+      "id": "vwo-2-c68-b2",
+      "type": "number-input",
+      "question": "Los op: x + 106 = 167.",
+      "answer": 61,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 167 − 106.",
+      "explanation": "x = 167 − 106."
+    }
+  ]
+}

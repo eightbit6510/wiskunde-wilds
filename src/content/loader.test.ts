@@ -44,10 +44,17 @@ import {
 import {
   CLASS_LEVEL_IDS,
   CHALLENGES_PER_LEVEL,
+  TOTAL_CHALLENGES_PER_LEVEL,
   LEVEL_LESSON_COUNT,
   normalizeClassLevel,
 } from './classLevels';
-import { validateAllLevelBundles, validateLevelBundle, LEVEL_CONTENT_IDS, loadLessonsForClassLevel } from './levelLoader';
+import {
+  validateAllLevelBundles,
+  validateLevelBundle,
+  LEVEL_CONTENT_IDS,
+  loadLessonsForClassLevel,
+  loadPart2LessonsForClassLevel,
+} from './levelLoader';
 
 const LEGACY_PART1 = [
   withOwlHelp(lesson1, lesson1Owl),
@@ -138,12 +145,19 @@ describe('jaargroep level bundles (Fase 4)', () => {
     expect(result.ok).toBe(true);
   });
 
-  it('has 40 challenges and 8 lessons per level', () => {
+  it('has 40 Deel I + 40 Deel II challenges and 16 lessons per level', () => {
     for (const level of CLASS_LEVEL_IDS) {
       const result = validateLevelBundle(level);
       expect(result.ok).toBe(true);
+      const part1 = loadLessonsForClassLevel(level);
+      const part2 = loadPart2LessonsForClassLevel(level);
+      expect(part1).toHaveLength(8);
+      expect(part2).toHaveLength(8);
+      expect(part1.flatMap((l) => l.challenges)).toHaveLength(40);
+      expect(part2.flatMap((l) => l.challenges)).toHaveLength(40);
     }
     expect(CHALLENGES_PER_LEVEL).toBe(40);
+    expect(TOTAL_CHALLENGES_PER_LEVEL).toBe(80);
     expect(LEVEL_LESSON_COUNT).toBe(8);
   });
 

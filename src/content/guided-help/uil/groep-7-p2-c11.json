@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-7-p2-c11",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "We lezen een tabel: 1 potlode = 4 euro. Hoeveel kosten 5?",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Uitrekenen wat 5 potloden kosten"
+          },
+          {
+            "id": "wrong",
+            "label": "Het aantal en de prijs bij elkaar optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: 1 potlode kost 4 euro.\n\nElke extra potlode kost weer 4 euro.",
+        "question": "Kost elke potlode evenveel?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, steeds 4 euro"
+          },
+          {
+            "id": "no",
+            "label": "Nee, elke keer anders"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — je mag vermenigvuldigen.",
+        "retryFeedback": "1 stuk = 4 euro."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig.\n\n5 keer 4 euro.",
+        "question": "Wat kosten 5 potloden?",
+        "options": [
+          {
+            "id": "t",
+            "label": "20 euro"
+          },
+          {
+            "id": "w",
+            "label": "24 euro"
+          }
+        ],
+        "correctAnswer": "t",
+        "successFeedback": "Klopt: 20 euro.",
+        "retryFeedback": "Reken: 5 keer 4."
+      },
+      {
+        "explanation": "Stap 4: welke tabel klopt?",
+        "question": "Bij 5 potloden betaal je…",
+        "options": [
+          {
+            "id": "a",
+            "label": "20 euro"
+          },
+          {
+            "id": "b",
+            "label": "22 euro"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Precies — 5 × 4 = 20 euro.",
+        "retryFeedback": "5 keer 4 euro."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 5 potloden = 20 euro"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-7-c51-b1",
+      "type": "number-input",
+      "question": "1 potlode = 4 euro. 6 stuks?",
+      "answer": 24,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog 4 euro erbij.",
+      "explanation": "Nog 4 euro erbij."
+    },
+    {
+      "id": "groep-7-c51-b2",
+      "type": "number-input",
+      "question": "5 × 4 = ?",
+      "answer": 20,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "5 keer 4.",
+      "explanation": "5 keer 4."
+    }
+  ]
+}

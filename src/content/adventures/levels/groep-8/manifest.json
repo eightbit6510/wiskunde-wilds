@@ -14,5 +14,15 @@
     "groep-8-l7",
     "groep-8-l8"
   ],
+  "part2LessonIds": [
+    "groep-8-p2-l1",
+    "groep-8-p2-l2",
+    "groep-8-p2-l3",
+    "groep-8-p2-l4",
+    "groep-8-p2-l5",
+    "groep-8-p2-l6",
+    "groep-8-p2-l7",
+    "groep-8-p2-l8"
+  ],
   "unlockRuleId": "always"
 }

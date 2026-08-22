@@ -1,0 +1,15 @@
+{
+  "id": "mavo-3-p2-c17",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Verhouding 2:3. De eerste deelgroep is 10. Hoe groot is de tweede?",
+  "answer": 15,
+  "hint1": "Deel 10 door 2 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 3 = 15.",
+  "explanation": "10 ÷ 2 = 5.\n5 × 3 = 15.",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

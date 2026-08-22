@@ -1,0 +1,16 @@
+{
+  "id": "vwo-4-p2-c28",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 3,
+  "starsAvailable": 3,
+  "question": "Los op: x + 106 = 158. Wat is x?",
+  "answer": 52,
+  "hint1": "Haal 106 naar de andere kant: x = 158 − 106.",
+  "hint2": "x = 158 − 106",
+  "optionalWorkedFirstStep": "x + 106 = 158 → x = 158 − 106",
+  "explanation": "x + 106 = 158\nx = 158 − 106 = 52",
+  "classLevels": [
+    "vwo-4"
+  ]
+}

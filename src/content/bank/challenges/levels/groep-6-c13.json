@@ -4,7 +4,7 @@
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 5/6 + 1/6? Kies het juiste antwoord.",
+  "question": "Wat is 6/8 + 2/8? Kies het juiste antwoord.",
   "answer": "a",
   "answerOptions": [
     {
@@ -17,12 +17,12 @@
     },
     {
       "id": "c",
-      "label": "7/6"
+      "label": "9/8"
     }
   ],
   "hint1": "Hebben beide breuken dezelfde noemer? Tel dan de tellers op.",
-  "hint2": "5 + 1 = 6, noemer blijft 6.",
-  "explanation": "5/6 + 1/6 = 1",
+  "hint2": "6 + 2 = 8, noemer blijft 8.",
+  "explanation": "6/8 + 2/8 = 1",
   "classLevels": [
     "groep-6"
   ]

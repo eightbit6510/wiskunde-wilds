@@ -1,0 +1,15 @@
+{
+  "id": "havo-2-p2-c08",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Oppervlakte A = lengte × breedte. A = 300, lengte = 100. Wat is de breedte?",
+  "answer": 3,
+  "hint1": "Deel A door lengte.",
+  "hint2": "b = 300 ÷ 100",
+  "explanation": "b = A ÷ l = 300 ÷ 100 = 3",
+  "classLevels": [
+    "havo-2"
+  ]
+}

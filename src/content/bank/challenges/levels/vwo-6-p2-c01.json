@@ -1,0 +1,29 @@
+{
+  "id": "vwo-6-p2-c01",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Een formule is y = 5x. Welke tabel hoort daarbij?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "x: 1→5, 2→10, 3→15"
+    },
+    {
+      "id": "b",
+      "label": "x: 1→6, 2→7, 3→8"
+    },
+    {
+      "id": "c",
+      "label": "x: 1→1, 2→2, 3→3"
+    }
+  ],
+  "hint1": "Vermenigvuldig elke x met 5.",
+  "hint2": "Bij x = 5 hoort y = 25.",
+  "explanation": "y = 5x betekent: y is steeds 5 keer x.\nBij x = 5: y = 25.",
+  "classLevels": [
+    "vwo-6"
+  ]
+}

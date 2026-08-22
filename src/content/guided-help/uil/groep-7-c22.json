@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c22",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij kaarten geldt: voor elke 4 horen 4. Zoek eerst hoe vaak 4 in 16 past.",
+    "intro": "Bij ballonnen geldt: voor elke 2 horen 4. Zoek eerst hoe vaak 2 in 8 past.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Bij kaarten: 4 horen bij 4, nu 16 gegeven"
+            "label": "Bij ballonnen: 4 horen bij 2, nu 8 gegeven"
           },
           {
             "id": "wrong",
-            "label": "4 en 4 gewoon bij elkaar optellen"
+            "label": "2 en 4 gewoon bij elkaar optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 4:4 betekent steeds dezelfde verhouding.\n\nEerst deel je 16 door 4.",
-        "question": "Hoeveel keer past 4 in 16?",
+        "explanation": "Stap 2: verhouding 2:4 betekent steeds dezelfde verhouding.\n\nEerst deel je 8 door 2.",
+        "question": "Hoeveel keer past 2 in 8?",
         "options": [
           {
             "id": "f",
@@ -36,7 +36,7 @@
         ],
         "correctAnswer": "f",
         "successFeedback": "Goed — dat is 4 keer.",
-        "retryFeedback": "Deel 16 door 4."
+        "retryFeedback": "Deel 8 door 2."
       },
       {
         "explanation": "Stap 3: vermenigvuldig met 4.",
@@ -57,7 +57,7 @@
       },
       {
         "explanation": "Stap 4: controle.",
-        "question": "Klopt 16:16 = 4:4?",
+        "question": "Klopt 8:16 = 2:4?",
         "options": [
           {
             "id": "yes",
@@ -79,7 +79,7 @@
     {
       "id": "groep-7-c22-b1",
       "type": "number-input",
-      "question": "kaarten: 4:4, eerste = 20. Tweede?",
+      "question": "ballonnen: 2:4, eerste = 10. Tweede?",
       "answer": 20,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Zelfde stap: delen en vermenigvuldigen.",
@@ -88,11 +88,11 @@
     {
       "id": "groep-7-c22-b2",
       "type": "number-input",
-      "question": "kaarten: eerste = 16. Tweede?",
+      "question": "ballonnen: eerste = 8. Tweede?",
       "answer": 16,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "16 ÷ 4 × 4.",
-      "explanation": "16 ÷ 4 × 4."
+      "hint2": "8 ÷ 2 × 4.",
+      "explanation": "8 ÷ 2 × 4."
     }
   ]
 }

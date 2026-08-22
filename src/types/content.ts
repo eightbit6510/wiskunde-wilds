@@ -100,6 +100,8 @@ export interface AdventureManifest {
   helpPersonaId: HelpPersonaId;
   /** Lesson IDs in volgorde op de kaart */
   lessonIds: string[];
+  /** Deel II-lessen (jaargroep) */
+  part2LessonIds?: string[];
   /** Optionele side mission lesson IDs */
   sideMissionIds?: string[];
   /** Unlock-regel (Fase 1+: verwijzing naar engine-functie of rule id) */

@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c39",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We lezen een tabel: 1 potlode = 4 euro. Hoeveel kosten 2?",
+    "intro": "We lezen een tabel: 1 potlode = 4 euro. Hoeveel kosten 3?",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "Uitrekenen wat 2 potloden kosten"
+            "label": "Uitrekenen wat 3 potloden kosten"
           },
           {
             "id": "wrong",
@@ -39,48 +39,48 @@
         "retryFeedback": "1 stuk = 4 euro."
       },
       {
-        "explanation": "Stap 3: vermenigvuldig.\n\n2 keer 4 euro.",
-        "question": "Wat kosten 2 potloden?",
+        "explanation": "Stap 3: vermenigvuldig.\n\n3 keer 4 euro.",
+        "question": "Wat kosten 3 potloden?",
         "options": [
           {
             "id": "t",
-            "label": "8 euro"
+            "label": "12 euro"
           },
           {
             "id": "w",
-            "label": "12 euro"
+            "label": "16 euro"
           }
         ],
         "correctAnswer": "t",
-        "successFeedback": "Klopt: 8 euro.",
-        "retryFeedback": "Reken: 2 keer 4."
+        "successFeedback": "Klopt: 12 euro.",
+        "retryFeedback": "Reken: 3 keer 4."
       },
       {
         "explanation": "Stap 4: welke tabel klopt?",
-        "question": "Bij 2 potloden betaal je…",
+        "question": "Bij 3 potloden betaal je…",
         "options": [
           {
             "id": "a",
-            "label": "8 euro"
+            "label": "12 euro"
           },
           {
             "id": "b",
-            "label": "10 euro"
+            "label": "14 euro"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Precies — 2 × 4 = 8 euro.",
-        "retryFeedback": "2 keer 4 euro."
+        "successFeedback": "Precies — 3 × 4 = 12 euro.",
+        "retryFeedback": "3 keer 4 euro."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2 potloden = 8 euro"
+    "conclusion": "Pootafdruk! 🐾 3 potloden = 12 euro"
   },
   "bonusVariants": [
     {
       "id": "groep-7-c39-b1",
       "type": "number-input",
-      "question": "1 potlode = 4 euro. 3 stuks?",
-      "answer": 12,
+      "question": "1 potlode = 4 euro. 4 stuks?",
+      "answer": 16,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Nog 4 euro erbij.",
       "explanation": "Nog 4 euro erbij."
@@ -88,11 +88,11 @@
     {
       "id": "groep-7-c39-b2",
       "type": "number-input",
-      "question": "2 × 4 = ?",
-      "answer": 8,
+      "question": "3 × 4 = ?",
+      "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "2 keer 4.",
-      "explanation": "2 keer 4."
+      "hint2": "3 keer 4.",
+      "explanation": "3 keer 4."
     }
   ]
 }

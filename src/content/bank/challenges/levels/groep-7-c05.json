@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "Een vierkant heeft vier gelijke zijden"
+      "label": "Een rechte hoek is 90°"
     },
     {
       "id": "b",
-      "label": "Elke rechthoek is een vierkant"
+      "label": "Een rechte hoek is 180°"
     },
     {
       "id": "c",
-      "label": "De som van hoeken in een driehoek is 180°"
+      "label": "Een gestrekte hoek is 180°"
     },
     {
       "id": "d",
-      "label": "Een cirkel heeft vier hoeken"
+      "label": "Drie rechte hoeken passen in een driehoek"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A en C kloppen.\nB: niet elke rechthoek is vierkant.\nD: cirkel heeft geen hoeken.",
+  "explanation": "A: 90°. C: 180°. D klopt niet.",
   "classLevels": [
     "groep-7"
   ]

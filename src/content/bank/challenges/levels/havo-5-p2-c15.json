@@ -1,0 +1,15 @@
+{
+  "id": "havo-5-p2-c15",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Bereken: 3^5",
+  "answer": 243,
+  "hint1": "3 × 3 × …",
+  "hint2": "Vermenigvuldig 3 5 keer met zichzelf.",
+  "explanation": "3^5 = 243",
+  "classLevels": [
+    "havo-5"
+  ]
+}

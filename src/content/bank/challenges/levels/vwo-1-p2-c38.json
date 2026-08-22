@@ -1,0 +1,15 @@
+{
+  "id": "vwo-1-p2-c38",
+  "type": "number-input",
+  "topic": "formules",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Oppervlakte A = lengte × breedte. A = 315, lengte = 105. Wat is de breedte?",
+  "answer": 3,
+  "hint1": "Deel A door lengte.",
+  "hint2": "b = 315 ÷ 105",
+  "explanation": "b = A ÷ l = 315 ÷ 105 = 3",
+  "classLevels": [
+    "vwo-1"
+  ]
+}

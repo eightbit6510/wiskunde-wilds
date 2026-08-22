@@ -1,0 +1,41 @@
+{
+  "id": "havo-3-p2-l7",
+  "adventureId": "havo-3-part2",
+  "order": 7,
+  "areaName": "Het Doolhof van Patronen",
+  "title": "Puzzelsporen",
+  "emoji": "🧩",
+  "intro": "Elke gang in het doolhof verandert het patroon. Getallenreeksen, figuren van stenen, ontbrekende waarden — en soms is één tegenvoorbeeld genoeg om een stelling te ontkrachten.",
+  "color": "#3F4A3A",
+  "mapTeaser": "Elke bocht verandert het patroon…",
+  "placements": [
+    {
+      "challengeId": "havo-3-p2-c31",
+      "optionalStory": "Stenen in de gang vormen een rij — welk getal komt hierna?",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "havo-3-p2-c32",
+      "optionalStory": "De muur vraagt om de formule achter het patroon.",
+      "reviewOfPart1": true,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "havo-3-p2-c33",
+      "optionalStory": "Elke figuur groeit met een laag stenen — tel door naar figuur 10.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "havo-3-p2-c34",
+      "optionalStory": "Eén steen ontbreekt in de rij — welke past?",
+      "reviewOfPart1": true,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "havo-3-p2-c35",
+      "optionalStory": "Eén verkeerd spoor kan de hele stelling tenietdoen.",
+      "reviewOfPart1": true,
+      "sortOrder": 4
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "groep-6-p2-c05",
+  "type": "multiple-choice",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 1/2 + 1/2? Kies het juiste antwoord.",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "1"
+    },
+    {
+      "id": "b",
+      "label": "1/2"
+    },
+    {
+      "id": "c",
+      "label": "3/2"
+    }
+  ],
+  "hint1": "Hebben beide breuken dezelfde noemer? Tel dan de tellers op.",
+  "hint2": "1 + 1 = 2, noemer blijft 2.",
+  "explanation": "1/2 + 1/2 = 1",
+  "classLevels": [
+    "groep-6"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mavo-2-p2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 15 = 23. Wat is x?",
+  "answer": 8,
+  "hint1": "Haal 15 naar de andere kant: x = 23 − 15.",
+  "hint2": "x = 23 − 15",
+  "optionalWorkedFirstStep": "x + 15 = 23 → x = 23 − 15",
+  "explanation": "x + 15 = 23\nx = 23 − 15 = 8",
+  "classLevels": [
+    "mavo-2"
+  ]
+}

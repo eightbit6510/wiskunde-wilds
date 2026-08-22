@@ -1,0 +1,16 @@
+{
+  "id": "mavo-1-p2-c03",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 4/3 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 1.83,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "4/3 + 1/2 = 11/6",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 12.",
+  "explanation": "4/3 + 1/2 = 11/6 = 1.83",
+  "classLevels": [
+    "mavo-1"
+  ]
+}

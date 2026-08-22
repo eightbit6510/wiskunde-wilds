@@ -1,0 +1,16 @@
+{
+  "id": "mavo-3-p2-c11",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Wat is 1/3 + 2/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 2.33,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "1/3 + 2/1 = 7/3",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 6.",
+  "explanation": "1/3 + 2/1 = 7/3 = 2.33",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

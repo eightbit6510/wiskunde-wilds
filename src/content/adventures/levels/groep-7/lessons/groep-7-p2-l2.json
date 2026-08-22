@@ -1,0 +1,42 @@
+{
+  "id": "groep-7-p2-l2",
+  "adventureId": "groep-7-part2",
+  "order": 2,
+  "areaName": "Het Ravenpad",
+  "title": "Veren & formules",
+  "emoji": "🪶",
+  "intro": "Raven cirkelen boven het pad. Onder je voeten liggen formules als veren in de modder — sommige moet je omdraaien, andere moet je uit een verhaal halen. Maak de onbekende vrij.",
+  "color": "#4A3F5C",
+  "outroStory": "De raaf wijst met zijn snavel naar de rivier. Verhoudingen glinsteren op het wateroppervlak.",
+  "mapTeaser": "Een raaf laat een stukje formule vallen…",
+  "placements": [
+    {
+      "challengeId": "groep-7-p2-c06",
+      "optionalStory": "Een ravennest op een rechthoekig platform — je kent de oppervlakte en de breedte.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "groep-7-p2-c07",
+      "optionalStory": "Een raaf vliegt s meters in t seconden met snelheid v.",
+      "reviewOfPart1": true,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "groep-7-p2-c08",
+      "optionalStory": "Om het ravennest heen loopt een touw — je kent de omtrek en de breedte.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "groep-7-p2-c09",
+      "optionalStory": "Drie veren kosten p euro per stuk, plus €8 verzendkosten.",
+      "reviewOfPart1": true,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "groep-7-p2-c10",
+      "optionalStory": "Een ravenverzorger start met 15 kg voer. Elke dag gebruikt hij 2 kg. Hoeveel voer V (kg) is er na d dagen?",
+      "reviewOfPart1": true,
+      "sortOrder": 4
+    }
+  ]
+}

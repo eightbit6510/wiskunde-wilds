@@ -1,0 +1,15 @@
+{
+  "id": "vwo-4-p2-c11",
+  "type": "number-input",
+  "topic": "kwadratisch",
+  "difficulty": 3,
+  "starsAvailable": 3,
+  "question": "Los op: x² = 100 (x positief). Wat is x?",
+  "answer": 10,
+  "hint1": "Welk positief getal keer zichzelf geeft 100?",
+  "hint2": "10 × 10 = 100",
+  "explanation": "x² = 100 → x = 10 (positief).",
+  "classLevels": [
+    "vwo-4"
+  ]
+}

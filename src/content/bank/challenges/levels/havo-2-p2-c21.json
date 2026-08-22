@@ -1,0 +1,29 @@
+{
+  "id": "havo-2-p2-c21",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 4x + 6x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "10x"
+    },
+    {
+      "id": "b",
+      "label": "24x"
+    },
+    {
+      "id": "c",
+      "label": "10"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "4x + 6x = (4+6)x",
+  "explanation": "4x + 6x = 10x",
+  "classLevels": [
+    "havo-2"
+  ]
+}

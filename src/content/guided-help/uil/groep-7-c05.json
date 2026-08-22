@@ -22,24 +22,24 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Uitspraak A: vierkant.",
-        "question": "Heeft een vierkant vier gelijke zijden?",
+        "explanation": "Rechte hoek = hoek van een vierkant.",
+        "question": "Hoeveel graden?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "90",
+            "label": "90°"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "180",
+            "label": "180°"
           }
         ],
-        "correctAnswer": "yes",
+        "correctAnswer": "90",
         "successFeedback": "A is waar.",
-        "retryFeedback": "Alle zijden even lang."
+        "retryFeedback": "Rechte hoek = 90°."
       },
       {
-        "explanation": "Uitspraak B: elke rechthoek is vierkant.",
+        "explanation": "B zegt rechte hoek = 180°.",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,28 +53,28 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Rechthoek hoeft geen vierkant."
+        "retryFeedback": "180° = gestrekte hoek."
       },
       {
-        "explanation": "Uitspraak C: hoekensom driehoek.",
-        "question": "Is de som van hoeken in een driehoek 180°?",
+        "explanation": "C: gestrekte hoek.",
+        "question": "Hoeveel graden?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "90",
+            "label": "90°"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "180",
+            "label": "180°"
           }
         ],
-        "correctAnswer": "yes",
+        "correctAnswer": "180",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Driehoek = altijd 180°."
+        "retryFeedback": "Gestrekte hoek = 180°."
       },
       {
-        "explanation": "Welke uitspraken zijn waar?",
-        "question": "Kies alles wat klopt.",
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "all",
-            "label": "Allemaal"
+            "id": "bd",
+            "label": "B en D"
           }
         ],
         "correctAnswer": "ac",
-        "successFeedback": "Precies: A en C.",
-        "retryFeedback": "B en D kloppen niet."
+        "successFeedback": "A en C kloppen.",
+        "retryFeedback": "B verwart hoeken."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,44 +100,40 @@
     {
       "id": "groep-7-c05-b1",
       "type": "multiple-choice",
-      "question": "Welke uitspraak is waar?",
-      "answer": "b",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Alle driehoeken zijn gelijk"
-        },
-        {
-          "id": "b",
-          "label": "Een driehoek heeft drie hoeken"
-        },
-        {
-          "id": "c",
-          "label": "Een cirkel is een veelhoek"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Driehoek heeft drie hoeken.",
-      "explanation": "Driehoek heeft drie hoeken."
-    },
-    {
-      "id": "groep-7-c05-b2",
-      "type": "multiple-choice",
-      "question": "Is een vierkant een rechthoek?",
+      "question": "Rechte hoek in graden?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "90°"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "45°"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Vierkant is een rechthoek met 4 gelijke zijden.",
-      "explanation": "Vierkant is een rechthoek met 4 gelijke zijden."
+      "hint2": "90°.",
+      "explanation": "90°."
+    },
+    {
+      "id": "groep-7-c05-b2",
+      "type": "multiple-choice",
+      "question": "Gestrekte hoek?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "90°"
+        },
+        {
+          "id": "b",
+          "label": "180°"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "180°.",
+      "explanation": "180°."
     }
   ]
 }

@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-8-p2-c14",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 15 = 20"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +15 weg is.\n\nWat doe je met +15?",
+        "question": "Hoe haal je +15 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "15 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "15 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 15 = 20. Haal +15 weg → x = 20 − 15.",
+        "question": "Wat is 20 − 15?",
+        "options": [
+          {
+            "id": "x",
+            "label": "5"
+          },
+          {
+            "id": "wrong",
+            "label": "7"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 5.",
+        "retryFeedback": "Reken uit: 20 − 15."
+      },
+      {
+        "explanation": "Stap 4: controleer je antwoord.",
+        "question": "Past je x-waarde in x + 15 = 20?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, dat klopt"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect. x = 5!",
+        "retryFeedback": "Reken na: x + 15 moet 20 zijn."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 5"
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-8-c14-b1",
+      "type": "number-input",
+      "question": "Los op: x + 17 = 22.",
+      "answer": 5,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 22 − 17 = 5.",
+      "explanation": "x = 22 − 17 = 5."
+    },
+    {
+      "id": "groep-8-c14-b2",
+      "type": "number-input",
+      "question": "Los op: x + 15 = 25.",
+      "answer": 10,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 25 − 15.",
+      "explanation": "x = 25 − 15."
+    }
+  ]
+}

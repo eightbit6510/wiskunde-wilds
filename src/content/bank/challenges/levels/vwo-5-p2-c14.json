@@ -1,0 +1,16 @@
+{
+  "id": "vwo-5-p2-c14",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 14 = 22. Wat is x?",
+  "answer": 8,
+  "hint1": "Haal 14 naar de andere kant: x = 22 − 14.",
+  "hint2": "x = 22 − 14",
+  "optionalWorkedFirstStep": "x + 14 = 22 → x = 22 − 14",
+  "explanation": "x + 14 = 22\nx = 22 − 14 = 8",
+  "classLevels": [
+    "vwo-5"
+  ]
+}

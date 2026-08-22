@@ -1,0 +1,16 @@
+{
+  "id": "mavo-4-p2-c39",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 1/4 + 2/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 0.92,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "1/4 + 2/3 = 11/12",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 12.",
+  "explanation": "1/4 + 2/3 = 11/12 = 0.92",
+  "classLevels": [
+    "mavo-4"
+  ]
+}

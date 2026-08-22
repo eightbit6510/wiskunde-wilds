@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "De omtrek van een vierkant met zijde 3 is 12"
+      "label": "In een parallellogram zijn tegenoverliggende zijden even lang"
     },
     {
       "id": "b",
-      "label": "De omtrek van een vierkant met zijde 3 is 9"
+      "label": "In een parallellogram zijn alle zijden even lang"
     },
     {
       "id": "c",
-      "label": "De oppervlakte van een rechthoek 4×5 is 20"
+      "label": "Een ruit heeft vier gelijke zijden"
     },
     {
       "id": "d",
-      "label": "De oppervlakte van 4×5 is 9"
+      "label": "Een ruit heeft altijd rechte hoeken"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A: omtrek 4×3=12. C: oppervlakte 4×5=20.",
+  "explanation": "A en C kloppen. B geldt alleen voor ruit/vierkant. D: ruit hoeft geen rechte hoeken.",
   "classLevels": [
     "groep-6"
   ]

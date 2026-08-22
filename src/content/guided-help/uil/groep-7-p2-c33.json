@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-7-p2-c33",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Er ontbreekt een getal. Tel terug: van het totaal haal je het bekende deel af.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Het ontbrekende getal zoeken in 7 + ? = 10"
+          },
+          {
+            "id": "wrong",
+            "label": "Alle getallen bij elkaar optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: wat weten we?\n\n7 + ? moet samen 10 worden.",
+        "question": "Moet het ontbrekende getal kleiner zijn dan 10?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, het is een stukje van 10"
+          },
+          {
+            "id": "no",
+            "label": "Nee, groter dan 10"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
+        "retryFeedback": "Samen moet het 10 worden."
+      },
+      {
+        "explanation": "Stap 3: reken terug.\n\nTrek 7 af van 10.",
+        "question": "Wat is 10 − 7?",
+        "options": [
+          {
+            "id": "m",
+            "label": "3"
+          },
+          {
+            "id": "w",
+            "label": "5"
+          }
+        ],
+        "correctAnswer": "m",
+        "successFeedback": "Juist! Het ontbrekende getal is 3.",
+        "retryFeedback": "Trek 7 af van 10."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "Tel je antwoord op bij 7. Kom je op 10?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, dat klopt"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect! Het ontbrekende getal is 3.",
+        "retryFeedback": "Reken na: antwoord + 7 = 10."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 3."
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-7-c170-b1",
+      "type": "number-input",
+      "question": "4 + 7 = ?",
+      "answer": 11,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "4 + 7 = 11.",
+      "explanation": "4 + 7 = 11."
+    },
+    {
+      "id": "groep-7-c170-b2",
+      "type": "number-input",
+      "question": "? + 7 = 10",
+      "answer": 3,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "10 − 7 = 3.",
+      "explanation": "10 − 7 = 3."
+    }
+  ]
+}

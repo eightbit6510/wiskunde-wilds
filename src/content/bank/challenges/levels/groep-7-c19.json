@@ -4,25 +4,25 @@
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 3/4 + 1/8? Geef je antwoord als breuk.",
+  "question": "Wat is 1/2 + 1/3? Geef je antwoord als breuk.",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "7/8"
+      "label": "5/6"
     },
     {
       "id": "b",
-      "label": "29/32"
+      "label": "1"
     },
     {
       "id": "c",
-      "label": "1/3"
+      "label": "2/5"
     }
   ],
   "hint1": "Maak eerst de noemers gelijk.",
-  "hint2": "3/4 + 1/8 = 7/8",
-  "explanation": "3/4 + 1/8 = 7/8",
+  "hint2": "1/2 + 1/3 = 5/6",
+  "explanation": "1/2 + 1/3 = 5/6",
   "classLevels": [
     "groep-7"
   ]

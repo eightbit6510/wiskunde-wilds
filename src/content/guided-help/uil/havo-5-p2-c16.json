@@ -1,0 +1,98 @@
+{
+  "challengeId": "havo-5-p2-c16",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x zoeken in x + 106 = 162"
+          },
+          {
+            "id": "wrong",
+            "label": "x berekenen door alles op te tellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x staat alleen links als +106 weg is.\n\nWat doe je met +106?",
+        "question": "Hoe haal je +106 weg?",
+        "options": [
+          {
+            "id": "sub",
+            "label": "106 aftrekken aan beide kanten"
+          },
+          {
+            "id": "add",
+            "label": "106 optellen"
+          }
+        ],
+        "correctAnswer": "sub",
+        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
+        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
+      },
+      {
+        "explanation": "Stap 3: reken uit.\n\nJe weet: x + 106 = 162. Haal +106 weg → x = 162 − 106.",
+        "question": "Wat is 162 − 106?",
+        "options": [
+          {
+            "id": "x",
+            "label": "56"
+          },
+          {
+            "id": "wrong",
+            "label": "58"
+          }
+        ],
+        "correctAnswer": "x",
+        "successFeedback": "Goed: x = 56.",
+        "retryFeedback": "Reken uit: 162 − 106."
+      },
+      {
+        "explanation": "Stappenplan voor dit type som:\n1. Constante (+106) naar de andere kant\n2. x = 162 − 106 = 56\n3. Controle: 56 + 106 = 162",
+        "question": "Controle: klopt x = 56?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 56 + 106 = 162"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect! x = 56 is het antwoord.",
+        "retryFeedback": "Volg het stappenplan stap voor stap."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 56"
+  },
+  "bonusVariants": [
+    {
+      "id": "havo-5-c56-b1",
+      "type": "number-input",
+      "question": "Los op: x + 108 = 164.",
+      "answer": 56,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 164 − 108 = 56.",
+      "explanation": "x = 164 − 108 = 56."
+    },
+    {
+      "id": "havo-5-c56-b2",
+      "type": "number-input",
+      "question": "Los op: x + 106 = 167.",
+      "answer": 61,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "x = 167 − 106.",
+      "explanation": "x = 167 − 106."
+    }
+  ]
+}

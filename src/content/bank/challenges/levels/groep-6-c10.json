@@ -4,11 +4,11 @@
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Voor elke 2 rode kaarten horen 3 blauwe. Je hebt 6 rode. Hoeveel blauwe horen daarbij?",
-  "answer": 9,
-  "hint1": "Deel 6 door 2.",
-  "hint2": "Dat getal × 3 = 9.",
-  "explanation": "6 ÷ 2 = 3.\n3 × 3 = 9.",
+  "question": "Voor elke 3 rode ballonnen horen 2 blauwe. Je hebt 9 rode. Hoeveel blauwe horen daarbij?",
+  "answer": 6,
+  "hint1": "Deel 9 door 3.",
+  "hint2": "Dat getal × 2 = 6.",
+  "explanation": "9 ÷ 3 = 3.\n3 × 2 = 6.",
   "classLevels": [
     "groep-6"
   ]

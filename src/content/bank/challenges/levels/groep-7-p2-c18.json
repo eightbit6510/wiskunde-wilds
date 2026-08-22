@@ -1,0 +1,15 @@
+{
+  "id": "groep-7-p2-c18",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Voor elke 4 rode ballonnen horen 3 blauwe. Je hebt 16 rode. Hoeveel blauwe horen daarbij?",
+  "answer": 12,
+  "hint1": "Deel 16 door 4.",
+  "hint2": "Dat getal × 3 = 12.",
+  "explanation": "16 ÷ 4 = 4.\n4 × 3 = 12.",
+  "classLevels": [
+    "groep-7"
+  ]
+}

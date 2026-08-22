@@ -1,0 +1,16 @@
+{
+  "id": "mavo-1-p2-c28",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 105 = 159. Wat is x?",
+  "answer": 54,
+  "hint1": "Haal 105 naar de andere kant: x = 159 − 105.",
+  "hint2": "x = 159 − 105",
+  "optionalWorkedFirstStep": "x + 105 = 159 → x = 159 − 105",
+  "explanation": "x + 105 = 159\nx = 159 − 105 = 54",
+  "classLevels": [
+    "mavo-1"
+  ]
+}

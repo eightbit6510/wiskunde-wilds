@@ -76,9 +76,10 @@ export function generateBasisForTopic(
   switch (topic) {
     case 'breuken': {
       if (grade === 6) {
-        const d = DENOMINATORS[(topicOccurrence + s) % DENOMINATORS.length];
-        const n1 = ((topicOccurrence + s) % (d - 1)) + 1;
-        const n2 = ((topicOccurrence + (s >> 2)) % Math.max(d - n1, 1)) + 1;
+        const mix = topicOccurrence + s + challengeIndex;
+        const d = DENOMINATORS[mix % DENOMINATORS.length];
+        const n1 = (mix % (d - 1)) + 1;
+        const n2 = ((mix >> 2) % Math.max(d - n1, 1)) + 1;
         const sumN = n1 + n2;
         const fracSum = simplifyFrac(sumN, d);
         const wrongFrac = simplifyFrac(sumN, d * 2);
@@ -126,7 +127,7 @@ export function generateBasisForTopic(
         [2, 5, 1, 2],
         [3, 4, 1, 8],
       ] as const;
-      const [n1, d1, n2, d2] = pairs[(topicOccurrence + s) % pairs.length];
+      const [n1, d1, n2, d2] = pairs[(topicOccurrence + s + challengeIndex) % pairs.length];
       const num = n1 * d2 + n2 * d1;
       const den = d1 * d2;
       const fracSum = simplifyFrac(num, den);
@@ -164,10 +165,11 @@ export function generateBasisForTopic(
     }
 
     case 'vergelijkingen': {
-      const a = ((topicOccurrence + s) % 7) + 2;
-      const b = a + ((topicOccurrence + (s >> 3)) % 6) + 2;
+      const mix = topicOccurrence + s + challengeIndex;
+      const a = (mix % 7) + 2;
+      const b = a + ((mix >> 3) % 6) + 2;
       const missing = b - a;
-      const missingFirst = (topicOccurrence + s) % 2 === 0;
+      const missingFirst = mix % 2 === 0;
       const question = missingFirst
         ? `Er ontbreekt een getal: ? + ${a} = ${b}. Wat is het ontbrekende getal?`
         : `Er ontbreekt een getal: ${a} + ? = ${b}. Wat is het ontbrekende getal?`;
@@ -189,9 +191,10 @@ export function generateBasisForTopic(
     }
 
     case 'grafieken': {
-      const item = TABLE_ITEMS[(topicOccurrence + s) % TABLE_ITEMS.length];
-      const unitPrice = ((topicOccurrence + s) % 4) + 2;
-      const count = ((topicOccurrence + (s >> 2)) % 4) + 2;
+      const mix = topicOccurrence + s + challengeIndex;
+      const item = TABLE_ITEMS[mix % TABLE_ITEMS.length];
+      const unitPrice = (mix % 4) + 2;
+      const count = ((mix >> 2) % 4) + 2;
       const total = unitPrice * count;
       const challenge: ChallengeDefinition = {
         id,
@@ -223,12 +226,13 @@ export function generateBasisForTopic(
     }
 
     case 'verbanden': {
-      const p1 = ((topicOccurrence + s) % 3) + 2;
-      const p2 = ((topicOccurrence + (s >> 2)) % 3) + 2;
-      const factor = ((topicOccurrence + (s >> 3)) % 3) + 2;
+      const mix = topicOccurrence + s + challengeIndex;
+      const p1 = (mix % 3) + 2;
+      const p2 = ((mix >> 2) % 3) + 2;
+      const factor = ((mix >> 3) % 3) + 2;
       const given = p1 * factor;
       const other = factor * p2;
-      const context = RATIO_CONTEXTS[(topicOccurrence + s) % RATIO_CONTEXTS.length];
+      const context = RATIO_CONTEXTS[mix % RATIO_CONTEXTS.length];
       const challenge: ChallengeDefinition = {
         id,
         type: 'number-input',
@@ -260,7 +264,7 @@ export function generateBasisForTopic(
       const { challenge: redParts, help } = helpForRedeneren(
         id,
         difficulty,
-        topicOccurrence * 3 + s,
+        topicOccurrence * 3 + s + challengeIndex,
         pool,
       );
       const challenge: ChallengeDefinition = {
@@ -281,8 +285,9 @@ export function generateBasisForTopic(
     }
 
     case 'algebra': {
-      const groups = ((topicOccurrence + s) % 4) + 2;
-      const each = ((topicOccurrence + (s >> 2)) % 5) + 2;
+      const mix = topicOccurrence + s + challengeIndex;
+      const groups = (mix % 4) + 2;
+      const each = ((mix >> 2) % 5) + 2;
       const total = groups * each;
       const sumParts = Array.from({ length: Math.min(groups, 4) }, () => String(each)).join(' + ');
       const dots = groups > 4 ? ' + …' : '';

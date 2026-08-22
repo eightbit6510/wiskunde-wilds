@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Parallellogram: tegenover elkaar.",
-        "question": "Tegenoverliggende zijden even lang?",
+        "explanation": "Even = deelbaar door 2.",
+        "question": "Is 0 deelbaar door 2?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, 0÷2=0"
           },
           {
             "id": "no",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "Eigenschap parallellogram."
+        "retryFeedback": "0 is even."
       },
       {
-        "explanation": "B: alle zijden even lang?",
-        "question": "Geldt dat voor elk parallellogram?",
+        "explanation": "B: 0 oneven?",
+        "question": "Klopt B?",
         "options": [
           {
             "id": "yes",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Alleen ruit/vierkant."
+        "retryFeedback": "0 is even, niet oneven."
       },
       {
-        "explanation": "C: ruit.",
-        "question": "Heeft een ruit vier gelijke zijden?",
+        "explanation": "C: oneven+oneven. Bijv. 3+5=8.",
+        "question": "Is som van twee oneven getallen even?",
         "options": [
           {
             "id": "yes",
@@ -70,23 +70,23 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Ruit = 4 gelijke zijden."
+        "retryFeedback": "Oneven+oneven=even."
       },
       {
         "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
+        "question": "Kies de juiste.",
         "options": [
           {
             "id": "ac",
             "label": "A en C"
           },
           {
-            "id": "ab",
-            "label": "A en B"
+            "id": "bd",
+            "label": "B en D"
           },
           {
-            "id": "cd",
-            "label": "C en D"
+            "id": "ad",
+            "label": "A en D"
           }
         ],
         "correctAnswer": "ac",
@@ -100,7 +100,7 @@
     {
       "id": "groep-7-c17-b1",
       "type": "multiple-choice",
-      "question": "Vierkant is een ruit?",
+      "question": "Is 7 oneven?",
       "answer": "a",
       "answerOptions": [
         {
@@ -113,27 +113,27 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Vierkant is speciale ruit.",
-      "explanation": "Vierkant is speciale ruit."
+      "hint2": "7 niet deelbaar door 2.",
+      "explanation": "7 niet deelbaar door 2."
     },
     {
       "id": "groep-7-c17-b2",
       "type": "multiple-choice",
-      "question": "Ruit altijd rechte hoeken?",
-      "answer": "b",
+      "question": "Is 4+6 even of oneven?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "Even"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "Oneven"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Alleen vierkant heeft rechte hoeken.",
-      "explanation": "Alleen vierkant heeft rechte hoeken."
+      "hint2": "4+6=10, even.",
+      "explanation": "4+6=10, even."
     }
   ]
 }

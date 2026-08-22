@@ -1,0 +1,16 @@
+{
+  "id": "havo-1-p2-c30",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 16 = 26. Wat is x?",
+  "answer": 10,
+  "hint1": "Haal 16 naar de andere kant: x = 26 − 16.",
+  "hint2": "x = 26 − 16",
+  "optionalWorkedFirstStep": "x + 16 = 26 → x = 26 − 16",
+  "explanation": "x + 16 = 26\nx = 26 − 16 = 10",
+  "classLevels": [
+    "havo-1"
+  ]
+}

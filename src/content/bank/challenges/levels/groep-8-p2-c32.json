@@ -1,0 +1,16 @@
+{
+  "id": "groep-8-p2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 17 = 31. Wat is x?",
+  "answer": 14,
+  "hint1": "Haal 17 naar de andere kant: x = 31 − 17.",
+  "hint2": "x = 31 − 17",
+  "optionalWorkedFirstStep": "x + 17 = 31 → x = 31 − 17",
+  "explanation": "x + 17 = 31\nx = 31 − 17 = 14",
+  "classLevels": [
+    "groep-8"
+  ]
+}

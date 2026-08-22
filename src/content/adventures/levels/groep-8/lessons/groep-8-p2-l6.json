@@ -1,0 +1,41 @@
+{
+  "id": "groep-8-p2-l6",
+  "adventureId": "groep-8-part2",
+  "order": 6,
+  "areaName": "De Runenruïnes",
+  "title": "Machten in steen",
+  "emoji": "🔮",
+  "intro": "Oude runen gloeien op de muren: machten stapelen zich op, wortels graven diep. Ontdek de regels — en pas op voor de valkuil 2⁵ versus 5².",
+  "color": "#4A3558",
+  "mapTeaser": "Oude runen pulseren zacht in het steen…",
+  "placements": [
+    {
+      "challengeId": "groep-8-p2-c26",
+      "optionalStory": "Twee runen vermenigvuldigd — wat gebeurt er met de exponenten?",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "groep-8-p2-c27",
+      "optionalStory": "Een rune vraagt om de wortel van 81.",
+      "reviewOfPart1": true,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "groep-8-p2-c28",
+      "optionalStory": "De runen vragen om het kwadraat van 12.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "groep-8-p2-c29",
+      "optionalStory": "De runen fluisteren: 50 is geen perfect kwadraat — schat slim.",
+      "reviewOfPart1": true,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "groep-8-p2-c30",
+      "optionalStory": "Een rune-regel op de muur — ontdek of delen ook een patroon heeft.",
+      "reviewOfPart1": true,
+      "sortOrder": 4
+    }
+  ]
+}

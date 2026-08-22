@@ -1,0 +1,37 @@
+{
+  "id": "groep-6-p2-c29",
+  "type": "multi-select",
+  "topic": "redeneren",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "50% van 20 is 10"
+    },
+    {
+      "id": "b",
+      "label": "50% van 20 is 5"
+    },
+    {
+      "id": "c",
+      "label": "25% van 20 is 5"
+    },
+    {
+      "id": "d",
+      "label": "10% van 100 is 10"
+    }
+  ],
+  "answers": [
+    "a",
+    "c",
+    "d"
+  ],
+  "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
+  "hint2": "Check A, B, C en D één voor één.",
+  "explanation": "A: 50% van 20=10. C: 25% van 20=5. D: 10% van 100=10.",
+  "classLevels": [
+    "groep-6"
+  ]
+}

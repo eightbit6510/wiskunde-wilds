@@ -7,7 +7,10 @@ import {
   getClassProfile,
   lessonIdForLevel,
   challengeIdForLevel,
+  part2ChallengeIdForLevel,
+  part2LessonIdForLevel,
   LEVEL_LESSON_COUNT,
+  CHALLENGES_PER_LEVEL,
 } from '../../src/content/classLevels';
 import {
   helpForAlgebra,
@@ -23,7 +26,12 @@ import {
 } from './guidedHelpBuilder';
 import { basisGrade, generateBasisForTopic } from './basisGenerators';
 import { generateSpecialChallenge } from './specialChallenges';
-import { loadStoryShell, PART1_STORY_IDS, storyOptionalStory } from './storyMeta';
+import { loadStoryShell, PART1_STORY_IDS, PART2_STORY_IDS, storyOptionalStory } from './storyMeta';
+import {
+  difficultyForPart2,
+  isPart2ReviewSlot,
+  part2ReviewPart1Slot,
+} from './part2Pattern';
 
 export interface LevelBundle {
   level: ClassLevel;
@@ -34,9 +42,11 @@ export interface LevelBundle {
     theme: 'day';
     helpPersonaId: 'uil';
     lessonIds: string[];
+    part2LessonIds: string[];
     unlockRuleId: 'always';
   };
   lessons: LessonShell[];
+  part2Lessons: LessonShell[];
   challenges: ChallengeDefinition[];
   helpPacks: GuidedHelpPack[];
 }
@@ -455,9 +465,13 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
   const challenges: ChallengeDefinition[] = [];
   const helpPacks: GuidedHelpPack[] = [];
   const lessons: LessonShell[] = [];
+  const part2Lessons: LessonShell[] = [];
   const lessonIds: string[] = [];
+  const part2LessonIds: string[] = [];
   const usedQuestions = new Set<string>();
   const topicOccurrence = new Map<Topic, number>();
+  const part1Challenges: ChallengeDefinition[] = [];
+  const part1HelpById = new Map<string, GuidedHelpPack>();
 
   for (let li = 1; li <= LEVEL_LESSON_COUNT; li += 1) {
     const lessonId = lessonIdForLevel(level, li);
@@ -519,6 +533,8 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
       }
       challenges.push(challenge);
       helpPacks.push(help);
+      part1Challenges[challengeIndex - 1] = challenge;
+      part1HelpById.set(challenge.id, help);
       placements.push({
         challengeId: challenge.id,
         optionalStory:
@@ -551,6 +567,119 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
     });
   }
 
+  for (let li = 1; li <= LEVEL_LESSON_COUNT; li += 1) {
+    const lessonId = part2LessonIdForLevel(level, li);
+    part2LessonIds.push(lessonId);
+    const storyShell = loadStoryShell('part2', PART2_STORY_IDS[li - 1]);
+    const placements: LessonShell['placements'] = [];
+
+    for (let slot = 0; slot < CHALLENGES_PER_LESSON; slot += 1) {
+      const p2Index = (li - 1) * CHALLENGES_PER_LESSON + slot + 1;
+      const challengeId = part2ChallengeIdForLevel(level, p2Index);
+      const baseDifficulty = difficultyFor(level, li, slot);
+      const difficulty = isPart2ReviewSlot(slot)
+        ? Math.max(1, baseDifficulty - 1) as 1 | 2 | 3
+        : difficultyForPart2(baseDifficulty, profile.maxDifficulty);
+
+      let challenge: ChallengeDefinition;
+      let help: GuidedHelpPack;
+
+      if (isPart2ReviewSlot(slot)) {
+        const part1Slot = part2ReviewPart1Slot(slot);
+        const part1Index = (li - 1) * CHALLENGES_PER_LESSON + part1Slot;
+        const source = part1Challenges[part1Index];
+        const sourceHelp = part1HelpById.get(source.id);
+        if (!source || !sourceHelp) {
+          throw new Error(`Missing Deel I source for ${level} p2 L${li} slot ${slot}`);
+        }
+        challenge = { ...source, id: challengeId, difficulty: Math.min(source.difficulty, difficulty) };
+        help = { ...sourceHelp, challengeId };
+        placements.push({
+          challengeId: challenge.id,
+          optionalStory:
+            storyOptionalStory(storyShell, slot) ??
+            'Vertrouwde pootafdruk — bekend terrein uit Deel I.',
+          reviewOfPart1: true,
+          sortOrder: slot,
+        });
+      } else {
+        const globalIndex = CHALLENGES_PER_LEVEL + p2Index;
+        const baseTopicIndex = (globalIndex - 1) % profile.topicsUnlocked.length;
+
+        let generatedChallenge: ChallengeDefinition | undefined;
+        let generatedHelp: GuidedHelpPack | undefined;
+
+        for (let topicOffset = 0; topicOffset < profile.topicsUnlocked.length; topicOffset += 1) {
+          const topic =
+            profile.topicsUnlocked[(baseTopicIndex + topicOffset) % profile.topicsUnlocked.length];
+          const occurrence = topicOccurrence.get(topic) ?? 0;
+
+          for (let salt = 0; salt < 128; salt += 1) {
+            const generated = generateForTopic(
+              level,
+              globalIndex + topicOffset * 97 + salt,
+              topic,
+              difficulty,
+              occurrence + 40 + salt + topicOffset * 11,
+              salt,
+            );
+            const key = challengeQuestionKey(generated.challenge);
+            if (!usedQuestions.has(key)) {
+              usedQuestions.add(key);
+              topicOccurrence.set(topic, occurrence + 1);
+              generatedChallenge = { ...generated.challenge, id: challengeId };
+              generatedHelp = { ...generated.help, challengeId };
+              break;
+            }
+          }
+          if (generatedChallenge && generatedHelp) break;
+        }
+        if (!generatedChallenge || !generatedHelp) {
+          throw new Error(`Could not generate unique Deel II question for ${level} #${p2Index} (${topic})`);
+        }
+
+        const helpIssues = validateHelpPack(generatedHelp, difficulty);
+        if (helpIssues.length) {
+          throw new Error(`Help validation failed for ${challengeId}: ${helpIssues.join('; ')}`);
+        }
+
+        challenge = generatedChallenge;
+        help = generatedHelp;
+        placements.push({
+          challengeId: challenge.id,
+          optionalStory:
+            storyOptionalStory(storyShell, slot) ??
+            pick(
+              [
+                'De Detective fluistert: “Dit is zwaarder — adem in.”',
+                'Nieuw terrein in het nachtbos.',
+                'Even scherp blijven — jij kunt dit.',
+              ],
+              seed(level, globalIndex),
+            ),
+          sortOrder: slot,
+        });
+      }
+
+      challenges.push(challenge);
+      helpPacks.push(help);
+    }
+
+    part2Lessons.push({
+      id: lessonId,
+      adventureId: `${level}-part2`,
+      order: li,
+      areaName: storyShell.areaName,
+      title: storyShell.title,
+      emoji: storyShell.emoji,
+      intro: storyShell.intro,
+      color: storyShell.color,
+      outroStory: storyShell.outroStory,
+      mapTeaser: storyShell.mapTeaser,
+      placements,
+    });
+  }
+
   return {
     level,
     manifest: {
@@ -560,9 +689,11 @@ export function buildLevelBundle(level: ClassLevel): LevelBundle {
       theme: 'day',
       helpPersonaId: 'uil',
       lessonIds,
+      part2LessonIds,
       unlockRuleId: 'always',
     },
     lessons,
+    part2Lessons,
     challenges,
     helpPacks,
   };

@@ -1,0 +1,41 @@
+{
+  "id": "havo-4-p2-l4",
+  "adventureId": "havo-4-part2",
+  "order": 4,
+  "areaName": "De Paraboolvallei",
+  "title": "De bocht van de maan",
+  "emoji": "🌙",
+  "intro": "In de vallei tekent maanlicht parabolen in de lucht. y = x² — een nieuwe vorm, geen rechte lijn meer. Ontdek de symmetrie, de verschuivingen en wat er gebeurt als x negatief wordt.",
+  "color": "#5B4A7A",
+  "mapTeaser": "Lijnen buigen omhoog als bogen in de mist…",
+  "placements": [
+    {
+      "challengeId": "havo-4-p2-c16",
+      "optionalStory": "De Detective fluistert: “Dit is zwaarder — adem in.”",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "havo-4-p2-c17",
+      "optionalStory": "De vallei spiegelt zichzelf in het maanlicht.",
+      "reviewOfPart1": true,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "havo-4-p2-c18",
+      "optionalStory": "Even scherp blijven — jij kunt dit.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "havo-4-p2-c19",
+      "optionalStory": "De parabool wordt steiler — alsof de vallei smaller wordt.",
+      "reviewOfPart1": true,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "havo-4-p2-c20",
+      "optionalStory": "De parabool duikt onder nul — maar wat is y bij x = 3?",
+      "reviewOfPart1": true,
+      "sortOrder": 4
+    }
+  ]
+}

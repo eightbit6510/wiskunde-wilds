@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c18",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Je telt 3 een paar keer op. Dat mag ook als vermenigvuldiging: 4 × 3.",
+    "intro": "Je telt 6 een paar keer op. Dat mag ook als vermenigvuldiging: 2 × 6.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "4 keer 3 optellen"
+            "label": "2 keer 6 optellen"
           },
           {
             "id": "wrong",
-            "label": "4 en 3 vermenigvuldigen zonder reden"
+            "label": "2 en 6 vermenigvuldigen zonder reden"
           }
         ],
         "correctAnswer": "task",
@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: 4 groepjes van elk 3.\n\nDat is: 3 + 3 + 3 + 3.",
-        "question": "Is dit hetzelfde als 4 × 3?",
+        "explanation": "Stap 2: 2 groepjes van elk 6.\n\nDat is: 6 + 6.",
+        "question": "Is dit hetzelfde als 2 × 6?",
         "options": [
           {
             "id": "yes",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "Goed — herhaald optellen = vermenigvuldigen.",
-        "retryFeedback": "4 keer hetzelfde getal."
+        "retryFeedback": "2 keer hetzelfde getal."
       },
       {
-        "explanation": "Stap 3: tel op (of gebruik de tafel van 3).",
-        "question": "Wat is 4 × 3?",
+        "explanation": "Stap 3: tel op (of gebruik de tafel van 6).",
+        "question": "Wat is 2 × 6?",
         "options": [
           {
             "id": "t",
@@ -48,16 +48,16 @@
           },
           {
             "id": "w",
-            "label": "15"
+            "label": "18"
           }
         ],
         "correctAnswer": "t",
         "successFeedback": "Juist: 12.",
-        "retryFeedback": "3 + 3 + 3 + 3 = 12."
+        "retryFeedback": "6 + 6 = 12."
       },
       {
         "explanation": "Stap 4: kies het antwoord.",
-        "question": "3 + 3 + 3 + 3 = ?",
+        "question": "6 + 6 = ?",
         "options": [
           {
             "id": "t",
@@ -70,29 +70,29 @@
         ],
         "correctAnswer": "t",
         "successFeedback": "Top! Antwoord = 12.",
-        "retryFeedback": "Reken 4 × 3."
+        "retryFeedback": "Reken 2 × 6."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4 × 3 = 12"
+    "conclusion": "Pootafdruk! 🐾 2 × 6 = 12"
   },
   "bonusVariants": [
     {
       "id": "groep-7-c18-b1",
       "type": "number-input",
-      "question": "5 × 3 = ?",
-      "answer": 15,
+      "question": "3 × 6 = ?",
+      "answer": 18,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Nog één groepje van 3.",
-      "explanation": "Nog één groepje van 3."
+      "hint2": "Nog één groepje van 6.",
+      "explanation": "Nog één groepje van 6."
     },
     {
       "id": "groep-7-c18-b2",
       "type": "number-input",
-      "question": "4 × 3 = ?",
+      "question": "2 × 6 = ?",
       "answer": 12,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4 keer 3.",
-      "explanation": "4 keer 3."
+      "hint2": "2 keer 6.",
+      "explanation": "2 keer 6."
     }
   ]
 }

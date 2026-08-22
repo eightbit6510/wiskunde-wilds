@@ -1,0 +1,139 @@
+{
+  "challengeId": "mavo-2-p2-c38",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Alle juiste uitspraken kiezen"
+          },
+          {
+            "id": "wrong",
+            "label": "Slechts één antwoord kiezen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Even = deelbaar door 2.",
+        "question": "Is 0 deelbaar door 2?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, 0÷2=0"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "A is waar.",
+        "retryFeedback": "0 is even."
+      },
+      {
+        "explanation": "B: 0 oneven?",
+        "question": "Klopt B?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "no",
+        "successFeedback": "B is onwaar.",
+        "retryFeedback": "0 is even, niet oneven."
+      },
+      {
+        "explanation": "C: oneven+oneven. Bijv. 3+5=8.",
+        "question": "Is som van twee oneven getallen even?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "C is waar.",
+        "retryFeedback": "Oneven+oneven=even."
+      },
+      {
+        "explanation": "Welke zijn waar?",
+        "question": "Kies de juiste.",
+        "options": [
+          {
+            "id": "ac",
+            "label": "A en C"
+          },
+          {
+            "id": "bd",
+            "label": "B en D"
+          },
+          {
+            "id": "ad",
+            "label": "A en D"
+          }
+        ],
+        "correctAnswer": "ac",
+        "successFeedback": "A en C kloppen.",
+        "retryFeedback": "B en D niet."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+  },
+  "bonusVariants": [
+    {
+      "id": "mavo-2-c81-b1",
+      "type": "multiple-choice",
+      "question": "Is 7 oneven?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Ja"
+        },
+        {
+          "id": "b",
+          "label": "Nee"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "7 niet deelbaar door 2.",
+      "explanation": "7 niet deelbaar door 2."
+    },
+    {
+      "id": "mavo-2-c81-b2",
+      "type": "multiple-choice",
+      "question": "Is 4+6 even of oneven?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Even"
+        },
+        {
+          "id": "b",
+          "label": "Oneven"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "4+6=10, even.",
+      "explanation": "4+6=10, even."
+    }
+  ]
+}

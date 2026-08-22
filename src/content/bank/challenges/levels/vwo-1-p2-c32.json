@@ -1,0 +1,16 @@
+{
+  "id": "vwo-1-p2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 17 = 30. Wat is x?",
+  "answer": 13,
+  "hint1": "Haal 17 naar de andere kant: x = 30 − 17.",
+  "hint2": "x = 30 − 17",
+  "optionalWorkedFirstStep": "x + 17 = 30 → x = 30 − 17",
+  "explanation": "x + 17 = 30\nx = 30 − 17 = 13",
+  "classLevels": [
+    "vwo-1"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mavo-1-p2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 14 = 27. Wat is x?",
+  "answer": 13,
+  "hint1": "Haal 14 naar de andere kant: x = 27 − 14.",
+  "hint2": "x = 27 − 14",
+  "optionalWorkedFirstStep": "x + 14 = 27 → x = 27 − 14",
+  "explanation": "x + 14 = 27\nx = 27 − 14 = 13",
+  "classLevels": [
+    "mavo-1"
+  ]
+}

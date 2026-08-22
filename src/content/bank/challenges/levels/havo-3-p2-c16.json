@@ -1,0 +1,16 @@
+{
+  "id": "havo-3-p2-c16",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Los op: x + 98 = 151. Wat is x?",
+  "answer": 53,
+  "hint1": "Haal 98 naar de andere kant: x = 151 − 98.",
+  "hint2": "x = 151 − 98",
+  "optionalWorkedFirstStep": "x + 98 = 151 → x = 151 − 98",
+  "explanation": "x + 98 = 151\nx = 151 − 98 = 53",
+  "classLevels": [
+    "havo-3"
+  ]
+}

@@ -14,5 +14,15 @@
     "havo-5-l7",
     "havo-5-l8"
   ],
+  "part2LessonIds": [
+    "havo-5-p2-l1",
+    "havo-5-p2-l2",
+    "havo-5-p2-l3",
+    "havo-5-p2-l4",
+    "havo-5-p2-l5",
+    "havo-5-p2-l6",
+    "havo-5-p2-l7",
+    "havo-5-p2-l8"
+  ],
   "unlockRuleId": "always"
 }

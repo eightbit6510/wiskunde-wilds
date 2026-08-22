@@ -1,0 +1,36 @@
+{
+  "id": "groep-7-p2-c29",
+  "type": "multi-select",
+  "topic": "redeneren",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Welke uitspraken zijn waar? Kies alle juiste.",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "In een parallellogram zijn tegenoverliggende zijden even lang"
+    },
+    {
+      "id": "b",
+      "label": "In een parallellogram zijn alle zijden even lang"
+    },
+    {
+      "id": "c",
+      "label": "Een ruit heeft vier gelijke zijden"
+    },
+    {
+      "id": "d",
+      "label": "Een ruit heeft altijd rechte hoeken"
+    }
+  ],
+  "answers": [
+    "a",
+    "c"
+  ],
+  "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
+  "hint2": "Check A, B, C en D één voor één.",
+  "explanation": "A en C kloppen. B geldt alleen voor ruit/vierkant. D: ruit hoeft geen rechte hoeken.",
+  "classLevels": [
+    "groep-7"
+  ]
+}

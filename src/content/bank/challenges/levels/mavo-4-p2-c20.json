@@ -1,0 +1,29 @@
+{
+  "id": "mavo-4-p2-c20",
+  "type": "multiple-choice",
+  "topic": "grafieken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Een formule is y = 7x. Welke tabel hoort daarbij?",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "x: 1→7, 2→14, 3→21"
+    },
+    {
+      "id": "b",
+      "label": "x: 1→8, 2→9, 3→10"
+    },
+    {
+      "id": "c",
+      "label": "x: 1→1, 2→2, 3→3"
+    }
+  ],
+  "hint1": "Vermenigvuldig elke x met 7.",
+  "hint2": "Bij x = 6 hoort y = 42.",
+  "explanation": "y = 7x betekent: y is steeds 7 keer x.\nBij x = 6: y = 42.",
+  "classLevels": [
+    "mavo-4"
+  ]
+}

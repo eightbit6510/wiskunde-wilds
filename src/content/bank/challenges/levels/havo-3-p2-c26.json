@@ -1,0 +1,15 @@
+{
+  "id": "havo-3-p2-c26",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 2,
+  "starsAvailable": 3,
+  "question": "Bereken: 7^3",
+  "answer": 343,
+  "hint1": "7 × 7 × …",
+  "hint2": "Vermenigvuldig 7 3 keer met zichzelf.",
+  "explanation": "7^3 = 343",
+  "classLevels": [
+    "havo-3"
+  ]
+}

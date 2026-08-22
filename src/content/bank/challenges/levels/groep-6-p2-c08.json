@@ -1,0 +1,15 @@
+{
+  "id": "groep-6-p2-c08",
+  "type": "number-input",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Reken uit: 6 + 6 (2 keer 6). Wat is het antwoord?",
+  "answer": 12,
+  "hint1": "2 keer 6 is hetzelfde als 2 × 6.",
+  "hint2": "2 × 6 = 12",
+  "explanation": "2 × 6 = 12",
+  "classLevels": [
+    "groep-6"
+  ]
+}

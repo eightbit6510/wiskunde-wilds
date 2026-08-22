@@ -1,0 +1,16 @@
+{
+  "id": "havo-3-p2-c32",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 20 = 32. Wat is x?",
+  "answer": 12,
+  "hint1": "Haal 20 naar de andere kant: x = 32 − 20.",
+  "hint2": "x = 32 − 20",
+  "optionalWorkedFirstStep": "x + 20 = 32 → x = 32 − 20",
+  "explanation": "x + 20 = 32\nx = 32 − 20 = 12",
+  "classLevels": [
+    "havo-3"
+  ]
+}

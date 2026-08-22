@@ -1,0 +1,29 @@
+{
+  "id": "mavo-3-p2-c37",
+  "type": "multiple-choice",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Vereenvoudig: 3x + 6x",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "9x"
+    },
+    {
+      "id": "b",
+      "label": "18x"
+    },
+    {
+      "id": "c",
+      "label": "9"
+    }
+  ],
+  "hint1": "Gelijke termen kun je optellen.",
+  "hint2": "3x + 6x = (3+6)x",
+  "explanation": "3x + 6x = 9x",
+  "classLevels": [
+    "mavo-3"
+  ]
+}

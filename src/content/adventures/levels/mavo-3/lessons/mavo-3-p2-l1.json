@@ -1,0 +1,42 @@
+{
+  "id": "mavo-3-p2-l1",
+  "adventureId": "mavo-3-part2",
+  "order": 1,
+  "areaName": "De Schaduwgrot",
+  "title": "Echo’s in het donker",
+  "emoji": "🌑",
+  "intro": "Diep in de Schaduwgrot flikkeren gloeiwormen boven vergelijkingen op de rotswand. x en y zijn hier geen letters meer — het zijn sporen in het donker. Los ze op voordat de grot je verder meeneemt.",
+  "color": "#3D4A6B",
+  "outroStory": "De grot opent aan de andere kant. Op een tak zit een raaf. Hij laat iets vallen — een stukje kaart.",
+  "mapTeaser": "Vergelijkingen fluisteren vanaf de grotwand…",
+  "placements": [
+    {
+      "challengeId": "mavo-3-p2-c01",
+      "optionalStory": "Op de rots zie je een oud pootafdruk — dit soort vergelijkingen ken je al uit het Vossenwoud.",
+      "sortOrder": 0
+    },
+    {
+      "challengeId": "mavo-3-p2-c02",
+      "optionalStory": "Nog een spoor uit het Vossenwoud — haakjes wegwerken en dan verder.",
+      "reviewOfPart1": true,
+      "sortOrder": 1
+    },
+    {
+      "challengeId": "mavo-3-p2-c03",
+      "optionalStory": "Twee x-termen in één vergelijking — de grot fluistert: breng alles met x naar één kant.",
+      "sortOrder": 2
+    },
+    {
+      "challengeId": "mavo-3-p2-c04",
+      "optionalStory": "Een tweede haakjes-spoor gloeit dieper in de grot.",
+      "reviewOfPart1": true,
+      "sortOrder": 3
+    },
+    {
+      "challengeId": "mavo-3-p2-c05",
+      "optionalStory": "Drie lagen in één spoor: haakjes, optellen, en dan x vrijmaken.",
+      "reviewOfPart1": true,
+      "sortOrder": 4
+    }
+  ]
+}

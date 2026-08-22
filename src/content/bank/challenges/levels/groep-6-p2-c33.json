@@ -1,0 +1,29 @@
+{
+  "id": "groep-6-p2-c33",
+  "type": "multiple-choice",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 1/8 + 2/8? Kies het juiste antwoord.",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "3/8"
+    },
+    {
+      "id": "b",
+      "label": "3/16"
+    },
+    {
+      "id": "c",
+      "label": "1/2"
+    }
+  ],
+  "hint1": "Hebben beide breuken dezelfde noemer? Tel dan de tellers op.",
+  "hint2": "1 + 2 = 3, noemer blijft 8.",
+  "explanation": "1/8 + 2/8 = 3/8",
+  "classLevels": [
+    "groep-6"
+  ]
+}

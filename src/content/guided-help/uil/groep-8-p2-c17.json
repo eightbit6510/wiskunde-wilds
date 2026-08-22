@@ -1,0 +1,139 @@
+{
+  "challengeId": "groep-8-p2-c17",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Alle juiste uitspraken kiezen"
+          },
+          {
+            "id": "wrong",
+            "label": "Slechts één antwoord kiezen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Kilometer en meter.",
+        "question": "1 km = 1000 m?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "A is waar.",
+        "retryFeedback": "kilo = duizend."
+      },
+      {
+        "explanation": "B: 1 km = 100 m?",
+        "question": "Klopt B?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "no",
+        "successFeedback": "B is onwaar.",
+        "retryFeedback": "1 km = 1000 m."
+      },
+      {
+        "explanation": "Tijd: uur en minuten.",
+        "question": "1 uur = 60 min?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "C is waar.",
+        "retryFeedback": "1 uur = 60 minuten."
+      },
+      {
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
+        "options": [
+          {
+            "id": "ac",
+            "label": "A en C"
+          },
+          {
+            "id": "ab",
+            "label": "A en B"
+          },
+          {
+            "id": "cd",
+            "label": "C en D"
+          }
+        ],
+        "correctAnswer": "ac",
+        "successFeedback": "A en C kloppen.",
+        "retryFeedback": "B en D niet."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-8-c17-b1",
+      "type": "multiple-choice",
+      "question": "2 km = ? meter",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "2000"
+        },
+        {
+          "id": "b",
+          "label": "200"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "2×1000=2000.",
+      "explanation": "2×1000=2000."
+    },
+    {
+      "id": "groep-8-c17-b2",
+      "type": "multiple-choice",
+      "question": "30 min = ? uur",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "1 uur"
+        },
+        {
+          "id": "b",
+          "label": "0,5 uur"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "30 min = halve uur.",
+      "explanation": "30 min = halve uur."
+    }
+  ]
+}

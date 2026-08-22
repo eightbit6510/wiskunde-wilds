@@ -1,0 +1,15 @@
+{
+  "id": "vwo-2-p2-c17",
+  "type": "number-input",
+  "topic": "verbanden",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Verhouding 4:4. De eerste deelgroep is 12. Hoe groot is de tweede?",
+  "answer": 12,
+  "hint1": "Deel 12 door 4 om de schaalfactor te vinden.",
+  "hint2": "Schaalfactor × 4 = 12.",
+  "explanation": "12 ÷ 4 = 3.\n3 × 4 = 12.",
+  "classLevels": [
+    "vwo-2"
+  ]
+}

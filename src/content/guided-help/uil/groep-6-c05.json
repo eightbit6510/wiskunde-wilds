@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Vergelijk breuken.",
-        "question": "Is 1/2 groter dan 1/4?",
+        "explanation": "Even = deelbaar door 2.",
+        "question": "Is 0 deelbaar door 2?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, 0÷2=0"
           },
           {
             "id": "no",
@@ -36,10 +36,10 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "Half > kwart."
+        "retryFeedback": "0 is even."
       },
       {
-        "explanation": "B zegt 1/4 > 1/2.",
+        "explanation": "B: 0 oneven?",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Kwart < half."
+        "retryFeedback": "0 is even, niet oneven."
       },
       {
-        "explanation": "D: is 3/4 > 1/2?",
-        "question": "Is 3/4 groter dan 1/2?",
+        "explanation": "C: oneven+oneven. Bijv. 3+5=8.",
+        "question": "Is som van twee oneven getallen even?",
         "options": [
           {
             "id": "yes",
@@ -69,71 +69,71 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "D is waar.",
-        "retryFeedback": "3/4 = 0,75 > 0,5."
+        "successFeedback": "C is waar.",
+        "retryFeedback": "Oneven+oneven=even."
       },
       {
         "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
+        "question": "Kies de juiste.",
         "options": [
+          {
+            "id": "ac",
+            "label": "A en C"
+          },
+          {
+            "id": "bd",
+            "label": "B en D"
+          },
           {
             "id": "ad",
             "label": "A en D"
-          },
-          {
-            "id": "ab",
-            "label": "A en B"
-          },
-          {
-            "id": "cd",
-            "label": "C en D"
           }
         ],
-        "correctAnswer": "ad",
-        "successFeedback": "A en D kloppen.",
-        "retryFeedback": "B en C zijn omgekeerd."
+        "correctAnswer": "ac",
+        "successFeedback": "A en C kloppen.",
+        "retryFeedback": "B en D niet."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, D zijn waar."
+    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
   },
   "bonusVariants": [
     {
       "id": "groep-6-c05-b1",
       "type": "multiple-choice",
-      "question": "Groter: 2/3 of 1/2?",
+      "question": "Is 7 oneven?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2/3"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "1/2"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2/3 > 1/2.",
-      "explanation": "2/3 > 1/2."
+      "hint2": "7 niet deelbaar door 2.",
+      "explanation": "7 niet deelbaar door 2."
     },
     {
       "id": "groep-6-c05-b2",
       "type": "multiple-choice",
-      "question": "Groter: 1/3 of 1/4?",
+      "question": "Is 4+6 even of oneven?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1/3"
+          "label": "Even"
         },
         {
           "id": "b",
-          "label": "1/4"
+          "label": "Oneven"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "1/3 > 1/4.",
-      "explanation": "1/3 > 1/4."
+      "hint2": "4+6=10, even.",
+      "explanation": "4+6=10, even."
     }
   ]
 }

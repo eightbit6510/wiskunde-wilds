@@ -1,0 +1,15 @@
+{
+  "id": "groep-7-p2-c10",
+  "type": "number-input",
+  "topic": "algebra",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Reken uit: 4 + 4 + 4 + 4 + … (5 keer 4). Wat is het antwoord?",
+  "answer": 20,
+  "hint1": "5 keer 4 is hetzelfde als 5 × 4.",
+  "hint2": "5 × 4 = 20",
+  "explanation": "5 × 4 = 20",
+  "classLevels": [
+    "groep-7"
+  ]
+}

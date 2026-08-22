@@ -8,19 +8,19 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "1 km = 1000 m"
+      "label": "Een rechte hoek is 90°"
     },
     {
       "id": "b",
-      "label": "1 km = 100 m"
+      "label": "Een rechte hoek is 180°"
     },
     {
       "id": "c",
-      "label": "1 uur = 60 minuten"
+      "label": "Een gestrekte hoek is 180°"
     },
     {
       "id": "d",
-      "label": "1 uur = 100 minuten"
+      "label": "Drie rechte hoeken passen in een driehoek"
     }
   ],
   "answers": [
@@ -29,7 +29,7 @@
   ],
   "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
   "hint2": "Check A, B, C en D één voor één.",
-  "explanation": "A en C zijn standaard eenheden.",
+  "explanation": "A: 90°. C: 180°. D klopt niet.",
   "classLevels": [
     "groep-6"
   ]

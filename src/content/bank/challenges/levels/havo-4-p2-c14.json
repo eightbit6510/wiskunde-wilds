@@ -1,0 +1,16 @@
+{
+  "id": "havo-4-p2-c14",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Los op: x + 10 = 16. Wat is x?",
+  "answer": 6,
+  "hint1": "Haal 10 naar de andere kant: x = 16 − 10.",
+  "hint2": "x = 16 − 10",
+  "optionalWorkedFirstStep": "x + 10 = 16 → x = 16 − 10",
+  "explanation": "x + 10 = 16\nx = 16 − 10 = 6",
+  "classLevels": [
+    "havo-4"
+  ]
+}

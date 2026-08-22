@@ -22,24 +22,24 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Kilometer en meter.",
-        "question": "1 km = 1000 m?",
+        "explanation": "Rechte hoek = hoek van een vierkant.",
+        "question": "Hoeveel graden?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "90",
+            "label": "90°"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "180",
+            "label": "180°"
           }
         ],
-        "correctAnswer": "yes",
+        "correctAnswer": "90",
         "successFeedback": "A is waar.",
-        "retryFeedback": "kilo = duizend."
+        "retryFeedback": "Rechte hoek = 90°."
       },
       {
-        "explanation": "B: 1 km = 100 m?",
+        "explanation": "B zegt rechte hoek = 180°.",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,24 +53,24 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "1 km = 1000 m."
+        "retryFeedback": "180° = gestrekte hoek."
       },
       {
-        "explanation": "Tijd: uur en minuten.",
-        "question": "1 uur = 60 min?",
+        "explanation": "C: gestrekte hoek.",
+        "question": "Hoeveel graden?",
         "options": [
           {
-            "id": "yes",
-            "label": "Ja"
+            "id": "90",
+            "label": "90°"
           },
           {
-            "id": "no",
-            "label": "Nee"
+            "id": "180",
+            "label": "180°"
           }
         ],
-        "correctAnswer": "yes",
+        "correctAnswer": "180",
         "successFeedback": "C is waar.",
-        "retryFeedback": "1 uur = 60 minuten."
+        "retryFeedback": "Gestrekte hoek = 180°."
       },
       {
         "explanation": "Welke zijn waar?",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "cd",
-            "label": "C en D"
+            "id": "bd",
+            "label": "B en D"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "retryFeedback": "B verwart hoeken."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,40 +100,40 @@
     {
       "id": "groep-6-c35-b1",
       "type": "multiple-choice",
-      "question": "2 km = ? meter",
+      "question": "Rechte hoek in graden?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2000"
+          "label": "90°"
         },
         {
           "id": "b",
-          "label": "200"
+          "label": "45°"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2×1000=2000.",
-      "explanation": "2×1000=2000."
+      "hint2": "90°.",
+      "explanation": "90°."
     },
     {
       "id": "groep-6-c35-b2",
       "type": "multiple-choice",
-      "question": "30 min = ? uur",
+      "question": "Gestrekte hoek?",
       "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1 uur"
+          "label": "90°"
         },
         {
           "id": "b",
-          "label": "0,5 uur"
+          "label": "180°"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "30 min = halve uur.",
-      "explanation": "30 min = halve uur."
+      "hint2": "180°.",
+      "explanation": "180°."
     }
   ]
 }

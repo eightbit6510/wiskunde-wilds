@@ -1,0 +1,26 @@
+{
+  "id": "vwo-4-p2-c24",
+  "type": "sorting",
+  "topic": "redeneren",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Sorteer van “sterkst dalend” naar “sterkst stijgend”.",
+  "sortItems": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
+  ],
+  "correctOrder": [
+    "y = −3x + 1",
+    "y = −x + 4",
+    "y = 0,5x",
+    "y = 2x − 1"
+  ],
+  "hint1": "Kijk naar het hellingsgetal.",
+  "hint2": "Sleep de items in de juiste volgorde.",
+  "explanation": "Goed gesorteerd!",
+  "classLevels": [
+    "vwo-4"
+  ]
+}

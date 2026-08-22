@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-6-p2-c34",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij kaarten geldt: voor elke 3 horen 3. Zoek eerst hoe vaak 3 in 12 past.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Bij kaarten: 3 horen bij 3, nu 12 gegeven"
+          },
+          {
+            "id": "wrong",
+            "label": "3 en 3 gewoon bij elkaar optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: verhouding 3:3 betekent steeds dezelfde verhouding.\n\nEerst deel je 12 door 3.",
+        "question": "Hoeveel keer past 3 in 12?",
+        "options": [
+          {
+            "id": "f",
+            "label": "4"
+          },
+          {
+            "id": "w",
+            "label": "5"
+          }
+        ],
+        "correctAnswer": "f",
+        "successFeedback": "Goed — dat is 4 keer.",
+        "retryFeedback": "Deel 12 door 3."
+      },
+      {
+        "explanation": "Stap 3: vermenigvuldig met 3.",
+        "question": "4 × 3 = ?",
+        "options": [
+          {
+            "id": "o",
+            "label": "12"
+          },
+          {
+            "id": "w",
+            "label": "15"
+          }
+        ],
+        "correctAnswer": "o",
+        "successFeedback": "Klopt: 12.",
+        "retryFeedback": "Vermenigvuldig je schaalfactor met 3."
+      },
+      {
+        "explanation": "Stap 4: controle.",
+        "question": "Klopt 12:12 = 3:3?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Super! Antwoord = 12.",
+        "retryFeedback": "Deel eerst, dan vermenigvuldig."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Het antwoord is 12."
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c34-b1",
+      "type": "number-input",
+      "question": "kaarten: 3:3, eerste = 15. Tweede?",
+      "answer": 15,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde stap: delen en vermenigvuldigen.",
+      "explanation": "Zelfde stap: delen en vermenigvuldigen."
+    },
+    {
+      "id": "groep-6-c34-b2",
+      "type": "number-input",
+      "question": "kaarten: eerste = 12. Tweede?",
+      "answer": 12,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "12 ÷ 3 × 3.",
+      "explanation": "12 ÷ 3 × 3."
+    }
+  ]
+}

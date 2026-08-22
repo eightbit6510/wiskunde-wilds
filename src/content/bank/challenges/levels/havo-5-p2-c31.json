@@ -1,0 +1,15 @@
+{
+  "id": "havo-5-p2-c31",
+  "type": "number-input",
+  "topic": "machten",
+  "difficulty": 3,
+  "starsAvailable": 3,
+  "question": "Bereken: 2^2",
+  "answer": 4,
+  "hint1": "2 × 2",
+  "hint2": "Vermenigvuldig 2 2 keer met zichzelf.",
+  "explanation": "2^2 = 4",
+  "classLevels": [
+    "havo-5"
+  ]
+}

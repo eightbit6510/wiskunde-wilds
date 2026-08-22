@@ -1,0 +1,139 @@
+{
+  "challengeId": "mavo-1-p2-c40",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Alle juiste uitspraken kiezen"
+          },
+          {
+            "id": "wrong",
+            "label": "Slechts één antwoord kiezen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Vergelijk breuken.",
+        "question": "Is 1/2 groter dan 1/4?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "A is waar.",
+        "retryFeedback": "Half > kwart."
+      },
+      {
+        "explanation": "B zegt 1/4 > 1/2.",
+        "question": "Klopt B?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "no",
+        "successFeedback": "B is onwaar.",
+        "retryFeedback": "Kwart < half."
+      },
+      {
+        "explanation": "D: is 3/4 > 1/2?",
+        "question": "Is 3/4 groter dan 1/2?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "D is waar.",
+        "retryFeedback": "3/4 = 0,75 > 0,5."
+      },
+      {
+        "explanation": "Welke zijn waar?",
+        "question": "Kies alles.",
+        "options": [
+          {
+            "id": "ad",
+            "label": "A en D"
+          },
+          {
+            "id": "ab",
+            "label": "A en B"
+          },
+          {
+            "id": "cd",
+            "label": "C en D"
+          }
+        ],
+        "correctAnswer": "ad",
+        "successFeedback": "A en D kloppen.",
+        "retryFeedback": "B en C zijn omgekeerd."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 A, D zijn waar."
+  },
+  "bonusVariants": [
+    {
+      "id": "mavo-1-c36-b1",
+      "type": "multiple-choice",
+      "question": "Groter: 2/3 of 1/2?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "2/3"
+        },
+        {
+          "id": "b",
+          "label": "1/2"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "2/3 > 1/2.",
+      "explanation": "2/3 > 1/2."
+    },
+    {
+      "id": "mavo-1-c36-b2",
+      "type": "multiple-choice",
+      "question": "Groter: 1/3 of 1/4?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "1/3"
+        },
+        {
+          "id": "b",
+          "label": "1/4"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "1/3 > 1/4.",
+      "explanation": "1/3 > 1/4."
+    }
+  ]
+}

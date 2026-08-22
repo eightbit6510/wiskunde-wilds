@@ -1,0 +1,98 @@
+{
+  "challengeId": "groep-6-p2-c30",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Er ontbreekt een getal. Tel terug: van het totaal haal je het bekende deel af.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "Het ontbrekende getal zoeken in ? + 2 = 6"
+          },
+          {
+            "id": "wrong",
+            "label": "Alle getallen bij elkaar optellen"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: wat weten we?\n\n? + 2 moet samen 6 worden.",
+        "question": "Moet het ontbrekende getal kleiner zijn dan 6?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, het is een stukje van 6"
+          },
+          {
+            "id": "no",
+            "label": "Nee, groter dan 6"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
+        "retryFeedback": "Samen moet het 6 worden."
+      },
+      {
+        "explanation": "Stap 3: reken terug.\n\nTrek 2 af van 6.",
+        "question": "Wat is 6 − 2?",
+        "options": [
+          {
+            "id": "m",
+            "label": "4"
+          },
+          {
+            "id": "w",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "m",
+        "successFeedback": "Juist! Het ontbrekende getal is 4.",
+        "retryFeedback": "Trek 2 af van 6."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "Tel je antwoord op bij 2. Kom je op 6?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, dat klopt"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Perfect! Het ontbrekende getal is 4.",
+        "retryFeedback": "Reken na: antwoord + 2 = 6."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 4."
+  },
+  "bonusVariants": [
+    {
+      "id": "groep-6-c26-b1",
+      "type": "number-input",
+      "question": "5 + 2 = ?",
+      "answer": 7,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "5 + 2 = 7.",
+      "explanation": "5 + 2 = 7."
+    },
+    {
+      "id": "groep-6-c26-b2",
+      "type": "number-input",
+      "question": "? + 2 = 6",
+      "answer": 4,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "6 − 2 = 4.",
+      "explanation": "6 − 2 = 4."
+    }
+  ]
+}

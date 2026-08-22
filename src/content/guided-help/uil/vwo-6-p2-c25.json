@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-6-p2-c25",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Bij x² = getal zoek je welk positief getal keer zichzelf dat getal geeft.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "x vinden in x² = 81 (x positief)"
+          },
+          {
+            "id": "wrong",
+            "label": "x = 81 ÷ 2"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: x² betekent x × x.\n\nWe zoeken: welk getal × zichzelf = 81?",
+        "question": "x² = x × x. Klopt dat?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — kwadraat = keer zichzelf.",
+        "retryFeedback": "x² is niet x×2."
+      },
+      {
+        "explanation": "Stap 3: welk getal keer zichzelf geeft 81?\n\nReken een paar getallen keer zichzelf.",
+        "question": "9 × 9 = ?",
+        "options": [
+          {
+            "id": "sq",
+            "label": "81"
+          },
+          {
+            "id": "wrong",
+            "label": "82"
+          }
+        ],
+        "correctAnswer": "sq",
+        "successFeedback": "Juist: x = 9.",
+        "retryFeedback": "Probeer 9 × 9."
+      },
+      {
+        "explanation": "Stap 4: controle.",
+        "question": "x = 9 positief en 9²=81?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja"
+          },
+          {
+            "id": "no",
+            "label": "Nee"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed! x = 9.",
+        "retryFeedback": "9 is positief en 9²=81."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 x = 9"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-6-c21-b1",
+      "type": "number-input",
+      "question": "x² = 100 (x positief)",
+      "answer": 10,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Zelfde methode.",
+      "explanation": "Zelfde methode."
+    },
+    {
+      "id": "vwo-6-c21-b2",
+      "type": "number-input",
+      "question": "x² = 81 (x positief)",
+      "answer": 9,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "9² = 81.",
+      "explanation": "9² = 81."
+    }
+  ]
+}

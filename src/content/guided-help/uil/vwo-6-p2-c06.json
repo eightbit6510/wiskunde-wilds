@@ -1,0 +1,98 @@
+{
+  "challengeId": "vwo-6-p2-c06",
+  "personaId": "uil",
+  "guidedHelp": {
+    "intro": "Macht = hetzelfde getal steeds opnieuw vermenigvuldigen.",
+    "steps": [
+      {
+        "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
+        "question": "Wat moet je in deze som doen?",
+        "options": [
+          {
+            "id": "task",
+            "label": "5^3 uitrekenen"
+          },
+          {
+            "id": "wrong",
+            "label": "5 × 3 uitrekenen (dat is fout!)"
+          }
+        ],
+        "correctAnswer": "task",
+        "successFeedback": "Goed! Nu weten we het doel.",
+        "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
+      },
+      {
+        "explanation": "Stap 2: 5^3 = 5 × 5 × 5.\n\nDe exponent 3 telt hoe vaak je vermenigvuldigt.",
+        "question": "Wat betekent de exponent?",
+        "options": [
+          {
+            "id": "repeat",
+            "label": "5 3 keer vermenigvuldigen"
+          },
+          {
+            "id": "times",
+            "label": "5 × 3"
+          }
+        ],
+        "correctAnswer": "repeat",
+        "successFeedback": "Juist — herhalen, niet × de exponent.",
+        "retryFeedback": "Exponent = aantal keer vermenigvuldigen."
+      },
+      {
+        "explanation": "Stap 3: reken stap voor stap.\n\nBegin met 5 × 5, vermenigvuldig daarna verder tot je 3 keer hebt.",
+        "question": "Wat is 5^3?",
+        "options": [
+          {
+            "id": "a",
+            "label": "125"
+          },
+          {
+            "id": "b",
+            "label": "15"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Goed: 5^3 = 125.",
+        "retryFeedback": "Niet 5×3, maar herhaald vermenigvuldigen."
+      },
+      {
+        "explanation": "Stap 4: antwoord invullen.",
+        "question": "5^3 = ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "125"
+          },
+          {
+            "id": "b",
+            "label": "130"
+          }
+        ],
+        "correctAnswer": "a",
+        "successFeedback": "Super! Antwoord = 125.",
+        "retryFeedback": "Reken 5 × 5 × 5 uit."
+      }
+    ],
+    "conclusion": "Pootafdruk! 🐾 5^3 = 125"
+  },
+  "bonusVariants": [
+    {
+      "id": "vwo-6-c46-b1",
+      "type": "number-input",
+      "question": "Bereken: 5^4",
+      "answer": 625,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog ×5.",
+      "explanation": "Nog ×5."
+    },
+    {
+      "id": "vwo-6-c46-b2",
+      "type": "number-input",
+      "question": "Bereken: 5^3",
+      "answer": 125,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "5^3 = 125.",
+      "explanation": "5^3 = 125."
+    }
+  ]
+}

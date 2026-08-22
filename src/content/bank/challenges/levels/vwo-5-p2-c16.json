@@ -1,0 +1,16 @@
+{
+  "id": "vwo-5-p2-c16",
+  "type": "number-input",
+  "topic": "vergelijkingen",
+  "difficulty": 3,
+  "starsAvailable": 3,
+  "question": "Los op: x + 102 = 155. Wat is x?",
+  "answer": 53,
+  "hint1": "Haal 102 naar de andere kant: x = 155 − 102.",
+  "hint2": "x = 155 − 102",
+  "optionalWorkedFirstStep": "x + 102 = 155 → x = 155 − 102",
+  "explanation": "x + 102 = 155\nx = 155 − 102 = 53",
+  "classLevels": [
+    "vwo-5"
+  ]
+}

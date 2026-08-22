@@ -1,0 +1,16 @@
+{
+  "id": "mavo-2-p2-c33",
+  "type": "number-input",
+  "topic": "breuken",
+  "difficulty": 1,
+  "starsAvailable": 3,
+  "question": "Wat is 2/1 + 2/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "answer": 2.67,
+  "hint1": "Maak de noemers gelijk, tel de tellers op.",
+  "hint2": "2/1 + 2/3 = 8/3",
+  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 6.",
+  "explanation": "2/1 + 2/3 = 8/3 = 2.67",
+  "classLevels": [
+    "mavo-2"
+  ]
+}
