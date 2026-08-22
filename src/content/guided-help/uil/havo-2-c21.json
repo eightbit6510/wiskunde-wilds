@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "1/5 en 1/1 optellen (als decimaal)"
+            "label": "1/5 en 1/1 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "12/11"
+            "label": "6/6"
           }
         ],
         "correctAnswer": "right",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 6/5 als decimaal.",
-        "question": "Deel 12 door 10. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 6/5 als kommagetal.\n\nDeel de teller door de noemer: 6 ÷ 5.",
+        "question": "Wat is 6 ÷ 5?",
         "options": [
           {
             "id": "a",
-            "label": "6"
+            "label": "1.2"
           },
           {
             "id": "b",
-            "label": "7"
+            "label": "1.7"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 6.",
-        "retryFeedback": "Reken: 12 ÷ 10."
+        "successFeedback": "Klopt! Het antwoord is 1.2.",
+        "retryFeedback": "Reken: 6 ÷ 5."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 1/5 + 1/1 = 6"
+    "conclusion": "Pootafdruk! 🐾 1/5 + 1/1 = 1.2"
   },
   "bonusVariants": [
     {
       "id": "havo-2-c21-b1",
       "type": "number-input",
-      "question": "Wat is 1/5 + 1/1? (decimaal)",
-      "answer": 6,
+      "question": "Wat is 1/5 + 1/1? (kommagetal)",
+      "answer": 1.2,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

@@ -1,28 +1,14 @@
 {
   "id": "groep-6-c06",
-  "type": "multiple-choice",
+  "type": "number-input",
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 5x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "10x"
-    },
-    {
-      "id": "b",
-      "label": "25x"
-    },
-    {
-      "id": "c",
-      "label": "10"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 5x = (5+5)x",
-  "explanation": "5x + 5x = 10x",
+  "question": "Reken uit: 6 + 6 + 6 + 6 + … (5 keer 6). Wat is het antwoord?",
+  "answer": 30,
+  "hint1": "5 keer 6 is hetzelfde als 5 × 6.",
+  "hint2": "5 × 6 = 30",
+  "explanation": "5 × 6 = 30",
   "classLevels": [
     "groep-6"
   ]

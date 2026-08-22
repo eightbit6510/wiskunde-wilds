@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "4/5 en 4/3 optellen (als decimaal)"
+            "label": "4/5 en 4/3 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 32/15 als decimaal.",
-        "question": "Deel 32 door 15. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 32/15 als kommagetal.\n\nDeel de teller door de noemer: 32 ÷ 15.",
+        "question": "Wat is 32 ÷ 15?",
         "options": [
           {
             "id": "a",
-            "label": "32"
+            "label": "2.13"
           },
           {
             "id": "b",
-            "label": "33"
+            "label": "2.63"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 32.",
+        "successFeedback": "Klopt! Het antwoord is 2.13.",
         "retryFeedback": "Reken: 32 ÷ 15."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4/5 + 4/3 = 32"
+    "conclusion": "Pootafdruk! 🐾 4/5 + 4/3 = 2.13"
   },
   "bonusVariants": [
     {
       "id": "vwo-1-c15-b1",
       "type": "number-input",
-      "question": "Wat is 4/5 + 4/3? (decimaal)",
-      "answer": 32,
+      "question": "Wat is 4/5 + 4/3? (kommagetal)",
+      "answer": 2.13,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

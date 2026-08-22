@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "1/5 en 1/2 optellen (als decimaal)"
+            "label": "1/5 en 1/2 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 7/10 als decimaal.",
-        "question": "Deel 7 door 10. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 7/10 als kommagetal.\n\nDeel de teller door de noemer: 7 ÷ 10.",
+        "question": "Wat is 7 ÷ 10?",
         "options": [
           {
             "id": "a",
-            "label": "7"
+            "label": "0.7"
           },
           {
             "id": "b",
-            "label": "8"
+            "label": "1.2"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 7.",
+        "successFeedback": "Klopt! Het antwoord is 0.7.",
         "retryFeedback": "Reken: 7 ÷ 10."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 1/5 + 1/2 = 7"
+    "conclusion": "Pootafdruk! 🐾 1/5 + 1/2 = 0.7"
   },
   "bonusVariants": [
     {
       "id": "havo-2-c09-b1",
       "type": "number-input",
-      "question": "Wat is 1/5 + 1/2? (decimaal)",
-      "answer": 7,
+      "question": "Wat is 1/5 + 1/2? (kommagetal)",
+      "answer": 0.7,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "4/5 en 1/4 optellen (als decimaal)"
+            "label": "4/5 en 1/4 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 21/20 als decimaal.",
-        "question": "Deel 21 door 20. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 21/20 als kommagetal.\n\nDeel de teller door de noemer: 21 ÷ 20.",
+        "question": "Wat is 21 ÷ 20?",
         "options": [
           {
             "id": "a",
-            "label": "21"
+            "label": "1.05"
           },
           {
             "id": "b",
-            "label": "22"
+            "label": "1.55"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 21.",
+        "successFeedback": "Klopt! Het antwoord is 1.05.",
         "retryFeedback": "Reken: 21 ÷ 20."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4/5 + 1/4 = 21"
+    "conclusion": "Pootafdruk! 🐾 4/5 + 1/4 = 1.05"
   },
   "bonusVariants": [
     {
       "id": "mavo-4-c15-b1",
       "type": "number-input",
-      "question": "Wat is 4/5 + 1/4? (decimaal)",
-      "answer": 21,
+      "question": "Wat is 4/5 + 1/4? (kommagetal)",
+      "answer": 1.05,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

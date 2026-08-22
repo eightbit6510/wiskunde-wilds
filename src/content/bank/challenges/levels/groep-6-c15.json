@@ -4,25 +4,25 @@
   "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 5x. Welke tabel hoort daarbij?",
+  "question": "1 snoepje kost 5 euro. Wat kosten 5 snoepjes?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→5, 2→10, 3→15"
+      "label": "25 euro"
     },
     {
       "id": "b",
-      "label": "x: 1→6, 2→7, 3→8"
+      "label": "30 euro"
     },
     {
       "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "label": "24 euro"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 5.",
-  "hint2": "Bij x = 3 hoort y = 15.",
-  "explanation": "y = 5x betekent: y is steeds 5 keer x.\nBij x = 3: y = 15.",
+  "hint1": "Elke snoepje kost 5 euro — tel dat 5 keer op.",
+  "hint2": "5 × 5 = 25",
+  "explanation": "5 × 5 euro = 25 euro",
   "classLevels": [
     "groep-6"
   ]

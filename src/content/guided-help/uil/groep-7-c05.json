@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c05",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.",
+    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle WAARHE uitspraken kiezen (multi-select)"
+            "label": "Alle juiste uitspraken kiezen"
           },
           {
             "id": "wrong",
-            "label": "Precies één antwoord kiezen"
+            "label": "Slechts één antwoord kiezen"
           }
         ],
         "correctAnswer": "task",
@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Vergelijk breuken.",
-        "question": "Is 1/2 groter dan 1/4?",
+        "explanation": "Veelvoud = keer tafel.",
+        "question": "Is 6 = 2 × 3?",
         "options": [
           {
             "id": "yes",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "Half > kwart."
+        "retryFeedback": "6 is veelvoud van 3."
       },
       {
-        "explanation": "B zegt 1/4 > 1/2.",
-        "question": "Klopt B?",
+        "explanation": "B: 6 veelvoud van 4?",
+        "question": "6÷4 exact?",
         "options": [
           {
             "id": "yes",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Kwart < half."
+        "retryFeedback": "6÷4 gaat niet exact."
       },
       {
-        "explanation": "D: is 3/4 > 1/2?",
-        "question": "Is 3/4 groter dan 1/2?",
+        "explanation": "C: 15 veelvoud van 5?",
+        "question": "15÷5 = 3?",
         "options": [
           {
             "id": "yes",
@@ -69,16 +69,16 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "D is waar.",
-        "retryFeedback": "3/4 = 0,75 > 0,5."
+        "successFeedback": "C is waar.",
+        "retryFeedback": "15=3×5."
       },
       {
         "explanation": "Welke zijn waar?",
         "question": "Kies alles.",
         "options": [
           {
-            "id": "ad",
-            "label": "A en D"
+            "id": "ac",
+            "label": "A en C"
           },
           {
             "id": "ab",
@@ -89,51 +89,51 @@
             "label": "C en D"
           }
         ],
-        "correctAnswer": "ad",
-        "successFeedback": "A en D kloppen.",
-        "retryFeedback": "B en C zijn omgekeerd."
+        "correctAnswer": "ac",
+        "successFeedback": "A en C kloppen.",
+        "retryFeedback": "B en D niet."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, D zijn waar."
+    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
   },
   "bonusVariants": [
     {
       "id": "groep-7-c05-b1",
       "type": "multiple-choice",
-      "question": "Groter: 2/3 of 1/2?",
+      "question": "8 veelvoud van 2?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2/3"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "1/2"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2/3 > 1/2.",
-      "explanation": "2/3 > 1/2."
+      "hint2": "8=4×2.",
+      "explanation": "8=4×2."
     },
     {
       "id": "groep-7-c05-b2",
       "type": "multiple-choice",
-      "question": "Groter: 1/3 of 1/4?",
-      "answer": "a",
+      "question": "10 veelvoud van 3?",
+      "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1/3"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "1/4"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "1/3 > 1/4.",
-      "explanation": "1/3 > 1/4."
+      "hint2": "10÷3 niet exact.",
+      "explanation": "10÷3 niet exact."
     }
   ]
 }

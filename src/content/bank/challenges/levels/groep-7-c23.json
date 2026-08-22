@@ -8,28 +8,28 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "−3 + 5 = 2"
+      "label": "12 is deelbaar door 3"
     },
     {
       "id": "b",
-      "label": "−3 + 5 = −8"
+      "label": "12 is deelbaar door 5"
     },
     {
       "id": "c",
-      "label": "4 − 7 = −3"
+      "label": "15 is deelbaar door 3"
     },
     {
       "id": "d",
-      "label": "4 − 7 = 3"
+      "label": "10 is deelbaar door 4"
     }
   ],
   "answers": [
     "a",
     "c"
   ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A: −3+5=2. C: 4−7=−3.",
+  "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
+  "hint2": "Check A, B, C en D één voor één.",
+  "explanation": "A: 12÷3=4. C: 15÷3=5. B en D kloppen niet.",
   "classLevels": [
     "groep-7"
   ]

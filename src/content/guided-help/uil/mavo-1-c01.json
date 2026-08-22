@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "5/3 en 3/2 optellen (als decimaal)"
+            "label": "5/3 en 3/2 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 19/6 als decimaal.",
-        "question": "Deel 19 door 6. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 19/6 als kommagetal.\n\nDeel de teller door de noemer: 19 ÷ 6.",
+        "question": "Wat is 19 ÷ 6?",
         "options": [
           {
             "id": "a",
-            "label": "19"
+            "label": "3.17"
           },
           {
             "id": "b",
-            "label": "20"
+            "label": "3.67"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 19.",
+        "successFeedback": "Klopt! Het antwoord is 3.17.",
         "retryFeedback": "Reken: 19 ÷ 6."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5/3 + 3/2 = 19"
+    "conclusion": "Pootafdruk! 🐾 5/3 + 3/2 = 3.17"
   },
   "bonusVariants": [
     {
       "id": "mavo-1-c01-b1",
       "type": "number-input",
-      "question": "Wat is 5/3 + 3/2? (decimaal)",
-      "answer": 19,
+      "question": "Wat is 5/3 + 3/2? (kommagetal)",
+      "answer": 3.17,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

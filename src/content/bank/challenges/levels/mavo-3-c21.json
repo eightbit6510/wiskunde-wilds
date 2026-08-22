@@ -5,11 +5,11 @@
   "difficulty": 2,
   "starsAvailable": 3,
   "question": "Wat is 3/5 + 1/4? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 17,
+  "answer": 0.85,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "3/5 + 1/4 = 17/20",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 20.",
-  "explanation": "3/5 + 1/4 = 17/20 = 17",
+  "explanation": "3/5 + 1/4 = 17/20 = 0.85",
   "classLevels": [
     "mavo-3"
   ]

@@ -5,11 +5,11 @@
   "difficulty": 1,
   "starsAvailable": 3,
   "question": "Wat is 4/5 + 1/4? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 21,
+  "answer": 1.05,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "4/5 + 1/4 = 21/20",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 20.",
-  "explanation": "4/5 + 1/4 = 21/20 = 21",
+  "explanation": "4/5 + 1/4 = 21/20 = 1.05",
   "classLevels": [
     "mavo-4"
   ]

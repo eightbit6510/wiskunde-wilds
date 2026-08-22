@@ -21,6 +21,7 @@ import {
   helpForVergelijkingen,
   validateHelpPack,
 } from './guidedHelpBuilder';
+import { basisGrade, generateBasisForTopic } from './basisGenerators';
 
 export interface LevelBundle {
   level: ClassLevel;
@@ -65,6 +66,11 @@ function gcd(a: number, b: number): number {
 function frac(n: number, d: number): string {
   const g = gcd(n, d);
   return `${n / g}/${d / g}`;
+}
+
+/** Decimaal antwoord, max. 2 decimalen (zoals in breuk-sommen gevraagd). */
+function decimalAnswer(num: number, den: number): number {
+  return Math.round((num / den) * 100) / 100;
 }
 
 type Band = 'basis' | 'mavo' | 'havo' | 'vwo';
@@ -181,6 +187,11 @@ function generateForTopic(
   const band = bandFor(level);
   const scale = band === 'basis' ? 1 : band === 'mavo' ? 1.5 : band === 'havo' ? 2 : 2.5;
   const base = Math.max(2, Math.floor((s % 8) + 2 + yr * scale * 0.3));
+  const grade = basisGrade(level);
+
+  if (grade === 6 || grade === 7) {
+    return generateBasisForTopic(level, grade, challengeIndex, topic, difficulty, s);
+  }
 
   switch (topic) {
     case 'breuken': {
@@ -190,8 +201,14 @@ function generateForTopic(
       const d2 = ((s >> 5) % 3) + 2;
       const num = n1 * d2 + n2 * d1;
       const den = d1 * d2;
-      const answer = num / gcd(num, den);
-      const question = `Wat is ${frac(n1, d1)} + ${frac(n2, d2)}? Geef het antwoord als decimaal getal (max. 2 decimalen).`;
+      const g = gcd(num, den);
+      const simpNum = num / g;
+      const simpDen = den / g;
+      const answer = decimalAnswer(num, den);
+      const question =
+        grade === 8
+          ? `Wat is ${frac(n1, d1)} + ${frac(n2, d2)}? Geef je antwoord als kommagetal (max. 2 cijfers achter de komma).`
+          : `Wat is ${frac(n1, d1)} + ${frac(n2, d2)}? Geef het antwoord als decimaal getal (max. 2 decimalen).`;
       const challenge: ChallengeDefinition = {
         id,
         type: 'number-input',
@@ -212,8 +229,8 @@ function generateForTopic(
         frac(n1, d1),
         frac(n2, d2),
         d1 * d2,
-        num,
-        den,
+        simpNum,
+        simpDen,
         frac(num, den),
         answer,
       );

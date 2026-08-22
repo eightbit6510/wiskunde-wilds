@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c29",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.",
+    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle WAARHE uitspraken kiezen (multi-select)"
+            "label": "Alle juiste uitspraken kiezen"
           },
           {
             "id": "wrong",
-            "label": "Precies één antwoord kiezen"
+            "label": "Slechts één antwoord kiezen"
           }
         ],
         "correctAnswer": "task",
@@ -22,24 +22,24 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Gemiddelde = som ÷ aantal.",
-        "question": "(2+4+6)÷3 = ?",
+        "explanation": "Even = deelbaar door 2.",
+        "question": "Is 0 deelbaar door 2?",
         "options": [
           {
-            "id": "4",
-            "label": "4"
+            "id": "yes",
+            "label": "Ja, 0÷2=0"
           },
           {
-            "id": "6",
-            "label": "6"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "4",
+        "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "12÷3=4."
+        "retryFeedback": "0 is even."
       },
       {
-        "explanation": "B zegt gemiddelde=6.",
+        "explanation": "B: 0 oneven?",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,40 +53,40 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Gemiddelde is 4."
+        "retryFeedback": "0 is even, niet oneven."
       },
       {
-        "explanation": "Mediaan = middelste getal (gesorteerd).",
-        "question": "Mediaan van 1,3,9?",
+        "explanation": "C: oneven+oneven. Bijv. 3+5=8.",
+        "question": "Is som van twee oneven getallen even?",
         "options": [
           {
-            "id": "3",
-            "label": "3"
+            "id": "yes",
+            "label": "Ja"
           },
           {
-            "id": "9",
-            "label": "9"
+            "id": "no",
+            "label": "Nee"
           }
         ],
-        "correctAnswer": "3",
+        "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Middelste = 3."
+        "retryFeedback": "Oneven+oneven=even."
       },
       {
         "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
+        "question": "Kies de juiste.",
         "options": [
           {
             "id": "ac",
             "label": "A en C"
           },
           {
-            "id": "ab",
-            "label": "A en B"
-          },
-          {
             "id": "bd",
             "label": "B en D"
+          },
+          {
+            "id": "ad",
+            "label": "A en D"
           }
         ],
         "correctAnswer": "ac",
@@ -100,40 +100,40 @@
     {
       "id": "groep-6-c29-b1",
       "type": "multiple-choice",
-      "question": "Gemiddelde van 5 en 15?",
+      "question": "Is 7 oneven?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "10"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "20"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "(5+15)÷2=10.",
-      "explanation": "(5+15)÷2=10."
+      "hint2": "7 niet deelbaar door 2.",
+      "explanation": "7 niet deelbaar door 2."
     },
     {
       "id": "groep-6-c29-b2",
       "type": "multiple-choice",
-      "question": "Mediaan van 2, 5, 8?",
-      "answer": "b",
+      "question": "Is 4+6 even of oneven?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2"
+          "label": "Even"
         },
         {
           "id": "b",
-          "label": "5"
+          "label": "Oneven"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Middelste = 5.",
-      "explanation": "Middelste = 5."
+      "hint2": "4+6=10, even.",
+      "explanation": "4+6=10, even."
     }
   ]
 }

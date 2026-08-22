@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "2/3 en 1/4 optellen (als decimaal)"
+            "label": "2/3 en 1/4 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 11/12 als decimaal.",
-        "question": "Deel 11 door 12. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 11/12 als kommagetal.\n\nDeel de teller door de noemer: 11 ÷ 12.",
+        "question": "Wat is 11 ÷ 12?",
         "options": [
           {
             "id": "a",
-            "label": "11"
+            "label": "0.92"
           },
           {
             "id": "b",
-            "label": "12"
+            "label": "1.42"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 11.",
+        "successFeedback": "Klopt! Het antwoord is 0.92.",
         "retryFeedback": "Reken: 11 ÷ 12."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 2/3 + 1/4 = 11"
+    "conclusion": "Pootafdruk! 🐾 2/3 + 1/4 = 0.92"
   },
   "bonusVariants": [
     {
       "id": "mavo-2-c37-b1",
       "type": "number-input",
-      "question": "Wat is 2/3 + 1/4? (decimaal)",
-      "answer": 11,
+      "question": "Wat is 2/3 + 1/4? (kommagetal)",
+      "answer": 0.92,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

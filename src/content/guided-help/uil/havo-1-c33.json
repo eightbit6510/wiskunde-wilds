@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "4/3 en 1/1 optellen (als decimaal)"
+            "label": "4/3 en 1/1 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "14/7"
+            "label": "7/4"
           }
         ],
         "correctAnswer": "right",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 7/3 als decimaal.",
-        "question": "Deel 14 door 6. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 7/3 als kommagetal.\n\nDeel de teller door de noemer: 7 ÷ 3.",
+        "question": "Wat is 7 ÷ 3?",
         "options": [
           {
             "id": "a",
-            "label": "7"
+            "label": "2.33"
           },
           {
             "id": "b",
-            "label": "8"
+            "label": "2.83"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 7.",
-        "retryFeedback": "Reken: 14 ÷ 6."
+        "successFeedback": "Klopt! Het antwoord is 2.33.",
+        "retryFeedback": "Reken: 7 ÷ 3."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4/3 + 1/1 = 7"
+    "conclusion": "Pootafdruk! 🐾 4/3 + 1/1 = 2.33"
   },
   "bonusVariants": [
     {
       "id": "havo-1-c33-b1",
       "type": "number-input",
-      "question": "Wat is 4/3 + 1/1? (decimaal)",
-      "answer": 7,
+      "question": "Wat is 4/3 + 1/1? (kommagetal)",
+      "answer": 2.33,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

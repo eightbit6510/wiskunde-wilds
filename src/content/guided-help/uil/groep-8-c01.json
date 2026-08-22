@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "3/4 en 1/4 optellen (als decimaal)"
+            "label": "3/4 en 1/4 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "16/17"
+            "label": "1/2"
           }
         ],
         "correctAnswer": "right",
@@ -56,8 +56,8 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 1/1 als decimaal.",
-        "question": "Deel 16 door 16. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 1/1 als kommagetal.\n\nDeel de teller door de noemer: 1 ÷ 1.",
+        "question": "Wat is 1 ÷ 1?",
         "options": [
           {
             "id": "a",
@@ -65,12 +65,12 @@
           },
           {
             "id": "b",
-            "label": "2"
+            "label": "1.5"
           }
         ],
         "correctAnswer": "a",
         "successFeedback": "Klopt! Het antwoord is 1.",
-        "retryFeedback": "Reken: 16 ÷ 16."
+        "retryFeedback": "Reken: 1 ÷ 1."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 3/4 + 1/4 = 1"
@@ -79,7 +79,7 @@
     {
       "id": "groep-8-c01-b1",
       "type": "number-input",
-      "question": "Wat is 3/4 + 1/4? (decimaal)",
+      "question": "Wat is 3/4 + 1/4? (kommagetal)",
       "answer": 1,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",

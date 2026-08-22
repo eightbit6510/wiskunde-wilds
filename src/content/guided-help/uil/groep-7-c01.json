@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c01",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We gaan 4/5 + 1/4 uitrekenen. Ik leg elke stap uit — jij hoeft alleen mee te denken.",
+    "intro": "Bij 1/2 + 1/4 maken we eerst de noemers gelijk. Daarna tel je de tellers op.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "4/5 en 1/4 optellen (als decimaal)"
+            "label": "1/2 + 1/4 uitrekenen (antwoord als breuk)"
           },
           {
             "id": "wrong",
-            "label": "Tellers en noemers direct bij elkaar optellen"
+            "label": "Tellers en noemers direct optellen zonder gelijknamig maken"
           }
         ],
         "correctAnswer": "task",
@@ -22,68 +22,78 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: maak de noemers gelijk.\n\n4/5 en 1/4 hebben verschillende noemers.",
-        "question": "Welke gemeenschappelijke noemer gebruiken we?",
+        "explanation": "Stap 2: eerst gelijknamig maken.\n\nZoek een noemer die bij beide breuken past. Hier: 8.",
+        "question": "Welke noemer gebruiken we?",
         "options": [
           {
             "id": "yes",
-            "label": "20"
+            "label": "8"
           },
           {
             "id": "no",
-            "label": "21"
+            "label": "9"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed. Beide breuken krijgen noemer 20.",
-        "retryFeedback": "Vermenigvuldig beide noemers — dat geeft een gemeenschappelijke noemer."
+        "successFeedback": "Goed — beide breuken krijgen noemer 8.",
+        "retryFeedback": "Vermenigvuldig boven en onder zodat de noemers gelijk worden."
       },
       {
-        "explanation": "Stap 3: tel de tellers op.\n\nNoemers zijn gelijk → alleen tellers optellen.",
-        "question": "Wat is 4/5 + 1/4 als breuk?",
+        "explanation": "Stap 3: tel de tellers op.\n\nNoemers zijn gelijk → alleen bovenste getallen optellen.",
+        "question": "Wat is 1/2 + 1/4 als breuk?",
         "options": [
           {
             "id": "right",
-            "label": "21/20"
+            "label": "3/4"
           },
           {
             "id": "wrong",
-            "label": "21/21"
+            "label": "7/8"
           }
         ],
         "correctAnswer": "right",
-        "successFeedback": "Precies: 21/20.",
-        "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
+        "successFeedback": "Klopt: 3/4.",
+        "retryFeedback": "Tel alleen de tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 21/20 als decimaal.",
-        "question": "Deel 21 door 20. Wat is het antwoord?",
+        "explanation": "Stap 4: kies het goede antwoord.",
+        "question": "Welke breuk hoort bij de som?",
         "options": [
           {
-            "id": "a",
-            "label": "21"
+            "id": "right",
+            "label": "3/4"
           },
           {
-            "id": "b",
-            "label": "22"
+            "id": "wrong",
+            "label": "7/8"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 21.",
-        "retryFeedback": "Reken: 21 ÷ 20."
+        "correctAnswer": "right",
+        "successFeedback": "Helemaal goed! Antwoord = 3/4.",
+        "retryFeedback": "Eerst gelijknamig, dan tellers optellen."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4/5 + 1/4 = 21"
+    "conclusion": "Pootafdruk! 🐾 1/2 + 1/4 = 3/4"
   },
   "bonusVariants": [
     {
       "id": "groep-7-c01-b1",
-      "type": "number-input",
-      "question": "Wat is 4/5 + 1/4? (decimaal)",
-      "answer": 21,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Gelijknamig → optellen → delen.",
-      "explanation": "Gelijknamig → optellen → delen."
+      "type": "multiple-choice",
+      "question": "Wat is 1/2 + 1/4?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "3/4"
+        },
+        {
+          "id": "b",
+          "label": "2/6"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Gelijknamig: 2/4 + 1/4 = 3/4.",
+      "explanation": "Gelijknamig: 2/4 + 1/4 = 3/4."
     },
     {
       "id": "groep-7-c01-b2",
@@ -98,10 +108,6 @@
         {
           "id": "b",
           "label": "3/4"
-        },
-        {
-          "id": "c",
-          "label": "1/3"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",

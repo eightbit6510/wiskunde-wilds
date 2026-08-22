@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c02",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "intro": "Er ontbreekt een getal. Tel terug: van het totaal haal je het bekende deel af.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 6 = 15"
+            "label": "Het ontbrekende getal zoeken in ? + 8 = 12"
           },
           {
             "id": "wrong",
-            "label": "x berekenen door alles op te tellen"
+            "label": "Alle getallen bij elkaar optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,46 +22,46 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +6 weg is.\n\nWat doe je met +6?",
-        "question": "Hoe haal je +6 weg?",
-        "options": [
-          {
-            "id": "sub",
-            "label": "6 aftrekken aan beide kanten"
-          },
-          {
-            "id": "add",
-            "label": "6 optellen"
-          }
-        ],
-        "correctAnswer": "sub",
-        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
-        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
-      },
-      {
-        "explanation": "Stap 3: reken uit.\nx + 6 = 15 → x = 15 − 6",
-        "question": "Wat is 15 − 6?",
-        "options": [
-          {
-            "id": "x",
-            "label": "9"
-          },
-          {
-            "id": "wrong",
-            "label": "11"
-          }
-        ],
-        "correctAnswer": "x",
-        "successFeedback": "Goed: x = 9.",
-        "retryFeedback": "Reken uit: 15 − 6."
-      },
-      {
-        "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 6 = 15 als x = 9?",
+        "explanation": "Stap 2: wat weten we?\n\n? + 8 moet samen 12 worden.",
+        "question": "Moet het ontbrekende getal kleiner zijn dan 12?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 9 + 6 = 15"
+            "label": "Ja, het is een stukje van 12"
+          },
+          {
+            "id": "no",
+            "label": "Nee, groter dan 12"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
+        "retryFeedback": "Samen moet het 12 worden."
+      },
+      {
+        "explanation": "Stap 3: reken terug.\n\n12 − 8 = 4",
+        "question": "Wat is 12 − 8?",
+        "options": [
+          {
+            "id": "m",
+            "label": "4"
+          },
+          {
+            "id": "w",
+            "label": "6"
+          }
+        ],
+        "correctAnswer": "m",
+        "successFeedback": "Juist! Het ontbrekende getal is 4.",
+        "retryFeedback": "Trek 8 af van 12."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "4 + 8 = 12?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. x = 9!",
-        "retryFeedback": "Reken na: 9 + 6 moet 15 zijn."
+        "successFeedback": "Perfect! Het antwoord is 4.",
+        "retryFeedback": "Reken na: 4 + 8 = 12."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 9"
+    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 4."
   },
   "bonusVariants": [
     {
       "id": "groep-7-c02-b1",
       "type": "number-input",
-      "question": "Los op: x + 8 = 17.",
-      "answer": 9,
+      "question": "5 + 8 = ?",
+      "answer": 13,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 17 − 8 = 9.",
-      "explanation": "x = 17 − 8 = 9."
+      "hint2": "5 + 8 = 13.",
+      "explanation": "5 + 8 = 13."
     },
     {
       "id": "groep-7-c02-b2",
       "type": "number-input",
-      "question": "Los op: x + 6 = 20.",
-      "answer": 14,
+      "question": "? + 8 = 12",
+      "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 20 − 6.",
-      "explanation": "x = 20 − 6."
+      "hint2": "12 − 8 = 4.",
+      "explanation": "12 − 8 = 4."
     }
   ]
 }

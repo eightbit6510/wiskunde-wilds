@@ -4,12 +4,12 @@
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 3/5 + 2/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 19,
+  "question": "Wat is 3/5 + 2/3? Geef je antwoord als kommagetal (max. 2 cijfers achter de komma).",
+  "answer": 1.27,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "3/5 + 2/3 = 19/15",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 15.",
-  "explanation": "3/5 + 2/3 = 19/15 = 19",
+  "explanation": "3/5 + 2/3 = 19/15 = 1.27",
   "classLevels": [
     "groep-8"
   ]

@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c03",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij y = 4x vermenigvuldig je x steeds met 4. Zo herken je de juiste tabel.",
+    "intro": "We lezen een tabel: 1 potlode = 4 euro. Hoeveel kosten 4?",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "De juiste tabel bij y = 4x kiezen"
+            "label": "Uitrekenen wat 4 potloden kosten"
           },
           {
             "id": "wrong",
-            "label": "Bij elke x steeds 1 optellen bij y"
+            "label": "Het aantal en de prijs bij elkaar optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,97 +22,77 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: y = 4x betekent y = 4 × x.\n\nProbeer x = 1.",
-        "question": "Wat is y als x = 1?",
+        "explanation": "Stap 2: 1 potlode kost 4 euro.\n\nElke extra potlode kost weer 4 euro.",
+        "question": "Kost elke potlode evenveel?",
         "options": [
           {
-            "id": "k",
-            "label": "4"
+            "id": "yes",
+            "label": "Ja, steeds 4 euro"
           },
           {
-            "id": "k1",
-            "label": "5"
+            "id": "no",
+            "label": "Nee, elke keer anders"
           }
         ],
-        "correctAnswer": "k",
-        "successFeedback": "Goed: y = 4 × 1 = 4.",
-        "retryFeedback": "Vermenigvuldig: 4 × 1."
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — je mag vermenigvuldigen.",
+        "retryFeedback": "1 stuk = 4 euro."
       },
       {
-        "explanation": "Stap 3: vul nog een paar waarden in.\nx=2 → y=8, x=3 → y=12",
-        "question": "Welk patroon past bij y = 4x?",
+        "explanation": "Stap 3: 4 × 4 = 16",
+        "question": "Wat kosten 4 potloden?",
+        "options": [
+          {
+            "id": "t",
+            "label": "16 euro"
+          },
+          {
+            "id": "w",
+            "label": "20 euro"
+          }
+        ],
+        "correctAnswer": "t",
+        "successFeedback": "Klopt: 16 euro.",
+        "retryFeedback": "Reken: 4 keer 4."
+      },
+      {
+        "explanation": "Stap 4: welke tabel klopt?",
+        "question": "Bij 4 potloden betaal je…",
         "options": [
           {
             "id": "a",
-            "label": "y: 4, 8, 12…"
+            "label": "16 euro"
           },
           {
             "id": "b",
-            "label": "y stijgt steeds +1"
+            "label": "18 euro"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Precies — elke y is k keer x.",
-        "retryFeedback": "Tel niet +1, maar ×4."
-      },
-      {
-        "explanation": "Stap 4: kies de tabel die klopt.",
-        "question": "Welke beschrijving past?",
-        "options": [
-          {
-            "id": "a",
-            "label": "Elke y is 4× de x-waarde"
-          },
-          {
-            "id": "b",
-            "label": "Elke y is x + 1"
-          }
-        ],
-        "correctAnswer": "a",
-        "successFeedback": "Goed! y = 4x → tabel A.",
-        "retryFeedback": "Check: bij x=2 moet y=8."
+        "successFeedback": "Precies — 4 × 4 = 16 euro.",
+        "retryFeedback": "4 keer 4 euro."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 y = 4x → tabel A klopt."
+    "conclusion": "Pootafdruk! 🐾 4 potloden = 16 euro"
   },
   "bonusVariants": [
     {
       "id": "groep-6-c03-b1",
-      "type": "multiple-choice",
-      "question": "Welke formule hoort bij y = 3, 6, 9?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "y = 3x"
-        },
-        {
-          "id": "b",
-          "label": "y = x + 3"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 3x: elke y is 3× de x.",
-      "explanation": "y = 3x: elke y is 3× de x."
+      "type": "number-input",
+      "question": "1 potlode = 4 euro. 5 stuks?",
+      "answer": 20,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog 4 euro erbij.",
+      "explanation": "Nog 4 euro erbij."
     },
     {
       "id": "groep-6-c03-b2",
-      "type": "multiple-choice",
-      "question": "Bij y = 4x, wat is y als x = 4?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "16"
-        },
-        {
-          "id": "b",
-          "label": "8"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "y = 4 × 4 = 16.",
-      "explanation": "y = 4 × 4 = 16."
+      "type": "number-input",
+      "question": "4 × 4 = ?",
+      "answer": 16,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "4 keer 4.",
+      "explanation": "4 keer 4."
     }
   ]
 }

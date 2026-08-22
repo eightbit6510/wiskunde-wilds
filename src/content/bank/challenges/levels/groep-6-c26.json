@@ -4,12 +4,11 @@
   "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 10 = 18. Wat is x?",
-  "answer": 8,
-  "hint1": "Haal 10 naar de andere kant: x = 18 − 10.",
-  "hint2": "x = 18 − 10",
-  "optionalWorkedFirstStep": "x + 10 = 18 → x = 18 − 10",
-  "explanation": "x + 10 = 18\nx = 18 − 10 = 8",
+  "question": "Er ontbreekt een getal: 7 + ? = 11. Wat is het ontbrekende getal?",
+  "answer": 4,
+  "hint1": "Tel terug: trek het bekende getal af van het totaal.",
+  "hint2": "11 − 7 = 4",
+  "explanation": "11 − 7 = 4",
   "classLevels": [
     "groep-6"
   ]

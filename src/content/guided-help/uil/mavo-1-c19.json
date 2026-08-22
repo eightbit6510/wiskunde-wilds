@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "3/2 en 4/3 optellen (als decimaal)"
+            "label": "3/2 en 4/3 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 17/6 als decimaal.",
-        "question": "Deel 17 door 6. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 17/6 als kommagetal.\n\nDeel de teller door de noemer: 17 ÷ 6.",
+        "question": "Wat is 17 ÷ 6?",
         "options": [
           {
             "id": "a",
-            "label": "17"
+            "label": "2.83"
           },
           {
             "id": "b",
-            "label": "18"
+            "label": "3.33"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 17.",
+        "successFeedback": "Klopt! Het antwoord is 2.83.",
         "retryFeedback": "Reken: 17 ÷ 6."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3/2 + 4/3 = 17"
+    "conclusion": "Pootafdruk! 🐾 3/2 + 4/3 = 2.83"
   },
   "bonusVariants": [
     {
       "id": "mavo-1-c19-b1",
       "type": "number-input",
-      "question": "Wat is 3/2 + 4/3? (decimaal)",
-      "answer": 17,
+      "question": "Wat is 3/2 + 4/3? (kommagetal)",
+      "answer": 2.83,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

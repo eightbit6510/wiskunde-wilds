@@ -119,14 +119,14 @@ export function helpForBreuken(
   f1: string,
   f2: string,
   commonDen: number,
-  num: number,
-  den: number,
+  simpNum: number,
+  simpDen: number,
   fracSum: string,
   answer: number,
 ): GuidedHelpPack {
   const steps: HelpStep[] = [
     readQuestionStep(
-      `${f1} en ${f2} optellen (als decimaal)`,
+      `${f1} en ${f2} optellen (als kommagetal)`,
       'Tellers en noemers direct bij elkaar optellen',
     ),
     owlStep(
@@ -145,7 +145,7 @@ export function helpForBreuken(
       `Wat is ${f1} + ${f2} als breuk?`,
       [
         { id: 'right', label: fracSum },
-        { id: 'wrong', label: `${num}/${den + 1}` },
+        { id: 'wrong', label: `${simpNum}/${simpDen + 1}` },
       ],
       'right',
       `Precies: ${fracSum}.`,
@@ -156,11 +156,11 @@ export function helpForBreuken(
   if (difficulty >= 3) {
     steps.push(
       recipeStep(
-        `1. Gelijknamig maken (noemer ${commonDen})\n2. Tellers optellen → ${fracSum}\n3. Teller ÷ noemer = decimaal`,
-        `Wat is ${f1} + ${f2} als decimaal? (${num} ÷ ${den})`,
+        `1. Gelijknamig maken (noemer ${commonDen})\n2. Tellers optellen → ${fracSum}\n3. Teller ÷ noemer = kommagetal (${simpNum} ÷ ${simpDen})`,
+        `Wat is ${f1} + ${f2} als kommagetal? (${simpNum} ÷ ${simpDen})`,
         [
           { id: 'a', label: String(answer) },
-          { id: 'b', label: String(answer + 1) },
+          { id: 'b', label: String(Math.round((answer + 0.5) * 100) / 100) },
         ],
         'a',
         `Super! ${f1} + ${f2} = ${answer}.`,
@@ -169,15 +169,15 @@ export function helpForBreuken(
   } else {
     steps.push(
       owlStep(
-        `Stap 4: schrijf ${fracSum} als decimaal.`,
-        `Deel ${num} door ${den}. Wat is het antwoord?`,
+        `Stap 4: schrijf ${fracSum} als kommagetal.\n\nDeel de teller door de noemer: ${simpNum} ÷ ${simpDen}.`,
+        `Wat is ${simpNum} ÷ ${simpDen}?`,
         [
           { id: 'a', label: String(answer) },
-          { id: 'b', label: String(answer + 1) },
+          { id: 'b', label: String(Math.round((answer + 0.5) * 100) / 100) },
         ],
         'a',
         `Klopt! Het antwoord is ${answer}.`,
-        `Reken: ${num} ÷ ${den}.`,
+        `Reken: ${simpNum} ÷ ${simpDen}.`,
       ),
     );
   }
@@ -189,7 +189,7 @@ export function helpForBreuken(
     `Pootafdruk! 🐾 ${f1} + ${f2} = ${answer}`,
     standardBonuses(
       id,
-      numBonus('b1', `Wat is ${f1} + ${f2}? (decimaal)`, answer, 'Gelijknamig → optellen → delen.'),
+      numBonus('b1', `Wat is ${f1} + ${f2}? (kommagetal)`, answer, 'Gelijknamig → optellen → delen.'),
       mcBonus('b2', 'Welke breuk is het grootst?', 'b', [
         { id: 'a', label: '1/4' },
         { id: 'b', label: '3/4' },
@@ -1032,19 +1032,424 @@ export const REDENEREN_VARIANTS: RedenerenSpec[] = [
   },
 ];
 
+/** Redeneren-varianten passend per basisschooljaar */
+export const REDENEREN_GROEP6 = [0, 1, 2, 3, 4, 5, 9, 10];
+export const REDENEREN_GROEP7 = [0, 1, 2, 3, 4, 5, 9, 10, 11];
+
+/** Groep 6: breuken met gelijke noemer → antwoord als breuk */
+export function helpForBreukenGelijknamig(
+  id: string,
+  difficulty: HelpDifficulty,
+  f1: string,
+  f2: string,
+  den: number,
+  n1: number,
+  n2: number,
+  fracSum: string,
+  wrongFrac: string,
+): GuidedHelpPack {
+  const steps: HelpStep[] = [
+    readQuestionStep(
+      `${f1} + ${f2} uitrekenen`,
+      'Teller en noemer van beide breuken bij elkaar optellen',
+    ),
+    owlStep(
+      `Stap 2: kijk naar de noemer (onderste getal).\n\nBij ${f1} en ${f2} is die overal ${den}.`,
+      'Hebben beide breuken dezelfde noemer?',
+      [
+        { id: 'yes', label: `Ja, beide hebben noemer ${den}` },
+        { id: 'no', label: 'Nee, de noemers zijn verschillend' },
+      ],
+      'yes',
+      'Goed! Dan hoef je de noemer niet te veranderen.',
+      'Kijk onderaan de breuk: het getal onder de streep.',
+    ),
+    owlStep(
+      `Stap 3: tel alleen de tellers op.\n\n${n1} + ${n2} = ${n1 + n2}. De noemer ${den} blijft staan.`,
+      `Wat is ${f1} + ${f2}?`,
+      [
+        { id: 'right', label: fracSum },
+        { id: 'wrong', label: wrongFrac },
+      ],
+      'right',
+      `Precies! Het antwoord is ${fracSum}.`,
+      `Tel ${n1} + ${n2} = ${n1 + n2}. Noemer blijft ${den}.`,
+    ),
+    owlStep(
+      `Stap 4: kies je antwoord in de som.`,
+      `Welke breuk is ${f1} + ${f2}?`,
+      [
+        { id: 'right', label: fracSum },
+        { id: 'wrong', label: wrongFrac },
+      ],
+      'right',
+      `Super! ${f1} + ${f2} = ${fracSum}.`,
+      `Tel de bovenste getallen: ${n1} + ${n2}.`,
+    ),
+  ];
+
+  return buildGuidedHelpPack(
+    id,
+    `We tellen ${f1} en ${f2} op. Beide stukken hebben dezelfde noemer — dat maakt het makkelijker.`,
+    steps,
+    `Pootafdruk! 🐾 ${f1} + ${f2} = ${fracSum}`,
+    standardBonuses(
+      id,
+      mcBonus('b1', `Wat is 1/${den} + 2/${den}?`, 'a', [
+        { id: 'a', label: `3/${den}` },
+        { id: 'b', label: `3/${den * 2}` },
+      ], `Tel tellers: 1+2=3, noemer blijft ${den}.`),
+      mcBonus('b2', 'Welke is groter: 1/2 of 1/4?', 'a', [
+        { id: 'a', label: '1/2' },
+        { id: 'b', label: '1/4' },
+      ], 'Half is groter dan kwart.'),
+    ),
+    difficulty,
+  );
+}
+
+/** Groep 7: breuken met verschillende noemers → antwoord als breuk */
+export function helpForBreukenAlsBreuk(
+  id: string,
+  difficulty: HelpDifficulty,
+  f1: string,
+  f2: string,
+  commonDen: number,
+  fracSum: string,
+  wrongFrac: string,
+): GuidedHelpPack {
+  const steps: HelpStep[] = [
+    readQuestionStep(
+      `${f1} + ${f2} uitrekenen (antwoord als breuk)`,
+      'Tellers en noemers direct optellen zonder gelijknamig maken',
+    ),
+    owlStep(
+      `Stap 2: eerst gelijknamig maken.\n\nZoek een noemer die bij beide breuken past. Hier: ${commonDen}.`,
+      `Welke noemer gebruiken we?`,
+      [
+        { id: 'yes', label: String(commonDen) },
+        { id: 'no', label: String(commonDen + 1) },
+      ],
+      'yes',
+      `Goed — beide breuken krijgen noemer ${commonDen}.`,
+      'Vermenigvuldig boven en onder zodat de noemers gelijk worden.',
+    ),
+    owlStep(
+      `Stap 3: tel de tellers op.\n\nNoemers zijn gelijk → alleen bovenste getallen optellen.`,
+      `Wat is ${f1} + ${f2} als breuk?`,
+      [
+        { id: 'right', label: fracSum },
+        { id: 'wrong', label: wrongFrac },
+      ],
+      'right',
+      `Klopt: ${fracSum}.`,
+      'Tel alleen de tellers op als de noemers al gelijk zijn.',
+    ),
+    owlStep(
+      `Stap 4: kies het goede antwoord.`,
+      `Welke breuk hoort bij de som?`,
+      [
+        { id: 'right', label: fracSum },
+        { id: 'wrong', label: wrongFrac },
+      ],
+      'right',
+      `Helemaal goed! Antwoord = ${fracSum}.`,
+      'Eerst gelijknamig, dan tellers optellen.',
+    ),
+  ];
+
+  return buildGuidedHelpPack(
+    id,
+    `Bij ${f1} + ${f2} maken we eerst de noemers gelijk. Daarna tel je de tellers op.`,
+    steps,
+    `Pootafdruk! 🐾 ${f1} + ${f2} = ${fracSum}`,
+    standardBonuses(
+      id,
+      mcBonus('b1', `Wat is 1/2 + 1/4?`, 'a', [
+        { id: 'a', label: '3/4' },
+        { id: 'b', label: '2/6' },
+      ], 'Gelijknamig: 2/4 + 1/4 = 3/4.'),
+      mcBonus('b2', 'Welke breuk is het grootst?', 'b', [
+        { id: 'a', label: '1/4' },
+        { id: 'b', label: '3/4' },
+      ], '3/4 is het grootst.'),
+    ),
+    difficulty,
+  );
+}
+
+/** Groep 6: ontbrekend getal i.p.v. x */
+export function helpForOntbrekendGetal(
+  id: string,
+  difficulty: HelpDifficulty,
+  left: number,
+  right: number,
+  missing: number,
+  missingFirst: boolean,
+): GuidedHelpPack {
+  const sumText = missingFirst
+    ? `? + ${left} = ${right}`
+    : `${left} + ? = ${right}`;
+  const steps: HelpStep[] = [
+    readQuestionStep(
+      `Het ontbrekende getal zoeken in ${sumText}`,
+      'Alle getallen bij elkaar optellen',
+    ),
+    owlStep(
+      `Stap 2: wat weten we?\n\n${missingFirst ? `? + ${left}` : `${left} + ?`} moet samen ${right} worden.`,
+      `Moet het ontbrekende getal kleiner zijn dan ${right}?`,
+      [
+        { id: 'yes', label: 'Ja, het is een stukje van ' + right },
+        { id: 'no', label: 'Nee, groter dan ' + right },
+      ],
+      'yes',
+      'Goed — je zoekt een deel dat nog ontbreekt.',
+      `Samen moet het ${right} worden.`,
+    ),
+    owlStep(
+      `Stap 3: reken terug.\n\n${right} − ${left} = ${missing}`,
+      `Wat is ${right} − ${left}?`,
+      [
+        { id: 'm', label: String(missing) },
+        { id: 'w', label: String(missing + 2) },
+      ],
+      'm',
+      `Juist! Het ontbrekende getal is ${missing}.`,
+      `Trek ${left} af van ${right}.`,
+    ),
+    owlStep(
+      `Stap 4: controleer.`,
+      `${missingFirst ? `${missing} + ${left}` : `${left} + ${missing}`} = ${right}?`,
+      [
+        { id: 'yes', label: `Ja, dat klopt` },
+        { id: 'no', label: 'Nee' },
+      ],
+      'yes',
+      `Perfect! Het antwoord is ${missing}.`,
+      `Reken na: ${missing} + ${left} = ${right}.`,
+    ),
+  ];
+
+  return buildGuidedHelpPack(
+    id,
+    'Er ontbreekt een getal. Tel terug: van het totaal haal je het bekende deel af.',
+    steps,
+    `Pootafdruk! 🐾 Het ontbrekende getal is ${missing}.`,
+    standardBonuses(
+      id,
+      numBonus('b1', `${missing + 1} + ${left} = ?`, right + 1, `${missing + 1} + ${left} = ${right + 1}.`),
+      numBonus('b2', `? + ${left} = ${right}`, missing, `${right} − ${left} = ${missing}.`),
+    ),
+    difficulty,
+  );
+}
+
+/** Groep 6/7: tabel / verdubbelen zonder formule y=kx */
+export function helpForTabelGroep(
+  id: string,
+  difficulty: HelpDifficulty,
+  unitLabel: string,
+  unitPrice: number,
+  count: number,
+  total: number,
+): GuidedHelpPack {
+  const steps: HelpStep[] = [
+    readQuestionStep(
+      `Uitrekenen wat ${count} ${unitLabel} kosten`,
+      'Het aantal en de prijs bij elkaar optellen',
+    ),
+    owlStep(
+      `Stap 2: 1 ${unitLabel.slice(0, -1) || unitLabel} kost ${unitPrice} euro.\n\nElke extra ${unitLabel.slice(0, -1) || unitLabel} kost weer ${unitPrice} euro.`,
+      `Kost elke ${unitLabel.slice(0, -1) || unitLabel} evenveel?`,
+      [
+        { id: 'yes', label: `Ja, steeds ${unitPrice} euro` },
+        { id: 'no', label: 'Nee, elke keer anders' },
+      ],
+      'yes',
+      'Goed — je mag vermenigvuldigen.',
+      `1 stuk = ${unitPrice} euro.`,
+    ),
+    owlStep(
+      `Stap 3: ${count} × ${unitPrice} = ${total}`,
+      `Wat kosten ${count} ${unitLabel}?`,
+      [
+        { id: 't', label: `${total} euro` },
+        { id: 'w', label: `${total + unitPrice} euro` },
+      ],
+      't',
+      `Klopt: ${total} euro.`,
+      `Reken: ${count} keer ${unitPrice}.`,
+    ),
+    owlStep(
+      `Stap 4: welke tabel klopt?`,
+      `Bij ${count} ${unitLabel} betaal je…`,
+      [
+        { id: 'a', label: `${total} euro` },
+        { id: 'b', label: `${total + 2} euro` },
+      ],
+      'a',
+      `Precies — ${count} × ${unitPrice} = ${total} euro.`,
+      `${count} keer ${unitPrice} euro.`,
+    ),
+  ];
+
+  return buildGuidedHelpPack(
+    id,
+    `We lezen een tabel: 1 ${unitLabel.slice(0, -1) || unitLabel} = ${unitPrice} euro. Hoeveel kosten ${count}?`,
+    steps,
+    `Pootafdruk! 🐾 ${count} ${unitLabel} = ${total} euro`,
+    standardBonuses(
+      id,
+      numBonus('b1', `1 ${unitLabel.slice(0, -1) || unitLabel} = ${unitPrice} euro. ${count + 1} stuks?`, total + unitPrice, `Nog ${unitPrice} euro erbij.`),
+      numBonus('b2', `${count} × ${unitPrice} = ?`, total, `${count} keer ${unitPrice}.`),
+    ),
+    difficulty,
+  );
+}
+
+/** Groep 6: herhaalde optelling i.p.v. algebra */
+export function helpForHerhaaldeOptelling(
+  id: string,
+  difficulty: HelpDifficulty,
+  groups: number,
+  each: number,
+  total: number,
+): GuidedHelpPack {
+  const sumParts = Array.from({ length: groups }, () => String(each)).join(' + ');
+  const steps: HelpStep[] = [
+    readQuestionStep(
+      `${groups} keer ${each} optellen`,
+      `${groups} en ${each} vermenigvuldigen zonder reden`,
+    ),
+    owlStep(
+      `Stap 2: ${groups} groepjes van elk ${each}.\n\nDat is: ${sumParts}.`,
+      `Is dit hetzelfde als ${groups} × ${each}?`,
+      [
+        { id: 'yes', label: 'Ja' },
+        { id: 'no', label: 'Nee' },
+      ],
+      'yes',
+      'Goed — herhaald optellen = vermenigvuldigen.',
+      `${groups} keer hetzelfde getal.`,
+    ),
+    owlStep(
+      `Stap 3: tel op (of gebruik de tafel van ${each}).`,
+      `Wat is ${groups} × ${each}?`,
+      [
+        { id: 't', label: String(total) },
+        { id: 'w', label: String(total + each) },
+      ],
+      't',
+      `Juist: ${total}.`,
+      `${sumParts} = ${total}.`,
+    ),
+    owlStep(
+      `Stap 4: kies het antwoord.`,
+      `${sumParts} = ?`,
+      [
+        { id: 't', label: String(total) },
+        { id: 'w', label: String(total - 1) },
+      ],
+      't',
+      `Top! Antwoord = ${total}.`,
+      `Reken ${groups} × ${each}.`,
+    ),
+  ];
+
+  return buildGuidedHelpPack(
+    id,
+    `Je telt ${each} een paar keer op. Dat mag ook als vermenigvuldiging: ${groups} × ${each}.`,
+    steps,
+    `Pootafdruk! 🐾 ${groups} × ${each} = ${total}`,
+    standardBonuses(
+      id,
+      numBonus('b1', `${groups + 1} × ${each} = ?`, total + each, `Nog één groepje van ${each}.`),
+      numBonus('b2', `${groups} × ${each} = ?`, total, `${groups} keer ${each}.`),
+    ),
+    difficulty,
+  );
+}
+
+/** Groep 6: verhouding in gewone taal */
+export function helpForVerbandenBasis(
+  id: string,
+  difficulty: HelpDifficulty,
+  p1: number,
+  p2: number,
+  given: number,
+  factor: number,
+  other: number,
+  context: string,
+): GuidedHelpPack {
+  const steps: HelpStep[] = [
+    readQuestionStep(
+      `Bij ${context}: ${p2} horen bij ${p1}, nu ${given} gegeven`,
+      `${p1} en ${p2} gewoon bij elkaar optellen`,
+    ),
+    owlStep(
+      `Stap 2: verhouding ${p1}:${p2} betekent steeds dezelfde verhouding.\n\nEerst deel je ${given} door ${p1}.`,
+      `Hoeveel keer past ${p1} in ${given}?`,
+      [
+        { id: 'f', label: String(factor) },
+        { id: 'w', label: String(factor + 1) },
+      ],
+      'f',
+      `Goed — dat is ${factor} keer.`,
+      `${given} ÷ ${p1} = ${factor}.`,
+    ),
+    owlStep(
+      `Stap 3: vermenigvuldig met ${p2}.`,
+      `${factor} × ${p2} = ?`,
+      [
+        { id: 'o', label: String(other) },
+        { id: 'w', label: String(other + p2) },
+      ],
+      'o',
+      `Klopt: ${other}.`,
+      `${factor} keer ${p2}.`,
+    ),
+    owlStep(
+      `Stap 4: controle.`,
+      `Klopt ${given}:${other} = ${p1}:${p2}?`,
+      [
+        { id: 'yes', label: 'Ja' },
+        { id: 'no', label: 'Nee' },
+      ],
+      'yes',
+      `Super! Antwoord = ${other}.`,
+      `Deel eerst, dan vermenigvuldig.`,
+    ),
+  ];
+
+  return buildGuidedHelpPack(
+    id,
+    `Bij ${context} geldt: voor elke ${p1} horen ${p2}. Zoek eerst hoe vaak ${p1} in ${given} past.`,
+    steps,
+    `Pootafdruk! 🐾 Het antwoord is ${other}.`,
+    standardBonuses(
+      id,
+      numBonus('b1', `${context}: ${p1}:${p2}, eerste = ${given + p1}. Tweede?`, other + p2, 'Zelfde stap: delen en vermenigvuldigen.'),
+      numBonus('b2', `${context}: eerste = ${given}. Tweede?`, other, `${given} ÷ ${p1} × ${p2}.`),
+    ),
+    difficulty,
+  );
+}
+
 export function helpForRedeneren(
   id: string,
   difficulty: HelpDifficulty,
   variantIndex: number,
+  variantPool?: number[],
 ): {
   challenge: Pick<ChallengeDefinition, 'question' | 'answerOptions' | 'answers' | 'explanation'>;
   help: GuidedHelpPack;
 } {
-  const spec = REDENEREN_VARIANTS[variantIndex % REDENEREN_VARIANTS.length];
+  const pool = variantPool ?? REDENEREN_VARIANTS.map((_, i) => i);
+  const spec = REDENEREN_VARIANTS[pool[variantIndex % pool.length] ?? 0];
   const steps: HelpStep[] = [
     readQuestionStep(
-      'Alle WAARHE uitspraken kiezen (multi-select)',
-      'Precies één antwoord kiezen',
+      'Alle juiste uitspraken kiezen',
+      'Slechts één antwoord kiezen',
     ),
     ...spec.checkSteps,
     spec.finalStep,
@@ -1053,8 +1458,8 @@ export function helpForRedeneren(
   if (difficulty >= 3) {
     steps.push(
       recipeStep(
-        `1. Lees elke uitspraak (A, B, C, D)\n2. Check welke waar zijn\n3. Kies alle juiste letters`,
-        `Samenvatting: welke uitspraken zijn waar?`,
+        `1. Lees uitspraak A, B, C en D\n2. Zet bij elke: waar of onwaar?\n3. Kies alles wat waar is`,
+        `Welke letters kloppen?`,
         [
           {
             id: 'ans',
@@ -1077,7 +1482,7 @@ export function helpForRedeneren(
     },
     help: buildGuidedHelpPack(
       id,
-      'Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.',
+      'Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.',
       steps,
       `Pootafdruk! 🐾 ${spec.answers.map((x) => x.toUpperCase()).join(', ')} zijn waar.`,
       [

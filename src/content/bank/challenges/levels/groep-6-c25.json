@@ -1,15 +1,28 @@
 {
   "id": "groep-6-c25",
-  "type": "number-input",
+  "type": "multiple-choice",
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 1/1 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 3,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "1/1 + 1/2 = 3/2",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
-  "explanation": "1/1 + 1/2 = 3/2 = 3",
+  "question": "Wat is 1/2 + 1/2? Kies het juiste antwoord.",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "1"
+    },
+    {
+      "id": "b",
+      "label": "1/2"
+    },
+    {
+      "id": "c",
+      "label": "3/2"
+    }
+  ],
+  "hint1": "Hebben beide breuken dezelfde noemer? Tel dan de tellers op.",
+  "hint2": "1 + 1 = 2, noemer blijft 2.",
+  "explanation": "1/2 + 1/2 = 1",
   "classLevels": [
     "groep-6"
   ]

@@ -1,28 +1,14 @@
 {
   "id": "groep-6-c36",
-  "type": "multiple-choice",
+  "type": "number-input",
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 2x + 4x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "6x"
-    },
-    {
-      "id": "b",
-      "label": "8x"
-    },
-    {
-      "id": "c",
-      "label": "6"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "2x + 4x = (2+4)x",
-  "explanation": "2x + 4x = 6x",
+  "question": "Reken uit: 6 + 6 (2 keer 6). Wat is het antwoord?",
+  "answer": 12,
+  "hint1": "2 keer 6 is hetzelfde als 2 × 6.",
+  "hint2": "2 × 6 = 12",
+  "explanation": "2 × 6 = 12",
   "classLevels": [
     "groep-6"
   ]

@@ -1,15 +1,28 @@
 {
   "id": "groep-7-c01",
-  "type": "number-input",
+  "type": "multiple-choice",
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 4/5 + 1/4? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 21,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "4/5 + 1/4 = 21/20",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 20.",
-  "explanation": "4/5 + 1/4 = 21/20 = 21",
+  "question": "Wat is 1/2 + 1/4? Geef je antwoord als breuk.",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "3/4"
+    },
+    {
+      "id": "b",
+      "label": "7/8"
+    },
+    {
+      "id": "c",
+      "label": "1/3"
+    }
+  ],
+  "hint1": "Maak eerst de noemers gelijk.",
+  "hint2": "1/2 + 1/4 = 3/4",
+  "explanation": "1/2 + 1/4 = 3/4",
   "classLevels": [
     "groep-7"
   ]

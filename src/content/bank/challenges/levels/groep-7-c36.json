@@ -1,28 +1,14 @@
 {
   "id": "groep-7-c36",
-  "type": "multiple-choice",
+  "type": "number-input",
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 3x + 4x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "7x"
-    },
-    {
-      "id": "b",
-      "label": "12x"
-    },
-    {
-      "id": "c",
-      "label": "7"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "3x + 4x = (3+4)x",
-  "explanation": "3x + 4x = 7x",
+  "question": "Reken uit: 5 + 5 + 5 (3 keer 5). Wat is het antwoord?",
+  "answer": 15,
+  "hint1": "3 keer 5 is hetzelfde als 3 × 5.",
+  "hint2": "3 × 5 = 15",
+  "explanation": "3 × 5 = 15",
   "classLevels": [
     "groep-7"
   ]

@@ -4,11 +4,11 @@
   "topic": "verbanden",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Verhouding 3:2. De eerste deelgroep is 9. Hoe groot is de tweede?",
-  "answer": 6,
-  "hint1": "Deel 9 door 3 om de schaalfactor te vinden.",
-  "hint2": "Schaalfactor × 2 = 6.",
-  "explanation": "9 ÷ 3 = 3.\n3 × 2 = 6.",
+  "question": "Voor elke 3 rode snoepjes horen 3 blauwe. Je hebt 9 rode. Hoeveel blauwe horen daarbij?",
+  "answer": 9,
+  "hint1": "Deel 9 door 3.",
+  "hint2": "Dat getal × 3 = 9.",
+  "explanation": "9 ÷ 3 = 3.\n3 × 3 = 9.",
   "classLevels": [
     "groep-7"
   ]

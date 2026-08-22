@@ -4,12 +4,11 @@
   "topic": "vergelijkingen",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Los op: x + 7 = 16. Wat is x?",
-  "answer": 9,
-  "hint1": "Haal 7 naar de andere kant: x = 16 − 7.",
-  "hint2": "x = 16 − 7",
-  "optionalWorkedFirstStep": "x + 7 = 16 → x = 16 − 7",
-  "explanation": "x + 7 = 16\nx = 16 − 7 = 9",
+  "question": "Er ontbreekt een getal: ? + 8 = 15. Wat is het ontbrekende getal?",
+  "answer": 7,
+  "hint1": "Tel terug: trek het bekende getal af van het totaal.",
+  "hint2": "15 − 8 = 7",
+  "explanation": "15 − 8 = 7",
   "classLevels": [
     "groep-6"
   ]

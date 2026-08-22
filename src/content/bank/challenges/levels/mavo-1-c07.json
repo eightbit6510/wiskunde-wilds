@@ -5,11 +5,11 @@
   "difficulty": 1,
   "starsAvailable": 3,
   "question": "Wat is 1/5 + 2/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 11,
+  "answer": 2.2,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "1/5 + 2/1 = 11/5",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 10.",
-  "explanation": "1/5 + 2/1 = 11/5 = 11",
+  "explanation": "1/5 + 2/1 = 11/5 = 2.2",
   "classLevels": [
     "mavo-1"
   ]

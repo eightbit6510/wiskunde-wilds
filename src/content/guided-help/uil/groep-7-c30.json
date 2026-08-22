@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c30",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij gelijke letters tel je alleen de getallen ervoor op.",
+    "intro": "Je telt 6 een paar keer op. Dat mag ook als vermenigvuldiging: 5 × 6.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "5x + 5x vereenvoudigen"
+            "label": "5 keer 6 optellen"
           },
           {
             "id": "wrong",
-            "label": "De getallen 5 en 5 vermenigvuldigen"
+            "label": "5 en 6 vermenigvuldigen zonder reden"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
-        "question": "Kun je 5x en 5x optellen?",
+        "explanation": "Stap 2: 5 groepjes van elk 6.\n\nDat is: 6 + 6 + 6 + 6 + 6.",
+        "question": "Is dit hetzelfde als 5 × 6?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, beide hebben x"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -35,84 +35,64 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — tel de getallen vóór x op.",
-        "retryFeedback": "Kijk naar de letter: beide hebben x."
+        "successFeedback": "Goed — herhaald optellen = vermenigvuldigen.",
+        "retryFeedback": "5 keer hetzelfde getal."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n5 + 5 = 10",
-        "question": "Wat is 5x + 5x?",
+        "explanation": "Stap 3: tel op (of gebruik de tafel van 6).",
+        "question": "Wat is 5 × 6?",
         "options": [
           {
-            "id": "a",
-            "label": "10x"
+            "id": "t",
+            "label": "30"
           },
           {
-            "id": "b",
-            "label": "25x"
+            "id": "w",
+            "label": "36"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Juist: 10x.",
-        "retryFeedback": "Tel 5 en 5 op; x blijft staan."
+        "correctAnswer": "t",
+        "successFeedback": "Juist: 30.",
+        "retryFeedback": "6 + 6 + 6 + 6 + 6 = 30."
       },
       {
-        "explanation": "Stap 4: kies het juiste antwoord in de som.",
-        "question": "Welke optie klopt?",
+        "explanation": "Stap 4: kies het antwoord.",
+        "question": "6 + 6 + 6 + 6 + 6 = ?",
         "options": [
           {
-            "id": "a",
-            "label": "10x"
+            "id": "t",
+            "label": "30"
           },
           {
-            "id": "c",
-            "label": "10"
+            "id": "w",
+            "label": "29"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Precies — antwoord A: 10x.",
-        "retryFeedback": "5x + 5x = (5+5)x."
+        "correctAnswer": "t",
+        "successFeedback": "Top! Antwoord = 30.",
+        "retryFeedback": "Reken 5 × 6."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5x + 5x = 10x"
+    "conclusion": "Pootafdruk! 🐾 5 × 6 = 30"
   },
   "bonusVariants": [
     {
       "id": "groep-7-c30-b1",
-      "type": "multiple-choice",
-      "question": "Vereenvoudig: 6x + 5x",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "11x"
-        },
-        {
-          "id": "b",
-          "label": "11"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 6 + 5.",
-      "explanation": "Tel 6 + 5."
+      "type": "number-input",
+      "question": "6 × 6 = ?",
+      "answer": 36,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog één groepje van 6.",
+      "explanation": "Nog één groepje van 6."
     },
     {
       "id": "groep-7-c30-b2",
-      "type": "multiple-choice",
-      "question": "Vereenvoudig: 5x + 6x",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "11x"
-        },
-        {
-          "id": "b",
-          "label": "11x"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 5 + 6.",
-      "explanation": "Tel 5 + 6."
+      "type": "number-input",
+      "question": "5 × 6 = ?",
+      "answer": 30,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "5 keer 6.",
+      "explanation": "5 keer 6."
     }
   ]
 }

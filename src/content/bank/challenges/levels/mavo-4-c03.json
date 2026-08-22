@@ -5,11 +5,11 @@
   "difficulty": 1,
   "starsAvailable": 3,
   "question": "Wat is 5/4 + 2/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 13,
+  "answer": 3.25,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "5/4 + 2/1 = 13/4",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
-  "explanation": "5/4 + 2/1 = 13/4 = 13",
+  "explanation": "5/4 + 2/1 = 13/4 = 3.25",
   "classLevels": [
     "mavo-4"
   ]

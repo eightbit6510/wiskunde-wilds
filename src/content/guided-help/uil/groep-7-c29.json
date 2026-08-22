@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c29",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.",
+    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle WAARHE uitspraken kiezen (multi-select)"
+            "label": "Alle juiste uitspraken kiezen"
           },
           {
             "id": "wrong",
-            "label": "Precies één antwoord kiezen"
+            "label": "Slechts één antwoord kiezen"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Deelbaar = exact delen zonder rest.",
-        "question": "Is 12 deelbaar door 3?",
+        "explanation": "Even = deelbaar door 2.",
+        "question": "Is 0 deelbaar door 2?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 12÷3=4"
+            "label": "Ja, 0÷2=0"
           },
           {
             "id": "no",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "12÷3=4."
+        "retryFeedback": "0 is even."
       },
       {
-        "explanation": "Check B: 12÷5.",
-        "question": "12÷5 = 2 rest 2. Klopt B?",
+        "explanation": "B: 0 oneven?",
+        "question": "Klopt B?",
         "options": [
           {
             "id": "yes",
@@ -53,15 +53,15 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Geen rest = deelbaar."
+        "retryFeedback": "0 is even, niet oneven."
       },
       {
-        "explanation": "Check C: 15÷3.",
-        "question": "Is 15 deelbaar door 3?",
+        "explanation": "C: oneven+oneven. Bijv. 3+5=8.",
+        "question": "Is som van twee oneven getallen even?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 15÷3=5"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -70,28 +70,28 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "15÷3=5."
+        "retryFeedback": "Oneven+oneven=even."
       },
       {
         "explanation": "Welke zijn waar?",
-        "question": "Kies alles wat klopt.",
+        "question": "Kies de juiste.",
         "options": [
           {
             "id": "ac",
             "label": "A en C"
           },
           {
-            "id": "ab",
-            "label": "A en B"
-          },
-          {
             "id": "bd",
             "label": "B en D"
+          },
+          {
+            "id": "ad",
+            "label": "A en D"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "Alleen A en C."
+        "retryFeedback": "B en D niet."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,7 +100,7 @@
     {
       "id": "groep-7-c29-b1",
       "type": "multiple-choice",
-      "question": "Is 18 deelbaar door 3?",
+      "question": "Is 7 oneven?",
       "answer": "a",
       "answerOptions": [
         {
@@ -113,27 +113,27 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "18÷3=6.",
-      "explanation": "18÷3=6."
+      "hint2": "7 niet deelbaar door 2.",
+      "explanation": "7 niet deelbaar door 2."
     },
     {
       "id": "groep-7-c29-b2",
       "type": "multiple-choice",
-      "question": "Is 14 deelbaar door 4?",
-      "answer": "b",
+      "question": "Is 4+6 even of oneven?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "Even"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "Oneven"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "14÷4=3 rest 2.",
-      "explanation": "14÷4=3 rest 2."
+      "hint2": "4+6=10, even.",
+      "explanation": "4+6=10, even."
     }
   ]
 }

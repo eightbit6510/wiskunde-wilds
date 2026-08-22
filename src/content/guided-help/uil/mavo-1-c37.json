@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "3/2 en 1/2 optellen (als decimaal)"
+            "label": "3/2 en 1/2 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "8/5"
+            "label": "2/2"
           }
         ],
         "correctAnswer": "right",
@@ -56,8 +56,8 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 2/1 als decimaal.",
-        "question": "Deel 8 door 4. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 2/1 als kommagetal.\n\nDeel de teller door de noemer: 2 ÷ 1.",
+        "question": "Wat is 2 ÷ 1?",
         "options": [
           {
             "id": "a",
@@ -65,12 +65,12 @@
           },
           {
             "id": "b",
-            "label": "3"
+            "label": "2.5"
           }
         ],
         "correctAnswer": "a",
         "successFeedback": "Klopt! Het antwoord is 2.",
-        "retryFeedback": "Reken: 8 ÷ 4."
+        "retryFeedback": "Reken: 2 ÷ 1."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 3/2 + 1/2 = 2"
@@ -79,7 +79,7 @@
     {
       "id": "mavo-1-c37-b1",
       "type": "number-input",
-      "question": "Wat is 3/2 + 1/2? (decimaal)",
+      "question": "Wat is 3/2 + 1/2? (kommagetal)",
       "answer": 2,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",

@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c24",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij gelijke letters tel je alleen de getallen ervoor op.",
+    "intro": "Je telt 3 een paar keer op. Dat mag ook als vermenigvuldiging: 4 × 3.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "4x + 4x vereenvoudigen"
+            "label": "4 keer 3 optellen"
           },
           {
             "id": "wrong",
-            "label": "De getallen 4 en 4 vermenigvuldigen"
+            "label": "4 en 3 vermenigvuldigen zonder reden"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: beide termen hebben de letter x.\n\nGelijksoortige termen kun je combineren.",
-        "question": "Kun je 4x en 4x optellen?",
+        "explanation": "Stap 2: 4 groepjes van elk 3.\n\nDat is: 3 + 3 + 3 + 3.",
+        "question": "Is dit hetzelfde als 4 × 3?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, beide hebben x"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -35,84 +35,64 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed — tel de getallen vóór x op.",
-        "retryFeedback": "Kijk naar de letter: beide hebben x."
+        "successFeedback": "Goed — herhaald optellen = vermenigvuldigen.",
+        "retryFeedback": "4 keer hetzelfde getal."
       },
       {
-        "explanation": "Stap 3: tel coëfficiënten op.\n4 + 4 = 8",
-        "question": "Wat is 4x + 4x?",
+        "explanation": "Stap 3: tel op (of gebruik de tafel van 3).",
+        "question": "Wat is 4 × 3?",
         "options": [
           {
-            "id": "a",
-            "label": "8x"
+            "id": "t",
+            "label": "12"
           },
           {
-            "id": "b",
-            "label": "16x"
+            "id": "w",
+            "label": "15"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Juist: 8x.",
-        "retryFeedback": "Tel 4 en 4 op; x blijft staan."
+        "correctAnswer": "t",
+        "successFeedback": "Juist: 12.",
+        "retryFeedback": "3 + 3 + 3 + 3 = 12."
       },
       {
-        "explanation": "Stap 4: kies het juiste antwoord in de som.",
-        "question": "Welke optie klopt?",
+        "explanation": "Stap 4: kies het antwoord.",
+        "question": "3 + 3 + 3 + 3 = ?",
         "options": [
           {
-            "id": "a",
-            "label": "8x"
+            "id": "t",
+            "label": "12"
           },
           {
-            "id": "c",
-            "label": "8"
+            "id": "w",
+            "label": "11"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Precies — antwoord A: 8x.",
-        "retryFeedback": "4x + 4x = (4+4)x."
+        "correctAnswer": "t",
+        "successFeedback": "Top! Antwoord = 12.",
+        "retryFeedback": "Reken 4 × 3."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4x + 4x = 8x"
+    "conclusion": "Pootafdruk! 🐾 4 × 3 = 12"
   },
   "bonusVariants": [
     {
       "id": "groep-7-c24-b1",
-      "type": "multiple-choice",
-      "question": "Vereenvoudig: 5x + 4x",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "9x"
-        },
-        {
-          "id": "b",
-          "label": "9"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 5 + 4.",
-      "explanation": "Tel 5 + 4."
+      "type": "number-input",
+      "question": "5 × 3 = ?",
+      "answer": 15,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "Nog één groepje van 3.",
+      "explanation": "Nog één groepje van 3."
     },
     {
       "id": "groep-7-c24-b2",
-      "type": "multiple-choice",
-      "question": "Vereenvoudig: 4x + 5x",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "9x"
-        },
-        {
-          "id": "b",
-          "label": "9x"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Tel 4 + 5.",
-      "explanation": "Tel 4 + 5."
+      "type": "number-input",
+      "question": "4 × 3 = ?",
+      "answer": 12,
+      "hint1": "Schrijf je tussenstappen op.",
+      "hint2": "4 keer 3.",
+      "explanation": "4 keer 3."
     }
   ]
 }

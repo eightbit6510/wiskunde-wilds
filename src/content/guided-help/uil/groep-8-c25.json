@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "5/4 en 1/1 optellen (als decimaal)"
+            "label": "5/4 en 1/1 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "18/9"
+            "label": "9/5"
           }
         ],
         "correctAnswer": "right",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 9/4 als decimaal.",
-        "question": "Deel 18 door 8. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 9/4 als kommagetal.\n\nDeel de teller door de noemer: 9 ÷ 4.",
+        "question": "Wat is 9 ÷ 4?",
         "options": [
           {
             "id": "a",
-            "label": "9"
+            "label": "2.25"
           },
           {
             "id": "b",
-            "label": "10"
+            "label": "2.75"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 9.",
-        "retryFeedback": "Reken: 18 ÷ 8."
+        "successFeedback": "Klopt! Het antwoord is 2.25.",
+        "retryFeedback": "Reken: 9 ÷ 4."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5/4 + 1/1 = 9"
+    "conclusion": "Pootafdruk! 🐾 5/4 + 1/1 = 2.25"
   },
   "bonusVariants": [
     {
       "id": "groep-8-c25-b1",
       "type": "number-input",
-      "question": "Wat is 5/4 + 1/1? (decimaal)",
-      "answer": 9,
+      "question": "Wat is 5/4 + 1/1? (kommagetal)",
+      "answer": 2.25,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

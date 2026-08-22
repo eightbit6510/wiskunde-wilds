@@ -5,11 +5,11 @@
   "difficulty": 1,
   "starsAvailable": 3,
   "question": "Wat is 4/3 + 2/1? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 10,
+  "answer": 3.33,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "4/3 + 2/1 = 10/3",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 6.",
-  "explanation": "4/3 + 2/1 = 10/3 = 10",
+  "explanation": "4/3 + 2/1 = 10/3 = 3.33",
   "classLevels": [
     "mavo-3"
   ]

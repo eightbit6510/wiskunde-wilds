@@ -1,15 +1,28 @@
 {
   "id": "groep-6-c19",
-  "type": "number-input",
+  "type": "multiple-choice",
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 4/5 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 13,
-  "hint1": "Maak de noemers gelijk, tel de tellers op.",
-  "hint2": "4/5 + 1/2 = 13/10",
-  "optionalWorkedFirstStep": "Gelijknamig maken: noemer 10.",
-  "explanation": "4/5 + 1/2 = 13/10 = 13",
+  "question": "Wat is 6/8 + 1/8? Kies het juiste antwoord.",
+  "answer": "a",
+  "answerOptions": [
+    {
+      "id": "a",
+      "label": "7/8"
+    },
+    {
+      "id": "b",
+      "label": "7/16"
+    },
+    {
+      "id": "c",
+      "label": "1"
+    }
+  ],
+  "hint1": "Hebben beide breuken dezelfde noemer? Tel dan de tellers op.",
+  "hint2": "6 + 1 = 7, noemer blijft 8.",
+  "explanation": "6/8 + 1/8 = 7/8",
   "classLevels": [
     "groep-6"
   ]

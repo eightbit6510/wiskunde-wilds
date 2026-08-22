@@ -5,11 +5,11 @@
   "difficulty": 1,
   "starsAvailable": 3,
   "question": "Wat is 1/3 + 1/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 2,
+  "answer": 0.67,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "1/3 + 1/3 = 2/3",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 9.",
-  "explanation": "1/3 + 1/3 = 2/3 = 2",
+  "explanation": "1/3 + 1/3 = 2/3 = 0.67",
   "classLevels": [
     "mavo-1"
   ]

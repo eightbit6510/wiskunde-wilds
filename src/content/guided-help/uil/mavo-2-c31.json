@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "3/5 en 1/4 optellen (als decimaal)"
+            "label": "3/5 en 1/4 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 17/20 als decimaal.",
-        "question": "Deel 17 door 20. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 17/20 als kommagetal.\n\nDeel de teller door de noemer: 17 ÷ 20.",
+        "question": "Wat is 17 ÷ 20?",
         "options": [
           {
             "id": "a",
-            "label": "17"
+            "label": "0.85"
           },
           {
             "id": "b",
-            "label": "18"
+            "label": "1.35"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 17.",
+        "successFeedback": "Klopt! Het antwoord is 0.85.",
         "retryFeedback": "Reken: 17 ÷ 20."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3/5 + 1/4 = 17"
+    "conclusion": "Pootafdruk! 🐾 3/5 + 1/4 = 0.85"
   },
   "bonusVariants": [
     {
       "id": "mavo-2-c31-b1",
       "type": "number-input",
-      "question": "Wat is 3/5 + 1/4? (decimaal)",
-      "answer": 17,
+      "question": "Wat is 3/5 + 1/4? (kommagetal)",
+      "answer": 0.85,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

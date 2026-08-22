@@ -5,11 +5,11 @@
   "difficulty": 2,
   "starsAvailable": 3,
   "question": "Wat is 1/4 + 1/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 7,
+  "answer": 0.58,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "1/4 + 1/3 = 7/12",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 12.",
-  "explanation": "1/4 + 1/3 = 7/12 = 7",
+  "explanation": "1/4 + 1/3 = 7/12 = 0.58",
   "classLevels": [
     "mavo-4"
   ]

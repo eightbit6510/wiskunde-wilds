@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "2/1 en 2/1 optellen (als decimaal)"
+            "label": "2/1 en 2/1 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "16/5"
+            "label": "4/2"
           }
         ],
         "correctAnswer": "right",
@@ -56,8 +56,8 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 4/1 als decimaal.",
-        "question": "Deel 16 door 4. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 4/1 als kommagetal.\n\nDeel de teller door de noemer: 4 ÷ 1.",
+        "question": "Wat is 4 ÷ 1?",
         "options": [
           {
             "id": "a",
@@ -65,12 +65,12 @@
           },
           {
             "id": "b",
-            "label": "5"
+            "label": "4.5"
           }
         ],
         "correctAnswer": "a",
         "successFeedback": "Klopt! Het antwoord is 4.",
-        "retryFeedback": "Reken: 16 ÷ 4."
+        "retryFeedback": "Reken: 4 ÷ 1."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 2/1 + 2/1 = 4"
@@ -79,7 +79,7 @@
     {
       "id": "vwo-1-c03-b1",
       "type": "number-input",
-      "question": "Wat is 2/1 + 2/1? (decimaal)",
+      "question": "Wat is 2/1 + 2/1? (kommagetal)",
       "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",

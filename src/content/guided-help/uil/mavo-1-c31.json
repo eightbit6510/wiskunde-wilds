@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "1/1 en 1/2 optellen (als decimaal)"
+            "label": "1/1 en 1/2 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "12/9"
+            "label": "3/3"
           }
         ],
         "correctAnswer": "right",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 3/2 als decimaal.",
-        "question": "Deel 12 door 8. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 3/2 als kommagetal.\n\nDeel de teller door de noemer: 3 ÷ 2.",
+        "question": "Wat is 3 ÷ 2?",
         "options": [
           {
             "id": "a",
-            "label": "3"
+            "label": "1.5"
           },
           {
             "id": "b",
-            "label": "4"
+            "label": "2"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 3.",
-        "retryFeedback": "Reken: 12 ÷ 8."
+        "successFeedback": "Klopt! Het antwoord is 1.5.",
+        "retryFeedback": "Reken: 3 ÷ 2."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 1/1 + 1/2 = 3"
+    "conclusion": "Pootafdruk! 🐾 1/1 + 1/2 = 1.5"
   },
   "bonusVariants": [
     {
       "id": "mavo-1-c31-b1",
       "type": "number-input",
-      "question": "Wat is 1/1 + 1/2? (decimaal)",
-      "answer": 3,
+      "question": "Wat is 1/1 + 1/2? (kommagetal)",
+      "answer": 1.5,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

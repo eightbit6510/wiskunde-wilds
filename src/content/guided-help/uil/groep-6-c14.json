@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c14",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Een vergelijking is een weegschaal. Wat je links doet, doe je rechts ook.",
+    "intro": "Er ontbreekt een getal. Tel terug: van het totaal haal je het bekende deel af.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "x zoeken in x + 3 = 9"
+            "label": "Het ontbrekende getal zoeken in ? + 5 = 8"
           },
           {
             "id": "wrong",
-            "label": "x berekenen door alles op te tellen"
+            "label": "Alle getallen bij elkaar optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,46 +22,46 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: x staat alleen links als +3 weg is.\n\nWat doe je met +3?",
-        "question": "Hoe haal je +3 weg?",
-        "options": [
-          {
-            "id": "sub",
-            "label": "3 aftrekken aan beide kanten"
-          },
-          {
-            "id": "add",
-            "label": "3 optellen"
-          }
-        ],
-        "correctAnswer": "sub",
-        "successFeedback": "Juist. Min aan beide kanten houdt de balans.",
-        "retryFeedback": "Om + weg te halen, trek je af — links én rechts."
-      },
-      {
-        "explanation": "Stap 3: reken uit.\nx + 3 = 9 → x = 9 − 3",
-        "question": "Wat is 9 − 3?",
-        "options": [
-          {
-            "id": "x",
-            "label": "6"
-          },
-          {
-            "id": "wrong",
-            "label": "8"
-          }
-        ],
-        "correctAnswer": "x",
-        "successFeedback": "Goed: x = 6.",
-        "retryFeedback": "Reken uit: 9 − 3."
-      },
-      {
-        "explanation": "Stap 4: controleer je antwoord.",
-        "question": "Klopt x + 3 = 9 als x = 6?",
+        "explanation": "Stap 2: wat weten we?\n\n? + 5 moet samen 8 worden.",
+        "question": "Moet het ontbrekende getal kleiner zijn dan 8?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 6 + 3 = 9"
+            "label": "Ja, het is een stukje van 8"
+          },
+          {
+            "id": "no",
+            "label": "Nee, groter dan 8"
+          }
+        ],
+        "correctAnswer": "yes",
+        "successFeedback": "Goed — je zoekt een deel dat nog ontbreekt.",
+        "retryFeedback": "Samen moet het 8 worden."
+      },
+      {
+        "explanation": "Stap 3: reken terug.\n\n8 − 5 = 3",
+        "question": "Wat is 8 − 5?",
+        "options": [
+          {
+            "id": "m",
+            "label": "3"
+          },
+          {
+            "id": "w",
+            "label": "5"
+          }
+        ],
+        "correctAnswer": "m",
+        "successFeedback": "Juist! Het ontbrekende getal is 3.",
+        "retryFeedback": "Trek 5 af van 8."
+      },
+      {
+        "explanation": "Stap 4: controleer.",
+        "question": "3 + 5 = 8?",
+        "options": [
+          {
+            "id": "yes",
+            "label": "Ja, dat klopt"
           },
           {
             "id": "no",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. x = 6!",
-        "retryFeedback": "Reken na: 6 + 3 moet 9 zijn."
+        "successFeedback": "Perfect! Het antwoord is 3.",
+        "retryFeedback": "Reken na: 3 + 5 = 8."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 x = 6"
+    "conclusion": "Pootafdruk! 🐾 Het ontbrekende getal is 3."
   },
   "bonusVariants": [
     {
       "id": "groep-6-c14-b1",
       "type": "number-input",
-      "question": "Los op: x + 5 = 11.",
-      "answer": 6,
+      "question": "4 + 5 = ?",
+      "answer": 9,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 11 − 5 = 6.",
-      "explanation": "x = 11 − 5 = 6."
+      "hint2": "4 + 5 = 9.",
+      "explanation": "4 + 5 = 9."
     },
     {
       "id": "groep-6-c14-b2",
       "type": "number-input",
-      "question": "Los op: x + 3 = 14.",
-      "answer": 11,
+      "question": "? + 5 = 8",
+      "answer": 3,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "x = 14 − 3.",
-      "explanation": "x = 14 − 3."
+      "hint2": "8 − 5 = 3.",
+      "explanation": "8 − 5 = 3."
     }
   ]
 }

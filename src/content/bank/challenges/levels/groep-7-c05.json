@@ -8,28 +8,28 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "1/2 is groter dan 1/4"
+      "label": "6 is een veelvoud van 3"
     },
     {
       "id": "b",
-      "label": "1/4 is groter dan 1/2"
+      "label": "6 is een veelvoud van 4"
     },
     {
       "id": "c",
-      "label": "2/3 is kleiner dan 1/2"
+      "label": "15 is een veelvoud van 5"
     },
     {
       "id": "d",
-      "label": "3/4 is groter dan 1/2"
+      "label": "15 is een veelvoud van 6"
     }
   ],
   "answers": [
     "a",
-    "d"
+    "c"
   ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A en D kloppen. 1/2>1/4 en 3/4>1/2.",
+  "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
+  "hint2": "Check A, B, C en D één voor één.",
+  "explanation": "A: 6=2×3. C: 15=3×5.",
   "classLevels": [
     "groep-7"
   ]

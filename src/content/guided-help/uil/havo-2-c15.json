@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "3/4 en 1/3 optellen (als decimaal)"
+            "label": "3/4 en 1/3 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 13/12 als decimaal.",
-        "question": "Deel 13 door 12. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 13/12 als kommagetal.\n\nDeel de teller door de noemer: 13 ÷ 12.",
+        "question": "Wat is 13 ÷ 12?",
         "options": [
           {
             "id": "a",
-            "label": "13"
+            "label": "1.08"
           },
           {
             "id": "b",
-            "label": "14"
+            "label": "1.58"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 13.",
+        "successFeedback": "Klopt! Het antwoord is 1.08.",
         "retryFeedback": "Reken: 13 ÷ 12."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3/4 + 1/3 = 13"
+    "conclusion": "Pootafdruk! 🐾 3/4 + 1/3 = 1.08"
   },
   "bonusVariants": [
     {
       "id": "havo-2-c15-b1",
       "type": "number-input",
-      "question": "Wat is 3/4 + 1/3? (decimaal)",
-      "answer": 13,
+      "question": "Wat is 3/4 + 1/3? (kommagetal)",
+      "answer": 1.08,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

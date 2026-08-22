@@ -5,11 +5,11 @@
   "difficulty": 1,
   "starsAvailable": 3,
   "question": "Wat is 1/2 + 2/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 7,
+  "answer": 1.17,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "1/2 + 2/3 = 7/6",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 12.",
-  "explanation": "1/2 + 2/3 = 7/6 = 7",
+  "explanation": "1/2 + 2/3 = 7/6 = 1.17",
   "classLevels": [
     "havo-1"
   ]

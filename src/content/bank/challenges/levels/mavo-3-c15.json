@@ -5,11 +5,11 @@
   "difficulty": 1,
   "starsAvailable": 3,
   "question": "Wat is 5/4 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 7,
+  "answer": 1.75,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "5/4 + 1/2 = 7/4",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 8.",
-  "explanation": "5/4 + 1/2 = 7/4 = 7",
+  "explanation": "5/4 + 1/2 = 7/4 = 1.75",
   "classLevels": [
     "mavo-3"
   ]

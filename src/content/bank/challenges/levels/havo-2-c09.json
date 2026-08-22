@@ -5,11 +5,11 @@
   "difficulty": 1,
   "starsAvailable": 3,
   "question": "Wat is 1/5 + 1/2? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 7,
+  "answer": 0.7,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "1/5 + 1/2 = 7/10",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 10.",
-  "explanation": "1/5 + 1/2 = 7/10 = 7",
+  "explanation": "1/5 + 1/2 = 7/10 = 0.7",
   "classLevels": [
     "havo-2"
   ]

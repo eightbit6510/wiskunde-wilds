@@ -1,28 +1,14 @@
 {
   "id": "groep-7-c12",
-  "type": "multiple-choice",
+  "type": "number-input",
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 5x + 4x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "9x"
-    },
-    {
-      "id": "b",
-      "label": "20x"
-    },
-    {
-      "id": "c",
-      "label": "9"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "5x + 4x = (5+4)x",
-  "explanation": "5x + 4x = 9x",
+  "question": "Reken uit: 6 + 6 + 6 + 6 + … (5 keer 6). Wat is het antwoord?",
+  "answer": 30,
+  "hint1": "5 keer 6 is hetzelfde als 5 × 6.",
+  "hint2": "5 × 6 = 30",
+  "explanation": "5 × 6 = 30",
   "classLevels": [
     "groep-7"
   ]

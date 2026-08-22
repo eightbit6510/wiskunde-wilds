@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c11",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.",
+    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle WAARHE uitspraken kiezen (multi-select)"
+            "label": "Alle juiste uitspraken kiezen"
           },
           {
             "id": "wrong",
-            "label": "Precies één antwoord kiezen"
+            "label": "Slechts één antwoord kiezen"
           }
         ],
         "correctAnswer": "task",
@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Parallellogram: tegenover elkaar.",
-        "question": "Tegenoverliggende zijden even lang?",
+        "explanation": "Vergelijk breuken.",
+        "question": "Is 1/2 groter dan 1/4?",
         "options": [
           {
             "id": "yes",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "Eigenschap parallellogram."
+        "retryFeedback": "Half > kwart."
       },
       {
-        "explanation": "B: alle zijden even lang?",
-        "question": "Geldt dat voor elk parallellogram?",
+        "explanation": "B zegt 1/4 > 1/2.",
+        "question": "Klopt B?",
         "options": [
           {
             "id": "yes",
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "Alleen ruit/vierkant."
+        "retryFeedback": "Kwart < half."
       },
       {
-        "explanation": "C: ruit.",
-        "question": "Heeft een ruit vier gelijke zijden?",
+        "explanation": "D: is 3/4 > 1/2?",
+        "question": "Is 3/4 groter dan 1/2?",
         "options": [
           {
             "id": "yes",
@@ -69,16 +69,16 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "C is waar.",
-        "retryFeedback": "Ruit = 4 gelijke zijden."
+        "successFeedback": "D is waar.",
+        "retryFeedback": "3/4 = 0,75 > 0,5."
       },
       {
         "explanation": "Welke zijn waar?",
         "question": "Kies alles.",
         "options": [
           {
-            "id": "ac",
-            "label": "A en C"
+            "id": "ad",
+            "label": "A en D"
           },
           {
             "id": "ab",
@@ -89,51 +89,51 @@
             "label": "C en D"
           }
         ],
-        "correctAnswer": "ac",
-        "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "correctAnswer": "ad",
+        "successFeedback": "A en D kloppen.",
+        "retryFeedback": "B en C zijn omgekeerd."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
+    "conclusion": "Pootafdruk! 🐾 A, D zijn waar."
   },
   "bonusVariants": [
     {
       "id": "groep-6-c11-b1",
       "type": "multiple-choice",
-      "question": "Vierkant is een ruit?",
+      "question": "Groter: 2/3 of 1/2?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "2/3"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "1/2"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Vierkant is speciale ruit.",
-      "explanation": "Vierkant is speciale ruit."
+      "hint2": "2/3 > 1/2.",
+      "explanation": "2/3 > 1/2."
     },
     {
       "id": "groep-6-c11-b2",
       "type": "multiple-choice",
-      "question": "Ruit altijd rechte hoeken?",
-      "answer": "b",
+      "question": "Groter: 1/3 of 1/4?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "Ja"
+          "label": "1/3"
         },
         {
           "id": "b",
-          "label": "Nee"
+          "label": "1/4"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "Alleen vierkant heeft rechte hoeken.",
-      "explanation": "Alleen vierkant heeft rechte hoeken."
+      "hint2": "1/3 > 1/4.",
+      "explanation": "1/3 > 1/4."
     }
   ]
 }

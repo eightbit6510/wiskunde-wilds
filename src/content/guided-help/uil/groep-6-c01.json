@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c01",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "We gaan 5/2 + 1/4 uitrekenen. Ik leg elke stap uit — jij hoeft alleen mee te denken.",
+    "intro": "We tellen 1/2 en 1/2 op. Beide stukken hebben dezelfde noemer — dat maakt het makkelijker.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "5/2 en 1/4 optellen (als decimaal)"
+            "label": "1/2 + 1/2 uitrekenen"
           },
           {
             "id": "wrong",
-            "label": "Tellers en noemers direct bij elkaar optellen"
+            "label": "Teller en noemer van beide breuken bij elkaar optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,91 +22,97 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: maak de noemers gelijk.\n\n5/2 en 1/4 hebben verschillende noemers.",
-        "question": "Welke gemeenschappelijke noemer gebruiken we?",
+        "explanation": "Stap 2: kijk naar de noemer (onderste getal).\n\nBij 1/2 en 1/2 is die overal 2.",
+        "question": "Hebben beide breuken dezelfde noemer?",
         "options": [
           {
             "id": "yes",
-            "label": "8"
+            "label": "Ja, beide hebben noemer 2"
           },
           {
             "id": "no",
-            "label": "9"
+            "label": "Nee, de noemers zijn verschillend"
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Goed. Beide breuken krijgen noemer 8.",
-        "retryFeedback": "Vermenigvuldig beide noemers — dat geeft een gemeenschappelijke noemer."
+        "successFeedback": "Goed! Dan hoef je de noemer niet te veranderen.",
+        "retryFeedback": "Kijk onderaan de breuk: het getal onder de streep."
       },
       {
-        "explanation": "Stap 3: tel de tellers op.\n\nNoemers zijn gelijk → alleen tellers optellen.",
-        "question": "Wat is 5/2 + 1/4 als breuk?",
+        "explanation": "Stap 3: tel alleen de tellers op.\n\n1 + 1 = 2. De noemer 2 blijft staan.",
+        "question": "Wat is 1/2 + 1/2?",
         "options": [
           {
             "id": "right",
-            "label": "11/4"
+            "label": "1"
           },
           {
             "id": "wrong",
-            "label": "22/9"
+            "label": "1/2"
           }
         ],
         "correctAnswer": "right",
-        "successFeedback": "Precies: 11/4.",
-        "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
+        "successFeedback": "Precies! Het antwoord is 1.",
+        "retryFeedback": "Tel 1 + 1 = 2. Noemer blijft 2."
       },
       {
-        "explanation": "Stap 4: schrijf 11/4 als decimaal.",
-        "question": "Deel 22 door 8. Wat is het antwoord?",
+        "explanation": "Stap 4: kies je antwoord in de som.",
+        "question": "Welke breuk is 1/2 + 1/2?",
         "options": [
           {
-            "id": "a",
-            "label": "11"
+            "id": "right",
+            "label": "1"
           },
           {
-            "id": "b",
-            "label": "12"
+            "id": "wrong",
+            "label": "1/2"
           }
         ],
-        "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 11.",
-        "retryFeedback": "Reken: 22 ÷ 8."
+        "correctAnswer": "right",
+        "successFeedback": "Super! 1/2 + 1/2 = 1.",
+        "retryFeedback": "Tel de bovenste getallen: 1 + 1."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5/2 + 1/4 = 11"
+    "conclusion": "Pootafdruk! 🐾 1/2 + 1/2 = 1"
   },
   "bonusVariants": [
     {
       "id": "groep-6-c01-b1",
-      "type": "number-input",
-      "question": "Wat is 5/2 + 1/4? (decimaal)",
-      "answer": 11,
-      "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Gelijknamig → optellen → delen.",
-      "explanation": "Gelijknamig → optellen → delen."
-    },
-    {
-      "id": "groep-6-c01-b2",
       "type": "multiple-choice",
-      "question": "Welke breuk is het grootst?",
-      "answer": "b",
+      "question": "Wat is 1/2 + 2/2?",
+      "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1/4"
+          "label": "3/2"
         },
         {
           "id": "b",
           "label": "3/4"
-        },
-        {
-          "id": "c",
-          "label": "1/3"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "3/4 is het grootst.",
-      "explanation": "3/4 is het grootst."
+      "hint2": "Tel tellers: 1+2=3, noemer blijft 2.",
+      "explanation": "Tel tellers: 1+2=3, noemer blijft 2."
+    },
+    {
+      "id": "groep-6-c01-b2",
+      "type": "multiple-choice",
+      "question": "Welke is groter: 1/2 of 1/4?",
+      "answer": "a",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "1/2"
+        },
+        {
+          "id": "b",
+          "label": "1/4"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Half is groter dan kwart.",
+      "explanation": "Half is groter dan kwart."
     }
   ]
 }

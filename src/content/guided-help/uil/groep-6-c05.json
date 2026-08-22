@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c05",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.",
+    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle WAARHE uitspraken kiezen (multi-select)"
+            "label": "Alle juiste uitspraken kiezen"
           },
           {
             "id": "wrong",
-            "label": "Precies één antwoord kiezen"
+            "label": "Slechts één antwoord kiezen"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Even = deelbaar door 2.",
-        "question": "Is 0 deelbaar door 2?",
+        "explanation": "Uitspraak A: vierkant.",
+        "question": "Heeft een vierkant vier gelijke zijden?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja, 0÷2=0"
+            "label": "Ja"
           },
           {
             "id": "no",
@@ -36,10 +36,10 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "0 is even."
+        "retryFeedback": "Alle zijden even lang."
       },
       {
-        "explanation": "B: 0 oneven?",
+        "explanation": "Uitspraak B: elke rechthoek is vierkant.",
         "question": "Klopt B?",
         "options": [
           {
@@ -53,11 +53,11 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "0 is even, niet oneven."
+        "retryFeedback": "Rechthoek hoeft geen vierkant."
       },
       {
-        "explanation": "C: oneven+oneven. Bijv. 3+5=8.",
-        "question": "Is som van twee oneven getallen even?",
+        "explanation": "Uitspraak C: hoekensom driehoek.",
+        "question": "Is de som van hoeken in een driehoek 180°?",
         "options": [
           {
             "id": "yes",
@@ -70,28 +70,28 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "Oneven+oneven=even."
+        "retryFeedback": "Driehoek = altijd 180°."
       },
       {
-        "explanation": "Welke zijn waar?",
-        "question": "Kies de juiste.",
+        "explanation": "Welke uitspraken zijn waar?",
+        "question": "Kies alles wat klopt.",
         "options": [
           {
             "id": "ac",
             "label": "A en C"
           },
           {
-            "id": "bd",
-            "label": "B en D"
+            "id": "ab",
+            "label": "A en B"
           },
           {
-            "id": "ad",
-            "label": "A en D"
+            "id": "all",
+            "label": "Allemaal"
           }
         ],
         "correctAnswer": "ac",
-        "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "successFeedback": "Precies: A en C.",
+        "retryFeedback": "B en D kloppen niet."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,7 +100,30 @@
     {
       "id": "groep-6-c05-b1",
       "type": "multiple-choice",
-      "question": "Is 7 oneven?",
+      "question": "Welke uitspraak is waar?",
+      "answer": "b",
+      "answerOptions": [
+        {
+          "id": "a",
+          "label": "Alle driehoeken zijn gelijk"
+        },
+        {
+          "id": "b",
+          "label": "Een driehoek heeft drie hoeken"
+        },
+        {
+          "id": "c",
+          "label": "Een cirkel is een veelhoek"
+        }
+      ],
+      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
+      "hint2": "Driehoek heeft drie hoeken.",
+      "explanation": "Driehoek heeft drie hoeken."
+    },
+    {
+      "id": "groep-6-c05-b2",
+      "type": "multiple-choice",
+      "question": "Is een vierkant een rechthoek?",
       "answer": "a",
       "answerOptions": [
         {
@@ -113,27 +136,8 @@
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "7 niet deelbaar door 2.",
-      "explanation": "7 niet deelbaar door 2."
-    },
-    {
-      "id": "groep-6-c05-b2",
-      "type": "multiple-choice",
-      "question": "Is 4+6 even of oneven?",
-      "answer": "a",
-      "answerOptions": [
-        {
-          "id": "a",
-          "label": "Even"
-        },
-        {
-          "id": "b",
-          "label": "Oneven"
-        }
-      ],
-      "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "4+6=10, even.",
-      "explanation": "4+6=10, even."
+      "hint2": "Vierkant is een rechthoek met 4 gelijke zijden.",
+      "explanation": "Vierkant is een rechthoek met 4 gelijke zijden."
     }
   ]
 }

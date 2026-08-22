@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "5/3 en 1/1 optellen (als decimaal)"
+            "label": "5/3 en 1/1 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "32/13"
+            "label": "8/4"
           }
         ],
         "correctAnswer": "right",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 8/3 als decimaal.",
-        "question": "Deel 32 door 12. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 8/3 als kommagetal.\n\nDeel de teller door de noemer: 8 ÷ 3.",
+        "question": "Wat is 8 ÷ 3?",
         "options": [
           {
             "id": "a",
-            "label": "8"
+            "label": "2.67"
           },
           {
             "id": "b",
-            "label": "9"
+            "label": "3.17"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 8.",
-        "retryFeedback": "Reken: 32 ÷ 12."
+        "successFeedback": "Klopt! Het antwoord is 2.67.",
+        "retryFeedback": "Reken: 8 ÷ 3."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5/3 + 1/1 = 8"
+    "conclusion": "Pootafdruk! 🐾 5/3 + 1/1 = 2.67"
   },
   "bonusVariants": [
     {
       "id": "havo-2-c03-b1",
       "type": "number-input",
-      "question": "Wat is 5/3 + 1/1? (decimaal)",
-      "answer": 8,
+      "question": "Wat is 5/3 + 1/1? (kommagetal)",
+      "answer": 2.67,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

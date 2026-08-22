@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "1/5 en 2/1 optellen (als decimaal)"
+            "label": "1/5 en 2/1 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "22/11"
+            "label": "11/6"
           }
         ],
         "correctAnswer": "right",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 11/5 als decimaal.",
-        "question": "Deel 22 door 10. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 11/5 als kommagetal.\n\nDeel de teller door de noemer: 11 ÷ 5.",
+        "question": "Wat is 11 ÷ 5?",
         "options": [
           {
             "id": "a",
-            "label": "11"
+            "label": "2.2"
           },
           {
             "id": "b",
-            "label": "12"
+            "label": "2.7"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 11.",
-        "retryFeedback": "Reken: 22 ÷ 10."
+        "successFeedback": "Klopt! Het antwoord is 2.2.",
+        "retryFeedback": "Reken: 11 ÷ 5."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 1/5 + 2/1 = 11"
+    "conclusion": "Pootafdruk! 🐾 1/5 + 2/1 = 2.2"
   },
   "bonusVariants": [
     {
       "id": "mavo-1-c07-b1",
       "type": "number-input",
-      "question": "Wat is 1/5 + 2/1? (decimaal)",
-      "answer": 11,
+      "question": "Wat is 1/5 + 2/1? (kommagetal)",
+      "answer": 2.2,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

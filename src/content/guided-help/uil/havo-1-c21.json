@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "1/2 en 2/3 optellen (als decimaal)"
+            "label": "1/2 en 2/3 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "14/13"
+            "label": "7/7"
           }
         ],
         "correctAnswer": "right",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 7/6 als decimaal.",
-        "question": "Deel 14 door 12. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 7/6 als kommagetal.\n\nDeel de teller door de noemer: 7 ÷ 6.",
+        "question": "Wat is 7 ÷ 6?",
         "options": [
           {
             "id": "a",
-            "label": "7"
+            "label": "1.17"
           },
           {
             "id": "b",
-            "label": "8"
+            "label": "1.67"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 7.",
-        "retryFeedback": "Reken: 14 ÷ 12."
+        "successFeedback": "Klopt! Het antwoord is 1.17.",
+        "retryFeedback": "Reken: 7 ÷ 6."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 1/2 + 2/3 = 7"
+    "conclusion": "Pootafdruk! 🐾 1/2 + 2/3 = 1.17"
   },
   "bonusVariants": [
     {
       "id": "havo-1-c21-b1",
       "type": "number-input",
-      "question": "Wat is 1/2 + 2/3? (decimaal)",
-      "answer": 7,
+      "question": "Wat is 1/2 + 2/3? (kommagetal)",
+      "answer": 1.17,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

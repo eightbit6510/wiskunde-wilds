@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "5/4 en 1/2 optellen (als decimaal)"
+            "label": "5/4 en 1/2 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "14/9"
+            "label": "7/5"
           }
         ],
         "correctAnswer": "right",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 7/4 als decimaal.",
-        "question": "Deel 14 door 8. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 7/4 als kommagetal.\n\nDeel de teller door de noemer: 7 ÷ 4.",
+        "question": "Wat is 7 ÷ 4?",
         "options": [
           {
             "id": "a",
-            "label": "7"
+            "label": "1.75"
           },
           {
             "id": "b",
-            "label": "8"
+            "label": "2.25"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 7.",
-        "retryFeedback": "Reken: 14 ÷ 8."
+        "successFeedback": "Klopt! Het antwoord is 1.75.",
+        "retryFeedback": "Reken: 7 ÷ 4."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 5/4 + 1/2 = 7"
+    "conclusion": "Pootafdruk! 🐾 5/4 + 1/2 = 1.75"
   },
   "bonusVariants": [
     {
       "id": "mavo-3-c15-b1",
       "type": "number-input",
-      "question": "Wat is 5/4 + 1/2? (decimaal)",
-      "answer": 7,
+      "question": "Wat is 5/4 + 1/2? (kommagetal)",
+      "answer": 1.75,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

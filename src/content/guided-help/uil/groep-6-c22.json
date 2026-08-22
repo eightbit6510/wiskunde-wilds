@@ -2,7 +2,7 @@
   "challengeId": "groep-6-c22",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij een verhouding vergroten of verklein je beide delen met dezelfde factor.",
+    "intro": "Bij kaarten geldt: voor elke 2 horen 2. Zoek eerst hoe vaak 2 in 4 past.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Tweede deel vinden bij verhouding 2:5"
+            "label": "Bij kaarten: 2 horen bij 2, nu 4 gegeven"
           },
           {
             "id": "wrong",
-            "label": "De getallen 2 en 5 direct optellen"
+            "label": "2 en 2 gewoon bij elkaar optellen"
           }
         ],
         "correctAnswer": "task",
@@ -22,8 +22,8 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Stap 2: verhouding 2:5 betekent steeds dezelfde factor.\n\nEerste deel = 4.",
-        "question": "Hoeveel keer past 2 in 4? (schaalfactor)",
+        "explanation": "Stap 2: verhouding 2:2 betekent steeds dezelfde verhouding.\n\nEerst deel je 4 door 2.",
+        "question": "Hoeveel keer past 2 in 4?",
         "options": [
           {
             "id": "f",
@@ -35,29 +35,29 @@
           }
         ],
         "correctAnswer": "f",
-        "successFeedback": "Goed — schaalfactor = 2.",
-        "retryFeedback": "Deel 4 door 2."
+        "successFeedback": "Goed — dat is 2 keer.",
+        "retryFeedback": "4 ÷ 2 = 2."
       },
       {
-        "explanation": "Stap 3: vermenigvuldig de factor met het tweede deel.",
-        "question": "Tweede deel = 2 × 5 = ?",
+        "explanation": "Stap 3: vermenigvuldig met 2.",
+        "question": "2 × 2 = ?",
         "options": [
           {
             "id": "o",
-            "label": "10"
+            "label": "4"
           },
           {
             "id": "w",
-            "label": "15"
+            "label": "6"
           }
         ],
         "correctAnswer": "o",
-        "successFeedback": "Klopt: 10.",
-        "retryFeedback": "(4 ÷ 2) × 5 = 10."
+        "successFeedback": "Klopt: 4.",
+        "retryFeedback": "2 keer 2."
       },
       {
-        "explanation": "Stap 4: controleer de verhouding.",
-        "question": "Klopt 4:10 = 2:5?",
+        "explanation": "Stap 4: controle.",
+        "question": "Klopt 4:4 = 2:2?",
         "options": [
           {
             "id": "yes",
@@ -69,30 +69,30 @@
           }
         ],
         "correctAnswer": "yes",
-        "successFeedback": "Perfect. Antwoord = 10.",
-        "retryFeedback": "Deel 4 door 2, vermenigvuldig met 5."
+        "successFeedback": "Super! Antwoord = 4.",
+        "retryFeedback": "Deel eerst, dan vermenigvuldig."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 De tweede deelgroep is 10."
+    "conclusion": "Pootafdruk! 🐾 Het antwoord is 4."
   },
   "bonusVariants": [
     {
       "id": "groep-6-c22-b1",
       "type": "number-input",
-      "question": "Verhouding 2:5, eerste = 6. Tweede?",
-      "answer": 15,
+      "question": "kaarten: 2:2, eerste = 6. Tweede?",
+      "answer": 6,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "Zelfde schaalfactor.",
-      "explanation": "Zelfde schaalfactor."
+      "hint2": "Zelfde stap: delen en vermenigvuldigen.",
+      "explanation": "Zelfde stap: delen en vermenigvuldigen."
     },
     {
       "id": "groep-6-c22-b2",
       "type": "number-input",
-      "question": "Verhouding 2:5, eerste = 4. Tweede?",
-      "answer": 10,
+      "question": "kaarten: eerste = 4. Tweede?",
+      "answer": 4,
       "hint1": "Schrijf je tussenstappen op.",
-      "hint2": "4 ÷ 2 × 5.",
-      "explanation": "4 ÷ 2 × 5."
+      "hint2": "4 ÷ 2 × 2.",
+      "explanation": "4 ÷ 2 × 2."
     }
   ]
 }

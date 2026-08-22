@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "4/5 en 2/1 optellen (als decimaal)"
+            "label": "4/5 en 2/1 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "28/11"
+            "label": "14/6"
           }
         ],
         "correctAnswer": "right",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 14/5 als decimaal.",
-        "question": "Deel 28 door 10. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 14/5 als kommagetal.\n\nDeel de teller door de noemer: 14 ÷ 5.",
+        "question": "Wat is 14 ÷ 5?",
         "options": [
           {
             "id": "a",
-            "label": "14"
+            "label": "2.8"
           },
           {
             "id": "b",
-            "label": "15"
+            "label": "3.3"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 14.",
-        "retryFeedback": "Reken: 28 ÷ 10."
+        "successFeedback": "Klopt! Het antwoord is 2.8.",
+        "retryFeedback": "Reken: 14 ÷ 5."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4/5 + 2/1 = 14"
+    "conclusion": "Pootafdruk! 🐾 4/5 + 2/1 = 2.8"
   },
   "bonusVariants": [
     {
       "id": "vwo-1-c33-b1",
       "type": "number-input",
-      "question": "Wat is 4/5 + 2/1? (decimaal)",
-      "answer": 14,
+      "question": "Wat is 4/5 + 2/1? (kommagetal)",
+      "answer": 2.8,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

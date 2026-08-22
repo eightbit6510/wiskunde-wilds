@@ -1,28 +1,14 @@
 {
   "id": "groep-6-c12",
-  "type": "multiple-choice",
+  "type": "number-input",
   "topic": "algebra",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Vereenvoudig: 4x + 4x",
-  "answer": "a",
-  "answerOptions": [
-    {
-      "id": "a",
-      "label": "8x"
-    },
-    {
-      "id": "b",
-      "label": "16x"
-    },
-    {
-      "id": "c",
-      "label": "8"
-    }
-  ],
-  "hint1": "Gelijke termen kun je optellen.",
-  "hint2": "4x + 4x = (4+4)x",
-  "explanation": "4x + 4x = 8x",
+  "question": "Reken uit: 2 + 2 + 2 + 2 (4 keer 2). Wat is het antwoord?",
+  "answer": 8,
+  "hint1": "4 keer 2 is hetzelfde als 4 × 2.",
+  "hint2": "4 × 2 = 8",
+  "explanation": "4 × 2 = 8",
   "classLevels": [
     "groep-6"
   ]

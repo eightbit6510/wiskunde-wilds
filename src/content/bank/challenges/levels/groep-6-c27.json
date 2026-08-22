@@ -4,25 +4,25 @@
   "topic": "grafieken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Een formule is y = 4x. Welke tabel hoort daarbij?",
+  "question": "1 potlood kost 4 euro. Wat kosten 4 potloden?",
   "answer": "a",
   "answerOptions": [
     {
       "id": "a",
-      "label": "x: 1→4, 2→8, 3→12"
+      "label": "16 euro"
     },
     {
       "id": "b",
-      "label": "x: 1→5, 2→6, 3→7"
+      "label": "20 euro"
     },
     {
       "id": "c",
-      "label": "x: 1→1, 2→2, 3→3"
+      "label": "15 euro"
     }
   ],
-  "hint1": "Vermenigvuldig elke x met 4.",
-  "hint2": "Bij x = 3 hoort y = 12.",
-  "explanation": "y = 4x betekent: y is steeds 4 keer x.\nBij x = 3: y = 12.",
+  "hint1": "Elke potlood kost 4 euro — tel dat 4 keer op.",
+  "hint2": "4 × 4 = 16",
+  "explanation": "4 × 4 euro = 16 euro",
   "classLevels": [
     "groep-6"
   ]

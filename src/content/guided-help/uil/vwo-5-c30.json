@@ -2,7 +2,7 @@
   "challengeId": "vwo-5-c30",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.",
+    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle WAARHE uitspraken kiezen (multi-select)"
+            "label": "Alle juiste uitspraken kiezen"
           },
           {
             "id": "wrong",
-            "label": "Precies één antwoord kiezen"
+            "label": "Slechts één antwoord kiezen"
           }
         ],
         "correctAnswer": "task",
@@ -94,8 +94,8 @@
         "retryFeedback": "B en D niet."
       },
       {
-        "explanation": "Stappenplan voor dit type som:\n1. Lees elke uitspraak (A, B, C, D)\n2. Check welke waar zijn\n3. Kies alle juiste letters",
-        "question": "Samenvatting: welke uitspraken zijn waar?",
+        "explanation": "Stappenplan voor dit type som:\n1. Lees uitspraak A, B, C en D\n2. Zet bij elke: waar of onwaar?\n3. Kies alles wat waar is",
+        "question": "Welke letters kloppen?",
         "options": [
           {
             "id": "ans",

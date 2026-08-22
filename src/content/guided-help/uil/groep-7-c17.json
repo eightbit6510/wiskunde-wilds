@@ -2,7 +2,7 @@
   "challengeId": "groep-7-c17",
   "personaId": "uil",
   "guidedHelp": {
-    "intro": "Bij redeneren check je elke uitspraak apart. Geen haast — één voor één.",
+    "intro": "Lees elke zin apart. Vraag steeds: klopt dit echt? Geen haast.",
     "steps": [
       {
         "explanation": "Begin altijd zo: lees rustig wat er precies gevraagd wordt.\n\nGeen haast — eerst snappen, dan rekenen.",
@@ -10,11 +10,11 @@
         "options": [
           {
             "id": "task",
-            "label": "Alle WAARHE uitspraken kiezen (multi-select)"
+            "label": "Alle juiste uitspraken kiezen"
           },
           {
             "id": "wrong",
-            "label": "Precies één antwoord kiezen"
+            "label": "Slechts één antwoord kiezen"
           }
         ],
         "correctAnswer": "task",
@@ -22,12 +22,12 @@
         "retryFeedback": "Lees de vraag nog eens. Wat wordt er echt gevraagd?"
       },
       {
-        "explanation": "Kilometer en meter.",
-        "question": "1 km = 1000 m?",
+        "explanation": "Deelbaar = exact delen zonder rest.",
+        "question": "Is 12 deelbaar door 3?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, 12÷3=4"
           },
           {
             "id": "no",
@@ -36,11 +36,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "A is waar.",
-        "retryFeedback": "kilo = duizend."
+        "retryFeedback": "12÷3=4."
       },
       {
-        "explanation": "B: 1 km = 100 m?",
-        "question": "Klopt B?",
+        "explanation": "Check B: 12÷5.",
+        "question": "12÷5 = 2 rest 2. Klopt B?",
         "options": [
           {
             "id": "yes",
@@ -53,15 +53,15 @@
         ],
         "correctAnswer": "no",
         "successFeedback": "B is onwaar.",
-        "retryFeedback": "1 km = 1000 m."
+        "retryFeedback": "Geen rest = deelbaar."
       },
       {
-        "explanation": "Tijd: uur en minuten.",
-        "question": "1 uur = 60 min?",
+        "explanation": "Check C: 15÷3.",
+        "question": "Is 15 deelbaar door 3?",
         "options": [
           {
             "id": "yes",
-            "label": "Ja"
+            "label": "Ja, 15÷3=5"
           },
           {
             "id": "no",
@@ -70,11 +70,11 @@
         ],
         "correctAnswer": "yes",
         "successFeedback": "C is waar.",
-        "retryFeedback": "1 uur = 60 minuten."
+        "retryFeedback": "15÷3=5."
       },
       {
         "explanation": "Welke zijn waar?",
-        "question": "Kies alles.",
+        "question": "Kies alles wat klopt.",
         "options": [
           {
             "id": "ac",
@@ -85,13 +85,13 @@
             "label": "A en B"
           },
           {
-            "id": "cd",
-            "label": "C en D"
+            "id": "bd",
+            "label": "B en D"
           }
         ],
         "correctAnswer": "ac",
         "successFeedback": "A en C kloppen.",
-        "retryFeedback": "B en D niet."
+        "retryFeedback": "Alleen A en C."
       }
     ],
     "conclusion": "Pootafdruk! 🐾 A, C zijn waar."
@@ -100,40 +100,40 @@
     {
       "id": "groep-7-c17-b1",
       "type": "multiple-choice",
-      "question": "2 km = ? meter",
+      "question": "Is 18 deelbaar door 3?",
       "answer": "a",
       "answerOptions": [
         {
           "id": "a",
-          "label": "2000"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "200"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "2×1000=2000.",
-      "explanation": "2×1000=2000."
+      "hint2": "18÷3=6.",
+      "explanation": "18÷3=6."
     },
     {
       "id": "groep-7-c17-b2",
       "type": "multiple-choice",
-      "question": "30 min = ? uur",
+      "question": "Is 14 deelbaar door 4?",
       "answer": "b",
       "answerOptions": [
         {
           "id": "a",
-          "label": "1 uur"
+          "label": "Ja"
         },
         {
           "id": "b",
-          "label": "0,5 uur"
+          "label": "Nee"
         }
       ],
       "hint1": "Lees de vraag rustig. Wat wordt er precies gevraagd?",
-      "hint2": "30 min = halve uur.",
-      "explanation": "30 min = halve uur."
+      "hint2": "14÷4=3 rest 2.",
+      "explanation": "14÷4=3 rest 2."
     }
   ]
 }

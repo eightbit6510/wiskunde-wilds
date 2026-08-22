@@ -5,11 +5,11 @@
   "difficulty": 1,
   "starsAvailable": 3,
   "question": "Wat is 3/5 + 1/3? Geef het antwoord als decimaal getal (max. 2 decimalen).",
-  "answer": 14,
+  "answer": 0.93,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "3/5 + 1/3 = 14/15",
   "optionalWorkedFirstStep": "Gelijknamig maken: noemer 15.",
-  "explanation": "3/5 + 1/3 = 14/15 = 14",
+  "explanation": "3/5 + 1/3 = 14/15 = 0.93",
   "classLevels": [
     "mavo-2"
   ]

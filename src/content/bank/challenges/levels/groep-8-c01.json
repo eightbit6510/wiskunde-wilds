@@ -4,7 +4,7 @@
   "topic": "breuken",
   "difficulty": 1,
   "starsAvailable": 3,
-  "question": "Wat is 3/4 + 1/4? Geef het antwoord als decimaal getal (max. 2 decimalen).",
+  "question": "Wat is 3/4 + 1/4? Geef je antwoord als kommagetal (max. 2 cijfers achter de komma).",
   "answer": 1,
   "hint1": "Maak de noemers gelijk, tel de tellers op.",
   "hint2": "3/4 + 1/4 = 1/1",

@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "4/3 en 1/4 optellen (als decimaal)"
+            "label": "4/3 en 1/4 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 19/12 als decimaal.",
-        "question": "Deel 19 door 12. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 19/12 als kommagetal.\n\nDeel de teller door de noemer: 19 ÷ 12.",
+        "question": "Wat is 19 ÷ 12?",
         "options": [
           {
             "id": "a",
-            "label": "19"
+            "label": "1.58"
           },
           {
             "id": "b",
-            "label": "20"
+            "label": "2.08"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 19.",
+        "successFeedback": "Klopt! Het antwoord is 1.58.",
         "retryFeedback": "Reken: 19 ÷ 12."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 4/3 + 1/4 = 19"
+    "conclusion": "Pootafdruk! 🐾 4/3 + 1/4 = 1.58"
   },
   "bonusVariants": [
     {
       "id": "havo-1-c15-b1",
       "type": "number-input",
-      "question": "Wat is 4/3 + 1/4? (decimaal)",
-      "answer": 19,
+      "question": "Wat is 4/3 + 1/4? (kommagetal)",
+      "answer": 1.58,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

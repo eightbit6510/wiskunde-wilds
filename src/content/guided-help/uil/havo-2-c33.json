@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "task",
-            "label": "3/4 en 1/2 optellen (als decimaal)"
+            "label": "3/4 en 1/2 optellen (als kommagetal)"
           },
           {
             "id": "wrong",
@@ -48,7 +48,7 @@
           },
           {
             "id": "wrong",
-            "label": "20/17"
+            "label": "5/5"
           }
         ],
         "correctAnswer": "right",
@@ -56,31 +56,31 @@
         "retryFeedback": "Tel alleen tellers op als de noemers al gelijk zijn."
       },
       {
-        "explanation": "Stap 4: schrijf 5/4 als decimaal.",
-        "question": "Deel 20 door 16. Wat is het antwoord?",
+        "explanation": "Stap 4: schrijf 5/4 als kommagetal.\n\nDeel de teller door de noemer: 5 ÷ 4.",
+        "question": "Wat is 5 ÷ 4?",
         "options": [
           {
             "id": "a",
-            "label": "5"
+            "label": "1.25"
           },
           {
             "id": "b",
-            "label": "6"
+            "label": "1.75"
           }
         ],
         "correctAnswer": "a",
-        "successFeedback": "Klopt! Het antwoord is 5.",
-        "retryFeedback": "Reken: 20 ÷ 16."
+        "successFeedback": "Klopt! Het antwoord is 1.25.",
+        "retryFeedback": "Reken: 5 ÷ 4."
       }
     ],
-    "conclusion": "Pootafdruk! 🐾 3/4 + 1/2 = 5"
+    "conclusion": "Pootafdruk! 🐾 3/4 + 1/2 = 1.25"
   },
   "bonusVariants": [
     {
       "id": "havo-2-c33-b1",
       "type": "number-input",
-      "question": "Wat is 3/4 + 1/2? (decimaal)",
-      "answer": 5,
+      "question": "Wat is 3/4 + 1/2? (kommagetal)",
+      "answer": 1.25,
       "hint1": "Schrijf je tussenstappen op.",
       "hint2": "Gelijknamig → optellen → delen.",
       "explanation": "Gelijknamig → optellen → delen."

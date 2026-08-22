@@ -8,28 +8,28 @@
   "answerOptions": [
     {
       "id": "a",
-      "label": "In een parallellogram zijn tegenoverliggende zijden even lang"
+      "label": "1/2 is groter dan 1/4"
     },
     {
       "id": "b",
-      "label": "In een parallellogram zijn alle zijden even lang"
+      "label": "1/4 is groter dan 1/2"
     },
     {
       "id": "c",
-      "label": "Een ruit heeft vier gelijke zijden"
+      "label": "2/3 is kleiner dan 1/2"
     },
     {
       "id": "d",
-      "label": "Een ruit heeft altijd rechte hoeken"
+      "label": "3/4 is groter dan 1/2"
     }
   ],
   "answers": [
     "a",
-    "c"
+    "d"
   ],
-  "hint1": "Lees elke uitspraak apart. “Elke … is …” is vaak te streng.",
-  "hint2": "Check elke uitspraak één voor één voordat je kiest.",
-  "explanation": "A en C kloppen. B geldt alleen voor ruit/vierkant. D: ruit hoeft geen rechte hoeken.",
+  "hint1": "Lees elke zin apart. “Elke … is …” is vaak te streng.",
+  "hint2": "Check A, B, C en D één voor één.",
+  "explanation": "A en D kloppen. 1/2>1/4 en 3/4>1/2.",
   "classLevels": [
     "groep-6"
   ]
