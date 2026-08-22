@@ -308,11 +308,16 @@ export function LessonPage({
         Lessterren: ⭐ {lessonStars}
       </p>
 
-      {index === 0 && (
-        <p className="challenge-story" style={{ marginTop: '1rem' }}>
-          {lesson.intro}
-        </p>
-      )}
+      <LessonMascotScene
+        storyLessonId={storyId}
+        areaName={lesson.areaName}
+        emoji={lesson.emoji}
+        color={lesson.color}
+        mood={mascotMood}
+        storyText={index === 0 ? lesson.intro : challenge.optionalStory}
+        size={19}
+        animationsEnabled={anim}
+      />
 
       {challenge.reviewOfPart1 && (
         <p className="chip review-chip" style={{ marginTop: '0.75rem' }}>
@@ -362,16 +367,6 @@ export function LessonPage({
 
       {streakNote && <div className="streak-banner">{streakNote}</div>}
 
-      <LessonMascotScene
-        storyLessonId={storyId}
-        areaName={lesson.areaName}
-        emoji={lesson.emoji}
-        color={lesson.color}
-        mood={mascotMood}
-        size={56}
-        animationsEnabled={anim}
-      />
-
       <div style={{ marginTop: '0.35rem' }}>
         {!bonusActive && (
           <ChallengeCard
@@ -381,6 +376,7 @@ export function LessonPage({
             alreadyCompleted={isDone(challenge.id)}
             externallySolved={owlExternallySolved}
             revealFirstHint={revealHintFor === challenge.id}
+            suppressOptionalStory
             animationsEnabled={anim}
             onWrong={() => {
               recordWrongAttempt(challenge.topic);

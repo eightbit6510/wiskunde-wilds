@@ -42,6 +42,8 @@ interface ChallengeCardProps {
   }) => void;
   /** Called when the learner retries for more stars */
   onRetry?: () => void;
+  /** Hide optionalStory when shown in the lesson hero */
+  suppressOptionalStory?: boolean;
   animationsEnabled: boolean;
 }
 
@@ -54,6 +56,7 @@ export function ChallengeCard({
   onWrong,
   onCorrect,
   onRetry,
+  suppressOptionalStory = false,
   animationsEnabled: _animationsEnabled,
 }: ChallengeCardProps) {
   void _animationsEnabled;
@@ -230,7 +233,9 @@ export function ChallengeCard({
   return (
     <article className="card challenge-card">
       {challenge.sneakyNote && <div className="sneaky">{challenge.sneakyNote}</div>}
-      {challenge.optionalStory && <p className="challenge-story">{challenge.optionalStory}</p>}
+      {challenge.optionalStory && !suppressOptionalStory && (
+        <p className="challenge-story">{challenge.optionalStory}</p>
+      )}
       <h2 style={{ marginTop: 0, fontSize: '1.35rem' }}>{challenge.question}</h2>
 
       {challenge.tableData && (

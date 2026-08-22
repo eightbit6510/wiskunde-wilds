@@ -8,45 +8,48 @@ interface LessonMascotSceneProps {
   emoji: string;
   color: string;
   mood: MascotMood;
+  storyText?: string | null;
   size?: number;
   animationsEnabled?: boolean;
 }
 
-/** Chapter illustration with fox bobbing over the top-right corner. */
+/** Chapter illustration with optional story overlay and fox on the top-right. */
 export function LessonMascotScene({
   storyLessonId,
   areaName,
   emoji,
   color,
   mood,
-  size = 56,
+  storyText,
+  size = 19,
   animationsEnabled = true,
 }: LessonMascotSceneProps) {
   const artSrc = getChapterArt(storyLessonId);
 
   return (
-    <div className="lesson-mascot-scene" aria-hidden="true">
-      <div className="chapter-prent-frame">
+    <div className="lesson-hero" aria-hidden={storyText ? undefined : true}>
+      <div className="lesson-hero__frame">
         {artSrc ? (
           <img
-            className="chapter-prent-img"
+            className="lesson-hero__img"
             src={artSrc}
             alt=""
-            width={336}
-            height={336}
+            width={672}
+            height={672}
             draggable={false}
           />
         ) : (
           <div
-            className="chapter-prent chapter-prent--fallback"
+            className="lesson-hero__fallback"
             style={{ ['--prent-color' as string]: color }}
             title={areaName}
           >
-            <span className="chapter-prent-emoji">{emoji}</span>
-            <span className="chapter-prent-label">{areaName}</span>
+            <span className="lesson-hero__fallback-emoji">{emoji}</span>
+            <span className="lesson-hero__fallback-label">{areaName}</span>
           </div>
         )}
-        <div className={`lesson-mascot-fox${animationsEnabled ? ' mascot-float' : ''}`}>
+        {storyText && <p className="lesson-hero__story">{storyText}</p>}
+        <div className={`lesson-hero__fox${animationsEnabled ? ' mascot-float' : ''}`}>
           <ForestMascot mood={mood} size={size} />
         </div>
       </div>
