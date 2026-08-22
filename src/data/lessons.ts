@@ -45,6 +45,15 @@ export function getSideMissionsForClassLevel(level: ClassLevel): Lesson[] {
   return loadSideMissionsForClassLevel(level);
 }
 
+/** Deel I + II + zijpaden — voor voortgangsreconciliatie */
+export function getAllLessonsForClassLevel(level: ClassLevel): Lesson[] {
+  return [
+    ...getLessonsForClassLevel(level),
+    ...getPart2LessonsForClassLevel(level),
+    ...getSideMissionsForClassLevel(level),
+  ];
+}
+
 /** Default playable lessons when no class level — empty until user picks */
 export function getPlayableLessons(classLevel: ClassLevel | null): Lesson[] {
   if (classLevel && isClassLevel(classLevel) && LEVEL_CONTENT_IDS.includes(classLevel)) {

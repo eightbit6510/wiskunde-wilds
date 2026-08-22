@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom';
 import { BadgeUnlockModal } from '../components/BadgeUnlockModal';
 import { ChallengeCard } from '../components/ChallengeCard';
@@ -16,6 +16,7 @@ import { getLesson } from '../data/lessons';
 import type { ProgressApi } from '../hooks/useProgress';
 import type { SettingsApi } from '../hooks/useSettings';
 import { getAdventureForLesson, isAdventureUnlocked } from '../utils/adventureUnlock';
+import { isChallengeComplete, isLessonChallengesComplete } from '../utils/progressSync';
 import { TOPIC_LABELS } from '../utils/storage';
 import { STREAK_MESSAGES, pickMessage } from '../utils/answers';
 import { XP } from '../utils/xpConfig';
@@ -57,10 +58,42 @@ export function LessonPage({
   const [owlSolvedIds, setOwlSolvedIds] = useState<string[]>([]);
   const [revealHintFor, setRevealHintFor] = useState<string | null>(null);
   const [bonusActive, setBonusActive] = useState(false);
+  const [pendingCompletedIds, setPendingCompletedIds] = useState<string[]>([]);
   const [badgeQueue, setBadgeQueue] = useState<string[]>([]);
   const [pendingNavigate, setPendingNavigate] = useState(false);
   const [finishHint, setFinishHint] = useState<string | null>(null);
   const badgesAtVisitStart = useRef(progress.unlockedBadges);
+
+  useEffect(() => {
+    setPendingCompletedIds((prev) =>
+      prev.filter((id) => !progress.completedChallenges.includes(id)),
+    );
+  }, [progress.completedChallenges]);
+
+  const pendingCompletionIds = useMemo(
+    () => [...new Set([...pendingCompletedIds, ...owlSolvedIds])],
+    [pendingCompletedIds, owlSolvedIds],
+  );
+
+  const isDone = (challengeId: string) =>
+    isChallengeComplete(progress, challengeId, pendingCompletionIds);
+
+  const registerChallengeComplete = (
+    input: Parameters<typeof completeChallenge>[0],
+  ) => {
+    setPendingCompletedIds((prev) =>
+      prev.includes(input.challengeId) ? prev : [...prev, input.challengeId],
+    );
+    completeChallenge(input);
+  };
+
+  const lessonComplete = lesson
+    ? isLessonChallengesComplete(lesson, progress, pendingCompletionIds)
+    : false;
+
+  const completedInLesson = lesson
+    ? lesson.challenges.filter((c) => isDone(c.id)).length
+    : 0;
 
   const prog = lessonProgress.find((p) => p.lessonId === lessonId);
   const challenge = lesson?.challenges[index];
@@ -71,14 +104,14 @@ export function LessonPage({
 
   const runeLit = useMemo(() => {
     if (!lesson || storyId !== 'bergmissie') return [];
-    return lesson.challenges.map((c) => progress.completedChallenges.includes(c.id));
-  }, [lesson, progress.completedChallenges, storyId]);
+    return lesson.challenges.map((c) => isDone(c.id));
+  }, [lesson, progress.completedChallenges, pendingCompletionIds, storyId]);
 
   const nightRooms = useMemo(() => {
     if (!lesson || storyId !== 'nachtmissie') return [];
     // First 5 rooms light the moon-paw symbol
-    return lesson.challenges.slice(0, 5).map((c) => progress.completedChallenges.includes(c.id));
-  }, [lesson, progress.completedChallenges, storyId]);
+    return lesson.challenges.slice(0, 5).map((c) => isDone(c.id));
+  }, [lesson, progress.completedChallenges, pendingCompletionIds, storyId]);
 
   const topicInsight = useMemo(() => {
     const entries = Object.entries(progress.topicStats).map(([topic, stats]) => {
@@ -201,13 +234,9 @@ export function LessonPage({
       </div>
 
       <ProgressBar
-        value={
-          lesson.challenges.filter((c) => progress.completedChallenges.includes(c.id)).length
-        }
+        value={completedInLesson}
         max={lesson.challenges.length}
-        label={`Opdracht ${index + 1} van ${lesson.challenges.length} · ${
-          lesson.challenges.filter((c) => progress.completedChallenges.includes(c.id)).length
-        } pootafdrukken gevonden`}
+        label={`Opdracht ${index + 1} van ${lesson.challenges.length} · ${completedInLesson} pootafdrukken gevonden`}
       />
       <p className="muted" style={{ fontSize: '0.9rem', marginTop: '0.35rem' }}>
         Lessterren: ⭐ {lessonStars}
@@ -273,13 +302,13 @@ export function LessonPage({
             key={challenge.id}
             challenge={challenge}
             alreadyStars={progress.challengeStars[challenge.id] ?? 0}
-            alreadyCompleted={progress.completedChallenges.includes(challenge.id)}
+            alreadyCompleted={isDone(challenge.id)}
             externallySolved={owlExternallySolved}
             revealFirstHint={revealHintFor === challenge.id}
             animationsEnabled={anim}
             onWrong={() => recordWrongAttempt(challenge.topic)}
             onCorrect={({ attempts, usedHint, usedFirstStep }) => {
-              completeChallenge({
+              registerChallengeComplete({
                 challengeId: challenge.id,
                 lessonId: lesson.id,
                 topic: challenge.topic,
@@ -306,13 +335,11 @@ export function LessonPage({
           persona={helpPersona}
           challenge={challenge}
           totalStars={progress.totalStars}
-          alreadySolved={
-            progress.completedChallenges.includes(challenge.id) || owlExternallySolved
-          }
+          alreadySolved={isDone(challenge.id)}
           animationsEnabled={anim}
           onConfirmSpend={confirmOwlHelp}
           onHelpSolved={() => {
-            completeChallenge({
+            registerChallengeComplete({
               challengeId: challenge.id,
               lessonId: lesson.id,
               topic: challenge.topic,
@@ -365,13 +392,8 @@ export function LessonPage({
                 setBonusActive(false);
                 setFinishHint(null);
               } else {
-                const done = lesson.challenges.every((c) =>
-                  progress.completedChallenges.includes(c.id),
-                );
-                if (!done) {
-                  const remaining = lesson.challenges.filter(
-                    (c) => !progress.completedChallenges.includes(c.id),
-                  ).length;
+                if (!lessonComplete) {
+                  const remaining = lesson.challenges.filter((c) => !isDone(c.id)).length;
                   setFinishHint(
                     `Nog ${remaining} opdracht${remaining === 1 ? '' : 'en'} open in dit gebied. Los die eerst op — dan telt het gebied mee voor Deel II.`,
                   );
@@ -396,7 +418,7 @@ export function LessonPage({
 
       <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'center' }}>
         <ForestMascot
-          mood={progress.completedChallenges.includes(challenge.id) ? 'happy' : 'thinking'}
+          mood={isDone(challenge.id) ? 'happy' : 'thinking'}
           size={88}
         />
       </div>

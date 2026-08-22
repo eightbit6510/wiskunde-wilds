@@ -3,6 +3,24 @@ import { legacyAllLessons, part1Lessons } from '../data/lessons';
 import type { ProgressState } from '../types';
 import { isPart1Complete, PART1_LESSON_IDS } from './adventureUnlock';
 
+export function isChallengeComplete(
+  progress: Pick<ProgressState, 'completedChallenges'>,
+  challengeId: string,
+  pendingIds: readonly string[] = [],
+): boolean {
+  return (
+    progress.completedChallenges.includes(challengeId) || pendingIds.includes(challengeId)
+  );
+}
+
+export function isLessonChallengesComplete(
+  lesson: Pick<Lesson, 'challenges'>,
+  progress: Pick<ProgressState, 'completedChallenges'>,
+  pendingIds: readonly string[] = [],
+): boolean {
+  return lesson.challenges.every((c) => isChallengeComplete(progress, c.id, pendingIds));
+}
+
 /** Repair progress gaps: attempts → completedChallenges/stars, then lesson flags. */
 export function reconcileLessonCompletion(
   progress: ProgressState,
