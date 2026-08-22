@@ -30,12 +30,12 @@ import { XP } from '../utils/xpConfig';
 
 function lessonsInSameArc(lesson: Lesson, classLevel: ReturnType<typeof useActiveClassLevel>): Lesson[] {
   if (!classLevel) return [];
+  if (lesson.adventureId === 'side') {
+    return getSideMissionsForClassLevel(classLevel);
+  }
   const adventure = getAdventureForLesson(lesson.id);
   if (adventure === 'part2' || lesson.adventureId === 'part2') {
     return getPart2LessonsForClassLevel(classLevel);
-  }
-  if (adventure === 'side' || lesson.adventureId === 'side') {
-    return getSideMissionsForClassLevel(classLevel);
   }
   return getLessonsForClassLevel(classLevel);
 }
