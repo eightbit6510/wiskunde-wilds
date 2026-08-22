@@ -1,0 +1,146 @@
+import type { Lesson } from '../types';
+
+export const lesson1: Lesson = {
+  id: 'vossenpad',
+  order: 1,
+  areaName: 'Het Vossenpad',
+  title: 'De Wiskundedetective',
+  emoji: '🦊',
+  color: '#C4784A',
+  intro:
+    'Er kloppen vreemde berekeningen niet in het Vossenwoud. Kun jij ontdekken waar het misgaat?',
+  challenges: [
+    {
+      id: 'l1-c1',
+      type: 'multi-select',
+      topic: 'algebra',
+      difficulty: 1,
+      starsAvailable: 3,
+      question: 'Welke berekeningen kloppen? Kies alle juiste antwoorden.',
+      optionalStory: 'Vier sporen liggen in het mos. Niet alle sporen zijn echt…',
+      answerOptions: [
+        { id: 'a', label: 'A. −4 + 7 = −11' },
+        { id: 'b', label: 'B. 5 − (−3) = 2' },
+        { id: 'c', label: 'C. −3 × −4 = 12' },
+        { id: 'd', label: 'D. 18 ÷ −3 = 6' },
+      ],
+      answers: ['c'],
+      hint1: 'Denk na over tekens: negatief × negatief, en min een negatief getal.',
+      hint2: 'Controleer A: −4 + 7 is juist +3. Bij B: 5 − (−3) = 5 + 3. Bij D: 18 ÷ −3 is −6.',
+      optionalWorkedFirstStep: 'Begin met C: twee mintekens bij vermenigvuldigen geven een plus → 12. Dat klopt alvast.',
+      explanation:
+        'Alleen C klopt.\n\nA: −4 + 7 = 3 (niet −11)\nB: 5 − (−3) = 5 + 3 = 8 (niet 2)\nC: −3 × −4 = 12 ✓\nD: 18 ÷ −3 = −6 (niet 6)\n\nTip: twee mintekens bij × of ÷ → positief. Min een negatief → optellen.',
+    },
+    {
+      id: 'l1-c2',
+      type: 'spot-error',
+      topic: 'algebra',
+      difficulty: 2,
+      starsAvailable: 3,
+      question: 'Een leerling heeft dit zo uitgewerkt. Waar gaat het mis?',
+      optionalStory: 'Op een boomstam staat: 3(x + 4) = 3x + 4',
+      answerOptions: [
+        { id: 'bij3', label: 'Bij de 3' },
+        { id: 'bijx', label: 'Bij de x' },
+        { id: 'bij4', label: 'Bij de +4' },
+        { id: 'geen', label: 'Er is geen fout' },
+      ],
+      answer: 'bij4',
+      hint1: 'Bij haakjes wegwerken moet de factor buiten de haakjes met élke term vermenigvuldigd worden.',
+      hint2: 'De 3 is vermenigvuldigd met x, maar… wat gebeurde er met de 4?',
+      optionalWorkedFirstStep: 'Correct is: 3(x + 4) = 3·x + 3·4 = 3x + 12.',
+      explanation:
+        'Precies! 🎉\n\nBij 3(x + 4) moet de 3 met alles tussen de haakjes vermenigvuldigd worden:\n\n3 × x = 3x\n3 × 4 = 12\n\nDus: 3(x + 4) = 3x + 12\n\nDe fout zat bij de +4: die werd vergeten mee te vermenigvuldigen.',
+    },
+    {
+      id: 'l1-c3',
+      type: 'code-crack',
+      topic: 'algebra',
+      difficulty: 2,
+      starsAvailable: 3,
+      question: 'Kraak de kluis! Los de sommen op. De antwoorden vormen letters van een geheim woord.',
+      optionalStory: 'Een metalen kluis met pootafdruk-slot staat half verstopt onder varens.',
+      secretWord: 'PAWS',
+      codeItems: [
+        { expression: '−2 + 9', answer: 7, letter: 'P' },
+        { expression: '3 × (−1) + 5', answer: 2, letter: 'A' },
+        { expression: '16 ÷ (−4) + 8', answer: 4, letter: 'W' },
+        { expression: '−5 − (−8)', answer: 3, letter: 'S' },
+      ],
+      hint1: 'Werk van links naar rechts, let op mintekens. −5 − (−8) = −5 + 8.',
+      hint2: 'Antwoorden in volgorde: 7, 2, 4, 3 → letters P, A, W, S.',
+      optionalWorkedFirstStep: 'Eerste som: −2 + 9 = 7 → letter P.',
+      explanation:
+        'De code is PAWS!\n\n−2 + 9 = 7 → P\n3 × (−1) + 5 = −3 + 5 = 2 → A\n16 ÷ (−4) + 8 = −4 + 8 = 4 → W\n−5 − (−8) = 3 → S',
+    },
+    {
+      id: 'l1-c4',
+      type: 'equation-steps',
+      topic: 'vergelijkingen',
+      difficulty: 2,
+      starsAvailable: 3,
+      question: 'Los stap voor stap op: 2x + 5 = 17',
+      optionalStory: 'De vos fluistert: “Eerst de constante weg, daarna delen.”',
+      equationSteps: [
+        {
+          prompt: 'Wat doe je eerst om dichter bij x te komen?',
+          options: [
+            { id: 'plus5', label: 'Beide kanten +5' },
+            { id: 'min5', label: 'Beide kanten −5' },
+            { id: 'keer2', label: 'Beide kanten ×2' },
+            { id: 'alleen', label: 'Alleen links −5' },
+          ],
+          correctId: 'min5',
+          resultDisplay: '2x = 12',
+        },
+        {
+          prompt: 'Nu staat er 2x = 12. Wat is de volgende stap?',
+          options: [
+            { id: 'deel2', label: 'Beide kanten ÷ 2' },
+            { id: 'min2', label: 'Beide kanten − 2' },
+            { id: 'keer2', label: 'Beide kanten × 2' },
+            { id: 'plus2', label: 'Beide kanten + 2' },
+          ],
+          correctId: 'deel2',
+          resultDisplay: 'x = 6',
+        },
+      ],
+      answer: 6,
+      hint1: 'Je wilt de +5 wegwerken. Doe aan beide kanten het tegenovergestelde: −5.',
+      hint2: 'Na 2x = 12 deel je beide kanten door 2, zodat x alleen overblijft.',
+      optionalWorkedFirstStep: 'Beide kanten −5: 2x + 5 − 5 = 17 − 5 → 2x = 12.',
+      explanation:
+        'Goed gedaan!\n\n2x + 5 = 17\nBeide kanten −5 → 2x = 12\nBeide kanten ÷ 2 → x = 6\n\nControle: 2·6 + 5 = 17 ✓',
+    },
+    {
+      id: 'l1-c5',
+      type: 'multiple-choice',
+      topic: 'redeneren',
+      difficulty: 2,
+      starsAvailable: 3,
+      sneakyNote: 'Deze is een beetje gemeen… 👀',
+      question: 'Welke oplossing kan niet kloppen? Redeneer zonder alles uit te rekenen.',
+      optionalStory: 'Drie leerlingen claimen een oplossing. Eén spoor is vals.',
+      answerOptions: [
+        {
+          id: 'a',
+          label: 'A. Bij x + 8 = 3 zegt Sam: x = −5',
+        },
+        {
+          id: 'b',
+          label: 'B. Bij 2x = −10 zegt Noor: x = −5',
+        },
+        {
+          id: 'c',
+          label: 'C. Bij −x = 4 zegt Finn: x = 4',
+        },
+      ],
+      answer: 'c',
+      hint1: 'Bij −x = 4: wat gebeurt er als je beide kanten met −1 vermenigvuldigt?',
+      hint2: 'Als −x = 4, dan is x = −4. Finn zegt +4 — dat kan niet.',
+      optionalWorkedFirstStep: 'A en B kun je snel checken: −5 + 8 = 3 ✓ en 2·(−5) = −10 ✓.',
+      explanation:
+        'C kan niet.\n\nA: −5 + 8 = 3 ✓\nB: 2 · (−5) = −10 ✓\nC: Als −x = 4, dan x = −4 (niet +4).\n\nFinn heeft het teken vergeten om te draaien.',
+    },
+  ],
+};

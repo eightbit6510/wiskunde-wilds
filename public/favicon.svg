@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#2F4A3A"/>
+  <path d="M32 14c-3 6-8 10-12 12 4 2 8 8 10 14 2-6 6-12 10-14-4-2-9-6-8-12z" fill="#C9A86A"/>
+  <path d="M22 28c-2 1-4 4-4 6M42 28c2 1 4 4 4 6M28 42c1 2 3 3 4 3s3-1 4-3" stroke="#E8DFD0" stroke-width="2" stroke-linecap="round"/>
+  <text x="40" y="22" font-size="14" fill="#B8A4D4" font-family="serif">∑</text>
+</svg>
