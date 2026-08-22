@@ -58,7 +58,7 @@ export function ParabolaExplorer({ base, xValues }: Props) {
                 type="monotone"
                 dataKey="yBase"
                 name="y = x²"
-                stroke="#B8A4D4"
+                stroke="#9aaa7a"
                 strokeWidth={2}
                 strokeDasharray="4 4"
                 dot={false}
