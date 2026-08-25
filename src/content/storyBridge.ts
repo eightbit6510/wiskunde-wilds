@@ -136,13 +136,13 @@ export function loadSideMissionsForClassLevel(level: ClassLevel): Lesson[] {
 export function loadBridgedLesson(id: string, level: ClassLevel | null): Lesson | undefined {
   if (!level) return undefined;
 
+  const part2 = loadPart2LessonsForClassLevel(level).find((lesson) => lesson.id === id);
+  if (part2) return part2;
+
   const part1 = loadLevelLessonFromContent(id);
   if (part1) {
     return enrichPart1Lesson({ ...part1, adventureId: level }, level);
   }
-
-  const part2 = loadPart2LessonsForClassLevel(level).find((lesson) => lesson.id === id);
-  if (part2) return part2;
 
   const side = loadSideMissionsForClassLevel(level).find((lesson) => lesson.id === id);
   if (side) return side;
