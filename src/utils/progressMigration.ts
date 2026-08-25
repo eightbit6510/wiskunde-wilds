@@ -53,7 +53,7 @@ export function migrateProgress(raw: Partial<ProgressState> & { progressVersion?
     guidedBonusTried: bonusTried,
     guidedBonusSolved: bonusSolved,
     progressVersion: PROGRESS_VERSION,
-    part2Unlocked: raw.part2Unlocked ?? part1Done,
+    part2Unlocked: !!(raw.part2Unlocked || part1Done),
     part2UnlockSeen: raw.part2UnlockSeen ?? false,
     reviewSolvedCount: raw.reviewSolvedCount ?? 0,
     sideMissionsCompleted: [...(raw.sideMissionsCompleted ?? [])],

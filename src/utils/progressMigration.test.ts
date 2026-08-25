@@ -29,4 +29,12 @@ describe('progress migration v3 (Fase 2)', () => {
     expect(migrated.guidedHelpUsedCount).toBe(5);
     expect(migrated.owlHelpUsedCount).toBe(5);
   });
+
+  it('unlocks part 2 when part 1 is done even if part2Unlocked was explicitly false', () => {
+    const migrated = migrateProgress({
+      completedLessons: ['groep-8-l8'],
+      part2Unlocked: false,
+    });
+    expect(migrated.part2Unlocked).toBe(true);
+  });
 });

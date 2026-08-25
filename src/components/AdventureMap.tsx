@@ -39,7 +39,9 @@ function sectionLessons(
       index === 0 ||
       !!prevProg?.completed ||
       (prevProg?.done ?? 0) > 0;
-    const locked = forceLocked || (sequential && index > 0 && !prevDone);
+    const hasProgress = !!prog?.completed || (prog?.done ?? 0) > 0;
+    const locked =
+      forceLocked || (sequential && index > 0 && !prevDone && !hasProgress);
 
     if (forceLocked) {
       return (

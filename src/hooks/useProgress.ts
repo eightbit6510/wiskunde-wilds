@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { ChallengeAttempt, ProgressState, Topic } from '../types';
 import { badges } from '../data/badges';
 import type { ClassLevel } from '../types/content';
-import { getAllLessonsForClassLevel, getLesson, getPlayableLessons, legacyAllLessons } from '../data/lessons';
+import { getAllLessonsForClassLevel, getLesson, legacyAllLessons } from '../data/lessons';
 import {
   STORAGE_KEYS,
   createEmptyProgress,
@@ -21,7 +21,7 @@ import { isPart1Complete } from '../utils/adventureUnlock';
 import { isSterrentempelLesson } from '../content/storyBridge';
 import { XP } from '../utils/xpConfig';
 import { migrateProgress } from '../utils/progressMigration';
-import { reconcileLessonCompletion } from '../utils/progressSync';
+import { buildLessonProgress, reconcileLessonCompletion } from '../utils/progressSync';
 
 function unlockBadges(next: ProgressState): ProgressState {
   const unlocked = badges
@@ -34,7 +34,6 @@ function unlockBadges(next: ProgressState): ProgressState {
 export function useProgress(classLevel: ClassLevel | null) {
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress());
   const owlSpendLock = useRef(false);
-  const playableLessons = useMemo(() => getPlayableLessons(classLevel), [classLevel]);
   const lessonsForReconcile = useMemo(
     () => (classLevel ? getAllLessonsForClassLevel(classLevel) : legacyAllLessons),
     [classLevel],
@@ -228,12 +227,18 @@ export function useProgress(classLevel: ClassLevel | null) {
           next = { ...next, preferSuccessMoment: false };
         }
 
-        return unlockBadges(migrateProgress(next));
+        const migrated = migrateProgress(next);
+        return unlockBadges(
+          reconcileLessonCompletion(
+            { ...migrated, part2Unlocked: migrated.part2Unlocked || maybeUnlockedPart2 },
+            lessonsForReconcile,
+          ),
+        );
       });
 
       return stars;
     },
-    [resolveLesson],
+    [resolveLesson, lessonsForReconcile],
   );
 
   const finalizeLesson = useCallback((lessonId: string): boolean => {
@@ -264,11 +269,11 @@ export function useProgress(classLevel: ClassLevel | null) {
         next = { ...p, part2Unlocked: true, lastPlayedAt: new Date().toISOString() };
       }
 
-      return unlockBadges(reconcileLessonCompletion(next));
+      return unlockBadges(reconcileLessonCompletion(next, lessonsForReconcile));
     });
 
     return didFinalize;
-  }, [resolveLesson]);
+  }, [resolveLesson, lessonsForReconcile]);
 
   const markPart2UnlockSeen = useCallback(() => {
     setProgress((p) => ({ ...p, part2UnlockSeen: true, part2Unlocked: true }));
@@ -322,25 +327,10 @@ export function useProgress(classLevel: ClassLevel | null) {
     setProgress(unlockBadges(reconcileLessonCompletion(migrateProgress(next), lessonsForReconcile)));
   }, [lessonsForReconcile]);
 
-  const lessonProgress = useMemo(() => {
-    return playableLessons.map((lesson) => {
-      const done = lesson.challenges.filter((c) =>
-        progress.completedChallenges.includes(c.id),
-      ).length;
-      const stars = lesson.challenges.reduce(
-        (sum, c) => sum + (progress.challengeStars[c.id] ?? 0),
-        0,
-      );
-      return {
-        lessonId: lesson.id,
-        done,
-        total: lesson.challenges.length,
-        stars,
-        completed:
-          progress.completedLessons.includes(lesson.id) || done >= lesson.challenges.length,
-      };
-    });
-  }, [progress, playableLessons]);
+  const lessonProgress = useMemo(
+    () => buildLessonProgress(progress, lessonsForReconcile),
+    [progress, lessonsForReconcile],
+  );
 
   return {
     progress,

@@ -11,6 +11,7 @@ import type { ProgressApi } from '../hooks/useProgress';
 import type { SettingsApi } from '../hooks/useSettings';
 import type { PlayerAuthApi } from '../hooks/usePlayerAuth';
 import { useActiveLessons } from '../hooks/useActiveLessons';
+import { isAdventureUnlocked } from '../utils/adventureUnlock';
 import { part1LessonCompletionSummary } from '../utils/progressSync';
 import { hasPlayProgress } from '../utils/siteVisit';
 
@@ -34,6 +35,7 @@ export function Dashboard({
     [progress, lessons],
   );
   const completeCount = summary.filter((c) => c.complete).length;
+  const part2Unlocked = isAdventureUnlocked('part2', progress);
 
   const totalChallenges = useMemo(
     () => lessons.reduce((s, l) => s + l.challenges.length, 0),
@@ -148,7 +150,7 @@ export function Dashboard({
           part2Lessons={part2Lessons}
           sideMissions={sideMissions}
           lessonProgress={lessonProgress}
-          part2Unlocked={progress.part2Unlocked}
+          part2Unlocked={part2Unlocked}
           part1CompletedCount={completeCount}
           part1Total={lessons.length}
           onLockedPart2Click={() => {

@@ -102,6 +102,47 @@ export function incompletePart1LessonIds(
   return PART1_LESSON_IDS.filter((id) => !isLessonFullyComplete(id, progress));
 }
 
+export interface LessonProgressEntry {
+  lessonId: string;
+  done: number;
+  total: number;
+  stars: number;
+  completed: boolean;
+}
+
+/** Map dashboard progress for playable lessons (incl. legacy story ids). */
+export function buildLessonProgress(
+  progress: Pick<ProgressState, 'completedChallenges' | 'completedLessons' | 'challengeStars'>,
+  lessons: Lesson[],
+): LessonProgressEntry[] {
+  return lessons.map((lesson) => {
+    const done = lesson.challenges.filter((c) =>
+      progress.completedChallenges.includes(c.id),
+    ).length;
+    const legacyStoryComplete =
+      !!lesson.storyLessonId &&
+      progress.completedLessons.includes(lesson.storyLessonId);
+    const completed =
+      progress.completedLessons.includes(lesson.id) ||
+      legacyStoryComplete ||
+      (lesson.challenges.length > 0 && done >= lesson.challenges.length);
+    const effectiveDone =
+      legacyStoryComplete && done === 0 ? lesson.challenges.length : done;
+    const stars = lesson.challenges.reduce(
+      (sum, c) => sum + (progress.challengeStars[c.id] ?? 0),
+      0,
+    );
+
+    return {
+      lessonId: lesson.id,
+      done: effectiveDone,
+      total: lesson.challenges.length,
+      stars,
+      completed,
+    };
+  });
+}
+
 export function part1LessonCompletionSummary(
   progress: Pick<ProgressState, 'completedChallenges' | 'completedLessons'>,
   lessons: Lesson[] = part1Lessons,
