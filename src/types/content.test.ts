@@ -32,7 +32,7 @@ describe('Fase 0 — architecture contracts', () => {
     expect(part1?.lessonIds).toHaveLength(8);
     expect(part2?.lessonIds).toHaveLength(8);
     expect(part1?.helpPersonaId).toBe('uil');
-    expect(part2?.helpPersonaId).toBe('detective');
+    expect(part2?.helpPersonaId).toBe('uil');
     expect(part2?.unlockRuleId).toBe('part1-complete');
   });
 

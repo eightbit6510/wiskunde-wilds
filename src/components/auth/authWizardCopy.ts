@@ -13,8 +13,8 @@ export type AuthWizardStep =
   | 'class'
   | 'success';
 
-export function getGuidePersona(progress: ProgressState): HelpPersona {
-  return getHelpPersona(progress.part2Unlocked ? 'detective' : 'uil');
+export function getGuidePersona(_progress: ProgressState): HelpPersona {
+  return getHelpPersona('uil');
 }
 
 export function getGuideName(persona: HelpPersona): string {

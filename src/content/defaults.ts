@@ -36,7 +36,7 @@ export const DEFAULT_ADVENTURE_MANIFESTS: AdventureManifest[] = [
     title: 'Wiskunde Wilds II',
     subtitle: 'Het Verborgen Gebied',
     theme: 'night',
-    helpPersonaId: 'detective',
+    helpPersonaId: 'uil',
     lessonIds: [
       'schaduwgrot',
       'ravenpad',

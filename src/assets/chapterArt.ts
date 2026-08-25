@@ -9,7 +9,6 @@ import paraboolvalleiTex from './chapter-textures/paraboolvallei.png';
 import ravenpadTex from './chapter-textures/ravenpad.png';
 import rivierTex from './chapter-textures/rivier.png';
 import runenruinesTex from './chapter-textures/runenruines.png';
-import schaduwgrotTex from './chapter-textures/schaduwgrot.png';
 import sterrentempelTex from './chapter-textures/sterrentempel.png';
 import uilenlabTex from './chapter-textures/uilenlab.png';
 import vossenpadTex from './chapter-textures/vossenpad.png';
@@ -61,7 +60,6 @@ export const CHAPTER_TEXTURE: Record<string, string> = {
   bergmissie: bergmissieTex,
   maanlicht: maanlichtTex,
   sterrentempel: sterrentempelTex,
-  schaduwgrot: schaduwgrotTex,
   ravenpad: ravenpadTex,
   rivier: rivierTex,
   paraboolvallei: paraboolvalleiTex,
@@ -81,7 +79,7 @@ export const CHAPTER_PAPER: Record<string, string> = {
   bergmissie: '#f5ede2',
   maanlicht: '#ecdec9',
   sterrentempel: '#ede1cd',
-  schaduwgrot: '#bd925a',
+  schaduwgrot: '#ddd0bc',
   ravenpad: '#f4e5d1',
   rivier: '#f0e0c9',
   paraboolvallei: '#4b5561',

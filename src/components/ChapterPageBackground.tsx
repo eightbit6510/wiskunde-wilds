@@ -12,18 +12,17 @@ export function ChapterPageBackground({ storyLessonId }: ChapterPageBackgroundPr
     const paper = getChapterPaper(storyLessonId);
     const body = document.body;
 
+    document.documentElement.style.setProperty('--lesson-page-paper', paper);
+    body.style.backgroundColor = paper;
+
     if (texture) {
-      document.documentElement.style.setProperty('--lesson-page-paper', paper);
       document.documentElement.style.setProperty('--lesson-page-texture', `url(${texture})`);
-      body.style.backgroundColor = paper;
       body.style.backgroundImage = `url(${texture})`;
       body.style.backgroundSize = '10px 10px';
       body.style.backgroundRepeat = 'repeat';
       body.style.backgroundAttachment = 'fixed';
     } else {
-      document.documentElement.style.removeProperty('--lesson-page-paper');
       document.documentElement.style.removeProperty('--lesson-page-texture');
-      body.style.backgroundColor = '';
       body.style.backgroundImage = '';
       body.style.backgroundSize = '';
       body.style.backgroundRepeat = '';

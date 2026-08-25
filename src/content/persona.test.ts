@@ -16,14 +16,15 @@ describe('help personas (Fase 2)', () => {
     expect(detective.helpModalTitle).toContain('Detective');
   });
 
-  it('maps Deel I to uil and Deel II to detective', () => {
+  it('maps Deel I and Deel II to uil', () => {
     expect(getHelpPersonaIdForLesson('vossenpad')).toBe('uil');
-    expect(getHelpPersonaIdForLesson('schaduwgrot')).toBe('detective');
+    expect(getHelpPersonaIdForLesson('schaduwgrot')).toBe('uil');
+    expect(getHelpPersonaIdForLesson('groep-8-p2-l1')).toBe('uil');
     expect(getHelpPersonaIdForLesson('zij-vossenhol')).toBe('uil');
   });
 
-  it('uses part2 manifest persona id', () => {
-    expect(PART2_MANIFEST.helpPersonaId).toBe('detective');
+  it('uses uil as part2 manifest persona id', () => {
+    expect(PART2_MANIFEST.helpPersonaId).toBe('uil');
   });
 
   it('falls back to uil for unknown persona keys', () => {
